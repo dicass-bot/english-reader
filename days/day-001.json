@@ -40,25 +40,7 @@
       "mouth": "audio/day-001-mouth.mp3",
       "wide": "audio/day-001-wide.mp3",
       "but": "audio/day-001-but.mp3",
-      "too": "audio/day-001-too.mp3",
-      "fast": "audio/day-001-fast.mp3",
-      "it": "audio/day-001-it.mp3",
-      "swam": "audio/day-001-swam.mp3",
-      "away": "audio/day-001-away.mp3",
-      "quickly": "audio/day-001-quickly.mp3",
-      "still": "audio/day-001-still.mp3",
-      "decided": "audio/day-001-decided.mp3",
-      "longer": "audio/day-001-longer.mp3",
-      "finally": "audio/day-001-finally.mp3",
-      "this": "audio/day-001-this.mp3",
-      "time": "audio/day-001-time.mp3",
-      "ready": "audio/day-001-ready.mp3",
-      "caught": "audio/day-001-caught.mp3",
-      "and": "audio/day-001-and.mp3",
-      "ate": "audio/day-001-ate.mp3",
-      "now": "audio/day-001-now.mp3",
-      "happy": "audio/day-001-happy.mp3",
-      "full": "audio/day-001-full.mp3"
+      "too": "audio/day-001-too.mp3"
     }
   },
   "words": {
@@ -66,17 +48,17 @@
       "pos": "article",
       "meanings": [
         {
-          "ko": "그, 그것 (특정한 것을 가리킬 때)",
-          "en": "used to refer to something specific",
+          "ko": "그, 그것 (특정한 것을 지칭)",
+          "en": "used to refer to a specific thing",
           "primary": true
         },
         {
-          "ko": "가장 (최상급 앞에서)",
-          "en": "used before superlatives",
+          "ko": "이, 저",
+          "en": "used before nouns to indicate specificity",
           "primary": false
         }
       ],
-      "contextMeaning": "이야기 속에 나오는 특정한 악어나 물고기를 가리킬 때 쓰입니다.",
+      "contextMeaning": "문장에서 특정한 악어나 물고기를 지칭할 때 사용된 정관사입니다.",
       "ipa": "/ˈðə/"
     },
     "crocodile": {
@@ -84,11 +66,11 @@
       "meanings": [
         {
           "ko": "악어",
-          "en": "a large reptile with a long mouth and tail",
+          "en": "a large reptile with a long tail",
           "primary": true
         }
       ],
-      "contextMeaning": "이 이야기의 주인공인 동물 '악어'를 뜻합니다.",
+      "contextMeaning": "이야기의 주인공인 동물 '악어'를 의미합니다.",
       "forms": {
         "base": "crocodile",
         "related": [
@@ -101,25 +83,26 @@
       "pos": "verb (past tense)",
       "meanings": [
         {
-          "ko": "~였다 (과거 상태)",
+          "ko": "~이었다/있었다",
           "en": "past tense of be",
           "primary": true
         },
         {
-          "ko": "~가 있었다",
-          "en": "used to indicate existence",
+          "ko": "~였다",
+          "en": "used to describe a past state",
           "primary": false
         }
       ],
       "contextMeaning": "주어의 과거 상태를 설명하는 be동사의 과거형입니다.",
       "forms": {
         "base": "be",
-        "tense": "과거형 (was/were)",
+        "tense": "과거형 (단수)",
         "related": [
-          "is",
           "am",
+          "is",
           "are",
-          "were"
+          "were",
+          "been"
         ]
       },
       "ipa": "/ˈwɑz/"
@@ -133,12 +116,12 @@
           "primary": true
         },
         {
-          "ko": "바로 그",
-          "en": "exact, particular",
+          "ko": "정말",
+          "en": "extremely",
           "primary": false
         }
       ],
-      "contextMeaning": "'hungry(배고픈)'를 꾸며주며 정도가 심함을 나타냅니다.",
+      "contextMeaning": "배고픔의 정도가 크다는 것을 강조하는 부사입니다.",
       "ipa": "/ˈvɛɹi/"
     },
     "hungry": {
@@ -155,7 +138,7 @@
           "primary": false
         }
       ],
-      "contextMeaning": "악어가 밥을 먹지 못해 배가 고픈 상태임을 나타냅니다.",
+      "contextMeaning": "악어의 상태가 '배고픔'임을 나타내는 형용사입니다.",
       "forms": {
         "base": "hungry",
         "related": [
@@ -169,19 +152,17 @@
       "pos": "pronoun",
       "meanings": [
         {
-          "ko": "그, 그는 (남자/남성 동물)",
-          "en": "male person or animal",
+          "ko": "그(남자)",
+          "en": "male person or animal mentioned",
           "primary": true
+        },
+        {
+          "ko": "그분",
+          "en": "used to refer to a male subject",
+          "primary": false
         }
       ],
-      "contextMeaning": "악어를 사람처럼 지칭하는 남성 대명사입니다.",
-      "forms": {
-        "base": "he",
-        "related": [
-          "him",
-          "his"
-        ]
-      },
+      "contextMeaning": "악어를 사람처럼 지칭하는 남성 3인칭 대명사입니다.",
       "ipa": "/ˈhi/"
     },
     "lived": {
@@ -189,12 +170,12 @@
       "meanings": [
         {
           "ko": "살았다",
-          "en": "to exist or reside",
+          "en": "resided or existed",
           "primary": true
         },
         {
           "ko": "생활했다",
-          "en": "to conduct one's life",
+          "en": "spent one's life",
           "primary": false
         }
       ],
@@ -204,7 +185,8 @@
         "tense": "과거형",
         "related": [
           "lives",
-          "living"
+          "living",
+          "lived"
         ]
       },
       "ipa": "/ˈɫaɪvd/"
@@ -214,16 +196,16 @@
       "meanings": [
         {
           "ko": "~안에",
-          "en": "inside of",
+          "en": "inside a place",
           "primary": true
         },
         {
-          "ko": "~에 (장소/시간)",
-          "en": "used to indicate location or time",
+          "ko": "~에(장소)",
+          "en": "used to indicate location",
           "primary": false
         }
       ],
-      "contextMeaning": "악어가 있는 장소가 강 '안'임을 나타냅니다.",
+      "contextMeaning": "악어가 강 '내부'에 있음을 나타내는 전치사입니다.",
       "ipa": "/ˈɪn/"
     },
     "a": {
@@ -233,9 +215,14 @@
           "ko": "하나의, 어떤",
           "en": "one; any",
           "primary": true
+        },
+        {
+          "ko": "~한(사람/것)",
+          "en": "used before singular nouns",
+          "primary": false
         }
       ],
-      "contextMeaning": "강이나 물고기처럼 처음 언급되는 대상 앞에 쓰입니다.",
+      "contextMeaning": "강이나 물고기처럼 처음 언급되는 대상 앞에 쓰인 부정관사입니다.",
       "ipa": "/ˈeɪ/"
     },
     "big": {
@@ -247,12 +234,12 @@
           "primary": true
         },
         {
-          "ko": "중요한",
-          "en": "important",
+          "ko": "거대한",
+          "en": "huge",
           "primary": false
         }
       ],
-      "contextMeaning": "강이나 물고기의 크기가 크다는 것을 나타냅니다.",
+      "contextMeaning": "강이나 물고기의 크기가 큼을 나타냅니다.",
       "forms": {
         "base": "big",
         "related": [
@@ -271,7 +258,7 @@
           "primary": true
         }
       ],
-      "contextMeaning": "악어가 사는 장소인 '강'을 뜻합니다.",
+      "contextMeaning": "악어가 사는 장소인 '강'을 의미합니다.",
       "forms": {
         "base": "river",
         "related": [
@@ -284,12 +271,12 @@
       "pos": "determiner",
       "meanings": [
         {
-          "ko": "모든, 매~",
+          "ko": "모든, 매",
           "en": "each and all",
           "primary": true
         }
       ],
-      "contextMeaning": "'day'와 함께 쓰여 '매일'이라는 뜻을 만듭니다.",
+      "contextMeaning": "날마다 반복됨을 나타내기 위해 'day' 앞에 쓰였습니다.",
       "ipa": "/ˈɛvɝi/"
     },
     "day": {
@@ -302,7 +289,7 @@
         },
         {
           "ko": "낮",
-          "en": "the time when it is light",
+          "en": "time between sunrise and sunset",
           "primary": false
         }
       ],
@@ -320,17 +307,18 @@
       "meanings": [
         {
           "ko": "기다렸다",
-          "en": "stayed in one place until something happens",
+          "en": "stayed in expectation",
           "primary": true
         }
       ],
-      "contextMeaning": "물고기가 오기를 기다리는 행위를 나타냅니다.",
+      "contextMeaning": "물고기를 기다리는 행위를 나타냅니다.",
       "forms": {
         "base": "wait",
         "tense": "과거형",
         "related": [
           "waits",
-          "waiting"
+          "waiting",
+          "waited"
         ]
       },
       "ipa": "/ˈweɪtɪd/"
@@ -344,12 +332,12 @@
           "primary": true
         },
         {
-          "ko": "~동안",
-          "en": "during a period of time",
+          "ko": "~을 기다리며",
+          "en": "in expectation of",
           "primary": false
         }
       ],
-      "contextMeaning": "'wait for'와 함께 써서 '~을 기다리다'라는 뜻을 만듭니다.",
+      "contextMeaning": "'wait for' 구문에서 목적물(물고기)을 이끌어내는 전치사입니다.",
       "ipa": "/ˈfɔɹ/"
     },
     "fish": {
@@ -357,11 +345,11 @@
       "meanings": [
         {
           "ko": "물고기",
-          "en": "a creature that lives in water",
+          "en": "a limbless cold-blooded animal with gills",
           "primary": true
         }
       ],
-      "contextMeaning": "악어가 잡으려고 하는 먹이인 '물고기'입니다.",
+      "contextMeaning": "악어가 잡으려는 먹이인 '물고기'입니다.",
       "forms": {
         "base": "fish",
         "related": [
@@ -374,31 +362,32 @@
       "pos": "particle",
       "meanings": [
         {
-          "ko": "~하기 위하여 (부정사)",
-          "en": "used to make infinitive verbs",
+          "ko": "~하기 위한 (부정사)",
+          "en": "used to form the infinitive",
           "primary": true
         },
         {
-          "ko": "~에게",
-          "en": "towards",
+          "ko": "~로 (방향)",
+          "en": "in the direction of",
           "primary": false
         }
       ],
-      "contextMeaning": "동사 'swim' 앞에 쓰여 목적(~하러)을 나타내는 부정사 구문을 만듭니다.",
+      "contextMeaning": "동사 'swim' 앞에 와서 '헤엄치는 것'이라는 명사적 용법(to부정사)을 만듭니다.",
       "ipa": "/ˈtu/"
     },
     "swim": {
       "pos": "verb",
       "meanings": [
         {
-          "ko": "수영하다",
+          "ko": "헤엄치다",
           "en": "move through water",
           "primary": true
         }
       ],
-      "contextMeaning": "물고기가 물속을 움직이는 행동인 '수영하다'입니다.",
+      "contextMeaning": "물고기가 물속을 움직이는 동작입니다.",
       "forms": {
         "base": "swim",
+        "tense": "원형",
         "related": [
           "swam",
           "swum",
@@ -408,32 +397,32 @@
       "ipa": "/ˈswɪm/"
     },
     "by": {
-      "pos": "preposition/adverb",
+      "pos": "adverb",
       "meanings": [
         {
-          "ko": "옆에, 가까이",
-          "en": "near",
+          "ko": "지나가서",
+          "en": "past",
           "primary": true
         },
         {
-          "ko": "~에 의해",
-          "en": "through the agency of",
+          "ko": "옆에",
+          "en": "near",
           "primary": false
         }
       ],
-      "contextMeaning": "'swim by'로 쓰여 악어 옆을 '지나쳐서 수영하다'는 뜻입니다.",
+      "contextMeaning": "'swim by'로 쓰여 물고기가 지나가듯 헤엄침을 나타냅니다.",
       "ipa": "/ˈbaɪ/"
     },
     "one": {
       "pos": "number/adjective",
       "meanings": [
         {
-          "ko": "하나의, 어떤",
+          "ko": "하나의, 어느",
           "en": "a single; a certain",
           "primary": true
         }
       ],
-      "contextMeaning": "'morning' 앞에 써서 '어느 하나의 아침'을 의미합니다.",
+      "contextMeaning": "'One morning'으로 쓰여 '어느 날 아침'이라는 특정 시간을 나타냅니다.",
       "ipa": "/ˈwən/"
     },
     "morning": {
@@ -445,7 +434,7 @@
           "primary": true
         }
       ],
-      "contextMeaning": "하루 중 아침 시간대를 뜻합니다.",
+      "contextMeaning": "하루 중 아침 시간대를 의미합니다.",
       "forms": {
         "base": "morning",
         "related": [
@@ -459,11 +448,11 @@
       "meanings": [
         {
           "ko": "작은",
-          "en": "little in size",
+          "en": "not large in size",
           "primary": true
         }
       ],
-      "contextMeaning": "물고기의 크기가 작다는 것을 나타냅니다.",
+      "contextMeaning": "물고기의 크기가 작음을 나타냅니다.",
       "forms": {
         "base": "small",
         "related": [
@@ -478,8 +467,13 @@
       "meanings": [
         {
           "ko": "왔다",
-          "en": "moved toward something",
+          "en": "moved toward",
           "primary": true
+        },
+        {
+          "ko": "도착했다",
+          "en": "arrived",
+          "primary": false
         }
       ],
       "contextMeaning": "물고기가 악어 쪽으로 다가온 과거 동작입니다.",
@@ -488,7 +482,8 @@
         "tense": "과거형",
         "related": [
           "comes",
-          "coming"
+          "coming",
+          "come"
         ]
       },
       "ipa": "/ˈkeɪm/"
@@ -497,35 +492,31 @@
       "pos": "adverb/adjective",
       "meanings": [
         {
-          "ko": "가까이, 가까운",
-          "en": "near in space or time",
+          "ko": "가까이/가까운",
+          "en": "near in space/time",
           "primary": true
-        },
-        {
-          "ko": "닫다",
-          "en": "to shut",
-          "primary": false
         }
       ],
-      "contextMeaning": "물고기가 악어에게 '가까이' 다가왔음을 나타냅니다.",
+      "contextMeaning": "물고기가 악어에게 매우 근접했음을 나타냅니다.",
       "ipa": "/ˈkɫoʊs/"
     },
     "opened": {
       "pos": "verb (past tense)",
       "meanings": [
         {
-          "ko": "열었다, 벌렸다",
+          "ko": "열었다",
           "en": "moved from a closed position",
           "primary": true
         }
       ],
-      "contextMeaning": "악어가 입을 '벌렸다'는 동작을 나타냅니다.",
+      "contextMeaning": "악어가 입을 벌린 동작을 나타냅니다.",
       "forms": {
         "base": "open",
         "tense": "과거형",
         "related": [
           "opens",
-          "opening"
+          "opening",
+          "opened"
         ]
       },
       "ipa": "/ˈoʊpənd/"
@@ -539,7 +530,7 @@
           "primary": true
         }
       ],
-      "contextMeaning": "악어(He) 소유의 것을 나타내는 형용사적 대명사입니다.",
+      "contextMeaning": "악어(He) 소유의 것을 나타내는 소유격 대명사입니다.",
       "ipa": "/ˈhɪz/"
     },
     "mouth": {
@@ -551,7 +542,7 @@
           "primary": true
         }
       ],
-      "contextMeaning": "악어가 먹이를 잡을 때 사용하는 신체 부위인 '입'입니다.",
+      "contextMeaning": "악어가 먹이를 먹는 기관인 '입'입니다.",
       "forms": {
         "base": "mouth",
         "related": [
@@ -564,12 +555,19 @@
       "pos": "adverb/adjective",
       "meanings": [
         {
-          "ko": "넓게, 넓은",
-          "en": "over a large area; broad",
+          "ko": "넓게/넓은",
+          "en": "to a great extent; large",
           "primary": true
         }
       ],
-      "contextMeaning": "입을 '크게, 넓게' 벌렸다는 것을 나타냅니다.",
+      "contextMeaning": "입을 얼마나 크게 벌렸는지 설명합니다.",
+      "forms": {
+        "base": "wide",
+        "related": [
+          "wider",
+          "widest"
+        ]
+      },
       "ipa": "/ˈwaɪd/"
     },
     "but": {
@@ -581,7 +579,7 @@
           "primary": true
         }
       ],
-      "contextMeaning": "악어가 입을 벌렸지만 물고기를 못 잡은 대조를 나타냅니다.",
+      "contextMeaning": "악어가 입을 벌렸으나 결과는 달랐음을 나타내는 접속사입니다.",
       "ipa": "/ˈbət/"
     },
     "too": {
@@ -598,14 +596,14 @@
           "primary": false
         }
       ],
-      "contextMeaning": "'fast'를 꾸며 물고기가 '너무' 빨랐음을 강조합니다.",
+      "contextMeaning": "물고기가 빠른 정도가 지나침(너무 빠름)을 나타냅니다.",
       "ipa": "/ˈtu/"
     },
     "fast": {
       "pos": "adjective/adverb",
       "meanings": [
         {
-          "ko": "빠른, 빠르게",
+          "ko": "빠른/빠르게",
           "en": "moving quickly",
           "primary": true
         }
@@ -625,29 +623,30 @@
       "meanings": [
         {
           "ko": "그것",
-          "en": "used for an object or animal",
+          "en": "used to refer to a thing or animal",
           "primary": true
         }
       ],
-      "contextMeaning": "작은 물고기를 가리키는 대명사입니다.",
+      "contextMeaning": "작은 물고기를 지칭하는 대명사입니다.",
       "ipa": "/ˈɪt/"
     },
     "swam": {
       "pos": "verb (past tense)",
       "meanings": [
         {
-          "ko": "수영했다",
+          "ko": "헤엄쳤다",
           "en": "past tense of swim",
           "primary": true
         }
       ],
-      "contextMeaning": "물고기가 도망쳐서 수영해간 과거 동작입니다.",
+      "contextMeaning": "물고기가 도망가며 헤엄친 과거 동작입니다.",
       "forms": {
         "base": "swim",
         "tense": "과거형",
         "related": [
           "swim",
-          "swum"
+          "swum",
+          "swimming"
         ]
       },
       "ipa": "/ˈswæm/"
@@ -656,12 +655,12 @@
       "pos": "adverb",
       "meanings": [
         {
-          "ko": "멀리, 떠나서",
-          "en": "from a particular place; distant",
+          "ko": "멀리, 떠나",
+          "en": "to a distance",
           "primary": true
         }
       ],
-      "contextMeaning": "'swam away'로 쓰여 '멀리 도망쳐 수영해갔다'는 뜻입니다.",
+      "contextMeaning": "'swam away'로 쓰여 멀리 도망갔음을 나타냅니다.",
       "ipa": "/əˈweɪ/"
     },
     "quickly": {
@@ -673,12 +672,12 @@
           "primary": true
         }
       ],
-      "contextMeaning": "물고기가 도망가는 속도가 빨랐음을 나타냅니다.",
+      "contextMeaning": "물고기가 도망가는 속도가 매우 빨랐음을 나타냅니다.",
       "forms": {
         "base": "quick",
         "related": [
-          "quick",
-          "quicker"
+          "more quickly",
+          "most quickly"
         ]
       },
       "ipa": "/ˈkwɪkɫi/"
@@ -688,7 +687,7 @@
       "meanings": [
         {
           "ko": "여전히",
-          "en": "continuing to happen",
+          "en": "continuing to be",
           "primary": true
         },
         {
@@ -697,7 +696,7 @@
           "primary": false
         }
       ],
-      "contextMeaning": "시간이 지났지만 배고픔이 '여전히' 남아있음을 나타냅니다.",
+      "contextMeaning": "시간이 지났지만 배고픈 상태가 변하지 않았음을 강조합니다.",
       "ipa": "/ˈstɪɫ/"
     },
     "decided": {
@@ -709,13 +708,14 @@
           "primary": true
         }
       ],
-      "contextMeaning": "악어가 더 기다리기로 마음먹은 과거 동작입니다.",
+      "contextMeaning": "악어가 더 기다리기로 마음먹은 동작입니다.",
       "forms": {
         "base": "decide",
         "tense": "과거형",
         "related": [
           "decides",
-          "deciding"
+          "deciding",
+          "decided"
         ]
       },
       "ipa": "/ˌdɪˈsaɪdɪd/"
@@ -725,13 +725,14 @@
       "meanings": [
         {
           "ko": "더 오래",
-          "en": "for a longer time",
+          "en": "for a greater length of time",
           "primary": true
         }
       ],
-      "contextMeaning": "이전보다 시간이 '더 길게' 흐르도록 기다리겠다는 뜻입니다.",
+      "contextMeaning": "이전보다 더 긴 시간 동안 기다리겠다는 의미입니다.",
       "forms": {
         "base": "long",
+        "tense": "비교급",
         "related": [
           "long",
           "longest"
@@ -744,7 +745,7 @@
       "meanings": [
         {
           "ko": "마침내, 드디어",
-          "en": "at last; eventually",
+          "en": "at last",
           "primary": true
         }
       ],
@@ -755,12 +756,12 @@
       "pos": "determiner",
       "meanings": [
         {
-          "ko": "이것, 이번의",
-          "en": "used to identify a specific time or thing",
+          "ko": "이번의, 이",
+          "en": "used to identify a specific time/thing",
           "primary": true
         }
       ],
-      "contextMeaning": "'time'과 함께 쓰여 '이번에는'이라는 뜻을 만듭니다.",
+      "contextMeaning": "'This time'으로 쓰여 '이번에는'이라는 뜻입니다.",
       "ipa": "/ˈðɪs/"
     },
     "time": {
@@ -768,11 +769,11 @@
       "meanings": [
         {
           "ko": "시간, 번",
-          "en": "a point in time; an instance",
+          "en": "a point in time; instance",
           "primary": true
         }
       ],
-      "contextMeaning": "사건이 일어난 횟수나 시점을 나타냅니다.",
+      "contextMeaning": "기회나 차례를 나타내는 '번'의 의미로 쓰였습니다.",
       "forms": {
         "base": "time",
         "related": [
@@ -786,11 +787,11 @@
       "meanings": [
         {
           "ko": "준비된",
-          "en": "prepared for action",
+          "en": "prepared",
           "primary": true
         }
       ],
-      "contextMeaning": "악어가 물고기를 잡을 준비가 되어 있다는 상태입니다.",
+      "contextMeaning": "악어가 물고기를 잡을 준비가 되어 있음을 나타냅니다.",
       "forms": {
         "base": "ready",
         "related": [
@@ -805,7 +806,7 @@
       "meanings": [
         {
           "ko": "잡았다",
-          "en": "captured; seized",
+          "en": "captured",
           "primary": true
         },
         {
@@ -814,13 +815,14 @@
           "primary": false
         }
       ],
-      "contextMeaning": "악어가 물고기를 잡은 과거 동작입니다.",
+      "contextMeaning": "악어가 물고기를 포획한 과거 동작입니다.",
       "forms": {
         "base": "catch",
         "tense": "과거형",
         "related": [
           "catches",
-          "catching"
+          "catching",
+          "caught"
         ]
       },
       "ipa": "/ˈkɑt/"
@@ -830,11 +832,11 @@
       "meanings": [
         {
           "ko": "그리고",
-          "en": "used to connect words or clauses",
+          "en": "used to connect words",
           "primary": true
         }
       ],
-      "contextMeaning": "물고기를 '잡고' '먹었다'는 두 동작을 연결합니다.",
+      "contextMeaning": "두 동작(잡다, 먹다)을 연결하는 접속사입니다.",
       "ipa": "/ˈænd/"
     },
     "ate": {
@@ -842,7 +844,7 @@
       "meanings": [
         {
           "ko": "먹었다",
-          "en": "past tense of eat",
+          "en": "consumed food",
           "primary": true
         }
       ],
@@ -862,7 +864,7 @@
       "pos": "adverb",
       "meanings": [
         {
-          "ko": "지금",
+          "ko": "이제, 지금",
           "en": "at the present time",
           "primary": true
         }
@@ -879,7 +881,7 @@
           "primary": true
         }
       ],
-      "contextMeaning": "배를 채운 악어의 감정 상태를 나타냅니다.",
+      "contextMeaning": "배를 불렀을 때 악어의 감정 상태입니다.",
       "forms": {
         "base": "happy",
         "related": [
@@ -903,7 +905,7 @@
           "primary": false
         }
       ],
-      "contextMeaning": "먹고 나서 배가 부른 상태를 나타냅니다.",
+      "contextMeaning": "음식을 먹어서 배가 부른 상태를 나타냅니다.",
       "forms": {
         "base": "full",
         "related": [
@@ -934,7 +936,7 @@
         },
         "pattern": {
           "name": "S+V+C",
-          "note": "주어의 상태를 설명하는 2형식 문장입니다. 'very'는 'hungry'를 꾸며주는 부사입니다."
+          "note": "주어의 상태를 설명하는 2형식 문장입니다."
         }
       },
       {
@@ -951,7 +953,45 @@
         },
         "pattern": {
           "name": "S+V",
-          "note": "'in a big river'는 장소를 나타내는 부사구로, 문장의 필수 요소는 주어와 동사뿐인 1형식입니다."
+          "note": "'in a big river'는 장소를 나타내는 부사구입니다."
+        }
+      },
+      {
+        "text": "Every day, he waited for fish to swim by.",
+        "structure": {
+          "subject": {
+            "text": "he",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "waited",
+            "label": "동사"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "'for fish...'는 기다리는 대상을 나타내는 전치사구입니다."
+        }
+      },
+      {
+        "text": "One morning, a small fish came close.",
+        "structure": {
+          "subject": {
+            "text": "a small fish",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "came",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "close",
+            "label": "보어(부사/형용사)"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "가까이 '왔다'는 상태/동작을 나타냅니다."
         }
       },
       {
@@ -972,7 +1012,125 @@
         },
         "pattern": {
           "name": "S+V+O",
-          "note": "'wide'는 입을 '어떻게' 벌렸는지 나타내는 부사로, 3형식 문장의 확장 형태입니다."
+          "note": "입을 열었다는 3형식 문장입니다. 'wide'는 결과를 나타내는 부사입니다."
+        }
+      },
+      {
+        "text": "But the fish was too fast.",
+        "structure": {
+          "subject": {
+            "text": "the fish",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사(be동사 과거)"
+          },
+          "complement": {
+            "text": "too fast",
+            "label": "보어(형용사구)"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "물고기가 너무 빠르다는 상태를 설명합니다."
+        }
+      },
+      {
+        "text": "It swam away quickly.",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "swam",
+            "label": "동사"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "'away quickly'는 동작의 방향과 방식을 나타내는 부사구입니다."
+        }
+      },
+      {
+        "text": "The crocodile was still hungry.",
+        "structure": {
+          "subject": {
+            "text": "The crocodile",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사(be동사 과거)"
+          },
+          "complement": {
+            "text": "still hungry",
+            "label": "보어(형용사구)"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "여전히 배고프다는 상태를 나타냅니다."
+        }
+      },
+      {
+        "text": "He decided to wait longer.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "decided",
+            "label": "동사"
+          },
+          "object": {
+            "text": "to wait longer",
+            "label": "목적어(to부정사구)"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "decide + to부정사 구문으로 '~하기로 결심했다'입니다."
+        }
+      },
+      {
+        "text": "Finally, a big fish came.",
+        "structure": {
+          "subject": {
+            "text": "a big fish",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "came",
+            "label": "동사"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "단순히 물고기가 왔다는 1형식 문장입니다."
+        }
+      },
+      {
+        "text": "This time, the crocodile was ready.",
+        "structure": {
+          "subject": {
+            "text": "the crocodile",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사(be동사 과거)"
+          },
+          "complement": {
+            "text": "ready",
+            "label": "보어(형용사)"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "준비가 되어 있다는 상태를 나타냅니다."
         }
       },
       {
@@ -983,17 +1141,17 @@
             "label": "주어"
           },
           "verb": {
-            "text": "caught and ate",
+            "text": "caught",
             "label": "동사"
           },
           "object": {
-            "text": "the fish, it",
+            "text": "the fish",
             "label": "목적어"
           }
         },
         "pattern": {
           "name": "S+V+O",
-          "note": "한 주어가 '잡았다(caught)'와 '먹었다(ate)' 두 동작을 수행하는 등위접속사 'and'로 연결된 문장입니다."
+          "note": "'and ate it'은 연결된 또 다른 S+V+O 구조입니다."
         }
       },
       {
@@ -1005,31 +1163,31 @@
           },
           "verb": {
             "text": "was",
-            "label": "동사"
+            "label": "동사(be동사 과거)"
           },
           "complement": {
             "text": "happy and full",
-            "label": "보어(형용사)"
+            "label": "보어(형용사구)"
           }
         },
         "pattern": {
           "name": "S+V+C",
-          "note": "'happy'와 'full' 두 형용사가 'and'로 연결되어 보어 역할을 합니다."
+          "note": "행복하고 배부른 두 가지 상태를 나타냅니다."
         }
       }
     ]
   },
-  "translation": "악어 한 마리가 매우 배가 고팠습니다. 그는 큰 강에 살고 있었습니다. 매일 그는 물고기가 지나가기를 기다렸습니다. 어느 날 아침, 작은 물고기 한 마리가 가까이 다가왔습니다. 악어는 입을 크게 벌렸습니다. 하지만 물고기는 너무 빨랐습니다. 그것은 빠르게 헤엄쳐 도망갔습니다. 악어는 여전히 배가 고팠습니다. 그는 더 오래 기다리기로 결심했습니다. 마침내, 큰 물고기 한 마리가 왔습니다. 이번에는 악어가 준비가 되어 있었습니다. 그는 물고기를 잡아서 먹었습니다. 이제 그는 행복하고 배가 불렀습니다.",
+  "translation": "그 악어는 매우 배가 고팠습니다. 그는 큰 강에 살고 있었습니다. 매일 그는 물고기가 지나가기를 기다렸습니다. 어느 날 아침, 작은 물고기 한 마리가 가까이 다가왔습니다. 악어는 입을 크게 벌렸습니다. 하지만 물고기는 너무 빨랐습니다. 그것은 재빨리 헤엄쳐 도망갔습니다. 악어는 여전히 배가 고팠습니다. 그는 더 오래 기다리기로 결심했습니다. 마침내 큰 물고기가 왔습니다. 이번에는 악어가 준비되어 있었습니다. 그는 물고기를 잡아서 먹었습니다. 이제 그는 행복하고 배가 불렀습니다.",
   "keyVocab": [
+    "crocodile",
     "hungry",
     "wait",
     "catch",
-    "decide",
     "finally"
   ],
   "quiz": {
-    "question": "악어는 결국 배를 채웠나요?",
-    "answer": "네, 그는 마침내 큰 물고기를 잡아서 먹었고 배가 부르고 행복해졌습니다."
+    "question": "악어는 결국 배를 불렸나요?",
+    "answer": "네, 그렇습니다. 악어는 마침내 큰 물고기를 잡아서 먹고 배가 부르고 행복해졌습니다."
   },
-  "generated_at": "2026-02-19T23:10:06.589411+09:00"
+  "generated_at": "2026-02-19T23:47:53.458195+09:00"
 }

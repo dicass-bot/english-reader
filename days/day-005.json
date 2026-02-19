@@ -1,0 +1,1539 @@
+{
+  "day": 5,
+  "level": 1,
+  "source": {
+    "title": "My First Job",
+    "author": "VOA Learning English",
+    "license": "Public Domain",
+    "url": "https://learningenglish.voanews.com"
+  },
+  "passage": "I got my first job when I was sixteen. I worked at a small bakery near my house. Every morning, I woke up at five o'clock. I walked to the bakery in the dark. My job was to put bread in bags. The bakery was warm and smelled good. I liked working there. The owner was a kind old man. He taught me how to make cookies. I worked there for two years. It was hard work, but I learned a lot.",
+  "audio": {
+    "passage": "audio/day-005.mp3",
+    "words": {
+      "i": "audio/day-005-i.mp3",
+      "got": "audio/day-005-got.mp3",
+      "my": "audio/day-005-my.mp3",
+      "first": "audio/day-005-first.mp3",
+      "job": "audio/day-005-job.mp3",
+      "when": "audio/day-005-when.mp3",
+      "was": "audio/day-005-was.mp3",
+      "sixteen": "audio/day-005-sixteen.mp3",
+      "worked": "audio/day-005-worked.mp3",
+      "at": "audio/day-005-at.mp3",
+      "small": "audio/day-005-small.mp3",
+      "bakery": "audio/day-005-bakery.mp3",
+      "near": "audio/day-005-near.mp3",
+      "house": "audio/day-005-house.mp3",
+      "every": "audio/day-005-every.mp3",
+      "morning": "audio/day-005-morning.mp3",
+      "woke": "audio/day-005-woke.mp3",
+      "up": "audio/day-005-up.mp3",
+      "five": "audio/day-005-five.mp3",
+      "o'clock": "audio/day-005-o'clock.mp3",
+      "walked": "audio/day-005-walked.mp3",
+      "to": "audio/day-005-to.mp3",
+      "dark": "audio/day-005-dark.mp3",
+      "put": "audio/day-005-put.mp3",
+      "bread": "audio/day-005-bread.mp3",
+      "bags": "audio/day-005-bags.mp3",
+      "warm": "audio/day-005-warm.mp3",
+      "smelled": "audio/day-005-smelled.mp3",
+      "good": "audio/day-005-good.mp3",
+      "liked": "audio/day-005-liked.mp3"
+    }
+  },
+  "words": {
+    "i": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "나",
+          "en": "the speaker or writer",
+          "primary": true
+        },
+        {
+          "ko": "아이",
+          "en": "the letter 'I'",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이 문장에서는 화자의 경험을 이야기하기 위해 '나'를 의미함",
+      "ipa": "/ˈaɪ/"
+    },
+    "got": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "얻다",
+          "en": "to obtain",
+          "primary": true
+        },
+        {
+          "ko": "받다",
+          "en": "to receive",
+          "primary": false
+        },
+        {
+          "ko": "도착하다",
+          "en": "to arrive",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "여기서는 '일을 얻다'라는 의미로 쓰임",
+      "forms": {
+        "base": "get",
+        "tense": "past",
+        "related": [
+          "gets",
+          "getting",
+          "gotten"
+        ]
+      },
+      "ipa": "/ˈɡɑt/"
+    },
+    "my": {
+      "pos": "possessive adjective",
+      "meanings": [
+        {
+          "ko": "내",
+          "en": "belonging to me",
+          "primary": true
+        },
+        {
+          "ko": "나의",
+          "en": "of mine",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "'나의 첫 직업'이라는 소유 관계 표현",
+      "ipa": "/ˈmaɪ/"
+    },
+    "first": {
+      "pos": "adjective (ordinal number)",
+      "meanings": [
+        {
+          "ko": "첫 번째",
+          "en": "coming before all others",
+          "primary": true
+        },
+        {
+          "ko": "처음의",
+          "en": "initial",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "경험상 처음이라는 의미로 사용됨",
+      "forms": {
+        "base": "first",
+        "tense": "none",
+        "related": [
+          "firstly",
+          "first-rate"
+        ]
+      },
+      "ipa": "/ˈfɝst/"
+    },
+    "job": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "직업",
+          "en": "work that someone does regularly",
+          "primary": true
+        },
+        {
+          "ko": "일",
+          "en": "task or assignment",
+          "primary": false
+        },
+        {
+          "ko": "직장",
+          "en": "place where you work",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "정규적인 일자리를 나타냄",
+      "forms": {
+        "base": "job",
+        "tense": "singular",
+        "related": [
+          "jobs"
+        ]
+      },
+      "ipa": "/ˈdʒɑb/"
+    },
+    "when": {
+      "pos": "conjunction/adverb",
+      "meanings": [
+        {
+          "ko": "언제",
+          "en": "at what time",
+          "primary": true
+        },
+        {
+          "ko": "그때",
+          "en": "during which time",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "시간적 연결어로 사용되어 사건 발생 시점을 명확히 함",
+      "ipa": "/ˈhwɛn/"
+    },
+    "was": {
+      "pos": "verb (past tense of 'be')",
+      "meanings": [
+        {
+          "ko": "였다",
+          "en": "past form of 'to be'",
+          "primary": true
+        },
+        {
+          "ko": "존재했다",
+          "en": "existed",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "과거 상태를 나타내기 위해 사용됨",
+      "forms": {
+        "base": "be",
+        "tense": "past singular",
+        "related": [
+          "is",
+          "are",
+          "were",
+          "being",
+          "been"
+        ]
+      },
+      "ipa": "/ˈwɑz/"
+    },
+    "sixteen": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "열여섯 살",
+          "en": "the age of sixteen",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "나이를 나타내는 수사",
+      "ipa": "/ˈsɪkˈstin/"
+    },
+    "worked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "일했다",
+          "en": "did work",
+          "primary": true
+        },
+        {
+          "ko": "작동했다",
+          "en": "functioned",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "과거에 한 일을 설명하기 위해 사용됨",
+      "forms": {
+        "base": "work",
+        "tense": "past",
+        "related": [
+          "works",
+          "working",
+          "worked"
+        ]
+      },
+      "ipa": "/ˈwɝkt/"
+    },
+    "at": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~에서",
+          "en": "in or near a place",
+          "primary": true
+        },
+        {
+          "ko": "~시에",
+          "en": "at a specific time",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "장소나 시간을 나타내는 전치사",
+      "ipa": "/ˈæt/"
+    },
+    "small": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "작은",
+          "en": "not big in size",
+          "primary": true
+        },
+        {
+          "ko": "적은",
+          "en": "few in amount",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "빵집의 크기를 묘사하기 위해 사용됨",
+      "forms": {
+        "base": "small",
+        "tense": "none",
+        "related": [
+          "smaller",
+          "smallest"
+        ]
+      },
+      "ipa": "/ˈsmɔɫ/"
+    },
+    "bakery": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "빵집",
+          "en": "a shop that sells baked goods",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "일했던 장소를 나타냄",
+      "forms": {
+        "base": "bakery",
+        "tense": "singular",
+        "related": [
+          "bakeries"
+        ]
+      },
+      "ipa": "/ˈbeɪkɝi/"
+    },
+    "near": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~근처에",
+          "en": "close to",
+          "primary": true
+        },
+        {
+          "ko": "~옆에",
+          "en": "next to",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "위치를 설명하는 전치사로 사용됨",
+      "ipa": "/ˈnɪɹ/"
+    },
+    "house": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "집",
+          "en": "building where people live",
+          "primary": true
+        },
+        {
+          "ko": "가족",
+          "en": "family unit",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "화자의 거주지를 나타냄",
+      "forms": {
+        "base": "house",
+        "tense": "singular",
+        "related": [
+          "houses"
+        ]
+      },
+      "ipa": "/ˈhaʊs/"
+    },
+    "every": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "모든",
+          "en": "each one without exception",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "매일 반복되는 행동을 설명하기 위해 사용됨",
+      "ipa": "/ˈɛvɝi/"
+    },
+    "morning": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "아침",
+          "en": "early part of the day",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "하루 중 특정 시간대를 나타냄",
+      "forms": {
+        "base": "morning",
+        "tense": "singular",
+        "related": [
+          "mornings"
+        ]
+      },
+      "ipa": "/ˈmɔɹnɪŋ/"
+    },
+    "woke": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "깨어났다",
+          "en": "stopped sleeping",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "아침에 일어나는 행위를 나타냄",
+      "forms": {
+        "base": "wake",
+        "tense": "past",
+        "related": [
+          "wakes",
+          "waking",
+          "woken"
+        ]
+      },
+      "ipa": "/ˈwoʊk/"
+    },
+    "up": {
+      "pos": "adverb/preposition",
+      "meanings": [
+        {
+          "ko": "위로",
+          "en": "in an upward direction",
+          "primary": true
+        },
+        {
+          "ko": "일어나다",
+          "en": "rise from bed",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "기상 동작을 보완하는 부사",
+      "ipa": "/ˈəp/"
+    },
+    "five": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "다섯",
+          "en": "the number after four",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "구체적인 시간을 나타냄",
+      "ipa": "/ˈfaɪv/"
+    },
+    "o'clock": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "(시)",
+          "en": "used after numbers to indicate hours",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "정각을 나타내는 표현",
+      "ipa": "/əˈkɫɑk/"
+    },
+    "walked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "걸었다",
+          "en": "moved by foot",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "빵집으로 가는 방법을 설명함",
+      "forms": {
+        "base": "walk",
+        "tense": "past",
+        "related": [
+          "walks",
+          "walking",
+          "walked"
+        ]
+      },
+      "ipa": "/ˈwɔkt/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~까지",
+          "en": "indicating direction",
+          "primary": true
+        },
+        {
+          "ko": "~에게",
+          "en": "toward someone/something",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "목적지 방향을 나타냄",
+      "ipa": "/ˈtu/"
+    },
+    "dark": {
+      "pos": "adjective/noun",
+      "meanings": [
+        {
+          "ko": "어두운",
+          "en": "without light",
+          "primary": true
+        },
+        {
+          "ko": "어둠",
+          "en": "absence of light",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "아침에 출근할 때 날씨 조건을 묘사함",
+      "forms": {
+        "base": "dark",
+        "tense": "none",
+        "related": [
+          "darker",
+          "darkest"
+        ]
+      },
+      "ipa": "/ˈdɑɹk/"
+    },
+    "put": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "넣었다",
+          "en": "placed something somewhere",
+          "primary": true
+        },
+        {
+          "ko": "배치하다",
+          "en": "arranged",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "빵을 가방에 넣는 작업을 설명함",
+      "forms": {
+        "base": "put",
+        "tense": "past",
+        "related": [
+          "puts",
+          "putting"
+        ]
+      },
+      "ipa": "/ˈpʊt/"
+    },
+    "bread": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "빵",
+          "en": "food made from flour and water",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "빵집에서 다루는 주요 제품",
+      "forms": {
+        "base": "bread",
+        "tense": "singular",
+        "related": [
+          "breads"
+        ]
+      },
+      "ipa": "/ˈbɹɛd/"
+    },
+    "bags": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "봉투들",
+          "en": "containers for carrying items",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "빵을 담는 용기를 나타냄",
+      "forms": {
+        "base": "bag",
+        "tense": "plural",
+        "related": [
+          "bag"
+        ]
+      },
+      "ipa": "/ˈbæɡz/"
+    },
+    "warm": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "따뜻한",
+          "en": "having a pleasant temperature",
+          "primary": true
+        },
+        {
+          "ko": "따뜻하게",
+          "en": "in a warm manner",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "빵집 내부의 분위기를 묘사함",
+      "forms": {
+        "base": "warm",
+        "tense": "none",
+        "related": [
+          "warmer",
+          "warmest"
+        ]
+      },
+      "ipa": "/ˈwɔɹm/"
+    },
+    "smelled": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "향이 났다",
+          "en": "had a particular smell",
+          "primary": true
+        },
+        {
+          "ko": "냄새 맡았다",
+          "en": "detected with nose",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "빵집의 좋은 냄새를 표현함",
+      "forms": {
+        "base": "smell",
+        "tense": "past",
+        "related": [
+          "smells",
+          "smelling",
+          "smelt"
+        ]
+      },
+      "ipa": "/ˈsmɛɫd/"
+    },
+    "good": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "좋은",
+          "en": "pleasant or positive quality",
+          "primary": true
+        },
+        {
+          "ko": "훌륭한",
+          "en": "excellent",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "냄새가 좋다는 긍정적 평가",
+      "forms": {
+        "base": "good",
+        "tense": "none",
+        "related": [
+          "better",
+          "best"
+        ]
+      },
+      "ipa": "/ˈɡʊd/"
+    },
+    "liked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "좋아했다",
+          "en": "felt pleasure toward",
+          "primary": true
+        },
+        {
+          "ko": "기뻤다",
+          "en": "was happy about",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "그곳에서 일하는 것을 즐겼음을 나타냄",
+      "forms": {
+        "base": "like",
+        "tense": "past",
+        "related": [
+          "likes",
+          "liking",
+          "liked"
+        ]
+      },
+      "ipa": "/ˈɫaɪkt/"
+    },
+    "working": {
+      "pos": "verb (gerund/present participle)",
+      "meanings": [
+        {
+          "ko": "일하는",
+          "en": "performing labor",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "지속적인 행동을 나타내며 현재 분사 형태로 쓰임",
+      "forms": {
+        "base": "work",
+        "tense": "present participle",
+        "related": [
+          "works",
+          "worked"
+        ]
+      },
+      "ipa": "/ˈwɝkɪŋ/"
+    },
+    "there": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "그곳에",
+          "en": "in that place",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "위치를 지칭하는 부사",
+      "ipa": "/ˈðɛɹ/"
+    },
+    "owner": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "주인",
+          "en": "person who owns something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "빵집을 소유한 사람을 의미함",
+      "forms": {
+        "base": "owner",
+        "tense": "singular",
+        "related": [
+          "owners"
+        ]
+      },
+      "ipa": "/ˈoʊnɝ/"
+    },
+    "kind": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "친절한",
+          "en": "gentle and caring",
+          "primary": true
+        },
+        {
+          "ko": "종류",
+          "en": "type or category",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "사람의 성격을 묘사함",
+      "forms": {
+        "base": "kind",
+        "tense": "none",
+        "related": [
+          "kinder",
+          "kindest"
+        ]
+      },
+      "ipa": "/ˈkaɪnd/"
+    },
+    "old": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "늙은",
+          "en": "advanced in age",
+          "primary": true
+        },
+        {
+          "ko": "오래된",
+          "en": "existing for a long time",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "나이를 나타내는 형용사",
+      "forms": {
+        "base": "old",
+        "tense": "none",
+        "related": [
+          "older",
+          "oldest"
+        ]
+      },
+      "ipa": "/ˈoʊɫd/"
+    },
+    "man": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "남자",
+          "en": "adult male human",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "빵집 주인을 지칭함",
+      "forms": {
+        "base": "man",
+        "tense": "singular",
+        "related": [
+          "men"
+        ]
+      },
+      "ipa": "/ˈmæn/"
+    },
+    "taught": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "가르쳤다",
+          "en": "instructed someone",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쿠키 만드는 법을 알려준 행위를 나타냄",
+      "forms": {
+        "base": "teach",
+        "tense": "past",
+        "related": [
+          "teaches",
+          "teaching",
+          "taught"
+        ]
+      },
+      "ipa": "/ˈtɔt/"
+    },
+    "how": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "어떻게",
+          "en": "in what way",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "방법을 묻는 의문사",
+      "ipa": "/ˈhaʊ/"
+    },
+    "make": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "만들다",
+          "en": "create or produce",
+          "primary": true
+        },
+        {
+          "ko": "하다",
+          "en": "do something",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "쿠키 제조 과정을 표현함",
+      "forms": {
+        "base": "make",
+        "tense": "infinitive",
+        "related": [
+          "makes",
+          "making",
+          "made"
+        ]
+      },
+      "ipa": "/ˈmeɪk/"
+    },
+    "cookies": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "쿠키들",
+          "en": "sweet baked treats",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "빵집에서 판매하는 제품 중 하나",
+      "forms": {
+        "base": "cookie",
+        "tense": "plural",
+        "related": [
+          "cookie"
+        ]
+      },
+      "ipa": "/ˈkʊkiz/"
+    },
+    "for": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~동안",
+          "en": "during a period of time",
+          "primary": true
+        },
+        {
+          "ko": "~를 위해",
+          "en": "on behalf of",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "기간을 나타내는 전치사",
+      "ipa": "/ˈfɔɹ/"
+    },
+    "two": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "두",
+          "en": "the number after one",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "년수를 나타냄",
+      "ipa": "/ˈtu/"
+    },
+    "years": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "년들",
+          "en": "units of time equal to twelve months",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "근무 기간을 나타냄",
+      "forms": {
+        "base": "year",
+        "tense": "plural",
+        "related": [
+          "year"
+        ]
+      },
+      "ipa": "/ˈjɪɹz/"
+    },
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "refers back to previous subject",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "전체 근무 경험을 대신함",
+      "ipa": "/ˈɪt/"
+    },
+    "hard": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "힘든",
+          "en": "difficult",
+          "primary": true
+        },
+        {
+          "ko": "단단한",
+          "en": "firm or solid",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "노동의 어려움을 표현함",
+      "forms": {
+        "base": "hard",
+        "tense": "none",
+        "related": [
+          "harder",
+          "hardest"
+        ]
+      },
+      "ipa": "/ˈhɑɹd/"
+    },
+    "work": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "일",
+          "en": "activity involving effort",
+          "primary": true
+        },
+        {
+          "ko": "직업",
+          "en": "employment",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "노동 자체를 의미함",
+      "forms": {
+        "base": "work",
+        "tense": "singular",
+        "related": [
+          "works"
+        ]
+      },
+      "ipa": "/ˈwɝk/"
+    },
+    "but": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "하지만",
+          "en": "introduces contrast",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "반전을 나타내는 접속사",
+      "ipa": "/ˈbət/"
+    },
+    "learned": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "배웠다",
+          "en": "gained knowledge or skill",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "경험을 통해 얻은 지식을 표현함",
+      "forms": {
+        "base": "learn",
+        "tense": "past",
+        "related": [
+          "learns",
+          "learning",
+          "learned/learnt"
+        ]
+      },
+      "ipa": "/ˈɫɝnd/"
+    },
+    "lot": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "많은 것",
+          "en": "a large amount",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "많은 양의 학습 내용을 표현함",
+      "forms": {
+        "base": "lot",
+        "tense": "singular",
+        "related": [
+          "lots"
+        ]
+      },
+      "ipa": "/ˈɫɑt/"
+    },
+    "a": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "one unspecified item",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "불특정 단수 명사를 소개함",
+      "ipa": "/ˈeɪ/"
+    },
+    "the": {
+      "pos": "definite article",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "specific known thing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이미 언급되었거나 특별히 지정된 사물을 가리킴",
+      "ipa": "/ˈðə/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "connects words or clauses",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "문장을 연결하는 접속사",
+      "ipa": "/ˈænd/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안에",
+          "en": "inside",
+          "primary": true
+        },
+        {
+          "ko": "~동안",
+          "en": "during",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "공간이나 시간 안쪽을 나타냄",
+      "ipa": "/ˈɪn/"
+    },
+    "on": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~위에",
+          "en": "supported by surface",
+          "primary": true
+        },
+        {
+          "ko": "~날에",
+          "en": "on a date",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "표면 위 또는 특정 날짜/시간을 나타냄",
+      "ipa": "/ˈɑn/"
+    },
+    "of": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~의",
+          "en": "belonging to or connected with",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소유 관계나 구성 요소를 나타냄",
+      "ipa": "/ˈəv/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "I got my first job when I was sixteen.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "got",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "my first job",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "when I was sixteen",
+            "label": "시간 보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 과거에 있었던 일을 설명합니다. 'got'은 'get'의 과거형이며, 'when I was sixteen'은 언제 그런 일이 있었는지를 보충 설명해 줍니다.",
+        "grammarPoints": [
+          "be동사 과거형",
+          "시간 부사절"
+        ],
+        "examples": [
+          {
+            "en": "She bought a car when she turned twenty.",
+            "ko": "그녀는 스무 살이 되었을 때 차를 샀다."
+          },
+          {
+            "en": "He moved to Seoul when he graduated.",
+            "ko": "그는 졸업했을 때 서울로 이사했다."
+          }
+        ]
+      },
+      {
+        "text": "I worked at a small bakery near my house.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "worked",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "at a small bakery near my house",
+            "label": "장소 보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 과거에 어떤 장소에서 일했는지를 설명합니다. 'worked'는 'work'의 과거형이며, 'at...' 부분은 일했던 위치를 나타냅니다.",
+        "grammarPoints": [
+          "장소 전치사",
+          "과거형 동사"
+        ],
+        "examples": [
+          {
+            "en": "I studied at university last year.",
+            "ko": "나는 작년에 대학에서 공부했다."
+          },
+          {
+            "en": "We lived near the park.",
+            "ko": "우리는 공원 근처에 살았다."
+          }
+        ]
+      },
+      {
+        "text": "Every morning, I woke up at five o'clock.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "woke up",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "at five o'clock",
+            "label": "시간 보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 매일 아침 5시에 일어났다는 것을 말합니다. 'woke up'은 'wake up'의 과거형입니다. 'at five o'clock'은 구체적인 시간을 나타냅니다.",
+        "grammarPoints": [
+          "시간 전치사",
+          "과거형 동사"
+        ],
+        "examples": [
+          {
+            "en": "I wake up early every day.",
+            "ko": "나는 매일 일찍 일어난다."
+          },
+          {
+            "en": "She arrived at noon.",
+            "ko": "그녀는 정오에 도착했다."
+          }
+        ]
+      },
+      {
+        "text": "I walked to the bakery in the dark.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "walked",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "to the bakery",
+            "label": "목적지 보어"
+          },
+          "complement": {
+            "text": "in the dark",
+            "label": "상황 보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 어두운 속에서 빵집으로 걸어갔다는 것을 설명합니다. 'walked'는 'walk'의 과거형이며, 'to the bakery'는 목적지를 나타냅니다.",
+        "grammarPoints": [
+          "목적지 전치사",
+          "상황 전치사"
+        ],
+        "examples": [
+          {
+            "en": "He ran to school quickly.",
+            "ko": "그는 빨리 학교로 달렸다."
+          },
+          {
+            "en": "They played outside in the rain.",
+            "ko": "그들은 비 속에서 밖에서 놀았다."
+          }
+        ]
+      },
+      {
+        "text": "My job was to put bread in bags.",
+        "structure": {
+          "subject": {
+            "text": "My job",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "to put bread in bags",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 '내 일은 ~하는 것이었다'라는 의미로, '~하는 것(to-infinitive)'이 목적어 역할을 합니다. 'was'는 'be'의 과거형입니다.",
+        "grammarPoints": [
+          "to부정사",
+          "be동사 과거형"
+        ],
+        "examples": [
+          {
+            "en": "His dream was to become a doctor.",
+            "ko": "그의 꿈은 의사가 되는 것이었다."
+          },
+          {
+            "en": "Her goal is to finish the project soon.",
+            "ko": "그녀의 목표는 곧 프로젝트를 마치는 것이다."
+          }
+        ]
+      },
+      {
+        "text": "The bakery was warm and smelled good.",
+        "structure": {
+          "subject": {
+            "text": "The bakery",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was warm and smelled good",
+            "label": "복합 서술어"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어 + 동사"
+        },
+        "explanation": "이 문장은 두 가지 상태를 동시에 표현합니다. 'was warm'은 빵집이 따뜻했음을, 'smelled good'은 좋은 냄새가 났음을 나타냅니다.",
+        "grammarPoints": [
+          "형용사 서술어",
+          "감각 동사"
+        ],
+        "examples": [
+          {
+            "en": "The room was quiet and clean.",
+            "ko": "그 방은 조용하고 깨끗했다."
+          },
+          {
+            "en": "The coffee tastes bitter.",
+            "ko": "커피는 쓴 맛이 난다."
+          }
+        ]
+      },
+      {
+        "text": "I liked working there.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "liked",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "working there",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 '그곳에서 일하는 것을 좋아했다'는 의미입니다. 'liked'는 'like'의 과거형이고, 'working there'은 '그곳에서 일하는 것'을 나타냅니다.",
+        "grammarPoints": [
+          "gerund",
+          "과거형 동사"
+        ],
+        "examples": [
+          {
+            "en": "She enjoys reading books.",
+            "ko": "그녀는 책 읽는 것을 즐긴다."
+          },
+          {
+            "en": "He hated cleaning his room.",
+            "ko": "그는 자신의 방을 청소하는 것을 싫어했다."
+          }
+        ]
+      },
+      {
+        "text": "The owner was a kind old man.",
+        "structure": {
+          "subject": {
+            "text": "The owner",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "a kind old man",
+            "label": "표어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 표어"
+        },
+        "explanation": "이 문장은 빵집 주인이 어떤 사람인지 설명합니다. 'was'는 'be'의 과거형이며, 'a kind old man'은 그 사람의 특성을 설명합니다.",
+        "grammarPoints": [
+          "be동사",
+          "형용사 순서"
+        ],
+        "examples": [
+          {
+            "en": "She is a smart young student.",
+            "ko": "그녀는 똑똑한 젊은 학생이다."
+          },
+          {
+            "en": "It was a beautiful sunny day.",
+            "ko": "그것은 아름다운 맑은 날이었다."
+          }
+        ]
+      },
+      {
+        "text": "He taught me how to make cookies.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "taught",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "me how to make cookies",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 누군가 다른 사람에게 무언가를 가르쳐 준 것을 표현합니다. 'taught'는 'teach'의 과거형이며, 'how to make cookies'는 가르친 내용을 나타냅니다.",
+        "grammarPoints": [
+          "to부정사",
+          "의문사 how"
+        ],
+        "examples": [
+          {
+            "en": "She showed him how to cook rice.",
+            "ko": "그녀는 그에게 밥을 짓는 법을 보여주었다."
+          },
+          {
+            "en": "He told us how to use the machine.",
+            "ko": "그는 우리에게 그 기계를 사용하는 법을 말해주었다."
+          }
+        ]
+      },
+      {
+        "text": "I worked there for two years.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "worked",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "there",
+            "label": "장소 보어"
+          },
+          "complement": {
+            "text": "for two years",
+            "label": "기간 보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 얼마나 오랫동안 그곳에서 일했는지를 설명합니다. 'worked'는 'work'의 과거형이며, 'for two years'는 기간을 나타냅니다.",
+        "grammarPoints": [
+          "기간 전치사",
+          "과거형 동사"
+        ],
+        "examples": [
+          {
+            "en": "We stayed in Japan for three weeks.",
+            "ko": "우리는 일본에 세 주 동안 머물렀다."
+          },
+          {
+            "en": "She studied English for six months.",
+            "ko": "그녀는 영어를 여섯 달 동안 공부했다."
+          }
+        ]
+      },
+      {
+        "text": "It was hard work, but I learned a lot.",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사(과거형)"
+          },
+          "object": {
+            "text": "hard work",
+            "label": "표어"
+          },
+          "complement": {
+            "text": "but I learned a lot",
+            "label": "연결절"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 표어 + 연결절"
+        },
+        "explanation": "이 문장은 두 가지 사실을 연결하여 표현합니다. 'It was hard work'는 일이 힘들었다는 의미이고, 'but I learned a lot'은 하지만 많은 것을 배웠다는 의미입니다.",
+        "grammarPoints": [
+          "but 접속사",
+          "be동사 과거형"
+        ],
+        "examples": [
+          {
+            "en": "Math is difficult, but I enjoy it.",
+            "ko": "수학은 어렵지만 나는 그것을 즐긴다."
+          },
+          {
+            "en": "The movie was boring, but we watched it anyway.",
+            "ko": "그 영화는 지루했지만 우리는 그래도 봤다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "제가 처음 일을 얻었을 때는 열여섯 살이었습니다. 저는 집 근처 작은 빵집에서 일했습니다. 매일 아침 다섯 시에 일어났습니다. 저는 어두운 속에서 빵집으로 걸어갔습니다. 제 일은 빵을 봉투에 넣는 것이었습니다. 빵집은 따뜻하고 좋은 냄새가 났습니다. 저는 그곳에서 일하는 것을 좋아했습니다. 주인은 친절한 노인이셨습니다. 그분은 저에게 쿠키를 만드는 법을 가르쳐 주셨습니다. 저는 그곳에서 2년 동안 일했습니다. 일이 힘들었지만 많이 배웠습니다.",
+  "keyVocab": [
+    "worked",
+    "bakery",
+    "liked",
+    "taught",
+    "learned"
+  ],
+  "quiz": {
+    "question": "'I got my first job when I was sixteen.'에서 'got'의 의미는 무엇인가요?",
+    "answer": "'got'은 '얻다'라는 의미로, 여기서는 '일을 얻다'를 뜻합니다."
+  },
+  "generated_at": "2026-02-20T01:07:29.039761+09:00"
+}

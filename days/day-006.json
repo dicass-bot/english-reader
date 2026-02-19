@@ -1,0 +1,1582 @@
+{
+  "day": 6,
+  "level": 1,
+  "source": {
+    "title": "The Dog and His Shadow",
+    "author": "Aesop",
+    "license": "Public Domain",
+    "url": "https://standardebooks.org"
+  },
+  "passage": "A dog found a piece of meat. He was very happy. He walked home with the meat in his mouth. On the way, he crossed a bridge over a river. He looked down into the water. He saw another dog with meat. It was his own shadow! He wanted that meat too. He opened his mouth to grab it. His own meat fell into the river. Now he had nothing. He learned a lesson that day: be happy with what you have.",
+  "audio": {
+    "passage": "audio/day-006.mp3",
+    "words": {
+      "a": "audio/day-006-a.mp3",
+      "dog": "audio/day-006-dog.mp3",
+      "found": "audio/day-006-found.mp3",
+      "piece": "audio/day-006-piece.mp3",
+      "of": "audio/day-006-of.mp3",
+      "meat": "audio/day-006-meat.mp3",
+      "he": "audio/day-006-he.mp3",
+      "was": "audio/day-006-was.mp3",
+      "very": "audio/day-006-very.mp3",
+      "happy": "audio/day-006-happy.mp3",
+      "walked": "audio/day-006-walked.mp3",
+      "home": "audio/day-006-home.mp3",
+      "with": "audio/day-006-with.mp3",
+      "the": "audio/day-006-the.mp3",
+      "in": "audio/day-006-in.mp3",
+      "his": "audio/day-006-his.mp3",
+      "mouth": "audio/day-006-mouth.mp3",
+      "on": "audio/day-006-on.mp3",
+      "way": "audio/day-006-way.mp3",
+      "crossed": "audio/day-006-crossed.mp3",
+      "bridge": "audio/day-006-bridge.mp3",
+      "over": "audio/day-006-over.mp3",
+      "river": "audio/day-006-river.mp3",
+      "looked": "audio/day-006-looked.mp3",
+      "down": "audio/day-006-down.mp3",
+      "into": "audio/day-006-into.mp3",
+      "water": "audio/day-006-water.mp3",
+      "saw": "audio/day-006-saw.mp3",
+      "another": "audio/day-006-another.mp3",
+      "it": "audio/day-006-it.mp3",
+      "own": "audio/day-006-own.mp3",
+      "shadow": "audio/day-006-shadow.mp3",
+      "wanted": "audio/day-006-wanted.mp3",
+      "that": "audio/day-006-that.mp3",
+      "too": "audio/day-006-too.mp3",
+      "opened": "audio/day-006-opened.mp3",
+      "to": "audio/day-006-to.mp3",
+      "grab": "audio/day-006-grab.mp3",
+      "fell": "audio/day-006-fell.mp3",
+      "now": "audio/day-006-now.mp3",
+      "had": "audio/day-006-had.mp3",
+      "nothing": "audio/day-006-nothing.mp3",
+      "learned": "audio/day-006-learned.mp3",
+      "lesson": "audio/day-006-lesson.mp3",
+      "day": "audio/day-006-day.mp3",
+      "be": "audio/day-006-be.mp3",
+      "what": "audio/day-006-what.mp3",
+      "you": "audio/day-006-you.mp3",
+      "have": "audio/day-006-have.mp3"
+    }
+  },
+  "words": {
+    "a": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "하나의, 한 개의",
+          "en": "one of something",
+          "primary": true
+        },
+        {
+          "ko": "불특정 관사",
+          "en": "indefinite article",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '고기 덩어리 하나'를 나타내기 위해 사용됨",
+      "ipa": "/ˈeɪ/"
+    },
+    "dog": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "개",
+          "en": "canine animal",
+          "primary": true
+        },
+        {
+          "ko": "사람을 비유적으로 표현할 때",
+          "en": "used metaphorically for people",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이야기의 주인공인 동물 개를 의미함",
+      "forms": {
+        "base": "dog",
+        "tense": "present",
+        "related": [
+          "dogs"
+        ]
+      },
+      "ipa": "/ˈdɔɡ/"
+    },
+    "found": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "찾다",
+          "en": "discovered something",
+          "primary": true
+        },
+        {
+          "ko": "생각하다",
+          "en": "realized or thought",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 고기를 발견했다는 의미로 과거 시제로 표현됨",
+      "forms": {
+        "base": "find",
+        "tense": "past",
+        "related": [
+          "finding",
+          "found"
+        ]
+      },
+      "ipa": "/ˈfaʊnd/"
+    },
+    "piece": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "조각, 덩어리",
+          "en": "a part of something",
+          "primary": true
+        },
+        {
+          "ko": "단계, 조항",
+          "en": "section or item",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "'고기 덩어리'라는 의미로 사용됨",
+      "forms": {
+        "base": "piece",
+        "tense": "present",
+        "related": [
+          "pieces"
+        ]
+      },
+      "ipa": "/ˈpis/"
+    },
+    "of": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~의 일부",
+          "en": "belonging to or part of",
+          "primary": true
+        },
+        {
+          "ko": "~에 대해",
+          "en": "about or concerning",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "'고기 덩어리'를 구성하는 요소임을 나타냄",
+      "ipa": "/ˈəv/"
+    },
+    "meat": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "고기",
+          "en": "animal flesh eaten as food",
+          "primary": true
+        },
+        {
+          "ko": "핵심, 중요한 내용",
+          "en": "main point or substance",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 찾은 음식인 고기를 의미함",
+      "forms": {
+        "base": "meat",
+        "tense": "present",
+        "related": [
+          "meats"
+        ]
+      },
+      "ipa": "/ˈmit/"
+    },
+    "he": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그(남성 대명사)",
+          "en": "male person referred to previously",
+          "primary": true
+        },
+        {
+          "ko": "무엇인가를 가리키는 대명사",
+          "en": "refers to subject",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "앞서 언급한 개를 지칭하기 위해 사용됨",
+      "ipa": "/ˈhi/"
+    },
+    "was": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "이다의 과거형",
+          "en": "past form of 'to be'",
+          "primary": true
+        },
+        {
+          "ko": "상태를 나타냄",
+          "en": "indicates condition or state",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "그림자라는 사실을 설명하는 상태를 나타냄",
+      "forms": {
+        "base": "be",
+        "tense": "past",
+        "related": [
+          "is",
+          "were",
+          "being",
+          "been"
+        ]
+      },
+      "ipa": "/ˈwɑz/"
+    },
+    "very": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "매우, 정말로",
+          "en": "extremely or really",
+          "primary": true
+        },
+        {
+          "ko": "강조 어휘",
+          "en": "emphasizing word",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "행복함의 강도를 강조하여 표현하기 위해 사용됨",
+      "forms": {
+        "base": "very",
+        "tense": "present",
+        "related": []
+      },
+      "ipa": "/ˈvɛɹi/"
+    },
+    "happy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "행복한",
+          "en": "feeling joy or pleasure",
+          "primary": true
+        },
+        {
+          "ko": "만족스러운",
+          "en": "contented or pleased",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 얻어야 할 태도인 행복함을 나타냄",
+      "forms": {
+        "base": "happy",
+        "tense": "present",
+        "related": [
+          "happier",
+          "happiest",
+          "unhappy"
+        ]
+      },
+      "ipa": "/ˈhæpi/"
+    },
+    "walked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "걷다",
+          "en": "moved on foot",
+          "primary": true
+        },
+        {
+          "ko": "움직이다",
+          "en": "traveled by walking",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 집으로 걸어갔다는 과거 행동을 나타냄",
+      "forms": {
+        "base": "walk",
+        "tense": "past",
+        "related": [
+          "walking",
+          "walks"
+        ]
+      },
+      "ipa": "/ˈwɔkt/"
+    },
+    "home": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "집",
+          "en": "place where one lives",
+          "primary": true
+        },
+        {
+          "ko": "고향, 본래 장소",
+          "en": "original place or origin",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 돌아가려는 목적지인 집을 의미함",
+      "forms": {
+        "base": "home",
+        "tense": "present",
+        "related": [
+          "homes"
+        ]
+      },
+      "ipa": "/ˈhoʊm/"
+    },
+    "with": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~와 함께",
+          "en": "accompanied by",
+          "primary": true
+        },
+        {
+          "ko": "~을 가지고",
+          "en": "having or carrying",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "무엇을 가지고 있어야 하는지를 나타냄",
+      "ipa": "/ˈwɪð/"
+    },
+    "the": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "특정한 것",
+          "en": "specific thing mentioned before",
+          "primary": true
+        },
+        {
+          "ko": "유일한 것",
+          "en": "unique or only one",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "앞서 언급한 다리를 다시 지칭하기 위해 사용됨",
+      "ipa": "/ˈðə/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안에",
+          "en": "inside or within",
+          "primary": true
+        },
+        {
+          "ko": "~중에",
+          "en": "during or among",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "고기가 개의 입 안에 있다는 위치를 나타냄",
+      "ipa": "/ˈɪn/"
+    },
+    "his": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "그의",
+          "en": "belonging to him",
+          "primary": true
+        },
+        {
+          "ko": "그 사람의",
+          "en": "ownership by male person",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개 자신의 그림자를 나타냄",
+      "ipa": "/ˈhɪz/"
+    },
+    "mouth": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "입",
+          "en": "opening in face for eating/talking",
+          "primary": true
+        },
+        {
+          "ko": "표현 방식",
+          "en": "way of expressing",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 고기를 떨어뜨리기 위해 벌린 입을 의미함",
+      "forms": {
+        "base": "mouth",
+        "tense": "present",
+        "related": [
+          "mouths"
+        ]
+      },
+      "ipa": "/ˈmaʊθ/"
+    },
+    "on": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~위에",
+          "en": "above surface",
+          "primary": true
+        },
+        {
+          "ko": "~도중에",
+          "en": "during journey or process",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "걸어가는 도중에 다리를 건넜다는 시간적 맥락을 나타냄",
+      "ipa": "/ˈɑn/"
+    },
+    "way": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "길, 경로",
+          "en": "path or route taken",
+          "primary": true
+        },
+        {
+          "ko": "방법",
+          "en": "method or manner",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 걷고 있었던 길을 의미함",
+      "forms": {
+        "base": "way",
+        "tense": "present",
+        "related": [
+          "ways"
+        ]
+      },
+      "ipa": "/ˈweɪ/"
+    },
+    "crossed": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "건너다",
+          "en": "went across",
+          "primary": true
+        },
+        {
+          "ko": "교차하다",
+          "en": "intersected",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 다리를 건넜다는 과거 행동을 나타냄",
+      "forms": {
+        "base": "cross",
+        "tense": "past",
+        "related": [
+          "crossing",
+          "crosses"
+        ]
+      },
+      "ipa": "/ˈkɹɔst/"
+    },
+    "bridge": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "다리",
+          "en": "structure over water or road",
+          "primary": true
+        },
+        {
+          "ko": "연결 수단",
+          "en": "means of connection",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 걸어가면서 건너야 하는 구조물인 다리를 의미함",
+      "forms": {
+        "base": "bridge",
+        "tense": "present",
+        "related": [
+          "bridges"
+        ]
+      },
+      "ipa": "/ˈbɹɪdʒ/"
+    },
+    "over": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~위로",
+          "en": "above or covering",
+          "primary": true
+        },
+        {
+          "ko": "~보다 더",
+          "en": "greater than",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "다리가 강 위에 있다는 공간적 관계를 나타냄",
+      "ipa": "/ˈoʊvɝ/"
+    },
+    "river": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "강",
+          "en": "flowing body of water",
+          "primary": true
+        },
+        {
+          "ko": "흐름, 변화",
+          "en": "symbolizes flow or change",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "고기가 떨어진 목적지인 강을 의미함",
+      "forms": {
+        "base": "river",
+        "tense": "present",
+        "related": [
+          "rivers"
+        ]
+      },
+      "ipa": "/ˈɹɪvɝ/"
+    },
+    "looked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "보다",
+          "en": "directed gaze",
+          "primary": true
+        },
+        {
+          "ko": "조사하다",
+          "en": "examined carefully",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 물속을 바라보았다는 과거 행동을 나타냄",
+      "forms": {
+        "base": "look",
+        "tense": "past",
+        "related": [
+          "looking",
+          "looks"
+        ]
+      },
+      "ipa": "/ˈɫʊkt/"
+    },
+    "down": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "아래로",
+          "en": "in downward direction",
+          "primary": true
+        },
+        {
+          "ko": "감소해서",
+          "en": "decreasingly",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 아래쪽을 보았다는 방향성을 나타냄",
+      "ipa": "/ˈdaʊn/"
+    },
+    "into": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안으로",
+          "en": "within or inside",
+          "primary": true
+        },
+        {
+          "ko": "~쪽으로",
+          "en": "toward interior",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "고기가 강 안쪽으로 떨어졌다는 공간적 관계를 나타냄",
+      "ipa": "/ˈɪntu/"
+    },
+    "water": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "물",
+          "en": "liquid H2O",
+          "primary": true
+        },
+        {
+          "ko": "강이나 바다",
+          "en": "body of liquid",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "강 안에 있는 액체인 물을 의미함",
+      "forms": {
+        "base": "water",
+        "tense": "present",
+        "related": [
+          "waters"
+        ]
+      },
+      "ipa": "/ˈwɔtɝ/"
+    },
+    "saw": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "보다",
+          "en": "perceived visually",
+          "primary": true
+        },
+        {
+          "ko": "경험하다",
+          "en": "witnessed",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 다른 개를 목격했다는 과거 경험을 나타냄",
+      "forms": {
+        "base": "see",
+        "tense": "past",
+        "related": [
+          "seeing",
+          "sees"
+        ]
+      },
+      "ipa": "/ˈsɔ/"
+    },
+    "another": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "또 다른 하나의",
+          "en": "additional or different",
+          "primary": true
+        },
+        {
+          "ko": "다른",
+          "en": "not same as previous",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "처음 본 개와는 다른 또 하나의 개를 의미함",
+      "ipa": "/əˈnəðɝ/"
+    },
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "thing previously mentioned",
+          "primary": true
+        },
+        {
+          "ko": "대상을 가리킴",
+          "en": "refers to object",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "그림자의 고기를 가리키는 대명사로 사용됨",
+      "ipa": "/ˈɪt/"
+    },
+    "own": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "자신의",
+          "en": "belonging personally",
+          "primary": true
+        },
+        {
+          "ko": "고유한",
+          "en": "exclusive or unique",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "그림자가 개 자신이라는 사실을 강조함",
+      "forms": {
+        "base": "own",
+        "tense": "present",
+        "related": []
+      },
+      "ipa": "/ˈoʊn/"
+    },
+    "shadow": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "그림자",
+          "en": "dark image cast by light",
+          "primary": true
+        },
+        {
+          "ko": "존재, 영향력",
+          "en": "presence or influence",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "물속에 비친 개 자신의 반사상을 의미함",
+      "forms": {
+        "base": "shadow",
+        "tense": "present",
+        "related": [
+          "shadows"
+        ]
+      },
+      "ipa": "/ˈʃæˌdoʊ/"
+    },
+    "wanted": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "원하다",
+          "en": "desired or wished for",
+          "primary": true
+        },
+        {
+          "ko": "필요하다",
+          "en": "needed or required",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 그림자의 고기를 얻고 싶어했던 욕망을 나타냄",
+      "forms": {
+        "base": "want",
+        "tense": "past",
+        "related": [
+          "wanting",
+          "wants"
+        ]
+      },
+      "ipa": "/ˈwɔntɪd/"
+    },
+    "that": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "그것의",
+          "en": "specifically mentioned",
+          "primary": true
+        },
+        {
+          "ko": "지시하는",
+          "en": "pointing out",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "그날 얻은 교훈을 가리키는 지시어로 사용됨",
+      "ipa": "/ˈðæt/"
+    },
+    "too": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "또한, 역시",
+          "en": "also or as well",
+          "primary": true
+        },
+        {
+          "ko": "과도하게",
+          "en": "excessively",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "그림자의 고기도 원한다는 추가적인 욕망을 나타냄",
+      "ipa": "/ˈtu/"
+    },
+    "opened": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "열다",
+          "en": "made wider or available",
+          "primary": true
+        },
+        {
+          "ko": "시작하다",
+          "en": "began or initiated",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 입을 벌렸다는 과거 행동을 나타냄",
+      "forms": {
+        "base": "open",
+        "tense": "past",
+        "related": [
+          "opening",
+          "opens"
+        ]
+      },
+      "ipa": "/ˈoʊpənd/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~하기 위해",
+          "en": "purpose or intention",
+          "primary": true
+        },
+        {
+          "ko": "~까지",
+          "en": "direction or destination",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "그림자의 고기를 잡으려는 목적을 나타냄",
+      "ipa": "/ˈtu/"
+    },
+    "grab": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "잡다",
+          "en": "take hold of quickly",
+          "primary": true
+        },
+        {
+          "ko": "차지하다",
+          "en": "seize or capture",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "그림자의 고기를 빼앗으려는 행동을 나타냄",
+      "forms": {
+        "base": "grab",
+        "tense": "present",
+        "related": [
+          "grabbed",
+          "grabbing"
+        ]
+      },
+      "ipa": "/ˈɡɹæb/"
+    },
+    "fell": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "떨어지다",
+          "en": "dropped or descended",
+          "primary": true
+        },
+        {
+          "ko": "실패하다",
+          "en": "failed or collapsed",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개의 고기가 강으로 떨어졌다는 과거 사건을 나타냄",
+      "forms": {
+        "base": "fall",
+        "tense": "past",
+        "related": [
+          "falling",
+          "falls"
+        ]
+      },
+      "ipa": "/ˈfɛɫ/"
+    },
+    "now": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "지금",
+          "en": "current moment",
+          "primary": true
+        },
+        {
+          "ko": "결과적으로",
+          "en": "as a result",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "고기를 모두 잃은 현재의 상황을 나타냄",
+      "ipa": "/ˈnaʊ/"
+    },
+    "had": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "갖고 있었다",
+          "en": "possessed or owned",
+          "primary": true
+        },
+        {
+          "ko": "경험했다",
+          "en": "experienced or underwent",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 아무 것도 가지지 못한 상태를 나타냄",
+      "forms": {
+        "base": "have",
+        "tense": "past",
+        "related": [
+          "having",
+          "has"
+        ]
+      },
+      "ipa": "/ˈhæd/"
+    },
+    "nothing": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "아무것도 아닌 것",
+          "en": "absence of anything",
+          "primary": true
+        },
+        {
+          "ko": "존재하지 않음",
+          "en": "nonexistence",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 모든 것을 잃었음을 나타냄",
+      "ipa": "/ˈnəθɪŋ/"
+    },
+    "learned": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "배웠다",
+          "en": "gained knowledge",
+          "primary": true
+        },
+        {
+          "ko": "알게 되었다",
+          "en": "became aware of",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 교훈을 얻었다는 과거 경험을 나타냄",
+      "forms": {
+        "base": "learn",
+        "tense": "past",
+        "related": [
+          "learning",
+          "learns"
+        ]
+      },
+      "ipa": "/ˈɫɝnd/"
+    },
+    "lesson": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "교훈, 교육",
+          "en": "teaching or moral message",
+          "primary": true
+        },
+        {
+          "ko": "수업",
+          "en": "class or instruction",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 얻은 인생의 교훈을 의미함",
+      "forms": {
+        "base": "lesson",
+        "tense": "present",
+        "related": [
+          "lessons"
+        ]
+      },
+      "ipa": "/ˈɫɛsən/"
+    },
+    "day": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "하루",
+          "en": "period of daylight",
+          "primary": true
+        },
+        {
+          "ko": "시기",
+          "en": "time or occasion",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 교훈을 얻었던 특정한 날을 의미함",
+      "forms": {
+        "base": "day",
+        "tense": "present",
+        "related": [
+          "days"
+        ]
+      },
+      "ipa": "/ˈdeɪ/"
+    },
+    "be": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "exist or equal",
+          "primary": true
+        },
+        {
+          "ko": "상태를 나타낸다",
+          "en": "indicate condition",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "행복해야 한다는 명령형의 기본 동사를 나타냄",
+      "forms": {
+        "base": "be",
+        "tense": "present",
+        "related": [
+          "is",
+          "was",
+          "were",
+          "being",
+          "been"
+        ]
+      },
+      "ipa": "/ˈbi/"
+    },
+    "what": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "무엇",
+          "en": "something unknown",
+          "primary": true
+        },
+        {
+          "ko": "모든 것",
+          "en": "everything",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 만족해야 할 대상을 묻는 의문어로 사용됨",
+      "ipa": "/ˈhwət/"
+    },
+    "you": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "당신",
+          "en": "person being addressed",
+          "primary": true
+        },
+        {
+          "ko": "말하는 대상",
+          "en": "listener or reader",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 말하는 대상인 독자를 포함한 일반적인 사람을 의미함",
+      "ipa": "/ˈju/"
+    },
+    "have": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "갖고 있다",
+          "en": "possess or own",
+          "primary": true
+        },
+        {
+          "ko": "경험하다",
+          "en": "experience or undergo",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "개가 이미 가지고 있는 것을 나타냄",
+      "forms": {
+        "base": "have",
+        "tense": "present",
+        "related": [
+          "having",
+          "had",
+          "has"
+        ]
+      },
+      "ipa": "/ˈhæv/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "A dog found a piece of meat.",
+        "structure": {
+          "subject": {
+            "text": "A dog",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "found",
+            "label": "동사"
+          },
+          "object": {
+            "text": "a piece of meat",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 간단한 SVO 구조입니다. 'A dog'(주어)가 'found'(동사)라는 과거형 동사를 통해 'a piece of meat'(목적어)를 찾았다는 사실을 전달합니다. 이는 일반적인 서술문이며, 과거 시제(past tense)를 사용하고 있습니다.",
+        "grammarPoints": [
+          "be동사 과거형",
+          "목적어 사용법"
+        ],
+        "examples": [
+          {
+            "en": "She bought a book.",
+            "ko": "그녀는 책 한 권을 샀다."
+          },
+          {
+            "en": "He saw a bird.",
+            "ko": "그는 새 한 마리를 보았다."
+          }
+        ]
+      },
+      {
+        "text": "He was very happy.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "very happy",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 주어와 동사, 그리고 보어로 구성된 S+V+C 구조입니다. 'was'는 be동사의 과거형이며, 'very happy'는 주어의 상태를 설명하는 보어입니다. 이 문장은 개의 감정 상태를 설명합니다.",
+        "grammarPoints": [
+          "be동사 과거형",
+          "형용사 보어 사용법"
+        ],
+        "examples": [
+          {
+            "en": "I was tired.",
+            "ko": "나는 피곤했다."
+          },
+          {
+            "en": "They were excited.",
+            "ko": "그들은 흥분해 있었다."
+          }
+        ]
+      },
+      {
+        "text": "He walked home with the meat in his mouth.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "walked",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "home",
+            "label": "보어"
+          },
+          "object": {
+            "text": "the meat in his mouth",
+            "label": "부사구"
+          }
+        },
+        "pattern": {
+          "name": "S+V+AdvP",
+          "note": "주어 + 동사 + 부사구"
+        },
+        "explanation": "이 문장은 주어('He')가 동사('walked')를 수행하면서 'home'(보어)으로 가는 것을 설명합니다. 'with the meat in his mouth'는 부사구로 동작의 방식이나 조건을 설명합니다. 과거 시제를 사용하고 있으며, 장소와 상태를 동시에 표현하고 있습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "부사구 사용법"
+        ],
+        "examples": [
+          {
+            "en": "She came back with flowers.",
+            "ko": "그녀는 꽃을 들고 돌아왔다."
+          },
+          {
+            "en": "He ran away with his bag.",
+            "ko": "그는 가방을 들고 도망쳤다."
+          }
+        ]
+      },
+      {
+        "text": "On the way, he crossed a bridge over a river.",
+        "structure": {
+          "subject": {
+            "text": "he",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "crossed",
+            "label": "동사"
+          },
+          "object": {
+            "text": "a bridge over a river",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 주어('he')가 동사('crossed')를 통해 목적어('a bridge over a river')를 건넜다는 내용입니다. 'On the way'는 시간적 맥락을 제공하는 부사구이며, 전체적으로 과거 시제를 사용하고 있습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "부사구 사용법"
+        ],
+        "examples": [
+          {
+            "en": "We passed a park near school.",
+            "ko": "우리는 학교 근처 공원을 지났다."
+          },
+          {
+            "en": "They climbed a hill behind the house.",
+            "ko": "그들은 집 뒤 언덕을 올랐다."
+          }
+        ]
+      },
+      {
+        "text": "He looked down into the water.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "looked",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "down into the water",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+Adv",
+          "note": "주어 + 동사 + 부사"
+        },
+        "explanation": "이 문장은 주어('He')가 동사('looked')를 수행하면서 'down into the water'라는 방향과 위치를 나타내는 부사를 함께 사용했습니다. 과거 시제이며, 동작의 방향성을 강조하고 있습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "방향 부사 사용법"
+        ],
+        "examples": [
+          {
+            "en": "She looked up at the sky.",
+            "ko": "그녀는 하늘을 올려다보았다."
+          },
+          {
+            "en": "He pointed forward toward the door.",
+            "ko": "그는 문 쪽으로 손가락질했다."
+          }
+        ]
+      },
+      {
+        "text": "He saw another dog with meat.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "saw",
+            "label": "동사"
+          },
+          "object": {
+            "text": "another dog with meat",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 주어('He')가 동사('saw')를 통해 목적어('another dog with meat')를 보았다는 사실을 전달합니다. 'with meat'는 'another dog'를 수식하는 형용사구입니다. 과거 시제를 사용하고 있으며, 시각적 경험을 표현하고 있습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사구 수식"
+        ],
+        "examples": [
+          {
+            "en": "I saw a cat with a toy.",
+            "ko": "나는 장난감을 가진 고양이를 보았다."
+          },
+          {
+            "en": "They met a man with glasses.",
+            "ko": "그들은 안경을 낀 남자를 만났다."
+          }
+        ]
+      },
+      {
+        "text": "It was his own shadow!",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "his own shadow",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 주어('It')가 동사('was')를 통해 보어('his own shadow')라는 사실을 밝히고 있습니다. 느낌표(!)를 사용해 놀라움을 표현했으며, 진실을 깨닫는 순간을 강조하고 있습니다. 과거 시제이며, 설명문의 성격을 띱니다.",
+        "grammarPoints": [
+          "be동사 과거형",
+          "감탄문 형식"
+        ],
+        "examples": [
+          {
+            "en": "That was my mistake!",
+            "ko": "그것이 내 실수였다!"
+          },
+          {
+            "en": "This is our chance!",
+            "ko": "이것이 우리의 기회다!"
+          }
+        ]
+      },
+      {
+        "text": "He wanted that meat too.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "wanted",
+            "label": "동사"
+          },
+          "object": {
+            "text": "that meat too",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 주어('He')가 동사('wanted')를 통해 목적어('that meat too')를 원한다는 욕망을 표현합니다. 'too'는 추가적인 욕망을 나타내며, 과거 시제를 사용하고 있습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "목적어 사용법"
+        ],
+        "examples": [
+          {
+            "en": "She wanted some coffee too.",
+            "ko": "그녀도 커피를 원했다."
+          },
+          {
+            "en": "They needed help too.",
+            "ko": "그들도 도움이 필요했다."
+          }
+        ]
+      },
+      {
+        "text": "He opened his mouth to grab it.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "opened",
+            "label": "동사"
+          },
+          "object": {
+            "text": "his mouth",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "to grab it",
+            "label": "목적 부사"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+Adv",
+          "note": "주어 + 동사 + 목적어 + 부사"
+        },
+        "explanation": "이 문장은 주어('He')가 동사('opened')를 통해 목적어('his mouth')를 열었고, 그 목적은 'to grab it'이라는 부사구로 설명됩니다. 'to grab it'은 to부정사로 동작의 목적을 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "to부정사 목적 표현"
+        ],
+        "examples": [
+          {
+            "en": "She studied hard to pass the test.",
+            "ko": "그녀는 시험에 통과하기 위해 열심히 공부했다."
+          },
+          {
+            "en": "He ran fast to catch the bus.",
+            "ko": "그는 버스를 타기 위해 빨리 달렸다."
+          }
+        ]
+      },
+      {
+        "text": "His own meat fell into the river.",
+        "structure": {
+          "subject": {
+            "text": "His own meat",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "fell",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "into the river",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+Adv",
+          "note": "주어 + 동사 + 부사"
+        },
+        "explanation": "이 문장은 주어('His own meat')가 동사('fell')를 통해 'into the river'라는 방향으로 떨어졌다는 내용입니다. 과거 시제이며, 결과적인 상황을 설명하고 있습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "방향 부사 사용법"
+        ],
+        "examples": [
+          {
+            "en": "The ball rolled into the garden.",
+            "ko": "공이 정원 안으로 굴렀다."
+          },
+          {
+            "en": "Books dropped onto the floor.",
+            "ko": "책들이 바닥 위로 떨어졌다."
+          }
+        ]
+      },
+      {
+        "text": "Now he had nothing.",
+        "structure": {
+          "subject": {
+            "text": "he",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "had",
+            "label": "동사"
+          },
+          "object": {
+            "text": "nothing",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 주어('he')가 동사('had')를 통해 목적어('nothing')를 가지게 되었다는 상태를 설명합니다. 'Now'는 시간적 맥락을 제공하며, 결과적인 상황을 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "부정어 사용법"
+        ],
+        "examples": [
+          {
+            "en": "She had no money.",
+            "ko": "그녀는 돈이 없었다."
+          },
+          {
+            "en": "They had no time.",
+            "ko": "그들에게는 시간이 없었다."
+          }
+        ]
+      },
+      {
+        "text": "He learned a lesson that day: be happy with what you have.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "learned",
+            "label": "동사"
+          },
+          "object": {
+            "text": "a lesson that day",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "be happy with what you have",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 주어('He')가 동사('learned')를 통해 목적어('a lesson that day')를 배웠고, 그 내용은 보어('be happy with what you have')로 설명됩니다. ':' 다음에 오는 부분은 직접 인용처럼 교훈을 강조합니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "명령형 사용법"
+        ],
+        "examples": [
+          {
+            "en": "She taught me a rule: always be kind.",
+            "ko": "그녀는 나에게 항상 친절하라고 가르쳐 주었다."
+          },
+          {
+            "en": "They showed us a truth: honesty matters.",
+            "ko": "그들은 우리에게 정직이 중요하다는 진실을 보여주었다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "개 한 마리가 고기 덩어리를 발견했다. 그는 매우 행복했다. 그는 입 안에 고기를 물고 집으로 걸어갔다. 가는 길에 강 위에 놓인 다리를 건넜다. 그는 물속을 내려다보았다. 그는 고기를 물고 있는 또 다른 개를 보았다. 그것은 자기 자신의 그림자였다! 그도 그 고기를 원했다. 그는 그것을 잡으려고 입을 벌렸다. 하지만 자기 고기는 강으로 떨어졌다. 이제 그는 아무것도 가지지 못했다. 그날 그는 교훈을 배웠다: 당신이 가진 것으로 만족하세요.",
+  "keyVocab": [
+    "found",
+    "happy",
+    "walked",
+    "crossed",
+    "shadow"
+  ],
+  "quiz": {
+    "question": "개가 고기를 떨어뜨린 이유는 무엇인가요?",
+    "answer": "그림자의 고기를 잡으려고 입을 벌렸기 때문입니다."
+  },
+  "generated_at": "2026-02-20T01:15:07.875148+09:00"
+}

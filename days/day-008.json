@@ -1,0 +1,1506 @@
+{
+  "day": 8,
+  "level": 1,
+  "source": {
+    "title": "The Wind and the Sun",
+    "author": "Aesop",
+    "license": "Public Domain",
+    "url": "https://standardebooks.org"
+  },
+  "passage": "The wind and the sun had an argument. They saw a man walking on the road. \"I am stronger than you,\" said the wind. \"Let us see who can make the man take off his coat.\" The wind blew hard. The man held his coat tighter. The wind blew harder. The man buttoned his coat. Then the sun tried. The sun shone bright and warm. The man felt hot. He took off his coat. The sun won. Kindness works better than force.",
+  "audio": {
+    "passage": "audio/day-008.mp3",
+    "words": {
+      "the": "audio/day-008-the.mp3",
+      "wind": "audio/day-008-wind.mp3",
+      "and": "audio/day-008-and.mp3",
+      "sun": "audio/day-008-sun.mp3",
+      "had": "audio/day-008-had.mp3",
+      "an": "audio/day-008-an.mp3",
+      "argument": "audio/day-008-argument.mp3",
+      "they": "audio/day-008-they.mp3",
+      "saw": "audio/day-008-saw.mp3",
+      "a": "audio/day-008-a.mp3",
+      "man": "audio/day-008-man.mp3",
+      "walking": "audio/day-008-walking.mp3",
+      "on": "audio/day-008-on.mp3",
+      "road": "audio/day-008-road.mp3",
+      "i": "audio/day-008-i.mp3",
+      "am": "audio/day-008-am.mp3",
+      "stronger": "audio/day-008-stronger.mp3",
+      "than": "audio/day-008-than.mp3",
+      "you": "audio/day-008-you.mp3",
+      "said": "audio/day-008-said.mp3",
+      "let": "audio/day-008-let.mp3",
+      "us": "audio/day-008-us.mp3",
+      "see": "audio/day-008-see.mp3",
+      "who": "audio/day-008-who.mp3",
+      "can": "audio/day-008-can.mp3",
+      "make": "audio/day-008-make.mp3",
+      "take": "audio/day-008-take.mp3",
+      "off": "audio/day-008-off.mp3",
+      "his": "audio/day-008-his.mp3",
+      "coat": "audio/day-008-coat.mp3",
+      "buttoned": "audio/day-008-buttoned.mp3",
+      "then": "audio/day-008-then.mp3",
+      "shone": "audio/day-008-shone.mp3",
+      "bright": "audio/day-008-bright.mp3",
+      "warm": "audio/day-008-warm.mp3",
+      "felt": "audio/day-008-felt.mp3",
+      "hot": "audio/day-008-hot.mp3",
+      "he": "audio/day-008-he.mp3",
+      "took": "audio/day-008-took.mp3",
+      "won": "audio/day-008-won.mp3",
+      "kindness": "audio/day-008-kindness.mp3",
+      "works": "audio/day-008-works.mp3",
+      "better": "audio/day-008-better.mp3",
+      "force": "audio/day-008-force.mp3"
+    }
+  },
+  "words": {
+    "the": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "그, 그녀, 그것",
+          "en": "used to refer to something already mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이미 언급되었거나 특정한 바람과 태양을 가리키기 위해 사용됨",
+      "ipa": "/ˈðə/"
+    },
+    "wind": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "바람",
+          "en": "moving air",
+          "primary": true
+        },
+        {
+          "ko": "감기다",
+          "en": "to twist or turn something around",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '움직이는 공기'라는 의미로 사용됨",
+      "forms": {
+        "base": "wind",
+        "tense": "present",
+        "related": []
+      },
+      "ipa": "/ˈwaɪnd/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or phrases",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 명사('바람'과 '태양')를 연결하기 위해 사용됨",
+      "ipa": "/ˈænd/"
+    },
+    "sun": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "태양",
+          "en": "the star that gives light and heat to Earth",
+          "primary": true
+        },
+        {
+          "ko": "햇살",
+          "en": "sunlight",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "지구에 빛과 열을 주는 천체를 의미함",
+      "forms": {
+        "base": "sun",
+        "tense": "present",
+        "related": []
+      },
+      "ipa": "/ˈsən/"
+    },
+    "had": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "소유하다",
+          "en": "possess",
+          "primary": false
+        },
+        {
+          "ko": "하다",
+          "en": "do or perform an action",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "'have'의 과거형으로, '논쟁을 하였다'는 의미로 사용됨",
+      "forms": {
+        "base": "have",
+        "tense": "past",
+        "related": [
+          "has",
+          "having",
+          "had"
+        ]
+      },
+      "ipa": "/ˈhæd/"
+    },
+    "an": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "used before singular noun starting with vowel sound",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "단수 명사 앞에 모음 발음으로 시작되는 단어에 쓰임 ('argument')",
+      "ipa": "/ˈæn/"
+    },
+    "argument": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "논쟁",
+          "en": "a discussion where there is disagreement",
+          "primary": true
+        },
+        {
+          "ko": "주장",
+          "en": "reason given in support of idea",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "서로 다른 의견을 내세우며 벌이는 논쟁을 나타냄",
+      "forms": {
+        "base": "argument",
+        "tense": "present",
+        "related": [
+          "arguments"
+        ]
+      },
+      "ipa": "/ˈɑɹɡjəmənt/"
+    },
+    "they": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그들은",
+          "en": "refers to people previously mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "앞서 언급한 바람과 태양을 지칭함",
+      "ipa": "/ˈðeɪ/"
+    },
+    "saw": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "보다",
+          "en": "perceive with eyes",
+          "primary": true
+        },
+        {
+          "ko": "톱으로 자르다",
+          "en": "cut with a saw tool",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "'see'의 과거형으로, '그들이 사람을 보았다'는 의미로 사용됨",
+      "forms": {
+        "base": "see",
+        "tense": "past",
+        "related": [
+          "seeing",
+          "seen"
+        ]
+      },
+      "ipa": "/ˈsɔ/"
+    },
+    "a": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "used before singular noun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "특정하지 않은 한 사람을 나타내기 위해 사용됨",
+      "ipa": "/ˈeɪ/"
+    },
+    "man": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "남자",
+          "en": "adult male human being",
+          "primary": true
+        },
+        {
+          "ko": "사람",
+          "en": "human being",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이야기 속에서 비교 대상이 되는 남자를 나타냄",
+      "forms": {
+        "base": "man",
+        "tense": "present",
+        "related": [
+          "men"
+        ]
+      },
+      "ipa": "/ˈmæn/"
+    },
+    "walking": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "걷고 있다",
+          "en": "move at regular pace by lifting feet",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사람이 현재 진행 중인 동작을 표현함",
+      "forms": {
+        "base": "walk",
+        "tense": "present participle",
+        "related": [
+          "walked",
+          "walks"
+        ]
+      },
+      "ipa": "/ˈwɔkɪŋ/"
+    },
+    "on": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~ 위에",
+          "en": "supported by surface",
+          "primary": true
+        },
+        {
+          "ko": "~ 동안",
+          "en": "during time period",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "도로 위에 위치하고 있다는 것을 나타냄",
+      "ipa": "/ˈɑn/"
+    },
+    "road": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "길",
+          "en": "path between two places for vehicles/pedestrians",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사람이 걷고 있는 경로를 의미함",
+      "forms": {
+        "base": "road",
+        "tense": "present",
+        "related": [
+          "roads"
+        ]
+      },
+      "ipa": "/ˈɹoʊd/"
+    },
+    "i": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "나는",
+          "en": "first person pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 자기 자신을 가리킬 때 사용됨",
+      "ipa": "/ˈaɪ/"
+    },
+    "am": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "used to describe state or identity",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자의 상태나 특성을 설명하기 위해 사용됨",
+      "forms": {
+        "base": "be",
+        "tense": "present",
+        "related": [
+          "is",
+          "are",
+          "was",
+          "were",
+          "being",
+          "been"
+        ]
+      },
+      "ipa": "/ˈæm/"
+    },
+    "stronger": {
+      "pos": "adjective (comparative)",
+      "meanings": [
+        {
+          "ko": "더 강한",
+          "en": "more powerful or capable",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비교급으로, 바람이 태양보다 더 강하다는 것을 표현함",
+      "forms": {
+        "base": "strong",
+        "tense": "comparative",
+        "related": [
+          "strongest"
+        ]
+      },
+      "ipa": "/ˈstɹɔŋɝ/"
+    },
+    "than": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "~보다",
+          "en": "used to compare things",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "친절과 폭력을 비교하기 위해 사용됨",
+      "ipa": "/ˈðæn/"
+    },
+    "you": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "당신",
+          "en": "second person pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "대화 상대인 태양을 가리킴",
+      "ipa": "/ˈju/"
+    },
+    "said": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "말했다",
+          "en": "expressed in words",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자의 말을 인용하기 위해 사용됨",
+      "forms": {
+        "base": "say",
+        "tense": "past",
+        "related": [
+          "says",
+          "saying"
+        ]
+      },
+      "ipa": "/ˈsɛd/"
+    },
+    "let": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "시키다",
+          "en": "allow someone to do something",
+          "primary": true
+        },
+        {
+          "ko": "놓게 하다",
+          "en": "permit freedom of movement",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "함께 무엇인가를 해보자고 제안하는 의미로 사용됨",
+      "forms": {
+        "base": "let",
+        "tense": "present",
+        "related": [
+          "lets",
+          "letting"
+        ]
+      },
+      "ipa": "/ˈɫɛt/"
+    },
+    "us": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "우리",
+          "en": "first person plural pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람과 태양 모두를 포함한 화자를 가리킴",
+      "ipa": "/ˈəs/"
+    },
+    "see": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "보다",
+          "en": "look at or perceive visually",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "결과를 확인해보자는 의미로 사용됨",
+      "forms": {
+        "base": "see",
+        "tense": "present",
+        "related": [
+          "saw",
+          "seen",
+          "seeing"
+        ]
+      },
+      "ipa": "/ˈsi/"
+    },
+    "who": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "누가",
+          "en": "used to ask about person",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "어떤 사람이 행동을 할 수 있는지를 묻는 질문으로 사용됨",
+      "ipa": "/ˈhu/"
+    },
+    "can": {
+      "pos": "modal verb",
+      "meanings": [
+        {
+          "ko": "할 수 있다",
+          "en": "ability to do something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "능력이나 가능성을 표현하기 위해 사용됨",
+      "ipa": "/ˈkæn/"
+    },
+    "make": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "만들다",
+          "en": "create or produce something",
+          "primary": false
+        },
+        {
+          "ko": "하게 만들다",
+          "en": "cause someone to do something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사람이 어떤 행동을 하도록 유도한다는 의미로 사용됨",
+      "forms": {
+        "base": "make",
+        "tense": "present",
+        "related": [
+          "made",
+          "making"
+        ]
+      },
+      "ipa": "/ˈmeɪk/"
+    },
+    "take": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "가져가다",
+          "en": "carry or bring along",
+          "primary": true
+        },
+        {
+          "ko": "입다",
+          "en": "put on clothing",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "옷을 몸에서 떼어내는 동작을 표현함",
+      "forms": {
+        "base": "take",
+        "tense": "present",
+        "related": [
+          "took",
+          "taken",
+          "taking"
+        ]
+      },
+      "ipa": "/ˈteɪk/"
+    },
+    "off": {
+      "pos": "adverb/preposition",
+      "meanings": [
+        {
+          "ko": "벗다",
+          "en": "remove clothing",
+          "primary": true
+        },
+        {
+          "ko": "떨어지다",
+          "en": "fall from position",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "옷을 벗는 동작을 나타냄",
+      "ipa": "/ˈɔf/"
+    },
+    "his": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "그의",
+          "en": "belonging to him",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "그 남자의 소유물을 나타냄",
+      "ipa": "/ˈhɪz/"
+    },
+    "coat": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "코트",
+          "en": "outer garment worn for warmth",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "따뜻하게 입는 외투를 의미함",
+      "forms": {
+        "base": "coat",
+        "tense": "present",
+        "related": [
+          "coats"
+        ]
+      },
+      "ipa": "/ˈkoʊt/"
+    },
+    "tighter": {
+      "pos": "adverb (comparative)",
+      "meanings": [
+        {
+          "ko": "더 세게",
+          "en": "with greater force or pressure",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람이 더 강하게 불었음을 나타냄",
+      "forms": {
+        "base": "tight",
+        "tense": "comparative",
+        "related": [
+          "tightest"
+        ]
+      },
+      "ipa": "/ˈtaɪtɝ/"
+    },
+    "blew": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "불었다",
+          "en": "moved air forcefully",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "'blow'의 과거형으로 바람의 움직임을 표현함",
+      "forms": {
+        "base": "blow",
+        "tense": "past",
+        "related": [
+          "blows",
+          "blowing",
+          "blown"
+        ]
+      },
+      "ipa": "/ˈbɫu/"
+    },
+    "hard": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "세게",
+          "en": "with great effort or force",
+          "primary": true
+        },
+        {
+          "ko": "힘들게",
+          "en": "in difficult manner",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "바람이 얼마나 강하게 불었는지를 설명함",
+      "forms": {
+        "base": "hard",
+        "tense": "present",
+        "related": [
+          "harder",
+          "hardest"
+        ]
+      },
+      "ipa": "/ˈhɑɹd/"
+    },
+    "held": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "잡았다",
+          "en": "grasped firmly",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사람이 옷을 더 꽉 잡았다는 의미로 사용됨",
+      "forms": {
+        "base": "hold",
+        "tense": "past",
+        "related": [
+          "holds",
+          "holding"
+        ]
+      },
+      "ipa": "/ˈhɛɫd/"
+    },
+    "harder": {
+      "pos": "adverb (comparative)",
+      "meanings": [
+        {
+          "ko": "더 세게",
+          "en": "with increased intensity",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "처음보다 더 강하게 바람이 불었다는 것을 나타냄",
+      "forms": {
+        "base": "hard",
+        "tense": "comparative",
+        "related": [
+          "hardest",
+          "hardly"
+        ]
+      },
+      "ipa": "/ˈhɑɹdɝ/"
+    },
+    "buttoned": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "단추를 꿀렀다",
+          "en": "fastened buttons on garment",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사람이 코트를 더 따뜻하게 입기 위해 단추를 꿔넣었음을 표현함",
+      "forms": {
+        "base": "button",
+        "tense": "past",
+        "related": [
+          "buttons",
+          "buttoning"
+        ]
+      },
+      "ipa": "/ˈbətənd/"
+    },
+    "then": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "그러자",
+          "en": "next in sequence of events",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "시간 순서상 다음 사건으로 넘어가는 것을 나타냄",
+      "ipa": "/ˈðɛn/"
+    },
+    "tried": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "시도했다",
+          "en": "attempted to do something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "태양이 자신의 방법으로 시도했음을 표현함",
+      "forms": {
+        "base": "try",
+        "tense": "past",
+        "related": [
+          "tries",
+          "trying"
+        ]
+      },
+      "ipa": "/ˈtɹaɪd/"
+    },
+    "shone": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "빛났다",
+          "en": "emitted light",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "태양이 밝고 따뜻하게 빛났다는 것을 표현함",
+      "forms": {
+        "base": "shine",
+        "tense": "past",
+        "related": [
+          "shines",
+          "shining",
+          "shined/shone"
+        ]
+      },
+      "ipa": "/ˈʃoʊn/"
+    },
+    "bright": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "밝은",
+          "en": "giving much light",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "태양이 매우 밝게 빛났음을 나타냄",
+      "forms": {
+        "base": "bright",
+        "tense": "present",
+        "related": [
+          "brighter",
+          "brightest"
+        ]
+      },
+      "ipa": "/ˈbɹaɪt/"
+    },
+    "warm": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "따뜻한",
+          "en": "moderately hot temperature",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "태양이 따뜻한 기운을 전달했음을 표현함",
+      "forms": {
+        "base": "warm",
+        "tense": "present",
+        "related": [
+          "warmer",
+          "warmest"
+        ]
+      },
+      "ipa": "/ˈwɔɹm/"
+    },
+    "felt": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "느꼈다",
+          "en": "experienced sensation",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사람이 따뜻함을 느꼈음을 표현함",
+      "forms": {
+        "base": "feel",
+        "tense": "past",
+        "related": [
+          "feels",
+          "feeling"
+        ]
+      },
+      "ipa": "/ˈfɛɫt/"
+    },
+    "hot": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "뜨거운",
+          "en": "high temperature",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사람이 덥다고 느꼈음을 나타냄",
+      "forms": {
+        "base": "hot",
+        "tense": "present",
+        "related": [
+          "hotter",
+          "hottest"
+        ]
+      },
+      "ipa": "/ˈhɑt/"
+    },
+    "he": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그는",
+          "en": "third person masculine pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "앞서 언급한 남자를 가리킴",
+      "ipa": "/ˈhi/"
+    },
+    "took": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "입었다",
+          "en": "removed clothing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사람이 코트를 벗었다는 의미로 사용됨",
+      "forms": {
+        "base": "take",
+        "tense": "past",
+        "related": [
+          "takes",
+          "taking",
+          "taken"
+        ]
+      },
+      "ipa": "/ˈtʊk/"
+    },
+    "won": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "이겼다",
+          "en": "achieved victory",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "태양이 바람보다 더 효과적인 방법으로 승리했음을 표현함",
+      "forms": {
+        "base": "win",
+        "tense": "past",
+        "related": [
+          "wins",
+          "winning"
+        ]
+      },
+      "ipa": "/ˈwɑn/"
+    },
+    "kindness": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "친절",
+          "en": "gentle and caring behavior",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "따뜻한 태양처럼 부드럽고 배려로운 방법을 의미함",
+      "forms": {
+        "base": "kindness",
+        "tense": "present",
+        "related": [
+          "kindnesses"
+        ]
+      },
+      "ipa": "/ˈkaɪndnəs/"
+    },
+    "works": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "효과적이다",
+          "en": "function effectively",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "친절한 접근 방식이 더 잘 작동한다는 의미로 사용됨",
+      "forms": {
+        "base": "work",
+        "tense": "present",
+        "related": [
+          "worked",
+          "working"
+        ]
+      },
+      "ipa": "/ˈwɝks/"
+    },
+    "better": {
+      "pos": "adverb (comparative)",
+      "meanings": [
+        {
+          "ko": "더 잘",
+          "en": "in superior way",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "친절이 폭력보다 더 효과적이라는 것을 나타냄",
+      "forms": {
+        "base": "well",
+        "tense": "comparative",
+        "related": [
+          "best"
+        ]
+      },
+      "ipa": "/ˈbɛtɝ/"
+    },
+    "force": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "폭력",
+          "en": "use of physical power",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람처럼 강요적인 방법을 의미함",
+      "forms": {
+        "base": "force",
+        "tense": "present",
+        "related": [
+          "forces"
+        ]
+      },
+      "ipa": "/ˈfɔɹs/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "The wind and the sun had an argument.",
+        "structure": {
+          "subject": {
+            "text": "The wind and the sun",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "had",
+            "label": "동사 (과거형)"
+          },
+          "object": {
+            "text": "an argument",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 과거의 사건을 설명합니다. 'had'는 'have'의 과거형으로, '논쟁을 하였다'는 의미입니다. 주어는 'the wind and the sun', 목적어는 'an argument'입니다.",
+        "grammarPoints": [
+          "be동사 과거형",
+          "복합 주어"
+        ],
+        "examples": [
+          {
+            "en": "She had a book.",
+            "ko": "그녀는 책을 가지고 있었다."
+          },
+          {
+            "en": "They had dinner together.",
+            "ko": "그들은 함께 저녁을 먹었다."
+          }
+        ]
+      },
+      {
+        "text": "They saw a man walking on the road.",
+        "structure": {
+          "subject": {
+            "text": "They",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "saw",
+            "label": "동사 (과거형)"
+          },
+          "object": {
+            "text": "a man walking on the road",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 '그들이 남자를 보았다'는 내용입니다. 'saw'는 'see'의 과거형이며, 'walking on the road'는 'man'을 수식하는 분사구문입니다.",
+        "grammarPoints": [
+          "see의 과거형",
+          "분사구문"
+        ],
+        "examples": [
+          {
+            "en": "He saw birds flying.",
+            "ko": "그는 새들이 날아가는 것을 보았다."
+          },
+          {
+            "en": "We watched children playing.",
+            "ko": "우리는 아이들이 노는 것을 지켜보았다."
+          }
+        ]
+      },
+      {
+        "text": "\"I am stronger than you,\" said the wind.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "am",
+            "label": "동사 (현재형)"
+          },
+          "complement": {
+            "text": "stronger than you",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 직접 인용문입니다. 'I am stronger than you'는 비교 구조이며, 'said the wind'는 화자의 신분을 밝히는 표현입니다.",
+        "grammarPoints": [
+          "be동사 현재형",
+          "비교급"
+        ],
+        "examples": [
+          {
+            "en": "She is taller than me.",
+            "ko": "그녀는 나보다 키가 크다."
+          },
+          {
+            "en": "This car is faster than that one.",
+            "ko": "이 차는 저 차보다 빠르다."
+          }
+        ]
+      },
+      {
+        "text": "\"Let us see who can make the man take off his coat.\"",
+        "structure": {
+          "subject": {
+            "text": "us",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "see",
+            "label": "동사"
+          },
+          "object": {
+            "text": "who can make the man take off his coat",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 제안을 나타내는 'let us...' 구조로 시작합니다. 'who can...' 부분은 간접 의문문이며, 'make someone do something'은 강요를 나타내는 표현입니다.",
+        "grammarPoints": [
+          "간접 의문문",
+          "make + 원형동사"
+        ],
+        "examples": [
+          {
+            "en": "Let's find out who knows the answer.",
+            "ko": "정답을 아는 사람이 누군지 알아보자."
+          },
+          {
+            "en": "I made him clean the room.",
+            "ko": "나는 그에게 방을 청소하게 했다."
+          }
+        ]
+      },
+      {
+        "text": "The wind blew hard.",
+        "structure": {
+          "subject": {
+            "text": "The wind",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "blew",
+            "label": "동사 (과거형)"
+          },
+          "complement": {
+            "text": "hard",
+            "label": "부사"
+          }
+        },
+        "pattern": {
+          "name": "S+V+Adv",
+          "note": "주어 + 동사 + 부사"
+        },
+        "explanation": "이 문장은 바람이 세게 불었다는 것을 표현합니다. 'blew'는 'blow'의 과거형이고, 'hard'는 부사로 동사 'blew'를 수식합니다.",
+        "grammarPoints": [
+          "blow의 과거형",
+          "부사의 사용"
+        ],
+        "examples": [
+          {
+            "en": "It rained heavily.",
+            "ko": "비가 많이 내렸다."
+          },
+          {
+            "en": "He ran fast.",
+            "ko": "그는 빨리 달렸다."
+          }
+        ]
+      },
+      {
+        "text": "The man held his coat tighter.",
+        "structure": {
+          "subject": {
+            "text": "The man",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "held",
+            "label": "동사 (과거형)"
+          },
+          "object": {
+            "text": "his coat",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "tighter",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+Adv",
+          "note": "주어 + 동사 + 목적어 + 부사"
+        },
+        "explanation": "이 문장은 사람이 코트를 더 꽉 잡았다는 의미입니다. 'held'는 'hold'의 과거형이며, 'tighter'는 부사로 'how tightly'를 나타냅니다.",
+        "grammarPoints": [
+          "hold의 과거형",
+          "비교급 부사"
+        ],
+        "examples": [
+          {
+            "en": "She held the rope tightly.",
+            "ko": "그녀는 줄을 꽉 잡았다."
+          },
+          {
+            "en": "He spoke louder.",
+            "ko": "그는 더 크게 말했다."
+          }
+        ]
+      },
+      {
+        "text": "The wind blew harder.",
+        "structure": {
+          "subject": {
+            "text": "The wind",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "blew",
+            "label": "동사 (과거형)"
+          },
+          "complement": {
+            "text": "harder",
+            "label": "부사 (비교급)"
+          }
+        },
+        "pattern": {
+          "name": "S+V+Adv",
+          "note": "주어 + 동사 + 부사"
+        },
+        "explanation": "이 문장은 바람이 처음보다 더 세게 불었다는 것을 나타냅니다. 'harder'는 'hard'의 비교급 형태입니다.",
+        "grammarPoints": [
+          "blow의 과거형",
+          "비교급 부사"
+        ],
+        "examples": [
+          {
+            "en": "She worked harder.",
+            "ko": "그녀는 더 열심히 일했다."
+          },
+          {
+            "en": "He shouted louder.",
+            "ko": "그는 더 크게 소리쳤다."
+          }
+        ]
+      },
+      {
+        "text": "The man buttoned his coat.",
+        "structure": {
+          "subject": {
+            "text": "The man",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "buttoned",
+            "label": "동사 (과거형)"
+          },
+          "object": {
+            "text": "his coat",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 사람이 코트의 단추를 꿔넣었다는 의미입니다. 'buttoned'는 'button'의 과거형입니다.",
+        "grammarPoints": [
+          "button의 과거형",
+          "목적어의 사용"
+        ],
+        "examples": [
+          {
+            "en": "He opened the door.",
+            "ko": "그는 문을 열었다."
+          },
+          {
+            "en": "She closed her eyes.",
+            "ko": "그녀는 눈을 감았다."
+          }
+        ]
+      },
+      {
+        "text": "Then the sun tried.",
+        "structure": {
+          "subject": {
+            "text": "the sun",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "tried",
+            "label": "동사 (과거형)"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어 + 동사"
+        },
+        "explanation": "이 문장은 태양이 시도했다는 의미입니다. 'tried'는 'try'의 과거형이며, 목적어 없이 동사만으로 완성됩니다.",
+        "grammarPoints": [
+          "try의 과거형",
+          "자동사"
+        ],
+        "examples": [
+          {
+            "en": "He laughed.",
+            "ko": "그는 웃었다."
+          },
+          {
+            "en": "She cried.",
+            "ko": "그녀는 울었다."
+          }
+        ]
+      },
+      {
+        "text": "The sun shone bright and warm.",
+        "structure": {
+          "subject": {
+            "text": "The sun",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "shone",
+            "label": "동사 (과거형)"
+          },
+          "complement": {
+            "text": "bright and warm",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 태양이 밝고 따뜻하게 빛났다는 의미입니다. 'shone'은 'shine'의 과거형이며, 'bright and warm'은 형용사로 태양의 상태를 설명합니다.",
+        "grammarPoints": [
+          "shine의 과거형",
+          "형용사 병렬"
+        ],
+        "examples": [
+          {
+            "en": "The flowers smell sweet.",
+            "ko": "꽃들은 달콤하게 향기롭다."
+          },
+          {
+            "en": "The cake looks delicious.",
+            "ko": "케이크는 맛있어 보인다."
+          }
+        ]
+      },
+      {
+        "text": "The man felt hot.",
+        "structure": {
+          "subject": {
+            "text": "The man",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "felt",
+            "label": "동사 (과거형)"
+          },
+          "complement": {
+            "text": "hot",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 사람이 덥다고 느꼈다는 의미입니다. 'felt'는 'feel'의 과거형이며, 'hot'은 형용사로 감각 상태를 나타냅니다.",
+        "grammarPoints": [
+          "feel의 과거형",
+          "형용사 보어"
+        ],
+        "examples": [
+          {
+            "en": "She felt tired.",
+            "ko": "그녀는 피곤했다."
+          },
+          {
+            "en": "He sounded angry.",
+            "ko": "그는 화난 것처럼 들렸다."
+          }
+        ]
+      },
+      {
+        "text": "He took off his coat.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "took off",
+            "label": "동사 (과거형)"
+          },
+          "object": {
+            "text": "his coat",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 사람이 코트를 벗었다는 의미입니다. 'took off'는 'take off'의 과거형으로, 옷을 벗는 동작을 나타냅니다.",
+        "grammarPoints": [
+          "take off의 과거형",
+          "목적어의 사용"
+        ],
+        "examples": [
+          {
+            "en": "She put on her shoes.",
+            "ko": "그녀는 신발을 신었다."
+          },
+          {
+            "en": "He turned off the light.",
+            "ko": "그는 불을 껐다."
+          }
+        ]
+      },
+      {
+        "text": "The sun won.",
+        "structure": {
+          "subject": {
+            "text": "The sun",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "won",
+            "label": "동사 (과거형)"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어 + 동사"
+        },
+        "explanation": "이 문장은 태양이 이겼다는 의미입니다. 'won'은 'win'의 과거형이며, 목적어 없이 동사만으로 완성됩니다.",
+        "grammarPoints": [
+          "win의 과거형",
+          "자동사"
+        ],
+        "examples": [
+          {
+            "en": "He lost.",
+            "ko": "그는 졌다."
+          },
+          {
+            "en": "They succeeded.",
+            "ko": "그들은 성공했다."
+          }
+        ]
+      },
+      {
+        "text": "Kindness works better than force.",
+        "structure": {
+          "subject": {
+            "text": "Kindness",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "works",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "better than force",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 결론을 나타냅니다. 'works'는 'work'의 3인칭 단수형인데, '효과적으로 작동한다'는 뜻입니다. 'better than force'는 비교 구조로, 친절이 폭력보다 더 효과적임을 나타냅니다.",
+        "grammarPoints": [
+          "work의 3인칭 단수형",
+          "비교급"
+        ],
+        "examples": [
+          {
+            "en": "Love conquers all.",
+            "ko": "사랑은 모든 것을 이긴다."
+          },
+          {
+            "en": "Honesty pays.",
+            "ko": "정직은 보상을 받는다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "바람과 태양은 논쟁을 하였다. 그들은 길에서 걷는 한 남자를 보았다. \"나는 너보다 더 강하다\"라고 바람이 말했다. \"누가 그 남자를 코트를 벗게 할 수 있는지 보자\"라고 하였다. 바람은 세게 불었다. 남자는 코트를 더 꽉 잡았다. 바람은 더 세게 불었다. 남자는 코트에 단추를 꿔넣었다. 그러자 태양이 시도하였다. 태양은 밝고 따뜻하게 빛났다. 남자는 덥다고 느꼈다. 그는 코트를 벗었다. 태양이 이겼다. 친절은 폭력보다 더 효과적이다.",
+  "keyVocab": [
+    "argument",
+    "stronger",
+    "make",
+    "blew",
+    "kindness"
+  ],
+  "quiz": {
+    "question": "태양이 어떻게 남자를 설득했습니까?",
+    "answer": "태양은 밝고 따뜻하게 빛나서 남자가 덥다고 느끼게 하여 코트를 벗게 했습니다."
+  },
+  "generated_at": "2026-02-20T01:24:53.728252+09:00"
+}

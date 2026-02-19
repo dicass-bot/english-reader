@@ -1,0 +1,1767 @@
+{
+  "day": 11,
+  "level": 1,
+  "source": {
+    "title": "My Garden",
+    "author": "Storybooks Canada",
+    "license": "CC BY 4.0",
+    "url": "https://storybookscanada.ca"
+  },
+  "passage": "I have a small garden behind my house. I planted tomatoes, peppers, and herbs last spring. Every morning, I water the plants before breakfast. The sun helps them grow tall and strong. Last week, I picked my first tomato. It was bright red and very sweet. My neighbor also has a garden. She grows flowers, not vegetables. Her garden is full of colors. Sometimes we trade. I give her tomatoes. She gives me beautiful flowers for my kitchen table.",
+  "audio": {
+    "passage": "audio/day-011.mp3",
+    "words": {
+      "i": "audio/day-011-i.mp3",
+      "have": "audio/day-011-have.mp3",
+      "a": "audio/day-011-a.mp3",
+      "small": "audio/day-011-small.mp3",
+      "garden": "audio/day-011-garden.mp3",
+      "behind": "audio/day-011-behind.mp3",
+      "my": "audio/day-011-my.mp3",
+      "house": "audio/day-011-house.mp3",
+      "planted": "audio/day-011-planted.mp3",
+      "tomatoes": "audio/day-011-tomatoes.mp3",
+      "peppers": "audio/day-011-peppers.mp3",
+      "and": "audio/day-011-and.mp3",
+      "herbs": "audio/day-011-herbs.mp3",
+      "last": "audio/day-011-last.mp3",
+      "spring": "audio/day-011-spring.mp3",
+      "every": "audio/day-011-every.mp3",
+      "morning": "audio/day-011-morning.mp3",
+      "water": "audio/day-011-water.mp3",
+      "the": "audio/day-011-the.mp3",
+      "plants": "audio/day-011-plants.mp3",
+      "before": "audio/day-011-before.mp3",
+      "breakfast": "audio/day-011-breakfast.mp3",
+      "sun": "audio/day-011-sun.mp3",
+      "helps": "audio/day-011-helps.mp3",
+      "them": "audio/day-011-them.mp3",
+      "grow": "audio/day-011-grow.mp3",
+      "tall": "audio/day-011-tall.mp3",
+      "strong": "audio/day-011-strong.mp3",
+      "week": "audio/day-011-week.mp3",
+      "picked": "audio/day-011-picked.mp3",
+      "first": "audio/day-011-first.mp3"
+    }
+  },
+  "words": {
+    "i": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "나",
+          "en": "the speaker",
+          "primary": true
+        },
+        {
+          "ko": "나는",
+          "en": "used to refer to oneself as the subject",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이 문장에서 'I'는 화자가 자신의 정원에 대해 말하고 있기 때문에 '나'라는 의미로 사용됨",
+      "ipa": "/ˈaɪ/"
+    },
+    "have": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "갖다",
+          "en": "to possess or own something",
+          "primary": true
+        },
+        {
+          "ko": "하다",
+          "en": "to perform an action (auxiliary verb)",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이 문장에서는 소유의 의미를 나타내므로 '갖다'가 적절함",
+      "forms": {
+        "base": "have",
+        "tense": "present simple",
+        "related": [
+          "has",
+          "had",
+          "having"
+        ]
+      },
+      "ipa": "/ˈhæv/"
+    },
+    "a": {
+      "pos": "article (indefinite)",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "one of something, not specific",
+          "primary": true
+        },
+        {
+          "ko": "어떤",
+          "en": "used before singular countable nouns",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "'small garden' 앞에서 하나의 정원을 가리키기 위해 사용됨",
+      "ipa": "/ˈeɪ/"
+    },
+    "small": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "작은",
+          "en": "not big in size",
+          "primary": true
+        },
+        {
+          "ko": "적은",
+          "en": "limited in amount",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "'garden'의 크기를 설명하기 위해 사용되어 '작은'이라는 형용사로 쓰임",
+      "forms": {
+        "base": "small",
+        "tense": "",
+        "related": [
+          "smaller",
+          "smallest"
+        ]
+      },
+      "ipa": "/ˈsmɔɫ/"
+    },
+    "garden": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "정원",
+          "en": "an area where plants are grown",
+          "primary": true
+        },
+        {
+          "ko": "텃밭",
+          "en": "a plot of land cultivated with flowers or vegetables",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "화자의 집 뒤에 있는 식물이 자라는 공간으로서 '정원'이라는 뜻이 맞음",
+      "forms": {
+        "base": "garden",
+        "tense": "",
+        "related": [
+          "gardens"
+        ]
+      },
+      "ipa": "/ˈɡɑɹdən/"
+    },
+    "behind": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~뒤에",
+          "en": "at the back of something",
+          "primary": true
+        },
+        {
+          "ko": "~지나서",
+          "en": "past or beyond something",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "집의 뒤쪽에 위치한 정원을 표현하기 위해 'behind'가 사용됨",
+      "forms": {
+        "base": "behind",
+        "tense": "",
+        "related": []
+      },
+      "ipa": "/bɪˈhaɪnd/"
+    },
+    "my": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "나의",
+          "en": "belonging to me",
+          "primary": true
+        },
+        {
+          "ko": "내가 가진",
+          "en": "used to show ownership by the speaker",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "화자가 자신의 집을 말하고 있으므로 'my house'는 '나의 집'이라는 의미로 해석됨",
+      "ipa": "/ˈmaɪ/"
+    },
+    "house": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "집",
+          "en": "a building where people live",
+          "primary": true
+        },
+        {
+          "ko": "주택",
+          "en": "residential building",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "화자가 살고 있는 건물로서 'house'는 '집'이라는 뜻으로 사용됨",
+      "forms": {
+        "base": "house",
+        "tense": "",
+        "related": [
+          "houses"
+        ]
+      },
+      "ipa": "/ˈhaʊs/"
+    },
+    "planted": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "심었다",
+          "en": "put seeds/plants into soil",
+          "primary": true
+        },
+        {
+          "ko": "식물화했다",
+          "en": "established plants in ground",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "과거에 토마토, 고추 등을 심었음을 나타내므로 과거형 동사 'planted'가 사용됨",
+      "forms": {
+        "base": "plant",
+        "tense": "past",
+        "related": [
+          "plants",
+          "planting",
+          "planted"
+        ]
+      },
+      "ipa": "/ˈpɫæntɪd/"
+    },
+    "tomatoes": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "토마토들",
+          "en": "red edible fruits/berry-like vegetables",
+          "primary": true
+        },
+        {
+          "ko": "채소류",
+          "en": "vegetables commonly eaten raw or cooked",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "과거에 심은 작물 중 하나로서 복수형으로 표현된 'tomatoes'는 '토마토들'이라는 의미임",
+      "forms": {
+        "base": "tomato",
+        "tense": "",
+        "related": [
+          "tomato"
+        ]
+      },
+      "ipa": "/təˈmɑtoʊz/"
+    },
+    "peppers": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "고춧가지들",
+          "en": "spicy fruit-like vegetables",
+          "primary": true
+        },
+        {
+          "ko": "후추",
+          "en": "seasoning made from dried peppers",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식물 이름으로서 'peppers'는 '고춧가지들'이라고 해석되며, 정원에 심은 작물임",
+      "forms": {
+        "base": "pepper",
+        "tense": "",
+        "related": [
+          "pepper"
+        ]
+      },
+      "ipa": "/ˈpɛpɝz/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or phrases",
+          "primary": true
+        },
+        {
+          "ko": "또한",
+          "en": "also; in addition",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "여러 가지 작물을 연결하여 나열할 때 사용되어 '그리고'라는 접속사로 쓰임",
+      "ipa": "/ˈænd/"
+    },
+    "herbs": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "약초들",
+          "en": "plants used for flavoring food or medicine",
+          "primary": true
+        },
+        {
+          "ko": "향신료",
+          "en": "seasonings derived from plants",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식물 종류 중 하나로 'herbs'는 '약초들'이라는 의미로 사용됨",
+      "forms": {
+        "base": "herb",
+        "tense": "",
+        "related": [
+          "herb"
+        ]
+      },
+      "ipa": "/ˈɝbz/"
+    },
+    "last": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "지난",
+          "en": "happening during the previous period",
+          "primary": true
+        },
+        {
+          "ko": "최근의",
+          "en": "most recent",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "'spring' 앞에서 시간을 나타내며 '지난 봄'이라는 의미를 전달함",
+      "forms": {
+        "base": "last",
+        "tense": "",
+        "related": [
+          "latest"
+        ]
+      },
+      "ipa": "/ˈɫæs/"
+    },
+    "spring": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "봄",
+          "en": "season after winter",
+          "primary": true
+        },
+        {
+          "ko": "탄성력",
+          "en": "elastic force (physics)",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "계절 중 하나로서 'spring'은 '봄'이라는 뜻으로 사용됨",
+      "forms": {
+        "base": "spring",
+        "tense": "",
+        "related": [
+          "springs"
+        ]
+      },
+      "ipa": "/ˈspɹɪŋ/"
+    },
+    "every": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "모든",
+          "en": "each one without exception",
+          "primary": true
+        },
+        {
+          "ko": "각각의",
+          "en": "all items individually considered",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "'morning' 앞에서 반복되는 행동을 강조하기 위해 'every morning'으로 '매일 아침'이라는 의미로 사용됨",
+      "ipa": "/ˈɛvɝi/"
+    },
+    "morning": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "아침",
+          "en": "early part of day",
+          "primary": true
+        },
+        {
+          "ko": "새벽",
+          "en": "time just before sunrise",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "시간대를 나타내며 'every morning'으로 '매일 아침'이라는 의미로 쓰임",
+      "forms": {
+        "base": "morning",
+        "tense": "",
+        "related": [
+          "mornings"
+        ]
+      },
+      "ipa": "/ˈmɔɹnɪŋ/"
+    },
+    "water": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "물을 주다",
+          "en": "give liquid to plants or animals",
+          "primary": true
+        },
+        {
+          "ko": "세척하다",
+          "en": "clean with water",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식물에 물을 주는 행위를 나타내므로 동사 'water'는 '물을 주다'라는 의미로 사용됨",
+      "forms": {
+        "base": "water",
+        "tense": "present simple",
+        "related": [
+          "waters",
+          "watered",
+          "watering"
+        ]
+      },
+      "ipa": "/ˈwɔtɝ/"
+    },
+    "the": {
+      "pos": "article (definite)",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "specific thing already mentioned",
+          "primary": true
+        },
+        {
+          "ko": "특정한",
+          "en": "refers to known or particular item",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "앞서 언급한 'plants'를 지칭하기 위해 'the plants'라고 함",
+      "ipa": "/ˈðə/"
+    },
+    "plants": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "식물들",
+          "en": "living organisms that grow in soil",
+          "primary": true
+        },
+        {
+          "ko": "작물들",
+          "en": "crops grown intentionally",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "정원에 심은 다양한 식물들을 가리키며 'plants'는 '식물들'이라는 의미로 사용됨",
+      "forms": {
+        "base": "plant",
+        "tense": "",
+        "related": [
+          "plant",
+          "planted",
+          "planting"
+        ]
+      },
+      "ipa": "/ˈpɫænts/"
+    },
+    "before": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~보다 먼저",
+          "en": "earlier than",
+          "primary": true
+        },
+        {
+          "ko": "~전에",
+          "en": "in advance of",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식사 전에 물을 준다는 의미로 'before breakfast'는 '~보다 먼저'라는 뜻으로 사용됨",
+      "ipa": "/ˌbiˈfɔɹ/"
+    },
+    "breakfast": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "아침 식사",
+          "en": "first meal of the day",
+          "primary": true
+        },
+        {
+          "ko": "조식",
+          "en": "meal taken early in the morning",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "하루 첫 식사를 나타내며 'breakfast'는 '아침 식사'라는 의미로 사용됨",
+      "forms": {
+        "base": "breakfast",
+        "tense": "",
+        "related": [
+          "breakfasts"
+        ]
+      },
+      "ipa": "/ˈbɹɛkfəst/"
+    },
+    "sun": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "태양",
+          "en": "star providing light and heat",
+          "primary": true
+        },
+        {
+          "ko": "햇빛",
+          "en": "sunlight",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식물 성장에 도움을 주는 자연 요소로서 'sun'은 '태양'이라는 의미로 사용됨",
+      "forms": {
+        "base": "sun",
+        "tense": "",
+        "related": [
+          "suns"
+        ]
+      },
+      "ipa": "/ˈsən/"
+    },
+    "helps": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "돕다",
+          "en": "assist someone or something",
+          "primary": true
+        },
+        {
+          "ko": "도움을 주다",
+          "en": "provide support or benefit",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식물들이 잘 자라도록 돕는다는 의미로 'helps'는 '돕다'라는 동사로 사용됨",
+      "forms": {
+        "base": "help",
+        "tense": "present third person singular",
+        "related": [
+          "help",
+          "helped",
+          "helping"
+        ]
+      },
+      "ipa": "/ˈhɛɫps/"
+    },
+    "them": {
+      "pos": "pronoun (object form)",
+      "meanings": [
+        {
+          "ko": "그것들을",
+          "en": "referring to previously mentioned objects",
+          "primary": true
+        },
+        {
+          "ko": "그들에게",
+          "en": "used when referring to others involved",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "앞서 언급한 식물들을 가리키며 'them'은 '그것들을'이라는 목적격 대명사로 사용됨",
+      "ipa": "/ˈðɛm/"
+    },
+    "grow": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "자라다",
+          "en": "increase in size over time",
+          "primary": true
+        },
+        {
+          "ko": "성장하다",
+          "en": "develop gradually",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식물들이 커지는 상태를 설명하기 위해 'grow'는 '자라다'라는 의미로 사용됨",
+      "forms": {
+        "base": "grow",
+        "tense": "infinitive",
+        "related": [
+          "grows",
+          "grew",
+          "grown",
+          "growing"
+        ]
+      },
+      "ipa": "/ˈɡɹoʊ/"
+    },
+    "tall": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "키가 큰",
+          "en": "high in vertical dimension",
+          "primary": true
+        },
+        {
+          "ko": "길쭉한",
+          "en": "long vertically",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식물이 세로로 길게 자라는 모습을 묘사하기 위해 'tall'은 '키가 큰'이라는 형용사로 사용됨",
+      "forms": {
+        "base": "tall",
+        "tense": "",
+        "related": [
+          "taller",
+          "tallest"
+        ]
+      },
+      "ipa": "/ˈtɔɫ/"
+    },
+    "strong": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "강한",
+          "en": "having physical power or resilience",
+          "primary": true
+        },
+        {
+          "ko": "튼튼한",
+          "en": "not easily broken or damaged",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식물이 건강하게 자라는 상태를 설명하기 위해 'strong'은 '강한', '튼튼한'이라는 형용사로 사용됨",
+      "forms": {
+        "base": "strong",
+        "tense": "",
+        "related": [
+          "stronger",
+          "strongest"
+        ]
+      },
+      "ipa": "/ˈstɹɔŋ/"
+    },
+    "week": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "주",
+          "en": "period of seven days",
+          "primary": true
+        },
+        {
+          "ko": "일주일",
+          "en": "seven-day cycle",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "기간을 나타내며 'last week'는 '지난 주'라는 의미로 사용됨",
+      "forms": {
+        "base": "week",
+        "tense": "",
+        "related": [
+          "weeks"
+        ]
+      },
+      "ipa": "/ˈwik/"
+    },
+    "picked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "따다",
+          "en": "gathered from plant or tree",
+          "primary": true
+        },
+        {
+          "ko": "선택하다",
+          "en": "chose deliberately",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "과거에 토마토를 따 온 것을 표현하기 위해 'picked'는 '따다'라는 의미로 사용됨",
+      "forms": {
+        "base": "pick",
+        "tense": "past",
+        "related": [
+          "picks",
+          "picked",
+          "picking"
+        ]
+      },
+      "ipa": "/ˈpɪkt/"
+    },
+    "first": {
+      "pos": "adjective (ordinal number)",
+      "meanings": [
+        {
+          "ko": "첫 번째",
+          "en": "coming before all others in order",
+          "primary": true
+        },
+        {
+          "ko": "처음의",
+          "en": "initial occurrence",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "처음으로 수확한 토마토를 나타내므로 'first tomato'는 '첫 번째 토마토'라는 의미로 사용됨",
+      "forms": {
+        "base": "first",
+        "tense": "",
+        "related": [
+          "firstly"
+        ]
+      },
+      "ipa": "/ˈfɝst/"
+    },
+    "tomato": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "토마토",
+          "en": "round red fruit often used as vegetable",
+          "primary": true
+        },
+        {
+          "ko": "채소",
+          "en": "vegetable commonly used in cooking",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "수확한 작물 중 하나로서 단수형으로 'tomato'는 '토마토'라는 의미로 사용됨",
+      "forms": {
+        "base": "tomato",
+        "tense": "",
+        "related": [
+          "tomatoes"
+        ]
+      },
+      "ipa": "/təˈmɑˌtoʊ/"
+    },
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것은",
+          "en": "refers to previously mentioned object",
+          "primary": true
+        },
+        {
+          "ko": "그녀는",
+          "en": "used for non-human subjects",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "앞서 언급한 토마토를 가리키며 'it'은 '그것은'이라는 인칭대명사로 사용됨",
+      "ipa": "/ˈɪt/"
+    },
+    "was": {
+      "pos": "verb (past tense of be)",
+      "meanings": [
+        {
+          "ko": "였다",
+          "en": "past tense of 'is'",
+          "primary": true
+        },
+        {
+          "ko": "존재했다",
+          "en": "existed at some point in past",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "과거의 상태를 설명하기 위해 'was'는 '였다'라는 의미로 사용됨",
+      "forms": {
+        "base": "be",
+        "tense": "past",
+        "related": [
+          "is",
+          "are",
+          "been",
+          "being"
+        ]
+      },
+      "ipa": "/ˈwɑz/"
+    },
+    "bright": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "밝은",
+          "en": "full of light or vivid color",
+          "primary": true
+        },
+        {
+          "ko": "선명한",
+          "en": "clearly visible or intense",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "색상의 특성을 설명하기 위해 'bright red'는 '밝은 빨간색'이라는 의미로 사용됨",
+      "forms": {
+        "base": "bright",
+        "tense": "",
+        "related": [
+          "brighter",
+          "brightest"
+        ]
+      },
+      "ipa": "/ˈbɹaɪt/"
+    },
+    "red": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "붉은",
+          "en": "color between orange and purple",
+          "primary": true
+        },
+        {
+          "ko": "빨간",
+          "en": "primary color associated with fire or blood",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "토마토의 색상을 설명하기 위해 'red'는 '붉은', '빨간'이라는 형용사로 사용됨",
+      "forms": {
+        "base": "red",
+        "tense": "",
+        "related": [
+          "redder",
+          "reddest"
+        ]
+      },
+      "ipa": "/ˈɹɛd/"
+    },
+    "very": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "매우",
+          "en": "extremely or greatly",
+          "primary": true
+        },
+        {
+          "ko": "정말",
+          "en": "truly or genuinely",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "맛의 정도를 강조하기 위해 'very sweet'는 '매우 달았다'는 의미로 사용됨",
+      "ipa": "/ˈvɛɹi/"
+    },
+    "sweet": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "달콤한",
+          "en": "having pleasant taste like sugar",
+          "primary": true
+        },
+        {
+          "ko": "사랑스러운",
+          "en": "charming or endearing",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "토마토의 맛을 설명하기 위해 'sweet'은 '달콤한'이라는 형용사로 사용됨",
+      "forms": {
+        "base": "sweet",
+        "tense": "",
+        "related": [
+          "sweeter",
+          "sweetest"
+        ]
+      },
+      "ipa": "/ˈswit/"
+    },
+    "neighbor": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "이웃",
+          "en": "person living nearby",
+          "primary": true
+        },
+        {
+          "ko": "옆집 사람",
+          "en": "someone who lives next door",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "화자의 가까운 거주지를 가진 사람을 가리키며 'neighbor'는 '이웃'이라는 의미로 사용됨",
+      "forms": {
+        "base": "neighbor",
+        "tense": "",
+        "related": [
+          "neighbors"
+        ]
+      },
+      "ipa": "/ˈneɪbɝ/"
+    },
+    "also": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "또한",
+          "en": "in addition to what was said",
+          "primary": true
+        },
+        {
+          "ko": "마찬가지로",
+          "en": "likewise or similarly",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이웃도 정원을 가지고 있다는 사실을 추가적으로 설명하기 위해 'also'는 '또한'이라는 부사로 사용됨",
+      "ipa": "/ˈɔɫsoʊ/"
+    },
+    "has": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "갖다",
+          "en": "possesses or owns something",
+          "primary": true
+        },
+        {
+          "ko": "있다",
+          "en": "exists or is available",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이웃이 정원을 소유하고 있음을 나타내므로 'has'는 '갖다'라는 의미로 사용됨",
+      "forms": {
+        "base": "have",
+        "tense": "present third person singular",
+        "related": [
+          "have",
+          "had",
+          "having"
+        ]
+      },
+      "ipa": "/ˈhæz/"
+    },
+    "she": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그녀는",
+          "en": "female subject pronoun",
+          "primary": true
+        },
+        {
+          "ko": "그녀가",
+          "en": "used to refer to a woman as the subject",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이웃 여성에 대해 언급하기 위해 'she'는 '그녀는'이라는 인칭대명사로 사용됨",
+      "ipa": "/ˈʃi/"
+    },
+    "grows": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "키운다",
+          "en": "cultivates plants intentionally",
+          "primary": true
+        },
+        {
+          "ko": "자라게 한다",
+          "en": "causes plants to develop",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "꽃을 재배한다는 의미로 'grows'는 '키운다'라는 동사로 사용됨",
+      "forms": {
+        "base": "grow",
+        "tense": "present third person singular",
+        "related": [
+          "grow",
+          "grew",
+          "grown",
+          "growing"
+        ]
+      },
+      "ipa": "/ˈɡɹoʊz/"
+    },
+    "flowers": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "꽃들",
+          "en": "blooming parts of plants",
+          "primary": true
+        },
+        {
+          "ko": "화초들",
+          "en": "ornamental flowering plants",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이웃이 키우는 식물 종류로서 'flowers'는 '꽃들'이라는 의미로 사용됨",
+      "forms": {
+        "base": "flower",
+        "tense": "",
+        "related": [
+          "flower"
+        ]
+      },
+      "ipa": "/ˈfɫaʊɝz/"
+    },
+    "not": {
+      "pos": "adverb (negation)",
+      "meanings": [
+        {
+          "ko": "아니라",
+          "en": "used to deny or negate statement",
+          "primary": true
+        },
+        {
+          "ko": "않다",
+          "en": "opposite of affirmation",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이웃이 야채 대신 꽃을 키운다는 점을 부정적으로 표현하기 위해 'not'이 사용됨",
+      "ipa": "/ˈnɑt/"
+    },
+    "vegetables": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "채소들",
+          "en": "plants consumed as food",
+          "primary": true
+        },
+        {
+          "ko": "야채들",
+          "en": "edible parts of plants",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "식물 종류 중 하나로서 'vegetables'는 '채소들'이라는 의미로 사용됨",
+      "forms": {
+        "base": "vegetable",
+        "tense": "",
+        "related": [
+          "vegetable"
+        ]
+      },
+      "ipa": "/ˈvɛdʒtəbəɫz/"
+    },
+    "her": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "그녀의",
+          "en": "belonging to her",
+          "primary": true
+        },
+        {
+          "ko": "그녀가 소유한",
+          "en": "owned by female person",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이웃의 정원을 가리키기 위해 'her garden'은 '그녀의 정원'이라는 의미로 사용됨",
+      "ipa": "/ˈhɝ/"
+    },
+    "full": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "가득 찬",
+          "en": "containing maximum amount possible",
+          "primary": true
+        },
+        {
+          "ko": "많은",
+          "en": "abundant or plentiful",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "정원이 다양한 색상으로 차 있다는 것을 표현하기 위해 'full'은 '가득 찬'이라는 형용사로 사용됨",
+      "forms": {
+        "base": "full",
+        "tense": "",
+        "related": [
+          "fuller",
+          "fullest"
+        ]
+      },
+      "ipa": "/ˈfʊɫ/"
+    },
+    "colors": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "색상들",
+          "en": "visual properties distinguishing objects",
+          "primary": true
+        },
+        {
+          "ko": "색깔들",
+          "en": "variations in appearance due to light wavelengths",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "꽃들의 다양한 외관을 설명하기 위해 'colors'는 '색상들'이라는 의미로 사용됨",
+      "forms": {
+        "base": "color",
+        "tense": "",
+        "related": [
+          "color"
+        ]
+      },
+      "ipa": "/ˈkəɫɝz/"
+    },
+    "sometimes": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "때때로",
+          "en": "occasionally or now and then",
+          "primary": true
+        },
+        {
+          "ko": "가끔",
+          "en": "from time to time",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "교환 행위가 일정하지 않음을 나타내기 위해 'sometimes'는 '때때로'라는 부사로 사용됨",
+      "ipa": "/ˈsəmˌtaɪmz/"
+    },
+    "trade": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "교환하다",
+          "en": "exchange goods mutually",
+          "primary": true
+        },
+        {
+          "ko": "거래하다",
+          "en": "buy and sell commodities",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "서로의 생산물을 바꾸는 행위를 설명하기 위해 'trade'는 '교환하다'라는 동사로 사용됨",
+      "forms": {
+        "base": "trade",
+        "tense": "present simple",
+        "related": [
+          "trades",
+          "traded",
+          "trading"
+        ]
+      },
+      "ipa": "/ˈtɹeɪd/"
+    },
+    "give": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "주다",
+          "en": "transfer possession willingly",
+          "primary": true
+        },
+        {
+          "ko": "제공하다",
+          "en": "offer something freely",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "무언가를 다른 사람에게 넘기는 행위를 나타내므로 'give'는 '주다'라는 동사로 사용됨",
+      "forms": {
+        "base": "give",
+        "tense": "present simple",
+        "related": [
+          "gives",
+          "gave",
+          "given",
+          "giving"
+        ]
+      },
+      "ipa": "/ˈɡɪv/"
+    },
+    "beautiful": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "아름다운",
+          "en": "pleasing to look at",
+          "primary": true
+        },
+        {
+          "ko": "예쁜",
+          "en": "visually attractive",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "꽃의 외관을 칭찬하기 위해 'beautiful flowers'는 '아름다운 꽃들'이라는 의미로 사용됨",
+      "forms": {
+        "base": "beautiful",
+        "tense": "",
+        "related": [
+          "more beautiful",
+          "most beautiful"
+        ]
+      },
+      "ipa": "/ˈbjutəfəɫ/"
+    },
+    "kitchen": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "부엌",
+          "en": "room for preparing meals",
+          "primary": true
+        },
+        {
+          "ko": "요리실",
+          "en": "space equipped for cooking",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "꽃을 놓는 장소로서 'kitchen table'은 '부엌 식탁'이라는 의미로 사용됨",
+      "forms": {
+        "base": "kitchen",
+        "tense": "",
+        "related": [
+          "kitchens"
+        ]
+      },
+      "ipa": "/ˈkɪtʃən/"
+    },
+    "table": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "테이블",
+          "en": "flat-topped piece of furniture",
+          "primary": true
+        },
+        {
+          "ko": "식탁",
+          "en": "surface for eating meals on",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "꽃을 놓는 가구로서 'table'은 '테이블' 또는 '식탁'이라는 의미로 사용됨",
+      "forms": {
+        "base": "table",
+        "tense": "",
+        "related": [
+          "tables"
+        ]
+      },
+      "ipa": "/ˈteɪbəɫ/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "I have a small garden behind my house.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "have",
+            "label": "동사"
+          },
+          "object": {
+            "text": "a small garden",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "behind my house",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + C",
+          "note": "주어+동사+목적어+보어 구조"
+        },
+        "explanation": "이 문장은 'I'가 주어이고, 'have'가 동사이며, 'a small garden'이 목적어입니다. 'behind my house'는 장소를 나타내는 보어입니다. 현재형으로 소유하고 있는 정원에 대해 말하고 있습니다.",
+        "grammarPoints": [
+          "소유 동사 'have'",
+          "장소 보어 'behind'"
+        ],
+        "examples": [
+          {
+            "en": "She has a dog under her bed.",
+            "ko": "그녀는 침대 밑에 개를 갖고 있다."
+          },
+          {
+            "en": "He keeps books near his desk.",
+            "ko": "그는 책상을 가까이에 책들을 두고 있다."
+          }
+        ]
+      },
+      {
+        "text": "I planted tomatoes, peppers, and herbs last spring.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "planted",
+            "label": "동사"
+          },
+          "object": {
+            "text": "tomatoes, peppers, and herbs",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "last spring",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + C",
+          "note": "주어+동사+목적어+보어 구조"
+        },
+        "explanation": "이 문장은 과거에 어떤 일을 했는지를 설명합니다. 'planted'는 과거형 동사이므로 이미 끝난 일입니다. 'last spring'은 언제 그 일이 있었는지를 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사 'planted'",
+          "시간 표현 'last spring'"
+        ],
+        "examples": [
+          {
+            "en": "I bought a car last year.",
+            "ko": "나는 지난해에 차를 샀다."
+          },
+          {
+            "en": "We visited our parents yesterday.",
+            "ko": "우리는 어제 부모님을 방문했다."
+          }
+        ]
+      },
+      {
+        "text": "Every morning, I water the plants before breakfast.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "water",
+            "label": "동사"
+          },
+          "object": {
+            "text": "the plants",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "before breakfast",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + C",
+          "note": "주어+동사+목적어+보어 구조"
+        },
+        "explanation": "이 문장은 매일 반복되는 습관적인 행동을 설명합니다. 'Every morning'은 시간을 나타내며, 'before breakfast'는 언제 행동을 하는지를 보충합니다. 현재형으로 표현되어 일반적인 사실이나 습관을 나타냅니다.",
+        "grammarPoints": [
+          "일반적인 사실 표현 (Present Simple)",
+          "시간 표현 'every morning'"
+        ],
+        "examples": [
+          {
+            "en": "I brush my teeth every day.",
+            "ko": "나는 매일 이를 닦는다."
+          },
+          {
+            "en": "She reads a book before sleep.",
+            "ko": "그녀는 잠들기 전에 책을 읽는다."
+          }
+        ]
+      },
+      {
+        "text": "The sun helps them grow tall and strong.",
+        "structure": {
+          "subject": {
+            "text": "The sun",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "helps",
+            "label": "동사"
+          },
+          "object": {
+            "text": "them",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "grow tall and strong",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + C",
+          "note": "주어+동사+목적어+보어 구조"
+        },
+        "explanation": "이 문장은 태양이 식물들에게 도움을 준다는 내용입니다. 'helps'는 제3인칭 단수형인 동사이며, 'them'은 목적어입니다. 'grow tall and strong'은 어떻게 자라는지를 설명하는 보어입니다.",
+        "grammarPoints": [
+          "제3인칭 단수형 동사 'helps'",
+          "형용사 연결 'tall and strong'"
+        ],
+        "examples": [
+          {
+            "en": "My mom makes me feel happy.",
+            "ko": "엄마는 나를 행복하게 만든다."
+          },
+          {
+            "en": "Exercise keeps you healthy.",
+            "ko": "운동은 당신을 건강하게 유지한다."
+          }
+        ]
+      },
+      {
+        "text": "Last week, I picked my first tomato.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "picked",
+            "label": "동사"
+          },
+          "object": {
+            "text": "my first tomato",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O",
+          "note": "주어+동사+목적어 구조"
+        },
+        "explanation": "이 문장은 과거에 특정한 일을 한 것을 설명합니다. 'picked'는 과거형 동사이므로 이미 일어난 사건입니다. 'my first tomato'는 무엇을 선택했는지를 나타내는 목적어입니다.",
+        "grammarPoints": [
+          "과거형 동사 'picked'",
+          "소유격 'my'"
+        ],
+        "examples": [
+          {
+            "en": "I found a coin yesterday.",
+            "ko": "나는 어제 동전을 찾았다."
+          },
+          {
+            "en": "She baked cookies last night.",
+            "ko": "그녀는 어젯밤에 쿠키를 굽었다."
+          }
+        ]
+      },
+      {
+        "text": "It was bright red and very sweet.",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "bright red and very sweet",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + C",
+          "note": "주어+동사+보어 구조"
+        },
+        "explanation": "이 문장은 'It'이 무엇인지 설명합니다. 'was'는 과거형 be동사이며, 'bright red and very sweet'는 그것의 상태나 특성을 설명하는 보어입니다.",
+        "grammarPoints": [
+          "과거형 be동사 'was'",
+          "형용사 연결 'bright red and very sweet'"
+        ],
+        "examples": [
+          {
+            "en": "The cake was delicious.",
+            "ko": "케이크는 맛있었다."
+          },
+          {
+            "en": "This book is interesting.",
+            "ko": "이 책은 재미있다."
+          }
+        ]
+      },
+      {
+        "text": "My neighbor also has a garden.",
+        "structure": {
+          "subject": {
+            "text": "My neighbor",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "has",
+            "label": "동사"
+          },
+          "object": {
+            "text": "a garden",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O",
+          "note": "주어+동사+목적어 구조"
+        },
+        "explanation": "이 문장은 이웃도 정원을 가지고 있다는 사실을 말합니다. 'has'는 제3인칭 단수형인 소유 동사입니다. 현재형으로 일반적인 사실을 나타냅니다.",
+        "grammarPoints": [
+          "소유 동사 'has'",
+          "제3인칭 단수형"
+        ],
+        "examples": [
+          {
+            "en": "He has a bicycle.",
+            "ko": "그는 자전거를 가지고 있다."
+          },
+          {
+            "en": "She has two cats.",
+            "ko": "그녀는 고양이 두 마리를 가지고 있다."
+          }
+        ]
+      },
+      {
+        "text": "She grows flowers, not vegetables.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "grows",
+            "label": "동사"
+          },
+          "object": {
+            "text": "flowers",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "not vegetables",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + C",
+          "note": "주어+동사+목적어+보어 구조"
+        },
+        "explanation": "이 문장은 이웃이 꽃을 키우지만 채소는 키우지 않는다는 점을 설명합니다. 'grows'는 제3인칭 단수형 동사이며, 'not vegetables'는 부정적인 보어입니다.",
+        "grammarPoints": [
+          "제3인칭 단수형 동사 'grows'",
+          "부정 표현 'not'"
+        ],
+        "examples": [
+          {
+            "en": "He plays piano, not guitar.",
+            "ko": "그는 피아노를 친다, 기타는 아니다."
+          },
+          {
+            "en": "They eat rice, not bread.",
+            "ko": "그들은 밥을 먹는다, 빵은 아니다."
+          }
+        ]
+      },
+      {
+        "text": "Her garden is full of colors.",
+        "structure": {
+          "subject": {
+            "text": "Her garden",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "is",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "full of colors",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + C",
+          "note": "주어+동사+보어 구조"
+        },
+        "explanation": "이 문장은 이웃의 정원이 다양한 색상으로 가득 차 있다는 것을 설명합니다. 'is'는 현재형 be동사이며, 'full of colors'는 상태를 나타내는 보어입니다.",
+        "grammarPoints": [
+          "현재형 be동사 'is'",
+          "형용사 표현 'full of'"
+        ],
+        "examples": [
+          {
+            "en": "His room is full of toys.",
+            "ko": "그의 방은 장난감으로 가득 차 있다."
+          },
+          {
+            "en": "The box is full of books.",
+            "ko": "상자는 책으로 가득 차 있다."
+          }
+        ]
+      },
+      {
+        "text": "Sometimes we trade.",
+        "structure": {
+          "subject": {
+            "text": "we",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "trade",
+            "label": "동사"
+          }
+        },
+        "pattern": {
+          "name": "S + V",
+          "note": "주어+동사 구조"
+        },
+        "explanation": "이 문장은 우리가 때때로 교환한다는 사실을 말합니다. 'Sometimes'는 빈도를 나타내는 부사이며, 'trade'는 현재형 동사입니다.",
+        "grammarPoints": [
+          "빈도 부사 'sometimes'",
+          "자동사 'trade'"
+        ],
+        "examples": [
+          {
+            "en": "We walk every morning.",
+            "ko": "우리는 매일 아침 산책한다."
+          },
+          {
+            "en": "They study hard sometimes.",
+            "ko": "그들은 때때로 열심히 공부한다."
+          }
+        ]
+      },
+      {
+        "text": "I give her tomatoes.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "give",
+            "label": "동사"
+          },
+          "object": {
+            "text": "her tomatoes",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O",
+          "note": "주어+동사+목적어 구조"
+        },
+        "explanation": "이 문장은 내가 그녀에게 토마토를 준다는 내용입니다. 'give'는 현재형 동사이며, 'her tomatoes'는 누가 무엇을 받았는지를 나타냅니다.",
+        "grammarPoints": [
+          "직접목적어와 간접목적어 구조",
+          "현재형 동사 'give'"
+        ],
+        "examples": [
+          {
+            "en": "I teach him English.",
+            "ko": "나는 그에게 영어를 가르친다."
+          },
+          {
+            "en": "She sends me letters.",
+            "ko": "그녀는 나에게 편지를 보낸다."
+          }
+        ]
+      },
+      {
+        "text": "She gives me beautiful flowers for my kitchen table.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "gives",
+            "label": "동사"
+          },
+          "object": {
+            "text": "me beautiful flowers",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "for my kitchen table",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + C",
+          "note": "주어+동사+목적어+보어 구조"
+        },
+        "explanation": "이 문장은 그녀가 내게 아름다운 꽃을 주는 것을 설명합니다. 'gives'는 제3인칭 단수형인 동사이며, 'for my kitchen table'은 어디에 꽃을 주는지를 나타냅니다.",
+        "grammarPoints": [
+          "제3인칭 단수형 동사 'gives'",
+          "목적어 보어 'for my kitchen table'"
+        ],
+        "examples": [
+          {
+            "en": "He buys her chocolates for Valentine's Day.",
+            "ko": "그는 발렌타인데이에 그녀에게 초콜릿을 산다."
+          },
+          {
+            "en": "They bring us gifts for Christmas.",
+            "ko": "그들은 크리스마스에 우리에게 선물을 가져온다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "저는 집 뒤에 작은 정원이 있습니다. 저는 지난 봄에 토마토, 고춧가지, 그리고 약초들을 심었습니다. 매일 아침 저는 아침 식사 전에 식물들에 물을 줍니다. 태양이 식물들이 키가 크고 튼튼하게 자라도록 도와줍니다. 지난주에는 처음으로 토마토를 따왔습니다. 그것은 밝은 빨간색이고 매우 달았습니다. 제 이웃도 정원이 있습니다. 그녀는 꽃을 키우는데, 채소는 안 키웁니다. 그녀의 정원은 다양한 색상으로 가득 차 있습니다. 때때로 우리는 서로 교환합니다. 저는 그녀에게 토마토를 줍니다. 그녀는 저의 부엌 식탁에 놓을 아름다운 꽃들을 저에게 줍니다.",
+  "keyVocab": [
+    "garden",
+    "planted",
+    "water",
+    "picked",
+    "beautiful"
+  ],
+  "quiz": {
+    "question": "What does 'behind my house' mean?",
+    "answer": "'behind my house' means '내 집 뒤에'. It describes the location of the garden."
+  },
+  "generated_at": "2026-02-20T01:45:54.315898+09:00"
+}

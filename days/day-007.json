@@ -1,0 +1,1473 @@
+{
+  "day": 7,
+  "level": 1,
+  "source": {
+    "title": "Going to the Market",
+    "author": "Storybooks Canada",
+    "license": "CC BY 4.0",
+    "url": "https://storybookscanada.ca"
+  },
+  "passage": "Every Saturday, Maria goes to the market with her mother. The market is very busy and loud. There are many people selling fruits and vegetables. Maria likes the red apples best. Her mother buys rice, tomatoes, and onions. Maria always asks for a mango. Her mother smiles and buys one for her. They carry the heavy bags home together. Maria helps her mother cook dinner. They make a delicious soup with the vegetables. The mango is for dessert.",
+  "audio": {
+    "passage": "audio/day-007.mp3",
+    "words": {
+      "every": "audio/day-007-every.mp3",
+      "saturday": "audio/day-007-saturday.mp3",
+      "maria": "audio/day-007-maria.mp3",
+      "goes": "audio/day-007-goes.mp3",
+      "to": "audio/day-007-to.mp3",
+      "the": "audio/day-007-the.mp3",
+      "market": "audio/day-007-market.mp3",
+      "with": "audio/day-007-with.mp3",
+      "her": "audio/day-007-her.mp3",
+      "mother": "audio/day-007-mother.mp3",
+      "is": "audio/day-007-is.mp3",
+      "very": "audio/day-007-very.mp3",
+      "busy": "audio/day-007-busy.mp3",
+      "and": "audio/day-007-and.mp3",
+      "loud": "audio/day-007-loud.mp3",
+      "there": "audio/day-007-there.mp3",
+      "are": "audio/day-007-are.mp3",
+      "many": "audio/day-007-many.mp3",
+      "people": "audio/day-007-people.mp3",
+      "selling": "audio/day-007-selling.mp3",
+      "fruits": "audio/day-007-fruits.mp3",
+      "vegetables": "audio/day-007-vegetables.mp3",
+      "likes": "audio/day-007-likes.mp3",
+      "red": "audio/day-007-red.mp3",
+      "apples": "audio/day-007-apples.mp3",
+      "best": "audio/day-007-best.mp3",
+      "buys": "audio/day-007-buys.mp3",
+      "rice": "audio/day-007-rice.mp3",
+      "tomatoes": "audio/day-007-tomatoes.mp3",
+      "onions": "audio/day-007-onions.mp3",
+      "always": "audio/day-007-always.mp3"
+    }
+  },
+  "words": {
+    "every": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "매",
+          "en": "each",
+          "primary": true
+        },
+        {
+          "ko": "모든",
+          "en": "all"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '매주 토요일'이라는 의미로 사용되어 시간적 주기를 나타냅니다.",
+      "forms": {},
+      "ipa": "/ˈɛvɝi/"
+    },
+    "saturday": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "토요일",
+          "en": "Saturday",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "'매주 토요일'이라는 요일을 나타내며, 반복되는 일정을 표현합니다.",
+      "forms": {
+        "base": "Saturday",
+        "plural": "Saturdays"
+      },
+      "ipa": "/ˈsæˌtɪˌdeɪ/"
+    },
+    "maria": {
+      "pos": "proper noun",
+      "meanings": [
+        {
+          "ko": "(여성 이름) 마리아",
+          "en": "Maria (female name)",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이름이므로 고유명사이며, 주어로 사용되었습니다.",
+      "forms": {},
+      "ipa": "/mɝˈiə/"
+    },
+    "goes": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "가다",
+          "en": "to go",
+          "primary": true
+        },
+        {
+          "ko": "이동하다",
+          "en": "to move"
+        }
+      ],
+      "contextMeaning": "마리아가 시장에 가는 동작을 현재 진행형으로 표현했습니다.",
+      "forms": {
+        "base": "go",
+        "tense": "present",
+        "related": [
+          "went",
+          "gone"
+        ]
+      },
+      "ipa": "/ˈɡoʊz/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~로",
+          "en": "to",
+          "primary": true
+        },
+        {
+          "ko": "~까지",
+          "en": "toward"
+        }
+      ],
+      "contextMeaning": "방향성을 나타내며, '시장으로'라는 목적지를 연결해줍니다.",
+      "forms": {},
+      "ipa": "/ˈtu/"
+    },
+    "the": {
+      "pos": "definite article",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "the",
+          "primary": true
+        },
+        {
+          "ko": "특정한",
+          "en": "specific"
+        }
+      ],
+      "contextMeaning": "앞서 언급한 망고를 다시 지칭합니다.",
+      "forms": {},
+      "ipa": "/ˈðə/"
+    },
+    "market": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "시장",
+          "en": "market",
+          "primary": true
+        },
+        {
+          "ko": "시장",
+          "en": "place where goods are sold"
+        }
+      ],
+      "contextMeaning": "구체적인 장소를 나타내며, 마리아와 어머니가 방문하는 곳입니다.",
+      "forms": {
+        "base": "market",
+        "plural": "markets"
+      },
+      "ipa": "/ˈmɑɹkət/"
+    },
+    "with": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~와 함께",
+          "en": "with",
+          "primary": true
+        },
+        {
+          "ko": "~를 이용해서",
+          "en": "using"
+        }
+      ],
+      "contextMeaning": "야채를 사용하여 국을 만들었다는 방법을 설명합니다.",
+      "forms": {},
+      "ipa": "/ˈwɪð/"
+    },
+    "her": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "그녀의",
+          "en": "her",
+          "primary": true
+        },
+        {
+          "ko": "그녀에게",
+          "en": "to her"
+        }
+      ],
+      "contextMeaning": "어머니의 소유를 나타내며, '그녀의 어머니'라는 의미입니다.",
+      "forms": {},
+      "ipa": "/ˈhɝ/"
+    },
+    "mother": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "어머니",
+          "en": "mother",
+          "primary": true
+        },
+        {
+          "ko": "엄마",
+          "en": "mom"
+        }
+      ],
+      "contextMeaning": "마리아와 함께 시장에 가는 사람을 나타냅니다.",
+      "forms": {
+        "base": "mother",
+        "plural": "mothers"
+      },
+      "ipa": "/ˈməðɝ/"
+    },
+    "is": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "~이다",
+          "en": "to be",
+          "primary": true
+        },
+        {
+          "ko": "존재하다",
+          "en": "exist"
+        }
+      ],
+      "contextMeaning": "망고가 디저트라는 역할을 설명합니다.",
+      "forms": {
+        "base": "be",
+        "tense": "present",
+        "related": [
+          "was",
+          "were",
+          "been"
+        ]
+      },
+      "ipa": "/ˈɪz/"
+    },
+    "very": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "매우",
+          "en": "very",
+          "primary": true
+        },
+        {
+          "ko": "정말",
+          "en": "extremely"
+        }
+      ],
+      "contextMeaning": "형용사(busy)를 더 강조하여 매우 바쁘다는 것을 나타냅니다.",
+      "forms": {},
+      "ipa": "/ˈvɛɹi/"
+    },
+    "busy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "바쁜",
+          "en": "busy",
+          "primary": true
+        },
+        {
+          "ko": "혼잡한",
+          "en": "crowded"
+        }
+      ],
+      "contextMeaning": "시장이 사람 많은 활기찬 장소임을 설명합니다.",
+      "forms": {
+        "base": "busy",
+        "comparative": "busier",
+        "superlative": "busiest"
+      },
+      "ipa": "/ˈbɪzi/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "and",
+          "primary": true
+        },
+        {
+          "ko": "~하며",
+          "en": "also"
+        }
+      ],
+      "contextMeaning": "두 개의 형용어(busy, loud)를 연결하여 병렬 구조를 만듭니다.",
+      "forms": {},
+      "ipa": "/ˈænd/"
+    },
+    "loud": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "시끄러운",
+          "en": "loud",
+          "primary": true
+        },
+        {
+          "ko": "음향이 큰",
+          "en": "noisy"
+        }
+      ],
+      "contextMeaning": "시장의 분위기를 묘사하며, 시끄럽다는 의미로 사용되었습니다.",
+      "forms": {
+        "base": "loud",
+        "comparative": "louder",
+        "superlative": "loudest"
+      },
+      "ipa": "/ˈɫaʊd/"
+    },
+    "there": {
+      "pos": "pronoun/adverb",
+      "meanings": [
+        {
+          "ko": "거기에",
+          "en": "there",
+          "primary": true
+        },
+        {
+          "ko": "존재하다",
+          "en": "exist"
+        }
+      ],
+      "contextMeaning": "존재하는 사람이나 사물을 소개할 때 사용됩니다.",
+      "forms": {},
+      "ipa": "/ˈðɛɹ/"
+    },
+    "are": {
+      "pos": "verb (present tense, plural)",
+      "meanings": [
+        {
+          "ko": "~이다",
+          "en": "to be",
+          "primary": true
+        },
+        {
+          "ko": "존재하다",
+          "en": "exist"
+        }
+      ],
+      "contextMeaning": "복수의 사람들이 존재함을 나타냅니다.",
+      "forms": {
+        "base": "be",
+        "tense": "present",
+        "related": [
+          "was",
+          "were",
+          "been"
+        ]
+      },
+      "ipa": "/ˈɑɹ/"
+    },
+    "many": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "많은",
+          "en": "many",
+          "primary": true
+        },
+        {
+          "ko": "수많은",
+          "en": "numerous"
+        }
+      ],
+      "contextMeaning": "사람들이 많음을 나타내며, 복수 명사 앞에 쓰였습니다.",
+      "forms": {},
+      "ipa": "/ˈmɛni/"
+    },
+    "people": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "사람들",
+          "en": "people",
+          "primary": true
+        },
+        {
+          "ko": "민족",
+          "en": "nation"
+        }
+      ],
+      "contextMeaning": "시장에서 파는 사람들이라는 의미로 복수형으로 사용되었습니다.",
+      "forms": {
+        "base": "person",
+        "plural": "people"
+      },
+      "ipa": "/ˈpipəɫ/"
+    },
+    "selling": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "팔다",
+          "en": "to sell",
+          "primary": true
+        },
+        {
+          "ko": "판매하다",
+          "en": "to trade"
+        }
+      ],
+      "contextMeaning": "사람들이 과일과 야채를 판다는 동작을 설명합니다.",
+      "forms": {
+        "base": "sell",
+        "tense": "present participle",
+        "related": [
+          "sold",
+          "sold"
+        ]
+      },
+      "ipa": "/ˈsɛɫɪŋ/"
+    },
+    "fruits": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "과일들",
+          "en": "fruits",
+          "primary": true
+        },
+        {
+          "ko": "열매들",
+          "en": "produce"
+        }
+      ],
+      "contextMeaning": "시장에서 파는 다양한 과일들을 나타냅니다.",
+      "forms": {
+        "base": "fruit",
+        "plural": "fruits"
+      },
+      "ipa": "/ˈfɹuts/"
+    },
+    "vegetables": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "야채들",
+          "en": "vegetables",
+          "primary": true
+        },
+        {
+          "ko": "채소들",
+          "en": "greens"
+        }
+      ],
+      "contextMeaning": "시장에서 파는 식물성 음식들을 나타냅니다.",
+      "forms": {
+        "base": "vegetable",
+        "plural": "vegetables"
+      },
+      "ipa": "/ˈvɛdʒtəbəɫz/"
+    },
+    "likes": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "좋아한다",
+          "en": "like",
+          "primary": true
+        },
+        {
+          "ko": "선호하다",
+          "en": "prefer"
+        }
+      ],
+      "contextMeaning": "마리아가 특정한 사과를 좋아한다는 감정을 표현합니다.",
+      "forms": {
+        "base": "like",
+        "tense": "present",
+        "related": [
+          "liked",
+          "liked"
+        ]
+      },
+      "ipa": "/ˈɫaɪks/"
+    },
+    "red": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "빨간색",
+          "en": "red",
+          "primary": true
+        },
+        {
+          "ko": "붉은",
+          "en": "crimson"
+        }
+      ],
+      "contextMeaning": "사과의 색상을 설명하기 위해 사용되었습니다.",
+      "forms": {},
+      "ipa": "/ˈɹɛd/"
+    },
+    "apples": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "사과들",
+          "en": "apples",
+          "primary": true
+        },
+        {
+          "ko": "과일 종류",
+          "en": "type of fruit"
+        }
+      ],
+      "contextMeaning": "마리아가 좋아하는 과일 중 하나입니다.",
+      "forms": {
+        "base": "apple",
+        "plural": "apples"
+      },
+      "ipa": "/ˈæpəɫz/"
+    },
+    "best": {
+      "pos": "adverb (superlative)",
+      "meanings": [
+        {
+          "ko": "가장",
+          "en": "most",
+          "primary": true
+        },
+        {
+          "ko": "제일 잘",
+          "en": "better than others"
+        }
+      ],
+      "contextMeaning": "다른 것보다 가장 좋아한다는 것을 강조합니다.",
+      "forms": {
+        "base": "well",
+        "comparative": "better",
+        "superlative": "best"
+      },
+      "ipa": "/ˈbɛst/"
+    },
+    "buys": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "산다",
+          "en": "buy",
+          "primary": true
+        },
+        {
+          "ko": "구입하다",
+          "en": "purchase"
+        }
+      ],
+      "contextMeaning": "어머니가 망고를 산다는 동작을 나타냅니다.",
+      "forms": {
+        "base": "buy",
+        "tense": "present",
+        "related": [
+          "bought",
+          "bought"
+        ]
+      },
+      "ipa": "/ˈbaɪz/"
+    },
+    "rice": {
+      "pos": "noun (uncountable)",
+      "meanings": [
+        {
+          "ko": "쌀",
+          "en": "rice",
+          "primary": true
+        },
+        {
+          "ko": "밥",
+          "en": "cooked grain"
+        }
+      ],
+      "contextMeaning": "식료품 목록 중 하나로, 일반적으로 밥으로 먹는 주식입니다.",
+      "forms": {},
+      "ipa": "/ˈɹaɪs/"
+    },
+    "tomatoes": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "토마토들",
+          "en": "tomatoes",
+          "primary": true
+        },
+        {
+          "ko": "채소",
+          "en": "vegetable"
+        }
+      ],
+      "contextMeaning": "시장에서 산 식료품 중 하나입니다.",
+      "forms": {
+        "base": "tomato",
+        "plural": "tomatoes"
+      },
+      "ipa": "/təˈmɑtoʊz/"
+    },
+    "onions": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "양파들",
+          "en": "onions",
+          "primary": true
+        },
+        {
+          "ko": "채소",
+          "en": "vegetable"
+        }
+      ],
+      "contextMeaning": "시장에서 산 식료품 중 하나입니다.",
+      "forms": {
+        "base": "onion",
+        "plural": "onions"
+      },
+      "ipa": "/ˈənjənz/"
+    },
+    "always": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "항상",
+          "en": "always",
+          "primary": true
+        },
+        {
+          "ko": "언제나",
+          "en": "constantly"
+        }
+      ],
+      "contextMeaning": "마리아가 항상 망고를 요청한다는 습관을 나타냅니다.",
+      "forms": {},
+      "ipa": "/ˈɔɫˌweɪz/"
+    },
+    "asks": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "요청하다",
+          "en": "ask",
+          "primary": true
+        },
+        {
+          "ko": "물어보다",
+          "en": "inquire"
+        }
+      ],
+      "contextMeaning": "마리아가 망고를 달라고 부탁하는 행동을 표현합니다.",
+      "forms": {
+        "base": "ask",
+        "tense": "present",
+        "related": [
+          "asked",
+          "asked"
+        ]
+      },
+      "ipa": "/ˈæsks/"
+    },
+    "for": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~을 위해",
+          "en": "for",
+          "primary": true
+        },
+        {
+          "ko": "~에 대해",
+          "en": "regarding"
+        }
+      ],
+      "contextMeaning": "목적어로서 디저트로 제공됨을 나타냅니다.",
+      "forms": {},
+      "ipa": "/ˈfɔɹ/"
+    },
+    "a": {
+      "pos": "indefinite article",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "one",
+          "primary": true
+        },
+        {
+          "ko": "어떤",
+          "en": "some"
+        }
+      ],
+      "contextMeaning": "단수 명사 앞에 사용되어 하나의 망고를 지칭합니다.",
+      "forms": {},
+      "ipa": "/ˈeɪ/"
+    },
+    "mango": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "망고",
+          "en": "mango",
+          "primary": true
+        },
+        {
+          "ko": "열대 과일",
+          "en": "tropical fruit"
+        }
+      ],
+      "contextMeaning": "디저트로 먹는 망고를 나타냅니다.",
+      "forms": {
+        "base": "mango",
+        "plural": "mangoes/mangos"
+      },
+      "ipa": "/ˈmæŋɡoʊ/"
+    },
+    "smiles": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "미소 짓다",
+          "en": "smile",
+          "primary": true
+        },
+        {
+          "ko": "웃다",
+          "en": "grin"
+        }
+      ],
+      "contextMeaning": "어머니가 기분 좋게 반응하는 감정을 표현합니다.",
+      "forms": {
+        "base": "smile",
+        "tense": "present",
+        "related": [
+          "smiled",
+          "smiled"
+        ]
+      },
+      "ipa": "/ˈsmaɪɫz/"
+    },
+    "one": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "하나",
+          "en": "one",
+          "primary": true
+        },
+        {
+          "ko": "그것",
+          "en": "it"
+        }
+      ],
+      "contextMeaning": "앞서 언급한 망고 하나를 다시 지칭합니다.",
+      "forms": {},
+      "ipa": "/ˈwən/"
+    },
+    "they": {
+      "pos": "pronoun (subject)",
+      "meanings": [
+        {
+          "ko": "그들은",
+          "en": "they",
+          "primary": true
+        },
+        {
+          "ko": "그들이",
+          "en": "them"
+        }
+      ],
+      "contextMeaning": "마리아와 어머니를 함께 지칭합니다.",
+      "forms": {},
+      "ipa": "/ˈðeɪ/"
+    },
+    "carry": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "운반하다",
+          "en": "carry",
+          "primary": true
+        },
+        {
+          "ko": "옮기다",
+          "en": "transport"
+        }
+      ],
+      "contextMeaning": "시장에서 산 무거운 가방을 집으로 옮기는 동작을 표현합니다.",
+      "forms": {
+        "base": "carry",
+        "tense": "present",
+        "related": [
+          "carried",
+          "carried"
+        ]
+      },
+      "ipa": "/ˈkæɹi/"
+    },
+    "heavy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "무거운",
+          "en": "heavy",
+          "primary": true
+        },
+        {
+          "ko": "무게가 큰",
+          "en": "weighty"
+        }
+      ],
+      "contextMeaning": "가방의 무게를 설명하기 위해 사용되었습니다.",
+      "forms": {
+        "base": "heavy",
+        "comparative": "heavier",
+        "superlative": "heaviest"
+      },
+      "ipa": "/ˈhɛvi/"
+    },
+    "bags": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "봉투들",
+          "en": "bags",
+          "primary": true
+        },
+        {
+          "ko": "가방들",
+          "en": "containers"
+        }
+      ],
+      "contextMeaning": "시장에서 산 물건들을 담은 가방들을 나타냅니다.",
+      "forms": {
+        "base": "bag",
+        "plural": "bags"
+      },
+      "ipa": "/ˈbæɡz/"
+    },
+    "home": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "집",
+          "en": "home",
+          "primary": true
+        },
+        {
+          "ko": "귀가",
+          "en": "returning place"
+        }
+      ],
+      "contextMeaning": "시장에서 집으로 돌아가는 장소를 나타냅니다.",
+      "forms": {},
+      "ipa": "/ˈhoʊm/"
+    },
+    "helps": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "돕다",
+          "en": "help",
+          "primary": true
+        },
+        {
+          "ko": "도움을 주다",
+          "en": "assist"
+        }
+      ],
+      "contextMeaning": "마리아가 어머니를 돕는 행동을 표현합니다.",
+      "forms": {
+        "base": "help",
+        "tense": "present",
+        "related": [
+          "helped",
+          "helped"
+        ]
+      },
+      "ipa": "/ˈhɛɫps/"
+    },
+    "cook": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "요리하다",
+          "en": "cook",
+          "primary": true
+        },
+        {
+          "ko": "조리하다",
+          "en": "prepare food"
+        }
+      ],
+      "contextMeaning": "저녁 식사를 준비하는 동작을 나타냅니다.",
+      "forms": {
+        "base": "cook",
+        "tense": "present",
+        "related": [
+          "cooked",
+          "cooked"
+        ]
+      },
+      "ipa": "/ˈkʊk/"
+    },
+    "dinner": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "저녁 식사",
+          "en": "dinner",
+          "primary": true
+        },
+        {
+          "ko": "만찬",
+          "en": "meal"
+        }
+      ],
+      "contextMeaning": "하루 중 마지막 식사를 나타냅니다.",
+      "forms": {},
+      "ipa": "/ˈdɪnɝ/"
+    },
+    "make": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "만들다",
+          "en": "make",
+          "primary": true
+        },
+        {
+          "ko": "조리하다",
+          "en": "prepare"
+        }
+      ],
+      "contextMeaning": "맛있는 국을 만드는 동작을 표현합니다.",
+      "forms": {
+        "base": "make",
+        "tense": "present",
+        "related": [
+          "made",
+          "made"
+        ]
+      },
+      "ipa": "/ˈmeɪk/"
+    },
+    "delicious": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "맛있는",
+          "en": "delicious",
+          "primary": true
+        },
+        {
+          "ko": "맛좋은",
+          "en": "tasty"
+        }
+      ],
+      "contextMeaning": "국의 맛을 칭찬하는 형용사로 사용되었습니다.",
+      "forms": {
+        "base": "delicious",
+        "comparative": "more delicious",
+        "superlative": "most delicious"
+      },
+      "ipa": "/dɪˈɫɪʃəs/"
+    },
+    "soup": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "국",
+          "en": "soup",
+          "primary": true
+        },
+        {
+          "ko": "수프",
+          "en": "broth"
+        }
+      ],
+      "contextMeaning": "야채로 만든 요리를 나타냅니다.",
+      "forms": {
+        "base": "soup",
+        "plural": "soups"
+      },
+      "ipa": "/ˈsup/"
+    },
+    "dessert": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "디저트",
+          "en": "dessert",
+          "primary": true
+        },
+        {
+          "ko": "후식",
+          "en": "sweet course"
+        }
+      ],
+      "contextMeaning": "식사 후에 먹는 음식을 나타냅니다.",
+      "forms": {},
+      "ipa": "/dɪˈzɝt/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "Every Saturday, Maria goes to the market with her mother.",
+        "structure": {
+          "subject": {
+            "text": "Maria",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "goes",
+            "label": "동사"
+          },
+          "object": {
+            "text": "to the market",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "with her mother",
+            "label": "부사어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 마리아가 매주 토요일 시장에 가는 일정을 설명합니다. 주어(Maria)가 동사(goes)를 통해 목적지(the market)로 이동하고 있으며, 함께 가는 사람(her mother)을 나타내는 보어가 포함되어 있습니다.",
+        "grammarPoints": [
+          "시간 표현(Every Saturday)",
+          "전치사 구문(with her mother)"
+        ],
+        "examples": [
+          {
+            "en": "Every morning, John walks to school.",
+            "ko": "매일 아침 존은 학교에 걸어갑니다."
+          },
+          {
+            "en": "She goes to work with her friend.",
+            "ko": "그녀는 친구와 함께 회사에 갑니다."
+          }
+        ]
+      },
+      {
+        "text": "The market is very busy and loud.",
+        "structure": {
+          "subject": {
+            "text": "The market",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "is",
+            "label": "동사"
+          },
+          "object": {
+            "text": "",
+            "label": ""
+          },
+          "complement": {
+            "text": "very busy and loud",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 시장의 상태를 설명합니다. 주어(The market)가 동사(is)를 통해 어떻게 되어 있는지를 보어(very busy and loud)로 설명하고 있습니다.",
+        "grammarPoints": [
+          "be동사(is)의 사용",
+          "형용사 병렬(very busy and loud)"
+        ],
+        "examples": [
+          {
+            "en": "The room is clean and bright.",
+            "ko": "방은 깨끗하고 밝습니다."
+          },
+          {
+            "en": "He is tall and strong.",
+            "ko": "그는 키가 크고 강합니다."
+          }
+        ]
+      },
+      {
+        "text": "There are many people selling fruits and vegetables.",
+        "structure": {
+          "subject": {
+            "text": "There",
+            "label": "존재 여부"
+          },
+          "verb": {
+            "text": "are",
+            "label": "동사"
+          },
+          "object": {
+            "text": "many people",
+            "label": "존재하는 대상"
+          },
+          "complement": {
+            "text": "selling fruits and vegetables",
+            "label": "설명"
+          }
+        },
+        "pattern": {
+          "name": "There + be + N + V-ing",
+          "note": "존재 표현 + be동사 + 명사 + 현재분사"
+        },
+        "explanation": "이 문장은 시장에 많은 사람들이 존재하며 그들이 무엇을 하는지를 설명합니다. 'There are'는 존재를 나타내고, 'selling fruits and vegetables'는 그들의 활동을 설명합니다.",
+        "grammarPoints": [
+          "There is/are 구문",
+          "현재분사(selling)를 이용한 설명"
+        ],
+        "examples": [
+          {
+            "en": "There are children playing in the park.",
+            "ko": "공원에 아이들이 놀고 있습니다."
+          },
+          {
+            "en": "There are students studying at the library.",
+            "ko": "도서관에 공부하는 학생들이 있습니다."
+          }
+        ]
+      },
+      {
+        "text": "Maria likes the red apples best.",
+        "structure": {
+          "subject": {
+            "text": "Maria",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "likes",
+            "label": "동사"
+          },
+          "object": {
+            "text": "the red apples",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "best",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + Adv",
+          "note": "주어 + 동사 + 목적어 + 부사"
+        },
+        "explanation": "이 문장은 마리아가 어떤 사과를 가장 좋아하는지를 나타냅니다. 주어(Maria)가 동사(likes)를 통해 목적어(the red apples)를 표현하고, 최고급 부사(best)로 선호도를 강조합니다.",
+        "grammarPoints": [
+          "최고급(best)",
+          "형용사(red)의 위치"
+        ],
+        "examples": [
+          {
+            "en": "I like chocolate ice cream best.",
+            "ko": "나는 초콜릿 아이스크림을 제일 좋아해."
+          },
+          {
+            "en": "She loves green tea the most.",
+            "ko": "그녀는 녹차를 가장 좋아합니다."
+          }
+        ]
+      },
+      {
+        "text": "Her mother buys rice, tomatoes, and onions.",
+        "structure": {
+          "subject": {
+            "text": "Her mother",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "buys",
+            "label": "동사"
+          },
+          "object": {
+            "text": "rice, tomatoes, and onions",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "",
+            "label": ""
+          }
+        },
+        "pattern": {
+          "name": "S + V + O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 어머니가 무엇을 산지를 설명합니다. 주어(Her mother)가 동사(buys)를 통해 여러 가지 식료품(rice, tomatoes, onions)을 구입했다는 사실을 전달합니다.",
+        "grammarPoints": [
+          "복수 목적어(rice, tomatoes, onions)",
+          "소유격(Her)"
+        ],
+        "examples": [
+          {
+            "en": "He buys books, pens, and notebooks.",
+            "ko": "그는 책, 펜, 노트북을 삽니다."
+          },
+          {
+            "en": "We bought apples, oranges, and bananas.",
+            "ko": "우리는 사과, 오렌지, 바나나를 샀습니다."
+          }
+        ]
+      },
+      {
+        "text": "Maria always asks for a mango.",
+        "structure": {
+          "subject": {
+            "text": "Maria",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "asks",
+            "label": "동사"
+          },
+          "object": {
+            "text": "for a mango",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "always",
+            "label": "부사"
+          }
+        },
+        "pattern": {
+          "name": "S + Adv + V + O",
+          "note": "주어 + 부사 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 마리아가 항상 망고를 요청한다는 습관을 설명합니다. 주어(Maria)가 부사(always)를 통해 반복되는 행동을 표현하고, 동사(asks)를 통해 요청하는 내용(for a mango)을 전달합니다.",
+        "grammarPoints": [
+          "빈도 부사(always)",
+          "전치사(for)의 사용"
+        ],
+        "examples": [
+          {
+            "en": "She always asks for cookies.",
+            "ko": "그녀는 항상 쿠키를 요청합니다."
+          },
+          {
+            "en": "He often asks for help.",
+            "ko": "그는 자주 도움을 요청합니다."
+          }
+        ]
+      },
+      {
+        "text": "Her mother smiles and buys one for her.",
+        "structure": {
+          "subject": {
+            "text": "Her mother",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "smiles and buys",
+            "label": "동사"
+          },
+          "object": {
+            "text": "one",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "for her",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V1 + Conj + V2 + O + C",
+          "note": "주어 + 동사1 + 접속사 + 동사2 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 어머니가 미소를 지으며 망고를 산다는 두 가지 행동을 연결하여 표현합니다. 주어(Her mother)가 먼저 웃고(smiles) 다음에 구매(buys)하는 행동을 하며, 'for her'는 누가 위해 산 것인지를 나타냅니다.",
+        "grammarPoints": [
+          "접속사(and)로 연결된 두 동사",
+          "대명사(one)의 사용"
+        ],
+        "examples": [
+          {
+            "en": "He laughs and gives me a gift.",
+            "ko": "그는 웃으며 나에게 선물을 줍니다."
+          },
+          {
+            "en": "She nods and says yes.",
+            "ko": "그녀는 고개를 끄덕이고 네라고 말합니다."
+          }
+        ]
+      },
+      {
+        "text": "They carry the heavy bags home together.",
+        "structure": {
+          "subject": {
+            "text": "They",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "carry",
+            "label": "동사"
+          },
+          "object": {
+            "text": "the heavy bags",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "home together",
+            "label": "부사어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + Adv",
+          "note": "주어 + 동사 + 목적어 + 부사"
+        },
+        "explanation": "이 문장은 마리아와 어머니가 무거운 가방을 집으로 함께 운반하는 모습을 설명합니다. 주어(They)가 동사(carry)를 통해 목적어(the heavy bags)를 이동시키고, 부사(home together)로 방향과 함께함을 나타냅니다.",
+        "grammarPoints": [
+          "형용사(heavy)의 위치",
+          "부사(home together)"
+        ],
+        "examples": [
+          {
+            "en": "We take the big box upstairs carefully.",
+            "ko": "우리는 큰 상자를 조심스럽게 위층으로 옮깁니다."
+          },
+          {
+            "en": "He carries his backpack everywhere.",
+            "ko": "그는 자신의 가방을 어디든지 가지고 다닙니다."
+          }
+        ]
+      },
+      {
+        "text": "Maria helps her mother cook dinner.",
+        "structure": {
+          "subject": {
+            "text": "Maria",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "helps",
+            "label": "동사"
+          },
+          "object": {
+            "text": "her mother",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "cook dinner",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + Infinitive",
+          "note": "주어 + 동사 + 목적어 + 원형동사"
+        },
+        "explanation": "이 문장은 마리아가 어머니를 도와 저녁을 요리하는 것을 설명합니다. 주어(Maria)가 동사(helps)를 통해 목적어(her mother)를 돕고, 보어(cook dinner)로 무엇을 하는지를 나타냅니다.",
+        "grammarPoints": [
+          "도움 동사(help)의 사용",
+          "원형동사(cook)"
+        ],
+        "examples": [
+          {
+            "en": "He helps me study English.",
+            "ko": "그는 내가 영어를 공부하도록 도와줍니다."
+          },
+          {
+            "en": "She helps her brother clean the room.",
+            "ko": "그녀는 동생이 방을 청소하도록 도와줍니다."
+          }
+        ]
+      },
+      {
+        "text": "They make a delicious soup with the vegetables.",
+        "structure": {
+          "subject": {
+            "text": "They",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "make",
+            "label": "동사"
+          },
+          "object": {
+            "text": "a delicious soup",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "with the vegetables",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + O + Prep Phrase",
+          "note": "주어 + 동사 + 목적어 + 전치사구"
+        },
+        "explanation": "이 문장은 마리아와 어머니가 야채를 사용해 맛있는 국을 만든다는 내용을 설명합니다. 주어(They)가 동사(make)를 통해 목적어(a delicious soup)를 만들고, 보어(with the vegetables)로 재료를 나타냅니다.",
+        "grammarPoints": [
+          "전치사(with)로 재료 표현",
+          "형용사(delicious)의 위치"
+        ],
+        "examples": [
+          {
+            "en": "We bake cookies with flour and sugar.",
+            "ko": "우리는 밀가루와 설탕으로 쿠키를 굽습니다."
+          },
+          {
+            "en": "She makes a cake with eggs and milk.",
+            "ko": "그녀는 계란과 우유로 케이크를 만듭니다."
+          }
+        ]
+      },
+      {
+        "text": "The mango is for dessert.",
+        "structure": {
+          "subject": {
+            "text": "The mango",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "is",
+            "label": "동사"
+          },
+          "object": {
+            "text": "",
+            "label": ""
+          },
+          "complement": {
+            "text": "for dessert",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S + V + C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 망고가 디저트로 제공된다는 점을 설명합니다. 주어(The mango)가 동사(is)를 통해 보어(for dessert)로 역할을 나타냅니다.",
+        "grammarPoints": [
+          "be동사(is)의 사용",
+          "전치사(for)로 역할 표현"
+        ],
+        "examples": [
+          {
+            "en": "This cake is for breakfast.",
+            "ko": "이 케이크는 아침 식사용입니다."
+          },
+          {
+            "en": "That drink is for guests.",
+            "ko": "그 음료는 손님들을 위한 것입니다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "매주 토요일 마리아는 어머니와 함께 시장에 갑니다. 시장은 매우 바쁘고 시끄럽습니다. 많은 사람들이 과일과 야채를 팝니다. 마리아는 붉은 사과를 가장 좋아합니다. 어머니는 쌀, 토마토, 양파를 삽니다. 마리아는 항상 망고를 요청합니다. 어머니는 미소를 지으며 그녀에게 하나를 사줍니다. 그들은 무거운 가방을 함께 집으로 운반합니다. 마리아는 어머니를 도와 저녁 식사를 준비합니다. 그들은 야채로 맛있는 국을 만듭니다. 망고는 디저트용입니다.",
+  "keyVocab": [
+    "goes",
+    "market",
+    "likes",
+    "delicious",
+    "helps"
+  ],
+  "quiz": {
+    "question": "'Maria always asks for a mango.'에서 'always'는 어떤 의미인가요?",
+    "answer": "항상"
+  },
+  "generated_at": "2026-02-20T01:20:33.291492+09:00"
+}

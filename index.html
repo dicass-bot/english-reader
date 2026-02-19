@@ -102,6 +102,25 @@
       </div>
     </section>
 
+    <!-- Sentence Popup (Bottom Sheet) -->
+    <div id="sent-overlay" class="hidden" aria-hidden="true"></div>
+    <div id="sent-popup" class="hidden" role="dialog" aria-label="Sentence details">
+      <div class="popup-handle"></div>
+      <div id="sent-popup-content">
+        <div class="sent-header">
+          <div id="sent-en"></div>
+          <button id="sent-play-btn" class="icon-btn" aria-label="Play sentence">&#128264;</button>
+        </div>
+        <div id="sent-ko"></div>
+        <div class="sent-section-label">Words</div>
+        <div id="sent-word-list"></div>
+        <div id="sent-grammar-section">
+          <div class="sent-section-label">Grammar</div>
+          <div id="sent-grammar"></div>
+        </div>
+      </div>
+    </div>
+
     <!-- Word Popup (Bottom Sheet) -->
     <div id="word-overlay" class="hidden" aria-hidden="true"></div>
     <div id="word-popup" class="hidden" role="dialog" aria-label="Word details">

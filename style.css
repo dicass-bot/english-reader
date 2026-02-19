@@ -682,6 +682,152 @@ header {
   border-left: 3px solid var(--blue);
 }
 
+/* Sentence Popup (Bottom Sheet) */
+#sent-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  transition: opacity 0.2s;
+}
+
+#sent-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 640px;
+  margin: 0 auto;
+  background: var(--mantle);
+  border-radius: 1rem 1rem 0 0;
+  padding: 0.5rem 1.25rem 1.5rem;
+  z-index: 300;
+  max-height: 75vh;
+  overflow-y: auto;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+#sent-popup.show {
+  transform: translateY(0);
+}
+
+.sent-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+#sent-en {
+  flex: 1;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+#sent-ko {
+  font-size: 0.9rem;
+  color: var(--subtext0);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--surface0);
+}
+
+.sent-section-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--overlay1);
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+/* Sentence Word List */
+.sent-word-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.25rem;
+  border-bottom: 1px solid var(--surface0);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.sent-word-row:last-child { border-bottom: none; }
+
+.sent-word-row:hover,
+.sent-word-row:active {
+  background: var(--surface0);
+  border-radius: 0.25rem;
+}
+
+.sent-word-en {
+  font-weight: 600;
+  color: var(--blue);
+  min-width: 4.5rem;
+  font-size: 0.95rem;
+}
+
+.sent-word-pos {
+  font-size: 0.7rem;
+  color: var(--overlay1);
+  min-width: 5rem;
+}
+
+.sent-word-ko {
+  color: var(--subtext1);
+  font-size: 0.9rem;
+  flex: 1;
+  text-align: right;
+}
+
+/* Sentence Grammar */
+#sent-grammar-section {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--surface0);
+}
+
+.sent-grammar-pattern {
+  font-size: 0.85rem;
+  color: var(--subtext0);
+  margin-bottom: 0.5rem;
+}
+
+.sent-grammar-pattern .pattern-name {
+  color: var(--lavender);
+  font-weight: 600;
+}
+
+.sent-grammar-comp {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+
+.sgc-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  min-width: 3rem;
+  text-align: center;
+}
+
+.sgc-label.subject { background: rgba(137, 180, 250, 0.15); color: var(--blue); }
+.sgc-label.verb { background: rgba(166, 227, 161, 0.15); color: var(--green); }
+.sgc-label.object { background: rgba(249, 226, 175, 0.15); color: var(--yellow); }
+.sgc-label.complement { background: rgba(250, 179, 135, 0.15); color: var(--peach); }
+.sgc-label.adverbial { background: rgba(203, 166, 247, 0.15); color: var(--mauve); }
+
+.sgc-text {
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
 /* Responsive */
 @media (min-width: 768px) {
   #word-popup {
@@ -701,11 +847,30 @@ header {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
+
+  #sent-popup {
+    bottom: auto;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%) scale(0.95);
+    opacity: 0;
+    border-radius: 1rem;
+    max-height: 80vh;
+    width: 480px;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+
+  #sent-popup.show {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
 }
 
 /* Safe area for iOS */
 @supports (padding-bottom: env(safe-area-inset-bottom)) {
-  #word-popup {
+  #word-popup,
+  #sent-popup {
     padding-bottom: calc(1.5rem + env(safe-area-inset-bottom));
   }
 }

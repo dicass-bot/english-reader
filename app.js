@@ -339,10 +339,14 @@
   }
 
   function toggleSentenceHighlight(sentIdx) {
-    const already = $(`.t-sent[data-sent="${sentIdx}"].active`, $('#translation-text'));
-    clearSentenceHighlight();
+    // If sentence popup already showing this sentence, close it
+    const popup = $('#sent-popup');
+    if (!popup.classList.contains('hidden') && popup.dataset.sent === String(sentIdx)) {
+      hideSentencePopup();
+      return;
+    }
 
-    if (already) return; // was active → just clear
+    clearSentenceHighlight();
 
     // Highlight passage words with matching sentence index
     $$('.word', $('#passage-text')).forEach(span => {
@@ -355,9 +359,8 @@
     const tSent = $(`.t-sent[data-sent="${sentIdx}"]`, $('#translation-text'));
     if (tSent) tSent.classList.add('active');
 
-    // Scroll to first highlighted word in passage
-    const first = $('.word.sent-highlight', $('#passage-text'));
-    if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    // Show sentence popup
+    showSentencePopup(sentIdx);
   }
 
   function highlightSentenceFromWord(sentIdx) {
@@ -374,6 +377,102 @@
         tSent.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }
     }
+  }
+
+  function showSentencePopup(sentIdx) {
+    const popup = $('#sent-popup');
+    popup.dataset.sent = String(sentIdx);
+
+    // Get English & Korean sentences
+    const enSentences = dayData.passage.match(/[^.!?]*[.!?]+/g) || [dayData.passage];
+    const koSentences = (dayData.translation || '').match(/[^.!?]+[.!?]+\s*/g) || [];
+    const enText = (enSentences[sentIdx] || '').trim();
+    const koText = (koSentences[sentIdx] || '').trim();
+
+    $('#sent-en').textContent = enText;
+    $('#sent-ko').textContent = koText;
+
+    // Play button
+    $('#sent-play-btn').onclick = () => speakSentence(enText);
+
+    // Word list — words in sentence order (no duplicates)
+    const wordList = $('#sent-word-list');
+    wordList.innerHTML = '';
+    const wordSpans = $$('.word', $('#passage-text')).filter(
+      s => parseInt(s.dataset.sent) === sentIdx
+    );
+    const seen = new Set();
+    wordSpans.forEach(s => {
+      const w = s.dataset.word;
+      if (seen.has(w)) return;
+      seen.add(w);
+
+      const info = dayData.words[w] || {};
+      const primary = (info.meanings || []).find(m => m.primary) || (info.meanings || [])[0] || {};
+
+      const row = document.createElement('div');
+      row.className = 'sent-word-row';
+      row.innerHTML = `
+        <span class="sent-word-en">${escapeHtml(w)}</span>
+        <span class="sent-word-pos">${escapeHtml(info.pos || '')}</span>
+        <span class="sent-word-ko">${escapeHtml(primary.ko || '')}</span>
+      `;
+      row.addEventListener('click', () => {
+        hideSentencePopup();
+        setTimeout(() => showWordPopup(w, dayData.words), 350);
+      });
+      wordList.appendChild(row);
+    });
+
+    // Grammar
+    const grammarSection = $('#sent-grammar-section');
+    const grammarEl = $('#sent-grammar');
+    grammarEl.innerHTML = '';
+
+    const gMatch = findGrammarForSentence(enText);
+    if (gMatch) {
+      show('#sent-grammar-section');
+      let html = '';
+
+      if (gMatch.pattern) {
+        html += `<div class="sent-grammar-pattern"><span class="pattern-name">${escapeHtml(gMatch.pattern.name)}</span> — ${escapeHtml(gMatch.pattern.note || '')}</div>`;
+      }
+
+      const structure = gMatch.structure || {};
+      const order = ['subject', 'verb', 'object', 'complement', 'adverbial'];
+      order.forEach(key => {
+        const comp = structure[key];
+        if (!comp) return;
+        html += `<div class="sent-grammar-comp"><span class="sgc-label ${key}">${escapeHtml(comp.label || key)}</span><span class="sgc-text">${escapeHtml(comp.text)}</span></div>`;
+      });
+
+      grammarEl.innerHTML = html;
+    } else {
+      hide('#sent-grammar-section');
+    }
+
+    // Show popup
+    show('#sent-overlay');
+    show('#sent-popup');
+    requestAnimationFrame(() => popup.classList.add('show'));
+  }
+
+  function findGrammarForSentence(sentText) {
+    if (!dayData || !dayData.grammar || !dayData.grammar.sentences) return null;
+    const normalized = sentText.trim().toLowerCase();
+    return dayData.grammar.sentences.find(g =>
+      g.text.trim().toLowerCase() === normalized
+    );
+  }
+
+  function hideSentencePopup() {
+    const popup = $('#sent-popup');
+    popup.classList.remove('show');
+    setTimeout(() => {
+      hide('#sent-popup');
+      hide('#sent-overlay');
+    }, 300);
+    clearSentenceHighlight();
   }
 
   function clearSentenceHighlight() {
@@ -604,8 +703,8 @@
   }
 
   function setupPopupListeners() {
+    // Word popup
     $('#word-overlay').addEventListener('click', hideWordPopup);
-    // Swipe down to close
     let startY = 0;
     const popup = $('#word-popup');
     popup.addEventListener('touchstart', e => {
@@ -614,6 +713,18 @@
     popup.addEventListener('touchmove', e => {
       const dy = e.touches[0].clientY - startY;
       if (dy > 80) hideWordPopup();
+    }, { passive: true });
+
+    // Sentence popup
+    $('#sent-overlay').addEventListener('click', hideSentencePopup);
+    let sentStartY = 0;
+    const sentPopup = $('#sent-popup');
+    sentPopup.addEventListener('touchstart', e => {
+      sentStartY = e.touches[0].clientY;
+    }, { passive: true });
+    sentPopup.addEventListener('touchmove', e => {
+      const dy = e.touches[0].clientY - sentStartY;
+      if (dy > 80) hideSentencePopup();
     }, { passive: true });
   }
 

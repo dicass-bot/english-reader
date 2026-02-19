@@ -1,0 +1,657 @@
+{
+  "day": 4,
+  "level": 1,
+  "source": {
+    "title": "The Three Fish",
+    "author": "Panchatantra (adapted)",
+    "license": "Public Domain",
+    "url": "https://storybookscanada.ca"
+  },
+  "passage": "Three fish lived in a pond. The first fish was very smart. The second fish was clever. The third fish was lazy. One day, a fisherman came to the pond. The smart fish swam away to the river. The clever fish pretended to be dead. The fisherman threw it back. But the lazy fish did nothing. The fisherman caught it easily. The smart fish and the clever fish lived happily. They learned that it is good to think ahead.",
+  "audio": {
+    "passage": "audio/day-004.mp3",
+    "words": {
+      "smart": "audio/day-004-smart.mp3",
+      "clever": "audio/day-004-clever.mp3",
+      "lazy": "audio/day-004-lazy.mp3",
+      "pretended": "audio/day-004-pretended.mp3",
+      "ahead": "audio/day-004-ahead.mp3"
+    }
+  },
+  "words": {
+    "three": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "셋, 세",
+          "en": "number 3",
+          "primary": true
+        }
+      ],
+      "contextNote": "세 마리의 물고기를 나타낼 때 쓰임",
+      "ipa": "/ˈθɹi/"
+    },
+    "fish": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "물고기",
+          "en": "water animal",
+          "primary": true
+        }
+      ],
+      "contextNote": "이야기의 주인공인 동물",
+      "ipa": "/ˈfɪʃ/"
+    },
+    "lived": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "살았다",
+          "en": "past of live",
+          "primary": true
+        }
+      ],
+      "contextNote": "과거에 거주했던 상태",
+      "ipa": "/ˈɫaɪvd/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안에",
+          "en": "inside a place",
+          "primary": true
+        }
+      ],
+      "contextNote": "연못 안에 위치함",
+      "ipa": "/ˈɪn/"
+    },
+    "a": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "one thing",
+          "primary": true
+        }
+      ],
+      "contextNote": "단수 명사 앞에 쓰임",
+      "ipa": "/ˈeɪ/"
+    },
+    "pond": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "연못",
+          "en": "small lake",
+          "primary": true
+        }
+      ],
+      "contextNote": "물고기가 사는 장소",
+      "ipa": "/ˈpɑnd/"
+    },
+    "the": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "specific thing",
+          "primary": true
+        }
+      ],
+      "contextNote": "이미 언급된 특정 대상",
+      "ipa": "/ˈðə/"
+    },
+    "first": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "첫 번째",
+          "en": "coming before others",
+          "primary": true
+        }
+      ],
+      "contextNote": "순서를 나타냄",
+      "ipa": "/ˈfɝst/"
+    },
+    "was": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "이었다",
+          "en": "past of be",
+          "primary": true
+        }
+      ],
+      "contextNote": "주어의 상태를 설명",
+      "ipa": "/ˈwɑz/"
+    },
+    "very": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "매우",
+          "en": "high degree",
+          "primary": true
+        }
+      ],
+      "contextNote": "형용사를 강조함",
+      "ipa": "/ˈvɛɹi/"
+    },
+    "smart": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "똑똑한",
+          "en": "intelligent",
+          "primary": true
+        }
+      ],
+      "contextNote": "지능이 높은 성격",
+      "ipa": "/ˈsmɑɹt/"
+    },
+    "second": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "두 번째",
+          "en": "after the first",
+          "primary": true
+        }
+      ],
+      "contextNote": "순서를 나타냄",
+      "ipa": "/ˈsɛkənd/"
+    },
+    "clever": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "영리한",
+          "en": "quick to learn",
+          "primary": true
+        }
+      ],
+      "contextNote": "재치 있고 지혜로운 성격",
+      "ipa": "/ˈkɫɛvɝ/"
+    },
+    "third": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "세 번째",
+          "en": "after the second",
+          "primary": true
+        }
+      ],
+      "contextNote": "순서를 나타냄",
+      "ipa": "/ˈθɝd/"
+    },
+    "lazy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "게으른",
+          "en": "not wanting to work",
+          "primary": true
+        }
+      ],
+      "contextNote": "일하기 싫어하는 성격",
+      "ipa": "/ˈɫeɪzi/"
+    },
+    "one": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "하나",
+          "en": "number 1",
+          "primary": true
+        }
+      ],
+      "contextNote": "하루의 횟수를 셀 때",
+      "ipa": "/ˈwən/"
+    },
+    "day": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "날, 하루",
+          "en": "24 hours",
+          "primary": true
+        }
+      ],
+      "contextNote": "시간의 단위",
+      "ipa": "/ˈdeɪ/"
+    },
+    "fisherman": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "어부",
+          "en": "man who catches fish",
+          "primary": true
+        }
+      ],
+      "contextNote": "물고기를 잡는 사람",
+      "ipa": "/ˈfɪʃɝˌmæn/"
+    },
+    "came": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "왔다",
+          "en": "past of come",
+          "primary": true
+        }
+      ],
+      "contextNote": "이동하여 도착함",
+      "ipa": "/ˈkeɪm/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~로, ~에게",
+          "en": "towards or for",
+          "primary": true
+        }
+      ],
+      "contextNote": "방향이나 목적",
+      "ipa": "/ˈtu/"
+    },
+    "swam": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "헤엄쳤다",
+          "en": "past of swim",
+          "primary": true
+        }
+      ],
+      "contextNote": "물속에서 움직임",
+      "ipa": "/ˈswæm/"
+    },
+    "away": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "멀리",
+          "en": "at a distance",
+          "primary": true
+        }
+      ],
+      "contextNote": "떨어져서 이동함",
+      "ipa": "/əˈweɪ/"
+    },
+    "river": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "강",
+          "en": "large stream",
+          "primary": true
+        }
+      ],
+      "contextNote": "물이 흐르는 큰 곳",
+      "ipa": "/ˈɹɪvɝ/"
+    },
+    "pretended": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "가장했다",
+          "en": "acted as if",
+          "primary": true
+        }
+      ],
+      "contextNote": "거짓으로 행동함",
+      "ipa": "/pɹiˈtɛndɪd/"
+    },
+    "be": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "exist or be",
+          "primary": true
+        }
+      ],
+      "contextNote": "상태를 나타내는 연결 동사",
+      "ipa": "/ˈbi/"
+    },
+    "dead": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "죽은",
+          "en": "not alive",
+          "primary": true
+        }
+      ],
+      "contextNote": "생명이 없는 상태",
+      "ipa": "/ˈdɛd/"
+    },
+    "threw": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "던졌다",
+          "en": "past of throw",
+          "primary": true
+        }
+      ],
+      "contextNote": "물건을 힘껏 보냄",
+      "ipa": "/ˈθɹu/"
+    },
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "that thing",
+          "primary": true
+        }
+      ],
+      "contextNote": "앞서 나온 물고기를 지칭",
+      "ipa": "/ˈɪt/"
+    },
+    "back": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "뒤로, 다시",
+          "en": "to original place",
+          "primary": true
+        }
+      ],
+      "contextNote": "원래 장소로 돌아감",
+      "ipa": "/ˈbæk/"
+    },
+    "but": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "하지만",
+          "en": "however",
+          "primary": true
+        }
+      ],
+      "contextNote": "앞 내용과 대비됨",
+      "ipa": "/ˈbət/"
+    },
+    "did": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "했다",
+          "en": "past of do",
+          "primary": true
+        }
+      ],
+      "contextNote": "행동의 과거형",
+      "ipa": "/ˈdɪd/"
+    },
+    "nothing": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "아무것도",
+          "en": "not anything",
+          "primary": true
+        }
+      ],
+      "contextNote": "행동하지 않았음을 강조",
+      "ipa": "/ˈnəθɪŋ/"
+    },
+    "caught": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "잡았다",
+          "en": "past of catch",
+          "primary": true
+        }
+      ],
+      "contextNote": "대상을 포획함",
+      "ipa": "/ˈkɑt/"
+    },
+    "easily": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "쉽게",
+          "en": "without difficulty",
+          "primary": true
+        }
+      ],
+      "contextNote": "어려움 없이",
+      "ipa": "/ˈizəɫi/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "also",
+          "primary": true
+        }
+      ],
+      "contextNote": "대상을 나열함",
+      "ipa": "/ˈænd/"
+    },
+    "happily": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "행복하게",
+          "en": "with happiness",
+          "primary": true
+        }
+      ],
+      "contextNote": "기쁜 상태로",
+      "ipa": "/ˈhæpəɫi/"
+    },
+    "they": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그들",
+          "en": "those ones",
+          "primary": true
+        }
+      ],
+      "contextNote": "두 마리의 물고기를 지칭",
+      "ipa": "/ˈðeɪ/"
+    },
+    "learned": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "배웠다",
+          "en": "past of learn",
+          "primary": true
+        }
+      ],
+      "contextNote": "지식이나 교훈을 얻음",
+      "ipa": "/ˈɫɝnd/"
+    },
+    "that": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "~라는 것",
+          "en": "introducing a clause",
+          "primary": true
+        }
+      ],
+      "contextNote": "문장을 연결하는 역할",
+      "ipa": "/ˈðæt/"
+    },
+    "is": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "be verb",
+          "primary": true
+        }
+      ],
+      "contextNote": "현재의 상태",
+      "ipa": "/ˈɪz/"
+    },
+    "good": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "좋은",
+          "en": "positive quality",
+          "primary": true
+        }
+      ],
+      "contextNote": "바람직한 성질",
+      "ipa": "/ˈɡʊd/"
+    },
+    "think": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "생각하다",
+          "en": "use mind",
+          "primary": true
+        }
+      ],
+      "contextNote": "미리 계획함",
+      "ipa": "/ˈθɪŋk/"
+    },
+    "ahead": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "미리, 앞으로",
+          "en": "in the future",
+          "primary": true
+        }
+      ],
+      "contextNote": "시간적으로 앞서서",
+      "ipa": "/əˈhɛd/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "Three fish lived in a pond.",
+        "structure": {
+          "subject": {
+            "text": "Three fish",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "lived",
+            "label": "동사"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어가 동사의 동작을 수행함"
+        }
+      },
+      {
+        "text": "The first fish was very smart.",
+        "structure": {
+          "subject": {
+            "text": "The first fish",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "very smart",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어의 상태나 성격을 설명하는 문장"
+        }
+      },
+      {
+        "text": "The fisherman threw it back.",
+        "structure": {
+          "subject": {
+            "text": "The fisherman",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "threw",
+            "label": "동사"
+          },
+          "object": {
+            "text": "it",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어가 목적어에 동작을 가함"
+        }
+      },
+      {
+        "text": "The lazy fish did nothing.",
+        "structure": {
+          "subject": {
+            "text": "The lazy fish",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "did",
+            "label": "동사"
+          },
+          "object": {
+            "text": "nothing",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "아무것도 하지 않았다는 부정문 형태"
+        }
+      },
+      {
+        "text": "They learned that it is good to think ahead.",
+        "structure": {
+          "subject": {
+            "text": "They",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "learned",
+            "label": "동사"
+          },
+          "object": {
+            "text": "that it is good to think ahead",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "that 이하의 문장 전체가 목적어 역할을 함"
+        }
+      }
+    ]
+  },
+  "translation": "세 마리의 물고기가 연못에 살고 있었습니다. 첫 번째 물고기는 매우 똑똑했습니다. 두 번째 물고기는 영리했습니다. 세 번째 물고기는 게을렀습니다. 어느 날, 한 어부가 연못으로 왔습니다. 똑똑한 물고기는 강으로 헤엄쳐 갔습니다. 영리한 물고기는 죽은 척했습니다. 어부는 그것을 다시 물속에 던졌습니다. 하지만 게으른 물고기는 아무것도 하지 않았습니다. 어부는 그것을 쉽게 잡았습니다. 똑똑한 물고기와 영리한 물고기는 행복하게 살았습니다. 그들은 미리 생각하는 것이 좋다는 것을 배웠습니다.",
+  "keyVocab": [
+    "smart",
+    "clever",
+    "lazy",
+    "pretended",
+    "ahead"
+  ],
+  "quiz": {
+    "question": "어부에게 잡힌 물고기는 어떤 물고기인가요?",
+    "answer": "게으른 물고기 (The lazy fish)"
+  },
+  "generated_at": "2026-02-19T22:52:00.191059+09:00"
+}

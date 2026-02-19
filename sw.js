@@ -1,4 +1,4 @@
-const CACHE_NAME = 'english-reader-v1';
+const CACHE_NAME = 'english-reader-v2';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -55,8 +55,13 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // Cache first for static assets
+  // Network first for static assets (to get latest code)
   event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request))
+    fetch(event.request)
+      .then(response => {
+        caches.open(CACHE_NAME).then(cache => cache.put(event.request, response.clone()));
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });

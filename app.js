@@ -414,7 +414,7 @@
     const grammarEl = $('#sent-grammar');
     grammarEl.innerHTML = '';
 
-    const gMatch = findGrammarForSentence(enText);
+    const gMatch = findGrammarBySentIdx(sentIdx);
     if (gMatch) {
       show('#sent-grammar-section');
       let html = '';
@@ -467,12 +467,9 @@
     requestAnimationFrame(() => popup.classList.add('show'));
   }
 
-  function findGrammarForSentence(sentText) {
+  function findGrammarBySentIdx(sentIdx) {
     if (!dayData || !dayData.grammar || !dayData.grammar.sentences) return null;
-    const normalized = sentText.trim().toLowerCase();
-    return dayData.grammar.sentences.find(g =>
-      g.text.trim().toLowerCase() === normalized
-    );
+    return dayData.grammar.sentences[sentIdx] || null;
   }
 
   function hideSentencePopup() {

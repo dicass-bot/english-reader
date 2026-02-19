@@ -166,7 +166,10 @@
         span.textContent = match[2];
         span.dataset.word = match[2].toLowerCase().replace(/['']/g, "'");
         span.dataset.sent = String(sentIdx);
-        span.addEventListener('click', () => showWordPopup(span.dataset.word, words));
+        span.addEventListener('click', () => {
+          showWordPopup(span.dataset.word, words);
+          highlightSentenceFromWord(parseInt(span.dataset.sent));
+        });
         container.appendChild(span);
         if (match[3]) {
           container.appendChild(document.createTextNode(match[3]));
@@ -304,6 +307,10 @@
     if (!translation) return;
 
     const sentences = translation.match(/[^.!?]+[.!?]+\s*/g) || [translation];
+    const enSentences = (dayData && dayData.passage)
+      ? (dayData.passage.match(/[^.!?]*[.!?]+/g) || [dayData.passage])
+      : [];
+
     sentences.forEach((sent, idx) => {
       const span = document.createElement('span');
       span.className = 't-sent';
@@ -311,6 +318,20 @@
       span.textContent = sent.trim();
       span.addEventListener('click', () => toggleSentenceHighlight(idx));
       container.appendChild(span);
+
+      // Sentence TTS button
+      if (enSentences[idx]) {
+        const btn = document.createElement('button');
+        btn.className = 't-sent-play';
+        btn.innerHTML = '&#128264;';
+        btn.title = enSentences[idx].trim();
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          speakSentence(enSentences[idx].trim());
+        });
+        container.appendChild(btn);
+      }
+
       if (idx < sentences.length - 1) {
         container.appendChild(document.createTextNode(' '));
       }
@@ -337,6 +358,22 @@
     // Scroll to first highlighted word in passage
     const first = $('.word.sent-highlight', $('#passage-text'));
     if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  function highlightSentenceFromWord(sentIdx) {
+    clearSentenceHighlight();
+    // Highlight passage words
+    $$('.word', $('#passage-text')).forEach(s => {
+      if (parseInt(s.dataset.sent) === sentIdx) s.classList.add('sent-highlight');
+    });
+    // Highlight translation sentence if visible
+    if (!$('#translation-view').classList.contains('hidden')) {
+      const tSent = $(`.t-sent[data-sent="${sentIdx}"]`, $('#translation-text'));
+      if (tSent) {
+        tSent.classList.add('active');
+        tSent.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
   }
 
   function clearSentenceHighlight() {
@@ -563,6 +600,7 @@
       hide('#word-overlay');
     }, 300);
     $$('.word.active', $('#passage-text')).forEach(s => s.classList.remove('active'));
+    clearSentenceHighlight();
   }
 
   function setupPopupListeners() {
@@ -639,6 +677,15 @@
     const utter = new SpeechSynthesisUtterance(word);
     utter.lang = 'en-US';
     utter.rate = 0.8;
+    window.speechSynthesis.speak(utter);
+  }
+
+  function speakSentence(text) {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = 'en-US';
+    utter.rate = 0.85;
     window.speechSynthesis.speak(utter);
   }
 

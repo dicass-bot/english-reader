@@ -476,6 +476,22 @@ header {
   color: var(--text);
 }
 
+.t-sent-play {
+  background: none;
+  border: none;
+  color: var(--overlay1);
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.3rem;
+  vertical-align: middle;
+  transition: color 0.15s;
+}
+
+.t-sent-play:hover,
+.t-sent-play:active {
+  color: var(--blue);
+}
+
 /* Sentence mapping highlight on passage words */
 .word.sent-highlight {
   background: rgba(137, 180, 250, 0.2);

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'english-reader-v3';
+const CACHE_NAME = 'english-reader-v4';
 const STATIC_ASSETS = [
   './',
   './index.html',

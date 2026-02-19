@@ -570,8 +570,25 @@ header {
 }
 
 #popup-pos {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   display: inline-block;
+}
+
+#popup-forms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.form-tag {
+  background: var(--surface0);
+  color: var(--sapphire);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border: 1px solid var(--surface1);
 }
 
 #popup-meanings {
@@ -579,10 +596,15 @@ header {
 }
 
 .meaning-item {
-  padding: 0.35rem 0;
+  padding: 0.4rem 0;
   display: flex;
   gap: 0.5rem;
   align-items: flex-start;
+  border-bottom: 1px solid var(--surface0);
+}
+
+.meaning-item:last-child {
+  border-bottom: none;
 }
 
 .meaning-item .m-ko {
@@ -594,6 +616,19 @@ header {
 .meaning-item .m-en {
   font-size: 0.85rem;
   color: var(--subtext0);
+  flex: 1;
+}
+
+.meaning-item .m-badge {
+  background: var(--yellow);
+  color: var(--crust);
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  align-self: center;
 }
 
 .meaning-item.primary .m-ko {

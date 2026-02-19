@@ -445,31 +445,48 @@
       div.innerHTML = `
         <span class="m-ko">${escapeHtml(m.ko || '')}</span>
         <span class="m-en">${escapeHtml(m.en || '')}</span>
+        ${m.primary ? '<span class="m-badge">here</span>' : ''}
       `;
       meaningsEl.appendChild(div);
     });
 
-    // Context
+    // Forms (verb tenses, noun plural, etc.)
+    const formsEl = $('#popup-forms');
+    if (info.forms && (info.forms.base || info.forms.tense || (info.forms.related && info.forms.related.length))) {
+      let formsHtml = '';
+      if (info.forms.base) formsHtml += `<span class="form-tag">원형: ${escapeHtml(info.forms.base)}</span>`;
+      if (info.forms.tense) formsHtml += `<span class="form-tag">${escapeHtml(info.forms.tense)}</span>`;
+      if (info.forms.related && info.forms.related.length) {
+        formsHtml += info.forms.related.map(r => `<span class="form-tag">${escapeHtml(r)}</span>`).join('');
+      }
+      formsEl.innerHTML = formsHtml;
+      formsEl.style.display = 'flex';
+    } else {
+      formsEl.style.display = 'none';
+    }
+
+    // Context meaning
     const contextEl = $('#popup-context');
-    if (info.contextNote) {
-      contextEl.textContent = info.contextNote;
+    const contextText = info.contextMeaning || info.contextNote || '';
+    if (contextText) {
+      contextEl.textContent = contextText;
       contextEl.style.display = 'block';
     } else {
       contextEl.style.display = 'none';
     }
 
-    // Audio button
+    // Audio button - TTS MP3 우선, 없으면 Web Speech API
     const audioBtn = $('#popup-audio-btn');
     const wordAudio = dayData && dayData.audio && dayData.audio.words && dayData.audio.words[wordKey];
-    if (wordAudio) {
-      show('#popup-audio-btn');
-      audioBtn.onclick = () => {
+    show('#popup-audio-btn');
+    audioBtn.onclick = () => {
+      if (wordAudio) {
         const a = new Audio(wordAudio);
         a.play();
-      };
-    } else {
-      hide('#popup-audio-btn');
-    }
+      } else {
+        speakWord(wordKey);
+      }
+    };
 
     // Highlight word
     $$('.word.active', $('#passage-text')).forEach(s => s.classList.remove('active'));
@@ -560,6 +577,15 @@
     const m = Math.floor(sec / 60);
     const s = Math.floor(sec % 60);
     return `${m}:${String(s).padStart(2, '0')}`;
+  }
+
+  function speakWord(word) {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(word);
+    utter.lang = 'en-US';
+    utter.rate = 0.8;
+    window.speechSynthesis.speak(utter);
   }
 
   /* ── Service Worker Registration ── */

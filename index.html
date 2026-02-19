@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#1e1e2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>English Reader</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header id="header">
+      <button id="btn-prev" class="nav-btn" aria-label="Previous day">&larr;</button>
+      <div id="header-title">
+        <h1>English Reader</h1>
+        <span id="day-info"></span>
+      </div>
+      <button id="btn-next" class="nav-btn" aria-label="Next day">&rarr;</button>
+    </header>
+
+    <!-- Loading -->
+    <div id="loading" class="hidden">
+      <div class="spinner"></div>
+      <p>Loading...</p>
+    </div>
+
+    <!-- Day List (Home) -->
+    <section id="home" class="page">
+      <div class="section-header">
+        <h2>Days</h2>
+      </div>
+      <ul id="day-list"></ul>
+      <p id="empty-msg" class="hidden">No content yet.</p>
+    </section>
+
+    <!-- Day View -->
+    <section id="day-view" class="page hidden">
+      <!-- Source Info -->
+      <div id="source-info" class="card">
+        <span id="source-title"></span>
+        <span id="source-author"></span>
+        <span id="source-level" class="badge"></span>
+      </div>
+
+      <!-- Audio Player -->
+      <div id="audio-player" class="card hidden">
+        <div class="audio-controls">
+          <button id="btn-play" class="icon-btn" aria-label="Play">&#9654;</button>
+          <input type="range" id="audio-progress" min="0" max="100" value="0">
+          <span id="audio-time">0:00</span>
+        </div>
+        <div class="speed-controls">
+          <button class="speed-btn" data-speed="0.5">0.5x</button>
+          <button class="speed-btn" data-speed="0.75">0.75x</button>
+          <button class="speed-btn active" data-speed="1">1x</button>
+          <button class="speed-btn" data-speed="1.25">1.25x</button>
+          <button class="speed-btn" data-speed="1.5">1.5x</button>
+        </div>
+      </div>
+
+      <!-- Passage -->
+      <div id="passage" class="card">
+        <div class="section-label">Passage</div>
+        <div id="passage-text"></div>
+      </div>
+
+      <!-- Grammar Toggle -->
+      <div class="toggle-row">
+        <button id="btn-grammar" class="toggle-btn">Show Grammar</button>
+        <button id="btn-translation" class="toggle-btn">Show Translation</button>
+      </div>
+
+      <!-- Grammar View -->
+      <div id="grammar-view" class="card hidden">
+        <div class="section-label">Grammar Structure</div>
+        <div id="grammar-content"></div>
+      </div>
+
+      <!-- Translation -->
+      <div id="translation-view" class="card hidden">
+        <div class="section-label">Translation</div>
+        <p id="translation-text"></p>
+      </div>
+
+      <!-- Key Vocabulary -->
+      <div id="vocab-section" class="card">
+        <div class="section-label">Key Vocabulary</div>
+        <div id="vocab-list"></div>
+      </div>
+
+      <!-- Quiz -->
+      <div id="quiz-section" class="card">
+        <div class="section-label">Quiz</div>
+        <p id="quiz-question"></p>
+        <button id="btn-answer" class="toggle-btn">Show Answer</button>
+        <p id="quiz-answer" class="hidden"></p>
+      </div>
+    </section>
+
+    <!-- Word Popup (Bottom Sheet) -->
+    <div id="word-overlay" class="hidden" aria-hidden="true"></div>
+    <div id="word-popup" class="hidden" role="dialog" aria-label="Word details">
+      <div class="popup-handle"></div>
+      <div id="popup-content">
+        <div class="popup-header">
+          <h3 id="popup-word"></h3>
+          <span id="popup-ipa"></span>
+          <button id="popup-audio-btn" class="icon-btn hidden" aria-label="Play pronunciation">&#128264;</button>
+        </div>
+        <div id="popup-pos" class="badge"></div>
+        <div id="popup-meanings"></div>
+        <div id="popup-context"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

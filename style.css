@@ -727,6 +727,32 @@ header {
   color: var(--text);
 }
 
+.sent-speed-controls {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.sent-speed-btn {
+  background: var(--surface0);
+  color: var(--subtext0);
+  border: none;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sent-speed-btn.active {
+  background: var(--blue);
+  color: var(--crust);
+}
+
+.sent-speed-btn:hover {
+  background: var(--surface1);
+}
+
 #sent-ko {
   font-size: 0.9rem;
   color: var(--subtext0);

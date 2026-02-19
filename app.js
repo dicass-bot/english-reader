@@ -10,6 +10,7 @@
   let dayData = null;
   let audio = null;
   let grammarVisible = false;
+  let sentTtsRate = 1;
 
   /* ── Bootstrap ── */
 
@@ -701,6 +702,13 @@
 
     // Sentence popup
     $('#sent-overlay').addEventListener('click', hideSentencePopup);
+    $$('.sent-speed-btn').forEach(btn => {
+      btn.onclick = () => {
+        sentTtsRate = parseFloat(btn.dataset.speed);
+        $$('.sent-speed-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      };
+    });
     let sentStartY = 0;
     const sentPopup = $('#sent-popup');
     sentPopup.addEventListener('touchstart', e => {
@@ -780,7 +788,7 @@
     window.speechSynthesis.cancel();
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'en-US';
-    utter.rate = 0.85;
+    utter.rate = sentTtsRate;
     window.speechSynthesis.speak(utter);
   }
 

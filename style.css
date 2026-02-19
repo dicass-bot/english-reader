@@ -854,6 +854,59 @@ header {
   color: var(--text);
 }
 
+/* Grammar explanation */
+.sent-grammar-explain {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--subtext1);
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: var(--surface0);
+  border-radius: 0.5rem;
+  border-left: 3px solid var(--lavender);
+}
+
+/* Grammar point tags */
+.sent-grammar-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.grammar-point-tag {
+  background: rgba(203, 166, 247, 0.12);
+  color: var(--mauve);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border: 1px solid rgba(203, 166, 247, 0.2);
+}
+
+/* Grammar examples */
+.sent-grammar-examples {
+  margin-top: 0.5rem;
+}
+
+.grammar-example {
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--surface0);
+}
+
+.grammar-example:last-child { border-bottom: none; }
+
+.ex-en {
+  font-size: 0.85rem;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.ex-ko {
+  font-size: 0.8rem;
+  color: var(--subtext0);
+}
+
 /* Responsive */
 @media (min-width: 768px) {
   #word-popup {

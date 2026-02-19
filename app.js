@@ -419,10 +419,12 @@
       show('#sent-grammar-section');
       let html = '';
 
+      // Pattern
       if (gMatch.pattern) {
         html += `<div class="sent-grammar-pattern"><span class="pattern-name">${escapeHtml(gMatch.pattern.name)}</span> — ${escapeHtml(gMatch.pattern.note || '')}</div>`;
       }
 
+      // Structure components
       const structure = gMatch.structure || {};
       const order = ['subject', 'verb', 'object', 'complement', 'adverbial'];
       order.forEach(key => {
@@ -430,6 +432,29 @@
         if (!comp) return;
         html += `<div class="sent-grammar-comp"><span class="sgc-label ${key}">${escapeHtml(comp.label || key)}</span><span class="sgc-text">${escapeHtml(comp.text)}</span></div>`;
       });
+
+      // Explanation
+      if (gMatch.explanation) {
+        html += `<div class="sent-grammar-explain">${escapeHtml(gMatch.explanation)}</div>`;
+      }
+
+      // Grammar points
+      if (gMatch.grammarPoints && gMatch.grammarPoints.length) {
+        html += '<div class="sent-grammar-points">';
+        gMatch.grammarPoints.forEach(pt => {
+          html += `<span class="grammar-point-tag">${escapeHtml(pt)}</span>`;
+        });
+        html += '</div>';
+      }
+
+      // Examples
+      if (gMatch.examples && gMatch.examples.length) {
+        html += '<div class="sent-grammar-examples"><div class="sent-section-label">Examples</div>';
+        gMatch.examples.forEach(ex => {
+          html += `<div class="grammar-example"><div class="ex-en">${escapeHtml(ex.en)}</div><div class="ex-ko">${escapeHtml(ex.ko)}</div></div>`;
+        });
+        html += '</div>';
+      }
 
       grammarEl.innerHTML = html;
     } else {

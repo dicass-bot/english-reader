@@ -1,0 +1,787 @@
+{
+  "day": 3,
+  "level": 1,
+  "source": {
+    "title": "A Rainy Day",
+    "author": "VOA Learning English",
+    "license": "Public Domain",
+    "url": "https://learningenglish.voanews.com"
+  },
+  "passage": "It was a rainy day. Anna looked out the window. The sky was gray and dark. She could not go outside to play. She sat on the sofa and read a book. The book was about a brave girl who traveled the world. Anna wished she could travel too. After two hours, the rain stopped. The sun came out. Anna put on her shoes and went outside. The air smelled fresh and clean. She jumped in the puddles and laughed.",
+  "audio": {
+    "passage": null,
+    "words": {}
+  },
+  "words": {
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "Thing or animal mentioned before",
+          "primary": true
+        }
+      ],
+      "contextNote": "날씨나 상황을 나타낼 때 쓰입니다.",
+      "ipa": "/ˈɪt/"
+    },
+    "was": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "이었다/있었다",
+          "en": "Past tense of 'be'",
+          "primary": true
+        }
+      ],
+      "contextNote": "과거의 상태를 나타냅니다.",
+      "ipa": "/ˈwɑz/"
+    },
+    "a": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "하나의/어떤",
+          "en": "One thing (general)",
+          "primary": true
+        }
+      ],
+      "contextNote": "자음으로 시작하는 단어 앞에 씁니다.",
+      "ipa": "/ˈeɪ/"
+    },
+    "rainy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "비가 오는",
+          "en": "Having rain",
+          "primary": true
+        }
+      ],
+      "contextNote": "날씨를 설명할 때 씁니다.",
+      "ipa": "/ˈɹeɪni/"
+    },
+    "day": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "날/하루",
+          "en": "Period of 24 hours",
+          "primary": true
+        }
+      ],
+      "contextNote": "특정 날짜나 하루를 의미합니다.",
+      "ipa": "/ˈdeɪ/"
+    },
+    "anna": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "안나",
+          "en": "A female name",
+          "primary": true
+        }
+      ],
+      "contextNote": "여자 주인공의 이름입니다.",
+      "ipa": "/ˈænə/"
+    },
+    "looked": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "보았다",
+          "en": "Turned eyes to see",
+          "primary": true
+        }
+      ],
+      "contextNote": "~을 쳐다보았다는 뜻입니다.",
+      "ipa": "/ˈɫʊkt/"
+    },
+    "out": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "밖으로",
+          "en": "Moving away from inside",
+          "primary": true
+        }
+      ],
+      "contextNote": "창문 밖을 볼 때 쓰입니다.",
+      "ipa": "/ˈaʊt/"
+    },
+    "the": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "Specific thing mentioned",
+          "primary": true
+        }
+      ],
+      "contextNote": "특정한 대상을 가리킬 때 씁니다.",
+      "ipa": "/ˈðə/"
+    },
+    "window": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "창문",
+          "en": "Glass opening in wall",
+          "primary": true
+        }
+      ],
+      "contextNote": "집 안에서 밖을 볼 수 있는 곳입니다.",
+      "ipa": "/ˈwɪndoʊ/"
+    },
+    "sky": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "하늘",
+          "en": "Air above the earth",
+          "primary": true
+        }
+      ],
+      "contextNote": "머리 위에 보이는 공간입니다.",
+      "ipa": "/ˈskaɪ/"
+    },
+    "gray": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "회색의",
+          "en": "Color of ash or clouds",
+          "primary": true
+        }
+      ],
+      "contextNote": "비 오는 날 하늘의 색깔입니다.",
+      "ipa": "/ˈɡɹeɪ/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "Connects words or ideas",
+          "primary": true
+        }
+      ],
+      "contextNote": "두 단어나 문장을 연결합니다.",
+      "ipa": "/ˈænd/"
+    },
+    "dark": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "어두운",
+          "en": "Having little light",
+          "primary": true
+        }
+      ],
+      "contextNote": "빛이 별로 없는 상태입니다.",
+      "ipa": "/ˈdɑɹk/"
+    },
+    "she": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그녀",
+          "en": "Female person mentioned",
+          "primary": true
+        }
+      ],
+      "contextNote": "안나(여자)를 가리킵니다.",
+      "ipa": "/ˈʃi/"
+    },
+    "could": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "할 수 있었다",
+          "en": "Was able to",
+          "primary": true
+        }
+      ],
+      "contextNote": "과거의 능력을 나타냅니다.",
+      "ipa": "/ˈkʊd/"
+    },
+    "not": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "아니/안",
+          "en": "Word for negation",
+          "primary": true
+        }
+      ],
+      "contextNote": "동사 뒤에서 부정을 나타냅니다.",
+      "ipa": "/ˈnɑt/"
+    },
+    "go": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "가다",
+          "en": "Move or travel",
+          "primary": true
+        }
+      ],
+      "contextNote": "어딘가로 이동할 때 씁니다.",
+      "ipa": "/ˈɡoʊ/"
+    },
+    "outside": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "밖에/밖으로",
+          "en": "Not inside a building",
+          "primary": true
+        }
+      ],
+      "contextNote": "실외를 의미합니다.",
+      "ipa": "/ˈaʊtˈsaɪd/"
+    },
+    "to": {
+      "pos": "particle",
+      "meanings": [
+        {
+          "ko": "~하기 위하여",
+          "en": "Indicates purpose",
+          "primary": true
+        }
+      ],
+      "contextNote": "동사 앞에 와서 목적을 나타냅니다.",
+      "ipa": "/ˈtu/"
+    },
+    "play": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "놀다",
+          "en": "Engage in fun activity",
+          "primary": true
+        }
+      ],
+      "contextNote": "즐거운 활동을 하는 것입니다.",
+      "ipa": "/ˈpɫeɪ/"
+    },
+    "sat": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "앉았다",
+          "en": "Past tense of 'sit'",
+          "primary": true
+        }
+      ],
+      "contextNote": "의자나 소파에 앉은 동작입니다.",
+      "ipa": "/ˈsæt/"
+    },
+    "on": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~위에",
+          "en": "Touching a surface",
+          "primary": true
+        }
+      ],
+      "contextNote": "물체의 표면 위를 의미합니다.",
+      "ipa": "/ˈɑn/"
+    },
+    "sofa": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "소파",
+          "en": "Long comfortable seat",
+          "primary": true
+        }
+      ],
+      "contextNote": "푹신한 긴 의자입니다.",
+      "ipa": "/ˈsoʊfə/"
+    },
+    "read": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "읽었다",
+          "en": "Past tense of 'read'",
+          "primary": true
+        }
+      ],
+      "contextNote": "책의 글자를 보고 소리 내거나 이해하는 것입니다.",
+      "ipa": "/ˈɹɛd/"
+    },
+    "book": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "책",
+          "en": "Written or printed work",
+          "primary": true
+        }
+      ],
+      "contextNote": "읽기를 위한 물건입니다.",
+      "ipa": "/ˈbʊk/"
+    },
+    "about": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~에 관한",
+          "en": "Concerning or regarding",
+          "primary": true
+        }
+      ],
+      "contextNote": "주제나 내용을 나타냅니다.",
+      "ipa": "/əˈbaʊt/"
+    },
+    "brave": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "용감한",
+          "en": "Ready to face danger",
+          "primary": true
+        }
+      ],
+      "contextNote": "겁이 없고 당당한 성격입니다.",
+      "ipa": "/ˈbɹeɪv/"
+    },
+    "girl": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "소녀",
+          "en": "Female child",
+          "primary": true
+        }
+      ],
+      "contextNote": "어린 여자아이를 뜻합니다.",
+      "ipa": "/ˈɡɝɫ/"
+    },
+    "who": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "누구/사람",
+          "en": "Refers to a person",
+          "primary": true
+        }
+      ],
+      "contextNote": "앞에 나온 사람(소녀)을 설명합니다.",
+      "ipa": "/ˈhu/"
+    },
+    "traveled": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "여행했다",
+          "en": "Past tense of 'travel'",
+          "primary": true
+        }
+      ],
+      "contextNote": "먼 곳으로 이동했음을 의미합니다.",
+      "ipa": "/ˈtɹævəɫd/"
+    },
+    "world": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "세계",
+          "en": "The earth and all people",
+          "primary": true
+        }
+      ],
+      "contextNote": "전 세계를 의미합니다.",
+      "ipa": "/ˈwɝɫd/"
+    },
+    "wished": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "바랐다",
+          "en": "Past tense of 'wish'",
+          "primary": true
+        }
+      ],
+      "contextNote": "어떤 것을 원했다는 뜻입니다.",
+      "ipa": "/ˈwɪʃt/"
+    },
+    "travel": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "여행하다",
+          "en": "Go on a trip",
+          "primary": true
+        }
+      ],
+      "contextNote": "여행을 가는 행위입니다.",
+      "ipa": "/ˈtɹævəɫ/"
+    },
+    "too": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "또한",
+          "en": "Also or as well",
+          "primary": true
+        }
+      ],
+      "contextNote": "문장 끝에서 '역시'를 나타냅니다.",
+      "ipa": "/ˈtu/"
+    },
+    "after": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~후에",
+          "en": "Later than something",
+          "primary": true
+        }
+      ],
+      "contextNote": "시간의 경과를 나타냅니다.",
+      "ipa": "/ˈæftɝ/"
+    },
+    "two": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "둘/이",
+          "en": "Number 2",
+          "primary": true
+        }
+      ],
+      "contextNote": "숫자 2를 의미합니다.",
+      "ipa": "/ˈtu/"
+    },
+    "hours": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "시간",
+          "en": "Plural of 'hour'",
+          "primary": true
+        }
+      ],
+      "contextNote": "시간의 단위입니다.",
+      "ipa": "/ˈaʊɝz/"
+    },
+    "rain": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "비",
+          "en": "Water falling from clouds",
+          "primary": true
+        }
+      ],
+      "contextNote": "하늘에서 떨어지는 물방울입니다.",
+      "ipa": "/ˈɹeɪn/"
+    },
+    "stopped": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "멈췄다",
+          "en": "Past tense of 'stop'",
+          "primary": true
+        }
+      ],
+      "contextNote": "진행하던 것이 끝났습니다.",
+      "ipa": "/ˈstɑpt/"
+    },
+    "sun": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "해/태양",
+          "en": "Star that gives light",
+          "primary": true
+        }
+      ],
+      "contextNote": "하늘에 떠서 빛을 내는 별입니다.",
+      "ipa": "/ˈsən/"
+    },
+    "came": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "왔다/나왔다",
+          "en": "Past tense of 'come'",
+          "primary": true
+        }
+      ],
+      "contextNote": "어떤 곳으로 이동해왔습니다.",
+      "ipa": "/ˈkeɪm/"
+    },
+    "put": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "놓았다/꼈다",
+          "en": "Place something somewhere",
+          "primary": true
+        }
+      ],
+      "contextNote": "신발을 신는 동작을 의미합니다.",
+      "ipa": "/ˈpʊt/"
+    },
+    "her": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그녀의",
+          "en": "Belonging to her",
+          "primary": true
+        }
+      ],
+      "contextNote": "안나의 소유를 나타냅니다.",
+      "ipa": "/ˈhɝ/"
+    },
+    "shoes": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "신발",
+          "en": "Covering for feet",
+          "primary": true
+        }
+      ],
+      "contextNote": "발에 신는 물건입니다.",
+      "ipa": "/ˈʃuz/"
+    },
+    "went": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "갔다",
+          "en": "Past tense of 'go'",
+          "primary": true
+        }
+      ],
+      "contextNote": "어딘가로 이동했습니다.",
+      "ipa": "/ˈwɛnt/"
+    },
+    "air": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "공기",
+          "en": "Invisible gas we breathe",
+          "primary": true
+        }
+      ],
+      "contextNote": "우리가 마시는 보이지 않는 기체입니다.",
+      "ipa": "/ˈɛɹ/"
+    },
+    "smelled": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "냄새가 났다",
+          "en": "Past tense of 'smell'",
+          "primary": true
+        }
+      ],
+      "contextNote": "코로 냄새를 맡았거나 냄새가 났습니다.",
+      "ipa": "/ˈsmɛɫd/"
+    },
+    "fresh": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "신선한",
+          "en": "New and clean",
+          "primary": true
+        }
+      ],
+      "contextNote": "깨끗하고 상쾌한 느낌입니다.",
+      "ipa": "/ˈfɹɛʃ/"
+    },
+    "clean": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "깨끗한",
+          "en": "Free from dirt",
+          "primary": true
+        }
+      ],
+      "contextNote": "더럽지 않은 상태입니다.",
+      "ipa": "/ˈkɫin/"
+    },
+    "jumped": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "뛰었다",
+          "en": "Past tense of 'jump'",
+          "primary": true
+        }
+      ],
+      "contextNote": "공중으로 튀어 오른 동작입니다.",
+      "ipa": "/ˈdʒəmpt/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안에",
+          "en": "Inside something",
+          "primary": true
+        }
+      ],
+      "contextNote": "웅덩이 안을 의미합니다.",
+      "ipa": "/ˈɪn/"
+    },
+    "puddles": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "웅덩이",
+          "en": "Small pools of water",
+          "primary": true
+        }
+      ],
+      "contextNote": "비가 온 후 고인 작은 물웅덩이입니다.",
+      "ipa": "/ˈpədəɫz/"
+    },
+    "laughed": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "웃었다",
+          "en": "Past tense of 'laugh'",
+          "primary": true
+        }
+      ],
+      "contextNote": "즐거워서 소리 내어 웃었습니다.",
+      "ipa": "/ˈɫæft/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "It was a rainy day.",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "a rainy day",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어의 상태를 설명하는 2형식 문장입니다."
+        }
+      },
+      {
+        "text": "The sky was gray and dark.",
+        "structure": {
+          "subject": {
+            "text": "The sky",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "gray and dark",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "형용사 두 개가 and로 연결되어 보어 역할을 합니다."
+        }
+      },
+      {
+        "text": "She sat on the sofa and read a book.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "sat ... and read",
+            "label": "동사"
+          },
+          "object": {
+            "text": "a book",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "하나의 주어가 두 개의 동작(sat, read)을 했습니다."
+        }
+      },
+      {
+        "text": "Anna put on her shoes and went outside.",
+        "structure": {
+          "subject": {
+            "text": "Anna",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "put on ... went",
+            "label": "동사"
+          },
+          "object": {
+            "text": "her shoes",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "신발을 신고(put on) 밖으로 나갔습니다(went)."
+        }
+      },
+      {
+        "text": "The air smelled fresh and clean.",
+        "structure": {
+          "subject": {
+            "text": "The air",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "smelled",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "fresh and clean",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "감각동사(smelled) 뒤에 형용사가 옵니다."
+        }
+      }
+    ]
+  },
+  "translation": "비가 오는 날이었습니다. 안나는 창밖을 내다보았습니다. 하늘은 회색이고 어두웠습니다. 그녀는 놀러 밖으로 나갈 수 없었습니다. 그녀는 소파에 앉아 책을 읽었습니다. 그 책은 세계를 여행한 용감한 소녀에 관한 것이었습니다. 안나는 자신도 여행할 수 있기를 바랐습니다. 2시간 후에 비가 멈췄습니다. 해가 나왔습니다. 안나는 신발을 신고 밖으로 나갔습니다. 공기는 신선하고 깨끗하게 냄새가 났습니다. 그녀는 웅덩이를 뛰어다니며 웃었습니다.",
+  "keyVocab": [
+    "rainy",
+    "window",
+    "brave",
+    "travel",
+    "puddles"
+  ],
+  "quiz": {
+    "question": "안나가 비가 온 후에 밖에서 무엇을 했나요?",
+    "answer": "웅덩이를 뛰어다니며 웃었습니다."
+  },
+  "generated_at": "2026-02-19T22:33:27.978841+09:00"
+}

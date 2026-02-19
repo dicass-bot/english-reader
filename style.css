@@ -460,6 +460,28 @@ header {
   color: var(--subtext1);
 }
 
+.t-sent {
+  cursor: pointer;
+  border-radius: 0.2rem;
+  padding: 0.1rem 0.2rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.t-sent:hover {
+  background: var(--surface1);
+}
+
+.t-sent.active {
+  background: rgba(137, 180, 250, 0.25);
+  color: var(--text);
+}
+
+/* Sentence mapping highlight on passage words */
+.word.sent-highlight {
+  background: rgba(137, 180, 250, 0.2);
+  box-shadow: 0 2px 0 var(--blue);
+}
+
 /* Vocab List */
 .vocab-item {
   display: flex;

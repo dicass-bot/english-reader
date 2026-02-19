@@ -130,7 +130,7 @@
     hide('#translation-view');
     $('#btn-translation').classList.remove('active');
     $('#btn-translation').textContent = 'Show Translation';
-    $('#translation-text').textContent = d.translation || '';
+    renderTranslation(d.translation);
 
     // Vocab
     renderVocab(d.keyVocab, d.words, d.audio);
@@ -150,7 +150,7 @@
     const container = $('#passage-text');
     container.innerHTML = '';
 
-    // Split by sentences for grammar mapping
+    let sentIdx = 0;
     const tokens = text.split(/(\s+)/);
     tokens.forEach(token => {
       if (/^\s+$/.test(token)) {
@@ -165,11 +165,16 @@
         span.className = 'word';
         span.textContent = match[2];
         span.dataset.word = match[2].toLowerCase().replace(/['']/g, "'");
+        span.dataset.sent = String(sentIdx);
         span.addEventListener('click', () => showWordPopup(span.dataset.word, words));
         container.appendChild(span);
-        if (match[3]) container.appendChild(document.createTextNode(match[3]));
+        if (match[3]) {
+          container.appendChild(document.createTextNode(match[3]));
+          if (/[.!?]/.test(match[3])) sentIdx++;
+        }
       } else {
         container.appendChild(document.createTextNode(token));
+        if (/[.!?]$/.test(token)) sentIdx++;
       }
     });
   }
@@ -291,6 +296,54 @@
     });
   }
 
+  /* ── Translation Sentence Mapping ── */
+
+  function renderTranslation(translation) {
+    const container = $('#translation-text');
+    container.innerHTML = '';
+    if (!translation) return;
+
+    const sentences = translation.match(/[^.!?]+[.!?]+\s*/g) || [translation];
+    sentences.forEach((sent, idx) => {
+      const span = document.createElement('span');
+      span.className = 't-sent';
+      span.dataset.sent = String(idx);
+      span.textContent = sent.trim();
+      span.addEventListener('click', () => toggleSentenceHighlight(idx));
+      container.appendChild(span);
+      if (idx < sentences.length - 1) {
+        container.appendChild(document.createTextNode(' '));
+      }
+    });
+  }
+
+  function toggleSentenceHighlight(sentIdx) {
+    const already = $(`.t-sent[data-sent="${sentIdx}"].active`, $('#translation-text'));
+    clearSentenceHighlight();
+
+    if (already) return; // was active → just clear
+
+    // Highlight passage words with matching sentence index
+    $$('.word', $('#passage-text')).forEach(span => {
+      if (parseInt(span.dataset.sent) === sentIdx) {
+        span.classList.add('sent-highlight');
+      }
+    });
+
+    // Highlight translation sentence
+    const tSent = $(`.t-sent[data-sent="${sentIdx}"]`, $('#translation-text'));
+    if (tSent) tSent.classList.add('active');
+
+    // Scroll to first highlighted word in passage
+    const first = $('.word.sent-highlight', $('#passage-text'));
+    if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  function clearSentenceHighlight() {
+    $$('.word.sent-highlight', $('#passage-text')).forEach(s => s.classList.remove('sent-highlight'));
+    $$('.t-sent.active', $('#translation-text')).forEach(s => s.classList.remove('active'));
+  }
+
   function toggleTranslation() {
     const view = $('#translation-view');
     const btn = $('#btn-translation');
@@ -302,6 +355,7 @@
       hide('#translation-view');
       btn.classList.remove('active');
       btn.textContent = 'Show Translation';
+      clearSentenceHighlight();
     }
   }
 

@@ -307,9 +307,6 @@
     if (!translation) return;
 
     const sentences = translation.match(/[^.!?]+[.!?]+\s*/g) || [translation];
-    const enSentences = (dayData && dayData.passage)
-      ? (dayData.passage.match(/[^.!?]*[.!?]+/g) || [dayData.passage])
-      : [];
 
     sentences.forEach((sent, idx) => {
       const span = document.createElement('span');
@@ -318,19 +315,6 @@
       span.textContent = sent.trim();
       span.addEventListener('click', () => toggleSentenceHighlight(idx));
       container.appendChild(span);
-
-      // Sentence TTS button
-      if (enSentences[idx]) {
-        const btn = document.createElement('button');
-        btn.className = 't-sent-play';
-        btn.innerHTML = '&#128264;';
-        btn.title = enSentences[idx].trim();
-        btn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          speakSentence(enSentences[idx].trim());
-        });
-        container.appendChild(btn);
-      }
 
       if (idx < sentences.length - 1) {
         container.appendChild(document.createTextNode(' '));

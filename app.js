@@ -1,4 +1,4 @@
-/* English Reader SPA v2 */
+/* English Reader SPA v3 — Firebase Auth + Quiz System */
 (function () {
   'use strict';
 
@@ -12,11 +12,26 @@
   let audio = null;
   let grammarVisible = false;
   let sentTtsRate = 1;
-  let pendingSentIdx = null; // 팝업 스택: 단어 팝업 닫으면 복귀할 문장 인덱스
+  let pendingSentIdx = null;
+
+  // Firebase state
+  let firebaseUser = null;
+  let firestoreDb = null;
+  let firebaseReady = false;
+
+  // Test state
+  let testQuestions = null;
+  let testCurrentIdx = 0;
+  let testAnswers = [];
+  let testDayData = null;
+  let testCat = null;
+  let testNum = null;
+  let testAnswered = false;
 
   const VOCAB_STORE_KEY = 'english-reader-vocabulary';
+  const TEST_RESULTS_KEY = 'english-reader-test-results';
 
-  /* ── Vocabulary Store (localStorage) ── */
+  /* ── Vocabulary Store (localStorage + Firestore sync) ── */
 
   function vocabStore() {
     try {
@@ -33,6 +48,7 @@
     if (store.words.some(w => w.word === word && w.source === source)) return false;
     store.words.push({ word, pos, meaning, ipa, source, addedAt: new Date().toISOString() });
     vocabSave(store);
+    syncToFirestore();
     return true;
   }
 
@@ -43,6 +59,7 @@
     const item = store.words.splice(idx, 1)[0];
     store.completed.push({ ...item, completedAt: new Date().toISOString() });
     vocabSave(store);
+    syncToFirestore();
   }
 
   function vocabUncomplete(word, source) {
@@ -53,6 +70,7 @@
     delete item.completedAt;
     store.words.push(item);
     vocabSave(store);
+    syncToFirestore();
   }
 
   function vocabIsAdded(word, source) {
@@ -60,10 +78,209 @@
     return store.words.some(w => w.word === word && w.source === source);
   }
 
+  /* ── Test Results Store (localStorage + Firestore) ── */
+
+  function testResultsStore() {
+    try {
+      return JSON.parse(localStorage.getItem(TEST_RESULTS_KEY)) || [];
+    } catch { return []; }
+  }
+
+  function testResultsSave(results) {
+    localStorage.setItem(TEST_RESULTS_KEY, JSON.stringify(results));
+  }
+
+  /* ── Firebase Init & Auth ── */
+
+  function initFirebase() {
+    if (typeof firebase === 'undefined' || !window.firebaseConfig) return;
+    if (window.firebaseConfig.apiKey === 'YOUR_API_KEY') return; // placeholder
+    try {
+      firebase.initializeApp(window.firebaseConfig);
+      firestoreDb = firebase.firestore();
+      firebaseReady = true;
+
+      firebase.auth().onAuthStateChanged(user => {
+        firebaseUser = user;
+        updateAuthUI();
+        if (user) {
+          saveUserProfile(user);
+          syncFromFirestore();
+        }
+      });
+    } catch (e) {
+      console.error('Firebase init error:', e);
+    }
+  }
+
+  function authLogin() {
+    if (!firebaseReady) return;
+    const provider = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithPopup(provider).catch(e => {
+      console.error('Login error:', e);
+    });
+  }
+
+  function authLogout() {
+    if (!firebaseReady) return;
+    firebase.auth().signOut();
+  }
+
+  function updateAuthUI() {
+    const authBtn = $('#btn-auth');
+    const menuInfo = $('#auth-menu-info');
+    const loginBtn = $('#btn-google-login');
+    const logoutBtn = $('#btn-logout');
+    const resultsBtn = $('#btn-results');
+
+    if (firebaseUser) {
+      // Show avatar in header button
+      authBtn.classList.add('logged-in');
+      if (firebaseUser.photoURL) {
+        authBtn.innerHTML = `<img src="${firebaseUser.photoURL}" alt="">`;
+      } else {
+        authBtn.innerHTML = '&#128100;';
+      }
+      // Update menu
+      show(menuInfo);
+      const avatar = $('#auth-menu-avatar');
+      if (firebaseUser.photoURL) avatar.src = firebaseUser.photoURL;
+      $('#auth-menu-name').textContent = firebaseUser.displayName || '';
+      $('#auth-menu-email').textContent = firebaseUser.email || '';
+      hide(loginBtn);
+      show(logoutBtn);
+      show(resultsBtn);
+    } else {
+      authBtn.classList.remove('logged-in');
+      authBtn.innerHTML = '&#128100;';
+      hide(menuInfo);
+      show(loginBtn);
+      hide(logoutBtn);
+      hide(resultsBtn);
+    }
+  }
+
+  function saveUserProfile(user) {
+    if (!firestoreDb || !user) return;
+    firestoreDb.collection('users').doc(user.uid).set({
+      displayName: user.displayName || '',
+      photoURL: user.photoURL || '',
+      email: user.email || '',
+      updatedAt: firebase.firestore.FieldValue.serverTimestamp()
+    }, { merge: true }).catch(() => {});
+  }
+
+  /* ── Firestore Sync ── */
+
+  async function syncFromFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      const doc = await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('data').doc('vocab').get();
+      if (doc.exists) {
+        const data = doc.data();
+        const remoteStore = { words: data.words || [], completed: data.completed || [] };
+        const localStore = vocabStore();
+
+        // If local has data and remote is empty, offer migration
+        if (remoteStore.words.length === 0 && remoteStore.completed.length === 0 &&
+            (localStore.words.length > 0 || localStore.completed.length > 0)) {
+          showMigrateDialog(localStore);
+          return;
+        }
+
+        // Remote takes precedence
+        vocabSave(remoteStore);
+        if (location.hash === '#/vocabulary') renderMyVocabList();
+      } else {
+        // No remote data exists
+        const localStore = vocabStore();
+        if (localStore.words.length > 0 || localStore.completed.length > 0) {
+          showMigrateDialog(localStore);
+        }
+      }
+
+      // Sync test results from Firestore
+      await syncTestResultsFromFirestore();
+    } catch (e) {
+      console.error('Firestore sync error:', e);
+    }
+  }
+
+  async function syncToFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      const store = vocabStore();
+      await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('data').doc('vocab').set(store);
+    } catch (e) {
+      console.error('Firestore save error:', e);
+    }
+  }
+
+  function showMigrateDialog(localStore) {
+    const count = localStore.words.length + localStore.completed.length;
+    const overlay = document.createElement('div');
+    overlay.className = 'migrate-overlay';
+    overlay.innerHTML = `
+      <div class="migrate-dialog">
+        <p><span class="badge">${count}개</span></p>
+        <p>기존 단어장 데이터를 계정에 가져올까요?</p>
+        <div class="migrate-actions">
+          <button class="migrate-yes">가져오기</button>
+          <button class="migrate-no">건너뛰기</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+
+    overlay.querySelector('.migrate-yes').onclick = async () => {
+      overlay.remove();
+      await syncToFirestore();
+    };
+    overlay.querySelector('.migrate-no').onclick = () => {
+      overlay.remove();
+    };
+  }
+
+  async function saveTestResultToFirestore(result) {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('testResults').add({
+          ...result,
+          date: firebase.firestore.FieldValue.serverTimestamp()
+        });
+    } catch (e) {
+      console.error('Firestore test result save error:', e);
+    }
+  }
+
+  async function syncTestResultsFromFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      const snap = await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('testResults').orderBy('date', 'desc').limit(100).get();
+      if (snap.empty) return;
+      const results = [];
+      snap.forEach(doc => {
+        const data = doc.data();
+        results.push({
+          ...data,
+          id: doc.id,
+          date: data.date?.toDate?.()?.toISOString() || new Date().toISOString()
+        });
+      });
+      testResultsSave(results);
+    } catch (e) {
+      console.error('Firestore test results sync error:', e);
+    }
+  }
+
   /* ── Bootstrap ── */
 
   async function init() {
     show('#loading');
+    initFirebase();
     try {
       const res = await fetch('index.json');
       indexData = res.ok ? await res.json() : { levels: {} };
@@ -74,10 +291,24 @@
     setupPopupListeners();
     setupVocabTabs();
     setupMyVocabPage();
+    setupAuthListeners();
   }
 
   function route() {
     const hash = location.hash || '#/';
+
+    // #/test/L1/0001
+    const testMatch = hash.match(/#\/test\/([^/]+)\/(\d{4})/);
+    if (testMatch) {
+      startTest(testMatch[1], testMatch[2]);
+      return;
+    }
+
+    // #/results
+    if (hash === '#/results') {
+      showResultsPage();
+      return;
+    }
 
     // #/L1/0001 or #/custom/0001
     const contentMatch = hash.match(/#\/([^/]+)\/(\d{4})/);
@@ -102,6 +333,8 @@
     dayData = null;
     hide('#day-view');
     hide('#vocabulary-page');
+    hide('#test-page');
+    hide('#results-page');
     show('#home');
     updateHeaderForHome();
     renderHome();
@@ -162,6 +395,8 @@
     currentNum = num;
     hide('#home');
     hide('#vocabulary-page');
+    hide('#test-page');
+    hide('#results-page');
     show('#loading');
 
     const prefix = `${cat}-${num}`;
@@ -232,6 +467,12 @@
     renderVocab(d.keyVocab, d.words, d.audio);
     renderAllWords(d);
     renderQuiz(d.quiz);
+
+    // Test CTA
+    const testBtn = $('#btn-start-test');
+    testBtn.onclick = () => {
+      location.hash = `#/test/${currentCat}/${currentNum}`;
+    };
 
     $('#btn-grammar').onclick = toggleGrammar;
     $('#btn-translation').onclick = toggleTranslation;
@@ -424,7 +665,6 @@
       row.className = 'sent-word-row';
       row.innerHTML = `<span class="sent-word-en">${esc(w)}</span><span class="sent-word-pos">${esc(info.pos || '')}</span><span class="sent-word-ko">${esc(primary.ko || '')}</span>`;
       row.addEventListener('click', () => {
-        // 팝업 스택: 문장 인덱스 저장 후 단어 팝업 열기
         pendingSentIdx = sentIdx;
         hideSentencePopupQuiet();
         setTimeout(() => showWordPopup(w, dayData.words), 100);
@@ -608,7 +848,7 @@
     });
   }
 
-  /* ── Quiz ── */
+  /* ── Quiz (basic reading quiz) ── */
 
   function renderQuiz(quiz) {
     if (!quiz?.question) { hide('#quiz-section'); return; }
@@ -625,6 +865,548 @@
     const btn = $('#btn-answer');
     if (el.classList.contains('hidden')) { show('#quiz-answer'); btn.classList.add('active'); btn.textContent = 'Hide Answer'; }
     else { hide('#quiz-answer'); btn.classList.remove('active'); btn.textContent = 'Show Answer'; }
+  }
+
+  /* ══════════════════════════════════════════════
+     ██ QUIZ GENERATION & TEST SYSTEM
+     ══════════════════════════════════════════════ */
+
+  function shuffleArray(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function generateQuiz(data) {
+    const questions = [];
+
+    // 1. Spelling from keyVocab
+    questions.push(...generateSpellingQ(data.words, data.keyVocab));
+
+    // 2. Meaning from all words (excluding trivial POS)
+    questions.push(...generateMeaningQ(data.words, data.keyVocab));
+
+    // 3. Grammar questions
+    questions.push(...generateGrammarQ(data.grammar, data.words));
+
+    return shuffleArray(questions);
+  }
+
+  function generateSpellingQ(words, keyVocab) {
+    if (!keyVocab?.length || !words) return [];
+    const qs = [];
+
+    keyVocab.forEach(word => {
+      const wordKey = word.toLowerCase().replace(/['\u2019']/g, "'");
+      const info = words[wordKey] || words[word] || {};
+      const primary = (info.meanings || []).find(m => m.primary) || (info.meanings || [])[0];
+      if (!primary?.ko) return;
+
+      qs.push({
+        type: 'spelling',
+        question: primary.ko,
+        pos: info.pos || '',
+        hint: wordKey[0] + '_'.repeat(Math.max(0, wordKey.length - 1)),
+        answer: wordKey,
+        ipa: info.ipa || ''
+      });
+    });
+
+    return qs;
+  }
+
+  function generateMeaningQ(words, keyVocab) {
+    if (!words) return [];
+    const qs = [];
+    const skipPos = ['article', 'determiner', 'conjunction', 'preposition', 'pronoun', 'interjection'];
+    const keySet = new Set((keyVocab || []).map(w => w.toLowerCase()));
+
+    // Collect valid words with Korean meanings
+    const validEntries = Object.entries(words).filter(([word, info]) => {
+      const pos = (info.pos || '').toLowerCase();
+      if (skipPos.some(s => pos.includes(s))) return false;
+      const primary = (info.meanings || []).find(m => m.primary) || (info.meanings || [])[0];
+      return primary?.ko;
+    });
+
+    if (validEntries.length < 2) return [];
+
+    // All Korean meanings for distractor pool
+    const allMeanings = validEntries.map(([w, info]) => {
+      const p = (info.meanings || []).find(m => m.primary) || (info.meanings || [])[0];
+      return { word: w, ko: p.ko };
+    });
+
+    validEntries.forEach(([word, info]) => {
+      // Skip words that are already in spelling questions (keyVocab)
+      if (keySet.has(word)) return;
+
+      const primary = (info.meanings || []).find(m => m.primary) || (info.meanings || [])[0];
+      const correctAnswer = primary.ko;
+
+      // Get distractors: other Korean meanings from the same lesson
+      const distractorPool = allMeanings
+        .filter(m => m.word !== word && m.ko !== correctAnswer)
+        .map(m => m.ko);
+      const uniqueDistractors = [...new Set(distractorPool)];
+      const selectedDistractors = shuffleArray(uniqueDistractors).slice(0, 3);
+
+      // Pad with filler if needed
+      while (selectedDistractors.length < 3) {
+        const fillers = ['해당 없음', '알 수 없음', '기타'];
+        for (const f of fillers) {
+          if (!selectedDistractors.includes(f) && f !== correctAnswer) {
+            selectedDistractors.push(f);
+            if (selectedDistractors.length >= 3) break;
+          }
+        }
+        break;
+      }
+
+      const choices = shuffleArray([correctAnswer, ...selectedDistractors.slice(0, 3)]);
+
+      qs.push({
+        type: 'meaning',
+        question: word,
+        ipa: info.ipa || '',
+        pos: info.pos || '',
+        answer: correctAnswer,
+        choices: choices
+      });
+    });
+
+    return qs;
+  }
+
+  function generateGrammarQ(grammar, words) {
+    if (!grammar?.sentences?.length) return [];
+    const qs = [];
+    const allPatterns = ['S+V', 'S+V+O', 'S+V+C', 'S+V+O+O', 'S+V+O+C', 'S+V+A'];
+
+    grammar.sentences.forEach((sent, idx) => {
+      const structure = sent.structure || {};
+
+      // Fill-in-blank: prefer verb, then complement, then object
+      const targetKey = structure.verb ? 'verb' :
+                        structure.complement ? 'complement' :
+                        structure.object ? 'object' : null;
+
+      if (targetKey && structure[targetKey]?.text) {
+        const blankTarget = structure[targetKey];
+        const blanked = sent.text.replace(blankTarget.text, '___');
+
+        // Build distractors from other sentences or common words
+        const distractors = new Set();
+
+        // Other sentences' same component
+        grammar.sentences.forEach((s, i) => {
+          if (i === idx) return;
+          const comp = (s.structure || {})[targetKey];
+          if (comp?.text && comp.text !== blankTarget.text) {
+            distractors.add(comp.text);
+          }
+        });
+
+        // Common verbs as fallback
+        if (targetKey === 'verb' && distractors.size < 3) {
+          ['is', 'was', 'were', 'are', 'has', 'had', 'did', 'will', 'can', 'could',
+           'went', 'came', 'saw', 'got', 'made', 'said', 'told', 'gave', 'took']
+            .forEach(v => {
+              if (v !== blankTarget.text.toLowerCase()) distractors.add(v);
+            });
+        }
+
+        // General fallback
+        if (distractors.size < 3) {
+          ['it', 'them', 'there', 'very much', 'quickly', 'slowly', 'together', 'always', 'never']
+            .forEach(f => {
+              if (f !== blankTarget.text) distractors.add(f);
+            });
+        }
+
+        const distArr = shuffleArray([...distractors]).slice(0, 3);
+        const choices = shuffleArray([blankTarget.text, ...distArr]);
+
+        qs.push({
+          type: 'grammar',
+          subtype: 'fillblank',
+          question: blanked,
+          answer: blankTarget.text,
+          choices: choices,
+          explanation: sent.explanation || ''
+        });
+      }
+
+      // Pattern matching
+      if (sent.pattern?.name) {
+        const correctPattern = sent.pattern.name;
+        const wrongPatterns = allPatterns.filter(p => p !== correctPattern);
+        const selectedWrong = shuffleArray(wrongPatterns).slice(0, 3);
+        const choices = shuffleArray([correctPattern, ...selectedWrong]);
+
+        qs.push({
+          type: 'grammar',
+          subtype: 'pattern',
+          question: sent.text,
+          patternNote: sent.pattern.note || '',
+          answer: correctPattern,
+          choices: choices,
+          explanation: sent.explanation || ''
+        });
+      }
+    });
+
+    return qs;
+  }
+
+  /* ── Test Page ── */
+
+  async function startTest(cat, num) {
+    testCat = cat;
+    testNum = num;
+    hide('#home');
+    hide('#day-view');
+    hide('#vocabulary-page');
+    hide('#results-page');
+    show('#loading');
+
+    // Load day data if not already loaded
+    const prefix = `${cat}-${num}`;
+    try {
+      const res = await fetch(`days/${prefix}.json`);
+      if (!res.ok) throw new Error('not found');
+      testDayData = await res.json();
+    } catch {
+      hide('#loading');
+      showHome();
+      return;
+    }
+
+    hide('#loading');
+
+    // Generate quiz
+    testQuestions = generateQuiz(testDayData);
+    if (testQuestions.length === 0) {
+      showHome();
+      return;
+    }
+
+    testCurrentIdx = 0;
+    testAnswers = new Array(testQuestions.length).fill(null);
+    testAnswered = false;
+
+    // Update header
+    const sel = $('#sel-category');
+    sel.innerHTML = `<option value="">Test</option>`;
+    sel.value = '';
+    $('#sel-num').style.display = 'none';
+    $('#btn-prev').disabled = false;
+    $('#btn-prev').onclick = () => {
+      location.hash = `#/${testCat}/${testNum}`;
+    };
+    $('#btn-next').disabled = true;
+
+    show('#test-page');
+    hide('#test-result-card');
+    show('#test-question-card');
+    show('#test-nav');
+
+    const catLabel = testDayData.category === 'custom' ? 'Custom' : `Level ${testDayData.category.slice(1)}`;
+    $('#test-lesson-label').textContent = `${catLabel} #${testDayData.num} 시험`;
+
+    showTestQuestion(0);
+  }
+
+  function showTestQuestion(idx) {
+    testCurrentIdx = idx;
+    testAnswered = false;
+    const q = testQuestions[idx];
+    const total = testQuestions.length;
+
+    // Progress
+    $('#test-progress-text').textContent = `${idx + 1} / ${total}`;
+    $('#test-progress-fill').style.width = `${((idx + 1) / total) * 100}%`;
+
+    // Type badge
+    const typeBadge = $('#test-q-type');
+    const typeLabels = { spelling: '스펠링', meaning: '뜻 맞추기', grammar: '문법' };
+    typeBadge.textContent = typeLabels[q.type] || q.type;
+    typeBadge.className = 'test-type-badge ' + q.type;
+
+    // Question body
+    const body = $('#test-q-body');
+    body.innerHTML = '';
+
+    // Input area
+    const inputArea = $('#test-q-input');
+    inputArea.innerHTML = '';
+
+    // Feedback
+    const feedback = $('#test-feedback');
+    feedback.className = 'test-feedback hidden';
+    feedback.innerHTML = '';
+
+    // Buttons
+    const submitBtn = $('#btn-test-submit');
+    const nextBtn = $('#btn-test-next');
+    submitBtn.disabled = true;
+    show(submitBtn);
+    hide(nextBtn);
+
+    if (q.type === 'spelling') {
+      body.innerHTML = `
+        <div class="test-q-main">${esc(q.question)}</div>
+        <div class="test-q-sub">${esc(q.pos)}</div>
+        <div class="test-q-hint">${esc(q.hint)}</div>`;
+
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.className = 'test-spelling-input';
+      input.placeholder = '영어 단어를 입력하세요';
+      input.autocomplete = 'off';
+      input.autocapitalize = 'none';
+      input.spellcheck = false;
+      input.addEventListener('input', () => {
+        submitBtn.disabled = input.value.trim() === '';
+      });
+      input.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && !submitBtn.disabled) {
+          if (!testAnswered) submitBtn.click();
+          else nextBtn.click();
+        }
+      });
+      inputArea.appendChild(input);
+      setTimeout(() => input.focus(), 100);
+
+      submitBtn.onclick = () => checkSpellingAnswer(idx, input);
+      nextBtn.onclick = () => advanceTest();
+
+    } else if (q.type === 'meaning') {
+      body.innerHTML = `
+        <div class="test-q-main">${esc(q.question)}</div>
+        <div class="test-q-sub">${esc(q.ipa)}${q.pos ? ' — ' + esc(q.pos) : ''}</div>`;
+
+      const choicesDiv = document.createElement('div');
+      choicesDiv.className = 'test-choices';
+      q.choices.forEach((choice, ci) => {
+        const choiceEl = document.createElement('div');
+        choiceEl.className = 'test-choice';
+        choiceEl.dataset.value = choice;
+        choiceEl.innerHTML = `<span class="choice-marker"></span><span>${esc(choice)}</span>`;
+        choiceEl.addEventListener('click', () => {
+          if (testAnswered) return;
+          $$('.test-choice', choicesDiv).forEach(c => c.classList.remove('selected'));
+          choiceEl.classList.add('selected');
+          submitBtn.disabled = false;
+        });
+        choicesDiv.appendChild(choiceEl);
+      });
+      inputArea.appendChild(choicesDiv);
+
+      submitBtn.onclick = () => checkChoiceAnswer(idx, choicesDiv);
+      nextBtn.onclick = () => advanceTest();
+
+    } else if (q.type === 'grammar') {
+      if (q.subtype === 'fillblank') {
+        body.innerHTML = `<div class="test-q-main">${esc(q.question)}</div>`;
+      } else {
+        body.innerHTML = `
+          <div class="test-q-sub">이 문장의 문형은?</div>
+          <div class="test-q-main">${esc(q.question)}</div>`;
+      }
+
+      const choicesDiv = document.createElement('div');
+      choicesDiv.className = 'test-choices';
+      q.choices.forEach((choice, ci) => {
+        const choiceEl = document.createElement('div');
+        choiceEl.className = 'test-choice';
+        choiceEl.dataset.value = choice;
+        choiceEl.innerHTML = `<span class="choice-marker"></span><span>${esc(choice)}</span>`;
+        choiceEl.addEventListener('click', () => {
+          if (testAnswered) return;
+          $$('.test-choice', choicesDiv).forEach(c => c.classList.remove('selected'));
+          choiceEl.classList.add('selected');
+          submitBtn.disabled = false;
+        });
+        choicesDiv.appendChild(choiceEl);
+      });
+      inputArea.appendChild(choicesDiv);
+
+      submitBtn.onclick = () => checkChoiceAnswer(idx, choicesDiv);
+      nextBtn.onclick = () => advanceTest();
+    }
+  }
+
+  function checkSpellingAnswer(idx, input) {
+    const q = testQuestions[idx];
+    const userAnswer = input.value.trim().toLowerCase();
+    const correct = userAnswer === q.answer.toLowerCase();
+
+    testAnswers[idx] = {
+      type: q.type,
+      question: q.question,
+      answer: q.answer,
+      userAnswer: input.value.trim(),
+      correct: correct
+    };
+
+    testAnswered = true;
+    input.readOnly = true;
+    input.classList.add(correct ? 'correct' : 'wrong');
+
+    const feedback = $('#test-feedback');
+    feedback.className = 'test-feedback ' + (correct ? 'correct' : 'wrong');
+    if (correct) {
+      feedback.innerHTML = '정답!';
+    } else {
+      feedback.innerHTML = `오답<div class="correct-answer">정답: ${esc(q.answer)}</div>`;
+    }
+    show(feedback);
+
+    hide($('#btn-test-submit'));
+    show($('#btn-test-next'));
+
+    if (idx === testQuestions.length - 1) {
+      $('#btn-test-next').textContent = '결과 보기';
+    } else {
+      $('#btn-test-next').textContent = '다음';
+    }
+  }
+
+  function checkChoiceAnswer(idx, choicesDiv) {
+    const q = testQuestions[idx];
+    const selected = $('.test-choice.selected', choicesDiv);
+    if (!selected) return;
+
+    const userAnswer = selected.dataset.value;
+    const correct = userAnswer === q.answer;
+
+    testAnswers[idx] = {
+      type: q.type,
+      subtype: q.subtype || '',
+      question: q.type === 'grammar' && q.subtype === 'pattern' ? q.question : q.question,
+      answer: q.answer,
+      userAnswer: userAnswer,
+      correct: correct
+    };
+
+    testAnswered = true;
+
+    // Highlight correct/wrong
+    $$('.test-choice', choicesDiv).forEach(c => {
+      if (c.dataset.value === q.answer) {
+        c.classList.add('correct');
+      } else if (c === selected && !correct) {
+        c.classList.add('wrong');
+      }
+    });
+
+    const feedback = $('#test-feedback');
+    feedback.className = 'test-feedback ' + (correct ? 'correct' : 'wrong');
+    if (correct) {
+      feedback.innerHTML = '정답!';
+    } else {
+      feedback.innerHTML = `오답<div class="correct-answer">정답: ${esc(q.answer)}</div>`;
+    }
+    if (q.explanation) {
+      feedback.innerHTML += `<div style="margin-top:0.3rem;font-size:0.8rem;opacity:0.8">${esc(q.explanation)}</div>`;
+    }
+    show(feedback);
+
+    hide($('#btn-test-submit'));
+    show($('#btn-test-next'));
+
+    if (idx === testQuestions.length - 1) {
+      $('#btn-test-next').textContent = '결과 보기';
+    } else {
+      $('#btn-test-next').textContent = '다음';
+    }
+  }
+
+  function advanceTest() {
+    if (testCurrentIdx >= testQuestions.length - 1) {
+      finishTest();
+    } else {
+      showTestQuestion(testCurrentIdx + 1);
+    }
+  }
+
+  function finishTest() {
+    hide('#test-question-card');
+    hide('#test-nav');
+    show('#test-result-card');
+
+    const total = testQuestions.length;
+    const correctCount = testAnswers.filter(a => a?.correct).length;
+    const pct = Math.round((correctCount / total) * 100);
+
+    // Title
+    const title = $('#test-result-title');
+    title.textContent = `${correctCount} / ${total} (${pct}%)`;
+
+    // Score bar
+    const bar = $('#test-result-bar');
+    bar.style.width = '0';
+    const barColor = pct >= 80 ? 'var(--green)' : pct >= 50 ? 'var(--yellow)' : 'var(--red)';
+    bar.style.background = barColor;
+    requestAnimationFrame(() => {
+      bar.style.width = `${pct}%`;
+    });
+
+    // Details
+    const details = $('#test-result-details');
+    details.innerHTML = '';
+    testAnswers.forEach((a, i) => {
+      if (!a) return;
+      const item = document.createElement('div');
+      item.className = 'test-detail-item';
+      const icon = a.correct ? '&#10003;' : '&#10007;';
+      const iconColor = a.correct ? 'var(--green)' : 'var(--red)';
+      const typeLabel = { spelling: '스펠링', meaning: '뜻', grammar: '문법' }[a.type] || '';
+
+      let qDisplay = a.question;
+      if (qDisplay.length > 40) qDisplay = qDisplay.substring(0, 40) + '...';
+
+      item.innerHTML = `
+        <span class="test-detail-icon" style="color:${iconColor}">${icon}</span>
+        <span class="test-detail-q">${esc(qDisplay)}</span>
+        <span class="test-detail-a">${a.correct ? esc(a.answer) : esc(a.userAnswer)}</span>
+        ${!a.correct ? `<span class="test-detail-correct">${esc(a.answer)}</span>` : ''}`;
+      details.appendChild(item);
+    });
+
+    // Save result
+    const result = {
+      lessonId: `${testCat}-${testNum}`,
+      lessonTitle: testDayData?.source?.title || '',
+      score: correctCount,
+      total: total,
+      percentage: pct,
+      date: new Date().toISOString(),
+      details: testAnswers.filter(a => a)
+    };
+
+    // Save to localStorage
+    const results = testResultsStore();
+    results.unshift(result);
+    if (results.length > 200) results.length = 200;
+    testResultsSave(results);
+
+    // Save to Firestore
+    saveTestResultToFirestore(result);
+
+    // Retry button
+    $('#btn-test-retry').onclick = () => {
+      startTest(testCat, testNum);
+    };
+
+    // Back button
+    $('#btn-test-back').onclick = () => {
+      location.hash = `#/${testCat}/${testNum}`;
+    };
   }
 
   /* ── Word Popup (Enhanced) ── */
@@ -674,7 +1456,6 @@
       });
       show('#popup-forms-section');
     } else if (forms.base) {
-      // Legacy format support
       if (forms.base) formsEl.innerHTML += `<span class="form-tag"><span class="form-label">원형</span> ${esc(forms.base)}</span>`;
       if (forms.tense) formsEl.innerHTML += `<span class="form-tag">${esc(forms.tense)}</span>`;
       (forms.related || []).forEach(r => { formsEl.innerHTML += `<span class="form-tag">${esc(r)}</span>`; });
@@ -799,7 +1580,6 @@
     setTimeout(() => {
       hide('#word-popup');
       hide('#word-overlay');
-      // 팝업 스택: 문장 팝업으로 복귀
       if (pendingSentIdx !== null) {
         const idx = pendingSentIdx;
         pendingSentIdx = null;
@@ -831,7 +1611,7 @@
     sentPopup.addEventListener('touchstart', e => { sentStartY = e.touches[0].clientY; }, { passive: true });
     sentPopup.addEventListener('touchmove', e => { if (e.touches[0].clientY - sentStartY > 80) hideSentencePopup(); }, { passive: true });
 
-    // Collapsible sections in word popup
+    // Collapsible sections
     document.addEventListener('click', e => {
       const header = e.target.closest('.collapsible-header');
       if (!header) return;
@@ -857,6 +1637,47 @@
 
     // My Vocabulary button
     $('#btn-vocab').addEventListener('click', () => { location.hash = '#/vocabulary'; });
+
+    // Results button
+    $('#btn-results').addEventListener('click', () => { location.hash = '#/results'; });
+  }
+
+  /* ── Auth UI Listeners ── */
+
+  function setupAuthListeners() {
+    const authBtn = $('#btn-auth');
+    const authMenu = $('#auth-menu');
+
+    authBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      if (!firebaseReady) {
+        // Firebase not configured — no action
+        return;
+      }
+      if (!firebaseUser) {
+        // Not logged in — direct login
+        authLogin();
+      } else {
+        // Logged in — toggle menu
+        authMenu.classList.toggle('hidden');
+      }
+    });
+
+    // Close menu on outside click
+    document.addEventListener('click', () => {
+      authMenu.classList.add('hidden');
+    });
+    authMenu.addEventListener('click', e => e.stopPropagation());
+
+    $('#btn-google-login').addEventListener('click', () => {
+      authMenu.classList.add('hidden');
+      authLogin();
+    });
+
+    $('#btn-logout').addEventListener('click', () => {
+      authMenu.classList.add('hidden');
+      authLogout();
+    });
   }
 
   /* ── Navigation ── */
@@ -894,7 +1715,6 @@
         renderMyVocabList();
       });
     });
-    // completed toggle는 generic collapsible handler가 처리 (double toggle 방지)
   }
 
   function showVocabularyPage() {
@@ -903,6 +1723,8 @@
     dayData = null;
     hide('#home');
     hide('#day-view');
+    hide('#test-page');
+    hide('#results-page');
     show('#vocabulary-page');
 
     const sel = $('#sel-category');
@@ -987,6 +1809,99 @@
         renderMyVocabList();
       });
       compList.appendChild(div);
+    });
+  }
+
+  /* ── Results History Page ── */
+
+  function showResultsPage() {
+    hide('#home');
+    hide('#day-view');
+    hide('#vocabulary-page');
+    hide('#test-page');
+    show('#results-page');
+
+    const sel = $('#sel-category');
+    sel.innerHTML = '<option value="">시험 이력</option>';
+    sel.value = '';
+    $('#sel-num').style.display = 'none';
+    $('#btn-prev').disabled = false;
+    $('#btn-prev').onclick = () => { location.hash = '#/'; };
+    $('#btn-next').disabled = true;
+
+    renderResultsHistory();
+  }
+
+  function renderResultsHistory() {
+    const results = testResultsStore();
+    const container = $('#results-list');
+    container.innerHTML = '';
+    $('#results-total-badge').textContent = results.length;
+
+    // Wrong words analysis
+    const wrongMap = {};
+    results.forEach(r => {
+      (r.details || []).forEach(d => {
+        if (!d.correct && d.type === 'spelling') {
+          wrongMap[d.answer] = (wrongMap[d.answer] || 0) + 1;
+        } else if (!d.correct && d.type === 'meaning') {
+          wrongMap[d.question] = (wrongMap[d.question] || 0) + 1;
+        }
+      });
+    });
+
+    const wrongSection = $('#wrong-words-section');
+    const wrongList = $('#wrong-words-list');
+    wrongList.innerHTML = '';
+    const sortedWrong = Object.entries(wrongMap).sort((a, b) => b[1] - a[1]).slice(0, 15);
+    if (sortedWrong.length > 0) {
+      show(wrongSection);
+      sortedWrong.forEach(([word, count]) => {
+        const tag = document.createElement('span');
+        tag.className = 'wrong-word-tag';
+        tag.innerHTML = `${esc(word)} <span class="wrong-word-count">x${count}</span>`;
+        wrongList.appendChild(tag);
+      });
+    } else {
+      hide(wrongSection);
+    }
+
+    if (results.length === 0) {
+      container.innerHTML = '<div class="no-results-msg">아직 시험 이력이 없습니다</div>';
+      return;
+    }
+
+    results.forEach(r => {
+      const card = document.createElement('div');
+      card.className = 'result-card';
+
+      const pct = r.percentage || Math.round((r.score / r.total) * 100);
+      const scoreClass = pct >= 80 ? 'high' : pct >= 50 ? 'mid' : 'low';
+      const barColor = pct >= 80 ? 'var(--green)' : pct >= 50 ? 'var(--yellow)' : 'var(--red)';
+      const dateStr = r.date ? new Date(r.date).toLocaleDateString('ko-KR', {
+        month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric'
+      }) : '';
+
+      card.innerHTML = `
+        <div class="result-card-top">
+          <span class="result-lesson">${esc(r.lessonId || '')}</span>
+          <span class="result-score ${scoreClass}">${r.score}/${r.total} (${pct}%)</span>
+        </div>
+        <div class="result-card-bottom">
+          <span>${esc(r.lessonTitle || '')}</span>
+          <div class="result-bar-mini"><div class="result-bar-mini-fill" style="width:${pct}%;background:${barColor}"></div></div>
+          <span class="result-date">${dateStr}</span>
+        </div>`;
+
+      card.addEventListener('click', () => {
+        // Navigate to that lesson's test
+        const parts = (r.lessonId || '').split('-');
+        if (parts.length >= 2) {
+          location.hash = `#/${parts[0]}/${parts.slice(1).join('-')}`;
+        }
+      });
+
+      container.appendChild(card);
     });
   }
 

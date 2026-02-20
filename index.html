@@ -24,8 +24,22 @@
         </select>
       </div>
       <div id="header-right">
+        <button id="btn-results" class="nav-btn hidden" aria-label="Test Results" title="시험 이력">&#128202;</button>
         <button id="btn-vocab" class="nav-btn" aria-label="My Vocabulary">&#128218;</button>
         <button id="btn-next" class="nav-btn" aria-label="Next">&rarr;</button>
+        <button id="btn-auth" class="nav-btn auth-btn" aria-label="Account" title="로그인">&#128100;</button>
+      </div>
+      <!-- Auth Menu Dropdown -->
+      <div id="auth-menu" class="auth-menu hidden">
+        <div id="auth-menu-info" class="auth-menu-info hidden">
+          <img id="auth-menu-avatar" class="auth-menu-avatar" alt="">
+          <div class="auth-menu-text">
+            <div id="auth-menu-name"></div>
+            <div id="auth-menu-email"></div>
+          </div>
+        </div>
+        <button id="btn-google-login" class="auth-menu-action">Google로 로그인</button>
+        <button id="btn-logout" class="auth-menu-action hidden">로그아웃</button>
       </div>
     </header>
 
@@ -125,6 +139,58 @@
         <button id="btn-answer" class="toggle-btn">Show Answer</button>
         <p id="quiz-answer" class="hidden"></p>
       </div>
+
+      <!-- Test CTA -->
+      <div id="test-cta" class="card">
+        <button id="btn-start-test" class="test-start-btn">시험 보기</button>
+      </div>
+    </section>
+
+    <!-- Test Page -->
+    <section id="test-page" class="page hidden">
+      <div id="test-header" class="card">
+        <div class="test-title-row">
+          <span id="test-lesson-label"></span>
+          <span id="test-progress-text"></span>
+        </div>
+        <div class="test-progress-bar">
+          <div id="test-progress-fill"></div>
+        </div>
+      </div>
+      <div id="test-question-card" class="card">
+        <div id="test-q-type" class="test-type-badge"></div>
+        <div id="test-q-body"></div>
+        <div id="test-q-input"></div>
+        <div id="test-feedback" class="test-feedback hidden"></div>
+      </div>
+      <div id="test-nav">
+        <button id="btn-test-submit" class="test-submit-btn">확인</button>
+        <button id="btn-test-next" class="test-next-btn hidden">다음</button>
+      </div>
+      <div id="test-result-card" class="card hidden">
+        <h3 id="test-result-title"></h3>
+        <div class="test-result-bar-wrap">
+          <div id="test-result-bar"></div>
+        </div>
+        <div id="test-result-details"></div>
+        <div class="test-result-actions">
+          <button id="btn-test-retry" class="toggle-btn">다시 풀기</button>
+          <button id="btn-test-back" class="toggle-btn">돌아가기</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results History Page -->
+    <section id="results-page" class="page hidden">
+      <div class="results-page-header">
+        <h2>시험 이력</h2>
+        <span id="results-total-badge" class="badge">0</span>
+      </div>
+      <div id="wrong-words-section" class="card hidden">
+        <div class="section-label">자주 틀리는 단어</div>
+        <div id="wrong-words-list"></div>
+      </div>
+      <div id="results-list"></div>
     </section>
 
     <!-- My Vocabulary Page -->
@@ -234,6 +300,10 @@
     </div>
   </div>
 
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,9 +1,10 @@
-const CACHE_NAME = 'english-reader-v13';
+const CACHE_NAME = 'english-reader-v14';
 const STATIC_ASSETS = [
   './',
   './index.html',
   './style.css',
   './app.js',
+  './firebase-config.js',
   './manifest.json',
 ];
 
@@ -25,6 +26,15 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
+
+  // Firebase SDK & APIs: always network, never cache
+  if (url.hostname.includes('googleapis.com') ||
+      url.hostname.includes('gstatic.com') ||
+      url.hostname.includes('firebaseapp.com') ||
+      url.hostname.includes('firebaseio.com') ||
+      url.hostname.includes('firebase.google.com')) {
+    return;
+  }
 
   // Cache day JSON and audio files on first access
   if (url.pathname.match(/\/(days|audio)\//)) {

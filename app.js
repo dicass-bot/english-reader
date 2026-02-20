@@ -208,7 +208,6 @@
   }
 
   function showLoginScreen() {
-    console.log('[ER] showLoginScreen called');
     show('#btn-login-main');
     hide('#login-loading');
     const screen = $('#login-screen');
@@ -408,16 +407,13 @@
   /* ── Bootstrap ── */
 
   async function init() {
-    console.log('[ER] init start v29');
     try {
       initFirebase();
-      console.log('[ER] firebaseReady:', firebaseReady);
       setupPopupListeners();
       setupVocabTabs();
       setupMyVocabPage();
       setupAuthListeners();
       setupLoginScreen();
-      console.log('[ER] all setup done');
     } catch (e) {
       console.error('[ER] init error:', e);
     }
@@ -431,10 +427,8 @@
 
   function setupLoginScreen() {
     const loginBtn = $('#btn-login-main');
-    console.log('[ER] setupLoginScreen, btn:', !!loginBtn, 'firebaseReady:', firebaseReady);
     if (loginBtn) {
       loginBtn.addEventListener('click', () => {
-        console.log('[ER] login btn clicked, firebaseReady:', firebaseReady);
         if (!firebaseReady) return;
         hide(loginBtn);
         show('#login-loading');
@@ -526,8 +520,6 @@
 
   function updateHeaderForHome() {
     $('#header-title').textContent = 'English Reader';
-    $('#btn-prev').disabled = true;
-    $('#btn-next').disabled = true;
     hide('#btn-home');
   }
 
@@ -601,7 +593,6 @@
     show('#day-view');
     renderDay();
     updateHeaderForContent();
-    updateNav();
   }
 
   function updateHeaderForContent() {
@@ -1345,11 +1336,6 @@
 
     // Update header
     show('#btn-home');
-    $('#btn-prev').disabled = false;
-    $('#btn-prev').onclick = () => {
-      location.hash = `#/${testCat}/${testNum}`;
-    };
-    $('#btn-next').disabled = true;
 
     show('#test-page');
     hide('#test-result-card');
@@ -1414,9 +1400,6 @@
 
     // Update header
     show('#btn-home');
-    $('#btn-prev').disabled = false;
-    $('#btn-prev').onclick = () => { location.hash = '#/'; };
-    $('#btn-next').disabled = true;
 
     show('#test-page');
     hide('#test-result-card');
@@ -2080,31 +2063,6 @@
     });
   }
 
-  /* ── Navigation ── */
-
-  function updateNav() {
-    if (!indexData || !currentCat) return;
-    const entries = (indexData.levels[currentCat] || []).map(e => e.num).sort();
-    const idx = entries.indexOf(currentNum);
-    const prevBtn = $('#btn-prev');
-    const nextBtn = $('#btn-next');
-
-    if (idx > 0) {
-      prevBtn.disabled = false;
-      prevBtn.onclick = () => { location.hash = `#/${currentCat}/${entries[idx - 1]}`; };
-    } else {
-      prevBtn.disabled = true;
-      prevBtn.onclick = () => { location.hash = '#/'; };
-    }
-
-    if (idx < entries.length - 1) {
-      nextBtn.disabled = false;
-      nextBtn.onclick = () => { location.hash = `#/${currentCat}/${entries[idx + 1]}`; };
-    } else {
-      nextBtn.disabled = true;
-    }
-  }
-
   /* ── My Vocabulary Page ── */
 
   function setupMyVocabPage() {
@@ -2137,9 +2095,6 @@
     show('#btn-home');
 
     $('#header-title').textContent = '단어장';
-    $('#btn-prev').disabled = false;
-    $('#btn-prev').onclick = () => { location.hash = '#/'; };
-    $('#btn-next').disabled = true;
 
     renderMyVocabList();
   }
@@ -2230,9 +2185,6 @@
     show('#btn-home');
 
     $('#header-title').textContent = '시험 이력';
-    $('#btn-prev').disabled = false;
-    $('#btn-prev').onclick = () => { location.hash = '#/'; };
-    $('#btn-next').disabled = true;
 
     renderResultsHistory();
   }
@@ -2322,9 +2274,6 @@
     show('#btn-home');
 
     $('#header-title').textContent = '오답노트';
-    $('#btn-prev').disabled = false;
-    $('#btn-prev').onclick = () => { location.hash = '#/'; };
-    $('#btn-next').disabled = true;
 
     renderWrongNotes();
   }
@@ -2482,9 +2431,6 @@
     // Update header
     show('#btn-home');
     $('#header-title').textContent = '오답노트 복습';
-    $('#btn-prev').disabled = false;
-    $('#btn-prev').onclick = () => { location.hash = '#/wrong-notes'; };
-    $('#btn-next').disabled = true;
 
     hide('#home');
     hide('#day-view');

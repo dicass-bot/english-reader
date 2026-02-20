@@ -1,0 +1,2795 @@
+{
+  "num": "0010",
+  "category": "L1",
+  "source": {
+    "title": "The Boy Who Cried Wolf",
+    "author": "Aesop",
+    "license": "Public Domain",
+    "url": "https://standardebooks.org"
+  },
+  "passage": "A boy watched sheep on a hill. He was bored and lonely. He decided to play a trick. He shouted, \"Wolf! Wolf!\" The villagers ran up the hill to help. But there was no wolf. The boy laughed. He did it again the next day. The villagers came again. They were angry when they saw no wolf. Then one day, a real wolf came. The boy shouted, \"Wolf! Wolf!\" But nobody came. Nobody believed him anymore. The wolf took his sheep.",
+  "audio": {
+    "passage": "audio/L1-0010.mp3",
+    "words": {
+      "a": "audio/L1-0010-a.mp3",
+      "boy": "audio/L1-0010-boy.mp3",
+      "watched": "audio/L1-0010-watched.mp3",
+      "sheep": "audio/L1-0010-sheep.mp3",
+      "on": "audio/L1-0010-on.mp3",
+      "hill": "audio/L1-0010-hill.mp3",
+      "he": "audio/L1-0010-he.mp3",
+      "was": "audio/L1-0010-was.mp3",
+      "bored": "audio/L1-0010-bored.mp3",
+      "and": "audio/L1-0010-and.mp3",
+      "lonely": "audio/L1-0010-lonely.mp3",
+      "decided": "audio/L1-0010-decided.mp3",
+      "to": "audio/L1-0010-to.mp3",
+      "play": "audio/L1-0010-play.mp3",
+      "trick": "audio/L1-0010-trick.mp3",
+      "shouted": "audio/L1-0010-shouted.mp3",
+      "wolf": "audio/L1-0010-wolf.mp3",
+      "villagers": "audio/L1-0010-villagers.mp3",
+      "ran": "audio/L1-0010-ran.mp3",
+      "up": "audio/L1-0010-up.mp3",
+      "the": "audio/L1-0010-the.mp3",
+      "but": "audio/L1-0010-but.mp3",
+      "there": "audio/L1-0010-there.mp3",
+      "no": "audio/L1-0010-no.mp3",
+      "laughed": "audio/L1-0010-laughed.mp3",
+      "did": "audio/L1-0010-did.mp3",
+      "it": "audio/L1-0010-it.mp3",
+      "again": "audio/L1-0010-again.mp3",
+      "next": "audio/L1-0010-next.mp3",
+      "day": "audio/L1-0010-day.mp3"
+    }
+  },
+  "words": {
+    "a": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "하나의, 한",
+          "en": "one of something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 '한 마리 소년'을 나타내는 관사입니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a boy",
+        "a hill"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw a dog.",
+          "ko": "나는 개 한 마리를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'a boy'처럼 수량을 모를 때 사용하는 관사입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "boy": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "소년",
+          "en": "young male person",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이야기의 주인공인 소년을 가리킵니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "boy"
+        },
+        {
+          "label": "복수",
+          "form": "boys"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "lad",
+        "youth"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "toy",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "a young boy",
+        "the boy smiled"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The boy played soccer.",
+          "ko": "그 소년은 축구를 했다."
+        }
+      ],
+      "koreanTips": [
+        "'boy'는 남성 아이를 의미하며, 'girl'과 대조됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbɔɪ/"
+    },
+    "watched": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "지켜보다",
+          "en": "to look at carefully over time",
+          "primary": true
+        },
+        {
+          "ko": "감시하다",
+          "en": "to guard or observe"
+        }
+      ],
+      "contextMeaning": "소년이 양들을 지켜보고 있었음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "watch"
+        },
+        {
+          "label": "과거",
+          "form": "watched"
+        },
+        {
+          "label": "과거분사",
+          "form": "watched"
+        },
+        {
+          "label": "현재분사",
+          "form": "watching"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "watches"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "observe",
+        "monitor"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "confusables": [
+        {
+          "word": "waited",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "watch TV",
+        "watch carefully"
+      ],
+      "idioms": [
+        {
+          "phrase": "keep watch",
+          "ko": "감시하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She watched the movie.",
+          "ko": "그녀는 영화를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'watch'는 동영상이나 경기를 '지켜보는' 행위를 의미합니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɑtʃt/"
+    },
+    "sheep": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "양",
+          "en": "farm animal with wool",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 돌보던 동물들입니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "sheep"
+        },
+        {
+          "label": "복수",
+          "form": "sheep"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "livestock"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "flock of sheep",
+        "count sheep"
+      ],
+      "idioms": [
+        {
+          "phrase": "a wolf in sheep's clothing",
+          "ko": "늑대가 옷입은 양(가면을 쓴 악인)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sheep grazed peacefully.",
+          "ko": "양들은 평화롭게 풀을 먹고 있었다."
+        }
+      ],
+      "koreanTips": [
+        "단수와 복수가 같은 형태입니다. 'sheeps'는 잘못된 표현입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈʃip/"
+    },
+    "on": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~위에",
+          "en": "position on top of something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 언덕 위에서 양들을 지켰다는 위치를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "upon"
+      ],
+      "antonyms": [
+        "off"
+      ],
+      "confusables": [
+        {
+          "word": "in",
+          "note": "위치 표현에서 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "on the table",
+        "on a hill"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book is on the desk.",
+          "ko": "책이 책상 위에 있다."
+        }
+      ],
+      "koreanTips": [
+        "'on'은 표면 위에 있는 것을 나타냅니다. 'in'은 내부에 있음을 나타냅니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɑn/"
+    },
+    "hill": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "언덕",
+          "en": "small mountain",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 양들을 지키던 장소입니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "hill"
+        },
+        {
+          "label": "복수",
+          "form": "hills"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "mound",
+        "knoll"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "hell",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "climb the hill",
+        "on a hill"
+      ],
+      "idioms": [
+        {
+          "phrase": "over the hills and far away",
+          "ko": "멀리 떨어진 곳으로"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We walked up the hill.",
+          "ko": "우리는 언덕을 올라갔다."
+        }
+      ],
+      "koreanTips": [
+        "'hill'은 작은 산을 의미하며, 'mountain'보다 작습니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈhɪɫ/"
+    },
+    "he": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그는",
+          "en": "male third-person pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이야기의 주인공인 소년을 가리킵니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "himself"
+      ],
+      "antonyms": [
+        "she"
+      ],
+      "confusables": [
+        {
+          "word": "we",
+          "note": "문맥에 따라 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "he said",
+        "he went"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He likes apples.",
+          "ko": "그는 사과를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'he'는 남성 대명사입니다. 한국어의 '그는'과 대응됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhi/"
+    },
+    "was": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "였다",
+          "en": "past form of 'be'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년의 상태를 과거 시제로 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "were"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "were",
+          "note": "주어가 복수일 때 사용"
+        }
+      ],
+      "collocations": [
+        "was happy",
+        "was tired"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He was tired.",
+          "ko": "그는 피곤했다."
+        }
+      ],
+      "koreanTips": [
+        "'was'는 과거 시제의 'be' 동사입니다. 주어가 'he/she/it'일 때 사용합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɑz/"
+    },
+    "bored": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "지루한",
+          "en": "feeling uninterested",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 지루해서 놀이를 하려 했음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "bored"
+        },
+        {
+          "label": "비교급",
+          "form": "more bored"
+        },
+        {
+          "label": "최상급",
+          "form": "most bored"
+        },
+        {
+          "label": "부사형",
+          "form": "boringly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "tired",
+        "uninterested"
+      ],
+      "antonyms": [
+        "excited"
+      ],
+      "confusables": [
+        {
+          "word": "boring",
+          "note": "형용사지만 의미가 다르며 '-ed'와 '-ing' 구분 필요"
+        }
+      ],
+      "collocations": [
+        "feel bored",
+        "get bored"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I was bored during the lecture.",
+          "ko": "강의 중에 나는 지루했다."
+        }
+      ],
+      "koreanTips": [
+        "'-ed' 형용사는 사람의 감정 상태를 나타냅니다. '-ing'은 사물의 성질을 나타냅니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈbɔɹd/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or clauses",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년의 상태 두 가지를 연결합니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "as well as"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "bread and butter",
+        "fast and furious"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I like tea and coffee.",
+          "ko": "나는 차와 커피를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'and'는 연결어로, 두 단어나 문장을 연결할 때 사용합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "lonely": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "외로운",
+          "en": "feeling sad because alone",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 외로워서 누군가와 만나고 싶었음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "lonely"
+        },
+        {
+          "label": "비교급",
+          "form": "lonelier"
+        },
+        {
+          "label": "최상급",
+          "form": "loneliest"
+        },
+        {
+          "label": "부사형",
+          "form": "lonelily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "alone",
+        "isolated"
+      ],
+      "antonyms": [
+        "happy"
+      ],
+      "confusables": [
+        {
+          "word": "alone",
+          "note": "형용사지만 의미가 다름"
+        }
+      ],
+      "collocations": [
+        "feel lonely",
+        "lonely place"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She felt lonely without friends.",
+          "ko": "그녀는 친구 없이 외로웠다."
+        }
+      ],
+      "koreanTips": [
+        "'lonely'는 감정 상태를 나타내며, 'alone'은 단지 혼자임을 나타냅니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɫoʊnɫi/"
+    },
+    "decided": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "결정했다",
+          "en": "chose to do something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 장난을 하기로 결심했음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "decide"
+        },
+        {
+          "label": "과거",
+          "form": "decided"
+        },
+        {
+          "label": "과거분사",
+          "form": "decided"
+        },
+        {
+          "label": "현재분사",
+          "form": "deciding"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "decides"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "chose",
+        "resolved"
+      ],
+      "antonyms": [
+        "hesitated"
+      ],
+      "confusables": [
+        {
+          "word": "devoted",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "decide to go",
+        "decide quickly"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I decided to study hard.",
+          "ko": "나는 열심히 공부하기로 결정했다."
+        }
+      ],
+      "koreanTips": [
+        "'decide to ~'는 '~하기로 결정하다'라는 의미입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˌdɪˈsaɪdɪd/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~로, ~에게",
+          "en": "direction or purpose",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "장난을 하기 위한 목적을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "toward"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "too",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "go to school",
+        "listen to music"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I went to the store.",
+          "ko": "나는 가게에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'to'는 방향이나 목적지를 나타낼 때 사용합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "play": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "놀다",
+          "en": "engage in fun activity",
+          "primary": true
+        },
+        {
+          "ko": "연기하다",
+          "en": "act in a performance"
+        }
+      ],
+      "contextMeaning": "소년이 장난을 치려는 의도를 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "play"
+        },
+        {
+          "label": "과거",
+          "form": "played"
+        },
+        {
+          "label": "과거분사",
+          "form": "played"
+        },
+        {
+          "label": "현재분사",
+          "form": "playing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "plays"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "have fun",
+        "amuse oneself"
+      ],
+      "antonyms": [
+        "work"
+      ],
+      "confusables": [
+        {
+          "word": "place",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "play games",
+        "play a trick"
+      ],
+      "idioms": [
+        {
+          "phrase": "play along",
+          "ko": "동조하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let’s play soccer.",
+          "ko": "축구하자."
+        }
+      ],
+      "koreanTips": [
+        "'play'는 놀이, 스포츠, 연극 등을 할 때 사용합니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpɫeɪ/"
+    },
+    "trick": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "장난, 속임수",
+          "en": "deception or prank",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 늑대가 왔다고 거짓말하여 마을 사람들을 속인 것입니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "trick"
+        },
+        {
+          "label": "복수",
+          "form": "tricks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "prank",
+        "joke"
+      ],
+      "antonyms": [
+        "truth"
+      ],
+      "confusables": [
+        {
+          "word": "track",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "play a trick",
+        "pull a trick"
+      ],
+      "idioms": [
+        {
+          "phrase": "trick or treat",
+          "ko": "핼러윈 놀이"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It was just a harmless trick.",
+          "ko": "그것은 단순한 장난이었다."
+        }
+      ],
+      "koreanTips": [
+        "'trick'은 속임수나 장난을 의미합니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtɹɪk/"
+    },
+    "shouted": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "소리쳤다",
+          "en": "spoke loudly",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 늑대가 왔다고 큰 소리로 외친 것입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "shout"
+        },
+        {
+          "label": "과거",
+          "form": "shouted"
+        },
+        {
+          "label": "과거분사",
+          "form": "shouted"
+        },
+        {
+          "label": "현재분사",
+          "form": "shouting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "shouts"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "yelled",
+        "cried out"
+      ],
+      "antonyms": [
+        "whispered"
+      ],
+      "confusables": [
+        {
+          "word": "sorted",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "shout loudly",
+        "shout for help"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He shouted for help.",
+          "ko": "그는 도움을 요청하며 소리쳤다."
+        }
+      ],
+      "koreanTips": [
+        "'shout'은 강하게 소리치는 동사입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈʃaʊtɪd/"
+    },
+    "wolf": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "늑대",
+          "en": "wild carnivorous mammal",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 거짓말로 외친 존재이며, 나중에 실제로 나타납니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "wolf"
+        },
+        {
+          "label": "복수",
+          "form": "wolves"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "predator"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "woof",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "a wild wolf",
+        "cry wolf"
+      ],
+      "idioms": [
+        {
+          "phrase": "cry wolf",
+          "ko": "거짓말을 하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The wolf howled at night.",
+          "ko": "늑대는 밤에 울부짖었다."
+        }
+      ],
+      "koreanTips": [
+        "'wolf'는 실제 동물이며, 'cry wolf'는 속어로 '거짓말을 하다'는 의미입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈwʊɫf/"
+    },
+    "villagers": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "마을 사람들",
+          "en": "people living in a village",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년의 거짓 신호에 반응하여 달려온 사람들이며, 나중엔 신뢰를 잃습니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "villager"
+        },
+        {
+          "label": "복수",
+          "form": "villagers"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "townspeople"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "village",
+          "note": "명사와 복수형 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "helpful villagers",
+        "gather villagers"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The villagers helped each other.",
+          "ko": "마을 사람들은 서로 도왔다."
+        }
+      ],
+      "koreanTips": [
+        "'-er' 접미사는 '사람'을 의미합니다. 'village + er = villagers'."
+      ],
+      "frequency": 3,
+      "register": "문어",
+      "ipa": "/ˈvɪɫɪdʒɝz/"
+    },
+    "ran": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "달렸다",
+          "en": "moved fast on foot",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "마을 사람들이 소년의 신호에 반응하여 언덕으로 달려온 것입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "run"
+        },
+        {
+          "label": "과거",
+          "form": "ran"
+        },
+        {
+          "label": "과거분사",
+          "form": "run"
+        },
+        {
+          "label": "현재분사",
+          "form": "running"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "runs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "rushed",
+        "dashed"
+      ],
+      "antonyms": [
+        "walked"
+      ],
+      "confusables": [
+        {
+          "word": "ran",
+          "note": "run의 불규칙 과거형"
+        }
+      ],
+      "collocations": [
+        "run fast",
+        "run to help"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He ran to catch the bus.",
+          "ko": "그는 버스를 타기 위해 달렸다."
+        }
+      ],
+      "koreanTips": [
+        "'run'의 과거형은 'ran', 과거분사는 'run'입니다. 불규칙 변화입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹæn/"
+    },
+    "up": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "위로",
+          "en": "toward higher position",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "마을 사람들이 언덕 위로 올라왔음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "toward"
+      ],
+      "antonyms": [
+        "down"
+      ],
+      "confusables": [
+        {
+          "word": "upon",
+          "note": "의미가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "run up the hill",
+        "climb up"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They walked up the stairs.",
+          "ko": "그들은 계단을 올라갔다."
+        }
+      ],
+      "koreanTips": [
+        "'up'은 방향을 나타내며, 'climb up'처럼 '위로 올라가는' 의미로 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈəp/"
+    },
+    "the": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "그, 그의",
+          "en": "definite article",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "특정한 언덕을 가리키는 관사입니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the hill",
+        "the boy"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The sun is bright.",
+          "ko": "태양은 밝다."
+        }
+      ],
+      "koreanTips": [
+        "'the'는 특정한 사물을 가리킬 때 사용합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "but": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "하지만",
+          "en": "used to show contrast",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "실제로 늑대가 없었음을 강조합니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "however"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "put",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "but not",
+        "but still"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I wanted to go, but I was busy.",
+          "ko": "가고 싶었지만 바빴다."
+        }
+      ],
+      "koreanTips": [
+        "'but'은 대조를 나타내며, '하지만'이라는 의미입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbət/"
+    },
+    "there": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "그곳에",
+          "en": "in that place",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "늑대가 없었던 장소를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "here"
+      ],
+      "antonyms": [
+        "everywhere"
+      ],
+      "confusables": [
+        {
+          "word": "their",
+          "note": "형용사와 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "there is",
+        "there was"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "There is a book here.",
+          "ko": "여기에 책이 있다."
+        }
+      ],
+      "koreanTips": [
+        "'there'는 장소를 나타내며, 'there is/are'로 시작되는 문장에서 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðɛɹ/"
+    },
+    "no": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "아니오, 없음",
+          "en": "not any",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "늑대가 실제로 없었음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "yes"
+      ],
+      "confusables": [
+        {
+          "word": "now",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "no wolf",
+        "no problem"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "There is no food left.",
+          "ko": "남은 음식이 없다."
+        }
+      ],
+      "koreanTips": [
+        "'no'는 부정을 나타내며, 'not any'와 비슷한 의미입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈnoʊ/"
+    },
+    "laughed": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "웃었다",
+          "en": "expressed amusement by laughing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 마을 사람들이 속았음을 즐겁게 느꼈음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "laugh"
+        },
+        {
+          "label": "과거",
+          "form": "laughed"
+        },
+        {
+          "label": "과거분사",
+          "form": "laughed"
+        },
+        {
+          "label": "현재분사",
+          "form": "laughing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "laughs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "chuckled",
+        "giggled"
+      ],
+      "antonyms": [
+        "cried"
+      ],
+      "confusables": [
+        {
+          "word": "lacked",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "laugh out loud",
+        "laugh at someone"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He laughed at the joke.",
+          "ko": "그는 농담에 웃었다."
+        }
+      ],
+      "koreanTips": [
+        "'laugh'는 웃음을 나타내며, 'smile'과는 다릅니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɫæft/"
+    },
+    "did": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "했다",
+          "en": "past tense of 'do'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 또 다시 같은 행동을 했음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "do"
+        },
+        {
+          "label": "과거",
+          "form": "did"
+        },
+        {
+          "label": "과거분사",
+          "form": "done"
+        },
+        {
+          "label": "현재분사",
+          "form": "doing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "does"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "performed"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "die",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "did it again",
+        "did well"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I did my homework.",
+          "ko": "나는 숙제를 했다."
+        }
+      ],
+      "koreanTips": [
+        "'did'는 'do'의 과거형이며, 보조 동사로도 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈdɪd/"
+    },
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "refers to something mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 전에도 했던 장난을 다시 했음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "that thing"
+      ],
+      "antonyms": [
+        "you"
+      ],
+      "confusables": [
+        {
+          "word": "sit",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "do it again",
+        "make it work"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I found it interesting.",
+          "ko": "나는 그것을 흥미롭게 생각했다."
+        }
+      ],
+      "koreanTips": [
+        "'it'은 앞서 언급한 사물을 가리킬 때 사용합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪt/"
+    },
+    "again": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "다시",
+          "en": "another time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년이 같은 장난을 반복했음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "once more",
+        "anew"
+      ],
+      "antonyms": [
+        "never"
+      ],
+      "confusables": [
+        {
+          "word": "against",
+          "note": "의미가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "try again",
+        "do it again"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Please try again.",
+          "ko": "다시 시도해 보세요."
+        }
+      ],
+      "koreanTips": [
+        "'again'은 반복을 나타내며, 'once more'와 비슷한 의미입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/əˈɡeɪn/"
+    },
+    "next": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "다음의",
+          "en": "coming after this one",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "장난을 친 날짜가 다음 날임을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "next"
+        },
+        {
+          "label": "비교급",
+          "form": "n/a"
+        },
+        {
+          "label": "최상급",
+          "form": "n/a"
+        },
+        {
+          "label": "부사형",
+          "form": "next"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "following"
+      ],
+      "antonyms": [
+        "previous"
+      ],
+      "confusables": [
+        {
+          "word": "nest",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "next day",
+        "next week"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "See you next time.",
+          "ko": "다음에 봐요."
+        }
+      ],
+      "koreanTips": [
+        "'next'는 시간 순서에서 다음을 나타냅니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈnɛks/"
+    },
+    "day": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "날, 하루",
+          "en": "24-hour period",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "장난을 친 날짜를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "day"
+        },
+        {
+          "label": "복수",
+          "form": "days"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "period",
+        "time"
+      ],
+      "antonyms": [
+        "night"
+      ],
+      "confusables": [
+        {
+          "word": "they",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "next day",
+        "all day long"
+      ],
+      "idioms": [
+        {
+          "phrase": "day by day",
+          "ko": "하루하루"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It rained all day.",
+          "ko": "하루 종일 비가 내렸다."
+        }
+      ],
+      "koreanTips": [
+        "'day'는 하루를 나타내며, 'weekend' 등과 조합되어 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈdeɪ/"
+    },
+    "came": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "왔다",
+          "en": "past tense of 'come'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "마을 사람들이 소년의 신호에 반응하여 왔음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "come"
+        },
+        {
+          "label": "과거",
+          "form": "came"
+        },
+        {
+          "label": "과거분사",
+          "form": "come"
+        },
+        {
+          "label": "현재분사",
+          "form": "coming"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "comes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "arrived"
+      ],
+      "antonyms": [
+        "left"
+      ],
+      "confusables": [
+        {
+          "word": "cameo",
+          "note": "유사한 발음"
+        }
+      ],
+      "collocations": [
+        "came back",
+        "came running"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He came home late.",
+          "ko": "그는 집에 늦게 왔다."
+        }
+      ],
+      "koreanTips": [
+        "'come'의 과거형은 'came'이며, 불규칙 변화입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkeɪm/"
+    },
+    "they": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그들은",
+          "en": "third-person plural pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "마을 사람들이 소년의 장난에 반응했음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "them"
+      ],
+      "antonyms": [
+        "we"
+      ],
+      "confusables": [
+        {
+          "word": "day",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "they said",
+        "they came"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They went to school.",
+          "ko": "그들은 학교에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'they'는 복수 주어로, 'he/she/it'과 대비됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðeɪ/"
+    },
+    "angry": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "화난",
+          "en": "feeling mad or upset",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "마을 사람들이 속임을 당한 후 화가 난 상태를 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "angry"
+        },
+        {
+          "label": "비교급",
+          "form": "angrier"
+        },
+        {
+          "label": "최상급",
+          "form": "angriest"
+        },
+        {
+          "label": "부사형",
+          "form": "angrily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "mad",
+        "irritated"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "confusables": [
+        {
+          "word": "hungry",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "get angry",
+        "angry face"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She got angry at him.",
+          "ko": "그녀는 그에게 화가 났다."
+        }
+      ],
+      "koreanTips": [
+        "'angry'는 감정 상태를 나타내며, 'mad'와 비슷한 의미입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈæŋɡɹi/"
+    },
+    "when": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "때",
+          "en": "at the time that",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "그들이 늑대가 없다는 것을 알았을 때의 상황을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "while"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "then",
+          "note": "의미가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "when he arrived",
+        "when I was young"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Call me when you're ready.",
+          "ko": "준비되면 전화해."
+        }
+      ],
+      "koreanTips": [
+        "'when'은 시간을 나타내며, 'at the time that'와 비슷한 의미입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhwɛn/"
+    },
+    "saw": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "봤다",
+          "en": "past tense of 'see'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "그들이 늑대가 없다는 것을 눈으로 확인했음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "see"
+        },
+        {
+          "label": "과거",
+          "form": "saw"
+        },
+        {
+          "label": "과거분사",
+          "form": "seen"
+        },
+        {
+          "label": "현재분사",
+          "form": "seeing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "sees"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "observed"
+      ],
+      "antonyms": [
+        "missed"
+      ],
+      "confusables": [
+        {
+          "word": "so",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "saw clearly",
+        "saw nothing"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw a bird.",
+          "ko": "나는 새를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'see'의 과거형은 'saw'이며, 불규칙 변화입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsɔ/"
+    },
+    "then": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "그러자",
+          "en": "at that time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "그 후에 일어난 사건을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "afterwards"
+      ],
+      "antonyms": [
+        "before"
+      ],
+      "confusables": [
+        {
+          "word": "when",
+          "note": "시간 표현에서 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "and then",
+        "what happened then"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Then he left.",
+          "ko": "그러자 그는 떠났다."
+        }
+      ],
+      "koreanTips": [
+        "'then'은 시간의 흐름을 나타내며, '그러자' 또는 '그 후에'로 번역됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈðɛn/"
+    },
+    "one": {
+      "pos": "numeral",
+      "meanings": [
+        {
+          "ko": "하나",
+          "en": "number one",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "하루를 특별히 강조하여 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "single"
+      ],
+      "antonyms": [
+        "two"
+      ],
+      "confusables": [
+        {
+          "word": "won",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "one day",
+        "one time"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "One day, he met her.",
+          "ko": "어느 날, 그는 그녀를 만났다."
+        }
+      ],
+      "koreanTips": [
+        "'one day'는 '어느 날'이라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwən/"
+    },
+    "real": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "진짜인",
+          "en": "actually existing or happening",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이번에는 진짜 늑대가 왔음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "real"
+        },
+        {
+          "label": "비교급",
+          "form": "realer"
+        },
+        {
+          "label": "최상급",
+          "form": "realest"
+        },
+        {
+          "label": "부사형",
+          "form": "really"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "actual",
+        "true"
+      ],
+      "antonyms": [
+        "fake"
+      ],
+      "confusables": [
+        {
+          "word": "really",
+          "note": "부사형과 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "real wolf",
+        "real story"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "That was a real surprise.",
+          "ko": "그것은 진짜 놀라운 일이었다."
+        }
+      ],
+      "koreanTips": [
+        "'real'은 '진짜'를 의미하며, 'really'는 부사형입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹiɫ/"
+    },
+    "took": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "가져갔다",
+          "en": "past tense of 'take'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "늑대가 양들을 데려갔음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "take"
+        },
+        {
+          "label": "과거",
+          "form": "took"
+        },
+        {
+          "label": "과거분사",
+          "form": "taken"
+        },
+        {
+          "label": "현재분사",
+          "form": "taking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "takes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "grabbed"
+      ],
+      "antonyms": [
+        "gave"
+      ],
+      "confusables": [
+        {
+          "word": "took",
+          "note": "take의 불규칙 과거형"
+        }
+      ],
+      "collocations": [
+        "took his sheep",
+        "took a break"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He took the book.",
+          "ko": "그는 책을 가져갔다."
+        }
+      ],
+      "koreanTips": [
+        "'take'의 과거형은 'took'이며, 불규칙 변화입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtʊk/"
+    },
+    "his": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그의",
+          "en": "belonging to him",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년의 양들을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "her",
+        "their"
+      ],
+      "antonyms": [
+        "my"
+      ],
+      "confusables": [
+        {
+          "word": "this",
+          "note": "형용사와 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "his sheep",
+        "his house"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is his car.",
+          "ko": "이것은 그의 차이다."
+        }
+      ],
+      "koreanTips": [
+        "'his'는 남성 소유를 나타내며, 'her', 'their'와 함께 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhɪz/"
+    },
+    "nobody": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "아무도",
+          "en": "no person",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "더 이상 아무도 소년의 신호에 반응하지 않았음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "no one"
+      ],
+      "antonyms": [
+        "somebody"
+      ],
+      "confusables": [
+        {
+          "word": "anybody",
+          "note": "의미가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "nobody came",
+        "nobody believed"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Nobody answered the phone.",
+          "ko": "아무도 전화를 받지 않았다."
+        }
+      ],
+      "koreanTips": [
+        "'nobody'는 'no one'과 같으며, 부정적인 의미를 나타냅니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈnoʊˌbɑˌdi/"
+    },
+    "believed": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "믿었다",
+          "en": "trusted or accepted as true",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "더 이상 소년의 말을 믿지 않았음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "believe"
+        },
+        {
+          "label": "과거",
+          "form": "believed"
+        },
+        {
+          "label": "과거분사",
+          "form": "believed"
+        },
+        {
+          "label": "현재분사",
+          "form": "believing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "believes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "trusted"
+      ],
+      "antonyms": [
+        "doubted"
+      ],
+      "confusables": [
+        {
+          "word": "received",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "believe in",
+        "believe him"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I believe you.",
+          "ko": "나는 당신을 믿는다."
+        }
+      ],
+      "koreanTips": [
+        "'believe'는 '신뢰하다' 또는 '참이라고 믿다'는 의미입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/bɪˈɫivd/"
+    },
+    "anymore": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "더 이상",
+          "en": "no longer",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소년의 말을 더 이상 믿지 않았음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "no longer"
+      ],
+      "antonyms": [
+        "still"
+      ],
+      "confusables": [
+        {
+          "word": "anymore",
+          "note": "형용사와 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "don't believe anymore",
+        "not anymore"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I don’t eat meat anymore.",
+          "ko": "나는 더 이상 고기를 안 먹는다."
+        }
+      ],
+      "koreanTips": [
+        "'anymore'는 더 이상 어떤 상태가 지속되지 않음을 나타냅니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˌɛniˈmɔɹ/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "A boy watched sheep on a hill.",
+        "structure": {
+          "subject": {
+            "text": "A boy",
+            "label": "소년 한 명"
+          },
+          "verb": {
+            "text": "watched",
+            "label": "지켜보다"
+          },
+          "object": {
+            "text": "sheep",
+            "label": "양들"
+          },
+          "complement": {
+            "text": "on a hill",
+            "label": "언덕 위에서"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어"
+        },
+        "explanation": "이 문장은 소년이 언덕에서 양들을 지켜보았다는 내용입니다. 'on a hill'은 장소를 나타내는 보어입니다.",
+        "grammarPoints": [
+          "과거 시제 동사(watched)",
+          "장소를 나타내는 전치사(on)",
+          "관사(a)의 사용"
+        ],
+        "examples": [
+          {
+            "en": "She read books in the library.",
+            "ko": "그녀는 도서관에서 책을 읽었다."
+          },
+          {
+            "en": "He played guitar in his room.",
+            "ko": "그는 방에서 기타를 연주했다."
+          }
+        ]
+      },
+      {
+        "text": "He was bored and lonely.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "bored and lonely",
+            "label": "지루하고 외로운"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 소년의 상태를 설명합니다. 'was'는 연결동사이며, 'bored and lonely'는 형용사로 보어 역할을 합니다.",
+        "grammarPoints": [
+          "연결동사(was)",
+          "형용사 연결(bored and lonely)",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "She was tired and sleepy.",
+            "ko": "그녀는 피곤하고 졸렸다."
+          },
+          {
+            "en": "The weather was cold.",
+            "ko": "날씨는 추웠다."
+          }
+        ]
+      },
+      {
+        "text": "He decided to play a trick.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "decided",
+            "label": "결정했다"
+          },
+          "complement": {
+            "text": "to play a trick",
+            "label": "장난을 치기로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+to-infinitive",
+          "note": "주어+동사+to 부정사"
+        },
+        "explanation": "이 문장은 소년이 장난을 하기로 결정했다는 내용입니다. 'decided to'는 '~하기로 결정하다'라는 의미입니다.",
+        "grammarPoints": [
+          "to 부정사(to play)",
+          "결정의 표현(decided to)",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "I decided to go home.",
+            "ko": "나는 집에 가기로 결정했다."
+          },
+          {
+            "en": "She chose to stay.",
+            "ko": "그녀는 머무르기로 했다."
+          }
+        ]
+      },
+      {
+        "text": "He shouted, \"Wolf! Wolf!\"",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "shouted",
+            "label": "소리쳤다"
+          },
+          "complement": {
+            "text": "\"Wolf! Wolf!\"",
+            "label": "\"늑대! 늑대!\""
+          }
+        },
+        "pattern": {
+          "name": "S+V+quote",
+          "note": "주어+동사+인용문"
+        },
+        "explanation": "이 문장은 소년이 늑대가 왔다고 소리쳤음을 나타냅니다. 인용문은 직접 인용으로 표시됩니다.",
+        "grammarPoints": [
+          "직접 인용문(\"Wolf! Wolf!\")",
+          "과거 시제(shouted)",
+          "감탄사의 사용"
+        ],
+        "examples": [
+          {
+            "en": "She said, \"Hello!\"",
+            "ko": "그녀는 \"안녕!\"이라고 말했다."
+          },
+          {
+            "en": "He cried, \"Help me!\"",
+            "ko": "그는 \"도와줘!\"라고 소리쳤다."
+          }
+        ]
+      },
+      {
+        "text": "The villagers ran up the hill to help.",
+        "structure": {
+          "subject": {
+            "text": "The villagers",
+            "label": "마을 사람들"
+          },
+          "verb": {
+            "text": "ran",
+            "label": "달렸다"
+          },
+          "complement": {
+            "text": "up the hill to help",
+            "label": "도움을 주기 위해 언덕 위로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+adv+purpose",
+          "note": "주어+동사+부사+목적"
+        },
+        "explanation": "이 문장은 마을 사람들이 도움을 주기 위해 언덕 위로 달려왔음을 나타냅니다.",
+        "grammarPoints": [
+          "방향을 나타내는 전치사(up)",
+          "목적을 나타내는 to(help)",
+          "과거 시제(ran)"
+        ],
+        "examples": [
+          {
+            "en": "He ran to the store.",
+            "ko": "그는 가게로 달려갔다."
+          },
+          {
+            "en": "She climbed up the tree.",
+            "ko": "그녀는 나무 위로 올라갔다."
+          }
+        ]
+      },
+      {
+        "text": "But there was no wolf.",
+        "structure": {
+          "subject": {
+            "text": "there",
+            "label": "그곳에는"
+          },
+          "verb": {
+            "text": "was",
+            "label": "있지 않았다"
+          },
+          "complement": {
+            "text": "no wolf",
+            "label": "늑대가 없었다"
+          }
+        },
+        "pattern": {
+          "name": "There + be + N",
+          "note": "존재를 나타내는 문장"
+        },
+        "explanation": "이 문장은 늑대가 없었음을 나타냅니다. 'there was no wolf'는 '늑대가 없었다'는 의미입니다.",
+        "grammarPoints": [
+          "존재 표현(there was)",
+          "부정 표현(no)",
+          "과거 시제(was)"
+        ],
+        "examples": [
+          {
+            "en": "There was no water.",
+            "ko": "물이 없었다."
+          },
+          {
+            "en": "There were no people.",
+            "ko": "사람들이 없었다."
+          }
+        ]
+      },
+      {
+        "text": "The boy laughed.",
+        "structure": {
+          "subject": {
+            "text": "The boy",
+            "label": "소년은"
+          },
+          "verb": {
+            "text": "laughed",
+            "label": "웃었다"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어+동사"
+        },
+        "explanation": "이 문장은 소년이 웃었다는 내용입니다. 단순한 동작을 나타냅니다.",
+        "grammarPoints": [
+          "과거 시제(laughed)",
+          "자동사(laughed)"
+        ],
+        "examples": [
+          {
+            "en": "She smiled.",
+            "ko": "그녀는 미소 지었다."
+          },
+          {
+            "en": "He jumped.",
+            "ko": "그는 뛰었다."
+          }
+        ]
+      },
+      {
+        "text": "He did it again the next day.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "did",
+            "label": "했다"
+          },
+          "object": {
+            "text": "it",
+            "label": "그것을"
+          },
+          "complement": {
+            "text": "again the next day",
+            "label": "다시 다음 날"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+adv",
+          "note": "주어+동사+목적어+부사"
+        },
+        "explanation": "이 문장은 소년이 같은 장난을 다음 날 다시 했음을 나타냅니다.",
+        "grammarPoints": [
+          "과거 시제(did)",
+          "반복 표현(again)",
+          "시간 표현(the next day)"
+        ],
+        "examples": [
+          {
+            "en": "I called him again yesterday.",
+            "ko": "나는 어제 다시 그에게 전화했다."
+          },
+          {
+            "en": "She tried again today.",
+            "ko": "그녀는 오늘 다시 시도했다."
+          }
+        ]
+      },
+      {
+        "text": "The villagers came again.",
+        "structure": {
+          "subject": {
+            "text": "The villagers",
+            "label": "마을 사람들"
+          },
+          "verb": {
+            "text": "came",
+            "label": "왔다"
+          },
+          "complement": {
+            "text": "again",
+            "label": "다시"
+          }
+        },
+        "pattern": {
+          "name": "S+V+adv",
+          "note": "주어+동사+부사"
+        },
+        "explanation": "이 문장은 마을 사람들이 또 다시 왔음을 나타냅니다.",
+        "grammarPoints": [
+          "과거 시제(came)",
+          "반복 표현(again)"
+        ],
+        "examples": [
+          {
+            "en": "He came again last week.",
+            "ko": "그는 지난주에 다시 왔다."
+          },
+          {
+            "en": "She returned again.",
+            "ko": "그녀는 다시 돌아왔다."
+          }
+        ]
+      },
+      {
+        "text": "They were angry when they saw no wolf.",
+        "structure": {
+          "subject": {
+            "text": "They",
+            "label": "그들은"
+          },
+          "verb": {
+            "text": "were",
+            "label": "화가 났다"
+          },
+          "complement": {
+            "text": "angry when they saw no wolf",
+            "label": "늑대가 없음을 보고 화가 났다"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C+when-clause",
+          "note": "주어+동사+보어+시간절"
+        },
+        "explanation": "이 문장은 그들이 늑대가 없음을 보고 화가 났다는 내용입니다. 'when' 절은 시간을 나타냅니다.",
+        "grammarPoints": [
+          "과거 시제(were)",
+          "형용사(angry)",
+          "시간절(when)"
+        ],
+        "examples": [
+          {
+            "en": "I was sad when I heard the news.",
+            "ko": "나는 소식을 들었을 때 슬펐다."
+          },
+          {
+            "en": "She was excited when she won.",
+            "ko": "그녀는 이겼을 때 기뻤다."
+          }
+        ]
+      },
+      {
+        "text": "Then one day, a real wolf came.",
+        "structure": {
+          "subject": {
+            "text": "a real wolf",
+            "label": "진짜 늑대가"
+          },
+          "verb": {
+            "text": "came",
+            "label": "왔다"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어+동사"
+        },
+        "explanation": "이 문장은 어느 날 진짜 늑대가 왔음을 나타냅니다.",
+        "grammarPoints": [
+          "과거 시제(came)",
+          "시간 표현(one day)",
+          "형용사(real)"
+        ],
+        "examples": [
+          {
+            "en": "One day, he arrived.",
+            "ko": "어느 날, 그는 도착했다."
+          },
+          {
+            "en": "A cat came into the room.",
+            "ko": "고양이 한 마리가 방으로 들어왔다."
+          }
+        ]
+      },
+      {
+        "text": "The boy shouted, \"Wolf! Wolf!\"",
+        "structure": {
+          "subject": {
+            "text": "The boy",
+            "label": "소년은"
+          },
+          "verb": {
+            "text": "shouted",
+            "label": "소리쳤다"
+          },
+          "complement": {
+            "text": "\"Wolf! Wolf!\"",
+            "label": "\"늑대! 늑대!\""
+          }
+        },
+        "pattern": {
+          "name": "S+V+quote",
+          "note": "주어+동사+인용문"
+        },
+        "explanation": "이 문장은 소년이 다시 늑대가 왔다고 소리쳤음을 나타냅니다.",
+        "grammarPoints": [
+          "직접 인용문(\"Wolf! Wolf!\")",
+          "과거 시제(shouted)"
+        ],
+        "examples": [
+          {
+            "en": "She screamed, \"Stop!\"",
+            "ko": "그녀는 \"멈춰!\"라고 소리쳤다."
+          },
+          {
+            "en": "He shouted, \"Help me!\"",
+            "ko": "그는 \"도와줘!\"라고 소리쳤다."
+          }
+        ]
+      },
+      {
+        "text": "But nobody came. Nobody believed him anymore.",
+        "structure": {
+          "subject": {
+            "text": "nobody",
+            "label": "아무도"
+          },
+          "verb": {
+            "text": "came/believed",
+            "label": "왔다/믿지 않았다"
+          },
+          "complement": {
+            "text": "anymore",
+            "label": "더 이상"
+          }
+        },
+        "pattern": {
+          "name": "S+V+adv",
+          "note": "주어+동사+부사"
+        },
+        "explanation": "이 문장은 더 이상 아무도 소년의 말을 믿지 않았음을 나타냅니다.",
+        "grammarPoints": [
+          "부정 표현(nobody)",
+          "과거 시제(came/believed)",
+          "부사(anymore)"
+        ],
+        "examples": [
+          {
+            "en": "Nobody came to the party.",
+            "ko": "파티에 아무도 오지 않았다."
+          },
+          {
+            "en": "I don’t trust him anymore.",
+            "ko": "나는 더 이상 그를 신뢰하지 않는다."
+          }
+        ]
+      },
+      {
+        "text": "The wolf took his sheep.",
+        "structure": {
+          "subject": {
+            "text": "The wolf",
+            "label": "늑대는"
+          },
+          "verb": {
+            "text": "took",
+            "label": "가져갔다"
+          },
+          "object": {
+            "text": "his sheep",
+            "label": "그의 양들을"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 늑대가 소년의 양들을 데려갔음을 나타냅니다.",
+        "grammarPoints": [
+          "과거 시제(took)",
+          "소유 표현(his)",
+          "자동사(take)"
+        ],
+        "examples": [
+          {
+            "en": "The dog took the ball.",
+            "ko": "개가 공을 가져갔다."
+          },
+          {
+            "en": "He took his lunch.",
+            "ko": "그는 점심을 가져갔다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "한 소년이 언덕에서 양을 지켰다. 그는 지루하고 외로웠다. 그는 장난을 치기로 했다. 그는 소리쳤다. \"늑대! 늑대!\" 마을 사람들은 도움을 주기 위해 언덕 위로 달려왔다. 하지만 늑대는 없었다. 소년은 웃었다. 그는 다음 날 또 같은 장난을 쳤다. 마을 사람들은 또 왔다. 그들은 늑대가 없다는 것을 보고 화가 났다. 그러자 어느 날, 진짜 늑대가 왔다. 소년은 소리쳤다. \"늑대! 늑대!\" 하지만 아무도 오지 않았다. 더 이상 아무도 그를 믿지 않았다. 늑대는 그의 양들을 데려갔다.",
+  "keyVocab": [
+    "watched",
+    "bored",
+    "trick",
+    "shouted",
+    "wolf"
+  ],
+  "quiz": {
+    "question": "소년이 양을 지키던 장소는 어디였습니까?",
+    "answer": "언덕 위"
+  },
+  "generated_at": "2026-02-20T09:27:23.604860+09:00"
+}

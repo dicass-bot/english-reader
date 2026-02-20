@@ -1,0 +1,3503 @@
+{
+  "num": "0007",
+  "category": "L1",
+  "source": {
+    "title": "Going to the Market",
+    "author": "Storybooks Canada",
+    "license": "CC BY 4.0",
+    "url": "https://storybookscanada.ca"
+  },
+  "passage": "Every Saturday, Maria goes to the market with her mother. The market is very busy and loud. There are many people selling fruits and vegetables. Maria likes the red apples best. Her mother buys rice, tomatoes, and onions. Maria always asks for a mango. Her mother smiles and buys one for her. They carry the heavy bags home together. Maria helps her mother cook dinner. They make a delicious soup with the vegetables. The mango is for dessert.",
+  "audio": {
+    "passage": "audio/L1-0007.mp3",
+    "words": {
+      "every": "audio/L1-0007-every.mp3",
+      "saturday": "audio/L1-0007-saturday.mp3",
+      "maria": "audio/L1-0007-maria.mp3",
+      "goes": "audio/L1-0007-goes.mp3",
+      "to": "audio/L1-0007-to.mp3",
+      "the": "audio/L1-0007-the.mp3",
+      "market": "audio/L1-0007-market.mp3",
+      "with": "audio/L1-0007-with.mp3",
+      "her": "audio/L1-0007-her.mp3",
+      "mother": "audio/L1-0007-mother.mp3",
+      "is": "audio/L1-0007-is.mp3",
+      "very": "audio/L1-0007-very.mp3",
+      "busy": "audio/L1-0007-busy.mp3",
+      "and": "audio/L1-0007-and.mp3",
+      "loud": "audio/L1-0007-loud.mp3",
+      "there": "audio/L1-0007-there.mp3",
+      "are": "audio/L1-0007-are.mp3",
+      "many": "audio/L1-0007-many.mp3",
+      "people": "audio/L1-0007-people.mp3",
+      "selling": "audio/L1-0007-selling.mp3",
+      "fruits": "audio/L1-0007-fruits.mp3",
+      "vegetables": "audio/L1-0007-vegetables.mp3",
+      "likes": "audio/L1-0007-likes.mp3",
+      "red": "audio/L1-0007-red.mp3",
+      "apples": "audio/L1-0007-apples.mp3",
+      "best": "audio/L1-0007-best.mp3",
+      "buys": "audio/L1-0007-buys.mp3",
+      "rice": "audio/L1-0007-rice.mp3",
+      "tomatoes": "audio/L1-0007-tomatoes.mp3",
+      "onions": "audio/L1-0007-onions.mp3",
+      "always": "audio/L1-0007-always.mp3",
+      "asks": "audio/L1-0007-asks.mp3",
+      "for": "audio/L1-0007-for.mp3",
+      "a": "audio/L1-0007-a.mp3",
+      "mango": "audio/L1-0007-mango.mp3",
+      "smiles": "audio/L1-0007-smiles.mp3",
+      "one": "audio/L1-0007-one.mp3",
+      "they": "audio/L1-0007-they.mp3",
+      "carry": "audio/L1-0007-carry.mp3",
+      "heavy": "audio/L1-0007-heavy.mp3",
+      "bags": "audio/L1-0007-bags.mp3",
+      "home": "audio/L1-0007-home.mp3",
+      "together": "audio/L1-0007-together.mp3",
+      "helps": "audio/L1-0007-helps.mp3",
+      "cook": "audio/L1-0007-cook.mp3",
+      "dinner": "audio/L1-0007-dinner.mp3",
+      "make": "audio/L1-0007-make.mp3",
+      "delicious": "audio/L1-0007-delicious.mp3",
+      "soup": "audio/L1-0007-soup.mp3",
+      "dessert": "audio/L1-0007-dessert.mp3"
+    }
+  },
+  "words": {
+    "every": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "모든",
+          "en": "all",
+          "primary": true
+        },
+        {
+          "ko": "각각의",
+          "en": "each"
+        }
+      ],
+      "contextMeaning": "Korean: '모든 토요일'이라는 의미로 사용됨. 특정한 시간이나 날짜를 반복적으로 나타냄.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "each",
+        "all"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "every day",
+        "every week",
+        "every morning"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She exercises every morning.",
+          "ko": "그녀는 매일 아침 운동을 한다."
+        },
+        {
+          "en": "We meet every Tuesday.",
+          "ko": "우리는 매주 화요일에 만난다."
+        }
+      ],
+      "koreanTips": [
+        "'every weekend' (O) — 요일 앞에 every 가능",
+        "'every Sundays' (X) — 요일은 복수형으로 쓰지 않음"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɛvɝi/"
+    },
+    "saturday": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "토요일",
+          "en": "Saturday",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "Korean: '매 토요일'이라는 의미로, 주기적인 활동의 시간을 나타냄.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "Saturday"
+        },
+        {
+          "label": "복수",
+          "form": "Saturdays"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "weekend day"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "on Saturday",
+        "Saturday morning",
+        "every Saturday"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I go shopping on Saturday.",
+          "ko": "나는 토요일에 쇼핑을 간다."
+        },
+        {
+          "en": "They play soccer every Saturday.",
+          "ko": "그들은 매주 토요일 축구를 한다."
+        }
+      ],
+      "koreanTips": [
+        "요일은 대문자로 시작함",
+        "'on Saturday' (O) — 요일 앞에 on 필요"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsæˌtɪˌdeɪ/"
+    },
+    "maria": {
+      "pos": "proper noun",
+      "meanings": [
+        {
+          "ko": "마리아(여성 이름)",
+          "en": "Maria (a female name)",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "Korean: 이야기 속 여주인공의 이름. 고유명사이므로 대문자로 표기.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "Maria's house",
+        "Maria goes"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Maria loves reading books.",
+          "ko": "마리아는 책 읽기를 좋아한다."
+        },
+        {
+          "en": "Where is Maria going?",
+          "ko": "마리아는 어디 가는 거야?"
+        }
+      ],
+      "koreanTips": [
+        "고유명사는 항상 대문자로 씀",
+        "한국식 발음과 영어 철자의 차이 주의"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/mɝˈiə/"
+    },
+    "goes": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "가다",
+          "en": "to go",
+          "primary": true
+        },
+        {
+          "ko": "움직이다",
+          "en": "to move"
+        },
+        {
+          "ko": "방문하다",
+          "en": "to visit"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아가 시장에 가는 행동을 나타냄. 현재 시제, 3인칭 단수형.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "go"
+        },
+        {
+          "label": "과거",
+          "form": "went"
+        },
+        {
+          "label": "과거분사",
+          "form": "gone"
+        },
+        {
+          "label": "현재분사",
+          "form": "going"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "goes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "travel",
+        "head"
+      ],
+      "antonyms": [
+        "stay",
+        "remain"
+      ],
+      "confusables": [],
+      "collocations": [
+        "go to school",
+        "go home",
+        "go shopping"
+      ],
+      "idioms": [
+        {
+          "phrase": "go the extra mile",
+          "ko": "최선을 다하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He goes to work by bus.",
+          "ko": "그는 버스로 출근한다."
+        },
+        {
+          "en": "She goes to the gym every day.",
+          "ko": "그녀는 매일 헬스장에 간다."
+        }
+      ],
+      "koreanTips": [
+        "'go to somewhere' (O) — 목적지에 전치사 to 필요",
+        "'go somewhere' (O) — 일부 장소에는 to 생략 가능"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɡoʊz/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~쪽으로",
+          "en": "toward",
+          "primary": true
+        },
+        {
+          "ko": "~에",
+          "en": "to"
+        },
+        {
+          "ko": "~까지",
+          "en": "up to"
+        }
+      ],
+      "contextMeaning": "Korean: '시장으로 가는' 방향을 나타내며, 장소를 연결하는 전치사.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "toward",
+        "into"
+      ],
+      "antonyms": [
+        "from",
+        "away from"
+      ],
+      "confusables": [],
+      "collocations": [
+        "go to",
+        "listen to",
+        "talk to"
+      ],
+      "idioms": [
+        {
+          "phrase": "to be or not to be",
+          "ko": "살 것인가 죽을 것인가"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I went to the store.",
+          "ko": "나는 가게에 갔다."
+        },
+        {
+          "en": "She gave it to him.",
+          "ko": "그녀는 그것을 그에게 주었다."
+        }
+      ],
+      "koreanTips": [
+        "'go to school' (O) — 장소에 to 사용",
+        "'arrive at/in' (O) — 도착할 때는 다른 전치사 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "the": {
+      "pos": "definite article",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "the specific thing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "Korean: '채소들'이라는 특정한 재료를 지칭함.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the vegetables",
+        "the market",
+        "the house"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The vegetables were fresh.",
+          "ko": "채소들은 신선했다."
+        },
+        {
+          "en": "I washed the dishes.",
+          "ko": "나는 설겆이를 했다."
+        }
+      ],
+      "koreanTips": [
+        "특정한 대상을 나타냄",
+        "'the vegetables' (O) — 특정한 채소들"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "market": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "시장",
+          "en": "marketplace where goods are sold",
+          "primary": true
+        },
+        {
+          "ko": "시장 경제",
+          "en": "economic system based on trade"
+        }
+      ],
+      "contextMeaning": "Korean: 물건을 사고파는 장소로서의 '시장'.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "market"
+        },
+        {
+          "label": "복수",
+          "form": "markets"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "bazaar",
+        "store"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "go to the market",
+        "buy at the market",
+        "local market"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Let's go to the market.",
+          "ko": "시장에 가자."
+        },
+        {
+          "en": "There are fresh vegetables at the market.",
+          "ko": "시장에 신선한 야채들이 있다."
+        }
+      ],
+      "koreanTips": [
+        "'market' (O) — 구체적인 장소명",
+        "'supermarket' (O) — 대형 마트"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmɑɹkət/"
+    },
+    "with": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~와 함께",
+          "en": "accompanied by",
+          "primary": true
+        },
+        {
+          "ko": "~를 사용해서",
+          "en": "using"
+        },
+        {
+          "ko": "~와 같이",
+          "en": "along with"
+        }
+      ],
+      "contextMeaning": "Korean: '채소로 국을 만든다'는 재료를 나타냄.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "alongside",
+        "in company with"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "with vegetables",
+        "with friends",
+        "with a smile"
+      ],
+      "idioms": [
+        {
+          "phrase": "get along with someone",
+          "ko": "~와 잘 지내다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She cut it with scissors.",
+          "ko": "그녀는 가위로 그것을 잘랐다."
+        },
+        {
+          "en": "He built it with wood.",
+          "ko": "그는 나무로 그것을 만들었다."
+        }
+      ],
+      "koreanTips": [
+        "재료나 도구를 나타낼 때 사용됨",
+        "'with vegetables' (O) — 재료를 나타냄"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɪð/"
+    },
+    "her": {
+      "pos": "pronoun (object form)",
+      "meanings": [
+        {
+          "ko": "그녀에게",
+          "en": "to her",
+          "primary": true
+        },
+        {
+          "ko": "그녀를",
+          "en": "her"
+        }
+      ],
+      "contextMeaning": "Korean: 어머니가 '마리아에게' 망고를 산다는 의미.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "to her"
+      ],
+      "antonyms": [
+        "him",
+        "them"
+      ],
+      "confusables": [],
+      "collocations": [
+        "buys one for her",
+        "gives it to her",
+        "talks to her"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He gave it to her.",
+          "ko": "그는 그것을 그녀에게 주었다."
+        },
+        {
+          "en": "She bought a gift for her.",
+          "ko": "그녀는 그녀를 위해 선물을 샀다."
+        }
+      ],
+      "koreanTips": [
+        "목적어로 사용됨",
+        "'buys one for her' (O) — 누군가를 위한 구매"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhɝ/"
+    },
+    "mother": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "어머니",
+          "en": "female parent",
+          "primary": true
+        },
+        {
+          "ko": "엄마",
+          "en": "mom"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아의 가족 구성원인 '어머니'.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "mother"
+        },
+        {
+          "label": "복수",
+          "form": "mothers"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "mom",
+        "parent"
+      ],
+      "antonyms": [
+        "child"
+      ],
+      "confusables": [],
+      "collocations": [
+        "her mother",
+        "mother's cooking",
+        "mother and child"
+      ],
+      "idioms": [
+        {
+          "phrase": "mother knows best",
+          "ko": "엄마가 제일 잘 안다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "His mother bought him lunch.",
+          "ko": "그의 엄마는 점심을 사주셨다."
+        },
+        {
+          "en": "She calls her mother every day.",
+          "ko": "그녀는 매일 어머니께 전화를 건다."
+        }
+      ],
+      "koreanTips": [
+        "'mother' (O) — 어머니",
+        "'mom' (O) — 더 친근한 표현"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈməðɝ/"
+    },
+    "is": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "to be",
+          "primary": true
+        },
+        {
+          "ko": "존재하다",
+          "en": "exist"
+        }
+      ],
+      "contextMeaning": "Korean: '망고는 디저트용이다'는 상태를 설명함.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "exists",
+        "remains"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "it is",
+        "this is",
+        "there is"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It is sunny today.",
+          "ko": "오늘은 맑다."
+        },
+        {
+          "en": "She is happy.",
+          "ko": "그녀는 행복하다."
+        }
+      ],
+      "koreanTips": [
+        "상태를 나타낼 때 사용됨",
+        "'mango is for dessert' (O) — 망고의 용도를 나타냄"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪz/"
+    },
+    "very": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "매우",
+          "en": "extremely",
+          "primary": true
+        },
+        {
+          "ko": "정말",
+          "en": "really"
+        }
+      ],
+      "contextMeaning": "Korean: '시장이 매우 붐비고 시끌벅적하다'라는 강조 표현.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "extremely",
+        "really"
+      ],
+      "antonyms": [
+        "slightly",
+        "barely"
+      ],
+      "confusables": [],
+      "collocations": [
+        "very busy",
+        "very loud",
+        "very good"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It's very hot today.",
+          "ko": "오늘은 매우 덥다."
+        },
+        {
+          "en": "She speaks very clearly.",
+          "ko": "그녀는 매우 명확하게 말한다."
+        }
+      ],
+      "koreanTips": [
+        "형용사나 부사를 수식함",
+        "'very busy' (O) — 형용사 앞에 very 가능"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈvɛɹi/"
+    },
+    "busy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "바쁜",
+          "en": "occupied with activity",
+          "primary": true
+        },
+        {
+          "ko": "붐비는",
+          "en": "crowded"
+        }
+      ],
+      "contextMeaning": "Korean: 시장이 사람들로 북적이는 상태를 묘사함.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "busy"
+        },
+        {
+          "label": "비교급",
+          "form": "busier"
+        },
+        {
+          "label": "최상급",
+          "form": "busiest"
+        },
+        {
+          "label": "부사형",
+          "form": "busily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "crowded",
+        "packed"
+      ],
+      "antonyms": [
+        "quiet",
+        "empty"
+      ],
+      "confusables": [],
+      "collocations": [
+        "very busy",
+        "busy street",
+        "busy schedule"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The office is very busy.",
+          "ko": "사무실은 매우 바쁘다."
+        },
+        {
+          "en": "He has a busy day ahead.",
+          "ko": "그는 앞으로 바쁜 하루가 기다리고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'busy street' (O) — 형용사로 사용",
+        "'keep busy' (O) — 동사 형태도 있음"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbɪzi/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "also",
+          "primary": true
+        },
+        {
+          "ko": "그러나",
+          "en": "but"
+        }
+      ],
+      "contextMeaning": "Korean: '미소 지으며 그리고 하나를 산다'는 두 동작을 연결함.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "as well as",
+        "&"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "smiles and buys",
+        "reads and writes",
+        "eats and drinks"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She laughed and cried.",
+          "ko": "그녀는 웃고 울었다."
+        },
+        {
+          "en": "He runs and jumps.",
+          "ko": "그는 달리고 뛴다."
+        }
+      ],
+      "koreanTips": [
+        "연결어로 사용됨",
+        "'smiles and buys' (O) — 두 동작을 연결"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "loud": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "시끄러운",
+          "en": "making much noise",
+          "primary": true
+        },
+        {
+          "ko": "크게",
+          "en": "in a high volume"
+        }
+      ],
+      "contextMeaning": "Korean: 시장에서 많은 사람들이 소리를 내어 시끌벅적한 분위기를 표현함.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "loud"
+        },
+        {
+          "label": "비교급",
+          "form": "louder"
+        },
+        {
+          "label": "최상급",
+          "form": "loudest"
+        },
+        {
+          "label": "부사형",
+          "form": "loudly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "noisy",
+        "boisterous"
+      ],
+      "antonyms": [
+        "quiet",
+        "silent"
+      ],
+      "confusables": [],
+      "collocations": [
+        "very loud",
+        "loud music",
+        "speak loudly"
+      ],
+      "idioms": [
+        {
+          "phrase": "loud and clear",
+          "ko": "분명하게"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The music is too loud.",
+          "ko": "음악이 너무 시끄럽다."
+        },
+        {
+          "en": "He spoke loudly.",
+          "ko": "그는 크게 말했다."
+        }
+      ],
+      "koreanTips": [
+        "형용사로 사용됨",
+        "'loud music' (O) — 소리를 묘사하는 형용사"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫaʊd/"
+    },
+    "there": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "거기에",
+          "en": "at that place",
+          "primary": true
+        },
+        {
+          "ko": "존재하다",
+          "en": "exist"
+        }
+      ],
+      "contextMeaning": "Korean: '시장에는 많은 사람들이 있다'는 존재를 나타냄.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "here",
+        "over there"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "there are",
+        "there is",
+        "over there"
+      ],
+      "idioms": [
+        {
+          "phrase": "there you go",
+          "ko": "여기 있어요"
+        }
+      ],
+      "examples": [
+        {
+          "en": "There are many students in class.",
+          "ko": "반에 학생들이 많다."
+        },
+        {
+          "en": "Put it over there.",
+          "ko": "거기에다 놓아라."
+        }
+      ],
+      "koreanTips": [
+        "'there are' (O) — 복수 존재를 나타낼 때 사용",
+        "'there is' (O) — 단수 존재를 나타낼 때 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðɛɹ/"
+    },
+    "are": {
+      "pos": "verb (present tense, plural)",
+      "meanings": [
+        {
+          "ko": "있다",
+          "en": "to exist",
+          "primary": true
+        },
+        {
+          "ko": "이다",
+          "en": "to be"
+        }
+      ],
+      "contextMeaning": "Korean: '시장에는 많은 사람들이 있다'는 존재를 나타냄.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 복수",
+          "form": "are"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "exist",
+        "stand"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "there are",
+        "we are",
+        "they are"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "There are many books here.",
+          "ko": "여기에 책이 많다."
+        },
+        {
+          "en": "They are happy.",
+          "ko": "그들은 행복하다."
+        }
+      ],
+      "koreanTips": [
+        "복수의 존재나 상태를 나타낼 때 사용",
+        "'there are people' (O) — 복수 존재 표현"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɑɹ/"
+    },
+    "many": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "많은",
+          "en": "a large number of",
+          "primary": true
+        },
+        {
+          "ko": "수많은",
+          "en": "numerous"
+        }
+      ],
+      "contextMeaning": "Korean: '시장에는 많은 사람들이 있다'는 수량을 나타냄.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "a lot of",
+        "several"
+      ],
+      "antonyms": [
+        "few",
+        "little"
+      ],
+      "confusables": [],
+      "collocations": [
+        "many people",
+        "many fruits",
+        "many times"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Many students attended the lecture.",
+          "ko": "많은 학생들이 강연에 참석했다."
+        },
+        {
+          "en": "She has many friends.",
+          "ko": "그녀는 친구가 많다."
+        }
+      ],
+      "koreanTips": [
+        "복수 명사 앞에 사용됨",
+        "'many people' (O) — 복수 명사와 함께 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmɛni/"
+    },
+    "people": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "사람들",
+          "en": "humans collectively",
+          "primary": true
+        },
+        {
+          "ko": "인류",
+          "en": "humanity"
+        }
+      ],
+      "contextMeaning": "Korean: 시장에서 판매하고 있는 물건을 사러 온 '사람들'.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "person"
+        },
+        {
+          "label": "복수",
+          "form": "people"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "persons",
+        "folks"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "many people",
+        "young people",
+        "different people"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Many people enjoy traveling.",
+          "ko": "많은 사람들이 여행을 즐긴다."
+        },
+        {
+          "en": "These people are friendly.",
+          "ko": "이 사람들은 친절하다."
+        }
+      ],
+      "koreanTips": [
+        "복수형만 존재",
+        "'people' (O) — 이미 복수형",
+        "'person' (O) — 단수형"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈpipəɫ/"
+    },
+    "selling": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "팔다",
+          "en": "to sell",
+          "primary": true
+        },
+        {
+          "ko": "판매하다",
+          "en": "offer for sale"
+        }
+      ],
+      "contextMeaning": "Korean: 사람들이 과일과 채소를 '판매하고 있는' 상태를 나타냄.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "sell"
+        },
+        {
+          "label": "과거",
+          "form": "sold"
+        },
+        {
+          "label": "과거분사",
+          "form": "sold"
+        },
+        {
+          "label": "현재분사",
+          "form": "selling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "sells"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "offering",
+        "marketing"
+      ],
+      "antonyms": [
+        "buying"
+      ],
+      "confusables": [],
+      "collocations": [
+        "selling fruits",
+        "selling vegetables",
+        "sell online"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They are selling fresh bread.",
+          "ko": "그들은 신선한 빵을 팔고 있다."
+        },
+        {
+          "en": "She sells handmade crafts.",
+          "ko": "그녀는 손으로 만든 공예품을 판다."
+        }
+      ],
+      "koreanTips": [
+        "진행형으로 사용됨",
+        "'are selling' (O) — 현재 진행 중인 동작"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsɛɫɪŋ/"
+    },
+    "fruits": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "과일들",
+          "en": "edible plant products",
+          "primary": true
+        },
+        {
+          "ko": "열매",
+          "en": "fruit of trees or plants"
+        }
+      ],
+      "contextMeaning": "Korean: 시장에서 사람들이 파는 다양한 '과일들'.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "fruit"
+        },
+        {
+          "label": "복수",
+          "form": "fruits"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "produce",
+        "harvest"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "fresh fruits",
+        "buy fruits",
+        "eat fruits"
+      ],
+      "idioms": [
+        {
+          "phrase": "forbidden fruit",
+          "ko": "금지된 열매"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Apples and bananas are fruits.",
+          "ko": "사과와 바나나는 과일이다."
+        },
+        {
+          "en": "She eats lots of fruits.",
+          "ko": "그녀는 과일을 많이 먹는다."
+        }
+      ],
+      "koreanTips": [
+        "복수형 사용 가능",
+        "'fruits' (O) — 여러 종류의 과일",
+        "'fruit' (O) — 일반적인 의미"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɹuts/"
+    },
+    "vegetables": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "채소들",
+          "en": "plants used as food",
+          "primary": true
+        },
+        {
+          "ko": "야채",
+          "en": "greens"
+        }
+      ],
+      "contextMeaning": "Korean: '채소들로 국을 만든다'는 재료를 나타냄.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "vegetable"
+        },
+        {
+          "label": "복수",
+          "form": "vegetables"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "greens",
+        "produce"
+      ],
+      "antonyms": [
+        "meat",
+        "animal protein"
+      ],
+      "confusables": [],
+      "collocations": [
+        "fresh vegetables",
+        "buy vegetables",
+        "cook vegetables"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Carrots and broccoli are vegetables.",
+          "ko": "당근과 브로콜리는 채소이다."
+        },
+        {
+          "en": "She grows vegetables in her garden.",
+          "ko": "그녀는 정원에서 채소를 기른다."
+        }
+      ],
+      "koreanTips": [
+        "복수형 사용 가능",
+        "'vegetables' (O) — 여러 종류의 채소",
+        "'vegetable' (O) — 단수형"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈvɛdʒtəbəɫz/"
+    },
+    "likes": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "좋아하다",
+          "en": "to prefer",
+          "primary": true
+        },
+        {
+          "ko": "즐기다",
+          "en": "to enjoy"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아가 빨간 사과를 가장 좋아한다는 선호도를 나타냄.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "like"
+        },
+        {
+          "label": "과거",
+          "form": "liked"
+        },
+        {
+          "label": "과거분사",
+          "form": "liked"
+        },
+        {
+          "label": "현재분사",
+          "form": "liking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "likes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "enjoy",
+        "prefer"
+      ],
+      "antonyms": [
+        "dislike",
+        "hate"
+      ],
+      "confusables": [],
+      "collocations": [
+        "likes apples",
+        "likes music",
+        "likes reading"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She likes chocolate ice cream.",
+          "ko": "그녀는 초콜릿 아이스크림을 좋아한다."
+        },
+        {
+          "en": "He likes playing basketball.",
+          "ko": "그는 농구를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "3인칭 단수형 사용",
+        "'likes apples' (O) — 주어가 he/she/it일 때 likes 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɫaɪks/"
+    },
+    "red": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "붉은",
+          "en": "of the color red",
+          "primary": true
+        },
+        {
+          "ko": "빨간색",
+          "en": "color red"
+        }
+      ],
+      "contextMeaning": "Korean: 사과의 색깔을 묘사함.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "red"
+        },
+        {
+          "label": "비교급",
+          "form": "redder"
+        },
+        {
+          "label": "최상급",
+          "form": "reddest"
+        },
+        {
+          "label": "부사형",
+          "form": "redly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "scarlet",
+        "crimson"
+      ],
+      "antonyms": [
+        "blue",
+        "green"
+      ],
+      "confusables": [],
+      "collocations": [
+        "red apple",
+        "red car",
+        "red dress"
+      ],
+      "idioms": [
+        {
+          "phrase": "red flag",
+          "ko": "경고 신호"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The car is red.",
+          "ko": "차는 빨갛다."
+        },
+        {
+          "en": "She wore a red dress.",
+          "ko": "그녀는 빨간 드레스를 입었다."
+        }
+      ],
+      "koreanTips": [
+        "형용사로 사용됨",
+        "'red apple' (O) — 명사 앞에 형용사 위치"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹɛd/"
+    },
+    "apples": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "사과들",
+          "en": "round edible fruit",
+          "primary": true
+        },
+        {
+          "ko": "애플",
+          "en": "Apple (brand)"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아가 가장 좋아하는 과일인 '사과들'.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "apple"
+        },
+        {
+          "label": "복수",
+          "form": "apples"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "fruit"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "red apples",
+        "eat apples",
+        "pick apples"
+      ],
+      "idioms": [
+        {
+          "phrase": "an apple a day keeps the doctor away",
+          "ko": "하루 사과 하나면 의사 멀리 간다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I ate three apples today.",
+          "ko": "나는 오늘 사과 세 개를 먹었다."
+        },
+        {
+          "en": "She picked apples from the tree.",
+          "ko": "그녀는 나무에서 사과를 따서 받았다."
+        }
+      ],
+      "koreanTips": [
+        "복수형 사용 가능",
+        "'apples' (O) — 여러 개의 사과",
+        "'apple' (O) — 단수형"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈæpəɫz/"
+    },
+    "best": {
+      "pos": "adverb (superlative)",
+      "meanings": [
+        {
+          "ko": "가장",
+          "en": "most",
+          "primary": true
+        },
+        {
+          "ko": "최고로",
+          "en": "above all others"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아가 사과 중에서도 '가장 좋아하는' 것을 나타냄.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "good"
+        },
+        {
+          "label": "비교급",
+          "form": "better"
+        },
+        {
+          "label": "최상급",
+          "form": "best"
+        },
+        {
+          "label": "부사형",
+          "form": "well"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "most",
+        "top"
+      ],
+      "antonyms": [
+        "worst"
+      ],
+      "confusables": [],
+      "collocations": [
+        "likes best",
+        "do your best",
+        "best friend"
+      ],
+      "idioms": [
+        {
+          "phrase": "best of luck",
+          "ko": "행운을 빌어요"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She sings best among us.",
+          "ko": "그녀는 우리 중에서 가장 잘 노래한다."
+        },
+        {
+          "en": "Do your best!",
+          "ko": "최선을 다해!"
+        }
+      ],
+      "koreanTips": [
+        "최상급 부사로 사용됨",
+        "'likes best' (O) — 가장 좋아함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbɛst/"
+    },
+    "buys": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "산다",
+          "en": "to purchase",
+          "primary": true
+        },
+        {
+          "ko": "구입하다",
+          "en": "acquire by paying money"
+        }
+      ],
+      "contextMeaning": "Korean: 어머니가 마리아를 위해 '망고 하나를 산다'는 구매 행위를 나타냄.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "buy"
+        },
+        {
+          "label": "과거",
+          "form": "bought"
+        },
+        {
+          "label": "과거분사",
+          "form": "bought"
+        },
+        {
+          "label": "현재분사",
+          "form": "buying"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "buys"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "purchase",
+        "acquire"
+      ],
+      "antonyms": [
+        "sell"
+      ],
+      "confusables": [],
+      "collocations": [
+        "buys one",
+        "buys groceries",
+        "buy online"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He buys a gift for his sister.",
+          "ko": "그는 언니를 위해 선물을 산다."
+        },
+        {
+          "en": "She bought a new laptop.",
+          "ko": "그녀는 새 노트북을 샀다."
+        }
+      ],
+      "koreanTips": [
+        "3인칭 단수형 사용",
+        "'buys one for her' (O) — 누군가를 위한 구매"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbaɪz/"
+    },
+    "rice": {
+      "pos": "noun (uncountable)",
+      "meanings": [
+        {
+          "ko": "쌀",
+          "en": "grain used for food",
+          "primary": true
+        },
+        {
+          "ko": "밥",
+          "en": "cooked rice"
+        }
+      ],
+      "contextMeaning": "Korean: 어머니가 구매한 식료품 중 하나인 '쌀'.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "rice"
+        },
+        {
+          "label": "복수",
+          "form": "rices"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "grain",
+        "staple food"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "buy rice",
+        "cook rice",
+        "white rice"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Rice is a staple food in Asia.",
+          "ko": "쌀은 아시아의 주식이다."
+        },
+        {
+          "en": "She cooked rice for dinner.",
+          "ko": "그녀는 저녁으로 밥을 지었다."
+        }
+      ],
+      "koreanTips": [
+        "불가산 명사로 사용됨",
+        "'rice' (O) — 단수형으로만 사용",
+        "'rices' (X) — 복수형 사용하지 않음"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹaɪs/"
+    },
+    "tomatoes": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "토마토들",
+          "en": "red juicy fruit often used as vegetable",
+          "primary": true
+        },
+        {
+          "ko": "토마토",
+          "en": "tomato plant fruit"
+        }
+      ],
+      "contextMeaning": "Korean: 어머니가 구매한 식료품 중 하나인 '토마토들'.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "tomato"
+        },
+        {
+          "label": "복수",
+          "form": "tomatoes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "vegetable",
+        "fruit"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "buy tomatoes",
+        "fresh tomatoes",
+        "cherry tomatoes"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Tomatoes are rich in vitamins.",
+          "ko": "토마토는 비타민이 풍부하다."
+        },
+        {
+          "en": "She made pasta with tomatoes.",
+          "ko": "그녀는 토마토로 파스타를 만들었다."
+        }
+      ],
+      "koreanTips": [
+        "복수형 사용 가능",
+        "'tomatoes' (O) — 여러 개의 토마토",
+        "'tomato' (O) — 단수형"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/təˈmɑtoʊz/"
+    },
+    "onions": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "양파들",
+          "en": "bulb vegetables with layers",
+          "primary": true
+        },
+        {
+          "ko": "양파",
+          "en": "layered bulb"
+        }
+      ],
+      "contextMeaning": "Korean: 어머니가 구매한 식료품 중 하나인 '양파들'.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "onion"
+        },
+        {
+          "label": "복수",
+          "form": "onions"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "bulbs",
+        "vegetables"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "buy onions",
+        "chop onions",
+        "red onions"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Onions make your eyes water.",
+          "ko": "양파는 눈물을 낳는다."
+        },
+        {
+          "en": "She chopped onions for the soup.",
+          "ko": "그녀는 국에 넣을 양파를 썰었다."
+        }
+      ],
+      "koreanTips": [
+        "복수형 사용 가능",
+        "'onions' (O) — 여러 개의 양파",
+        "'onion' (O) — 단수형"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈənjənz/"
+    },
+    "always": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "항상",
+          "en": "at all times",
+          "primary": true
+        },
+        {
+          "ko": "언제나",
+          "en": "constantly"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아가 항상 망고를 요청한다는 반복적인 행동을 나타냄.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "constantly",
+        "forever"
+      ],
+      "antonyms": [
+        "never",
+        "rarely"
+      ],
+      "confusables": [],
+      "collocations": [
+        "always asks",
+        "always helps",
+        "always arrives late"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She always arrives early.",
+          "ko": "그녀는 항상 일찍 도착한다."
+        },
+        {
+          "en": "He always studies hard.",
+          "ko": "그는 항상 열심히 공부한다."
+        }
+      ],
+      "koreanTips": [
+        "동사 앞에 위치함",
+        "'always asks' (O) — 항상 ~한다"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɔɫˌweɪz/"
+    },
+    "asks": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "요청하다",
+          "en": "to request",
+          "primary": true
+        },
+        {
+          "ko": "물어보다",
+          "en": "to inquire"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아가 망고를 '요청하는' 행동을 나타냄.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "ask"
+        },
+        {
+          "label": "과거",
+          "form": "asked"
+        },
+        {
+          "label": "과거분사",
+          "form": "asked"
+        },
+        {
+          "label": "현재분사",
+          "form": "asking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "asks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "request",
+        "inquire"
+      ],
+      "antonyms": [
+        "demand"
+      ],
+      "confusables": [],
+      "collocations": [
+        "asks for",
+        "ask questions",
+        "ask permission"
+      ],
+      "idioms": [
+        {
+          "phrase": "ask for trouble",
+          "ko": "문제를 불러일으키다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She asks for help when needed.",
+          "ko": "그녀는 필요할 때 도움을 요청한다."
+        },
+        {
+          "en": "He asked about the meeting time.",
+          "ko": "그는 회의 시간에 대해 물어보았다."
+        }
+      ],
+      "koreanTips": [
+        "3인칭 단수형 사용",
+        "'asks for a mango' (O) — 요청을 나타냄",
+        "'ask for something' (O) — 무언가를 요청할 때 사용"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈæsks/"
+    },
+    "for": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~을 위해",
+          "en": "in favor of",
+          "primary": true
+        },
+        {
+          "ko": "~에 대해",
+          "en": "regarding"
+        },
+        {
+          "ko": "~를 대신하여",
+          "en": "on behalf of"
+        }
+      ],
+      "contextMeaning": "Korean: '망고는 디저트용이다'는 목적을 나타냄.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "in favor of",
+        "regarding"
+      ],
+      "antonyms": [
+        "against"
+      ],
+      "confusables": [],
+      "collocations": [
+        "for dessert",
+        "wait for",
+        "look for"
+      ],
+      "idioms": [
+        {
+          "phrase": "for better or worse",
+          "ko": "좋든 나쁘든"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He bought flowers for his wife.",
+          "ko": "그는 아내를 위해 꽃을 샀다."
+        },
+        {
+          "en": "She saved money for her trip.",
+          "ko": "그녀는 여행을 위해 돈을 모았다."
+        }
+      ],
+      "koreanTips": [
+        "목적을 나타낼 때 사용됨",
+        "'for dessert' (O) — 디저트용으로 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈfɔɹ/"
+    },
+    "a": {
+      "pos": "indefinite article",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "one unspecified",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "Korean: '맛있는 국 하나를 만든다'는 의미.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "one"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a delicious soup",
+        "a big house",
+        "a beautiful day"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He baked a cake.",
+          "ko": "그는 케이크를 굽었다."
+        },
+        {
+          "en": "She wrote a letter.",
+          "ko": "그녀는 편지를 썼다."
+        }
+      ],
+      "koreanTips": [
+        "불특정한 하나를 나타냄",
+        "'a delicious soup' (O) — 하나의 국"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "mango": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "망고",
+          "en": "tropical fruit",
+          "primary": true
+        },
+        {
+          "ko": "망고나무",
+          "en": "tree producing mango"
+        }
+      ],
+      "contextMeaning": "Korean: '망고는 디저트용이다'는 의미.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "mango"
+        },
+        {
+          "label": "복수",
+          "form": "mangoes/mangos"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "tropical fruit",
+        "fruit"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a mango",
+        "ripe mango",
+        "sweet mango"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Mango is sweet and juicy.",
+          "ko": "망고는 달고 즙이 많다."
+        },
+        {
+          "en": "She sliced the mango.",
+          "ko": "그녀는 망고를 썰었다."
+        }
+      ],
+      "koreanTips": [
+        "단수형 사용",
+        "'a mango' (O) — 하나의 망고",
+        "'mangoes' (O) — 복수형"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈmæŋɡoʊ/"
+    },
+    "smiles": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "미소 짓다",
+          "en": "to express happiness with facial expression",
+          "primary": true
+        },
+        {
+          "ko": "웃다",
+          "en": "to laugh softly"
+        }
+      ],
+      "contextMeaning": "Korean: 어머니가 마리아의 요청에 대해 '미소 지으며' 반응함.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "smile"
+        },
+        {
+          "label": "과거",
+          "form": "smiled"
+        },
+        {
+          "label": "과거분사",
+          "form": "smiled"
+        },
+        {
+          "label": "현재분사",
+          "form": "smiling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "smiles"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "grin",
+        "beam"
+      ],
+      "antonyms": [
+        "frown"
+      ],
+      "confusables": [],
+      "collocations": [
+        "smiles warmly",
+        "smiles at",
+        "smiles happily"
+      ],
+      "idioms": [
+        {
+          "phrase": "smile on someone",
+          "ko": "~에게 행운이 따르다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She smiled at the baby.",
+          "ko": "그녀는 아기에게 미소를 지었다."
+        },
+        {
+          "en": "He smiled when he saw her.",
+          "ko": "그는 그녀를 보자 미소를 지었다."
+        }
+      ],
+      "koreanTips": [
+        "3인칭 단수형 사용",
+        "'smiles and buys' (O) — 연속된 동사 사용"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsmaɪɫz/"
+    },
+    "one": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "하나",
+          "en": "a single item",
+          "primary": true
+        },
+        {
+          "ko": "누군가",
+          "en": "someone"
+        }
+      ],
+      "contextMeaning": "Korean: 어머니가 마리아를 위해 '하나의 망고'를 산다는 의미.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "single",
+        "individual"
+      ],
+      "antonyms": [
+        "many",
+        "several"
+      ],
+      "confusables": [],
+      "collocations": [
+        "buys one",
+        "one for each",
+        "one more"
+      ],
+      "idioms": [
+        {
+          "phrase": "one in a million",
+          "ko": "백만에 하나 있는"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can I have one?",
+          "ko": "하나 줄 수 있어?"
+        },
+        {
+          "en": "One student answered correctly.",
+          "ko": "한 명의 학생이 정답을 맞췄다."
+        }
+      ],
+      "koreanTips": [
+        "수량을 나타냄",
+        "'buys one for her' (O) — 하나의 망고를 삼"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwən/"
+    },
+    "they": {
+      "pos": "pronoun (subject)",
+      "meanings": [
+        {
+          "ko": "그들은",
+          "en": "those people",
+          "primary": true
+        },
+        {
+          "ko": "그들",
+          "en": "them"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아와 어머니가 '함께' 무거운 가방을 집으로 가져감.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "them",
+        "those"
+      ],
+      "antonyms": [
+        "I",
+        "you"
+      ],
+      "confusables": [],
+      "collocations": [
+        "they carry",
+        "they help",
+        "they cook"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They went to the park.",
+          "ko": "그들은 공원에 갔다."
+        },
+        {
+          "en": "They helped each other.",
+          "ko": "그들은 서로 도왔다."
+        }
+      ],
+      "koreanTips": [
+        "복수 주어로 사용됨",
+        "'they carry' (O) — 마리아와 어머니를 가리킴"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðeɪ/"
+    },
+    "carry": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "나르다",
+          "en": "to transport",
+          "primary": true
+        },
+        {
+          "ko": "운반하다",
+          "en": "to bear"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아와 어머니가 무거운 가방을 '집으로 나름'.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "carry"
+        },
+        {
+          "label": "과거",
+          "form": "carried"
+        },
+        {
+          "label": "과거분사",
+          "form": "carried"
+        },
+        {
+          "label": "현재분사",
+          "form": "carrying"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "carries"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "transport",
+        "bear"
+      ],
+      "antonyms": [
+        "drop",
+        "leave behind"
+      ],
+      "confusables": [],
+      "collocations": [
+        "carry bags",
+        "carry groceries",
+        "carry heavy items"
+      ],
+      "idioms": [
+        {
+          "phrase": "carry the day",
+          "ko": "승리를 거두다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She carries her laptop everywhere.",
+          "ko": "그녀는 노트북을 어디든지 가지고 다닌다."
+        },
+        {
+          "en": "He carried the box upstairs.",
+          "ko": "그는 상자를 위층으로 옮겼다."
+        }
+      ],
+      "koreanTips": [
+        "동사로 사용됨",
+        "'carry bags home' (O) — 물건을 나르다"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkæɹi/"
+    },
+    "heavy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "무거운",
+          "en": "having great weight",
+          "primary": true
+        },
+        {
+          "ko": "중량의",
+          "en": "weighty"
+        }
+      ],
+      "contextMeaning": "Korean: '무거운 가방들'이라는 무게를 묘사함.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "heavy"
+        },
+        {
+          "label": "비교급",
+          "form": "heavier"
+        },
+        {
+          "label": "최상급",
+          "form": "heaviest"
+        },
+        {
+          "label": "부사형",
+          "form": "heavily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "weighty",
+        "dense"
+      ],
+      "antonyms": [
+        "light",
+        "easy"
+      ],
+      "confusables": [],
+      "collocations": [
+        "heavy bags",
+        "heavy rain",
+        "heavy load"
+      ],
+      "idioms": [
+        {
+          "phrase": "heavy heart",
+          "ko": "무거운 마음"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The box is very heavy.",
+          "ko": "상자는 매우 무겁다."
+        },
+        {
+          "en": "She lifted the heavy suitcase.",
+          "ko": "그녀는 무거운 여행가방을 들었다."
+        }
+      ],
+      "koreanTips": [
+        "형용사로 사용됨",
+        "'heavy bags' (O) — 무게를 묘사하는 형용사"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhɛvi/"
+    },
+    "bags": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "가방들",
+          "en": "containers for carrying things",
+          "primary": true
+        },
+        {
+          "ko": "봉투들",
+          "en": "sacks"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아와 어머니가 시장에서 산 물건을 담은 '가방들'.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "bag"
+        },
+        {
+          "label": "복수",
+          "form": "bags"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "sacks",
+        "containers"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "heavy bags",
+        "plastic bags",
+        "carry bags"
+      ],
+      "idioms": [
+        {
+          "phrase": "bag of tricks",
+          "ko": "비법"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She packed her clothes in bags.",
+          "ko": "그녀는 옷을 가방에 넣었다."
+        },
+        {
+          "en": "They brought reusable bags.",
+          "ko": "그들은 재사용 가능한 가방을 가져왔다."
+        }
+      ],
+      "koreanTips": [
+        "복수형 사용 가능",
+        "'bags' (O) — 여러 개의 가방",
+        "'bag' (O) — 단수형"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbæɡz/"
+    },
+    "home": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "집으로",
+          "en": "to one's house",
+          "primary": true
+        },
+        {
+          "ko": "집에",
+          "en": "at home"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아와 어머니가 '집으로' 가방을 가져가는 방향을 나타냄.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "homeward",
+        "to the house"
+      ],
+      "antonyms": [
+        "away"
+      ],
+      "confusables": [],
+      "collocations": [
+        "go home",
+        "come home",
+        "carry home"
+      ],
+      "idioms": [
+        {
+          "phrase": "home sweet home",
+          "ko": "사랑하는 내 집"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He went straight home.",
+          "ko": "그는 곧바로 집으로 갔다."
+        },
+        {
+          "en": "She stayed home all day.",
+          "ko": "그녀는 하루 종일 집에 있었다."
+        }
+      ],
+      "koreanTips": [
+        "부사로 사용됨",
+        "'carry home' (O) — 방향을 나타내는 부사",
+        "'at home' (O) — 위치를 나타낼 때"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhoʊm/"
+    },
+    "together": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "함께",
+          "en": "in company with",
+          "primary": true
+        },
+        {
+          "ko": "동시에",
+          "en": "at the same time"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아와 어머니가 '함께' 집으로 가방을 나름.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "jointly",
+        "in unison"
+      ],
+      "antonyms": [
+        "alone",
+        "separately"
+      ],
+      "confusables": [],
+      "collocations": [
+        "carry together",
+        "work together",
+        "live together"
+      ],
+      "idioms": [
+        {
+          "phrase": "pull together",
+          "ko": "힘을 합치다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "They worked together on the project.",
+          "ko": "그들은 프로젝트를 함께 진행했다."
+        },
+        {
+          "en": "We walked together.",
+          "ko": "우리는 함께 걸었다."
+        }
+      ],
+      "koreanTips": [
+        "부사로 사용됨",
+        "'carry the bags home together' (O) — 함께 행동함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/təˈɡɛðɝ/"
+    },
+    "helps": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "돕다",
+          "en": "to assist",
+          "primary": true
+        },
+        {
+          "ko": "도움을 주다",
+          "en": "to support"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아가 어머니를 '돕는다'는 도움을 주는 행위를 나타냄.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "help"
+        },
+        {
+          "label": "과거",
+          "form": "helped"
+        },
+        {
+          "label": "과거분사",
+          "form": "helped"
+        },
+        {
+          "label": "현재분사",
+          "form": "helping"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "helps"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "assist",
+        "support"
+      ],
+      "antonyms": [
+        "hinder",
+        "obstruct"
+      ],
+      "confusables": [],
+      "collocations": [
+        "helps her mother",
+        "help with",
+        "help out"
+      ],
+      "idioms": [
+        {
+          "phrase": "help yourself",
+          "ko": "편하게 하세요"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She helps her brother with homework.",
+          "ko": "그녀는 동생의 숙제를 도와준다."
+        },
+        {
+          "en": "He helped me move.",
+          "ko": "그는 내가 이사하는 것을 도와주었다."
+        }
+      ],
+      "koreanTips": [
+        "3인칭 단수형 사용",
+        "'helps her mother' (O) — 누군가를 돕다"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhɛɫps/"
+    },
+    "cook": {
+      "pos": "verb (infinitive)",
+      "meanings": [
+        {
+          "ko": "요리하다",
+          "en": "to prepare food",
+          "primary": true
+        },
+        {
+          "ko": "조리하다",
+          "en": "to make food ready to eat"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아가 어머니를 '도와 저녁을 요리한다'는 행동을 나타냄.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "cook"
+        },
+        {
+          "label": "과거",
+          "form": "cooked"
+        },
+        {
+          "label": "과거분사",
+          "form": "cooked"
+        },
+        {
+          "label": "현재분사",
+          "form": "cooking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "cooks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "prepare",
+        "make"
+      ],
+      "antonyms": [
+        "eat raw",
+        "serve cold"
+      ],
+      "confusables": [],
+      "collocations": [
+        "cook dinner",
+        "cook vegetables",
+        "learn to cook"
+      ],
+      "idioms": [
+        {
+          "phrase": "too many cooks spoil the broth",
+          "ko": "많은 사람이 함께하면 일을 망친다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She cooks dinner every evening.",
+          "ko": "그녀는 매일 저녁을 요리한다."
+        },
+        {
+          "en": "He learned to cook from his grandmother.",
+          "ko": "그는 할머니로부터 요리를 배웠다."
+        }
+      ],
+      "koreanTips": [
+        "동사로 사용됨",
+        "'help her mother cook' (O) — 도와서 함께 요리함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkʊk/"
+    },
+    "dinner": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "저녁 식사",
+          "en": "evening meal",
+          "primary": true
+        },
+        {
+          "ko": "정찬",
+          "en": "main meal of the day"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아와 어머니가 함께 '저녁 식사를 요리한다'는 의미.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "dinner"
+        },
+        {
+          "label": "복수",
+          "form": "dinners"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "meal",
+        "supper"
+      ],
+      "antonyms": [
+        "breakfast",
+        "lunch"
+      ],
+      "confusables": [],
+      "collocations": [
+        "cook dinner",
+        "have dinner",
+        "dinner party"
+      ],
+      "idioms": [
+        {
+          "phrase": "dinner and a movie",
+          "ko": "저녁과 영화"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We had dinner at 7 PM.",
+          "ko": "우리는 오후 7시에 저녁을 먹었다."
+        },
+        {
+          "en": "She invited us for dinner.",
+          "ko": "그녀는 우리를 저녁 식사에 초대했다."
+        }
+      ],
+      "koreanTips": [
+        "식사 이름으로 사용됨",
+        "'cook dinner' (O) — 저녁 식사를 준비함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdɪnɝ/"
+    },
+    "make": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "만들다",
+          "en": "to create",
+          "primary": true
+        },
+        {
+          "ko": "조리하다",
+          "en": "to prepare"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아와 어머니가 '맛있는 국을 만든다'는 조리 행위를 나타냄.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "make"
+        },
+        {
+          "label": "과거",
+          "form": "made"
+        },
+        {
+          "label": "과거분사",
+          "form": "made"
+        },
+        {
+          "label": "현재분사",
+          "form": "making"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "makes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "create",
+        "prepare"
+      ],
+      "antonyms": [
+        "destroy",
+        "ruin"
+      ],
+      "confusables": [],
+      "collocations": [
+        "make soup",
+        "make dinner",
+        "make a cake"
+      ],
+      "idioms": [
+        {
+          "phrase": "make a difference",
+          "ko": "차이를 만들다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She makes delicious cookies.",
+          "ko": "그녀는 맛있는 쿠키를 만든다."
+        },
+        {
+          "en": "They made a plan together.",
+          "ko": "그들은 함께 계획을 세웠다."
+        }
+      ],
+      "koreanTips": [
+        "동사로 사용됨",
+        "'make soup' (O) — 음식을 조리함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmeɪk/"
+    },
+    "delicious": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "맛있는",
+          "en": "having a pleasant taste",
+          "primary": true
+        },
+        {
+          "ko": "맛좋은",
+          "en": "tasty"
+        }
+      ],
+      "contextMeaning": "Korean: '맛있는 국'이라는 음식의 맛을 묘사함.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "delicious"
+        },
+        {
+          "label": "비교급",
+          "form": "more delicious"
+        },
+        {
+          "label": "최상급",
+          "form": "most delicious"
+        },
+        {
+          "label": "부사형",
+          "form": "deliciously"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "tasty",
+        "scrumptious"
+      ],
+      "antonyms": [
+        "disgusting",
+        "awful"
+      ],
+      "confusables": [],
+      "collocations": [
+        "delicious soup",
+        "delicious meal",
+        "delicious food"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This pizza is delicious.",
+          "ko": "이 피자는 맛있다."
+        },
+        {
+          "en": "She cooked a delicious dinner.",
+          "ko": "그녀는 맛있는 저녁을 요리했다."
+        }
+      ],
+      "koreanTips": [
+        "형용사로 사용됨",
+        "'delicious soup' (O) — 음식의 맛을 묘사함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/dɪˈɫɪʃəs/"
+    },
+    "soup": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "국",
+          "en": "liquid food made by boiling ingredients",
+          "primary": true
+        },
+        {
+          "ko": "수프",
+          "en": "broth-based dish"
+        }
+      ],
+      "contextMeaning": "Korean: 마리아와 어머니가 '채소로 국을 만든다'는 의미.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "soup"
+        },
+        {
+          "label": "복수",
+          "form": "soups"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "broth",
+        "stew"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "make soup",
+        "hot soup",
+        "chicken soup"
+      ],
+      "idioms": [
+        {
+          "phrase": "spill the soup",
+          "ko": "비밀을 털어놓다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Mom made chicken soup.",
+          "ko": "엄마는 닭고기 국을 만들었다."
+        },
+        {
+          "en": "He ordered soup for lunch.",
+          "ko": "그는 점심으로 국을 주문했다."
+        }
+      ],
+      "koreanTips": [
+        "음식 이름으로 사용됨",
+        "'make soup' (O) — 국을 조리함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsup/"
+    },
+    "dessert": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "디저트",
+          "en": "sweet course after a meal",
+          "primary": true
+        },
+        {
+          "ko": "후식",
+          "en": "sweet treat"
+        }
+      ],
+      "contextMeaning": "Korean: '망고는 식사 후에 먹는 디저트용이다'는 의미.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "dessert"
+        },
+        {
+          "label": "복수",
+          "form": "desserts"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "sweet",
+        "pudding"
+      ],
+      "antonyms": [
+        "main course",
+        "starter"
+      ],
+      "confusables": [],
+      "collocations": [
+        "for dessert",
+        "eat dessert",
+        "make dessert"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Ice cream is my favorite dessert.",
+          "ko": "아이스크림은 내가 가장 좋아하는 디저트이다."
+        },
+        {
+          "en": "We had cake for dessert.",
+          "ko": "우리는 디저트로 케이크를 먹었다."
+        }
+      ],
+      "koreanTips": [
+        "식사 이름으로 사용됨",
+        "'for dessert' (O) — 디저트용으로 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/dɪˈzɝt/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "Every Saturday, Maria goes to the market with her mother.",
+        "structure": {
+          "subject": {
+            "text": "Maria",
+            "label": "마리아"
+          },
+          "verb": {
+            "text": "goes",
+            "label": "간다"
+          },
+          "object": {
+            "text": "to the market",
+            "label": "시장에"
+          },
+          "complement": {
+            "text": "with her mother",
+            "label": "어머니와 함께"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어"
+        },
+        "explanation": "이 문장은 마리아가 주어이고, 시장에 가는 동작을 하고, 어머니와 함께 간다는 보충 설명이 붙어 있습니다.",
+        "grammarPoints": [
+          "시간 표현(Every Saturday)",
+          "전치사 구(to the market, with her mother)",
+          "3인칭 단수 동사(goes)"
+        ],
+        "examples": [
+          {
+            "en": "Every Sunday, Tom plays soccer with his friends.",
+            "ko": "톰은 매주 일요일 친구들과 축구를 한다."
+          },
+          {
+            "en": "She walks to school with her brother.",
+            "ko": "그녀는 형과 함께 학교에 걸어간다."
+          }
+        ]
+      },
+      {
+        "text": "The market is very busy and loud.",
+        "structure": {
+          "subject": {
+            "text": "The market",
+            "label": "시장이"
+          },
+          "verb": {
+            "text": "is",
+            "label": "이다"
+          },
+          "complement": {
+            "text": "very busy and loud",
+            "label": "매우 바쁘고 시끌벅적하다"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "시장이 어떤 상태인지 묘사하는 문장입니다. 'is' 뒤에 형용사가 연결되어 설명합니다.",
+        "grammarPoints": [
+          "be 동사(is) + 형용사(busy, loud)",
+          "부사(very)로 형용사 수식",
+          "and로 형용사 연결"
+        ],
+        "examples": [
+          {
+            "en": "The room is clean and bright.",
+            "ko": "방은 깨끗하고 밝다."
+          },
+          {
+            "en": "It is very cold today.",
+            "ko": "오늘은 매우 춥다."
+          }
+        ]
+      },
+      {
+        "text": "There are many people selling fruits and vegetables.",
+        "structure": {
+          "subject": {
+            "text": "There are",
+            "label": "존재하다"
+          },
+          "object": {
+            "text": "many people",
+            "label": "많은 사람들이"
+          },
+          "complement": {
+            "text": "selling fruits and vegetables",
+            "label": "과일과 채소를 파는"
+          }
+        },
+        "pattern": {
+          "name": "There + be + N + V-ing",
+          "note": "존재 표현 + 동작 중인 사람"
+        },
+        "explanation": "시장에는 많은 사람들이 있고, 그 사람들이 과일과 채소를 팔고 있다는 의미입니다.",
+        "grammarPoints": [
+          "There are 구문",
+          "현재분사(selling)로 동작 중인 상태 표현",
+          "and로 명사 연결(fruits and vegetables)"
+        ],
+        "examples": [
+          {
+            "en": "There are children playing in the park.",
+            "ko": "공원에서 놀고 있는 아이들이 있다."
+          },
+          {
+            "en": "There are cars parked outside.",
+            "ko": "밖에 주차된 차들이 있다."
+          }
+        ]
+      },
+      {
+        "text": "Maria likes the red apples best.",
+        "structure": {
+          "subject": {
+            "text": "Maria",
+            "label": "마리아가"
+          },
+          "verb": {
+            "text": "likes",
+            "label": "좋아한다"
+          },
+          "object": {
+            "text": "the red apples",
+            "label": "빨간 사과들을"
+          },
+          "complement": {
+            "text": "best",
+            "label": "가장"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+Adv",
+          "note": "주어+동사+목적어+부사"
+        },
+        "explanation": "마리아가 빨간 사과를 가장 좋아한다는 의미입니다. 'best'는 최상급 부사로 사용되었습니다.",
+        "grammarPoints": [
+          "like + 명사",
+          "형용사(red)로 명사 수식(apples)",
+          "최상급(best) 사용"
+        ],
+        "examples": [
+          {
+            "en": "She likes chocolate ice cream best.",
+            "ko": "그녀는 초콜릿 아이스크림을 가장 좋아한다."
+          },
+          {
+            "en": "He runs fastest in the race.",
+            "ko": "그는 경기에서 가장 빠르게 달린다."
+          }
+        ]
+      },
+      {
+        "text": "Her mother buys rice, tomatoes, and onions.",
+        "structure": {
+          "subject": {
+            "text": "Her mother",
+            "label": "그녀의 어머니가"
+          },
+          "verb": {
+            "text": "buys",
+            "label": "산다"
+          },
+          "object": {
+            "text": "rice, tomatoes, and onions",
+            "label": "쌀, 토마토, 그리고 양파를"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "어머니가 쌀, 토마토, 양파를 산다는 내용입니다. 여러 개의 목적어가 and로 연결되었습니다.",
+        "grammarPoints": [
+          "3인칭 단수 동사(buys)",
+          "and로 목록 연결(rice, tomatoes, and onions)",
+          "불가산 명사(rice) 사용"
+        ],
+        "examples": [
+          {
+            "en": "He buys bread, milk, and eggs.",
+            "ko": "그는 빵, 우유, 그리고 계란을 산다."
+          },
+          {
+            "en": "She bought apples and oranges.",
+            "ko": "그녀는 사과와 오렌지를 샀다."
+          }
+        ]
+      },
+      {
+        "text": "Maria always asks for a mango.",
+        "structure": {
+          "subject": {
+            "text": "Maria",
+            "label": "마리아가"
+          },
+          "verb": {
+            "text": "asks",
+            "label": "요청한다"
+          },
+          "object": {
+            "text": "for a mango",
+            "label": "망고 하나를"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "마리아가 항상 망고를 요청한다는 내용입니다. 'always'는 빈도 부사로 동사 앞에 위치합니다.",
+        "grammarPoints": [
+          "always(항상) 빈도 부사 사용",
+          "ask for + 명사",
+          "불정관사(a) 사용"
+        ],
+        "examples": [
+          {
+            "en": "She always asks for help.",
+            "ko": "그녀는 항상 도움을 요청한다."
+          },
+          {
+            "en": "He always orders coffee.",
+            "ko": "그는 항상 커피를 주문한다."
+          }
+        ]
+      },
+      {
+        "text": "Her mother smiles and buys one for her.",
+        "structure": {
+          "subject": {
+            "text": "Her mother",
+            "label": "그녀의 어머니가"
+          },
+          "verb": {
+            "text": "smiles and buys",
+            "label": "미소 지으며 산다"
+          },
+          "object": {
+            "text": "one for her",
+            "label": "하나를 그녀를 위해"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "어머니가 미소 지으며 망고 하나를 마리아를 위해 산다는 내용입니다. 두 개의 동사가 and로 연결되었습니다.",
+        "grammarPoints": [
+          "and로 두 동사 연결(smiles and buys)",
+          "대명사(one) 사용",
+          "for + 목적어"
+        ],
+        "examples": [
+          {
+            "en": "He nods and agrees with her.",
+            "ko": "그는 고개를 끄덕이며 그녀에게 동의한다."
+          },
+          {
+            "en": "She laughs and cries.",
+            "ko": "그녀는 웃고 울었다."
+          }
+        ]
+      },
+      {
+        "text": "They carry the heavy bags home together.",
+        "structure": {
+          "subject": {
+            "text": "They",
+            "label": "그들이"
+          },
+          "verb": {
+            "text": "carry",
+            "label": "나른다"
+          },
+          "object": {
+            "text": "the heavy bags",
+            "label": "무거운 가방들을"
+          },
+          "complement": {
+            "text": "home together",
+            "label": "집으로 함께"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+Adv",
+          "note": "주어+동사+목적어+부사"
+        },
+        "explanation": "마리아와 어머니가 무거운 가방들을 집으로 함께 나르는 내용입니다. 'home'은 방향을 나타내는 부사입니다.",
+        "grammarPoints": [
+          "형용사(heavy)로 명사 수식(bags)",
+          "부사(home, together) 사용",
+          "복수 명사(bags)"
+        ],
+        "examples": [
+          {
+            "en": "They carried groceries home quickly.",
+            "ko": "그들은 식료품을 집으로 빨리 나르고 있다."
+          },
+          {
+            "en": "She walks the dog home every day.",
+            "ko": "그녀는 매일 개를 집으로 산책시킨다."
+          }
+        ]
+      },
+      {
+        "text": "Maria helps her mother cook dinner.",
+        "structure": {
+          "subject": {
+            "text": "Maria",
+            "label": "마리아가"
+          },
+          "verb": {
+            "text": "helps",
+            "label": "돕는다"
+          },
+          "object": {
+            "text": "her mother",
+            "label": "그녀의 어머니를"
+          },
+          "complement": {
+            "text": "cook dinner",
+            "label": "저녁을 요리하도록"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+V",
+          "note": "주어+동사+목적어+동사"
+        },
+        "explanation": "마리아가 어머니를 도와 저녁을 요리한다는 내용입니다. 'help + O + V' 구조입니다.",
+        "grammarPoints": [
+          "help + 목적어 + 동사 원형",
+          "식사 이름(dinner)",
+          "3인칭 단수 동사(helps)"
+        ],
+        "examples": [
+          {
+            "en": "He helps his father fix the car.",
+            "ko": "그는 아버지가 차를 고치도록 도와준다."
+          },
+          {
+            "en": "She helped me study for the test.",
+            "ko": "그녀는 내가 시험 준비를 하도록 도와주었다."
+          }
+        ]
+      },
+      {
+        "text": "They make a delicious soup with the vegetables.",
+        "structure": {
+          "subject": {
+            "text": "They",
+            "label": "그들이"
+          },
+          "verb": {
+            "text": "make",
+            "label": "만든다"
+          },
+          "object": {
+            "text": "a delicious soup",
+            "label": "맛있는 국을"
+          },
+          "complement": {
+            "text": "with the vegetables",
+            "label": "채소들로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어"
+        },
+        "explanation": "그들이 채소들로 맛있는 국을 만든다는 내용입니다. 'with'는 재료를 나타내는 전치사입니다.",
+        "grammarPoints": [
+          "make + 목적어",
+          "with + 재료",
+          "형용사(delicious)로 명사 수식(soup)"
+        ],
+        "examples": [
+          {
+            "en": "She made a cake with flour and sugar.",
+            "ko": "그녀는 밀가루와 설탕으로 케이크를 만들었다."
+          },
+          {
+            "en": "He builds a house with bricks.",
+            "ko": "그는 벽돌로 집을 짓는다."
+          }
+        ]
+      },
+      {
+        "text": "The mango is for dessert.",
+        "structure": {
+          "subject": {
+            "text": "The mango",
+            "label": "망고는"
+          },
+          "verb": {
+            "text": "is",
+            "label": "이다"
+          },
+          "complement": {
+            "text": "for dessert",
+            "label": "디저트용이다"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "망고가 디저트용이라는 내용입니다. 'for dessert'는 용도를 나타내는 전치사 구입니다.",
+        "grammarPoints": [
+          "be 동사(is) + for + 목적",
+          "식사 이름(dessert)",
+          "전치사(for)로 용도 표현"
+        ],
+        "examples": [
+          {
+            "en": "The cake is for breakfast.",
+            "ko": "케이크는 아침 식사용이다."
+          },
+          {
+            "en": "This room is for guests.",
+            "ko": "이 방은 손님용이다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "매 토요일, 마리아는 어머니와 함께 시장에 간다. 시장은 매우 붐비고 시끌벅적하다. 과일과 채소를 파는 사람들이 많다. 마리아는 빨간 사과를 가장 좋아한다. 어머니는 쌀, 토마토, 그리고 양파를 산다. 마리아는 항상 망고를 요청한다. 어머니는 미소 지으며 하나를 사준다. 그들은 무거운 가방들을 집으로 함께 나른다. 마리아는 어머니를 도와 저녁을 요리한다. 그들은 채소들로 맛있는 국을 만든다. 망고는 디저트용이다.",
+  "keyVocab": [
+    "market",
+    "vegetables",
+    "delicious",
+    "mango",
+    "helps"
+  ],
+  "quiz": {
+    "question": "마리아가 매주 토요일에 하는 일은 무엇인가요?",
+    "answer": "마리아는 어머니와 함께 시장에 갑니다."
+  },
+  "generated_at": "2026-02-20T08:47:28.614693+09:00"
+}

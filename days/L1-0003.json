@@ -1,0 +1,3427 @@
+{
+  "num": "0003",
+  "category": "L1",
+  "source": {
+    "title": "A Rainy Day",
+    "author": "VOA Learning English",
+    "license": "Public Domain",
+    "url": "https://learningenglish.voanews.com"
+  },
+  "passage": "It was a rainy day. Anna looked out the window. The sky was gray and dark. She could not go outside to play. She sat on the sofa and read a book. The book was about a brave girl who traveled the world. Anna wished she could travel too. After two hours, the rain stopped. The sun came out. Anna put on her shoes and went outside. The air smelled fresh and clean. She jumped in the puddles and laughed.",
+  "audio": {
+    "passage": "audio/L1-0003.mp3",
+    "words": {
+      "it": "audio/L1-0003-it.mp3",
+      "was": "audio/L1-0003-was.mp3",
+      "a": "audio/L1-0003-a.mp3",
+      "rainy": "audio/L1-0003-rainy.mp3",
+      "day": "audio/L1-0003-day.mp3",
+      "anna": "audio/L1-0003-anna.mp3",
+      "looked": "audio/L1-0003-looked.mp3",
+      "out": "audio/L1-0003-out.mp3",
+      "the": "audio/L1-0003-the.mp3",
+      "window": "audio/L1-0003-window.mp3",
+      "sky": "audio/L1-0003-sky.mp3",
+      "gray": "audio/L1-0003-gray.mp3",
+      "and": "audio/L1-0003-and.mp3",
+      "dark": "audio/L1-0003-dark.mp3",
+      "she": "audio/L1-0003-she.mp3",
+      "could": "audio/L1-0003-could.mp3",
+      "not": "audio/L1-0003-not.mp3",
+      "go": "audio/L1-0003-go.mp3",
+      "outside": "audio/L1-0003-outside.mp3",
+      "to": "audio/L1-0003-to.mp3",
+      "play": "audio/L1-0003-play.mp3",
+      "sat": "audio/L1-0003-sat.mp3",
+      "on": "audio/L1-0003-on.mp3",
+      "sofa": "audio/L1-0003-sofa.mp3",
+      "read": "audio/L1-0003-read.mp3",
+      "book": "audio/L1-0003-book.mp3",
+      "about": "audio/L1-0003-about.mp3",
+      "brave": "audio/L1-0003-brave.mp3",
+      "girl": "audio/L1-0003-girl.mp3",
+      "who": "audio/L1-0003-who.mp3",
+      "traveled": "audio/L1-0003-traveled.mp3",
+      "world": "audio/L1-0003-world.mp3",
+      "wished": "audio/L1-0003-wished.mp3",
+      "too": "audio/L1-0003-too.mp3",
+      "after": "audio/L1-0003-after.mp3",
+      "two": "audio/L1-0003-two.mp3",
+      "hours": "audio/L1-0003-hours.mp3",
+      "stopped": "audio/L1-0003-stopped.mp3",
+      "sun": "audio/L1-0003-sun.mp3",
+      "came": "audio/L1-0003-came.mp3",
+      "put": "audio/L1-0003-put.mp3",
+      "shoes": "audio/L1-0003-shoes.mp3",
+      "went": "audio/L1-0003-went.mp3",
+      "air": "audio/L1-0003-air.mp3",
+      "smelled": "audio/L1-0003-smelled.mp3",
+      "fresh": "audio/L1-0003-fresh.mp3",
+      "clean": "audio/L1-0003-clean.mp3",
+      "jumped": "audio/L1-0003-jumped.mp3",
+      "puddles": "audio/L1-0003-puddles.mp3",
+      "laughed": "audio/L1-0003-laughed.mp3"
+    }
+  },
+  "words": {
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "that (thing)",
+          "primary": true
+        },
+        {
+          "ko": "날씨",
+          "en": "weather (used with 'was')",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "이 문장에서는 날씨를 가리키는 표현으로 쓰임 ('It was a rainy day.')",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "it was raining",
+        "it's sunny"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It was cold yesterday.",
+          "ko": "어제는 추웠다."
+        }
+      ],
+      "koreanTips": [
+        "'It is rainy day.' (X) — 관사는 꼭 필요하다"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪt/"
+    },
+    "was": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "~였다",
+          "en": "past form of 'be'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "과거의 상태를 나타냄 ('날씨가 비 오는 날이었다')",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "were"
+      ],
+      "antonyms": [
+        "will be"
+      ],
+      "confusables": [
+        {
+          "word": "where",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "it was",
+        "there was"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He was happy.",
+          "ko": "그는 행복했다."
+        }
+      ],
+      "koreanTips": [
+        "'It was rainy day.' (X) — 관사는 꼭 넣어야 함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɑz/"
+    },
+    "a": {
+      "pos": "article (indefinite)",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "one unspecified thing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "하나의 특정하지 않은 '비 오는 날'",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [
+        "the"
+      ],
+      "confusables": [],
+      "collocations": [
+        "a rainy day",
+        "a book"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She bought a car.",
+          "ko": "그녀는 차 한 대를 샀다."
+        }
+      ],
+      "koreanTips": [
+        "'It was rainy day.' (X) — 관사는 꼭 필요하다"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "rainy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "비가 오는",
+          "en": "having rain",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비가 내리는 날을 묘사함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "rainy"
+        },
+        {
+          "label": "비교급",
+          "form": "rainier"
+        },
+        {
+          "label": "최상급",
+          "form": "rainiest"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "rain",
+            "meaning": "비"
+          },
+          {
+            "part": "-y",
+            "meaning": "형용사 접미사"
+          }
+        ],
+        "note": "rain + y = rainy"
+      },
+      "synonyms": [
+        "wet",
+        "showery"
+      ],
+      "antonyms": [
+        "sunny",
+        "dry"
+      ],
+      "confusables": [
+        {
+          "word": "reign",
+          "note": "철자가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "a rainy day",
+        "rainy season"
+      ],
+      "idioms": [
+        {
+          "phrase": "a rainy day",
+          "ko": "비 오는 날 (비유적 의미도 있음)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It was a rainy afternoon.",
+          "ko": "비 오는 오후였다."
+        }
+      ],
+      "koreanTips": [
+        "'It rained all day.' (O) vs 'It was rainy day.' (X) — 형용사는 관사 필요"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɹeɪni/"
+    },
+    "day": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "하루",
+          "en": "24-hour period",
+          "primary": true
+        },
+        {
+          "ko": "낮",
+          "en": "daytime",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "하루 전체를 나타내며, '비 오는 하루'라는 뜻",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "day"
+        },
+        {
+          "label": "복수",
+          "form": "days"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "day",
+            "meaning": "하루"
+          }
+        ],
+        "note": "고대 영어 'dæg'에서 유래"
+      },
+      "synonyms": [
+        "date",
+        "period"
+      ],
+      "antonyms": [
+        "night"
+      ],
+      "confusables": [
+        {
+          "word": "they",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "a rainy day",
+        "good day"
+      ],
+      "idioms": [
+        {
+          "phrase": "save for a rainy day",
+          "ko": "비 오는 날을 위해 저축하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Today is a beautiful day.",
+          "ko": "오늘은 아름다운 날이다."
+        }
+      ],
+      "koreanTips": [
+        "'It was rainy day.' (X) — 단수명사는 관사 필요"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈdeɪ/"
+    },
+    "anna": {
+      "pos": "proper noun",
+      "meanings": [
+        {
+          "ko": "안나 (여자 이름)",
+          "en": "Anna (female name)",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 이야기의 주인공 여자아이 이름",
+      "forms": [],
+      "etymology": {
+        "parts": [
+          {
+            "part": "Anna",
+            "meaning": "히브리어에서 유래한 여성 이름"
+          }
+        ],
+        "note": "An-nah 또는 Hannah에서 파생됨"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "Anna smiled",
+        "Anna said"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Anna played outside.",
+          "ko": "안나는 밖에서 놀았다."
+        }
+      ],
+      "koreanTips": [
+        "고유명사는 항상 대문자로 시작해야 함"
+      ],
+      "frequency": 2,
+      "register": "일상",
+      "ipa": "/ˈænə/"
+    },
+    "looked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "보다",
+          "en": "to see or watch",
+          "primary": true
+        },
+        {
+          "ko": "찾다",
+          "en": "to search for something visually",
+          "primary": false
+        }
+      ],
+      "contextMeaning": "밖을 바라보는 행동을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "look"
+        },
+        {
+          "label": "과거",
+          "form": "looked"
+        },
+        {
+          "label": "과거분사",
+          "form": "looked"
+        },
+        {
+          "label": "현재분사",
+          "form": "looking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "looks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "watched",
+        "stared"
+      ],
+      "antonyms": [
+        "ignored"
+      ],
+      "confusables": [
+        {
+          "word": "liked",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "look out the window",
+        "look at the sky"
+      ],
+      "idioms": [
+        {
+          "phrase": "look out",
+          "ko": "조심해라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She looked at the stars.",
+          "ko": "그녀는 별들을 바라보았다."
+        }
+      ],
+      "koreanTips": [
+        "'look out the window' (O) vs 'look through the window' (O) — 전치사 선택에 따라 뉘앙스 차이"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫʊkt/"
+    },
+    "out": {
+      "pos": "preposition/adverb",
+      "meanings": [
+        {
+          "ko": "밖으로",
+          "en": "toward the outside",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "창밖을 통해 바라보는 동작",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "outside"
+      ],
+      "antonyms": [
+        "in"
+      ],
+      "confusables": [],
+      "collocations": [
+        "look out",
+        "go out"
+      ],
+      "idioms": [
+        {
+          "phrase": "look out!",
+          "ko": "조심해!"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He looked out the door.",
+          "ko": "그는 문 밖을 바라보았다."
+        }
+      ],
+      "koreanTips": [
+        "'look outside' (O) vs 'look out the window' (O) — 전치사 선택에 따라 다름"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈaʊt/"
+    },
+    "the": {
+      "pos": "article (definite)",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "specific thing already known",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "특정한 창을 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [
+        "a"
+      ],
+      "confusables": [],
+      "collocations": [
+        "the window",
+        "the sky"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The dog barked loudly.",
+          "ko": "그 개는 크게 짖었다."
+        }
+      ],
+      "koreanTips": [
+        "'the window' (O) vs 'window' (X) — 특정한 것을 지칭할 때는 관사 필요"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "window": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "창문",
+          "en": "opening in wall for light/air",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "집 안에서 밖을 볼 수 있는 창",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "window"
+        },
+        {
+          "label": "복수",
+          "form": "windows"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "wind",
+            "meaning": "바람"
+          },
+          {
+            "part": "ow",
+            "meaning": "구멍"
+          }
+        ],
+        "note": "바람이 들어오는 구멍이라는 의미에서 옴"
+      },
+      "synonyms": [
+        "pane"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "wind",
+          "note": "유사한 철자로 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "look out the window",
+        "open the window"
+      ],
+      "idioms": [
+        {
+          "phrase": "window of opportunity",
+          "ko": "기회가 열리는 순간"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She opened the window.",
+          "ko": "그녀는 창문을 열었다."
+        }
+      ],
+      "koreanTips": [
+        "'window' (O) vs 'door' (X) — 창문과 문 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɪndoʊ/"
+    },
+    "sky": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "하늘",
+          "en": "space above earth",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비가 내리는 하늘의 상태를 묘사함",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "sky"
+        },
+        {
+          "label": "복수",
+          "form": "skies"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "sky",
+            "meaning": "하늘"
+          }
+        ],
+        "note": "고대 독일어 'skai'에서 유래"
+      },
+      "synonyms": [
+        "heavens"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "gray sky",
+        "blue sky"
+      ],
+      "idioms": [
+        {
+          "phrase": "the sky is the limit",
+          "ko": "하늘이 끝이다 (무한한 가능성)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sky turned dark.",
+          "ko": "하늘이 어두워졌다."
+        }
+      ],
+      "koreanTips": [
+        "'sky' (O) vs 'cloud' (X) — 하늘과 구름은 다른 개념"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈskaɪ/"
+    },
+    "gray": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "회색의",
+          "en": "color between black and white",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비 오는 날의 하늘 색깔을 묘사함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "gray"
+        },
+        {
+          "label": "비교급",
+          "form": "grayer"
+        },
+        {
+          "label": "최상급",
+          "form": "grayest"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "grey",
+        "ashen"
+      ],
+      "antonyms": [
+        "bright",
+        "white"
+      ],
+      "confusables": [
+        {
+          "word": "great",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "gray sky",
+        "gray clouds"
+      ],
+      "idioms": [
+        {
+          "phrase": "gray area",
+          "ko": "모호한 부분"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The walls were painted gray.",
+          "ko": "벽들은 회색으로 칠해져 있었다."
+        }
+      ],
+      "koreanTips": [
+        "'gray' (US) vs 'grey' (UK) — 철자는 다르지만 같은 의미"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɡɹeɪ/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "connects words or phrases",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 가지 특징(회색이고 어두운)을 연결함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "as well as",
+        "&"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "gray and dark",
+        "read and write"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She likes apples and oranges.",
+          "ko": "그녀는 사과와 오렌지를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'and'는 연결어로 사용되며, 쉼표 없이 두 단어를 잇는다"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "dark": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "어두운",
+          "en": "lacking light",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비 오는 날의 하늘 상태를 더 구체적으로 묘사함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "dark"
+        },
+        {
+          "label": "비교급",
+          "form": "darker"
+        },
+        {
+          "label": "최상급",
+          "form": "darkest"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "dark",
+            "meaning": "어두운"
+          }
+        ],
+        "note": "고대 영어 'deorc'에서 유래"
+      },
+      "synonyms": [
+        "dim",
+        "gloomy"
+      ],
+      "antonyms": [
+        "light",
+        "bright"
+      ],
+      "confusables": [
+        {
+          "word": "dork",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "dark sky",
+        "dark room"
+      ],
+      "idioms": [
+        {
+          "phrase": "dark horse",
+          "ko": "黑马候補 (예상 밖의 인물)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The room was very dark.",
+          "ko": "방은 매우 어두웠다."
+        }
+      ],
+      "koreanTips": [
+        "'dark' (형용사) vs 'darkness' (명사) — 형태 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdɑɹk/"
+    },
+    "she": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그녀",
+          "en": "third person female subject",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "Anna를 가리키는 대명사",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [
+        "he",
+        "they"
+      ],
+      "confusables": [
+        {
+          "word": "see",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "she looked",
+        "she read"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She went to school.",
+          "ko": "그녀는 학교에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'She goes to school.' (O) vs 'Her goes to school.' (X) — 주어는 동사 형태에 맞춰야 함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈʃi/"
+    },
+    "could": {
+      "pos": "modal verb",
+      "meanings": [
+        {
+          "ko": "할 수 있었던",
+          "en": "past ability or possibility",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "밖에서 놀 수 없었던 가능성을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "was able to"
+      ],
+      "antonyms": [
+        "couldn't"
+      ],
+      "confusables": [
+        {
+          "word": "should",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "could not go",
+        "could play"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She could swim fast.",
+          "ko": "그녀는 빠르게 수영할 수 있었다."
+        }
+      ],
+      "koreanTips": [
+        "'could'는 과거 능력을 나타낼 때 사용하며, '~할 수 있었다'로 번역"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkʊd/"
+    },
+    "not": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "아니",
+          "en": "negative word",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "밖에서 놀 수 없는 상태를 부정함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "no"
+      ],
+      "antonyms": [
+        "yes"
+      ],
+      "confusables": [
+        {
+          "word": "now",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "could not",
+        "did not"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He did not come.",
+          "ko": "그는 오지 않았다."
+        }
+      ],
+      "koreanTips": [
+        "'not'은 부정을 나타내며, 축약형 'n't'도 자주 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈnɑt/"
+    },
+    "go": {
+      "pos": "verb (infinitive)",
+      "meanings": [
+        {
+          "ko": "가다",
+          "en": "to move from one place to another",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "밖으로 나가는 동작을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "go"
+        },
+        {
+          "label": "과거",
+          "form": "went"
+        },
+        {
+          "label": "과거분사",
+          "form": "gone"
+        },
+        {
+          "label": "현재분사",
+          "form": "going"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "goes"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "go",
+            "meaning": "움직이다"
+          }
+        ],
+        "note": "고대 영어 'gan'에서 유래"
+      },
+      "synonyms": [
+        "travel",
+        "move"
+      ],
+      "antonyms": [
+        "stay"
+      ],
+      "confusables": [
+        {
+          "word": "God",
+          "note": "철자가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "go outside",
+        "go home"
+      ],
+      "idioms": [
+        {
+          "phrase": "go for it",
+          "ko": "도전해봐!"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let's go to the park.",
+          "ko": "공원에 가자."
+        }
+      ],
+      "koreanTips": [
+        "'go outside' (O) vs 'go outdoors' (O) — 전치사 선택에 따라 다름"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɡoʊ/"
+    },
+    "outside": {
+      "pos": "adverb/preposition",
+      "meanings": [
+        {
+          "ko": "밖으로",
+          "en": "away from inside",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "집 밖으로 나가는 장소를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "outdoors"
+      ],
+      "antonyms": [
+        "inside"
+      ],
+      "confusables": [
+        {
+          "word": "outsider",
+          "note": "형태가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "go outside",
+        "play outside"
+      ],
+      "idioms": [
+        {
+          "phrase": "think outside the box",
+          "ko": "틀에서 벗어나 생각하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Children love playing outside.",
+          "ko": "아이들은 밖에서 노는 것을 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'outside' (부사/전치사) vs 'outdoor' (형용사) — 형태 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈaʊtˈsaɪd/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~하기 위해",
+          "en": "direction or purpose",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "놀기 위한 목적을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "for"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "too",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "go to play",
+        "want to do"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I went to the store.",
+          "ko": "나는 가게에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'to play' (목적) vs 'playing' (동작) — 전치사와 동사의 차이"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "play": {
+      "pos": "verb (infinitive)",
+      "meanings": [
+        {
+          "ko": "놀다",
+          "en": "engage in fun activity",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "재미있는 활동을 하려는 의도",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "play"
+        },
+        {
+          "label": "과거",
+          "form": "played"
+        },
+        {
+          "label": "과거분사",
+          "form": "played"
+        },
+        {
+          "label": "현재분사",
+          "form": "playing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "plays"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "have fun",
+        "enjoy oneself"
+      ],
+      "antonyms": [
+        "work"
+      ],
+      "confusables": [
+        {
+          "word": "place",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "go outside to play",
+        "play games"
+      ],
+      "idioms": [
+        {
+          "phrase": "play by ear",
+          "ko": "즉흥적으로 하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Kids like to play.",
+          "ko": "아이들은 놀기를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'play outside' (O) vs 'play in the house' (O) — 전치사 선택에 따라 다름"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpɫeɪ/"
+    },
+    "sat": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "앉았다",
+          "en": "past form of sit",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "안나가 소파에 앉아 책을 읽는 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "sit"
+        },
+        {
+          "label": "과거",
+          "form": "sat"
+        },
+        {
+          "label": "과거분사",
+          "form": "sat"
+        },
+        {
+          "label": "현재분사",
+          "form": "sitting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "sits"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "rested"
+      ],
+      "antonyms": [
+        "stood"
+      ],
+      "confusables": [
+        {
+          "word": "set",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "sat on the sofa",
+        "sat down"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He sat quietly.",
+          "ko": "그는 조용히 앉아 있었다."
+        }
+      ],
+      "koreanTips": [
+        "'sat' (과거) vs 'sit' (현재) — 시제 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsæt/"
+    },
+    "on": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~위에",
+          "en": "surface contact",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "소파 위에 앉아 있는 위치를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "upon"
+      ],
+      "antonyms": [
+        "under"
+      ],
+      "confusables": [
+        {
+          "word": "own",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "sat on the sofa",
+        "put on shoes"
+      ],
+      "idioms": [
+        {
+          "phrase": "on top of the world",
+          "ko": "세상 제일 기분 좋은 상태"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The book is on the table.",
+          "ko": "책은 테이블 위에 있다."
+        }
+      ],
+      "koreanTips": [
+        "'on the sofa' (O) vs 'in the chair' (O) — 전치사 선택에 따라 다름"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɑn/"
+    },
+    "sofa": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "소파",
+          "en": "long seat for multiple people",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "안나가 앉아 책을 읽는 가구",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "sofa"
+        },
+        {
+          "label": "복수",
+          "form": "sofas"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "sofa",
+            "meaning": "아랍어에서 온 단어"
+          }
+        ],
+        "note": "아랍어 'suffah'에서 유래"
+      },
+      "synonyms": [
+        "couch"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "soft",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "sat on the sofa",
+        "sleep on the sofa"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They watched TV on the sofa.",
+          "ko": "그들은 소파에서 TV를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'sofa' (O) vs 'couch' (O) — 같은 의미지만 'sofa'가 좀 더 격식 있는 표현"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsoʊfə/"
+    },
+    "read": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "읽었다",
+          "en": "past form of read",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "책을 읽는 행위",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "read"
+        },
+        {
+          "label": "과거",
+          "form": "read"
+        },
+        {
+          "label": "과거분사",
+          "form": "read"
+        },
+        {
+          "label": "현재분사",
+          "form": "reading"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "reads"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "studied"
+      ],
+      "antonyms": [
+        "ignored"
+      ],
+      "confusables": [
+        {
+          "word": "red",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "read a book",
+        "read carefully"
+      ],
+      "idioms": [
+        {
+          "phrase": "read between the lines",
+          "ko": "암시를 읽다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She read a story.",
+          "ko": "그녀는 이야기를 읽었다."
+        }
+      ],
+      "koreanTips": [
+        "'read' (과거와 현재 동일 발음) — 시제 구분 시 문맥 중요"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹɛd/"
+    },
+    "book": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "책",
+          "en": "written work with pages",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "안나가 읽고 있는 물건",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "book"
+        },
+        {
+          "label": "복수",
+          "form": "books"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "book",
+            "meaning": "책"
+          }
+        ],
+        "note": "고대 영어 'boc'에서 유래"
+      },
+      "synonyms": [
+        "novel",
+        "text"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "look",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "read a book",
+        "write a book"
+      ],
+      "idioms": [
+        {
+          "phrase": "by the book",
+          "ko": "규칙대로"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This book is interesting.",
+          "ko": "이 책은 재미있다."
+        }
+      ],
+      "koreanTips": [
+        "'book' (O) vs 'magazine' (O) — 책과 잡지는 다른 매체"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbʊk/"
+    },
+    "about": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~에 대해",
+          "en": "topic or subject",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "책의 내용이 무엇인지 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "regarding"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "above",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "book about",
+        "talk about"
+      ],
+      "idioms": [
+        {
+          "phrase": "what about",
+          "ko": "~는 어때?"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I read a book about animals.",
+          "ko": "나는 동물에 관한 책을 읽었다."
+        }
+      ],
+      "koreanTips": [
+        "'about' (전치사) vs 'around' (전치사) — 의미 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/əˈbaʊt/"
+    },
+    "brave": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "용감한",
+          "en": "showing courage",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "책 속 여주인공의 성격을 묘사함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "brave"
+        },
+        {
+          "label": "비교급",
+          "form": "braver"
+        },
+        {
+          "label": "최상급",
+          "form": "bravest"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "brave",
+            "meaning": "용기 있는"
+          }
+        ],
+        "note": "프랑스어 'brave'에서 유래"
+      },
+      "synonyms": [
+        "courageous",
+        "bold"
+      ],
+      "antonyms": [
+        "cowardly"
+      ],
+      "confusables": [
+        {
+          "word": "grave",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "brave girl",
+        "brave soldier"
+      ],
+      "idioms": [
+        {
+          "phrase": "brave new world",
+          "ko": "새로운 세상"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He was brave during the storm.",
+          "ko": "그는 폭풍 동안 용감했다."
+        }
+      ],
+      "koreanTips": [
+        "'brave' (형용사) vs 'bravery' (명사) — 형태 구분"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈbɹeɪv/"
+    },
+    "girl": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "여자아이",
+          "en": "young female person",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "책 속 주인공 여자아이",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "girl"
+        },
+        {
+          "label": "복수",
+          "form": "girls"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "girl",
+            "meaning": "여자아이"
+          }
+        ],
+        "note": "고대 영어 'gyrle'에서 유래"
+      },
+      "synonyms": [
+        "child",
+        "kid"
+      ],
+      "antonyms": [
+        "boy"
+      ],
+      "confusables": [
+        {
+          "word": "guy",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "brave girl",
+        "young girl"
+      ],
+      "idioms": [
+        {
+          "phrase": "every girl's dream",
+          "ko": "모든 여자의 꿈"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The girl smiled happily.",
+          "ko": "그 여자아이는 행복하게 웃었다."
+        }
+      ],
+      "koreanTips": [
+        "'girl' (여자아이) vs 'woman' (성인 여성) — 나이 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɡɝɫ/"
+    },
+    "who": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "누가",
+          "en": "person doing action",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "책 속 여주인공이 하는 행동을 묘사함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "that"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "whose",
+          "note": "형태가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "girl who traveled",
+        "person who helped"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The man who called me.",
+          "ko": "나에게 전화한 남자."
+        }
+      ],
+      "koreanTips": [
+        "'who' (주어) vs 'whom' (목적어) — 격 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhu/"
+    },
+    "traveled": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "여행했다",
+          "en": "moved from place to place",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "책 속 여주인공이 세계를 돌아다녔다는 내용",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "travel"
+        },
+        {
+          "label": "과거",
+          "form": "traveled/travelled"
+        },
+        {
+          "label": "과거분사",
+          "form": "traveled/travelled"
+        },
+        {
+          "label": "현재분사",
+          "form": "traveling/travelling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "travels"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "travel",
+            "meaning": "움직이다"
+          }
+        ],
+        "note": "프랑스어 'travail'에서 유래"
+      },
+      "synonyms": [
+        "journeyed",
+        "roamed"
+      ],
+      "antonyms": [
+        "stayed"
+      ],
+      "confusables": [
+        {
+          "word": "traveled",
+          "note": "미국식과 영국식 철자가 다름"
+        }
+      ],
+      "collocations": [
+        "traveled the world",
+        "traveled far"
+      ],
+      "idioms": [
+        {
+          "phrase": "travel broadens the mind",
+          "ko": "여행은 마음을 넓힌다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She traveled across Europe.",
+          "ko": "그녀는 유럽을 여행했다."
+        }
+      ],
+      "koreanTips": [
+        "'travel' (O) vs 'trip' (O) — 동사와 명사의 차이"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtɹævəɫd/"
+    },
+    "world": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "세계",
+          "en": "entire Earth or many places",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "책 속 여주인공이 여행하는 장소",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "world"
+        },
+        {
+          "label": "복수",
+          "form": "worlds"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "world",
+            "meaning": "세계"
+          }
+        ],
+        "note": "고대 영어 'weorold'에서 유래"
+      },
+      "synonyms": [
+        "Earth",
+        "planet"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "word",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "traveled the world",
+        "around the world"
+      ],
+      "idioms": [
+        {
+          "phrase": "best of both worlds",
+          "ko": "두 마리 토끼를 모두 잡다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He wants to see the world.",
+          "ko": "그는 세계를 보고 싶다."
+        }
+      ],
+      "koreanTips": [
+        "'world' (세계) vs 'country' (나라) — 범위 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɝɫd/"
+    },
+    "wished": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "바랐다",
+          "en": "desired strongly",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "안나가 여행하고 싶은 소망을 표현함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "wish"
+        },
+        {
+          "label": "과거",
+          "form": "wished"
+        },
+        {
+          "label": "과거분사",
+          "form": "wished"
+        },
+        {
+          "label": "현재분사",
+          "form": "wishing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "wishes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "hoped"
+      ],
+      "antonyms": [
+        "regretted"
+      ],
+      "confusables": [
+        {
+          "word": "witch",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "wished she could",
+        "make a wish"
+      ],
+      "idioms": [
+        {
+          "phrase": "be careful what you wish for",
+          "ko": "바라는 것이 이루어질 수도 있으니 조심해라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She wished for a pony.",
+          "ko": "그녀는 조랑말을 바랐다."
+        }
+      ],
+      "koreanTips": [
+        "'wish' (과거 소망) vs 'hope' (현재 소망) — 시간 구분"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈwɪʃt/"
+    },
+    "too": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "또한",
+          "en": "also or as well",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "안나도 여행하고 싶다는 추가 정보",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "also",
+        "as well"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "to",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "could travel too",
+        "me too"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I want to go too.",
+          "ko": "나도 가고 싶다."
+        }
+      ],
+      "koreanTips": [
+        "'too' (또한) vs 'two' (숫자 2) — 발음 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "after": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~후에",
+          "en": "following in time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비가 멈춘 시간을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "following"
+      ],
+      "antonyms": [
+        "before"
+      ],
+      "confusables": [
+        {
+          "word": "offer",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "after two hours",
+        "after lunch"
+      ],
+      "idioms": [
+        {
+          "phrase": "after all",
+          "ko": "결국에는"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We left after dinner.",
+          "ko": "저녁 후에 우리는 떠났다."
+        }
+      ],
+      "koreanTips": [
+        "'after two hours' (O) vs 'in two hours' (O) — 시간 표현 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈæftɝ/"
+    },
+    "two": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "둘",
+          "en": "number 2",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "시간의 양을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "pair"
+      ],
+      "antonyms": [
+        "one"
+      ],
+      "confusables": [
+        {
+          "word": "too",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "two hours",
+        "two books"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I have two cats.",
+          "ko": "나는 고양이 두 마리를 가지고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'two' (숫자) vs 'too' (또한) — 발음 구분"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "hours": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "시간들",
+          "en": "units of time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비가 멈추기까지 걸린 시간의 단위",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "hour"
+        },
+        {
+          "label": "복수",
+          "form": "hours"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "hour",
+            "meaning": "시간"
+          }
+        ],
+        "note": "프랑스어 'heure'에서 유래"
+      },
+      "synonyms": [
+        "periods"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "our",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "two hours",
+        "working hours"
+      ],
+      "idioms": [
+        {
+          "phrase": "hour of need",
+          "ko": "필요한 순간"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It took three hours.",
+          "ko": "그것은 세 시간이 걸렸다."
+        }
+      ],
+      "koreanTips": [
+        "'hour' (시간) vs 'hower' (X) — 철자 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈaʊɝz/"
+    },
+    "stopped": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "멈췄다",
+          "en": "ceased movement or action",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비가 멈추는 동작을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "stop"
+        },
+        {
+          "label": "과거",
+          "form": "stopped"
+        },
+        {
+          "label": "과거분사",
+          "form": "stopped"
+        },
+        {
+          "label": "현재분사",
+          "form": "stopping"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "stops"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "ended",
+        "finished"
+      ],
+      "antonyms": [
+        "started"
+      ],
+      "confusables": [
+        {
+          "word": "started",
+          "note": "반대 의미로 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "rain stopped",
+        "bus stopped"
+      ],
+      "idioms": [
+        {
+          "phrase": "pull over and stop",
+          "ko": "옆으로 치우고 멈추다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The car stopped suddenly.",
+          "ko": "차가 갑자기 멈췄다."
+        }
+      ],
+      "koreanTips": [
+        "'stopped' (과거) vs 'stops' (현재) — 시제 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈstɑpt/"
+    },
+    "sun": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "태양",
+          "en": "star that gives light to Earth",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비가 멈춘 후 다시 나타난 자연 현상",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "sun"
+        },
+        {
+          "label": "복수",
+          "form": "suns"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "sun",
+            "meaning": "태양"
+          }
+        ],
+        "note": "고대 영어 'sunne'에서 유래"
+      },
+      "synonyms": [
+        "star"
+      ],
+      "antonyms": [
+        "moon"
+      ],
+      "confusables": [
+        {
+          "word": "son",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "sun came out",
+        "bright sun"
+      ],
+      "idioms": [
+        {
+          "phrase": "catch the sun",
+          "ko": "햇볕을 받다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sun rose early.",
+          "ko": "태양이 일찍 떴다."
+        }
+      ],
+      "koreanTips": [
+        "'sun' (태양) vs 'son' (아들) — 발음 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsən/"
+    },
+    "came": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "나타났다",
+          "en": "past form of come",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "태양이 다시 나타나는 모습을 묘사함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "come"
+        },
+        {
+          "label": "과거",
+          "form": "came"
+        },
+        {
+          "label": "과거분사",
+          "form": "come"
+        },
+        {
+          "label": "현재분사",
+          "form": "coming"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "comes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "appeared"
+      ],
+      "antonyms": [
+        "disappeared"
+      ],
+      "confusables": [
+        {
+          "word": "came",
+          "note": "불규칙 변화로 기억 필요"
+        }
+      ],
+      "collocations": [
+        "sun came out",
+        "came back"
+      ],
+      "idioms": [
+        {
+          "phrase": "come to think of it",
+          "ko": "생각해보니"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He came home late.",
+          "ko": "그는 집에 늦게 왔다."
+        }
+      ],
+      "koreanTips": [
+        "'came' (과거) vs 'come' (현재) — 불규칙 변화 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkeɪm/"
+    },
+    "put": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "신다",
+          "en": "past form of put on",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "신발을 신는 동작을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "put"
+        },
+        {
+          "label": "과거",
+          "form": "put"
+        },
+        {
+          "label": "과거분사",
+          "form": "put"
+        },
+        {
+          "label": "현재분사",
+          "form": "putting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "puts"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "wear"
+      ],
+      "antonyms": [
+        "take off"
+      ],
+      "confusables": [
+        {
+          "word": "but",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "put on shoes",
+        "put on jacket"
+      ],
+      "idioms": [
+        {
+          "phrase": "put your foot down",
+          "ko": "단호히 말하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She put on her coat.",
+          "ko": "그녀는 코트를 입었다."
+        }
+      ],
+      "koreanTips": [
+        "'put on shoes' (O) vs 'wear shoes' (O) — 같은 의미지만 'put on'은 동작 강조"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpʊt/"
+    },
+    "shoes": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "신발들",
+          "en": "footwear items",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "밖으로 나가기 위해 신는 신발",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "shoe"
+        },
+        {
+          "label": "복수",
+          "form": "shoes"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "shoe",
+            "meaning": "신발"
+          }
+        ],
+        "note": "고대 영어 'scō'에서 유래"
+      },
+      "synonyms": [
+        "footwear"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "shows",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "put on shoes",
+        "clean shoes"
+      ],
+      "idioms": [
+        {
+          "phrase": "walk a mile in someone else's shoes",
+          "ko": "다른 사람의 입장에서 생각해보라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "His shoes are dirty.",
+          "ko": "그의 신발은 더럽다."
+        }
+      ],
+      "koreanTips": [
+        "'shoes' (복수) vs 'shoe' (단수) — 수 일치 중요"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈʃuz/"
+    },
+    "went": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "갔다",
+          "en": "past form of go",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "밖으로 나가는 동작을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "go"
+        },
+        {
+          "label": "과거",
+          "form": "went"
+        },
+        {
+          "label": "과거분사",
+          "form": "gone"
+        },
+        {
+          "label": "현재분사",
+          "form": "going"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "goes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "left"
+      ],
+      "antonyms": [
+        "stayed"
+      ],
+      "confusables": [
+        {
+          "word": "want",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "went outside",
+        "went home"
+      ],
+      "idioms": [
+        {
+          "phrase": "go the extra mile",
+          "ko": "더 노력하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He went to the store.",
+          "ko": "그는 가게에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'went' (과거) vs 'go' (현재) — 불규칙 변화 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɛnt/"
+    },
+    "air": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "공기",
+          "en": "invisible gas we breathe",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비가 멈춘 후의 공기 상태를 묘사함",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "air"
+        },
+        {
+          "label": "복수",
+          "form": "airs"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "air",
+            "meaning": "공기"
+          }
+        ],
+        "note": "프랑스어 'air'에서 유래"
+      },
+      "synonyms": [
+        "atmosphere"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "ear",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "air smelled",
+        "fresh air"
+      ],
+      "idioms": [
+        {
+          "phrase": "air your dirty laundry",
+          "ko": "가족 문제를 외부에 알리다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The air felt cool.",
+          "ko": "공기가 시원하게 느껴졌다."
+        }
+      ],
+      "koreanTips": [
+        "'air' (공기) vs 'area' (지역) — 발음 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɛɹ/"
+    },
+    "smelled": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "향이 났다",
+          "en": "past form of smell",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비 후 공기의 향을 묘사함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "smell"
+        },
+        {
+          "label": "과거",
+          "form": "smelled/smelt"
+        },
+        {
+          "label": "과거분사",
+          "form": "smelled/smelt"
+        },
+        {
+          "label": "현재분사",
+          "form": "smelling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "smells"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "scented"
+      ],
+      "antonyms": [
+        "odorless"
+      ],
+      "confusables": [
+        {
+          "word": "smiled",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "air smelled",
+        "flowers smelled"
+      ],
+      "idioms": [
+        {
+          "phrase": "stop and smell the roses",
+          "ko": "천천히 즐기며 살기"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The flowers smelled sweet.",
+          "ko": "꽃들이 달콤하게 냄새 났다."
+        }
+      ],
+      "koreanTips": [
+        "'smelled' (미국식) vs 'smelt' (영국식) — 철자 구분"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsmɛɫd/"
+    },
+    "fresh": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "신선한",
+          "en": "new or clean",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비 후 공기의 청결한 상태를 묘사함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "fresh"
+        },
+        {
+          "label": "비교급",
+          "form": "fresher"
+        },
+        {
+          "label": "최상급",
+          "form": "freshest"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "clean",
+        "new"
+      ],
+      "antonyms": [
+        "stale"
+      ],
+      "confusables": [
+        {
+          "word": "flesh",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "fresh air",
+        "fresh fruit"
+      ],
+      "idioms": [
+        {
+          "phrase": "fresh start",
+          "ko": "새로운 시작"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bread was fresh.",
+          "ko": "빵은 신선했다."
+        }
+      ],
+      "koreanTips": [
+        "'fresh' (형용사) vs 'refresh' (동사) — 형태 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɹɛʃ/"
+    },
+    "clean": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "깨끗한",
+          "en": "free from dirt",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비 후 공기의 깨끗한 상태를 묘사함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "clean"
+        },
+        {
+          "label": "비교급",
+          "form": "cleaner"
+        },
+        {
+          "label": "최상급",
+          "form": "cleanest"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "tidy",
+        "spotless"
+      ],
+      "antonyms": [
+        "dirty"
+      ],
+      "confusables": [
+        {
+          "word": "clear",
+          "note": "의미가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "clean air",
+        "clean room"
+      ],
+      "idioms": [
+        {
+          "phrase": "clean slate",
+          "ko": "완전히 새로운 시작"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The room was clean.",
+          "ko": "방은 깨끗했다."
+        }
+      ],
+      "koreanTips": [
+        "'clean' (형용사) vs 'clean up' (동사) — 형태 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkɫin/"
+    },
+    "jumped": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "뛰었다",
+          "en": "past form of jump",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "안나가 물웅덩이에서 뛰는 즐거운 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "jump"
+        },
+        {
+          "label": "과거",
+          "form": "jumped"
+        },
+        {
+          "label": "과거분사",
+          "form": "jumped"
+        },
+        {
+          "label": "현재분사",
+          "form": "jumping"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "jumps"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "hopped"
+      ],
+      "antonyms": [
+        "stood still"
+      ],
+      "confusables": [
+        {
+          "word": "dumped",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "jumped in puddles",
+        "jumped high"
+      ],
+      "idioms": [
+        {
+          "phrase": "jump ship",
+          "ko": "떠나다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The kids jumped around.",
+          "ko": "아이들이 여기저기 뛰어다녔다."
+        }
+      ],
+      "koreanTips": [
+        "'jumped' (과거) vs 'jump' (현재) — 시제 구분"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈdʒəmpt/"
+    },
+    "puddles": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "물웅덩이들",
+          "en": "small pools of water",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "비 후 생긴 물웅덩이에서 뛰는 장소",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "puddle"
+        },
+        {
+          "label": "복수",
+          "form": "puddles"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "puddle",
+            "meaning": "작은 물웅덩이"
+          }
+        ],
+        "note": "중세 영어 'pudel'에서 유래"
+      },
+      "synonyms": [
+        "pools"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "paddles",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "jumped in puddles",
+        "splash in puddles"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Children love jumping in puddles.",
+          "ko": "아이들은 물웅덩이에서 뛰는 것을 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'puddle' (단수) vs 'puddles' (복수) — 수 일치 중요"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈpədəɫz/"
+    },
+    "laughed": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "웃었다",
+          "en": "past form of laugh",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "안나가 즐거움을 표현하는 감정",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "laugh"
+        },
+        {
+          "label": "과거",
+          "form": "laughed"
+        },
+        {
+          "label": "과거분사",
+          "form": "laughed"
+        },
+        {
+          "label": "현재분사",
+          "form": "laughing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "laughs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "chuckled"
+      ],
+      "antonyms": [
+        "cried"
+      ],
+      "confusables": [
+        {
+          "word": "learned",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "laughed happily",
+        "laughed out loud"
+      ],
+      "idioms": [
+        {
+          "phrase": "laugh all the way to the bank",
+          "ko": "돈 때문에 즐겁게 웃다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She laughed at the joke.",
+          "ko": "그녀는 농담에 웃었다."
+        }
+      ],
+      "koreanTips": [
+        "'laughed' (과거) vs 'laugh' (현재) — 시제 구분"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫæft/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "It was a rainy day.",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "a rainy day",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어 구조"
+        },
+        "explanation": "이 문장은 'It was...'으로 시작되어 날씨를 설명하는 일반적인 표현입니다. 'It'은 날씨를 가리킬 때 자주 사용됩니다.",
+        "grammarPoints": [
+          "It was ~ (날씨 표현)",
+          "형용사 + 명사 조합",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "It was sunny yesterday.",
+            "ko": "어제는 맑았다."
+          },
+          {
+            "en": "It was cold today.",
+            "ko": "오늘은 추웠다."
+          }
+        ]
+      },
+      {
+        "text": "Anna looked out the window.",
+        "structure": {
+          "subject": {
+            "text": "Anna",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "looked",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "out the window",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어 구조"
+        },
+        "explanation": "이 문장은 주어가 행동을 하는 구조입니다. 'looked out'는 '밖을 바라보다'라는 뜻으로, 전치사 'out'이 동사와 결합했습니다.",
+        "grammarPoints": [
+          "look out (전치사와 결합된 동사)",
+          "과거 시제",
+          "전치사 구"
+        ],
+        "examples": [
+          {
+            "en": "He looked into the mirror.",
+            "ko": "그는 거울을 들여다보았다."
+          },
+          {
+            "en": "She looked around the room.",
+            "ko": "그녀는 방을 둘러보았다."
+          }
+        ]
+      },
+      {
+        "text": "The sky was gray and dark.",
+        "structure": {
+          "subject": {
+            "text": "The sky",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "gray and dark",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어 구조"
+        },
+        "explanation": "이 문장은 'The sky was...'로 하늘의 상태를 묘사합니다. 'gray and dark'는 형용사 두 개가 연결된 형태입니다.",
+        "grammarPoints": [
+          "형용사 연결 (and)",
+          "과거 시제",
+          "관사 사용"
+        ],
+        "examples": [
+          {
+            "en": "The room was big and bright.",
+            "ko": "방은 크고 밝았다."
+          },
+          {
+            "en": "The coffee was hot and strong.",
+            "ko": "커피는 뜨겁고 진했다."
+          }
+        ]
+      },
+      {
+        "text": "She could not go outside to play.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "could go",
+            "label": "동사"
+          },
+          "object": {
+            "text": "outside",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "to play",
+            "label": "목적"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어 구조"
+        },
+        "explanation": "이 문장은 'could not'이라는 모달 동사를 사용해 가능성을 부정하고 있습니다. 'go outside to play'는 '밖으로 나가서 놀다'라는 뜻입니다.",
+        "grammarPoints": [
+          "모달 동사 (could not)",
+          "목적을 나타내는 to",
+          "전치사 구"
+        ],
+        "examples": [
+          {
+            "en": "He could not come to the party.",
+            "ko": "그는 파티에 올 수 없었다."
+          },
+          {
+            "en": "She couldn't find her keys.",
+            "ko": "그녀는 열쇠를 찾을 수 없었다."
+          }
+        ]
+      },
+      {
+        "text": "She sat on the sofa and read a book.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "sat",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "on the sofa",
+            "label": "보어"
+          },
+          "object": {
+            "text": "a book",
+            "label": "목적어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C+O",
+          "note": "주어+동사+보어+목적어 구조"
+        },
+        "explanation": "이 문장은 두 개의 동사('sat', 'read')가 연결되어 있으며, 'and'로 연결된 병렬 구조입니다. 'on the sofa'는 장소를 나타냅니다.",
+        "grammarPoints": [
+          "병렬 구조 (and)",
+          "전치사 구",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He sat down and watched TV.",
+            "ko": "그는 앉아서 TV를 봤다."
+          },
+          {
+            "en": "She stood up and walked away.",
+            "ko": "그녀는 일어나서 걸어갔다."
+          }
+        ]
+      },
+      {
+        "text": "The book was about a brave girl who traveled the world.",
+        "structure": {
+          "subject": {
+            "text": "The book",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "about a brave girl",
+            "label": "보어"
+          },
+          "object": {
+            "text": "who traveled the world",
+            "label": "관계절"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어 구조"
+        },
+        "explanation": "이 문장은 'The book was about...'이라는 패턴으로 책의 내용을 설명합니다. 'who traveled the world'는 관계대명사 'who'로 시작된 절입니다.",
+        "grammarPoints": [
+          "관계대명사 (who)",
+          "be about (내용 설명)",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "The movie was about a brave knight.",
+            "ko": "그 영화는 용감한 기사에 관한 것이었다."
+          },
+          {
+            "en": "The story is about friendship.",
+            "ko": "그 이야기는 우정에 관한 것이다."
+          }
+        ]
+      },
+      {
+        "text": "Anna wished she could travel too.",
+        "structure": {
+          "subject": {
+            "text": "Anna",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "wished",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "she could travel too",
+            "label": "목적어 절"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어 구조"
+        },
+        "explanation": "이 문장은 'wished' 뒤에 목적어 절이 붙은 형태입니다. 'she could travel too'는 Anna의 소망을 나타냅니다.",
+        "grammarPoints": [
+          "목적어 절",
+          "모달 동사 (could)",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He wished he had more time.",
+            "ko": "그는 시간이 더 많았으면 좋겠다고 바랐다."
+          },
+          {
+            "en": "She wished she could fly.",
+            "ko": "그녀는 날 수 있기를 바랐다."
+          }
+        ]
+      },
+      {
+        "text": "After two hours, the rain stopped.",
+        "structure": {
+          "subject": {
+            "text": "the rain",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "stopped",
+            "label": "동사"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어+동사 구조"
+        },
+        "explanation": "이 문장은 시간을 나타내는 'After two hours'로 시작하여 사건의 결과를 설명합니다. 'stopped'는 동사의 과거형입니다.",
+        "grammarPoints": [
+          "시간 전치사 (after)",
+          "과거 시제",
+          "전치사 구"
+        ],
+        "examples": [
+          {
+            "en": "After lunch, we went home.",
+            "ko": "점심 후에 우리는 집에 갔다."
+          },
+          {
+            "en": "The meeting ended after an hour.",
+            "ko": "회의는 한 시간 후에 끝났다."
+          }
+        ]
+      },
+      {
+        "text": "The sun came out.",
+        "structure": {
+          "subject": {
+            "text": "The sun",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "came",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "out",
+            "label": "부사"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어 구조"
+        },
+        "explanation": "이 문장은 'came out'이라는 표현으로 태양이 나타났음을 나타냅니다. 'out'은 부사로 동사와 함께 쓰였습니다.",
+        "grammarPoints": [
+          "came out (동사 표현)",
+          "과거 시제",
+          "부사 사용"
+        ],
+        "examples": [
+          {
+            "en": "The stars came out at night.",
+            "ko": "밤이 되자 별들이 나타났다."
+          },
+          {
+            "en": "He came out of the room.",
+            "ko": "그는 방에서 나왔다."
+          }
+        ]
+      },
+      {
+        "text": "Anna put on her shoes and went outside.",
+        "structure": {
+          "subject": {
+            "text": "Anna",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "put on",
+            "label": "동사"
+          },
+          "object": {
+            "text": "her shoes",
+            "label": "목적어"
+          },
+          "complement": {
+            "text": "and went outside",
+            "label": "연결된 동사"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어 구조"
+        },
+        "explanation": "이 문장은 두 개의 동사('put on', 'went')가 연결되어 있으며, 'and'로 연결된 병렬 구조입니다. 'put on her shoes'는 '신발을 신다'라는 뜻입니다.",
+        "grammarPoints": [
+          "put on (의류 착용 표현)",
+          "병렬 구조 (and)",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He put on his jacket and left.",
+            "ko": "그는 재킷을 입고 떠났다."
+          },
+          {
+            "en": "She got dressed and went out.",
+            "ko": "그녀는 옷을 입고 나갔다."
+          }
+        ]
+      },
+      {
+        "text": "The air smelled fresh and clean.",
+        "structure": {
+          "subject": {
+            "text": "The air",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "smelled",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "fresh and clean",
+            "label": "보어"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어 구조"
+        },
+        "explanation": "이 문장은 'The air smelled...'이라는 표현으로 공기의 상태를 묘사합니다. 'fresh and clean'은 형용사 두 개가 연결된 형태입니다.",
+        "grammarPoints": [
+          "smell + 형용사 (감각 동사)",
+          "형용사 연결 (and)",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "The food tasted delicious.",
+            "ko": "음식은 맛있었다."
+          },
+          {
+            "en": "The room looked tidy.",
+            "ko": "방은 깔끔해 보였다."
+          }
+        ]
+      },
+      {
+        "text": "She jumped in the puddles and laughed.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "주어"
+          },
+          "verb": {
+            "text": "jumped",
+            "label": "동사"
+          },
+          "complement": {
+            "text": "in the puddles",
+            "label": "보어"
+          },
+          "object": {
+            "text": "and laughed",
+            "label": "연결된 동사"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C+O",
+          "note": "주어+동사+보어+목적어 구조"
+        },
+        "explanation": "이 문장은 두 개의 동사('jumped', 'laughed')가 연결되어 있으며, 'and'로 연결된 병렬 구조입니다. 'in the puddles'는 장소를 나타냅니다.",
+        "grammarPoints": [
+          "전치사 구",
+          "병렬 구조 (and)",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He ran in the park and played soccer.",
+            "ko": "그는 공원에서 뛰고 축구를 했다."
+          },
+          {
+            "en": "She danced and sang happily.",
+            "ko": "그녀는 행복하게 춤추고 노래했다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "비 오는 날이었다. 안나는 창밖을 바라보았다. 하늘은 회색이고 어두웠다. 그녀는 밖으로 나가 놀 수 없었다. 그녀는 소파에 앉아 책을 읽었다. 책은 세계를 여행하는 용감한 여자아이에 관한 것이었다. 안나는 자신도 여행할 수 있기를 바랐다. 두 시간 후, 비가 멈췄다. 태양이 나왔다. 안나는 신발을 신고 밖으로 나갔다. 공기는 신선하고 깨끗하게 냄새 났다. 그녀는 물웅덩이에서 뛰어다니며 웃었다.",
+  "keyVocab": [
+    "rainy",
+    "looked out",
+    "gray and dark",
+    "could not",
+    "traveled"
+  ],
+  "quiz": {
+    "question": "What did Anna do when the sun came out?",
+    "answer": "She put on her shoes and went outside."
+  },
+  "generated_at": "2026-02-20T07:47:13.699537+09:00"
+}

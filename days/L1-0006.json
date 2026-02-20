@@ -1,0 +1,2756 @@
+{
+  "num": "0006",
+  "category": "L1",
+  "source": {
+    "title": "The Dog and His Shadow",
+    "author": "Aesop",
+    "license": "Public Domain",
+    "url": "https://standardebooks.org"
+  },
+  "passage": "A dog found a piece of meat. He was very happy. He walked home with the meat in his mouth. On the way, he crossed a bridge over a river. He looked down into the water. He saw another dog with meat. It was his own shadow! He wanted that meat too. He opened his mouth to grab it. His own meat fell into the river. Now he had nothing. He learned a lesson that day: be happy with what you have.",
+  "audio": {
+    "passage": "audio/L1-0006.mp3",
+    "words": {
+      "dog": "audio/L1-0006-dog.mp3",
+      "found": "audio/L1-0006-found.mp3",
+      "piece": "audio/L1-0006-piece.mp3",
+      "of": "audio/L1-0006-of.mp3",
+      "meat": "audio/L1-0006-meat.mp3",
+      "he": "audio/L1-0006-he.mp3",
+      "was": "audio/L1-0006-was.mp3",
+      "happy": "audio/L1-0006-happy.mp3",
+      "walked": "audio/L1-0006-walked.mp3",
+      "home": "audio/L1-0006-home.mp3",
+      "with": "audio/L1-0006-with.mp3",
+      "the": "audio/L1-0006-the.mp3",
+      "in": "audio/L1-0006-in.mp3",
+      "his": "audio/L1-0006-his.mp3",
+      "mouth": "audio/L1-0006-mouth.mp3",
+      "on": "audio/L1-0006-on.mp3",
+      "way": "audio/L1-0006-way.mp3",
+      "crossed": "audio/L1-0006-crossed.mp3",
+      "bridge": "audio/L1-0006-bridge.mp3",
+      "over": "audio/L1-0006-over.mp3",
+      "river": "audio/L1-0006-river.mp3",
+      "looked": "audio/L1-0006-looked.mp3",
+      "down": "audio/L1-0006-down.mp3",
+      "into": "audio/L1-0006-into.mp3",
+      "water": "audio/L1-0006-water.mp3",
+      "saw": "audio/L1-0006-saw.mp3",
+      "another": "audio/L1-0006-another.mp3",
+      "it": "audio/L1-0006-it.mp3",
+      "own": "audio/L1-0006-own.mp3",
+      "shadow": "audio/L1-0006-shadow.mp3",
+      "too": "audio/L1-0006-too.mp3",
+      "opened": "audio/L1-0006-opened.mp3",
+      "grab": "audio/L1-0006-grab.mp3",
+      "fell": "audio/L1-0006-fell.mp3",
+      "now": "audio/L1-0006-now.mp3",
+      "had": "audio/L1-0006-had.mp3",
+      "nothing": "audio/L1-0006-nothing.mp3",
+      "learned": "audio/L1-0006-learned.mp3",
+      "lesson": "audio/L1-0006-lesson.mp3",
+      "that": "audio/L1-0006-that.mp3",
+      "day": "audio/L1-0006-day.mp3",
+      "be": "audio/L1-0006-be.mp3",
+      "what": "audio/L1-0006-what.mp3",
+      "you": "audio/L1-0006-you.mp3",
+      "have": "audio/L1-0006-have.mp3"
+    }
+  },
+  "words": {
+    "a": {
+      "pos": "article (indefinite)",
+      "meanings": [
+        {
+          "ko": "하나의, 한",
+          "en": "one of something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "불특정한 하나의 고기를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a piece of",
+        "a dog"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw a bird.",
+          "ko": "나는 새 한 마리를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'a dog'처럼 단수명사 앞에는 관사 a/an이 필요함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "dog": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "개",
+          "en": "canine animal",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이야기 속 주인공인 개",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "dog"
+        },
+        {
+          "label": "복수",
+          "form": "dogs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "puppy",
+        "canine"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a dog",
+        "walked home with the meat in his mouth"
+      ],
+      "idioms": [
+        {
+          "phrase": "every dog has its day",
+          "ko": "모든 개에게도 날이 있다 = 누구든지 성공할 기회가 온다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dog barked loudly.",
+          "ko": "그 개는 크게 짖었다."
+        }
+      ],
+      "koreanTips": [
+        "'dog'는 가산명사이므로 단독으로 쓸 수 없고 관사(a/the) 필요"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdɔɡ/"
+    },
+    "found": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "찾았다",
+          "en": "discovered or located",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 고기를 발견한 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "find"
+        },
+        {
+          "label": "과거",
+          "form": "found"
+        },
+        {
+          "label": "과거분사",
+          "form": "found"
+        },
+        {
+          "label": "현재분사",
+          "form": "finding"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "finds"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "discovered",
+        "located"
+      ],
+      "antonyms": [
+        "lost"
+      ],
+      "confusables": [],
+      "collocations": [
+        "found a piece of meat"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She found her keys under the pillow.",
+          "ko": "그녀는 베개 밑에서 열쇠를 찾았다."
+        }
+      ],
+      "koreanTips": [
+        "'find'의 과거형은 불규칙하게 'found'임"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfaʊnd/"
+    },
+    "piece": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "조각",
+          "en": "a part or portion",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "고기의 일부분",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "piece"
+        },
+        {
+          "label": "복수",
+          "form": "pieces"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "portion",
+        "bit"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a piece of meat"
+      ],
+      "idioms": [
+        {
+          "phrase": "piece of cake",
+          "ko": "아주 쉬운 일"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can I have a piece of cake?",
+          "ko": "케이크 조각 하나 주시겠어요?"
+        }
+      ],
+      "koreanTips": [
+        "'piece of + 음식'은 '조각', '부분'이라는 뜻"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpis/"
+    },
+    "of": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~의",
+          "en": "belonging to or connected with",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "고기가 'meat'의 일부라는 소유 관계 표현",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "piece of meat"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is a cup of tea.",
+          "ko": "이건 차 한 잔입니다."
+        }
+      ],
+      "koreanTips": [
+        "'of'는 소유, 구성, 출신 등을 나타내는 전치사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈəv/"
+    },
+    "meat": {
+      "pos": "noun (singular, uncountable)",
+      "meanings": [
+        {
+          "ko": "고기",
+          "en": "animal flesh used as food",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 찾은 먹을거리인 고기",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "meat"
+        },
+        {
+          "label": "복수",
+          "form": "meats"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "beef",
+        "pork"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a piece of meat",
+        "with the meat in his mouth"
+      ],
+      "idioms": [
+        {
+          "phrase": "in the rough",
+          "ko": "가공되지 않은 상태"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I don't eat much red meat.",
+          "ko": "나는 빨간 고기를 많이 안 먹는다."
+        }
+      ],
+      "koreanTips": [
+        "'meat'는 일반적으로 단수형으로 씀 ('meats'는 종류를 구분할 때 사용)"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmit/"
+    },
+    "he": {
+      "pos": "pronoun (personal, third person singular)",
+      "meanings": [
+        {
+          "ko": "그(남자)",
+          "en": "third person masculine pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개를 지칭하는 인칭대명사",
+      "forms": [
+        {
+          "label": "주격",
+          "form": "he"
+        },
+        {
+          "label": "목적격",
+          "form": "him"
+        },
+        {
+          "label": "소유격",
+          "form": "his"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "He was happy",
+        "He walked home"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He went to school.",
+          "ko": "그는 학교에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "한국어에서는 '그 개'라고 말하지만 영어에서는 'he'로 줄여씀"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhi/"
+    },
+    "was": {
+      "pos": "verb (past tense, auxiliary)",
+      "meanings": [
+        {
+          "ko": "였다",
+          "en": "past form of 'to be'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개의 감정 상태를 과거형으로 표현",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "were"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "He was very happy"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She was tired yesterday.",
+          "ko": "그녀는 어제 피곤했다."
+        }
+      ],
+      "koreanTips": [
+        "'was'는 1인칭 단수, 3인칭 단수에 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɑz/"
+    },
+    "very": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "매우",
+          "en": "extremely; to a great extent",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개의 행복함을 강조하는 부사",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "extremely",
+        "really"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "very happy",
+        "very pleased"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It's very hot today.",
+          "ko": "오늘은 매우 덥다."
+        }
+      ],
+      "koreanTips": [
+        "형용사 앞에 'very'를 붙여 강조 가능"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈvɛɹi/"
+    },
+    "happy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "행복한",
+          "en": "feeling joy or pleasure",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "가지고 있는 것으로 만족해야 한다는 상태",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "happy"
+        },
+        {
+          "label": "비교급",
+          "form": "happier"
+        },
+        {
+          "label": "최상급",
+          "form": "happiest"
+        },
+        {
+          "label": "부사형",
+          "form": "happily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "joyful",
+        "content"
+      ],
+      "antonyms": [
+        "sad"
+      ],
+      "confusables": [],
+      "collocations": [
+        "be happy with"
+      ],
+      "idioms": [
+        {
+          "phrase": "happy-go-lucky",
+          "ko": "낙천적인"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She is happy with her job.",
+          "ko": "그녀는 직장에 만족한다."
+        }
+      ],
+      "koreanTips": [
+        "'be happy with'는 '~에 만족하다'라는 의미"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhæpi/"
+    },
+    "walked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "걸어갔다",
+          "en": "moved on foot",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 고기를 물고 집으로 걸어가는 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "walk"
+        },
+        {
+          "label": "과거",
+          "form": "walked"
+        },
+        {
+          "label": "과거분사",
+          "form": "walked"
+        },
+        {
+          "label": "현재분사",
+          "form": "walking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "walks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "strolled",
+        "went"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "walked home",
+        "walked across the bridge"
+      ],
+      "idioms": [
+        {
+          "phrase": "walk the talk",
+          "ko": "말과 행동이 일치하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "They walked to the park.",
+          "ko": "그들은 공원까지 걸어갔다."
+        }
+      ],
+      "koreanTips": [
+        "'walked'는 규칙 동사의 과거형"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɔkt/"
+    },
+    "home": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "집으로",
+          "en": "toward one's house",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 집으로 향하는 방향",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "homeward",
+        "back"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "walked home",
+        "go home"
+      ],
+      "idioms": [
+        {
+          "phrase": "home sweet home",
+          "ko": "내 집이 최고야"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let's go home now.",
+          "ko": "이제 집에 가자."
+        }
+      ],
+      "koreanTips": [
+        "'home'은 장소명사이자 부사이며, 'to' 없이도 방향 의미 가능"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhoʊm/"
+    },
+    "with": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~와 함께",
+          "en": "accompanied by or having",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "가지고 있는 것과 함께 있다는 상태",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "having"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "be happy with what you have"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Are you satisfied with this result?",
+          "ko": "이 결과에 만족하시나요?"
+        }
+      ],
+      "koreanTips": [
+        "'with'는 '가지고 있는 상태'를 나타낼 수 있음"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɪð/"
+    },
+    "the": {
+      "pos": "article (definite)",
+      "meanings": [
+        {
+          "ko": "그, 특정한",
+          "en": "specific or known thing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "앞서 언급된 고기를 다시 지칭",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the meat",
+        "the river"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book is interesting.",
+          "ko": "그 책은 흥미롭다."
+        }
+      ],
+      "koreanTips": [
+        "이미 언급되었거나 특정한 대상을 가리킬 때 'the' 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안에",
+          "en": "inside something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "고기가 입 안에 있다는 위치 표현",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "inside"
+      ],
+      "antonyms": [
+        "out"
+      ],
+      "confusables": [],
+      "collocations": [
+        "in his mouth"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Put it in the box.",
+          "ko": "그것을 상자 안에 넣어라."
+        }
+      ],
+      "koreanTips": [
+        "'in'은 공간 내부를 나타냄"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪn/"
+    },
+    "his": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "그의",
+          "en": "belonging to him",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 소유한 입을 나타냄",
+      "forms": [
+        {
+          "label": "소유격",
+          "form": "his"
+        },
+        {
+          "label": "목적격",
+          "form": "him"
+        },
+        {
+          "label": "주격",
+          "form": "he"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "one's"
+      ],
+      "antonyms": [
+        "her",
+        "their"
+      ],
+      "confusables": [],
+      "collocations": [
+        "his mouth"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "His car is new.",
+          "ko": "그의 차는 새것이다."
+        }
+      ],
+      "koreanTips": [
+        "'his'는 남성 소유를 나타내며, 명사 앞에 씀"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhɪz/"
+    },
+    "mouth": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "입",
+          "en": "opening where food enters body",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 고기를 물고 있는 입",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "mouth"
+        },
+        {
+          "label": "복수",
+          "form": "mouths"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "oral cavity"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "in his mouth",
+        "opened his mouth"
+      ],
+      "idioms": [
+        {
+          "phrase": "from the horse's mouth",
+          "ko": "직접 들은 정보"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Don't put your fingers in your mouth.",
+          "ko": "손가락을 입에 넣지 마세요."
+        }
+      ],
+      "koreanTips": [
+        "'mouth'는 인체 부위로, 복수형은 'mouths'"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmaʊθ/"
+    },
+    "on": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~위에서",
+          "en": "during or while doing something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "걷는 도중에 일어난 사건",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "during"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "On the way"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "We talked on the phone.",
+          "ko": "우리는 전화로 이야기했다."
+        }
+      ],
+      "koreanTips": [
+        "'on the way'는 '가는 길에'라는 의미"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɑn/"
+    },
+    "way": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "길, 방법",
+          "en": "path or route",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "집으로 가는 길",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "way"
+        },
+        {
+          "label": "복수",
+          "form": "ways"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "path",
+        "route"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "On the way",
+        "the way home"
+      ],
+      "idioms": [
+        {
+          "phrase": "by the way",
+          "ko": "참고로"
+        },
+        {
+          "phrase": "no way",
+          "ko": "절대로 안 돼"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Is there another way?",
+          "ko": "다른 길이 있나요?"
+        }
+      ],
+      "koreanTips": [
+        "'on the way'는 '가는 길에'라는 표현"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈweɪ/"
+    },
+    "crossed": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "건넜다",
+          "en": "went from one side to another",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 다리를 건너는 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "cross"
+        },
+        {
+          "label": "과거",
+          "form": "crossed"
+        },
+        {
+          "label": "과거분사",
+          "form": "crossed"
+        },
+        {
+          "label": "현재분사",
+          "form": "crossing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "crosses"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "passed over",
+        "traversed"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "crossed a bridge"
+      ],
+      "idioms": [
+        {
+          "phrase": "cross your fingers",
+          "ko": "행운을 빈다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "They crossed the street carefully.",
+          "ko": "그들은 거리를 조심스럽게 건넜다."
+        }
+      ],
+      "koreanTips": [
+        "'crossed'는 규칙 동사의 과거형"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈkɹɔst/"
+    },
+    "bridge": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "다리",
+          "en": "structure over water or road",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "강 위에 있는 건축물",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "bridge"
+        },
+        {
+          "label": "복수",
+          "form": "bridges"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "overpass"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a bridge over a river"
+      ],
+      "idioms": [
+        {
+          "phrase": "burn bridges",
+          "ko": "후퇴의 길을 막다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "There is a beautiful bridge over the river.",
+          "ko": "강 위에 아름다운 다리가 있다."
+        }
+      ],
+      "koreanTips": [
+        "'bridge'는 건축물로서의 다리"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbɹɪdʒ/"
+    },
+    "over": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~위로",
+          "en": "above or across",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "다리가 강 위에 있다는 위치 표현",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "above",
+        "across"
+      ],
+      "antonyms": [
+        "under"
+      ],
+      "confusables": [],
+      "collocations": [
+        "over a river"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The plane flew over the city.",
+          "ko": "비행기는 도시 위를 날아갔다."
+        }
+      ],
+      "koreanTips": [
+        "'over'는 공간 위쪽을 나타냄"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈoʊvɝ/"
+    },
+    "river": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "강",
+          "en": "large flowing body of water",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "다리 아래 흐르는 자연수",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "river"
+        },
+        {
+          "label": "복수",
+          "form": "rivers"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "stream",
+        "waterway"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "over a river"
+      ],
+      "idioms": [
+        {
+          "phrase": "go with the flow",
+          "ko": "자연스럽게 흐르는 대로 따라가다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The river flows into the sea.",
+          "ko": "그 강은 바다로 흘러간다."
+        }
+      ],
+      "koreanTips": [
+        "'river'는 큰 자연수를 의미하며, 일반적으로 단수형 사용"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹɪvɝ/"
+    },
+    "looked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "봤다",
+          "en": "directed one's gaze",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 아래를 내려다보는 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "look"
+        },
+        {
+          "label": "과거",
+          "form": "looked"
+        },
+        {
+          "label": "과거분사",
+          "form": "looked"
+        },
+        {
+          "label": "현재분사",
+          "form": "looking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "looks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "gazed",
+        "stared"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "looked down into the water"
+      ],
+      "idioms": [
+        {
+          "phrase": "look before you leap",
+          "ko": "신중히 생각하고 결정해라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She looked at the sky.",
+          "ko": "그녀는 하늘을 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'looked'는 규칙 동사의 과거형"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫʊkt/"
+    },
+    "down": {
+      "pos": "adverb/preposition",
+      "meanings": [
+        {
+          "ko": "아래로",
+          "en": "toward a lower position",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "아래쪽을 바라보는 방향",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "below"
+      ],
+      "antonyms": [
+        "up"
+      ],
+      "confusables": [],
+      "collocations": [
+        "looked down into the water"
+      ],
+      "idioms": [
+        {
+          "phrase": "put someone down",
+          "ko": "누군가를 깎아내리다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He looked down at his shoes.",
+          "ko": "그는 자신의 신발을 아래로 내려다보았다."
+        }
+      ],
+      "koreanTips": [
+        "'down'은 방향을 나타내는 부사 또는 전치사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈdaʊn/"
+    },
+    "into": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안으로",
+          "en": "movement toward inside",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물속을 바라보는 움직임",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "inside"
+      ],
+      "antonyms": [
+        "out of"
+      ],
+      "confusables": [],
+      "collocations": [
+        "looked down into the water"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He jumped into the pool.",
+          "ko": "그는 수영장 안으로 뛰어들었다."
+        }
+      ],
+      "koreanTips": [
+        "'into'는 'in'보다 더 강한 움직임을 포함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪntu/"
+    },
+    "water": {
+      "pos": "noun (singular, uncountable)",
+      "meanings": [
+        {
+          "ko": "물",
+          "en": "liquid essential for life",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "강 속의 물",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "water"
+        },
+        {
+          "label": "복수",
+          "form": "waters"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "H2O"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "into the water"
+      ],
+      "idioms": [
+        {
+          "phrase": "pour cold water on",
+          "ko": "냉소적으로 반응하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Drink more water every day.",
+          "ko": "매일 물을 더 마셔라."
+        }
+      ],
+      "koreanTips": [
+        "'water'는 일반적으로 단수형으로 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɔtɝ/"
+    },
+    "saw": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "봤다",
+          "en": "perceived visually",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 물속의 다른 개를 본 것",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "see"
+        },
+        {
+          "label": "과거",
+          "form": "saw"
+        },
+        {
+          "label": "과거분사",
+          "form": "seen"
+        },
+        {
+          "label": "현재분사",
+          "form": "seeing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "sees"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "spotted",
+        "noticed"
+      ],
+      "antonyms": [
+        "missed"
+      ],
+      "confusables": [],
+      "collocations": [
+        "saw another dog with meat"
+      ],
+      "idioms": [
+        {
+          "phrase": "I'll see you later",
+          "ko": "나중에 만나자"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I saw a movie last night.",
+          "ko": "어젯밤 영화를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'see'의 과거형은 'saw', 불규칙 변화"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsɔ/"
+    },
+    "another": {
+      "pos": "determiner/pronoun",
+      "meanings": [
+        {
+          "ko": "또 다른",
+          "en": "additional or different",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물속에 보이는 또 다른 개",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "other",
+        "different"
+      ],
+      "antonyms": [
+        "same"
+      ],
+      "confusables": [],
+      "collocations": [
+        "another dog with meat"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Would you like another cup of coffee?",
+          "ko": "커피 한 잔 더 드릴까요?"
+        }
+      ],
+      "koreanTips": [
+        "'another'는 '또 다른 하나'를 의미함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/əˈnəðɝ/"
+    },
+    "it": {
+      "pos": "pronoun (personal, third person singular)",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "refers to previously mentioned object",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물속의 그림자 이미지를 가리킴",
+      "forms": [
+        {
+          "label": "주격",
+          "form": "it"
+        },
+        {
+          "label": "목적격",
+          "form": "it"
+        },
+        {
+          "label": "소유격",
+          "form": "its"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "It was his own shadow"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It is raining outside.",
+          "ko": "밖에서 비가 내리고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'it'은 비인격 대상을 가리킬 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪt/"
+    },
+    "own": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "자신의",
+          "en": "belonging to oneself",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "그림자가 자기 자신이라는 사실",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "personal"
+      ],
+      "antonyms": [
+        "others'"
+      ],
+      "confusables": [],
+      "collocations": [
+        "his own shadow"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is my own room.",
+          "ko": "이건 제 방입니다."
+        }
+      ],
+      "koreanTips": [
+        "'own'은 소유를 강조할 때 사용"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈoʊn/"
+    },
+    "shadow": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "그림자",
+          "en": "dark shape cast by blocking light",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물속에 비친 개의 그림자",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "shadow"
+        },
+        {
+          "label": "복수",
+          "form": "shadows"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "silhouette"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "his own shadow"
+      ],
+      "idioms": [
+        {
+          "phrase": "a shadow of doubt",
+          "ko": "의심의 여지"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tree cast a long shadow.",
+          "ko": "그 나무는 긴 그림자를 만들었다."
+        }
+      ],
+      "koreanTips": [
+        "'shadow'는 빛을 막아 생긴 어두운 형태"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈʃæˌdoʊ/"
+    },
+    "too": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "또한",
+          "en": "also; in addition",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "그 개도 고기를 원한다는 추가 정보",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "also",
+        "as well"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "two",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "wanted that meat too"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I want to go too.",
+          "ko": "나도 가고 싶다."
+        }
+      ],
+      "koreanTips": [
+        "'too'는 문장 끝에 위치하며 '또한'의 의미"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "opened": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "열었다",
+          "en": "made wider or available",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 입을 벌리는 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "open"
+        },
+        {
+          "label": "과거",
+          "form": "opened"
+        },
+        {
+          "label": "과거분사",
+          "form": "opened"
+        },
+        {
+          "label": "현재분사",
+          "form": "opening"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "opens"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "unlocked",
+        "widened"
+      ],
+      "antonyms": [
+        "closed"
+      ],
+      "confusables": [],
+      "collocations": [
+        "opened his mouth"
+      ],
+      "idioms": [
+        {
+          "phrase": "open a can of worms",
+          "ko": "새로운 문제를 일으키다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She opened the door.",
+          "ko": "그녀는 문을 열었다."
+        }
+      ],
+      "koreanTips": [
+        "'opened'는 규칙 동사의 과거형"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈoʊpənd/"
+    },
+    "grab": {
+      "pos": "verb (infinitive)",
+      "meanings": [
+        {
+          "ko": "잡다",
+          "en": "take hold of quickly",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 고기를 물으려는 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "grab"
+        },
+        {
+          "label": "과거",
+          "form": "grabbed"
+        },
+        {
+          "label": "과거분사",
+          "form": "grabbed"
+        },
+        {
+          "label": "현재분사",
+          "form": "grabbing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "grabs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "snatch",
+        "seize"
+      ],
+      "antonyms": [
+        "release"
+      ],
+      "confusables": [],
+      "collocations": [
+        "grab it"
+      ],
+      "idioms": [
+        {
+          "phrase": "grab a bite",
+          "ko": "간단히 먹다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He grabbed the ball.",
+          "ko": "그는 공을 잡았다."
+        }
+      ],
+      "koreanTips": [
+        "'grab'은 급하게 무언가를 잡는 동작"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɡɹæb/"
+    },
+    "fell": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "떨어졌다",
+          "en": "dropped downward",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개의 고기가 강으로 떨어지는 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "fall"
+        },
+        {
+          "label": "과거",
+          "form": "fell"
+        },
+        {
+          "label": "과거분사",
+          "form": "fallen"
+        },
+        {
+          "label": "현재분사",
+          "form": "falling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "falls"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "dropped"
+      ],
+      "antonyms": [
+        "rose"
+      ],
+      "confusables": [],
+      "collocations": [
+        "fell into the river"
+      ],
+      "idioms": [
+        {
+          "phrase": "fall apart",
+          "ko": "붕괴되다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The leaves fell from the tree.",
+          "ko": "잎들이 나무에서 떨어졌다."
+        }
+      ],
+      "koreanTips": [
+        "'fall'의 과거형은 불규칙하게 'fell'"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɛɫ/"
+    },
+    "now": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "지금",
+          "en": "at this moment",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "현재 시점을 나타내는 시간 부사",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "currently",
+        "today"
+      ],
+      "antonyms": [
+        "then"
+      ],
+      "confusables": [],
+      "collocations": [
+        "Now he had nothing"
+      ],
+      "idioms": [
+        {
+          "phrase": "now or never",
+          "ko": "지금 아니면 절대 안 될 것이다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Now I understand.",
+          "ko": "이제 이해한다."
+        }
+      ],
+      "koreanTips": [
+        "'now'는 현재 시점을 강조할 때 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈnaʊ/"
+    },
+    "had": {
+      "pos": "verb (past tense, auxiliary)",
+      "meanings": [
+        {
+          "ko": "가지고 있었다",
+          "en": "possessed or experienced",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 아무것도 가지지 못한 상태",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "have"
+        },
+        {
+          "label": "과거",
+          "form": "had"
+        },
+        {
+          "label": "과거분사",
+          "form": "had"
+        },
+        {
+          "label": "현재분사",
+          "form": "having"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "has"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "possessed"
+      ],
+      "antonyms": [
+        "lacked"
+      ],
+      "confusables": [],
+      "collocations": [
+        "had nothing"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She had a good time.",
+          "ko": "그녀는 즐거웠다."
+        }
+      ],
+      "koreanTips": [
+        "'have'의 과거형은 불규칙하게 'had'"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhæd/"
+    },
+    "nothing": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "아무것도 없다",
+          "en": "not anything",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 고기를 잃은 후의 상태",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "nada",
+        "nil"
+      ],
+      "antonyms": [
+        "everything"
+      ],
+      "confusables": [],
+      "collocations": [
+        "had nothing"
+      ],
+      "idioms": [
+        {
+          "phrase": "nothing ventured, nothing gained",
+          "ko": "시도하지 않으면 얻는 것도 없다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "There was nothing left.",
+          "ko": "남은 것이 아무것도 없었다."
+        }
+      ],
+      "koreanTips": [
+        "'nothing'은 부정의 의미로, 동사와 함께 쓰임"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈnəθɪŋ/"
+    },
+    "learned": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "배웠다",
+          "en": "gained knowledge or understanding",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 얻은 교훈",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "learn"
+        },
+        {
+          "label": "과거",
+          "form": "learned/learnt"
+        },
+        {
+          "label": "과거분사",
+          "form": "learned/learnt"
+        },
+        {
+          "label": "현재분사",
+          "form": "learning"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "learns"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "studied",
+        "absorbed"
+      ],
+      "antonyms": [
+        "forgot"
+      ],
+      "confusables": [],
+      "collocations": [
+        "learned a lesson"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I learned how to swim.",
+          "ko": "나는 어떻게 수영하는지 배웠다."
+        }
+      ],
+      "koreanTips": [
+        "미국식 영어에서는 'learned', 영국식에서는 'learnt' 사용"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɝnd/"
+    },
+    "lesson": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "교훈, 교육",
+          "en": "something that teaches wisdom",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "개가 얻은 인생 교훈",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "lesson"
+        },
+        {
+          "label": "복수",
+          "form": "lessons"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "teaching",
+        "moral"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "learned a lesson"
+      ],
+      "idioms": [
+        {
+          "phrase": "learn your lesson",
+          "ko": "교훈을 얻다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "That mistake taught me a valuable lesson.",
+          "ko": "그 실수는 나에게 귀중한 교훈을 주었다."
+        }
+      ],
+      "koreanTips": [
+        "'lesson'은 교육적 의미의 단어"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɛsən/"
+    },
+    "that": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "specific thing just mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "앞서 언급한 교훈을 지칭",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "that particular"
+      ],
+      "antonyms": [
+        "this"
+      ],
+      "confusables": [],
+      "collocations": [
+        "that day"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "That book is mine.",
+          "ko": "그 책은 제 것입니다."
+        }
+      ],
+      "koreanTips": [
+        "'that'은 특정한 것을 지칭할 때 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðæt/"
+    },
+    "day": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "날",
+          "en": "period of daylight",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "교훈을 얻은 특정 날짜",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "day"
+        },
+        {
+          "label": "복수",
+          "form": "days"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "date"
+      ],
+      "antonyms": [
+        "night"
+      ],
+      "confusables": [],
+      "collocations": [
+        "that day"
+      ],
+      "idioms": [
+        {
+          "phrase": "call it a day",
+          "ko": "오늘은 여기까지 하자"
+        }
+      ],
+      "examples": [
+        {
+          "en": "What a beautiful day!",
+          "ko": "정말 아름다운 날이다!"
+        }
+      ],
+      "koreanTips": [
+        "'day'는 시간 단위로 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈdeɪ/"
+    },
+    "be": {
+      "pos": "verb (infinitive)",
+      "meanings": [
+        {
+          "ko": "있다",
+          "en": "exist or occur",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "행복해야 한다는 존재 상태",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "exist"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "be happy with what you have"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Be kind to others.",
+          "ko": "다른 사람들에게 친절히 하라."
+        }
+      ],
+      "koreanTips": [
+        "'be'는 상태 동사로, '~이다'의 의미"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbi/"
+    },
+    "what": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "무엇",
+          "en": "thing that",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "가지고 있는 것을 묻는 의문사",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "which"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "what you have"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "What do you want?",
+          "ko": "무엇을 원하세요?"
+        }
+      ],
+      "koreanTips": [
+        "'what'은 의문사로 '무엇'의 의미"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhwət/"
+    },
+    "you": {
+      "pos": "pronoun (personal, second person)",
+      "meanings": [
+        {
+          "ko": "당신",
+          "en": "second person subject",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "독자의 행동을 지시하는 인칭대명사",
+      "forms": [
+        {
+          "label": "주격",
+          "form": "you"
+        },
+        {
+          "label": "목적격",
+          "form": "you"
+        },
+        {
+          "label": "소유격",
+          "form": "your/yours"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "what you have"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "You should try this.",
+          "ko": "이것을 해보세요."
+        }
+      ],
+      "koreanTips": [
+        "'you'는 단수/복수 모두 같은 형태"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈju/"
+    },
+    "have": {
+      "pos": "verb (present simple)",
+      "meanings": [
+        {
+          "ko": "가지고 있다",
+          "en": "possess or own",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "현재 가지고 있는 상태",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "have"
+        },
+        {
+          "label": "과거",
+          "form": "had"
+        },
+        {
+          "label": "과거분사",
+          "form": "had"
+        },
+        {
+          "label": "현재분사",
+          "form": "having"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "has"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "possess"
+      ],
+      "antonyms": [
+        "lack"
+      ],
+      "confusables": [],
+      "collocations": [
+        "what you have"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I have two cats.",
+          "ko": "나는 고양이 두 마리를 가지고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'have'는 소유를 나타내는 동사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhæv/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "A dog found a piece of meat.",
+        "structure": {
+          "subject": {
+            "text": "A dog",
+            "label": "개 한 마리"
+          },
+          "verb": {
+            "text": "found",
+            "label": "찾았다"
+          },
+          "object": {
+            "text": "a piece of meat",
+            "label": "고기 조각"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 기본적인 SVO 구조입니다. 주어는 'A dog', 동사는 'found', 목적어는 'a piece of meat'입니다.",
+        "grammarPoints": [
+          "단수 명사 앞에 관사 'a' 사용",
+          "불규칙 동사 'find'의 과거형 'found'"
+        ],
+        "examples": [
+          {
+            "en": "She bought a book.",
+            "ko": "그녀는 책 한 권을 샀다."
+          },
+          {
+            "en": "He caught a fish.",
+            "ko": "그는 물고기 한 마리를 잡았다."
+          }
+        ]
+      },
+      {
+        "text": "He was very happy.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "very happy",
+            "label": "매우 행복한"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 주어+동사+보어(SVC) 구조입니다. 'He'가 주어이고, 'was'가 연결동사이며, 'very happy'가 보어입니다.",
+        "grammarPoints": [
+          "be 동사 'was'의 사용",
+          "형용사 앞에 부사 'very'로 강조"
+        ],
+        "examples": [
+          {
+            "en": "She is very smart.",
+            "ko": "그녀는 매우 똑똑하다."
+          },
+          {
+            "en": "They were excited.",
+            "ko": "그들은 흥분했다."
+          }
+        ]
+      },
+      {
+        "text": "He walked home with the meat in his mouth.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "walked",
+            "label": "걸어갔다"
+          },
+          "complement": {
+            "text": "home",
+            "label": "집으로"
+          },
+          "object": {
+            "text": "with the meat in his mouth",
+            "label": "입에 고기를 물고"
+          }
+        },
+        "pattern": {
+          "name": "S+V+Adv.+Prep. phrase",
+          "note": "주어+동사+부사+전치사구"
+        },
+        "explanation": "이 문장은 주어+동사+부사+전치사구 구조입니다. 'home'은 방향을 나타내는 부사이며, 'with...'는 동반 상태를 나타냅니다.",
+        "grammarPoints": [
+          "부사 'home'의 사용",
+          "전치사구 'with...'로 상태 표현"
+        ],
+        "examples": [
+          {
+            "en": "He ran fast with his dog.",
+            "ko": "그는 개와 함께 빠르게 달렸다."
+          },
+          {
+            "en": "She drove away with tears in her eyes.",
+            "ko": "그녀는 눈물이 난 채로 차를 몰고 떠났다."
+          }
+        ]
+      },
+      {
+        "text": "On the way, he crossed a bridge over a river.",
+        "structure": {
+          "subject": {
+            "text": "he",
+            "label": "그"
+          },
+          "verb": {
+            "text": "crossed",
+            "label": "건넜다"
+          },
+          "object": {
+            "text": "a bridge",
+            "label": "다리"
+          },
+          "complement": {
+            "text": "over a river",
+            "label": "강 위에 있는"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+Prep. phrase",
+          "note": "주어+동사+목적어+전치사구"
+        },
+        "explanation": "이 문장은 주어+동사+목적어+전치사구 구조입니다. 'over a river'는 다리의 위치를 설명합니다.",
+        "grammarPoints": [
+          "전치사구 'on the way'로 시간/경위 표현",
+          "전치사구 'over a river'로 위치 설명"
+        ],
+        "examples": [
+          {
+            "en": "We passed a house near the lake.",
+            "ko": "우리는 호수 근처의 집을 지나쳤다."
+          },
+          {
+            "en": "She climbed a mountain above the clouds.",
+            "ko": "그녀는 구름 위에 있는 산을 올랐다."
+          }
+        ]
+      },
+      {
+        "text": "He looked down into the water.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "looked",
+            "label": "내려다보았다"
+          },
+          "complement": {
+            "text": "down into the water",
+            "label": "물속으로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+Adv.",
+          "note": "주어+동사+부사"
+        },
+        "explanation": "이 문장은 주어+동사+부사 구조입니다. 'down into the water'는 방향과 위치를 나타내는 부사적 표현입니다.",
+        "grammarPoints": [
+          "부사 'down'의 사용",
+          "전치사 'into'로 방향 표현"
+        ],
+        "examples": [
+          {
+            "en": "He looked up at the sky.",
+            "ko": "그는 하늘을 올려다보았다."
+          },
+          {
+            "en": "She peered through the window.",
+            "ko": "그녀는 창문 너머를 들여다보았다."
+          }
+        ]
+      },
+      {
+        "text": "He saw another dog with meat.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "saw",
+            "label": "봤다"
+          },
+          "object": {
+            "text": "another dog with meat",
+            "label": "고기를 가진 또 다른 개"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 기본적인 SVO 구조입니다. 'another dog with meat'는 복합 목적어입니다.",
+        "grammarPoints": [
+          "불규칙 동사 'see'의 과거형 'saw'",
+          "전치사구 'with meat'로 특징 설명"
+        ],
+        "examples": [
+          {
+            "en": "I saw a man with glasses.",
+            "ko": "나는 안경을 쓴 남자를 봤다."
+          },
+          {
+            "en": "She met a girl with blue eyes.",
+            "ko": "그녀는 파란 눈을 가진 여자를 만났다."
+          }
+        ]
+      },
+      {
+        "text": "It was his own shadow!",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "그것"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "his own shadow",
+            "label": "그의 그림자"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 SVC 구조입니다. 'It'이 주어이고, 'was'가 연결동사이며, 'his own shadow'가 보어입니다.",
+        "grammarPoints": [
+          "'It was...'로 설명/정의",
+          "소유격 'his'의 사용"
+        ],
+        "examples": [
+          {
+            "en": "It was a surprise.",
+            "ko": "그것은 놀라운 일이었다."
+          },
+          {
+            "en": "This is my favorite song.",
+            "ko": "이건 내가 가장 좋아하는 노래다."
+          }
+        ]
+      },
+      {
+        "text": "He wanted that meat too.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "wanted",
+            "label": "원했다"
+          },
+          "object": {
+            "text": "that meat",
+            "label": "그 고기"
+          },
+          "complement": {
+            "text": "too",
+            "label": "또한"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+Adv.",
+          "note": "주어+동사+목적어+부사"
+        },
+        "explanation": "이 문장은 SVO+부사 구조입니다. 'too'는 추가 정보를 나타내는 부사입니다.",
+        "grammarPoints": [
+          "과거형 동사 'wanted'",
+          "부사 'too'의 위치"
+        ],
+        "examples": [
+          {
+            "en": "She wanted coffee too.",
+            "ko": "그녀도 커피를 원했다."
+          },
+          {
+            "en": "He came early too.",
+            "ko": "그도 일찍 왔다."
+          }
+        ]
+      },
+      {
+        "text": "He opened his mouth to grab it.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "opened",
+            "label": "벌렸다"
+          },
+          "object": {
+            "text": "his mouth",
+            "label": "그의 입"
+          },
+          "complement": {
+            "text": "to grab it",
+            "label": "그것을 잡기 위해"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+Infinitive",
+          "note": "주어+동사+목적어+부정사"
+        },
+        "explanation": "이 문장은 목적어 뒤에 부정사(to grab)가 오는 구조입니다. 'to grab it'은 목적을 나타냅니다.",
+        "grammarPoints": [
+          "부정사 'to grab'로 목적 표현",
+          "과거형 동사 'opened'"
+        ],
+        "examples": [
+          {
+            "en": "She saved money to buy a car.",
+            "ko": "그녀는 차를 사기 위해 돈을 저축했다."
+          },
+          {
+            "en": "He studied hard to pass the exam.",
+            "ko": "그는 시험에 합격하기 위해 열심히 공부했다."
+          }
+        ]
+      },
+      {
+        "text": "His own meat fell into the river.",
+        "structure": {
+          "subject": {
+            "text": "His own meat",
+            "label": "그의 고기"
+          },
+          "verb": {
+            "text": "fell",
+            "label": "떨어졌다"
+          },
+          "complement": {
+            "text": "into the river",
+            "label": "강으로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+Prep. phrase",
+          "note": "주어+동사+전치사구"
+        },
+        "explanation": "이 문장은 주어+동사+전치사구 구조입니다. 'into the river'는 떨어진 장소를 나타냅니다.",
+        "grammarPoints": [
+          "불규칙 동사 'fall'의 과거형 'fell'",
+          "전치사 'into'로 방향 표현"
+        ],
+        "examples": [
+          {
+            "en": "The ball rolled into the garden.",
+            "ko": "공이 정원으로 굴러갔다."
+          },
+          {
+            "en": "Leaves dropped into the pond.",
+            "ko": "잎사귀들이 연못으로 떨어졌다."
+          }
+        ]
+      },
+      {
+        "text": "Now he had nothing.",
+        "structure": {
+          "subject": {
+            "text": "he",
+            "label": "그"
+          },
+          "verb": {
+            "text": "had",
+            "label": "가지고 있었다"
+          },
+          "object": {
+            "text": "nothing",
+            "label": "아무것도"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 SVO 구조입니다. 'had nothing'은 소유의 부재를 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사 'had'",
+          "부정 대명사 'nothing'의 사용"
+        ],
+        "examples": [
+          {
+            "en": "She had no money.",
+            "ko": "그녀는 돈이 없었다."
+          },
+          {
+            "en": "They had nobody to help them.",
+            "ko": "그들에게는 도와줄 사람이 아무도 없었다."
+          }
+        ]
+      },
+      {
+        "text": "He learned a lesson that day: be happy with what you have.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "learned",
+            "label": "배웠다"
+          },
+          "object": {
+            "text": "be happy with what you have",
+            "label": "가지고 있는 것에 만족하라"
+          },
+          "complement": {
+            "text": "that day",
+            "label": "그날"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+Colon+Imperative",
+          "note": "주어+동사+목적어+: + 명령문"
+        },
+        "explanation": "이 문장은 SVO 구조 뒤에 ':'과 명령문이 이어집니다. 'be happy with what you have'는 교훈 내용을 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사 'learned'",
+          "명령문 'be happy with...'"
+        ],
+        "examples": [
+          {
+            "en": "He gave advice: always be honest.",
+            "ko": "그는 조언을 주었다: 항상 정직하라."
+          },
+          {
+            "en": "The sign said: keep off the grass.",
+            "ko": "표지판에는 이렇게 쓰여 있었다: 잔디밭에는 들어가지 마라."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "개 한 마리가 고기 조각을 찾았다. 그는 매우 행복했다. 그는 입에 고기를 물고 집으로 걸어갔다. 가는 길에 강 위에 있는 다리를 건넜다. 그는 아래 물속을 내려다보았다. 그는 고기를 가진 또 다른 개를 봤다. 그것은 바로 그 자신의 그림자였다! 그도 그 고기를 원했다. 그는 그것을 잡으려고 입을 벌렸다. 그런데 그의 고기는 강으로 떨어져버렸다. 이제 그는 아무것도 가지지 못했다. 그날 그는 교훈을 배웠다: 가지고 있는 것에 만족하라.",
+  "keyVocab": [
+    "found",
+    "shadow",
+    "lesson",
+    "happy",
+    "meat"
+  ],
+  "quiz": {
+    "question": "'He walked home with the meat in his mouth.'에서 'with'의 역할은 무엇인가요?",
+    "answer": "'with'는 개가 고기를 입에 물고 있다는 상태를 나타내는 전치사입니다."
+  },
+  "generated_at": "2026-02-20T08:21:50.627537+09:00"
+}

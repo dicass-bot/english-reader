@@ -1,102 +1,90 @@
 {
-  "days": [
-    {
-      "day": 1,
-      "level": 1,
-      "title": "The Hungry Crocodile",
-      "author": "Storybooks Canada",
-      "generated_at": "2026-02-19T23:59:37.974038+09:00"
-    },
-    {
-      "day": 2,
-      "level": 1,
-      "title": "The Little Red Hen",
-      "author": "Traditional",
-      "generated_at": "2026-02-20T00:46:46.574498+09:00"
-    },
-    {
-      "day": 3,
-      "level": 1,
-      "title": "A Rainy Day",
-      "author": "VOA Learning English",
-      "generated_at": "2026-02-20T00:52:41.952727+09:00"
-    },
-    {
-      "day": 4,
-      "level": 1,
-      "title": "The Three Fish",
-      "author": "Panchatantra (adapted)",
-      "generated_at": "2026-02-20T00:59:13.872769+09:00"
-    },
-    {
-      "day": 5,
-      "level": 1,
-      "title": "My First Job",
-      "author": "VOA Learning English",
-      "generated_at": "2026-02-20T01:07:29.039761+09:00"
-    },
-    {
-      "day": 6,
-      "level": 1,
-      "title": "The Dog and His Shadow",
-      "author": "Aesop",
-      "generated_at": "2026-02-20T01:15:07.875148+09:00"
-    },
-    {
-      "day": 7,
-      "level": 1,
-      "title": "Going to the Market",
-      "author": "Storybooks Canada",
-      "generated_at": "2026-02-20T01:20:33.291492+09:00"
-    },
-    {
-      "day": 8,
-      "level": 1,
-      "title": "The Wind and the Sun",
-      "author": "Aesop",
-      "generated_at": "2026-02-20T01:24:53.728252+09:00"
-    },
-    {
-      "day": 9,
-      "level": 1,
-      "title": "A Letter to My Friend",
-      "author": "VOA Learning English",
-      "generated_at": "2026-02-20T01:34:25.791570+09:00"
-    },
-    {
-      "day": 10,
-      "level": 1,
-      "title": "The Boy Who Cried Wolf",
-      "author": "Aesop",
-      "generated_at": "2026-02-20T01:41:52.679136+09:00"
-    },
-    {
-      "day": 11,
-      "level": 1,
-      "title": "My Garden",
-      "author": "Storybooks Canada",
-      "generated_at": "2026-02-20T01:45:54.315898+09:00"
-    },
-    {
-      "day": 12,
-      "level": 1,
-      "title": "The Tortoise and the Hare",
-      "author": "Aesop",
-      "generated_at": "2026-02-20T01:50:47.279927+09:00"
-    },
-    {
-      "day": 13,
-      "level": 1,
-      "title": "Cooking with Grandma",
-      "author": "VOA Learning English",
-      "generated_at": "2026-02-20T01:57:18.569187+09:00"
-    },
-    {
-      "day": 14,
-      "level": 1,
-      "title": "The Lion and the Mouse",
-      "author": "Aesop",
-      "generated_at": "2026-02-20T02:06:53.210158+09:00"
-    }
-  ]
+  "levels": {
+    "L1": [
+      {
+        "num": "0001",
+        "title": "The Hungry Crocodile",
+        "author": "Storybooks Canada",
+        "generated_at": "2026-02-20T07:24:58.503012+09:00"
+      },
+      {
+        "num": "0002",
+        "title": "The Little Red Hen",
+        "author": "Traditional",
+        "generated_at": "2026-02-20T07:37:25.233631+09:00"
+      },
+      {
+        "num": "0003",
+        "title": "A Rainy Day",
+        "author": "VOA Learning English",
+        "generated_at": "2026-02-20T07:47:13.699537+09:00"
+      },
+      {
+        "num": "0004",
+        "title": "The Three Fish",
+        "author": "Panchatantra (adapted)",
+        "generated_at": "2026-02-20T08:00:10.449370+09:00"
+      },
+      {
+        "num": "0005",
+        "title": "My First Job",
+        "author": "VOA Learning English",
+        "generated_at": "2026-02-20T08:11:11.121925+09:00"
+      },
+      {
+        "num": "0006",
+        "title": "The Dog and His Shadow",
+        "author": "Aesop",
+        "generated_at": "2026-02-20T08:21:50.627537+09:00"
+      },
+      {
+        "num": "0007",
+        "title": "Going to the Market",
+        "author": "Storybooks Canada",
+        "generated_at": "2026-02-20T08:47:28.614693+09:00"
+      },
+      {
+        "num": "0008",
+        "title": "The Wind and the Sun",
+        "author": "Aesop",
+        "generated_at": "2026-02-20T08:55:29.786462+09:00"
+      },
+      {
+        "num": "0009",
+        "title": "A Letter to My Friend",
+        "author": "VOA Learning English",
+        "generated_at": "2026-02-20T09:17:32.840209+09:00"
+      },
+      {
+        "num": "0010",
+        "title": "The Boy Who Cried Wolf",
+        "author": "Aesop",
+        "generated_at": "2026-02-20T09:27:23.604860+09:00"
+      },
+      {
+        "num": "0011",
+        "title": "My Garden",
+        "author": "Storybooks Canada",
+        "generated_at": "2026-02-20T09:38:07.942734+09:00"
+      },
+      {
+        "num": "0012",
+        "title": "The Tortoise and the Hare",
+        "author": "Aesop",
+        "generated_at": "2026-02-20T09:50:10.821424+09:00"
+      },
+      {
+        "num": "0013",
+        "title": "Cooking with Grandma",
+        "author": "VOA Learning English",
+        "generated_at": "2026-02-20T10:32:38.465684+09:00"
+      },
+      {
+        "num": "0014",
+        "title": "The Lion and the Mouse",
+        "author": "Aesop",
+        "generated_at": "2026-02-20T10:47:20.823101+09:00"
+      }
+    ]
+  }
 }

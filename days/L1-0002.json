@@ -1,0 +1,2729 @@
+{
+  "num": "0002",
+  "category": "L1",
+  "source": {
+    "title": "The Little Red Hen",
+    "author": "Traditional",
+    "license": "Public Domain",
+    "url": "https://storybookscanada.ca"
+  },
+  "passage": "The little red hen found some wheat. She asked the cat, the dog, and the pig for help. \"Who will help me plant this wheat?\" she asked. \"Not I,\" said the cat. \"Not I,\" said the dog. \"Not I,\" said the pig. So the little red hen planted the wheat by herself. The wheat grew tall and golden. She made bread from the wheat. The bread smelled wonderful. Everyone wanted to eat it.",
+  "audio": {
+    "passage": "audio/L1-0002.mp3",
+    "words": {
+      "the": "audio/L1-0002-the.mp3",
+      "little": "audio/L1-0002-little.mp3",
+      "red": "audio/L1-0002-red.mp3",
+      "hen": "audio/L1-0002-hen.mp3",
+      "found": "audio/L1-0002-found.mp3",
+      "some": "audio/L1-0002-some.mp3",
+      "wheat": "audio/L1-0002-wheat.mp3",
+      "she": "audio/L1-0002-she.mp3",
+      "asked": "audio/L1-0002-asked.mp3",
+      "cat": "audio/L1-0002-cat.mp3",
+      "dog": "audio/L1-0002-dog.mp3",
+      "pig": "audio/L1-0002-pig.mp3",
+      "for": "audio/L1-0002-for.mp3",
+      "help": "audio/L1-0002-help.mp3",
+      "who": "audio/L1-0002-who.mp3",
+      "will": "audio/L1-0002-will.mp3",
+      "plant": "audio/L1-0002-plant.mp3",
+      "this": "audio/L1-0002-this.mp3",
+      "said": "audio/L1-0002-said.mp3",
+      "not": "audio/L1-0002-not.mp3",
+      "i": "audio/L1-0002-i.mp3",
+      "so": "audio/L1-0002-so.mp3",
+      "by": "audio/L1-0002-by.mp3",
+      "herself": "audio/L1-0002-herself.mp3",
+      "grew": "audio/L1-0002-grew.mp3",
+      "tall": "audio/L1-0002-tall.mp3",
+      "golden": "audio/L1-0002-golden.mp3",
+      "made": "audio/L1-0002-made.mp3",
+      "bread": "audio/L1-0002-bread.mp3",
+      "smelled": "audio/L1-0002-smelled.mp3",
+      "to": "audio/L1-0002-to.mp3",
+      "eat": "audio/L1-0002-eat.mp3",
+      "it": "audio/L1-0002-it.mp3"
+    }
+  },
+  "words": {
+    "the": {
+      "pos": "article (definite)",
+      "meanings": [
+        {
+          "ko": "그(특정한)",
+          "en": "used before nouns that are specific or known",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이야기 속 특정한 닭, 고양이, 개 등을 가리키기 위해 사용됨",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the cat",
+        "the dog",
+        "the pig",
+        "the wheat"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book on the table is mine.",
+          "ko": "책상 위의 그 책은 내 것이다."
+        }
+      ],
+      "koreanTips": [
+        "'a cat' vs 'the cat': 'a'는 일반적, 'the'는 특정한 대상"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "little": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "작은",
+          "en": "small in size",
+          "primary": true
+        },
+        {
+          "ko": "약간의",
+          "en": "not much"
+        },
+        {
+          "ko": "어린",
+          "en": "young"
+        }
+      ],
+      "contextMeaning": "닭의 크기를 묘사하기 위해 사용됨",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "little"
+        },
+        {
+          "label": "비교급",
+          "form": "littler"
+        },
+        {
+          "label": "최상급",
+          "form": "littlest"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "small",
+        "tiny"
+      ],
+      "antonyms": [
+        "big",
+        "large"
+      ],
+      "confusables": [
+        {
+          "word": "a lot",
+          "note": "의미 반대"
+        }
+      ],
+      "collocations": [
+        "little girl",
+        "little house",
+        "a little bit"
+      ],
+      "idioms": [
+        {
+          "phrase": "a little bird told me",
+          "ko": "비밀 통보"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She lives in a little village.",
+          "ko": "그녀는 작은 마을에 산다."
+        }
+      ],
+      "koreanTips": [
+        "'few'는 수량, 'little'은 크기/양 의미"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɪtəɫ/"
+    },
+    "red": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "붉은",
+          "en": "of the color red",
+          "primary": true
+        },
+        {
+          "ko": "적색의",
+          "en": "having the color of blood"
+        }
+      ],
+      "contextMeaning": "닭의 외형을 묘사하기 위해 사용됨",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "red"
+        },
+        {
+          "label": "비교급",
+          "form": "redder"
+        },
+        {
+          "label": "최상급",
+          "form": "reddest"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "scarlet",
+        "crimson"
+      ],
+      "antonyms": [
+        "blue",
+        "green"
+      ],
+      "confusables": [
+        {
+          "word": "read",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "red car",
+        "red light",
+        "red hair"
+      ],
+      "idioms": [
+        {
+          "phrase": "see red",
+          "ko": "화가 난 상태"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He wore a red shirt today.",
+          "ko": "오늘 그는 빨간 셔츠를 입었다."
+        }
+      ],
+      "koreanTips": [
+        "색깔 형용사는 명사 앞에 직접 붙임"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹɛd/"
+    },
+    "hen": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "암탉",
+          "en": "female chicken",
+          "primary": true
+        },
+        {
+          "ko": "닭",
+          "en": "chicken (female)"
+        },
+        {
+          "ko": "암컷",
+          "en": "female bird"
+        }
+      ],
+      "contextMeaning": "이야기의 주인공인 암탉을 지칭함",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "hen"
+        },
+        {
+          "label": "복수",
+          "form": "hens"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "chicken",
+        "bird"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "her",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "mother hen",
+        "hen house"
+      ],
+      "idioms": [
+        {
+          "phrase": "don't count your chickens",
+          "ko": "결과를 미리 기대하지 말라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hen laid three eggs today.",
+          "ko": "암탉이 오늘 알 세 개를 낳았다."
+        }
+      ],
+      "koreanTips": [
+        "'hen'은 암탉, 'rooster'는 수탉"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈhɛn/"
+    },
+    "found": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "찾았다",
+          "en": "discovered something",
+          "primary": true
+        },
+        {
+          "ko": "발견하다",
+          "en": "came upon by chance"
+        },
+        {
+          "ko": "얻다",
+          "en": "to get hold of"
+        }
+      ],
+      "contextMeaning": "암탉이 밀을 발견한 것을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "find"
+        },
+        {
+          "label": "과거",
+          "form": "found"
+        },
+        {
+          "label": "과거분사",
+          "form": "found"
+        },
+        {
+          "label": "현재분사",
+          "form": "finding"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "finds"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "discovered",
+        "located"
+      ],
+      "antonyms": [
+        "lost",
+        "missed"
+      ],
+      "confusables": [
+        {
+          "word": "founded",
+          "note": "의미가 다르며, '설립하다'"
+        }
+      ],
+      "collocations": [
+        "found a solution",
+        "found the keys"
+      ],
+      "idioms": [
+        {
+          "phrase": "find fault with",
+          "ko": "~에 흠을 잡다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I found my wallet under the couch.",
+          "ko": "나는 소파 아래에서 지갑을 찾았다."
+        }
+      ],
+      "koreanTips": [
+        "'find'는 '찾아내다', 'look for'는 '찾다'"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfaʊnd/"
+    },
+    "some": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "몇몇의",
+          "en": "an unspecified amount or number",
+          "primary": true
+        },
+        {
+          "ko": "어떤",
+          "en": "used to refer to people or things without specifying which"
+        },
+        {
+          "ko": "약간의",
+          "en": "a small amount of"
+        }
+      ],
+      "contextMeaning": "명확히 정해지지 않은 양의 밀을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "a few",
+        "several"
+      ],
+      "antonyms": [
+        "none",
+        "all"
+      ],
+      "confusables": [
+        {
+          "word": "same",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "some people",
+        "some time",
+        "some money"
+      ],
+      "idioms": [
+        {
+          "phrase": "somebody special",
+          "ko": "특별한 사람"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Would you like some tea?",
+          "ko": "차 한 잔 드릴까요?"
+        },
+        {
+          "en": "Some students came early.",
+          "ko": "몇몇 학생들이 일찍 왔다."
+        }
+      ],
+      "koreanTips": [
+        "'some'은 긍정문, 'any'는 의문문/부정문에 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsəm/"
+    },
+    "wheat": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "밀",
+          "en": "grain used to make flour",
+          "primary": true
+        },
+        {
+          "ko": "밀알",
+          "en": "cereal grain"
+        },
+        {
+          "ko": "곡물",
+          "en": "type of cereal"
+        }
+      ],
+      "contextMeaning": "암탉이 심고 자랐던 작물을 가리킴",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "wheat"
+        },
+        {
+          "label": "복수",
+          "form": "wheats"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "grain",
+        "cereal"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "weath",
+          "note": "철자 오류"
+        }
+      ],
+      "collocations": [
+        "wheat field",
+        "whole wheat",
+        "plant wheat"
+      ],
+      "idioms": [
+        {
+          "phrase": "separate the wheat from the chaff",
+          "ko": "진짜와 가짜를 구분하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This bread is made from whole wheat.",
+          "ko": "이 빵은 통밀로 만들었다."
+        }
+      ],
+      "koreanTips": [
+        "'밀'은 wheat, '쌀'은 rice"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈhwit/"
+    },
+    "she": {
+      "pos": "pronoun (personal)",
+      "meanings": [
+        {
+          "ko": "그녀가",
+          "en": "third person singular feminine pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "암탉을 가리키는 인칭대명사",
+      "forms": [
+        {
+          "label": "주격",
+          "form": "she"
+        },
+        {
+          "label": "목적격",
+          "form": "her"
+        },
+        {
+          "label": "소유격",
+          "form": "her"
+        },
+        {
+          "label": "자기소유",
+          "form": "hers"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "her",
+        "woman"
+      ],
+      "antonyms": [
+        "he"
+      ],
+      "confusables": [
+        {
+          "word": "see",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "she went",
+        "she said",
+        "she looked"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is reading a book.",
+          "ko": "그녀는 책을 읽고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'he'는 남성, 'she'는 여성, 'it'은 사물/동물"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈʃi/"
+    },
+    "asked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "물어봤다",
+          "en": "requested information or help",
+          "primary": true
+        },
+        {
+          "ko": "요청하다",
+          "en": "to inquire about something"
+        },
+        {
+          "ko": "부탁하다",
+          "en": "to seek assistance"
+        }
+      ],
+      "contextMeaning": "암탉이 다른 동물들에게 도움을 요청한 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "ask"
+        },
+        {
+          "label": "과거",
+          "form": "asked"
+        },
+        {
+          "label": "과거분사",
+          "form": "asked"
+        },
+        {
+          "label": "현재분사",
+          "form": "asking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "asks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "inquired",
+        "requested"
+      ],
+      "antonyms": [
+        "answered",
+        "replied"
+      ],
+      "confusables": [
+        {
+          "word": "task",
+          "note": "의미가 다름"
+        }
+      ],
+      "collocations": [
+        "ask for help",
+        "ask questions",
+        "ask someone"
+      ],
+      "idioms": [
+        {
+          "phrase": "ask around",
+          "ko": "여러 사람에게 물어보다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She asked him where he lived.",
+          "ko": "그녀는 그에게 어디 사는지 물었다."
+        }
+      ],
+      "koreanTips": [
+        "'ask'는 질문이나 요청 모두 가능"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈæskt/"
+    },
+    "cat": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "고양이",
+          "en": "domestic feline animal",
+          "primary": true
+        },
+        {
+          "ko": "캣",
+          "en": "informal name for cat"
+        }
+      ],
+      "contextMeaning": "도움을 요청받은 동물 중 하나",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "cat"
+        },
+        {
+          "label": "복수",
+          "form": "cats"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "feline",
+        "pet"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "bat",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "black cat",
+        "cat food",
+        "cat nap"
+      ],
+      "idioms": [
+        {
+          "phrase": "curiosity killed the cat",
+          "ko": "호기심은 고양이를 죽인다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cat sat on the windowsill.",
+          "ko": "고양이가 창가에 앉아 있었다."
+        }
+      ],
+      "koreanTips": [
+        "'cat'은 일반적으로 가축 고양이를 의미"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkæt/"
+    },
+    "dog": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "개",
+          "en": "domestic canine animal",
+          "primary": true
+        },
+        {
+          "ko": "멍멍이",
+          "en": "informal term for dog"
+        }
+      ],
+      "contextMeaning": "도움을 요청받은 또 다른 동물",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "dog"
+        },
+        {
+          "label": "복수",
+          "form": "dogs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "canine",
+        "puppy"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "log",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "dog house",
+        "dog food",
+        "guard dog"
+      ],
+      "idioms": [
+        {
+          "phrase": "every dog has its day",
+          "ko": "모든 개에게는 좋은 날이 온다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dog barked loudly.",
+          "ko": "개가 크게 짖었다."
+        }
+      ],
+      "koreanTips": [
+        "'dog'는 개 전체를 가리킴"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈdɔɡ/"
+    },
+    "pig": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "돼지",
+          "en": "farm animal with pink skin",
+          "primary": true
+        },
+        {
+          "ko": "돼지고기",
+          "en": "meat from pig"
+        },
+        {
+          "ko": "게으른 사람",
+          "en": "sluggish person (informal)"
+        }
+      ],
+      "contextMeaning": "도움을 요청받은 또 다른 동물",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "pig"
+        },
+        {
+          "label": "복수",
+          "form": "pigs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "swine",
+        "hog"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "big",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "pig farm",
+        "pig sty",
+        "fat as a pig"
+      ],
+      "idioms": [
+        {
+          "phrase": "when pigs fly",
+          "ko": "돼지가 날 때까지 (절대로 안 될 일)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pig rolled in the mud.",
+          "ko": "돼지는 진흙에 몸을 굴렸다."
+        }
+      ],
+      "koreanTips": [
+        "'pig'는 돼지 자체, 'pork'는 돼지고기"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈpɪɡ/"
+    },
+    "for": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "위해서",
+          "en": "in order to get help",
+          "primary": true
+        },
+        {
+          "ko": "때문에",
+          "en": "because of"
+        },
+        {
+          "ko": "대신에",
+          "en": "on behalf of"
+        }
+      ],
+      "contextMeaning": "도움을 요청하는 목적을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "in order to",
+        "so as to"
+      ],
+      "antonyms": [
+        "against"
+      ],
+      "confusables": [
+        {
+          "word": "four",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "for help",
+        "for sale",
+        "for example"
+      ],
+      "idioms": [
+        {
+          "phrase": "ask for trouble",
+          "ko": "문제를 불러일으키다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He saved money for his vacation.",
+          "ko": "그는 휴가비를 위해 돈을 저축했다."
+        }
+      ],
+      "koreanTips": [
+        "'for'는 목적, 'because'는 이유"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈfɔɹ/"
+    },
+    "help": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "도움",
+          "en": "assistance given to someone",
+          "primary": true
+        },
+        {
+          "ko": "지원",
+          "en": "support provided"
+        },
+        {
+          "ko": "돕는 것",
+          "en": "act of helping"
+        }
+      ],
+      "contextMeaning": "암탉이 다른 동물들에게 요청한 내용",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "help"
+        },
+        {
+          "label": "복수",
+          "form": "helps"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "assistance",
+        "aid"
+      ],
+      "antonyms": [
+        "hindrance",
+        "obstacle"
+      ],
+      "confusables": [
+        {
+          "word": "hell",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "ask for help",
+        "need help",
+        "give help"
+      ],
+      "idioms": [
+        {
+          "phrase": "help yourself",
+          "ko": "편하게 하세요"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can you give me some help?",
+          "ko": "도움 좀 줄 수 있어요?"
+        },
+        {
+          "en": "They offered their help.",
+          "ko": "그들은 도움을 제안했다."
+        }
+      ],
+      "koreanTips": [
+        "'help'는 명사도 되고 동사도 됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhɛɫp/"
+    },
+    "who": {
+      "pos": "pronoun (interrogative)",
+      "meanings": [
+        {
+          "ko": "누가",
+          "en": "used to ask about a person's identity",
+          "primary": true
+        },
+        {
+          "ko": "어떤 사람",
+          "en": "which person"
+        }
+      ],
+      "contextMeaning": "도움을 줄 사람을 묻는 의문사",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "what person",
+        "which one"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "whose",
+          "note": "소유를 묻는 관계대명사"
+        }
+      ],
+      "collocations": [
+        "who did it",
+        "who is coming",
+        "who knows"
+      ],
+      "idioms": [
+        {
+          "phrase": "who let the cat out of the bag",
+          "ko": "누가 비밀을 폭로했는가"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Who called you yesterday?",
+          "ko": "어제 누가 전화했어요?"
+        },
+        {
+          "en": "Who wants to go first?",
+          "ko": "누가 먼저 가고 싶어요?"
+        }
+      ],
+      "koreanTips": [
+        "'who'는 사람, 'what'은 사물/내용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhu/"
+    },
+    "will": {
+      "pos": "modal verb",
+      "meanings": [
+        {
+          "ko": "할 것이다",
+          "en": "future intention or willingness",
+          "primary": true
+        },
+        {
+          "ko": "의지하다",
+          "en": "desire to do something"
+        },
+        {
+          "ko": "할 수 있다",
+          "en": "ability in future"
+        }
+      ],
+      "contextMeaning": "도움을 줄 의사가 있는지를 묻는 표현",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "will"
+        },
+        {
+          "label": "과거",
+          "form": "would"
+        },
+        {
+          "label": "과거분사",
+          "form": "would"
+        },
+        {
+          "label": "현재분사",
+          "form": "willing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "wills"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "shall",
+        "intend to"
+      ],
+      "antonyms": [
+        "won't"
+      ],
+      "confusables": [
+        {
+          "word": "well",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "will do",
+        "will not",
+        "will come"
+      ],
+      "idioms": [
+        {
+          "phrase": "where there's a will, there's a way",
+          "ko": "뜻이 있으면 길이 있다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I will call you later.",
+          "ko": "나중에 전화할게요."
+        },
+        {
+          "en": "Will you help me?",
+          "ko": "도와줄래요?"
+        }
+      ],
+      "koreanTips": [
+        "'will'은 미래 시제, 'would'는 조건/과거"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɪɫ/"
+    },
+    "plant": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "심다",
+          "en": "put seeds into soil to grow plants",
+          "primary": true
+        },
+        {
+          "ko": "식물 재배",
+          "en": "cultivate crops"
+        },
+        {
+          "ko": "배치하다",
+          "en": "place firmly"
+        }
+      ],
+      "contextMeaning": "암탉이 밀을 땅에 심는 행위",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "plant"
+        },
+        {
+          "label": "과거",
+          "form": "planted"
+        },
+        {
+          "label": "과거분사",
+          "form": "planted"
+        },
+        {
+          "label": "현재분사",
+          "form": "planting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "plants"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "grow",
+        "cultivate"
+      ],
+      "antonyms": [
+        "harvest",
+        "uproot"
+      ],
+      "confusables": [
+        {
+          "word": "plan",
+          "note": "철자가 비슷하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "plant flowers",
+        "plant trees",
+        "plant seeds"
+      ],
+      "idioms": [
+        {
+          "phrase": "plant an idea",
+          "ko": "아이디어를 머릿속에 심다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We planted tomatoes in our garden.",
+          "ko": "우리는 정원에 토마토를 심었다."
+        }
+      ],
+      "koreanTips": [
+        "'plant'는 식물 심기, 'plantation'은 농장"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈpɫænt/"
+    },
+    "this": {
+      "pos": "determiner (demonstrative)",
+      "meanings": [
+        {
+          "ko": "이",
+          "en": "used to identify a specific object near the speaker",
+          "primary": true
+        },
+        {
+          "ko": "이것",
+          "en": "this particular thing"
+        }
+      ],
+      "contextMeaning": "암탉이 들고 있는 밀을 가리키는 지시어",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "that",
+        "these"
+      ],
+      "antonyms": [
+        "that"
+      ],
+      "confusables": [
+        {
+          "word": "is",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "this book",
+        "this morning",
+        "this way"
+      ],
+      "idioms": [
+        {
+          "phrase": "this is it",
+          "ko": "바로 이거야"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This cake tastes delicious.",
+          "ko": "이 케이크는 맛있다."
+        }
+      ],
+      "koreanTips": [
+        "'this'는 가까운 것, 'that'은 먼 것"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðɪs/"
+    },
+    "said": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "말했다",
+          "en": "expressed in words",
+          "primary": true
+        },
+        {
+          "ko": "언급했다",
+          "en": "mentioned verbally"
+        }
+      ],
+      "contextMeaning": "각 동물들이 자신이 도움을 주지 않을 것이라고 말하는 행위",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "say"
+        },
+        {
+          "label": "과거",
+          "form": "said"
+        },
+        {
+          "label": "과거분사",
+          "form": "said"
+        },
+        {
+          "label": "현재분사",
+          "form": "saying"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "says"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "spoke",
+        "uttered"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "sad",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "said hello",
+        "said nothing",
+        "said yes"
+      ],
+      "idioms": [
+        {
+          "phrase": "I said so",
+          "ko": "내가 그렇게 말했지"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He said he would be late.",
+          "ko": "그는 늦을 거라고 말했다."
+        }
+      ],
+      "koreanTips": [
+        "'say'는 말하는 행위, 'tell'은 전달하는 행위"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsɛd/"
+    },
+    "not": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "아니다",
+          "en": "used to form negatives",
+          "primary": true
+        },
+        {
+          "ko": "부정",
+          "en": "denial or refusal"
+        }
+      ],
+      "contextMeaning": "도움을 주지 않겠다는 부정적 답변",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "no",
+        "never"
+      ],
+      "antonyms": [
+        "yes",
+        "indeed"
+      ],
+      "confusables": [
+        {
+          "word": "now",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "not at all",
+        "not really",
+        "not anymore"
+      ],
+      "idioms": [
+        {
+          "phrase": "not a chance",
+          "ko": "절대 안 돼"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She is not happy.",
+          "ko": "그녀는 행복하지 않다."
+        }
+      ],
+      "koreanTips": [
+        "'not'은 부정, 'no'는 대답"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈnɑt/"
+    },
+    "i": {
+      "pos": "pronoun (personal)",
+      "meanings": [
+        {
+          "ko": "나는",
+          "en": "first person singular pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "각 동물이 자신을 가리키며 말하는 1인칭 대명사",
+      "forms": [
+        {
+          "label": "주격",
+          "form": "I"
+        },
+        {
+          "label": "목적격",
+          "form": "me"
+        },
+        {
+          "label": "소유격",
+          "form": "my"
+        },
+        {
+          "label": "자기소유",
+          "form": "mine"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "me",
+        "myself"
+      ],
+      "antonyms": [
+        "you",
+        "they"
+      ],
+      "confusables": [
+        {
+          "word": "eye",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "I think",
+        "I believe",
+        "I hope"
+      ],
+      "idioms": [
+        {
+          "phrase": "I see",
+          "ko": "알겠어"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I am going home now.",
+          "ko": "나는 지금 집에 간다."
+        }
+      ],
+      "koreanTips": [
+        "'I'는 항상 대문자로 씀"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈaɪ/"
+    },
+    "so": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그래서",
+          "en": "therefore; as a result",
+          "primary": true
+        },
+        {
+          "ko": "그렇게 해서",
+          "en": "in consequence"
+        }
+      ],
+      "contextMeaning": "도움을 받지 못한 결과를 연결하는 접속사",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "therefore",
+        "thus"
+      ],
+      "antonyms": [
+        "but",
+        "however"
+      ],
+      "confusables": [
+        {
+          "word": "go",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "so tired",
+        "so happy",
+        "so difficult"
+      ],
+      "idioms": [
+        {
+          "phrase": "so far so good",
+          "ko": "지금까지는 괜찮다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It was raining, so we stayed inside.",
+          "ko": "비가 와서 우리는 집에 머물렀다."
+        }
+      ],
+      "koreanTips": [
+        "'so'는 결과, 'because'는 이유"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsoʊ/"
+    },
+    "by": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "혼자서",
+          "en": "done alone without help",
+          "primary": true
+        },
+        {
+          "ko": "의해서",
+          "en": "through the action of"
+        }
+      ],
+      "contextMeaning": "암탉이 혼자 일을 했다는 것을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "alone",
+        "without help"
+      ],
+      "antonyms": [
+        "with"
+      ],
+      "confusables": [
+        {
+          "word": "bye",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "by myself",
+        "by hand",
+        "by accident"
+      ],
+      "idioms": [
+        {
+          "phrase": "by the way",
+          "ko": "참고로"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She finished the work by herself.",
+          "ko": "그녀는 혼자서 일을 끝냈다."
+        }
+      ],
+      "koreanTips": [
+        "'by oneself'는 혼자서, 'with someone'은 함께"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbaɪ/"
+    },
+    "herself": {
+      "pos": "pronoun (reflexive)",
+      "meanings": [
+        {
+          "ko": "자기 자신",
+          "en": "used when someone does something alone",
+          "primary": true
+        },
+        {
+          "ko": "혼자",
+          "en": "without assistance from others"
+        }
+      ],
+      "contextMeaning": "암탉이 혼자 일을 했음을 강조",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "alone",
+        "by herself"
+      ],
+      "antonyms": [
+        "with others"
+      ],
+      "confusables": [
+        {
+          "word": "himself",
+          "note": "성별에 따라 다름"
+        }
+      ],
+      "collocations": [
+        "herself alone",
+        "herself carefully"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She cooked dinner herself.",
+          "ko": "그녀는 혼자 저녁을 만들었다."
+        }
+      ],
+      "koreanTips": [
+        "'herself'는 자기 자신을 가리킴"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/hɝˈsɛɫf/"
+    },
+    "grew": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "자랐다",
+          "en": "became larger or taller",
+          "primary": true
+        },
+        {
+          "ko": "성장하다",
+          "en": "develop over time"
+        }
+      ],
+      "contextMeaning": "밀이 자라났다는 것을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "grow"
+        },
+        {
+          "label": "과거",
+          "form": "grew"
+        },
+        {
+          "label": "과거분사",
+          "form": "grown"
+        },
+        {
+          "label": "현재분사",
+          "form": "growing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "grows"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "developed",
+        "expanded"
+      ],
+      "antonyms": [
+        "shrank",
+        "decreased"
+      ],
+      "confusables": [
+        {
+          "word": "blew",
+          "note": "과거 형태가 유사"
+        }
+      ],
+      "collocations": [
+        "grew up",
+        "grew taller",
+        "grew fast"
+      ],
+      "idioms": [
+        {
+          "phrase": "grow old",
+          "ko": "늙어가다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tree grew very tall.",
+          "ko": "그 나무는 매우 커졌다."
+        }
+      ],
+      "koreanTips": [
+        "'grow'는 자연스럽게 자라나는 것, 'raise'는 기르는 것"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɡɹu/"
+    },
+    "tall": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "키가 큰",
+          "en": "having great height",
+          "primary": true
+        },
+        {
+          "ko": "높은",
+          "en": "extending upward"
+        }
+      ],
+      "contextMeaning": "밀이 키가 크고 잘 자랐음을 묘사",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "tall"
+        },
+        {
+          "label": "비교급",
+          "form": "taller"
+        },
+        {
+          "label": "최상급",
+          "form": "tallest"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "high",
+        "lofty"
+      ],
+      "antonyms": [
+        "short",
+        "low"
+      ],
+      "confusables": [
+        {
+          "word": "tell",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "tall building",
+        "tall man",
+        "tall grass"
+      ],
+      "idioms": [
+        {
+          "phrase": "head and shoulders above the rest",
+          "ko": "다른 것들보다 훨씬 뛰어남"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He is six feet tall.",
+          "ko": "그는 180cm이다."
+        }
+      ],
+      "koreanTips": [
+        "'tall'은 사람/건물, 'long'은 물체 길이"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtɔɫ/"
+    },
+    "golden": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "황금빛의",
+          "en": "bright yellow like gold",
+          "primary": true
+        },
+        {
+          "ko": "노란",
+          "en": "yellowish in color"
+        }
+      ],
+      "contextMeaning": "밀이 노란 색으로 잘 자랐음을 묘사",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "golden"
+        },
+        {
+          "label": "비교급",
+          "form": "more golden"
+        },
+        {
+          "label": "최상급",
+          "form": "most golden"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "yellow",
+        "gold-colored"
+      ],
+      "antonyms": [
+        "silver",
+        "gray"
+      ],
+      "confusables": [
+        {
+          "word": "gold",
+          "note": "형용사와 명사 구분 필요"
+        }
+      ],
+      "collocations": [
+        "golden hair",
+        "golden opportunity",
+        "golden sunset"
+      ],
+      "idioms": [
+        {
+          "phrase": "golden rule",
+          "ko": "황금률"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The autumn leaves were golden.",
+          "ko": "가을 단풍잎들이 황금빛이었다."
+        }
+      ],
+      "koreanTips": [
+        "'golden'은 색상, 'gold'는 금속"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɡoʊɫdən/"
+    },
+    "made": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "만들었다",
+          "en": "created or produced something",
+          "primary": true
+        },
+        {
+          "ko": "제작하다",
+          "en": "constructed or formed"
+        }
+      ],
+      "contextMeaning": "암탉이 밀로 빵을 만든 것을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "make"
+        },
+        {
+          "label": "과거",
+          "form": "made"
+        },
+        {
+          "label": "과거분사",
+          "form": "made"
+        },
+        {
+          "label": "현재분사",
+          "form": "making"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "makes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "created",
+        "produced"
+      ],
+      "antonyms": [
+        "destroyed",
+        "broke"
+      ],
+      "confusables": [
+        {
+          "word": "maid",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "made a cake",
+        "made a mistake",
+        "made friends"
+      ],
+      "idioms": [
+        {
+          "phrase": "make sense",
+          "ko": "이치에 맞다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She made cookies for her children.",
+          "ko": "그녀는 아이들을 위해 쿠키를 만들었다."
+        }
+      ],
+      "koreanTips": [
+        "'make'는 제작, 'do'는 행위"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmeɪd/"
+    },
+    "bread": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "빵",
+          "en": "food made from flour and water baked",
+          "primary": true
+        },
+        {
+          "ko": "빵 종류",
+          "en": "type of baked goods"
+        }
+      ],
+      "contextMeaning": "암탉이 만든 음식",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "bread"
+        },
+        {
+          "label": "복수",
+          "form": "breads"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "loaf",
+        "roll"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "bred",
+          "note": "과거형과 혼동"
+        }
+      ],
+      "collocations": [
+        "fresh bread",
+        "bread crumbs",
+        "break bread"
+      ],
+      "idioms": [
+        {
+          "phrase": "bread and butter",
+          "ko": "주 수입원"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I bought fresh bread from the bakery.",
+          "ko": "나는 빵집에서 신선한 빵을 샀다."
+        }
+      ],
+      "koreanTips": [
+        "'bread'는 일반적으로 불가산 명사"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbɹɛd/"
+    },
+    "smelled": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "향이 났다",
+          "en": "had a noticeable scent",
+          "primary": true
+        },
+        {
+          "ko": "냄새가 나다",
+          "en": "emitted an odor"
+        }
+      ],
+      "contextMeaning": "빵에서 나는 향기를 묘사",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "smell"
+        },
+        {
+          "label": "과거",
+          "form": "smelled"
+        },
+        {
+          "label": "과거분사",
+          "form": "smelled"
+        },
+        {
+          "label": "현재분사",
+          "form": "smelling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "smells"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "scented",
+        "fragrant"
+      ],
+      "antonyms": [
+        "odorless",
+        "scent-free"
+      ],
+      "confusables": [
+        {
+          "word": "smiled",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "smelled delicious",
+        "smelled bad",
+        "smelled like roses"
+      ],
+      "idioms": [
+        {
+          "phrase": "stop and smell the roses",
+          "ko": "삶의 즐거움을 느껴라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The coffee smelled amazing.",
+          "ko": "커피 냄새가 놀랍도록 좋았다."
+        }
+      ],
+      "koreanTips": [
+        "'smell'은 냄새를 맡거나 내는 동사"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsmɛɫd/"
+    },
+    "wonderful": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "놀라운",
+          "en": "causing delight or admiration",
+          "primary": true
+        },
+        {
+          "ko": "훌륭한",
+          "en": "very good or excellent"
+        }
+      ],
+      "contextMeaning": "빵의 향기가 얼마나 좋았는지를 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "wonderful"
+        },
+        {
+          "label": "비교급",
+          "form": "more wonderful"
+        },
+        {
+          "label": "최상급",
+          "form": "most wonderful"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "amazing",
+        "fantastic"
+      ],
+      "antonyms": [
+        "terrible",
+        "awful"
+      ],
+      "confusables": [
+        {
+          "word": "awful",
+          "note": "의미가 반대"
+        }
+      ],
+      "collocations": [
+        "wonderful day",
+        "wonderful idea",
+        "wonderful experience"
+      ],
+      "idioms": [
+        {
+          "phrase": "wonderful world",
+          "ko": "아름다운 세상"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We had a wonderful time together.",
+          "ko": "우리는 함께 멋진 시간을 보냈다."
+        }
+      ],
+      "koreanTips": [
+        "'wonderful'은 긍정적 감정, 'weird'는 이상함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwəndɝfəɫ/"
+    },
+    "everyone": {
+      "pos": "pronoun (indefinite)",
+      "meanings": [
+        {
+          "ko": "모든 사람",
+          "en": "every person present",
+          "primary": true
+        },
+        {
+          "ko": "다들",
+          "en": "all individuals involved"
+        }
+      ],
+      "contextMeaning": "빵을 보고 모두 먹고 싶어했다는 것을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "everybody",
+        "all people"
+      ],
+      "antonyms": [
+        "nobody",
+        "no one"
+      ],
+      "confusables": [
+        {
+          "word": "every one",
+          "note": "띄어쓰기 주의"
+        }
+      ],
+      "collocations": [
+        "everyone agreed",
+        "everyone laughed",
+        "everyone left"
+      ],
+      "idioms": [
+        {
+          "phrase": "everyone has their price",
+          "ko": "모두에게는 가격이 있다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Everyone enjoyed the party.",
+          "ko": "모두 파티를 즐겼다."
+        }
+      ],
+      "koreanTips": [
+        "'everyone'은 단수 취급, 'all'은 복수 가능"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɛvɹiˌwən/"
+    },
+    "wanted": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "원했다",
+          "en": "desired or wished for something",
+          "primary": true
+        },
+        {
+          "ko": "필요로 했다",
+          "en": "needed or required"
+        }
+      ],
+      "contextMeaning": "모든 동물들이 빵을 먹고 싶어했다는 것을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "want"
+        },
+        {
+          "label": "과거",
+          "form": "wanted"
+        },
+        {
+          "label": "과거분사",
+          "form": "wanted"
+        },
+        {
+          "label": "현재분사",
+          "form": "wanting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "wants"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "desired",
+        "wished"
+      ],
+      "antonyms": [
+        "rejected",
+        "avoided"
+      ],
+      "confusables": [
+        {
+          "word": "wasted",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "wanted to go",
+        "wanted help",
+        "wanted more"
+      ],
+      "idioms": [
+        {
+          "phrase": "want for nothing",
+          "ko": "필요한 것이 없는 상태"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I wanted to visit Japan.",
+          "ko": "나는 일본을 방문하고 싶었다."
+        }
+      ],
+      "koreanTips": [
+        "'want'는 욕망, 'need'는 필수"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɔntɪd/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "하기 위해",
+          "en": "indicating purpose or direction",
+          "primary": true
+        },
+        {
+          "ko": "방향으로",
+          "en": "motion toward"
+        }
+      ],
+      "contextMeaning": "먹고 싶어하는 목적을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "toward",
+        "in order to"
+      ],
+      "antonyms": [
+        "from"
+      ],
+      "confusables": [
+        {
+          "word": "too",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "to eat",
+        "to drink",
+        "to sleep"
+      ],
+      "idioms": [
+        {
+          "phrase": "to tell the truth",
+          "ko": "솔직히 말하면"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I went to school.",
+          "ko": "나는 학교에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'to'는 방향/목적, 'for'는 이유/대상"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "eat": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "먹다",
+          "en": "consume food",
+          "primary": true
+        },
+        {
+          "ko": "섭취하다",
+          "en": "take in nourishment"
+        }
+      ],
+      "contextMeaning": "모든 동물들이 빵을 먹고 싶어했다는 것을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "eat"
+        },
+        {
+          "label": "과거",
+          "form": "ate"
+        },
+        {
+          "label": "과거분사",
+          "form": "eaten"
+        },
+        {
+          "label": "현재분사",
+          "form": "eating"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "eats"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "consume",
+        "devour"
+      ],
+      "antonyms": [
+        "fast",
+        "abstain"
+      ],
+      "confusables": [
+        {
+          "word": "eight",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "eat breakfast",
+        "eat quickly",
+        "eat healthy"
+      ],
+      "idioms": [
+        {
+          "phrase": "you are what you eat",
+          "ko": "먹는 것이 당신을 결정한다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let's eat dinner together.",
+          "ko": "함께 저녁 먹자."
+        }
+      ],
+      "koreanTips": [
+        "'eat'은 먹는 행위, 'drink'은 마시는 행위"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈit/"
+    },
+    "it": {
+      "pos": "pronoun (personal)",
+      "meanings": [
+        {
+          "ko": "그것을",
+          "en": "used to refer to a previously mentioned object",
+          "primary": true
+        },
+        {
+          "ko": "그것",
+          "en": "something already discussed"
+        }
+      ],
+      "contextMeaning": "모든 동물들이 빵을 먹고 싶어했다는 것을 나타냄",
+      "forms": [
+        {
+          "label": "주격",
+          "form": "it"
+        },
+        {
+          "label": "목적격",
+          "form": "it"
+        },
+        {
+          "label": "소유격",
+          "form": "its"
+        },
+        {
+          "label": "자기소유",
+          "form": "its"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "that",
+        "the thing"
+      ],
+      "antonyms": [
+        "them"
+      ],
+      "confusables": [
+        {
+          "word": "sit",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "it works",
+        "it happened",
+        "it smells good"
+      ],
+      "idioms": [
+        {
+          "phrase": "it takes two to tango",
+          "ko": "둘이야말로 춤춘다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It is raining outside.",
+          "ko": "밖에 비가 내리고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'it'은 사물/동물/날씨 등에 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪt/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "The little red hen found some wheat.",
+        "structure": {
+          "subject": {
+            "text": "The little red hen",
+            "label": "그 작은 붉은 닭"
+          },
+          "verb": {
+            "text": "found",
+            "label": "발견했다"
+          },
+          "object": {
+            "text": "some wheat",
+            "label": "약간의 밀"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 기본적인 SVO 구조입니다. 'The little red hen'이 주어이고, 'found'가 동사이며, 'some wheat'가 목적어입니다.",
+        "grammarPoints": [
+          "SVO 문장 구조",
+          "과거 시제 동사"
+        ],
+        "examples": [
+          {
+            "en": "She bought a book.",
+            "ko": "그녀는 책을 샀다."
+          },
+          {
+            "en": "He saw a movie.",
+            "ko": "그는 영화를 봤다."
+          }
+        ]
+      },
+      {
+        "text": "She asked the cat, the dog, and the pig for help.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "그녀가"
+          },
+          "verb": {
+            "text": "asked",
+            "label": "요청했다"
+          },
+          "object": {
+            "text": "the cat, the dog, and the pig",
+            "label": "고양이, 개, 그리고 돼지에게"
+          },
+          "complement": {
+            "text": "for help",
+            "label": "도움을 위해"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 SVO + 보어 구조입니다. 'She'가 주어이고, 'asked'가 동사이며, 'the cat...'이 목적어이고, 'for help'가 보어입니다.",
+        "grammarPoints": [
+          "목적어 + 보어 구조",
+          "복수 목적어"
+        ],
+        "examples": [
+          {
+            "en": "He gave me a gift.",
+            "ko": "그는 나에게 선물을 주었다."
+          },
+          {
+            "en": "She bought flowers for her mom.",
+            "ko": "그녀는 엄마를 위해 꽃을 샀다."
+          }
+        ]
+      },
+      {
+        "text": "\"Who will help me plant this wheat?\" she asked.",
+        "structure": {
+          "subject": {
+            "text": "Who",
+            "label": "누가"
+          },
+          "verb": {
+            "text": "will help",
+            "label": "도울 것이다"
+          },
+          "object": {
+            "text": "me",
+            "label": "나를"
+          },
+          "complement": {
+            "text": "plant this wheat",
+            "label": "이 밀을 심도록"
+          }
+        },
+        "pattern": {
+          "name": "Question word + S+V+O+C",
+          "note": "의문사 + 주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 의문문이며, 'Who'로 시작합니다. 'will help'는 미래 시제 동사이고, 'me'는 목적어, 'plant this wheat'는 보어입니다.",
+        "grammarPoints": [
+          "의문문 구성",
+          "간접 의문문"
+        ],
+        "examples": [
+          {
+            "en": "\"What will you do tomorrow?\" he asked.",
+            "ko": "\"내일 뭐 할 거야?\" 그가 물었다."
+          },
+          {
+            "en": "\"Where did she go?\" they wondered.",
+            "ko": "\"그녀는 어디로 갔을까?\" 그들이 궁금해했다."
+          }
+        ]
+      },
+      {
+        "text": "\"Not I,\" said the cat.",
+        "structure": {
+          "subject": {
+            "text": "the cat",
+            "label": "고양이가"
+          },
+          "verb": {
+            "text": "said",
+            "label": "말했다"
+          },
+          "object": {
+            "text": "\"Not I\"",
+            "label": "\"나 말이다\""
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 SVO 구조입니다. 'the cat'이 주어이고, 'said'가 동사이며, '\"Not I\"'가 목적어입니다.",
+        "grammarPoints": [
+          "인용문 구조",
+          "부정 표현"
+        ],
+        "examples": [
+          {
+            "en": "\"Yes,\" replied the teacher.",
+            "ko": "\"그래\", 선생님이 답했다."
+          },
+          {
+            "en": "\"No problem,\" answered John.",
+            "ko": "\"문제 없어\", 존이 대답했다."
+          }
+        ]
+      },
+      {
+        "text": "So the little red hen planted the wheat by herself.",
+        "structure": {
+          "subject": {
+            "text": "the little red hen",
+            "label": "그 작은 붉은 닭"
+          },
+          "verb": {
+            "text": "planted",
+            "label": "심었다"
+          },
+          "object": {
+            "text": "the wheat",
+            "label": "그 밀을"
+          },
+          "complement": {
+            "text": "by herself",
+            "label": "혼자서"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 SVO + 보어 구조입니다. 'the little red hen'이 주어이고, 'planted'가 동사이며, 'the wheat'가 목적어이고, 'by herself'가 보어입니다.",
+        "grammarPoints": [
+          "반사대명사 사용",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He fixed the car by himself.",
+            "ko": "그는 혼자서 차를 고쳤다."
+          },
+          {
+            "en": "She baked cookies herself.",
+            "ko": "그녀는 직접 쿠키를 만들었다."
+          }
+        ]
+      },
+      {
+        "text": "The wheat grew tall and golden.",
+        "structure": {
+          "subject": {
+            "text": "The wheat",
+            "label": "그 밀이"
+          },
+          "verb": {
+            "text": "grew",
+            "label": "자랐다"
+          },
+          "complement": {
+            "text": "tall and golden",
+            "label": "키가 크고 황금빛으로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 SVC 구조입니다. 'The wheat'이 주어이고, 'grew'가 동사이며, 'tall and golden'이 보어입니다.",
+        "grammarPoints": [
+          "보어가 형용사인 SVC 구조",
+          "연결어 'and'"
+        ],
+        "examples": [
+          {
+            "en": "The flowers became beautiful.",
+            "ko": "꽃들이 아름다워졌다."
+          },
+          {
+            "en": "She felt happy.",
+            "ko": "그녀는 행복했다."
+          }
+        ]
+      },
+      {
+        "text": "She made bread from the wheat.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "그녀가"
+          },
+          "verb": {
+            "text": "made",
+            "label": "만들었다"
+          },
+          "object": {
+            "text": "bread",
+            "label": "빵을"
+          },
+          "complement": {
+            "text": "from the wheat",
+            "label": "그 밀로부터"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 SVO + 보어 구조입니다. 'She'가 주어이고, 'made'가 동사이며, 'bread'가 목적어이고, 'from the wheat'가 보어입니다.",
+        "grammarPoints": [
+          "전치사 'from' 사용",
+          "SVO + 보어 구조"
+        ],
+        "examples": [
+          {
+            "en": "He built a house from wood.",
+            "ko": "그는 나무로 집을 지었다."
+          },
+          {
+            "en": "She made soup from vegetables.",
+            "ko": "그녀는 채소로 국을 만들었다."
+          }
+        ]
+      },
+      {
+        "text": "The bread smelled wonderful.",
+        "structure": {
+          "subject": {
+            "text": "The bread",
+            "label": "그 빵이"
+          },
+          "verb": {
+            "text": "smelled",
+            "label": "향이 났다"
+          },
+          "complement": {
+            "text": "wonderful",
+            "label": "놀랍도록"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 SVC 구조입니다. 'The bread'이 주어이고, 'smelled'가 동사이며, 'wonderful'이 보어입니다.",
+        "grammarPoints": [
+          "감각 동사 + 형용사",
+          "SVC 구조"
+        ],
+        "examples": [
+          {
+            "en": "The coffee tasted great.",
+            "ko": "커피가 맛있었다."
+          },
+          {
+            "en": "The room looks clean.",
+            "ko": "방이 깨끗해 보인다."
+          }
+        ]
+      },
+      {
+        "text": "Everyone wanted to eat it.",
+        "structure": {
+          "subject": {
+            "text": "Everyone",
+            "label": "모든 사람들이"
+          },
+          "verb": {
+            "text": "wanted",
+            "label": "원했다"
+          },
+          "object": {
+            "text": "to eat it",
+            "label": "그것을 먹기를"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 SVO 구조입니다. 'Everyone'이 주어이고, 'wanted'가 동사이며, 'to eat it'이 목적어입니다.",
+        "grammarPoints": [
+          "불특정 대명사 'everyone'",
+          "동사 + to 부정사"
+        ],
+        "examples": [
+          {
+            "en": "She decided to leave.",
+            "ko": "그녀는 떠나기로 했다."
+          },
+          {
+            "en": "He hopes to win.",
+            "ko": "그는 이기기를 바란다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "작은 붉은 닭은 어떤 밀을 발견했다. 그녀는 고양이, 개, 그리고 돼지에게 도움을 요청했다. \"이 밀을 심는 걸 누가 도와줄래?\" 그녀가 물었다. \"나 말이다\" 고양이가 말했다. \"나 말이다\" 개가 말했다. \"나 말이다\" 돼지가 말했다. 그래서 작은 붉은 닭은 혼자서 밀을 심었다. 밀은 키가 크고 황금빛으로 자랐다. 그녀는 그 밀로부터 빵을 만들었다. 빵은 놀랍도록 향이 났다. 모두가 그것을 먹고 싶어했다.",
+  "keyVocab": [
+    "hen",
+    "wheat",
+    "asked",
+    "planted",
+    "smelled"
+  ],
+  "quiz": {
+    "question": "'She asked the cat, the dog, and the pig for help.'에서 'for help'는 어떤 역할을 하는가?",
+    "answer": "'for help'는 목적어 다음에 오는 보어로, 요청의 목적을 나타낸다."
+  },
+  "generated_at": "2026-02-20T07:37:25.233631+09:00"
+}

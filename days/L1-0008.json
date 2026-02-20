@@ -1,0 +1,3270 @@
+{
+  "num": "0008",
+  "category": "L1",
+  "source": {
+    "title": "The Wind and the Sun",
+    "author": "Aesop",
+    "license": "Public Domain",
+    "url": "https://standardebooks.org"
+  },
+  "passage": "The wind and the sun had an argument. They saw a man walking on the road. \"I am stronger than you,\" said the wind. \"Let us see who can make the man take off his coat.\" The wind blew hard. The man held his coat tighter. The wind blew harder. The man buttoned his coat. Then the sun tried. The sun shone bright and warm. The man felt hot. He took off his coat. The sun won. Kindness works better than force.",
+  "audio": {
+    "passage": "audio/L1-0008.mp3",
+    "words": {
+      "the": "audio/L1-0008-the.mp3",
+      "wind": "audio/L1-0008-wind.mp3",
+      "and": "audio/L1-0008-and.mp3",
+      "sun": "audio/L1-0008-sun.mp3",
+      "had": "audio/L1-0008-had.mp3",
+      "an": "audio/L1-0008-an.mp3",
+      "argument": "audio/L1-0008-argument.mp3",
+      "they": "audio/L1-0008-they.mp3",
+      "saw": "audio/L1-0008-saw.mp3",
+      "man": "audio/L1-0008-man.mp3",
+      "walking": "audio/L1-0008-walking.mp3",
+      "on": "audio/L1-0008-on.mp3",
+      "road": "audio/L1-0008-road.mp3",
+      "i": "audio/L1-0008-i.mp3",
+      "am": "audio/L1-0008-am.mp3",
+      "stronger": "audio/L1-0008-stronger.mp3",
+      "than": "audio/L1-0008-than.mp3",
+      "you": "audio/L1-0008-you.mp3",
+      "said": "audio/L1-0008-said.mp3",
+      "let": "audio/L1-0008-let.mp3",
+      "us": "audio/L1-0008-us.mp3",
+      "see": "audio/L1-0008-see.mp3",
+      "who": "audio/L1-0008-who.mp3",
+      "can": "audio/L1-0008-can.mp3",
+      "make": "audio/L1-0008-make.mp3",
+      "the man": "audio/L1-0008-the man.mp3",
+      "take": "audio/L1-0008-take.mp3",
+      "off": "audio/L1-0008-off.mp3",
+      "his": "audio/L1-0008-his.mp3",
+      "coat": "audio/L1-0008-coat.mp3"
+    }
+  },
+  "words": {
+    "the": {
+      "pos": "article (definite)",
+      "meanings": [
+        {
+          "ko": "그, 그녀, 그것 (특정한 것 가리킬 때)",
+          "en": "used to refer to a specific thing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "특정한 바람과 태양을 가리키기 위해 사용됨",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the wind",
+        "the sun",
+        "the road"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book is on the table.",
+          "ko": "책은 테이블 위에 있다."
+        }
+      ],
+      "koreanTips": [
+        "'the'는 특정한 대상을 지칭할 때 사용됩니다. 한국어에서는 생략되기도 함."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "wind": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "바람",
+          "en": "moving air",
+          "primary": true
+        },
+        {
+          "ko": "감기",
+          "en": "to twist or turn something"
+        },
+        {
+          "ko": "감다",
+          "en": "to wrap around"
+        }
+      ],
+      "contextMeaning": "이야기 속 인물인 '바람'",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "wind"
+        },
+        {
+          "label": "복수",
+          "form": "winds"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "breeze",
+        "gust"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "strong wind",
+        "blow in the wind"
+      ],
+      "idioms": [
+        {
+          "phrase": "wind at one's back",
+          "ko": "도움이 되는 힘"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The wind was blowing hard.",
+          "ko": "바람이 세게 불고 있었다."
+        }
+      ],
+      "koreanTips": [
+        "'wind'는 발음이 '윈드'지만, 의미는 '바람'입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈwaɪnd/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고, 그리고서",
+          "en": "used to connect words or clauses",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람과 태양을 연결하는 접속사",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "also",
+        "plus"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "wind and sun",
+        "argument and discussion"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He likes tea and coffee.",
+          "ko": "그는 차와 커피를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'and'는 두 단어나 문장을 연결할 때 사용합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "sun": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "태양",
+          "en": "the star that gives light and heat to Earth",
+          "primary": true
+        },
+        {
+          "ko": "햇살",
+          "en": "sunlight"
+        }
+      ],
+      "contextMeaning": "이야기 속 인물인 '태양'",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "sun"
+        },
+        {
+          "label": "복수",
+          "form": "suns"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "star",
+        "light"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "bright sun",
+        "sun shines"
+      ],
+      "idioms": [
+        {
+          "phrase": "under the sun",
+          "ko": "세상에서 가능한 모든 것들"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sun rises in the east.",
+          "ko": "태양은 동쪽에서 뜬다."
+        }
+      ],
+      "koreanTips": [
+        "'sun'은 태양을 의미하며, 'son'과 발음이 다릅니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsən/"
+    },
+    "had": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "가지다 (과거)",
+          "en": "past tense of have",
+          "primary": true
+        },
+        {
+          "ko": "먹다 (과거)",
+          "en": "past tense of eat"
+        }
+      ],
+      "contextMeaning": "과거에 있었던 논쟁을 나타내는 동사",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "have"
+        },
+        {
+          "label": "과거",
+          "form": "had"
+        },
+        {
+          "label": "과거분사",
+          "form": "had"
+        },
+        {
+          "label": "현재분사",
+          "form": "having"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "has"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "possessed",
+        "held"
+      ],
+      "antonyms": [
+        "lacked"
+      ],
+      "confusables": [],
+      "collocations": [
+        "had an argument",
+        "had lunch"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She had a great idea.",
+          "ko": "그녀는 좋은 아이디어를 가졌다."
+        }
+      ],
+      "koreanTips": [
+        "'have'의 과거형은 'had'입니다. 'have got'과 구별해야 합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhæd/"
+    },
+    "an": {
+      "pos": "article (indefinite)",
+      "meanings": [
+        {
+          "ko": "하나의, 어떤",
+          "en": "used before singular nouns starting with vowels",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "하나의 논쟁을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "a"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "a",
+          "note": "모음 앞에는 'an', 자음 앞에는 'a' 사용"
+        }
+      ],
+      "collocations": [
+        "an argument",
+        "an apple"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It was an interesting story.",
+          "ko": "그것은 흥미로운 이야기였다."
+        }
+      ],
+      "koreanTips": [
+        "모음 소리(a, e, i, o, u)로 시작하는 단어 앞에는 'an'을 사용합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈæn/"
+    },
+    "argument": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "논쟁, 다툼",
+          "en": "a heated exchange of opposing views",
+          "primary": true
+        },
+        {
+          "ko": "주장",
+          "en": "reason given in support of something"
+        }
+      ],
+      "contextMeaning": "바람과 태양 사이의 논쟁",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "argument"
+        },
+        {
+          "label": "복수",
+          "form": "arguments"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "dispute",
+        "quarrel"
+      ],
+      "antonyms": [
+        "agreement"
+      ],
+      "confusables": [],
+      "collocations": [
+        "have an argument",
+        "win an argument"
+      ],
+      "idioms": [
+        {
+          "phrase": "win an argument",
+          "ko": "논쟁에서 이기다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "They had an argument about money.",
+          "ko": "그들은 돈 때문에 논쟁했다."
+        }
+      ],
+      "koreanTips": [
+        "'argument'는 '논쟁' 또는 '주장'을 의미합니다. 'argue'의 명사형입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɑɹɡjəmənt/"
+    },
+    "they": {
+      "pos": "pronoun (personal)",
+      "meanings": [
+        {
+          "ko": "그들",
+          "en": "refers to two or more people/things mentioned earlier",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람과 태양을 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "them"
+      ],
+      "antonyms": [
+        "we"
+      ],
+      "confusables": [],
+      "collocations": [
+        "they saw",
+        "they argued"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They went to school together.",
+          "ko": "그들은 함께 학교에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'they'는 복수 인칭 대명사입니다. 한국어 '그들'에 해당합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðeɪ/"
+    },
+    "saw": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "보다 (과거)",
+          "en": "past tense of see",
+          "primary": true
+        },
+        {
+          "ko": "톱질하다",
+          "en": "to cut wood with a saw"
+        }
+      ],
+      "contextMeaning": "바람과 태양이 사람을 본 것",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "see"
+        },
+        {
+          "label": "과거",
+          "form": "saw"
+        },
+        {
+          "label": "과거분사",
+          "form": "seen"
+        },
+        {
+          "label": "현재분사",
+          "form": "seeing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "sees"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "observed",
+        "noticed"
+      ],
+      "antonyms": [
+        "ignored"
+      ],
+      "confusables": [
+        {
+          "word": "seen",
+          "note": "saw의 과거분사는 seen입니다."
+        }
+      ],
+      "collocations": [
+        "saw a man",
+        "saw something strange"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw him yesterday.",
+          "ko": "어제 그를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "see의 과거형은 saw, 과거분사는 seen입니다. 'saw'는 '톱'이라는 도구와 혼동하지 마세요."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsɔ/"
+    },
+    "man": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "남자",
+          "en": "adult male human being",
+          "primary": true
+        },
+        {
+          "ko": "사람",
+          "en": "human being (general term)"
+        },
+        {
+          "ko": "사람",
+          "en": "piece used in games like chess"
+        }
+      ],
+      "contextMeaning": "도로를 걷고 있는 남자",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "man"
+        },
+        {
+          "label": "복수",
+          "form": "men"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "person",
+        "male"
+      ],
+      "antonyms": [
+        "woman"
+      ],
+      "confusables": [],
+      "collocations": [
+        "walking man",
+        "strong man"
+      ],
+      "idioms": [
+        {
+          "phrase": "every man for himself",
+          "ko": "각자 제 몸살을 안다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A man walked by quickly.",
+          "ko": "한 남자가 빠르게 지나갔다."
+        }
+      ],
+      "koreanTips": [
+        "'man'은 '남자' 또는 '사람'을 의미합니다. 복수형은 'men'입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmæn/"
+    },
+    "walking": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "걷고 있는",
+          "en": "present participle of walk",
+          "primary": true
+        },
+        {
+          "ko": "도보 여행",
+          "en": "traveling on foot"
+        }
+      ],
+      "contextMeaning": "도로를 따라 걷고 있는 상태",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "walk"
+        },
+        {
+          "label": "과거",
+          "form": "walked"
+        },
+        {
+          "label": "과거분사",
+          "form": "walked"
+        },
+        {
+          "label": "현재분사",
+          "form": "walking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "walks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "strolling",
+        "marching"
+      ],
+      "antonyms": [
+        "standing"
+      ],
+      "confusables": [],
+      "collocations": [
+        "walking on the road",
+        "walking fast"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He was walking home.",
+          "ko": "그는 집으로 걸어가고 있었다."
+        }
+      ],
+      "koreanTips": [
+        "'-ing' 형태는 현재 진행형이나 형용사로 사용됩니다. 'walking'은 '걷고 있는'입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɔkɪŋ/"
+    },
+    "on": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~위에",
+          "en": "indicating position above a surface",
+          "primary": true
+        },
+        {
+          "ko": "~에 대해",
+          "en": "about or concerning something"
+        }
+      ],
+      "contextMeaning": "도로 위에 위치한 상태",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "upon",
+        "over"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "on the road",
+        "on top of"
+      ],
+      "idioms": [
+        {
+          "phrase": "on the ball",
+          "ko": "능력이 있음"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The book is on the table.",
+          "ko": "책은 테이블 위에 있다."
+        }
+      ],
+      "koreanTips": [
+        "'on'은 '위에'를 의미하지만, '도로 위에'라는 뜻으로 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɑn/"
+    },
+    "road": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "도로, 길",
+          "en": "a path or way for vehicles or pedestrians",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사람이 걷고 있는 장소",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "road"
+        },
+        {
+          "label": "복수",
+          "form": "roads"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "street",
+        "path"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "route",
+          "note": "경로를 의미하며 더 추상적임"
+        }
+      ],
+      "collocations": [
+        "on the road",
+        "long road"
+      ],
+      "idioms": [
+        {
+          "phrase": "hit the road",
+          "ko": "출발하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We drove down the road.",
+          "ko": "우리는 도로를 따라 운전했다."
+        }
+      ],
+      "koreanTips": [
+        "'road'는 일반적으로 '도로'를 의미합니다. 'street'과 비슷하지만 더 넓은 의미입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹoʊd/"
+    },
+    "i": {
+      "pos": "pronoun (personal)",
+      "meanings": [
+        {
+          "ko": "나",
+          "en": "first person singular pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람이 자신을 가리키며 말함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "me"
+      ],
+      "antonyms": [
+        "you"
+      ],
+      "confusables": [],
+      "collocations": [
+        "I am stronger",
+        "I think so"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I like reading books.",
+          "ko": "나는 책 읽기를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "대문자 I로 써야 합니다. 소문자 i는 다른 뜻이 있습니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈaɪ/"
+    },
+    "am": {
+      "pos": "verb (auxiliary)",
+      "meanings": [
+        {
+          "ko": "이다 (1인칭 단수 현재형)",
+          "en": "first person singular present form of be",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람이 자신이 강하다고 주장함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "1인칭 단수",
+          "form": "am"
+        },
+        {
+          "label": "2인칭 단수",
+          "form": "are"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        },
+        {
+          "label": "복수",
+          "form": "are"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "exist"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "I am strong",
+        "I am happy"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I am ready to go.",
+          "ko": "나는 출발할 준비가 되었다."
+        }
+      ],
+      "koreanTips": [
+        "'be' 동사의 1인칭 단수형인 'am'은 '나는 ~이다'를 의미합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈæm/"
+    },
+    "stronger": {
+      "pos": "adjective (comparative)",
+      "meanings": [
+        {
+          "ko": "더 강한",
+          "en": "comparative form of strong",
+          "primary": true
+        },
+        {
+          "ko": "튼튼한",
+          "en": "physically robust"
+        }
+      ],
+      "contextMeaning": "바람이 자신이 태양보다 강하다고 주장함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "strong"
+        },
+        {
+          "label": "비교급",
+          "form": "stronger"
+        },
+        {
+          "label": "최상급",
+          "form": "strongest"
+        },
+        {
+          "label": "부사형",
+          "form": "strongly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "more powerful",
+        "mightier"
+      ],
+      "antonyms": [
+        "weaker"
+      ],
+      "confusables": [],
+      "collocations": [
+        "stronger than",
+        "get stronger"
+      ],
+      "idioms": [
+        {
+          "phrase": "only as strong as its weakest link",
+          "ko": "약한 고리만큼 강하지 않다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He is stronger than me.",
+          "ko": "그는 나보다 더 강하다."
+        }
+      ],
+      "koreanTips": [
+        "비교급 '-er'가 붙어 'stronger'가 됩니다. 'than'과 함께 사용됩니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈstɹɔŋɝ/"
+    },
+    "than": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "~보다",
+          "en": "used to introduce the second element in a comparison",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람이 태양보다 강하다고 비교함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "stronger than",
+        "better than"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is taller than him.",
+          "ko": "그녀는 그보다 키가 크다."
+        }
+      ],
+      "koreanTips": [
+        "비교급 뒤에는 'than'이 옵니다. 'then'과 혼동하지 마세요."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðæn/"
+    },
+    "you": {
+      "pos": "pronoun (personal)",
+      "meanings": [
+        {
+          "ko": "너, 당신",
+          "en": "second person singular or plural pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람이 태양을 가리키며 말함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "thou",
+        "ye"
+      ],
+      "antonyms": [
+        "I"
+      ],
+      "confusables": [],
+      "collocations": [
+        "you are right",
+        "talk to you"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "You look tired today.",
+          "ko": "오늘 너는 피곤해 보인다."
+        }
+      ],
+      "koreanTips": [
+        "'you'는 단수와 복수 모두 가능합니다. 한국어 '당신' 또는 '너'에 해당합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈju/"
+    },
+    "said": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "말했다",
+          "en": "past tense of say",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람이 한 말을 전달함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "say"
+        },
+        {
+          "label": "과거",
+          "form": "said"
+        },
+        {
+          "label": "과거분사",
+          "form": "said"
+        },
+        {
+          "label": "현재분사",
+          "form": "saying"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "says"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "declared",
+        "uttered"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "said the wind",
+        "he said nothing"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He said he would come.",
+          "ko": "그는 올 거라고 말했다."
+        }
+      ],
+      "koreanTips": [
+        "say의 과거형은 규칙적으로 'said'입니다. 발음은 '세드'입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsɛd/"
+    },
+    "let": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "하게 하다, 허락하다",
+          "en": "allow someone to do something",
+          "primary": true
+        },
+        {
+          "ko": "버리다",
+          "en": "to rent or lease"
+        }
+      ],
+      "contextMeaning": "누가 누구를 먼저 시험해보자고 제안함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "let"
+        },
+        {
+          "label": "과거",
+          "form": "let"
+        },
+        {
+          "label": "과거분사",
+          "form": "let"
+        },
+        {
+          "label": "현재분사",
+          "form": "letting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "lets"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "allow",
+        "permit"
+      ],
+      "antonyms": [
+        "prevent"
+      ],
+      "confusables": [],
+      "collocations": [
+        "let us see",
+        "let me know"
+      ],
+      "idioms": [
+        {
+          "phrase": "let it be",
+          "ko": "그대로 내버려 두다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let me help you.",
+          "ko": "내가 도와줄게."
+        }
+      ],
+      "koreanTips": [
+        "'let'은 '하게 하다'라는 뜻으로, 'allow'와 비슷합니다. 'let go'도 많이 씁니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɛt/"
+    },
+    "us": {
+      "pos": "pronoun (personal)",
+      "meanings": [
+        {
+          "ko": "우리",
+          "en": "first person plural pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람과 태양이 함께 시도해보자는 뜻",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "we"
+      ],
+      "antonyms": [
+        "them"
+      ],
+      "confusables": [],
+      "collocations": [
+        "let us see",
+        "between us"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Let us try again.",
+          "ko": "다시 해보자."
+        }
+      ],
+      "koreanTips": [
+        "'us'는 '우리'를 의미하며, 'let us'는 '하자'라는 뜻입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈəs/"
+    },
+    "see": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "보다",
+          "en": "perceive with eyes",
+          "primary": true
+        },
+        {
+          "ko": "알아보다",
+          "en": "to understand or realize"
+        }
+      ],
+      "contextMeaning": "누가 더 강한지 확인해보자는 뜻",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "see"
+        },
+        {
+          "label": "과거",
+          "form": "saw"
+        },
+        {
+          "label": "과거분사",
+          "form": "seen"
+        },
+        {
+          "label": "현재분사",
+          "form": "seeing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "sees"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "look at",
+        "observe"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "confusables": [],
+      "collocations": [
+        "see who",
+        "see clearly"
+      ],
+      "idioms": [
+        {
+          "phrase": "see eye to eye",
+          "ko": "의견이 일치하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can you see the bird?",
+          "ko": "새를 볼 수 있어?"
+        }
+      ],
+      "koreanTips": [
+        "see는 '보다'라는 뜻으로, 눈으로 보는 것을 의미합니다. 'look'과 구별하세요."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsi/"
+    },
+    "who": {
+      "pos": "pronoun (relative)",
+      "meanings": [
+        {
+          "ko": "누가",
+          "en": "used to ask about a person",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "어떤 사람이 행동을 할지를 묻는 질문",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "which person"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "who can",
+        "who did"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Who is coming?",
+          "ko": "누가 오는가?"
+        }
+      ],
+      "koreanTips": [
+        "'who'는 사람을 묻는 의문사입니다. 'what'은 사물을 묻습니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhu/"
+    },
+    "can": {
+      "pos": "modal verb",
+      "meanings": [
+        {
+          "ko": "할 수 있다",
+          "en": "ability to do something",
+          "primary": true
+        },
+        {
+          "ko": "허락하다",
+          "en": "permission to do something"
+        }
+      ],
+      "contextMeaning": "어떤 사람이 코트를 벗도록 만들 수 있는지 시험해보자는 뜻",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "can"
+        },
+        {
+          "label": "과거",
+          "form": "could"
+        },
+        {
+          "label": "과거분사",
+          "form": ""
+        },
+        {
+          "label": "현재분사",
+          "form": ""
+        },
+        {
+          "label": "3인칭 단수",
+          "form": ""
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "able to",
+        "capable of"
+      ],
+      "antonyms": [
+        "cannot"
+      ],
+      "confusables": [],
+      "collocations": [
+        "can make",
+        "can do"
+      ],
+      "idioms": [
+        {
+          "phrase": "can't judge a book by its cover",
+          "ko": "겉모습으로 판단할 수 없다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I can swim well.",
+          "ko": "나는 잘 수영할 수 있다."
+        }
+      ],
+      "koreanTips": [
+        "'can'은 능력을 나타냅니다. 과거형은 'could'입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈkæn/"
+    },
+    "make": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "만들다",
+          "en": "to cause something to happen",
+          "primary": true
+        },
+        {
+          "ko": "강요하다",
+          "en": "to force someone to do something"
+        }
+      ],
+      "contextMeaning": "사람이 코트를 벗도록 강요하는 행위",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "make"
+        },
+        {
+          "label": "과거",
+          "form": "made"
+        },
+        {
+          "label": "과거분사",
+          "form": "made"
+        },
+        {
+          "label": "현재분사",
+          "form": "making"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "makes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "force",
+        "compel"
+      ],
+      "antonyms": [
+        "prevent"
+      ],
+      "confusables": [
+        {
+          "word": "take",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "make someone do",
+        "make a decision"
+      ],
+      "idioms": [
+        {
+          "phrase": "make up your mind",
+          "ko": "결정을 내리다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She made him cry.",
+          "ko": "그녀는 그를 울게 했다."
+        }
+      ],
+      "koreanTips": [
+        "'make'는 '~하게 하다'라는 뜻으로, 주어가 목적어를 행동하도록 만듭니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmeɪk/"
+    },
+    "the man": {
+      "pos": "noun phrase",
+      "meanings": [
+        {
+          "ko": "그 남자",
+          "en": "specific man referred to previously",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "도로를 걷고 있는 남자를 지칭",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "that man"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the man walking",
+        "the man took off"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The man looked tired.",
+          "ko": "그 남자는 피곤해 보였다."
+        }
+      ],
+      "koreanTips": [
+        "'the man'은 특정한 남자를 가리킵니다. 앞서 언급된 인물입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": ""
+    },
+    "take": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "가지다, 가져가다",
+          "en": "to carry or bring something",
+          "primary": true
+        },
+        {
+          "ko": "벗다",
+          "en": "to remove clothing"
+        }
+      ],
+      "contextMeaning": "코트를 벗는 행위",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "take"
+        },
+        {
+          "label": "과거",
+          "form": "took"
+        },
+        {
+          "label": "과거분사",
+          "form": "taken"
+        },
+        {
+          "label": "현재분사",
+          "form": "taking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "takes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "remove",
+        "strip"
+      ],
+      "antonyms": [
+        "put on"
+      ],
+      "confusables": [
+        {
+          "word": "make",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "take off",
+        "take a break"
+      ],
+      "idioms": [
+        {
+          "phrase": "take it easy",
+          "ko": "편하게 있으라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He took off his jacket.",
+          "ko": "그는 재킷을 벗었다."
+        }
+      ],
+      "koreanTips": [
+        "'take off'는 '벗다'라는 뜻입니다. 'put on'과 반대입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈteɪk/"
+    },
+    "off": {
+      "pos": "particle/adverb/preposition",
+      "meanings": [
+        {
+          "ko": "벗다, 떨어뜨리다",
+          "en": "away from a place or surface",
+          "primary": true
+        },
+        {
+          "ko": "꺼지다",
+          "en": "no longer operating"
+        }
+      ],
+      "contextMeaning": "코트를 벗는 동작을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "away"
+      ],
+      "antonyms": [
+        "on"
+      ],
+      "confusables": [],
+      "collocations": [
+        "take off",
+        "turn off"
+      ],
+      "idioms": [
+        {
+          "phrase": "off the hook",
+          "ko": "책임이 없다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Turn off the light.",
+          "ko": "전등을 꺼라."
+        }
+      ],
+      "koreanTips": [
+        "'off'는 '벗다' 또는 '꺼지다'라는 뜻으로, 'on'과 반대입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɔf/"
+    },
+    "his": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "그의",
+          "en": "belonging to him",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "그 남자의 코트를 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "her",
+        "their"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "his coat",
+        "his car"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is his book.",
+          "ko": "이것은 그의 책이다."
+        }
+      ],
+      "koreanTips": [
+        "'his'는 '그의'를 의미하며, 소유격입니다. 'him'과 구별하세요."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhɪz/"
+    },
+    "coat": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "코트, 외투",
+          "en": "outer garment worn for warmth",
+          "primary": true
+        },
+        {
+          "ko": "층",
+          "en": "layer covering something"
+        }
+      ],
+      "contextMeaning": "남자가 입고 있는 외투",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "coat"
+        },
+        {
+          "label": "복수",
+          "form": "coats"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "jacket",
+        "overcoat"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "take off his coat",
+        "warm coat"
+      ],
+      "idioms": [
+        {
+          "phrase": "coat of arms",
+          "ko": "문장"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Wear your coat—it's cold.",
+          "ko": "코트를 입어—춥다."
+        }
+      ],
+      "koreanTips": [
+        "'coat'는 겉옷을 의미합니다. 'jacket'보다 두껍습니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈkoʊt/"
+    },
+    "blew": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "불었다",
+          "en": "past tense of blow",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람이 강하게 불었다는 뜻",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "blow"
+        },
+        {
+          "label": "과거",
+          "form": "blew"
+        },
+        {
+          "label": "과거분사",
+          "form": "blown"
+        },
+        {
+          "label": "현재분사",
+          "form": "blowing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "blows"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "blew hard",
+        "gusted"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "blew hard",
+        "blew away"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The wind blew strongly.",
+          "ko": "바람이 강하게 불었다."
+        }
+      ],
+      "koreanTips": [
+        "blow의 과거형은 'blew', 과거분사는 'blown'입니다. 발음은 '블루'입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈbɫu/"
+    },
+    "hard": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "세게, 열심히",
+          "en": "with great effort or force",
+          "primary": true
+        },
+        {
+          "ko": "단단한",
+          "en": "firm or solid"
+        }
+      ],
+      "contextMeaning": "바람이 세게 불었다는 뜻",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "hard"
+        },
+        {
+          "label": "비교급",
+          "form": "harder"
+        },
+        {
+          "label": "최상급",
+          "form": "hardest"
+        },
+        {
+          "label": "부사형",
+          "form": "hard"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "strongly",
+        "forcefully"
+      ],
+      "antonyms": [
+        "softly"
+      ],
+      "confusables": [],
+      "collocations": [
+        "blew hard",
+        "work hard"
+      ],
+      "idioms": [
+        {
+          "phrase": "hard to believe",
+          "ko": "믿기 어렵다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He worked hard all day.",
+          "ko": "그는 하루 종일 열심히 일했다."
+        }
+      ],
+      "koreanTips": [
+        "'hard'는 형용사이자 부사입니다. '열심히' 또는 '세게'라는 뜻입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhɑɹd/"
+    },
+    "held": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "잡았다",
+          "en": "past tense of hold",
+          "primary": true
+        },
+        {
+          "ko": "진행하다",
+          "en": "to organize or conduct"
+        }
+      ],
+      "contextMeaning": "남자가 코트를 더 꽉 잡았다는 뜻",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "hold"
+        },
+        {
+          "label": "과거",
+          "form": "held"
+        },
+        {
+          "label": "과거분사",
+          "form": "held"
+        },
+        {
+          "label": "현재분사",
+          "form": "holding"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "holds"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "grasped",
+        "clutched"
+      ],
+      "antonyms": [
+        "released"
+      ],
+      "confusables": [],
+      "collocations": [
+        "held tightly",
+        "held his breath"
+      ],
+      "idioms": [
+        {
+          "phrase": "hold your horses",
+          "ko": "조금 기다려"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He held the rope tightly.",
+          "ko": "그는 밧줄을 꽉 잡았다."
+        }
+      ],
+      "koreanTips": [
+        "hold의 과거형과 과거분사는 모두 'held'입니다. 발음은 '헬드'입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhɛɫd/"
+    },
+    "tighter": {
+      "pos": "adjective (comparative)",
+      "meanings": [
+        {
+          "ko": "더 꽉",
+          "en": "comparative form of tight",
+          "primary": true
+        },
+        {
+          "ko": "タイト한",
+          "en": "close fitting"
+        }
+      ],
+      "contextMeaning": "남자가 코트를 더 꽉 잡았다는 뜻",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "tight"
+        },
+        {
+          "label": "비교급",
+          "form": "tighter"
+        },
+        {
+          "label": "최상급",
+          "form": "tightest"
+        },
+        {
+          "label": "부사형",
+          "form": "tightly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "more firmly",
+        "closer"
+      ],
+      "antonyms": [
+        "looser"
+      ],
+      "confusables": [],
+      "collocations": [
+        "held tighter",
+        "tie tighter"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Tie the rope tighter.",
+          "ko": "밧줄을 더 꽉 묶어라."
+        }
+      ],
+      "koreanTips": [
+        "'tighter'는 'tight'의 비교급입니다. '더 꽉'이라는 뜻입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtaɪtɝ/"
+    },
+    "blew harder": {
+      "pos": "verb phrase",
+      "meanings": [
+        {
+          "ko": "더 세게 불었다",
+          "en": "blew with greater force",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람이 더 세게 불었다는 뜻",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "blasted",
+        "gusted"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "blew harder",
+        "blew stronger"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The wind blew harder than before.",
+          "ko": "바람이 이전보다 더 세게 불었다."
+        }
+      ],
+      "koreanTips": [
+        "'blew harder'는 '더 세게 불었다'는 뜻입니다. 비교급 사용."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": ""
+    },
+    "buttoned": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "단추를 꿰었다",
+          "en": "past tense of button",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "남자가 코트 단추를 더 꽉 맸다는 뜻",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "button"
+        },
+        {
+          "label": "과거",
+          "form": "buttoned"
+        },
+        {
+          "label": "과거분사",
+          "form": "buttoned"
+        },
+        {
+          "label": "현재분사",
+          "form": "buttoning"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "buttons"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "fastened",
+        "secured"
+      ],
+      "antonyms": [
+        "unbuttoned"
+      ],
+      "confusables": [],
+      "collocations": [
+        "buttoned his coat",
+        "buttoned up"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He buttoned his shirt carefully.",
+          "ko": "그는 셔츠 단추를 조심스럽게 꿰었다."
+        }
+      ],
+      "koreanTips": [
+        "'button'은 '단추를 끼우다'라는 뜻입니다. 과거형은 'buttoned'입니다."
+      ],
+      "frequency": 2,
+      "register": "일상",
+      "ipa": "/ˈbətənd/"
+    },
+    "then": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "그러자, 그러면",
+          "en": "next in sequence or time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "바람이 실패하고 태양이 시도하기 시작한 시점을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "next",
+        "afterwards"
+      ],
+      "antonyms": [
+        "before"
+      ],
+      "confusables": [
+        {
+          "word": "than",
+          "note": "비교급에 사용되는 'than'과 발음이 유사함"
+        }
+      ],
+      "collocations": [
+        "then tried",
+        "and then"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "First we ate, then we played.",
+          "ko": "우선 먹었고, 그러자 놀았다."
+        }
+      ],
+      "koreanTips": [
+        "'then'은 시간 순서를 나타냅니다. 'than'과 발음이 비슷하지만 뜻이 다릅니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈðɛn/"
+    },
+    "tried": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "시도했다",
+          "en": "past tense of try",
+          "primary": true
+        },
+        {
+          "ko": "시험해보다",
+          "en": "to test or attempt"
+        }
+      ],
+      "contextMeaning": "태양이 자신의 힘으로 남자를 설득해보려는 시도",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "try"
+        },
+        {
+          "label": "과거",
+          "form": "tried"
+        },
+        {
+          "label": "과거분사",
+          "form": "tried"
+        },
+        {
+          "label": "현재분사",
+          "form": "trying"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "tries"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "attempted",
+        "endeavored"
+      ],
+      "antonyms": [
+        "gave up"
+      ],
+      "confusables": [],
+      "collocations": [
+        "tried to help",
+        "tried hard"
+      ],
+      "idioms": [
+        {
+          "phrase": "try your luck",
+          "ko": "운을 시험해보다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She tried to solve the problem.",
+          "ko": "그녀는 문제를 해결하려고 시도했다."
+        }
+      ],
+      "koreanTips": [
+        "try의 과거형은 'tried'입니다. '노력하다'라는 뜻으로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtɹaɪd/"
+    },
+    "shone": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "빛났다",
+          "en": "past tense of shine",
+          "primary": true
+        },
+        {
+          "ko": "반짝이다",
+          "en": "to emit light"
+        }
+      ],
+      "contextMeaning": "태양이 밝고 따뜻하게 빛났다는 뜻",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "shine"
+        },
+        {
+          "label": "과거",
+          "form": "shone"
+        },
+        {
+          "label": "과거분사",
+          "form": "shone"
+        },
+        {
+          "label": "현재분사",
+          "form": "shining"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "shines"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "glowed",
+        "radiated"
+      ],
+      "antonyms": [
+        "dimmed"
+      ],
+      "confusables": [],
+      "collocations": [
+        "shone bright",
+        "shone warmly"
+      ],
+      "idioms": [
+        {
+          "phrase": "the sun never shone",
+          "ko": "항상 어둡다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The stars shone brightly.",
+          "ko": "별들이 밝게 빛났다."
+        }
+      ],
+      "koreanTips": [
+        "shine의 과거형은 'shone'입니다. 발음은 '숀'입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈʃoʊn/"
+    },
+    "bright": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "밝은",
+          "en": "giving out much light",
+          "primary": true
+        },
+        {
+          "ko": "영리한",
+          "en": "intelligent"
+        }
+      ],
+      "contextMeaning": "태양이 밝게 빛났다는 뜻",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "bright"
+        },
+        {
+          "label": "비교급",
+          "form": "brighter"
+        },
+        {
+          "label": "최상급",
+          "form": "brightest"
+        },
+        {
+          "label": "부사형",
+          "form": "brightly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "luminous",
+        "radiant"
+      ],
+      "antonyms": [
+        "dark"
+      ],
+      "confusables": [],
+      "collocations": [
+        "shone bright",
+        "bright light"
+      ],
+      "idioms": [
+        {
+          "phrase": "bright future",
+          "ko": "밝은 미래"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The room was bright and cheerful.",
+          "ko": "방은 밝고 즐거웠다."
+        }
+      ],
+      "koreanTips": [
+        "'bright'는 '밝은'이라는 뜻입니다. 'brightly'는 부사형입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈbɹaɪt/"
+    },
+    "warm": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "따뜻한",
+          "en": "moderately hot",
+          "primary": true
+        },
+        {
+          "ko": "따뜻하게 하는",
+          "en": "making one feel comfortable"
+        }
+      ],
+      "contextMeaning": "태양이 따뜻하게 빛났다는 뜻",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "warm"
+        },
+        {
+          "label": "비교급",
+          "form": "warmer"
+        },
+        {
+          "label": "최상급",
+          "form": "warmest"
+        },
+        {
+          "label": "부사형",
+          "form": "warmly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "hot",
+        "heated"
+      ],
+      "antonyms": [
+        "cold"
+      ],
+      "confusables": [],
+      "collocations": [
+        "warm sun",
+        "warm feeling"
+      ],
+      "idioms": [
+        {
+          "phrase": "warm welcome",
+          "ko": "따뜻한 환영"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The coffee was warm.",
+          "ko": "커피는 따뜻했다."
+        }
+      ],
+      "koreanTips": [
+        "'warm'은 '따뜻한'이라는 뜻입니다. 'hot'보다 덜 뜨거움을 의미합니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɔɹm/"
+    },
+    "felt": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "느꼈다",
+          "en": "past tense of feel",
+          "primary": true
+        },
+        {
+          "ko": "촉감이었다",
+          "en": "to experience a sensation"
+        }
+      ],
+      "contextMeaning": "남자가 더운 것을 느꼈다는 뜻",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "feel"
+        },
+        {
+          "label": "과거",
+          "form": "felt"
+        },
+        {
+          "label": "과거분사",
+          "form": "felt"
+        },
+        {
+          "label": "현재분사",
+          "form": "feeling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "feels"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "experienced",
+        "sensed"
+      ],
+      "antonyms": [
+        "ignored"
+      ],
+      "confusables": [],
+      "collocations": [
+        "felt hot",
+        "felt tired"
+      ],
+      "idioms": [
+        {
+          "phrase": "felt like doing",
+          "ko": "~하고 싶었다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I felt very tired.",
+          "ko": "나는 매우 피곤했다."
+        }
+      ],
+      "koreanTips": [
+        "feel의 과거형은 'felt'입니다. 감각이나 감정을 표현할 때 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɛɫt/"
+    },
+    "hot": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "더운",
+          "en": "having a high temperature",
+          "primary": true
+        },
+        {
+          "ko": "매운",
+          "en": "spicy"
+        }
+      ],
+      "contextMeaning": "태양이 너무 따뜻해서 남자가 더워졌다는 뜻",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "hot"
+        },
+        {
+          "label": "비교급",
+          "form": "hotter"
+        },
+        {
+          "label": "최상급",
+          "form": "hottest"
+        },
+        {
+          "label": "부사형",
+          "form": "hotly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "warm",
+        "heated"
+      ],
+      "antonyms": [
+        "cold"
+      ],
+      "confusables": [],
+      "collocations": [
+        "felt hot",
+        "hot weather"
+      ],
+      "idioms": [
+        {
+          "phrase": "hot potato",
+          "ko": "까다로운 문제"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It's too hot outside.",
+          "ko": "밖에가 너무 덥다."
+        }
+      ],
+      "koreanTips": [
+        "'hot'은 '더운' 또는 '매운'이라는 뜻입니다. 'warm'보다 더 강한 온도를 의미합니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhɑt/"
+    },
+    "took off": {
+      "pos": "phrasal verb",
+      "meanings": [
+        {
+          "ko": "벗다",
+          "en": "to remove clothing",
+          "primary": true
+        },
+        {
+          "ko": "이륙하다",
+          "en": "for aircraft to begin flying"
+        }
+      ],
+      "contextMeaning": "남자가 코트를 벗었다는 뜻",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "removed",
+        "stripped"
+      ],
+      "antonyms": [
+        "put on"
+      ],
+      "confusables": [],
+      "collocations": [
+        "took off his coat",
+        "took off quickly"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He took off his hat.",
+          "ko": "그는 모자를 벗었다."
+        }
+      ],
+      "koreanTips": [
+        "'take off'는 '벗다'라는 뜻입니다. 'put on'과 반대입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": ""
+    },
+    "won": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "이겼다",
+          "en": "past tense of win",
+          "primary": true
+        },
+        {
+          "ko": "획득하다",
+          "en": "to gain through competition"
+        }
+      ],
+      "contextMeaning": "태양이 바람보다 더 강하다는 것을 증명함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "win"
+        },
+        {
+          "label": "과거",
+          "form": "won"
+        },
+        {
+          "label": "과거분사",
+          "form": "won"
+        },
+        {
+          "label": "현재분사",
+          "form": "winning"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "wins"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "defeated",
+        "beat"
+      ],
+      "antonyms": [
+        "lost"
+      ],
+      "confusables": [],
+      "collocations": [
+        "won the game",
+        "won easily"
+      ],
+      "idioms": [
+        {
+          "phrase": "winner takes all",
+          "ko": "승자는 모든 것을 얻는다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our team won the match.",
+          "ko": "우리 팀이 경기를 이겼다."
+        }
+      ],
+      "koreanTips": [
+        "win의 과거형은 'won'입니다. 'lose'와 반대입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɑn/"
+    },
+    "kindness": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "친절, 자비",
+          "en": "the quality of being friendly and generous",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "태양의 따뜻한 방법이 바람의 강한 방법보다 더 효과적이었다는 결론",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "kindness"
+        },
+        {
+          "label": "복수",
+          "form": "kindnesses"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "compassion",
+        "gentleness"
+      ],
+      "antonyms": [
+        "cruelty"
+      ],
+      "confusables": [],
+      "collocations": [
+        "act of kindness",
+        "show kindness"
+      ],
+      "idioms": [
+        {
+          "phrase": "kindness goes a long way",
+          "ko": "친절은 큰 힘이 된다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her kindness touched my heart.",
+          "ko": "그녀의 친절이 내 마음을 움직였다."
+        }
+      ],
+      "koreanTips": [
+        "'kindness'는 '친절' 또는 '자비'를 의미합니다. 형용사 'kind'의 명사형입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈkaɪndnəs/"
+    },
+    "works": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "효과가 있다",
+          "en": "functions effectively",
+          "primary": true
+        },
+        {
+          "ko": "일하다",
+          "en": "to perform duties or tasks"
+        }
+      ],
+      "contextMeaning": "친절이 폭력보다 더 효과적이라는 결론",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "work"
+        },
+        {
+          "label": "과거",
+          "form": "worked"
+        },
+        {
+          "label": "과거분사",
+          "form": "worked"
+        },
+        {
+          "label": "현재분사",
+          "form": "working"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "works"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "functions",
+        "operates"
+      ],
+      "antonyms": [
+        "fails"
+      ],
+      "confusables": [],
+      "collocations": [
+        "works better",
+        "works well"
+      ],
+      "idioms": [
+        {
+          "phrase": "work like magic",
+          "ko": "마법처럼 효과가 있다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This method works well.",
+          "ko": "이 방법은 잘 효과가 있다."
+        }
+      ],
+      "koreanTips": [
+        "'work'는 '일하다' 또는 '효과가 있다'는 뜻입니다. 'works'는 3인칭 단수형인데, 여기서는 '효과가 있다'라는 뜻입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɝks/"
+    },
+    "better": {
+      "pos": "adverb (comparative)",
+      "meanings": [
+        {
+          "ko": "더 잘",
+          "en": "comparative form of well",
+          "primary": true
+        },
+        {
+          "ko": "더 좋은",
+          "en": "comparative form of good"
+        }
+      ],
+      "contextMeaning": "친절이 폭력보다 더 효과적이라는 뜻",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "well"
+        },
+        {
+          "label": "비교급",
+          "form": "better"
+        },
+        {
+          "label": "최상급",
+          "form": "best"
+        },
+        {
+          "label": "부사형",
+          "form": "better"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "more effectively",
+        "preferably"
+      ],
+      "antonyms": [
+        "worse"
+      ],
+      "confusables": [],
+      "collocations": [
+        "works better",
+        "do better"
+      ],
+      "idioms": [
+        {
+          "phrase": "better late than never",
+          "ko": "늦었지만 없는 것보다는 낫다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Exercise works better than medicine.",
+          "ko": "운동이 약보다 더 효과적이다."
+        }
+      ],
+      "koreanTips": [
+        "'better'는 'good'의 비교급이자 'well'의 비교급입니다. '더 잘' 또는 '더 좋은'이라는 뜻입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbɛtɝ/"
+    },
+    "force": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "힘, 폭력",
+          "en": "strength or energy applied to move something",
+          "primary": true
+        },
+        {
+          "ko": "군대",
+          "en": "group of soldiers"
+        }
+      ],
+      "contextMeaning": "바람의 강한 방법을 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "force"
+        },
+        {
+          "label": "복수",
+          "form": "forces"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "power",
+        "strength"
+      ],
+      "antonyms": [
+        "gentleness"
+      ],
+      "confusables": [],
+      "collocations": [
+        "use force",
+        "against force"
+      ],
+      "idioms": [
+        {
+          "phrase": "force of nature",
+          "ko": "자연의 힘"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Don't use force against children.",
+          "ko": "아이들에게 폭력을 사용하지 마라."
+        }
+      ],
+      "koreanTips": [
+        "'force'는 '힘' 또는 '폭력'을 의미합니다. 'power'와 비슷하지만 더 강한 뉘앙스입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈfɔɹs/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "The wind and the sun had an argument.",
+        "structure": {
+          "subject": {
+            "text": "The wind and the sun",
+            "label": "바람과 태양"
+          },
+          "verb": {
+            "text": "had",
+            "label": "가졌다 (과거)"
+          },
+          "object": {
+            "text": "an argument",
+            "label": "논쟁"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 '바람과 태양이 논쟁을 가졌다'는 뜻입니다. SVO 구조로, 주어가 'The wind and the sun', 동사가 'had', 목적어가 'an argument'입니다.",
+        "grammarPoints": [
+          "복합 주어",
+          "과거형 동사",
+          "부정관사 사용"
+        ],
+        "examples": [
+          {
+            "en": "Tom and Mary had a meeting.",
+            "ko": "톰과 메리는 회의를 가졌다."
+          },
+          {
+            "en": "We had dinner together.",
+            "ko": "우리는 함께 저녁을 먹었다."
+          }
+        ]
+      },
+      {
+        "text": "They saw a man walking on the road.",
+        "structure": {
+          "subject": {
+            "text": "They",
+            "label": "그들"
+          },
+          "verb": {
+            "text": "saw",
+            "label": "봤다"
+          },
+          "object": {
+            "text": "a man walking on the road",
+            "label": "도로를 걷는 남자"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 '그들이 도로를 걷는 남자를 봤다'는 뜻입니다. 'walking on the road'는 'man'을 수식하는 분사구문입니다.",
+        "grammarPoints": [
+          "분사구문",
+          "목적어",
+          "전치사구"
+        ],
+        "examples": [
+          {
+            "en": "I saw a dog running in the park.",
+            "ko": "나는 공원에서 달리는 개를 봤다."
+          },
+          {
+            "en": "She watched birds flying overhead.",
+            "ko": "그녀는 새들이 머리 위로 날아가는 것을 지켜봤다."
+          }
+        ]
+      },
+      {
+        "text": "\"I am stronger than you,\" said the wind.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "am",
+            "label": "이다"
+          },
+          "complement": {
+            "text": "stronger than you",
+            "label": "너보다 더 강하다"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '나는 너보다 더 강하다'는 뜻입니다. 'stronger than you'는 형용사 비교급으로 보어 역할을 합니다.",
+        "grammarPoints": [
+          "형용사 비교급",
+          "보어",
+          "인용문"
+        ],
+        "examples": [
+          {
+            "en": "He is taller than me.",
+            "ko": "그는 나보다 키가 크다."
+          },
+          {
+            "en": "This book is easier than that one.",
+            "ko": "이 책은 그 책보다 쉽다."
+          }
+        ]
+      },
+      {
+        "text": "\"Let us see who can make the man take off his coat.\"",
+        "structure": {
+          "subject": {
+            "text": "(implied)",
+            "label": "생략됨"
+          },
+          "verb": {
+            "text": "let",
+            "label": "하게 하다"
+          },
+          "object": {
+            "text": "us see who can make the man take off his coat",
+            "label": "우리가 누가 남자를 벗게 할 수 있는지 보자"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 '우리가 누가 남자를 벗게 할 수 있는지 보자'는 뜻입니다. 'let us see'는 제안을 나타내고, 'who can make...'는 간접 의문문입니다.",
+        "grammarPoints": [
+          "간접 의문문",
+          "make + O + V 원형",
+          "제안 표현"
+        ],
+        "examples": [
+          {
+            "en": "Let us find out what happened.",
+            "ko": "무슨 일이 일어났는지 알아보자."
+          },
+          {
+            "en": "Let me know when you arrive.",
+            "ko": "도착하면 알려줘."
+          }
+        ]
+      },
+      {
+        "text": "The wind blew hard.",
+        "structure": {
+          "subject": {
+            "text": "The wind",
+            "label": "바람"
+          },
+          "verb": {
+            "text": "blew",
+            "label": "불었다"
+          },
+          "complement": {
+            "text": "hard",
+            "label": "세게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '바람이 세게 불었다'는 뜻입니다. 'hard'는 부사로 동사를 수식합니다.",
+        "grammarPoints": [
+          "부사 수식",
+          "과거형 동사",
+          "의미 확장"
+        ],
+        "examples": [
+          {
+            "en": "He ran fast.",
+            "ko": "그는 빠르게 달렸다."
+          },
+          {
+            "en": "She spoke clearly.",
+            "ko": "그녀는 분명하게 말했다."
+          }
+        ]
+      },
+      {
+        "text": "The man held his coat tighter.",
+        "structure": {
+          "subject": {
+            "text": "The man",
+            "label": "남자"
+          },
+          "verb": {
+            "text": "held",
+            "label": "잡았다"
+          },
+          "object": {
+            "text": "his coat",
+            "label": "그의 코트"
+          },
+          "complement": {
+            "text": "tighter",
+            "label": "더 꽉"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 '남자가 자신의 코트를 더 꽉 잡았다'는 뜻입니다. 'tighter'는 목적어 'his coat'의 상태를 설명하는 보어입니다.",
+        "grammarPoints": [
+          "형용사 비교급",
+          "보어",
+          "목적어"
+        ],
+        "examples": [
+          {
+            "en": "She tied the rope tighter.",
+            "ko": "그녀는 밧줄을 더 꽉 묶었다."
+          },
+          {
+            "en": "He held the door closed.",
+            "ko": "그는 문을 닫은 채로 잡고 있었다."
+          }
+        ]
+      },
+      {
+        "text": "The wind blew harder.",
+        "structure": {
+          "subject": {
+            "text": "The wind",
+            "label": "바람"
+          },
+          "verb": {
+            "text": "blew",
+            "label": "불었다"
+          },
+          "complement": {
+            "text": "harder",
+            "label": "더 세게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '바람이 더 세게 불었다'는 뜻입니다. 'harder'는 'hard'의 비교급으로, 바람이 더 강하게 불었다는 뜻입니다.",
+        "grammarPoints": [
+          "형용사 비교급",
+          "부사 수식",
+          "과거형 동사"
+        ],
+        "examples": [
+          {
+            "en": "He ran faster than me.",
+            "ko": "그는 나보다 더 빠르게 달렸다."
+          },
+          {
+            "en": "She worked harder than anyone else.",
+            "ko": "그녀는 누구보다 더 열심히 일했다."
+          }
+        ]
+      },
+      {
+        "text": "The man buttoned his coat.",
+        "structure": {
+          "subject": {
+            "text": "The man",
+            "label": "남자"
+          },
+          "verb": {
+            "text": "buttoned",
+            "label": "단추를 꿰었다"
+          },
+          "object": {
+            "text": "his coat",
+            "label": "그의 코트"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 '남자가 자신의 코트 단추를 꿰었다'는 뜻입니다. 'buttoned'는 '단추를 끼우다'라는 뜻의 동사입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "목적어",
+          "의미 확장"
+        ],
+        "examples": [
+          {
+            "en": "He opened the door.",
+            "ko": "그는 문을 열었다."
+          },
+          {
+            "en": "She cleaned her room.",
+            "ko": "그녀는 방을 청소했다."
+          }
+        ]
+      },
+      {
+        "text": "Then the sun tried.",
+        "structure": {
+          "subject": {
+            "text": "the sun",
+            "label": "태양"
+          },
+          "verb": {
+            "text": "tried",
+            "label": "시도했다"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어 + 동사"
+        },
+        "explanation": "이 문장은 '그러자 태양이 시도했다'는 뜻입니다. 'then'은 시간적 순서를 나타내며, 'tried'는 '시도하다'라는 뜻입니다.",
+        "grammarPoints": [
+          "시간 부사",
+          "과거형 동사",
+          "생략된 목적어"
+        ],
+        "examples": [
+          {
+            "en": "Then he left.",
+            "ko": "그러자 그는 떠났다."
+          },
+          {
+            "en": "She tried to help.",
+            "ko": "그녀는 도우려고 시도했다."
+          }
+        ]
+      },
+      {
+        "text": "The sun shone bright and warm.",
+        "structure": {
+          "subject": {
+            "text": "The sun",
+            "label": "태양"
+          },
+          "verb": {
+            "text": "shone",
+            "label": "빛났다"
+          },
+          "complement": {
+            "text": "bright and warm",
+            "label": "밝고 따뜻하게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '태양이 밝고 따뜻하게 빛났다'는 뜻입니다. 'bright and warm'은 태양의 빛을 설명하는 형용사입니다.",
+        "grammarPoints": [
+          "형용사 병렬",
+          "과거형 동사",
+          "보어"
+        ],
+        "examples": [
+          {
+            "en": "The flowers smell sweet and fresh.",
+            "ko": "꽃들은 달콤하고 신선하게 향기롭다."
+          },
+          {
+            "en": "The cake tastes delicious and soft.",
+            "ko": "케이크는 맛있고 부드럽다."
+          }
+        ]
+      },
+      {
+        "text": "The man felt hot.",
+        "structure": {
+          "subject": {
+            "text": "The man",
+            "label": "남자"
+          },
+          "verb": {
+            "text": "felt",
+            "label": "느꼈다"
+          },
+          "complement": {
+            "text": "hot",
+            "label": "더웠다"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '남자가 더웠다고 느꼈다'는 뜻입니다. 'felt'는 감각 동사로, 'hot'은 보어 역할을 합니다.",
+        "grammarPoints": [
+          "감각 동사",
+          "형용사 보어",
+          "과거형 동사"
+        ],
+        "examples": [
+          {
+            "en": "I felt tired after work.",
+            "ko": "나는 일한 후에 피곤했다."
+          },
+          {
+            "en": "She felt sad about the news.",
+            "ko": "그녀는 그 소식에 슬펐다."
+          }
+        ]
+      },
+      {
+        "text": "He took off his coat.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "took off",
+            "label": "벗었다"
+          },
+          "object": {
+            "text": "his coat",
+            "label": "그의 코트"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 '그가 자신의 코트를 벗었다'는 뜻입니다. 'took off'는 '벗다'라는 뜻의 동사구입니다.",
+        "grammarPoints": [
+          "동사구",
+          "목적어",
+          "과거형 동사"
+        ],
+        "examples": [
+          {
+            "en": "He put on his shoes.",
+            "ko": "그는 신발을 신었다."
+          },
+          {
+            "en": "She turned off the light.",
+            "ko": "그녀는 전등을 껐다."
+          }
+        ]
+      },
+      {
+        "text": "The sun won.",
+        "structure": {
+          "subject": {
+            "text": "The sun",
+            "label": "태양"
+          },
+          "verb": {
+            "text": "won",
+            "label": "이겼다"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어 + 동사"
+        },
+        "explanation": "이 문장은 '태양이 이겼다'는 뜻입니다. 'won'은 'win'의 과거형으로, '이기다'라는 뜻입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "자동사",
+          "결과 표현"
+        ],
+        "examples": [
+          {
+            "en": "Our team won the game.",
+            "ko": "우리 팀이 경기를 이겼다."
+          },
+          {
+            "en": "She won first prize.",
+            "ko": "그녀는 1등상을 받았다."
+          }
+        ]
+      },
+      {
+        "text": "Kindness works better than force.",
+        "structure": {
+          "subject": {
+            "text": "Kindness",
+            "label": "친절"
+          },
+          "verb": {
+            "text": "works",
+            "label": "효과가 있다"
+          },
+          "complement": {
+            "text": "better than force",
+            "label": "폭력보다 더 잘"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '친절이 폭력보다 더 효과적이다'는 뜻입니다. 'works'는 '효과가 있다'는 뜻이며, 'better than force'는 비교구문입니다.",
+        "grammarPoints": [
+          "형용사 비교급",
+          "보어",
+          "의미 확장"
+        ],
+        "examples": [
+          {
+            "en": "Love conquers hate.",
+            "ko": "사랑은 미움을 이긴다."
+          },
+          {
+            "en": "Patience pays off.",
+            "ko": "참을성이 보상이 된다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "바람과 태양이 논쟁을 했다. 그들은 도로를 걷는 남자를 보았다. \"나는 너보다 더 강하다\"고 바람이 말했다. \"누가 그 남자를 코트를 벗게 할 수 있는지 보자\"고 했다. 바람이 세게 불었다. 남자는 코트를 더 꽉 잡았다. 바람이 더 세게 불었다. 남자는 코트 단추를 꿰었다. 그러자 태양이 시도했다. 태양이 밝고 따뜻하게 빛났다. 남자가 더웠다고 느꼈다. 그는 코트를 벗었다. 태양이 이겼다. 친절이 폭력보다 더 효과적이다.",
+  "keyVocab": [
+    "wind",
+    "sun",
+    "stronger",
+    "coat",
+    "kindness"
+  ],
+  "quiz": {
+    "question": "태양이 바람보다 더 효과적이었던 이유는 무엇인가요?",
+    "answer": "태양은 따뜻하고 밝게 빛나서 남자가 더워져 코트를 벗었고, 바람은 강하게 불었지만 남자가 오히려 코트를 더 꽉 잡았습니다."
+  },
+  "generated_at": "2026-02-20T08:55:29.786462+09:00"
+}

@@ -1,0 +1,3560 @@
+{
+  "num": "0012",
+  "category": "L1",
+  "source": {
+    "title": "The Tortoise and the Hare",
+    "author": "Aesop",
+    "license": "Public Domain",
+    "url": "https://standardebooks.org"
+  },
+  "passage": "A hare laughed at a tortoise. \"You are so slow!\" he said. The tortoise said, \"Let us race.\" The hare agreed. He ran very fast at first. He was far ahead. He felt confident and decided to take a nap under a tree. The tortoise kept walking slowly but steadily. He never stopped. When the hare woke up, the tortoise was near the finish line. The hare ran as fast as he could, but it was too late. The tortoise won the race. Slow and steady wins.",
+  "audio": {
+    "passage": "audio/L1-0012.mp3",
+    "words": {
+      "a": "audio/L1-0012-a.mp3",
+      "hare": "audio/L1-0012-hare.mp3",
+      "laughed": "audio/L1-0012-laughed.mp3",
+      "at": "audio/L1-0012-at.mp3",
+      "tortoise": "audio/L1-0012-tortoise.mp3",
+      "you": "audio/L1-0012-you.mp3",
+      "are": "audio/L1-0012-are.mp3",
+      "so": "audio/L1-0012-so.mp3",
+      "slow": "audio/L1-0012-slow.mp3",
+      "he": "audio/L1-0012-he.mp3",
+      "said": "audio/L1-0012-said.mp3",
+      "let": "audio/L1-0012-let.mp3",
+      "us": "audio/L1-0012-us.mp3",
+      "race": "audio/L1-0012-race.mp3",
+      "agreed": "audio/L1-0012-agreed.mp3",
+      "ran": "audio/L1-0012-ran.mp3",
+      "very": "audio/L1-0012-very.mp3",
+      "fast": "audio/L1-0012-fast.mp3",
+      "first": "audio/L1-0012-first.mp3",
+      "was": "audio/L1-0012-was.mp3",
+      "far": "audio/L1-0012-far.mp3",
+      "ahead": "audio/L1-0012-ahead.mp3",
+      "felt": "audio/L1-0012-felt.mp3",
+      "confident": "audio/L1-0012-confident.mp3",
+      "and": "audio/L1-0012-and.mp3",
+      "decided": "audio/L1-0012-decided.mp3",
+      "to": "audio/L1-0012-to.mp3",
+      "take": "audio/L1-0012-take.mp3",
+      "nap": "audio/L1-0012-nap.mp3",
+      "under": "audio/L1-0012-under.mp3",
+      "tree": "audio/L1-0012-tree.mp3",
+      "kept": "audio/L1-0012-kept.mp3",
+      "walking": "audio/L1-0012-walking.mp3",
+      "slowly": "audio/L1-0012-slowly.mp3",
+      "but": "audio/L1-0012-but.mp3",
+      "steadily": "audio/L1-0012-steadily.mp3",
+      "never": "audio/L1-0012-never.mp3",
+      "stopped": "audio/L1-0012-stopped.mp3",
+      "when": "audio/L1-0012-when.mp3",
+      "woke": "audio/L1-0012-woke.mp3",
+      "up": "audio/L1-0012-up.mp3",
+      "near": "audio/L1-0012-near.mp3",
+      "finish": "audio/L1-0012-finish.mp3",
+      "line": "audio/L1-0012-line.mp3"
+    }
+  },
+  "words": {
+    "a": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "한 마리의",
+          "en": "one unspecified thing",
+          "primary": true
+        },
+        {
+          "ko": "어떤",
+          "en": "used before singular nouns"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '한 마리의'로 사용되어 특정하지 않은 동물 한 마리를 가리킵니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "an",
+        "one"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a hare",
+        "a tortoise"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw a dog in the park.",
+          "ko": "공원에서 개 한 마리를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'a'는 단수 명사 앞에 사용되며, 모음으로 시작하는 단어 앞에서는 'an'을 사용합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "hare": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "토끼",
+          "en": "a fast-moving mammal with long ears",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 이야기에서 등장하는 동물 중 하나로, 빠르지만 교만한 성격입니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "hare"
+        },
+        {
+          "label": "복수",
+          "form": "hares"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "rabbit"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "hair",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "fast hare",
+        "clever hare"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The hare ran swiftly through the forest.",
+          "ko": "토끼는 숲을 통해 재빨리 달렸다."
+        }
+      ],
+      "koreanTips": [
+        "'hare'는 일반적으로 야생 토끼를 의미하며, 'rabbit'보다 더 구어적입니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈhɛɹ/"
+    },
+    "laughed": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "웃었다",
+          "en": "to express amusement by making sounds or facial expressions",
+          "primary": true
+        },
+        {
+          "ko": "조롱했다",
+          "en": "to mock someone"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 조롱하거나 우스꽝스럽게 여기는 의미로 사용되었습니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "laugh"
+        },
+        {
+          "label": "과거",
+          "form": "laughed"
+        },
+        {
+          "label": "과거분사",
+          "form": "laughed"
+        },
+        {
+          "label": "현재분사",
+          "form": "laughing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "laughs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "mocked",
+        "guffawed"
+      ],
+      "antonyms": [
+        "cried"
+      ],
+      "confusables": [
+        {
+          "word": "learned",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "laugh at",
+        "burst into laughter"
+      ],
+      "idioms": [
+        {
+          "phrase": "laugh all the way to the bank",
+          "ko": "성공해서 웃으며 은행까지 간다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She laughed when she heard the joke.",
+          "ko": "그녀는 농담을 들었을 때 웃었다."
+        },
+        {
+          "en": "He laughed at his own mistake.",
+          "ko": "그는 자신의 실수를 조롱했다."
+        }
+      ],
+      "koreanTips": [
+        "'laugh at someone/something'은 '~를 조롱하다'라는 의미입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫæft/"
+    },
+    "at": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~에서",
+          "en": "in the direction of",
+          "primary": true
+        },
+        {
+          "ko": "~에",
+          "en": "at a specific place or time"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 시간이나 장소를 나타내는 데 사용되었습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "on",
+        "in"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "at first",
+        "at last"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I'll see you at noon.",
+          "ko": "정오에 만나자."
+        },
+        {
+          "en": "She arrived at school early.",
+          "ko": "그녀는 학교에 일찍 도착했다."
+        }
+      ],
+      "koreanTips": [
+        "'at'는 특정한 시간이나 장소를 나타낼 때 사용됩니다. 예: 'at noon', 'at home'"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈæt/"
+    },
+    "tortoise": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "거북이",
+          "en": "a slow-moving reptile with a hard shell",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 이야기에서 등장하는 또 다른 동물로, 느리지만 꾸준한 성격입니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "tortoise"
+        },
+        {
+          "label": "복수",
+          "form": "tortoises"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "turtle"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "torso",
+          "note": "철자가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "slow tortoise",
+        "wise tortoise"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The tortoise moved slowly but steadily.",
+          "ko": "거북이는 느리지만 꾸준히 움직였다."
+        }
+      ],
+      "koreanTips": [
+        "'tortoise'는 육지 거북이를 의미하며, 'turtle'은 바다 거북이를 포함할 수 있습니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtɔɹtəs/"
+    },
+    "you": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "당신",
+          "en": "referring to the person being spoken to",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서는 말하고 있는 상대방인 거북이를 가리키는 데 사용되었습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "yourself"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "you are",
+        "you were"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "You look tired today.",
+          "ko": "오늘 당신은 피곤해 보입니다."
+        },
+        {
+          "en": "Can you help me?",
+          "ko": "도와줄 수 있어?"
+        }
+      ],
+      "koreanTips": [
+        "'you'는 단수와 복수 모두 같은 형태로 사용됩니다. 한국어처럼 '~들'이라는 구분이 없습니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈju/"
+    },
+    "are": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "to exist; to be located somewhere",
+          "primary": true
+        },
+        {
+          "ko": "존재하다",
+          "en": "used as linking verb"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '~이다'라는 상태를 나타내는 연결 동사로 사용되었습니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "were/was"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "exist"
+      ],
+      "antonyms": [
+        "not be"
+      ],
+      "confusables": [
+        {
+          "word": "our",
+          "note": "철자가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "you are",
+        "we are"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "You are my best friend.",
+          "ko": "너는 내 가장 친한 친구야."
+        },
+        {
+          "en": "We are going home now.",
+          "ko": "우리는 지금 집에 가고 있어."
+        }
+      ],
+      "koreanTips": [
+        "'are'는 'you', 'we', 'they'와 함께 사용됩니다. 한국어의 '~이다'와 비슷한 역할을 합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɑɹ/"
+    },
+    "so": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "그렇게",
+          "en": "to such a degree",
+          "primary": true
+        },
+        {
+          "ko": "매우",
+          "en": "very much"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '매우'라는 강조의 의미로 사용되어 느림을 강조했습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "very",
+        "extremely"
+      ],
+      "antonyms": [
+        "not so"
+      ],
+      "confusables": [],
+      "collocations": [
+        "so slow",
+        "so fast"
+      ],
+      "idioms": [
+        {
+          "phrase": "so far so good",
+          "ko": "지금까지는 괜찮다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It's so hot today.",
+          "ko": "오늘 너무 덥다."
+        },
+        {
+          "en": "He runs so quickly.",
+          "ko": "그는 그렇게 빠르게 달린다."
+        }
+      ],
+      "koreanTips": [
+        "'so + 형용사/부사' 구조는 매우 자주 사용되며, '~처럼 매우'라는 의미를 줍니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsoʊ/"
+    },
+    "slow": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "느린",
+          "en": "taking a long time to move or act",
+          "primary": true
+        },
+        {
+          "ko": "천천히 움직이는",
+          "en": "moving without speed"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이의 움직임이 느리다는 것을 설명하는 데 사용되었습니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "slow"
+        },
+        {
+          "label": "비교급",
+          "form": "slower"
+        },
+        {
+          "label": "최상급",
+          "form": "slowest"
+        },
+        {
+          "label": "부사형",
+          "form": "slowly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "sluggish",
+        "leisurely"
+      ],
+      "antonyms": [
+        "fast",
+        "quick"
+      ],
+      "confusables": [
+        {
+          "word": "blow",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "slow down",
+        "slow motion"
+      ],
+      "idioms": [
+        {
+          "phrase": "slow and steady wins the race",
+          "ko": "천천히 꾸준히 가는 것이 승리한다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The car was moving very slowly.",
+          "ko": "자동차는 매우 느리게 움직이고 있었다."
+        },
+        {
+          "en": "Take it slow.",
+          "ko": "천천히 해라."
+        }
+      ],
+      "koreanTips": [
+        "'slow'는 형용사이므로 명사처럼 사용하면 안 됩니다. 예: 'He is slow' (O), 'He is a slow' (X)"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsɫoʊ/"
+    },
+    "he": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "refers to a male person previously mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼를 가리키는 인칭 대명사입니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "himself"
+      ],
+      "antonyms": [
+        "she"
+      ],
+      "confusables": [],
+      "collocations": [
+        "he said",
+        "he ran"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He went to school yesterday.",
+          "ko": "그는 어제 학교에 갔다."
+        },
+        {
+          "en": "He likes playing soccer.",
+          "ko": "그는 축구를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'he'는 남성 대상을 가리킬 때 사용되며, 한국어의 '그'와 비슷합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhi/"
+    },
+    "said": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "말했다",
+          "en": "to utter words",
+          "primary": true
+        },
+        {
+          "ko": "언급했다",
+          "en": "expressed something verbally"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 한 말을 전달하는 데 사용되었습니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "say"
+        },
+        {
+          "label": "과거",
+          "form": "said"
+        },
+        {
+          "label": "과거분사",
+          "form": "said"
+        },
+        {
+          "label": "현재분사",
+          "form": "saying"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "says"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "spoke",
+        "uttered"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "sad",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "he said",
+        "she said"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She said that she would come.",
+          "ko": "그녀는 올 것이라고 말했다."
+        },
+        {
+          "en": "He said nothing about it.",
+          "ko": "그는 그것에 대해 아무것도 말하지 않았다."
+        }
+      ],
+      "koreanTips": [
+        "'say'는 직접 인용문과 함께 많이 사용되며, 'said'는 과거형입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsɛd/"
+    },
+    "let": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "하게 하다",
+          "en": "to allow someone to do something",
+          "primary": true
+        },
+        {
+          "ko": "하자",
+          "en": "used to make suggestions"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '경주하자'는 제안의 의미로 사용되었습니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "let"
+        },
+        {
+          "label": "과거",
+          "form": "let"
+        },
+        {
+          "label": "과거분사",
+          "form": "let"
+        },
+        {
+          "label": "현재분사",
+          "form": "letting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "lets"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "allow",
+        "permit"
+      ],
+      "antonyms": [
+        "prevent"
+      ],
+      "confusables": [],
+      "collocations": [
+        "let us",
+        "let go"
+      ],
+      "idioms": [
+        {
+          "phrase": "let sleeping dogs lie",
+          "ko": "잠자는 개를 깨우지 마라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let me help you.",
+          "ko": "내가 도와줄게."
+        },
+        {
+          "en": "Let's go shopping.",
+          "ko": "쇼핑하러 가자."
+        }
+      ],
+      "koreanTips": [
+        "'let us'는 '우리가 ~하자'라는 제안의 의미로 많이 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɫɛt/"
+    },
+    "us": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "우리",
+          "en": "first-person plural pronoun used as object",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '우리가 경주하자'라는 제안의 일부로 사용되었습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "we"
+      ],
+      "antonyms": [
+        "them"
+      ],
+      "confusables": [
+        {
+          "word": "use",
+          "note": "철자가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "let us",
+        "with us"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He invited us to dinner.",
+          "ko": "그는 우리를 저녁 식사에 초대했다."
+        },
+        {
+          "en": "Let us try again.",
+          "ko": "우리가 다시 시도해보자."
+        }
+      ],
+      "koreanTips": [
+        "'us'는 'we'의 목적격 형태이며, 'let us'는 '우리가 ~하자'라는 의미입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈəs/"
+    },
+    "race": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "경주",
+          "en": "a competition between runners, vehicles, etc.",
+          "primary": true
+        },
+        {
+          "ko": "레이싱",
+          "en": "speed contest"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 두 동물 사이의 경쟁을 의미하는 '경주'입니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "race"
+        },
+        {
+          "label": "복수",
+          "form": "races"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "competition",
+        "contest"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "raise",
+          "note": "철자가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "run a race",
+        "win the race"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They had a race on the track.",
+          "ko": "그들은 트랙에서 경주를 했다."
+        },
+        {
+          "en": "Who will win the race?",
+          "ko": "누가 경주에서 이길까?"
+        }
+      ],
+      "koreanTips": [
+        "'race'는 운동 경기나 경주를 의미하며, 'run a race'와 같이 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹeɪs/"
+    },
+    "agreed": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "동의했다",
+          "en": "accepted a proposal or idea",
+          "primary": true
+        },
+        {
+          "ko": "합의했다",
+          "en": "reached mutual understanding"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 거북이의 제안에 동의했음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "agree"
+        },
+        {
+          "label": "과거",
+          "form": "agreed"
+        },
+        {
+          "label": "과거분사",
+          "form": "agreed"
+        },
+        {
+          "label": "현재분사",
+          "form": "agreeing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "agrees"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "consented",
+        "accepted"
+      ],
+      "antonyms": [
+        "disagreed"
+      ],
+      "confusables": [],
+      "collocations": [
+        "agree to",
+        "agree with"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She agreed to meet him later.",
+          "ko": "그녀는 나중에 만나기로 동의했다."
+        },
+        {
+          "en": "We all agreed on the plan.",
+          "ko": "우리는 모두 그 계획에 동의했다."
+        }
+      ],
+      "koreanTips": [
+        "'agree to + 명사/동사'는 '~에 동의하다'라는 의미입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/əˈɡɹid/"
+    },
+    "ran": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "달렸다",
+          "en": "moved quickly using legs",
+          "primary": true
+        },
+        {
+          "ko": "움직였다",
+          "en": "operated or functioned"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 최선을 다해 달렸음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "run"
+        },
+        {
+          "label": "과거",
+          "form": "ran"
+        },
+        {
+          "label": "과거분사",
+          "form": "run"
+        },
+        {
+          "label": "현재분사",
+          "form": "running"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "runs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "dashed",
+        "sprinted"
+      ],
+      "antonyms": [
+        "walked"
+      ],
+      "confusables": [
+        {
+          "word": "ran",
+          "note": "run의 과거형이므로 혼동 주의"
+        }
+      ],
+      "collocations": [
+        "ran fast",
+        "ran away"
+      ],
+      "idioms": [
+        {
+          "phrase": "run like the wind",
+          "ko": "바람처럼 달리다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He ran towards the exit.",
+          "ko": "그는 출구로 달려갔다."
+        },
+        {
+          "en": "The machine ran smoothly.",
+          "ko": "기계는 잘 작동했다."
+        }
+      ],
+      "koreanTips": [
+        "'run'은 불규칙 동사로, 과거형은 'ran', 과거분사는 'run'입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɹæn/"
+    },
+    "very": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "매우",
+          "en": "to a high degree",
+          "primary": true
+        },
+        {
+          "ko": "정말",
+          "en": "emphasizing intensity"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '매우 빠르게'라는 강조의 의미로 사용되었습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "extremely",
+        "really"
+      ],
+      "antonyms": [
+        "not very"
+      ],
+      "confusables": [],
+      "collocations": [
+        "very fast",
+        "very well"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She sings very beautifully.",
+          "ko": "그녀는 매우 아름답게 노래한다."
+        },
+        {
+          "en": "It was very cold outside.",
+          "ko": "밖은 매우 추웠다."
+        }
+      ],
+      "koreanTips": [
+        "'very + 형용사/부사'는 '~처럼 매우'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈvɛɹi/"
+    },
+    "fast": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "빠르게",
+          "en": "at high speed",
+          "primary": true
+        },
+        {
+          "ko": "신속하게",
+          "en": "quickly"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 얼마나 빠르게 달렸는지를 설명하는 데 사용되었습니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "fast"
+        },
+        {
+          "label": "비교급",
+          "form": "faster"
+        },
+        {
+          "label": "최상급",
+          "form": "fastest"
+        },
+        {
+          "label": "부사형",
+          "form": "fast"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "quickly",
+        "rapidly"
+      ],
+      "antonyms": [
+        "slowly"
+      ],
+      "confusables": [
+        {
+          "word": "fact",
+          "note": "철자가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "run fast",
+        "move fast"
+      ],
+      "idioms": [
+        {
+          "phrase": "fast and furious",
+          "ko": "빠르고 격렬하게"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He drives too fast.",
+          "ko": "그는 너무 빠르게 운전한다."
+        },
+        {
+          "en": "Time flies fast.",
+          "ko": "시간은 빠르게 흐른다."
+        }
+      ],
+      "koreanTips": [
+        "'fast'는 형용사와 부사 모두 가능하며, 'quickly'보다 더 자연스럽습니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈfæst/"
+    },
+    "first": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "처음에",
+          "en": "at the beginning",
+          "primary": true
+        },
+        {
+          "ko": "먼저",
+          "en": "before anything else"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 처음에는 매우 빠르게 달렸음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "first"
+        },
+        {
+          "label": "비교급",
+          "form": "first"
+        },
+        {
+          "label": "최상급",
+          "form": "first"
+        },
+        {
+          "label": "부사형",
+          "form": "first"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "initially",
+        "originally"
+      ],
+      "antonyms": [
+        "last"
+      ],
+      "confusables": [],
+      "collocations": [
+        "at first",
+        "first of all"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "At first, I didn't understand.",
+          "ko": "처음에는 이해하지 못했다."
+        },
+        {
+          "en": "First things first.",
+          "ko": "먼저 중요한 일을 먼저 하자."
+        }
+      ],
+      "koreanTips": [
+        "'at first'는 '처음에는'이라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈfɝst/"
+    },
+    "was": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "있었다",
+          "en": "past form of 'be'",
+          "primary": true
+        },
+        {
+          "ko": "되었다",
+          "en": "indicated state or condition in past"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '이미 늦었다는 상태'를 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "existed"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "has",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "was ahead",
+        "was behind"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He was happy to see her.",
+          "ko": "그는 그녀를 보니 기뻤다."
+        },
+        {
+          "en": "It was raining heavily.",
+          "ko": "비가 많이 내리고 있었다."
+        }
+      ],
+      "koreanTips": [
+        "'was'는 'I', 'he', 'she', 'it'과 함께 사용되는 과거형입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɑz/"
+    },
+    "far": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "멀리",
+          "en": "at a great distance",
+          "primary": true
+        },
+        {
+          "ko": "훨씬",
+          "en": "by a large amount"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 거북이보다 얼마나 앞서 있었는지를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "distantly",
+        "greatly"
+      ],
+      "antonyms": [
+        "near"
+      ],
+      "confusables": [
+        {
+          "word": "for",
+          "note": "철자가 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "far ahead",
+        "far away"
+      ],
+      "idioms": [
+        {
+          "phrase": "by far",
+          "ko": "훨씬 더"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He lives far from here.",
+          "ko": "그는 여기서 멀리 떨어져 산다."
+        },
+        {
+          "en": "She is far better than him.",
+          "ko": "그녀는 그보다 훨씬 낫다."
+        }
+      ],
+      "koreanTips": [
+        "'far ahead'는 '~보다 훨씬 앞서 있다'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɑɹ/"
+    },
+    "ahead": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "앞에",
+          "en": "in front of others",
+          "primary": true
+        },
+        {
+          "ko": "선행",
+          "en": "leading position"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 거북이보다 앞서 있었음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "in front",
+        "leading"
+      ],
+      "antonyms": [
+        "behind"
+      ],
+      "confusables": [],
+      "collocations": [
+        "far ahead",
+        "get ahead"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Our team is ahead by two points.",
+          "ko": "우리 팀은 2점 앞서 있다."
+        },
+        {
+          "en": "He got ahead of everyone else.",
+          "ko": "그는 다른 사람들보다 앞섰다."
+        }
+      ],
+      "koreanTips": [
+        "'ahead'는 '~보다 앞서 있다'는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/əˈhɛd/"
+    },
+    "felt": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "느꼈다",
+          "en": "experienced an emotion or sensation",
+          "primary": true
+        },
+        {
+          "ko": "감정을 받았다",
+          "en": "had a feeling"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 자신감을 느꼈다는 것을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "feel"
+        },
+        {
+          "label": "과거",
+          "form": "felt"
+        },
+        {
+          "label": "과거분사",
+          "form": "felt"
+        },
+        {
+          "label": "현재분사",
+          "form": "feeling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "feels"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "thought",
+        "believed"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "fell",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "felt confident",
+        "felt sad"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I felt tired after work.",
+          "ko": "일한 후에 피곤함을 느꼈다."
+        },
+        {
+          "en": "She felt proud of herself.",
+          "ko": "그녀는 자신에게 자랑스러움을 느꼈다."
+        }
+      ],
+      "koreanTips": [
+        "'feel'은 감정이나 느낌을 표현할 때 사용되며, 'felt'는 과거형입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈfɛɫt/"
+    },
+    "confident": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "자신감 있는",
+          "en": "sure of oneself",
+          "primary": true
+        },
+        {
+          "ko": "확신하는",
+          "en": "having faith in one's abilities"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 자신의 능력에 확신을 가지고 있다는 것을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "confident"
+        },
+        {
+          "label": "비교급",
+          "form": "more confident"
+        },
+        {
+          "label": "최상급",
+          "form": "most confident"
+        },
+        {
+          "label": "부사형",
+          "form": "confidently"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "sure",
+        "self-assured"
+      ],
+      "antonyms": [
+        "uncertain",
+        "doubtful"
+      ],
+      "confusables": [],
+      "collocations": [
+        "feel confident",
+        "be confident"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He felt confident about the test.",
+          "ko": "그는 시험에 대해 자신감이 있었다."
+        },
+        {
+          "en": "She spoke confidently.",
+          "ko": "그녀는 자신 있게 말했다."
+        }
+      ],
+      "koreanTips": [
+        "'confident'는 '~에 자신감이 있는'이라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkɑnfədənt/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or clauses",
+          "primary": true
+        },
+        {
+          "ko": "또한",
+          "en": "additionally"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '느리고 꾸준히'라는 두 특성을 연결하는 데 사용되었습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "also",
+        "plus"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "slow and steady",
+        "fast and furious"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She bought apples and oranges.",
+          "ko": "그녀는 사과와 오렌지를 샀다."
+        },
+        {
+          "en": "He studied hard and passed the exam.",
+          "ko": "그는 열심히 공부해서 시험에 합격했다."
+        }
+      ],
+      "koreanTips": [
+        "'and'는 단어나 문장을 연결할 때 사용되며, 한국어의 '그리고'와 비슷합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "decided": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "결정했다",
+          "en": "made a choice or judgment",
+          "primary": true
+        },
+        {
+          "ko": "의사결정을 했다",
+          "en": "came to a conclusion"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 잠시 쉬기로 결정했다는 것을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "decide"
+        },
+        {
+          "label": "과거",
+          "form": "decided"
+        },
+        {
+          "label": "과거분사",
+          "form": "decided"
+        },
+        {
+          "label": "현재분사",
+          "form": "deciding"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "decides"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "chose",
+        "resolved"
+      ],
+      "antonyms": [
+        "hesitated"
+      ],
+      "confusables": [],
+      "collocations": [
+        "decided to",
+        "make a decision"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She decided to go shopping.",
+          "ko": "그녀는 쇼핑하러 가기로 결정했다."
+        },
+        {
+          "en": "We decided against it.",
+          "ko": "우리는 그것을 반대하기로 결정했다."
+        }
+      ],
+      "koreanTips": [
+        "'decide to + 동사'는 '~하기로 결정하다'라는 의미입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˌdɪˈsaɪdɪd/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~하기 위해",
+          "en": "indicating purpose or intention",
+          "primary": true
+        },
+        {
+          "ko": "~로",
+          "en": "direction toward"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '목적'을 나타내는 데 사용되었습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "toward",
+        "in order to"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "decided to",
+        "take a nap"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I went to the store.",
+          "ko": "나는 가게에 갔다."
+        },
+        {
+          "en": "She came to visit me.",
+          "ko": "그녀는 나를 보기 위해 왔다."
+        }
+      ],
+      "koreanTips": [
+        "'to + 동사'는 '~하기 위해'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "take": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "취하다",
+          "en": "to hold or carry something",
+          "primary": true
+        },
+        {
+          "ko": "하다",
+          "en": "to perform an action"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '잠시 쉬다'라는 의미로 사용되었습니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "take"
+        },
+        {
+          "label": "과거",
+          "form": "took"
+        },
+        {
+          "label": "과거분사",
+          "form": "taken"
+        },
+        {
+          "label": "현재분사",
+          "form": "taking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "takes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "have",
+        "get"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "take a nap",
+        "take a break"
+      ],
+      "idioms": [
+        {
+          "phrase": "take it easy",
+          "ko": "편하게 하라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let's take a walk.",
+          "ko": "산책하자."
+        },
+        {
+          "en": "He took a shower.",
+          "ko": "그는 샤워를 했다."
+        }
+      ],
+      "koreanTips": [
+        "'take a nap'은 '낮잠을 자다'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈteɪk/"
+    },
+    "nap": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "낮잠",
+          "en": "short sleep during the day",
+          "primary": true
+        },
+        {
+          "ko": "잠깐 자다",
+          "en": "brief rest"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 잠깐 쉬기로 결정한 '낮잠'을 의미합니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "nap"
+        },
+        {
+          "label": "복수",
+          "form": "naps"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "rest",
+        "siesta"
+      ],
+      "antonyms": [
+        "activity"
+      ],
+      "confusables": [],
+      "collocations": [
+        "take a nap",
+        "have a nap"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I need a quick nap.",
+          "ko": "잠깐 낮잠을 자야겠다."
+        },
+        {
+          "en": "She took a nap after lunch.",
+          "ko": "그녀는 점심 후 낮잠을 잤다."
+        }
+      ],
+      "koreanTips": [
+        "'take a nap'은 '낮잠을 자다'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈnæp/"
+    },
+    "under": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~밑에",
+          "en": "below something",
+          "primary": true
+        },
+        {
+          "ko": "~아래에",
+          "en": "beneath"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 나무 아래에서 잠들었다는 위치를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "beneath",
+        "below"
+      ],
+      "antonyms": [
+        "above"
+      ],
+      "confusables": [],
+      "collocations": [
+        "under a tree",
+        "under the sun"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The cat slept under the table.",
+          "ko": "고양이는 탁자 밑에서 잤다."
+        },
+        {
+          "en": "There's water under the bridge.",
+          "ko": "다리 밑에 물이 있다."
+        }
+      ],
+      "koreanTips": [
+        "'under'는 '~밑에'라는 위치를 나타낼 때 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈəndɝ/"
+    },
+    "tree": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "나무",
+          "en": "woody plant with trunk and branches",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 쉬기 위해 선택한 장소인 '나무 아래'를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "tree"
+        },
+        {
+          "label": "복수",
+          "form": "trees"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "plant"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "under a tree",
+        "climb a tree"
+      ],
+      "idioms": [
+        {
+          "phrase": "can't see the forest for the trees",
+          "ko": "나무만 보고 숲을 보지 못하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Birds nest in trees.",
+          "ko": "새들은 나무에 둥지를 틀다."
+        },
+        {
+          "en": "We sat under the tree.",
+          "ko": "우리는 나무 밑에 앉았다."
+        }
+      ],
+      "koreanTips": [
+        "'tree'는 단수형이며, 복수형은 'trees'입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtɹi/"
+    },
+    "kept": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "계속했다",
+          "en": "continued doing something",
+          "primary": true
+        },
+        {
+          "ko": "지속했다",
+          "en": "maintained action over time"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이가 계속 걷고 있었음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "keep"
+        },
+        {
+          "label": "과거",
+          "form": "kept"
+        },
+        {
+          "label": "과거분사",
+          "form": "kept"
+        },
+        {
+          "label": "현재분사",
+          "form": "keeping"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "keeps"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "continued",
+        "persisted"
+      ],
+      "antonyms": [
+        "stopped"
+      ],
+      "confusables": [],
+      "collocations": [
+        "kept walking",
+        "kept trying"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She kept talking despite the noise.",
+          "ko": "그녀는 소음에도 불구하고 계속 말했다."
+        },
+        {
+          "en": "He kept working until midnight.",
+          "ko": "그는 자정까지 계속 일했다."
+        }
+      ],
+      "koreanTips": [
+        "'keep + 동사-ing'은 '~을 계속하다'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈkæpt/"
+    },
+    "walking": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "걷고 있는",
+          "en": "moving on foot continuously",
+          "primary": true
+        },
+        {
+          "ko": "걸어가는",
+          "en": "progressing by foot"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이가 계속 걸어가고 있었음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "walk"
+        },
+        {
+          "label": "과거",
+          "form": "walked"
+        },
+        {
+          "label": "과거분사",
+          "form": "walked"
+        },
+        {
+          "label": "현재분사",
+          "form": "walking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "walks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "strolling",
+        "marching"
+      ],
+      "antonyms": [
+        "standing"
+      ],
+      "confusables": [],
+      "collocations": [
+        "kept walking",
+        "go walking"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She was walking in the park.",
+          "ko": "그녀는 공원에서 걸어가고 있었다."
+        },
+        {
+          "en": "They walked home together.",
+          "ko": "그들은 함께 집으로 걸어갔다."
+        }
+      ],
+      "koreanTips": [
+        "'keep walking'은 '~을 계속 걷다'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɔkɪŋ/"
+    },
+    "slowly": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "천천히",
+          "en": "at a low speed",
+          "primary": true
+        },
+        {
+          "ko": "느리게",
+          "en": "without haste"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이가 천천히 걷고 있었음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "slow"
+        },
+        {
+          "label": "비교급",
+          "form": "slower"
+        },
+        {
+          "label": "최상급",
+          "form": "slowest"
+        },
+        {
+          "label": "부사형",
+          "form": "slowly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "gradually",
+        "steadily"
+      ],
+      "antonyms": [
+        "quickly"
+      ],
+      "confusables": [],
+      "collocations": [
+        "walk slowly",
+        "move slowly"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He spoke slowly so everyone could understand.",
+          "ko": "그는 모두가 이해할 수 있도록 천천히 말했다."
+        },
+        {
+          "en": "Drive slowly in bad weather.",
+          "ko": "나쁜 날씨에는 천천히 운전해라."
+        }
+      ],
+      "koreanTips": [
+        "'slowly'는 'slow'의 부사형이며, '~하게 천천히'라는 의미입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsɫoʊɫi/"
+    },
+    "but": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "하지만",
+          "en": "used to introduce contrast",
+          "primary": true
+        },
+        {
+          "ko": "그런데",
+          "en": "however"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '토끼가 최선을 다해 달렸지만 이미 늦었다'는 대조를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "however",
+        "yet"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "but it was too late",
+        "but not enough"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It's raining, but we still went out.",
+          "ko": "비가 오지만 우리는 여전히 나갔다."
+        },
+        {
+          "en": "She tried hard, but failed.",
+          "ko": "그녀는 열심히 노력했지만 실패했다."
+        }
+      ],
+      "koreanTips": [
+        "'but'은 '~하지만'이라는 대조를 나타내는 접속사입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbət/"
+    },
+    "steadily": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "꾸준히",
+          "en": "in a constant and regular manner",
+          "primary": true
+        },
+        {
+          "ko": "지속적으로",
+          "en": "without interruption"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이가 중단 없이 계속 걷고 있었음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "steady"
+        },
+        {
+          "label": "비교급",
+          "form": "steadier"
+        },
+        {
+          "label": "최상급",
+          "form": "steadiest"
+        },
+        {
+          "label": "부사형",
+          "form": "steadily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "constantly",
+        "regularly"
+      ],
+      "antonyms": [
+        "irregularly"
+      ],
+      "confusables": [],
+      "collocations": [
+        "walk steadily",
+        "progress steadily"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The company grew steadily over the years.",
+          "ko": "회사는 수년간 꾸준히 성장했다."
+        },
+        {
+          "en": "He worked steadily toward his goal.",
+          "ko": "그는 목표를 향해 꾸준히 노력했다."
+        }
+      ],
+      "koreanTips": [
+        "'steadily'는 '~하게 꾸준히'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈstɛdəɫi/"
+    },
+    "never": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "절대로",
+          "en": "not ever",
+          "primary": true
+        },
+        {
+          "ko": "한 번도 ~않다",
+          "en": "at no time"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이가 한 번도 멈추지 않았음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "not once",
+        "at no time"
+      ],
+      "antonyms": [
+        "always"
+      ],
+      "confusables": [],
+      "collocations": [
+        "never stopped",
+        "never give up"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I have never seen such a beautiful sunset.",
+          "ko": "나는 그런 아름다운 석양을 한 번도 본 적이 없다."
+        },
+        {
+          "en": "She never gives up easily.",
+          "ko": "그녀는 절대로 쉽게 포기하지 않는다."
+        }
+      ],
+      "koreanTips": [
+        "'never'는 '~한 번도 ~않다'라는 의미로 부정적인 내용을 강조할 때 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈnɛvɝ/"
+    },
+    "stopped": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "멈췄다",
+          "en": "ceased movement or activity",
+          "primary": true
+        },
+        {
+          "ko": "정지했다",
+          "en": "halted"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이가 한 번도 멈추지 않았음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "stop"
+        },
+        {
+          "label": "과거",
+          "form": "stopped"
+        },
+        {
+          "label": "과거분사",
+          "form": "stopped"
+        },
+        {
+          "label": "현재분사",
+          "form": "stopping"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "stops"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "halted",
+        "paused"
+      ],
+      "antonyms": [
+        "started"
+      ],
+      "confusables": [],
+      "collocations": [
+        "never stopped",
+        "stopped walking"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The bus stopped suddenly.",
+          "ko": "버스가 갑자기 멈췄다."
+        },
+        {
+          "en": "He stopped smoking last year.",
+          "ko": "그는 작년에 담배를 끊었다."
+        }
+      ],
+      "koreanTips": [
+        "'stop + 동사-ing'은 '~하는 것을 멈추다'라는 의미입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈstɑpt/"
+    },
+    "when": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "언제",
+          "en": "at what time",
+          "primary": true
+        },
+        {
+          "ko": "그때",
+          "en": "during which time"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 깨어났을 때의 상황을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "while",
+        "as soon as"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "when the hare woke up",
+        "when he arrived"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "When did you arrive?",
+          "ko": "언제 도착했어?"
+        },
+        {
+          "en": "Call me when you're ready.",
+          "ko": "준비되면 전화해줘."
+        }
+      ],
+      "koreanTips": [
+        "'when'은 '~했을 때'라는 시간을 나타내는 접속사입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhwɛn/"
+    },
+    "woke": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "깨어났다",
+          "en": "became conscious after sleeping",
+          "primary": true
+        },
+        {
+          "ko": "일어났다",
+          "en": "arose from sleep"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 낮잠에서 깨어났음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "wake"
+        },
+        {
+          "label": "과거",
+          "form": "woke"
+        },
+        {
+          "label": "과거분사",
+          "form": "woken"
+        },
+        {
+          "label": "현재분사",
+          "form": "waking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "wakes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "arose",
+        "got up"
+      ],
+      "antonyms": [
+        "fell asleep"
+      ],
+      "confusables": [],
+      "collocations": [
+        "woke up",
+        "wake up"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He woke up late this morning.",
+          "ko": "그는 오늘 아침에 늦게 깨어났다."
+        },
+        {
+          "en": "I woke up feeling refreshed.",
+          "ko": "나는 상쾌하게 깨어났다."
+        }
+      ],
+      "koreanTips": [
+        "'wake up'은 '~에서 깨어나다'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwoʊk/"
+    },
+    "up": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "위로",
+          "en": "toward a higher position",
+          "primary": true
+        },
+        {
+          "ko": "일어나서",
+          "en": "from lying or sitting position"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '일어나서'라는 의미로 사용되었습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "above",
+        "higher"
+      ],
+      "antonyms": [
+        "down"
+      ],
+      "confusables": [],
+      "collocations": [
+        "woke up",
+        "stand up"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Please stand up.",
+          "ko": "일어나세요."
+        },
+        {
+          "en": "The sun came up early.",
+          "ko": "태양이 일찍 떴다."
+        }
+      ],
+      "koreanTips": [
+        "'wake up'은 '~에서 깨어나다'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈəp/"
+    },
+    "near": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~근처에",
+          "en": "close to something",
+          "primary": true
+        },
+        {
+          "ko": "~옆에",
+          "en": "not far from"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이가 결승선 근처에 있었음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "close to",
+        "next to"
+      ],
+      "antonyms": [
+        "far from"
+      ],
+      "confusables": [],
+      "collocations": [
+        "near the finish line",
+        "near home"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The hospital is near the station.",
+          "ko": "병원은 역 근처에 있다."
+        },
+        {
+          "en": "Stay near me.",
+          "ko": "내 옆에 있어라."
+        }
+      ],
+      "koreanTips": [
+        "'near'는 '~근처에'라는 위치를 나타내는 전치사입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈnɪɹ/"
+    },
+    "finish": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "결승선",
+          "en": "end point of a race or competition",
+          "primary": true
+        },
+        {
+          "ko": "완료",
+          "en": "completion of something"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 경주의 마지막 지점을 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "finish"
+        },
+        {
+          "label": "복수",
+          "form": "finishes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "end",
+        "goal"
+      ],
+      "antonyms": [
+        "start"
+      ],
+      "confusables": [],
+      "collocations": [
+        "finish line",
+        "reach the finish"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They crossed the finish line together.",
+          "ko": "그들은 함께 결승선을 통과했다."
+        },
+        {
+          "en": "This project has a clear finish date.",
+          "ko": "이 프로젝트는 명확한 완료일이 있다."
+        }
+      ],
+      "koreanTips": [
+        "'finish line'은 '~의 결승선'이라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɪnɪʃ/"
+    },
+    "line": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "선",
+          "en": "long thin mark or path",
+          "primary": true
+        },
+        {
+          "ko": "줄",
+          "en": "series of connected points"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 경주의 마지막 지점을 나타내는 '선'입니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "line"
+        },
+        {
+          "label": "복수",
+          "form": "lines"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "stripe",
+        "boundary"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "finish line",
+        "draw a line"
+      ],
+      "idioms": [
+        {
+          "phrase": "draw the line",
+          "ko": "선을 긋다 (한계를 정하다)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Draw a straight line.",
+          "ko": "직선을 그어라."
+        },
+        {
+          "en": "Wait in line.",
+          "ko": "줄을 서서 기다려라."
+        }
+      ],
+      "koreanTips": [
+        "'finish line'은 '~의 결승선'이라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫaɪn/"
+    },
+    "as": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "~만큼",
+          "en": "to the same extent",
+          "primary": true
+        },
+        {
+          "ko": "~처럼",
+          "en": "in the same way as"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '토끼가 가능한 한 빠르게' 달렸음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "like",
+        "similar to"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "as fast as",
+        "as soon as"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She runs as fast as her brother.",
+          "ko": "그녀는 형(동생)만큼 빠르게 달린다."
+        },
+        {
+          "en": "Do it as I showed you.",
+          "ko": "내가 보여준 대로 해라."
+        }
+      ],
+      "koreanTips": [
+        "'as fast as'는 '~만큼 빠르게'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈæz/"
+    },
+    "could": {
+      "pos": "modal verb",
+      "meanings": [
+        {
+          "ko": "할 수 있었다",
+          "en": "past ability or possibility",
+          "primary": true
+        },
+        {
+          "ko": "가능했다",
+          "en": "was able to"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 토끼가 가능한 한 최선을 다해 달릴 수 있었음을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "was able to",
+        "managed to"
+      ],
+      "antonyms": [
+        "couldn't"
+      ],
+      "confusables": [],
+      "collocations": [
+        "could run",
+        "could do"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He could swim when he was young.",
+          "ko": "그는 어릴 때 수영할 수 있었다."
+        },
+        {
+          "en": "I couldn't find my keys.",
+          "ko": "내 열쇠를 찾을 수 없었다."
+        }
+      ],
+      "koreanTips": [
+        "'could'는 과거의 가능성이나 능력을 나타내는 조동사입니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈkʊd/"
+    },
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "referring to a situation or fact",
+          "primary": true
+        },
+        {
+          "ko": "이것",
+          "en": "used to refer to something mentioned"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '이미 늦었다는 사실'을 가리킵니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "that",
+        "this"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "it was too late",
+        "it happened"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It was raining heavily.",
+          "ko": "비가 많이 내리고 있었다."
+        },
+        {
+          "en": "It seems okay.",
+          "ko": "괜찮아 보인다."
+        }
+      ],
+      "koreanTips": [
+        "'it'은 상황이나 사실을 가리킬 때 사용되며, 한국어의 '그것'과 비슷합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪt/"
+    },
+    "too": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "너무",
+          "en": "excessively",
+          "primary": true
+        },
+        {
+          "ko": "지나치게",
+          "en": "beyond what is desirable"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '이미 너무 늦었다'는 의미로 사용되었습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "excessively",
+        "overly"
+      ],
+      "antonyms": [
+        "not enough"
+      ],
+      "confusables": [],
+      "collocations": [
+        "too late",
+        "too much"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It's too expensive.",
+          "ko": "너무 비싸다."
+        },
+        {
+          "en": "Don't stay out too late.",
+          "ko": "너무 늦게까지 밖에 있지 마라."
+        }
+      ],
+      "koreanTips": [
+        "'too + 형용사/부사'는 '~처럼 너무'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "late": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "늦게",
+          "en": "after the expected or proper time",
+          "primary": true
+        },
+        {
+          "ko": "늦어서",
+          "en": "beyond appropriate timing"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '이미 너무 늦었다'는 시간을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "late"
+        },
+        {
+          "label": "비교급",
+          "form": "later"
+        },
+        {
+          "label": "최상급",
+          "form": "latest"
+        },
+        {
+          "label": "부사형",
+          "form": "late"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "delayed",
+        "behind schedule"
+      ],
+      "antonyms": [
+        "early"
+      ],
+      "confusables": [],
+      "collocations": [
+        "too late",
+        "arrive late"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He arrived too late for dinner.",
+          "ko": "그는 저녁 식사에 너무 늦게 도착했다."
+        },
+        {
+          "en": "Don't stay out too late.",
+          "ko": "너무 늦게까지 밖에 있지 마라."
+        }
+      ],
+      "koreanTips": [
+        "'too late'는 '~처럼 너무 늦다'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫeɪt/"
+    },
+    "won": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "이겼다",
+          "en": "achieved victory in a competition",
+          "primary": true
+        },
+        {
+          "ko": "우승했다",
+          "en": "secured first place"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이가 경주에서 이겼음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "win"
+        },
+        {
+          "label": "과거",
+          "form": "won"
+        },
+        {
+          "label": "과거분사",
+          "form": "won"
+        },
+        {
+          "label": "현재분사",
+          "form": "winning"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "wins"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "defeated",
+        "triumphed"
+      ],
+      "antonyms": [
+        "lost"
+      ],
+      "confusables": [],
+      "collocations": [
+        "won the race",
+        "win a prize"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She won the gold medal.",
+          "ko": "그녀는 금메달을 따냈다."
+        },
+        {
+          "en": "Our team won the match.",
+          "ko": "우리 팀은 경기를 이겼다."
+        }
+      ],
+      "koreanTips": [
+        "'win'은 불규칙 동사로, 과거형과 과거분사 모두 'won'입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɑn/"
+    },
+    "the": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "used before specific nouns",
+          "primary": true
+        },
+        {
+          "ko": "특정한",
+          "en": "referring to particular item"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 특정한 경주를 가리키는 데 사용되었습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "that",
+        "those"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the race",
+        "the tortoise"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book is interesting.",
+          "ko": "그 책은 흥미롭다."
+        },
+        {
+          "en": "I saw the movie yesterday.",
+          "ko": "나는 어제 영화를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'the'는 특정한 사물을 가리킬 때 사용되며, 한국어의 '그'와 비슷합니다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "steady": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "꾸준한",
+          "en": "constant and unchanging",
+          "primary": true
+        },
+        {
+          "ko": "안정된",
+          "en": "firm and reliable"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 거북이의 꾸준함을 나타내는 데 사용되었습니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "steady"
+        },
+        {
+          "label": "비교급",
+          "form": "steadier"
+        },
+        {
+          "label": "최상급",
+          "form": "steadiest"
+        },
+        {
+          "label": "부사형",
+          "form": "steadily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "consistent",
+        "stable"
+      ],
+      "antonyms": [
+        "unsteady"
+      ],
+      "confusables": [],
+      "collocations": [
+        "slow and steady",
+        "steady progress"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "His heartbeat was steady.",
+          "ko": "그의 심박수가 꾸준했다."
+        },
+        {
+          "en": "Work at a steady pace.",
+          "ko": "꾸준한 속도로 일해라."
+        }
+      ],
+      "koreanTips": [
+        "'steady'는 '~하게 꾸준히'라는 의미로 자주 사용됩니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈstɛdi/"
+    },
+    "wins": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "이긴다",
+          "en": "achieves victory in a competition",
+          "primary": true
+        },
+        {
+          "ko": "우승한다",
+          "en": "secures first place"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '천천히 꾸준히 가는 것이 이긴다'는 교훈을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "win"
+        },
+        {
+          "label": "과거",
+          "form": "won"
+        },
+        {
+          "label": "과거분사",
+          "form": "won"
+        },
+        {
+          "label": "현재분사",
+          "form": "winning"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "wins"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "defeats",
+        "triumphs"
+      ],
+      "antonyms": [
+        "loses"
+      ],
+      "confusables": [],
+      "collocations": [
+        "wins the race",
+        "win a prize"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Hard work wins every time.",
+          "ko": "열심히 하면 항상 이긴다."
+        },
+        {
+          "en": "Team A wins the championship.",
+          "ko": "A팀이 챔피언십에서 이겼다."
+        }
+      ],
+      "koreanTips": [
+        "'win'은 불규칙 동사로, 과거형과 과거분사 모두 'won'입니다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɪnz/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "A hare laughed at a tortoise.",
+        "structure": {
+          "subject": {
+            "text": "A hare",
+            "label": "한 마리의 토끼"
+          },
+          "verb": {
+            "text": "laughed",
+            "label": "웃었다"
+          },
+          "object": {
+            "text": "at a tortoise",
+            "label": "거북이에게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 기본적인 SVO 구조를 따릅니다. 'A hare'가 주어이고, 'laughed'가 동사이며, 'at a tortoise'가 목적어입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "전치사 + 명사",
+          "SVO 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "The boy kicked the ball.",
+            "ko": "소년이 공을 찼다."
+          },
+          {
+            "en": "She smiled at her friend.",
+            "ko": "그녀는 친구에게 미소를 지었다."
+          }
+        ]
+      },
+      {
+        "text": "\"You are so slow!\" he said.",
+        "structure": {
+          "subject": {
+            "text": "he",
+            "label": "그"
+          },
+          "verb": {
+            "text": "said",
+            "label": "말했다"
+          },
+          "object": {
+            "text": "\"You are so slow!\"",
+            "label": "당신은 너무 느려!"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 직접 인용문을 포함한 SVO 구조입니다. 'he'가 주어이고, 'said'가 동사이며, 인용문이 목적어입니다.",
+        "grammarPoints": [
+          "직접 인용문",
+          "과거형 동사",
+          "SVO 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "\"I love you,\" she whispered.",
+            "ko": "\"사랑해,\" 그녀가 속삭였다."
+          },
+          {
+            "en": "\"Where are you going?\" he asked.",
+            "ko": "\"어디 가는 거야?\" 그가 물었다."
+          }
+        ]
+      },
+      {
+        "text": "The tortoise said, \"Let us race.\"",
+        "structure": {
+          "subject": {
+            "text": "The tortoise",
+            "label": "거북이"
+          },
+          "verb": {
+            "text": "said",
+            "label": "말했다"
+          },
+          "object": {
+            "text": "\"Let us race.\"",
+            "label": "\"경주하자.\""
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 직접 인용문을 포함한 SVO 구조입니다. 'The tortoise'가 주어이고, 'said'가 동사이며, 인용문이 목적어입니다.",
+        "grammarPoints": [
+          "직접 인용문",
+          "과거형 동사",
+          "SVO 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "\"Come here,\" he shouted.",
+            "ko": "\"여기로 와,\" 그가 소리쳤다."
+          },
+          {
+            "en": "\"Let's go home,\" she suggested.",
+            "ko": "\"집에 가자,\" 그녀가 제안했다."
+          }
+        ]
+      },
+      {
+        "text": "The hare agreed.",
+        "structure": {
+          "subject": {
+            "text": "The hare",
+            "label": "토끼"
+          },
+          "verb": {
+            "text": "agreed",
+            "label": "동의했다"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어+동사"
+        },
+        "explanation": "이 문장은 주어와 동사만으로 구성된 간단한 S+V 구조입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "S+V 문장 구조",
+          "자동사"
+        ],
+        "examples": [
+          {
+            "en": "He nodded.",
+            "ko": "그는 고개를 끄덕였다."
+          },
+          {
+            "en": "She smiled.",
+            "ko": "그녀는 미소를 지었다."
+          }
+        ]
+      },
+      {
+        "text": "He ran very fast at first.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "ran",
+            "label": "달렸다"
+          },
+          "complement": {
+            "text": "very fast at first",
+            "label": "처음에는 매우 빠르게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 주어, 동사, 그리고 보어로 구성된 S+V+C 구조입니다. 'very fast at first'는 동사 'ran'의 상태를 설명합니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "부사의 사용",
+          "S+V+C 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "She speaks clearly.",
+            "ko": "그녀는 명확하게 말한다."
+          },
+          {
+            "en": "He works hard every day.",
+            "ko": "그는 매일 열심히 일한다."
+          }
+        ]
+      },
+      {
+        "text": "He was far ahead.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "was",
+            "label": "있었다"
+          },
+          "complement": {
+            "text": "far ahead",
+            "label": "훨씬 앞서"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 주어, 동사, 그리고 보어로 구성된 S+V+C 구조입니다. 'far ahead'는 주어 'He'의 상태를 설명합니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사 보어",
+          "S+V+C 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "She was happy.",
+            "ko": "그녀는 행복했다."
+          },
+          {
+            "en": "They were excited.",
+            "ko": "그들은 흥분했다."
+          }
+        ]
+      },
+      {
+        "text": "He felt confident and decided to take a nap under a tree.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "felt... decided",
+            "label": "느꼈다... 결정했다"
+          },
+          "complement": {
+            "text": "confident... to take a nap under a tree",
+            "label": "자신감 있는... 나무 아래에서 낮잠을 자기로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 두 개의 동사를 포함한 복합 S+V+C 구조입니다. 'felt confident'와 'decided to take a nap'이 연결되어 있습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사 보어",
+          "to 부정사"
+        ],
+        "examples": [
+          {
+            "en": "He seemed tired and decided to rest.",
+            "ko": "그는 피곤해 보였고 쉬기로 결정했다."
+          },
+          {
+            "en": "She felt nervous and chose to leave.",
+            "ko": "그녀는 긴장했고 떠나기로 했다."
+          }
+        ]
+      },
+      {
+        "text": "The tortoise kept walking slowly but steadily.",
+        "structure": {
+          "subject": {
+            "text": "The tortoise",
+            "label": "거북이"
+          },
+          "verb": {
+            "text": "kept walking",
+            "label": "계속 걷고 있었다"
+          },
+          "complement": {
+            "text": "slowly but steadily",
+            "label": "천천히 하지만 꾸준히"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 주어, 동사, 그리고 보어로 구성된 S+V+C 구조입니다. 'kept walking'은 지속적인 행동을 나타내며, 'slowly but steadily'는 그 행동의 방식을 설명합니다.",
+        "grammarPoints": [
+          "과거 진행형",
+          "부사의 사용",
+          "S+V+C 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "She kept singing softly.",
+            "ko": "그녀는 계속 부드럽게 노래했다."
+          },
+          {
+            "en": "He kept running fast.",
+            "ko": "그는 계속 빠르게 달렸다."
+          }
+        ]
+      },
+      {
+        "text": "He never stopped.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "stopped",
+            "label": "멈췄다"
+          },
+          "complement": {
+            "text": "never",
+            "label": "절대로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 주어, 동사, 그리고 부사 보어로 구성된 S+V+C 구조입니다. 'never'는 동사 'stopped'의 부정적인 의미를 강조합니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "부사의 사용",
+          "S+V+C 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "She never gave up.",
+            "ko": "그녀는 절대로 포기하지 않았다."
+          },
+          {
+            "en": "He never complained.",
+            "ko": "그는 절대로 불평하지 않았다."
+          }
+        ]
+      },
+      {
+        "text": "When the hare woke up, the tortoise was near the finish line.",
+        "structure": {
+          "subject": {
+            "text": "the tortoise",
+            "label": "거북이"
+          },
+          "verb": {
+            "text": "was",
+            "label": "있었다"
+          },
+          "complement": {
+            "text": "near the finish line",
+            "label": "결승선 근처에"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 시간절을 포함한 S+V+C 구조입니다. 'When the hare woke up'은 시간을 나타내는 절이며, 메인 절은 'the tortoise was near the finish line'입니다.",
+        "grammarPoints": [
+          "시간절",
+          "과거형 동사",
+          "S+V+C 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "When I arrived, she was already there.",
+            "ko": "내가 도착했을 때, 그녀는 이미 그곳에 있었다."
+          },
+          {
+            "en": "While he slept, the phone rang.",
+            "ko": "그가 잤을 때, 전화가 울렸다."
+          }
+        ]
+      },
+      {
+        "text": "The hare ran as fast as he could, but it was too late.",
+        "structure": {
+          "subject": {
+            "text": "The hare",
+            "label": "토끼"
+          },
+          "verb": {
+            "text": "ran",
+            "label": "달렸다"
+          },
+          "complement": {
+            "text": "as fast as he could",
+            "label": "그가 할 수 있는 만큼 빠르게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 비교 구문을 포함한 S+V+C 구조입니다. 'as fast as he could'는 '그가 할 수 있는 만큼 빠르게'라는 비교를 나타냅니다.",
+        "grammarPoints": [
+          "비교 구문",
+          "과거형 동사",
+          "S+V+C 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "She worked as hard as she could.",
+            "ko": "그녀는 자신이 할 수 있는 만큼 열심히 일했다."
+          },
+          {
+            "en": "He spoke as clearly as possible.",
+            "ko": "그는 가능한 한 명확하게 말했다."
+          }
+        ]
+      },
+      {
+        "text": "The tortoise won the race.",
+        "structure": {
+          "subject": {
+            "text": "The tortoise",
+            "label": "거북이"
+          },
+          "verb": {
+            "text": "won",
+            "label": "이겼다"
+          },
+          "object": {
+            "text": "the race",
+            "label": "경주"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 기본적인 SVO 구조를 따릅니다. 'The tortoise'가 주어이고, 'won'이 동사이며, 'the race'가 목적어입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "SVO 문장 구조",
+          "자동사"
+        ],
+        "examples": [
+          {
+            "en": "He won the game.",
+            "ko": "그는 경기를 이겼다."
+          },
+          {
+            "en": "She won the prize.",
+            "ko": "그녀는 상을 따냈다."
+          }
+        ]
+      },
+      {
+        "text": "Slow and steady wins.",
+        "structure": {
+          "subject": {
+            "text": "Slow and steady",
+            "label": "느리고 꾸준한"
+          },
+          "verb": {
+            "text": "wins",
+            "label": "이긴다"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어+동사"
+        },
+        "explanation": "이 문장은 주어와 동사만으로 구성된 간단한 S+V 구조입니다. 'Slow and steady'는 주어로 사용되었으며, 'wins'는 동사입니다.",
+        "grammarPoints": [
+          "형용사 주어",
+          "현재형 동사",
+          "S+V 문장 구조"
+        ],
+        "examples": [
+          {
+            "en": "Fast and furious wins.",
+            "ko": "빠르고 격렬한 것이 이긴다."
+          },
+          {
+            "en": "Honesty wins trust.",
+            "ko": "정직함이 신뢰를 얻는다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "한 마리의 토끼가 거북이를 조롱했다. \"너는 너무 느려!\"라고 그가 말했다. 거북이는 \"우리가 경주하자\"고 말했다. 토끼는 동의했다. 그는 처음에는 매우 빠르게 달렸다. 그는 훨씬 앞서 있었다. 그는 자신감을 느꼈고 나무 아래에서 낮잠을 자기로 결정했다. 거북이는 천천히 하지만 꾸준히 계속 걸었다. 그는 절대로 멈추지 않았다. 토끼가 깨어났을 때, 거북이는 결승선 근처에 있었다. 토끼는 자신이 할 수 있는 만큼 빠르게 달렸지만, 이미 너무 늦었다. 거북이가 경주에서 이겼다. 느리고 꾸준한 것이 이긴다.",
+  "keyVocab": [
+    "laughed",
+    "tortoise",
+    "slow",
+    "confident",
+    "steady"
+  ],
+  "quiz": {
+    "question": "토끼는 왜 경주에서 졌습니까?",
+    "answer": "토끼는 자신감을 느끼고 낮잠을 자느라 늦게 도착했습니다."
+  },
+  "generated_at": "2026-02-20T09:50:10.821424+09:00"
+}

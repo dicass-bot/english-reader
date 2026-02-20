@@ -1,0 +1,3327 @@
+{
+  "num": "0005",
+  "category": "L1",
+  "source": {
+    "title": "My First Job",
+    "author": "VOA Learning English",
+    "license": "Public Domain",
+    "url": "https://learningenglish.voanews.com"
+  },
+  "passage": "I got my first job when I was sixteen. I worked at a small bakery near my house. Every morning, I woke up at five o'clock. I walked to the bakery in the dark. My job was to put bread in bags. The bakery was warm and smelled good. I liked working there. The owner was a kind old man. He taught me how to make cookies. I worked there for two years. It was hard work, but I learned a lot.",
+  "audio": {
+    "passage": "audio/L1-0005.mp3",
+    "words": {
+      "i": "audio/L1-0005-i.mp3",
+      "got": "audio/L1-0005-got.mp3",
+      "my": "audio/L1-0005-my.mp3",
+      "first": "audio/L1-0005-first.mp3",
+      "job": "audio/L1-0005-job.mp3",
+      "when": "audio/L1-0005-when.mp3",
+      "was": "audio/L1-0005-was.mp3",
+      "sixteen": "audio/L1-0005-sixteen.mp3",
+      "worked": "audio/L1-0005-worked.mp3",
+      "at": "audio/L1-0005-at.mp3",
+      "a": "audio/L1-0005-a.mp3",
+      "small": "audio/L1-0005-small.mp3",
+      "bakery": "audio/L1-0005-bakery.mp3",
+      "near": "audio/L1-0005-near.mp3",
+      "house": "audio/L1-0005-house.mp3",
+      "every": "audio/L1-0005-every.mp3",
+      "morning": "audio/L1-0005-morning.mp3",
+      "woke": "audio/L1-0005-woke.mp3",
+      "up": "audio/L1-0005-up.mp3",
+      "five": "audio/L1-0005-five.mp3",
+      "o'clock": "audio/L1-0005-o'clock.mp3",
+      "walked": "audio/L1-0005-walked.mp3",
+      "to": "audio/L1-0005-to.mp3",
+      "the": "audio/L1-0005-the.mp3",
+      "dark": "audio/L1-0005-dark.mp3",
+      "put": "audio/L1-0005-put.mp3",
+      "bread": "audio/L1-0005-bread.mp3",
+      "in": "audio/L1-0005-in.mp3",
+      "bags": "audio/L1-0005-bags.mp3",
+      "warm": "audio/L1-0005-warm.mp3"
+    }
+  },
+  "words": {
+    "i": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "나",
+          "en": "first person singular pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자의 첫 번째 직업 경험을 말하는 문장에서 '나'를 의미함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I like reading books.",
+          "ko": "나는 책 읽는 것을 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "영어에서는 대명사를 항상 사용해야 함. 'I go to school.' (O), '(나는) 학교에 간다.' (X)"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈaɪ/"
+    },
+    "got": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "얻었다",
+          "en": "past tense of get; received or obtained",
+          "primary": true
+        },
+        {
+          "ko": "갔다",
+          "en": "past tense of go; moved toward a place"
+        }
+      ],
+      "contextMeaning": "첫 직장을 얻은 것을 나타냄. 'get a job'은 '직장을 얻다'라는 고정 표현.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "get"
+        },
+        {
+          "label": "과거",
+          "form": "got"
+        },
+        {
+          "label": "과거분사",
+          "form": "gotten"
+        },
+        {
+          "label": "현재분사",
+          "form": "getting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "gets"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "received",
+        "obtained"
+      ],
+      "antonyms": [
+        "lost",
+        "missed"
+      ],
+      "confusables": [
+        {
+          "word": "goat",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "get a job",
+        "get help",
+        "get ready"
+      ],
+      "idioms": [
+        {
+          "phrase": "get the hang of it",
+          "ko": "익숙해지다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She got her driver's license last week.",
+          "ko": "그녀는 지난주에 운전면허를 받았다."
+        }
+      ],
+      "koreanTips": [
+        "'get'은 다양한 의미로 쓰여서 어렵지만, '얻다', '받다' 등으로 기억하면 좋음"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɡɑt/"
+    },
+    "my": {
+      "pos": "determiner (possessive)",
+      "meanings": [
+        {
+          "ko": "내",
+          "en": "belonging to me",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 소유하고 있는 첫 직업을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "mine"
+      ],
+      "antonyms": [
+        "your",
+        "his",
+        "her"
+      ],
+      "confusables": [
+        {
+          "word": "may",
+          "note": "발음이 비슷하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "my house",
+        "my car",
+        "my friend"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is my book.",
+          "ko": "이건 내 책이다."
+        }
+      ],
+      "koreanTips": [
+        "'my'는 명사 앞에만 사용됨. 'It's mine.' (O), 'It's my.' (X)"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmaɪ/"
+    },
+    "first": {
+      "pos": "adjective (ordinal number)",
+      "meanings": [
+        {
+          "ko": "첫 번째",
+          "en": "coming before all others in time or order",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자의 첫 직업을 강조함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "initial",
+        "beginning"
+      ],
+      "antonyms": [
+        "last",
+        "final"
+      ],
+      "confusables": [
+        {
+          "word": "fast",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "first job",
+        "first day",
+        "first impression"
+      ],
+      "idioms": [
+        {
+          "phrase": "first come, first served",
+          "ko": "선착순"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He finished first in the race.",
+          "ko": "그는 경주에서 1등했다."
+        }
+      ],
+      "koreanTips": [
+        "'first job'은 '첫 직장'이라는 고정 표현임"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɝst/"
+    },
+    "job": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "직업",
+          "en": "paid work that someone does regularly",
+          "primary": true
+        },
+        {
+          "ko": "할 일",
+          "en": "a task or duty"
+        }
+      ],
+      "contextMeaning": "화자가 얻은 첫 직업을 가리킴",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "job"
+        },
+        {
+          "label": "복수",
+          "form": "jobs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "work",
+        "employment"
+      ],
+      "antonyms": [
+        "unemployment"
+      ],
+      "confusables": [
+        {
+          "word": "jab",
+          "note": "비슷한 모양의 단어로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "get a job",
+        "lose a job",
+        "part-time job"
+      ],
+      "idioms": [
+        {
+          "phrase": "between jobs",
+          "ko": "실직 상태"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Finding a new job can be difficult.",
+          "ko": "새 직장을 찾는 것은 어려울 수 있다."
+        }
+      ],
+      "koreanTips": [
+        "'job'은 일반적으로 '직업'을 의미하며, 'work'보다 더 구체적임"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdʒɑb/"
+    },
+    "when": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "때",
+          "en": "at what time something happened",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "시간적 조건을 나타내며, '내가 십육 살이었을 때'를 연결함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "while",
+        "during"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "then",
+          "note": "발음이나 의미가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "when I was young",
+        "when we met"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Call me when you arrive.",
+          "ko": "도착하면 전화해줘."
+        }
+      ],
+      "koreanTips": [
+        "'when'은 시간을 묻거나 연결할 때 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhwɛn/"
+    },
+    "was": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "였다",
+          "en": "past tense of 'be'; used with 'I', 'he', 'she', 'it'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "과거 시제로 '내가 십육 살이었다'를 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "were",
+        "had been"
+      ],
+      "antonyms": [
+        "will be"
+      ],
+      "confusables": [
+        {
+          "word": "what",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "I was tired",
+        "he was happy"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She was very busy yesterday.",
+          "ko": "그녀는 어제 매우 바빴다."
+        }
+      ],
+      "koreanTips": [
+        "'was'는 'I/he/she/it'과 함께 사용되며, 'were'는 'you/we/they'와 함께 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɑz/"
+    },
+    "sixteen": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "십육",
+          "en": "the number between fifteen and seventeen",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 직장을 얻었던 나이를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "16"
+      ],
+      "antonyms": [
+        "seventeen"
+      ],
+      "confusables": [
+        {
+          "word": "sixty",
+          "note": "비슷한 시작 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "sixteen years old",
+        "at sixteen"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He started driving when he was sixteen.",
+          "ko": "그는 십육 살 때 운전을 시작했다."
+        }
+      ],
+      "koreanTips": [
+        "숫자는 영어에서 자주 사용되며, 나이를 표현할 때 중요함"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsɪkˈstin/"
+    },
+    "worked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "일했다",
+          "en": "past tense of work; performed duties",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 작은 제빵점을 다녔음을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "work"
+        },
+        {
+          "label": "과거",
+          "form": "worked"
+        },
+        {
+          "label": "과거분사",
+          "form": "worked"
+        },
+        {
+          "label": "현재분사",
+          "form": "working"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "works"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "labored",
+        "toiled"
+      ],
+      "antonyms": [
+        "rested",
+        "played"
+      ],
+      "confusables": [
+        {
+          "word": "wrecked",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "work hard",
+        "work late",
+        "work from home"
+      ],
+      "idioms": [
+        {
+          "phrase": "work like a charm",
+          "ko": "완벽하게 작동하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She worked as a nurse for ten years.",
+          "ko": "그녀는 열 년 동안 간호사로 일했다."
+        }
+      ],
+      "koreanTips": [
+        "'work'는 '일하다'라는 의미로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɝkt/"
+    },
+    "at": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "에서",
+          "en": "indicating location or time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "장소나 시간을 나타낼 때 사용됨",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "in",
+        "on"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "at school",
+        "at night",
+        "at five o'clock"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "We'll meet at the station.",
+          "ko": "우리는 역에서 만날 것이다."
+        }
+      ],
+      "koreanTips": [
+        "'at'은 특정 장소나 시간을 나타낼 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈæt/"
+    },
+    "a": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "used before singular nouns",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "단수 명사 앞에 사용되어 하나의 사물을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "one"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "an",
+          "note": "모음 앞에서 사용되는 관사"
+        }
+      ],
+      "collocations": [
+        "a small bakery",
+        "a kind man"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw a bird in the tree.",
+          "ko": "나무에서 새 한 마리를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'a'는 자음으로 시작하는 단어 앞에 사용되고, 'an'은 모음으로 시작하는 단어 앞에 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "small": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "작은",
+          "en": "not large in size or amount",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점의 규모가 작았음을 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "small"
+        },
+        {
+          "label": "비교급",
+          "form": "smaller"
+        },
+        {
+          "label": "최상급",
+          "form": "smallest"
+        },
+        {
+          "label": "부사형",
+          "form": "smallly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "little",
+        "tiny"
+      ],
+      "antonyms": [
+        "big",
+        "large"
+      ],
+      "confusables": [
+        {
+          "word": "smell",
+          "note": "비슷한 시작 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a small house",
+        "small business"
+      ],
+      "idioms": [
+        {
+          "phrase": "think small",
+          "ko": "작게 생각하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The room was too small for us.",
+          "ko": "그 방은 우리에게 너무 작았다."
+        }
+      ],
+      "koreanTips": [
+        "'small'은 크기를 나타내는 형용사로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsmɔɫ/"
+    },
+    "bakery": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "제빵점",
+          "en": "a shop that sells bread and cakes",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 일했던 장소를 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "bakery"
+        },
+        {
+          "label": "복수",
+          "form": "bakeries"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "bread shop",
+        "pastry shop"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "bake",
+          "note": "비슷한 단어로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "visit a bakery",
+        "buy bread from a bakery"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Let's buy some fresh bread from the bakery.",
+          "ko": "제빵점에서 신선한 빵을 사자."
+        }
+      ],
+      "koreanTips": [
+        "'bakery'는 제빵점, 즉 빵을 파는 가게를 의미함"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈbeɪkɝi/"
+    },
+    "near": {
+      "pos": "preposition/adverb",
+      "meanings": [
+        {
+          "ko": "가까이",
+          "en": "close to or beside something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점이 집 근처에 있었음을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "close to",
+        "beside"
+      ],
+      "antonyms": [
+        "far from"
+      ],
+      "confusables": [
+        {
+          "word": "hear",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "near my house",
+        "near the park"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "There's a coffee shop near here.",
+          "ko": "여기 근처에 커피숍이 있어."
+        }
+      ],
+      "koreanTips": [
+        "'near'는 공간적 거리를 나타내는 전치사로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈnɪɹ/"
+    },
+    "house": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "집",
+          "en": "a building where people live",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 살고 있던 집을 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "house"
+        },
+        {
+          "label": "복수",
+          "form": "houses"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "home",
+        "residence"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "horse",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "my house",
+        "at home",
+        "big house"
+      ],
+      "idioms": [
+        {
+          "phrase": "a house of cards",
+          "ko": "허황된 계획"
+        }
+      ],
+      "examples": [
+        {
+          "en": "They built their dream house by the sea.",
+          "ko": "그들은 바닷가에 꿈의 집을 지었다."
+        }
+      ],
+      "koreanTips": [
+        "'house'는 일반적으로 '집'을 의미하며, 'home'과는 약간 다른 뉘앙스를 가짐"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhaʊs/"
+    },
+    "every": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "모든",
+          "en": "each one of a group",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "매일 아침을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "all",
+        "each"
+      ],
+      "antonyms": [
+        "some"
+      ],
+      "confusables": [
+        {
+          "word": "ever",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "every morning",
+        "every day",
+        "every week"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Every student must attend class.",
+          "ko": "모든 학생은 수업에 참석해야 한다."
+        }
+      ],
+      "koreanTips": [
+        "'every'는 반복되는 시간을 나타낼 때 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɛvɝi/"
+    },
+    "morning": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "아침",
+          "en": "early part of the day",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "하루 중 아침 시간대를 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "morning"
+        },
+        {
+          "label": "복수",
+          "form": "mornings"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "dawn",
+        "daybreak"
+      ],
+      "antonyms": [
+        "evening",
+        "night"
+      ],
+      "confusables": [
+        {
+          "word": "mourning",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "every morning",
+        "good morning"
+      ],
+      "idioms": [
+        {
+          "phrase": "morning glory",
+          "ko": "아침 glory (식물 이름)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I exercise every morning.",
+          "ko": "나는 매일 아침 운동한다."
+        }
+      ],
+      "koreanTips": [
+        "'morning'은 하루의 시작 시간을 나타내며, 'every morning'은 '매일 아침'을 의미함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmɔɹnɪŋ/"
+    },
+    "woke": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "일어났다",
+          "en": "past tense of wake; became conscious after sleeping",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 매일 오전 다섯 시에 일어났음을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "wake"
+        },
+        {
+          "label": "과거",
+          "form": "woke"
+        },
+        {
+          "label": "과거분사",
+          "form": "woken"
+        },
+        {
+          "label": "현재분사",
+          "form": "waking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "wakes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "arose",
+        "awoke"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "woke",
+          "note": "사회적 운동과 관련된 의미로도 사용됨"
+        }
+      ],
+      "collocations": [
+        "wake up",
+        "wake early"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He woke up late yesterday.",
+          "ko": "그는 어제 늦게 일어났다."
+        }
+      ],
+      "koreanTips": [
+        "'wake up'은 '일어나다'라는 고정 표현이며, 과거형은 'woke up'임"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈwoʊk/"
+    },
+    "up": {
+      "pos": "adverb/preposition",
+      "meanings": [
+        {
+          "ko": "일어나서",
+          "en": "from a lower position to a higher one",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 침대에서 일어나는 동작을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "rise",
+        "stand"
+      ],
+      "antonyms": [
+        "down"
+      ],
+      "confusables": [],
+      "collocations": [
+        "wake up",
+        "get up",
+        "stand up"
+      ],
+      "idioms": [
+        {
+          "phrase": "up and running",
+          "ko": "운영 준비가 완료된"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please stand up slowly.",
+          "ko": "천천히 일어나세요."
+        }
+      ],
+      "koreanTips": [
+        "'up'은 방향을 나타내는 부사로, 'get up'은 '일어나다'라는 의미임"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈəp/"
+    },
+    "five": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "다섯",
+          "en": "the number after four",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "오전 다섯 시를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "5"
+      ],
+      "antonyms": [
+        "four",
+        "six"
+      ],
+      "confusables": [
+        {
+          "word": "fine",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "five o'clock",
+        "five minutes"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "We arrived at five o'clock.",
+          "ko": "우리는 오후 다섯 시에 도착했다."
+        }
+      ],
+      "koreanTips": [
+        "'five o'clock'은 '다섯 시'를 의미하며, 시간 표현에 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfaɪv/"
+    },
+    "o'clock": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "(정각)",
+          "en": "used after numbers to show the hour",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "정확한 시간을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "oclock",
+          "note": "띄어쓰기 오류"
+        }
+      ],
+      "collocations": [
+        "five o'clock",
+        "ten o'clock"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Meet me at three o'clock.",
+          "ko": "세 시에 만나자."
+        }
+      ],
+      "koreanTips": [
+        "'o'clock'은 정각을 나타내며, 'three o'clock'은 '세 시'를 의미함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/əˈkɫɑk/"
+    },
+    "walked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "걸어갔다",
+          "en": "past tense of walk; moved on foot",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 제빵점까지 걸어갔음을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "walk"
+        },
+        {
+          "label": "과거",
+          "form": "walked"
+        },
+        {
+          "label": "과거분사",
+          "form": "walked"
+        },
+        {
+          "label": "현재분사",
+          "form": "walking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "walks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "strolled",
+        "marched"
+      ],
+      "antonyms": [
+        "ran",
+        "sat"
+      ],
+      "confusables": [
+        {
+          "word": "worked",
+          "note": "비슷한 과거형 형태로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "walk to school",
+        "walk home"
+      ],
+      "idioms": [
+        {
+          "phrase": "walk the talk",
+          "ko": "말과 행동이 일치하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He walked to the store.",
+          "ko": "그는 가게로 걸어갔다."
+        }
+      ],
+      "koreanTips": [
+        "'walk'는 '걷다'라는 의미로 자주 사용되는 동사임"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɔkt/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "까지",
+          "en": "indicating direction or destination",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점까지의 방향을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "toward",
+        "into"
+      ],
+      "antonyms": [
+        "from"
+      ],
+      "confusables": [
+        {
+          "word": "too",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "walk to the bakery",
+        "go to school"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She went to the market.",
+          "ko": "그녀는 시장에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'to'는 목적지를 나타내는 전치사로 자주 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "the": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "definite article used before nouns",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "특정한 제빵점을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the bakery",
+        "the house"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw the dog in the garden.",
+          "ko": "나는 정원에서 그 개를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'the'는 특정한 대상을 나타낼 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "dark": {
+      "pos": "adjective/noun",
+      "meanings": [
+        {
+          "ko": "어두운",
+          "en": "lacking light",
+          "primary": true
+        },
+        {
+          "ko": "어둠",
+          "en": "absence of light"
+        }
+      ],
+      "contextMeaning": "아침에 아직 어두웠음을 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "dark"
+        },
+        {
+          "label": "비교급",
+          "form": "darker"
+        },
+        {
+          "label": "최상급",
+          "form": "darkest"
+        },
+        {
+          "label": "부사형",
+          "form": "darkly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "dim",
+        "black"
+      ],
+      "antonyms": [
+        "bright",
+        "light"
+      ],
+      "confusables": [
+        {
+          "word": "dork",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "in the dark",
+        "dark room"
+      ],
+      "idioms": [
+        {
+          "phrase": "in the dark",
+          "ko": "무지한 상태에서"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It was too dark to see clearly.",
+          "ko": "너무 어두워서 잘 보이지 않았다."
+        }
+      ],
+      "koreanTips": [
+        "'dark'는 '어두운'이라는 의미로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdɑɹk/"
+    },
+    "put": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "넣었다",
+          "en": "past tense of put; placed something somewhere",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "빵을 가방에 넣는 작업을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "put"
+        },
+        {
+          "label": "과거",
+          "form": "put"
+        },
+        {
+          "label": "과거분사",
+          "form": "put"
+        },
+        {
+          "label": "현재분사",
+          "form": "putting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "puts"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "place",
+        "set"
+      ],
+      "antonyms": [
+        "take"
+      ],
+      "confusables": [
+        {
+          "word": "but",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "put bread in bags",
+        "put on clothes"
+      ],
+      "idioms": [
+        {
+          "phrase": "put up with",
+          "ko": "참다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Put your coat on.",
+          "ko": "코트를 입으세요."
+        }
+      ],
+      "koreanTips": [
+        "'put'은 '놓다', '넣다'라는 의미로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpʊt/"
+    },
+    "bread": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "빵",
+          "en": "food made from flour and water baked together",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점에서 만드는 주요 제품을 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "bread"
+        },
+        {
+          "label": "복수",
+          "form": "breads"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "loaf",
+        "roll"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "bred",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "slice of bread",
+        "fresh bread"
+      ],
+      "idioms": [
+        {
+          "phrase": "break bread",
+          "ko": "식사하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Would you like some bread?",
+          "ko": "빵 좀 드릴까요?"
+        }
+      ],
+      "koreanTips": [
+        "'bread'는 일반적으로 불가산 명사이므로 복수형을 쓰지 않음"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbɹɛd/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "안에",
+          "en": "inside something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "빵을 가방 안에 넣는 동작을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "inside",
+        "within"
+      ],
+      "antonyms": [
+        "out"
+      ],
+      "confusables": [
+        {
+          "word": "inn",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "in bags",
+        "in the morning"
+      ],
+      "idioms": [
+        {
+          "phrase": "in for a surprise",
+          "ko": "놀라움을 당할 것이다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The keys are in the drawer.",
+          "ko": "열쇠는 서랍 안에 있다."
+        }
+      ],
+      "koreanTips": [
+        "'in'은 공간적 위치를 나타낼 때 자주 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪn/"
+    },
+    "bags": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "봉투들",
+          "en": "containers made of paper or plastic",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "빵을 포장하는 봉투를 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "bag"
+        },
+        {
+          "label": "복수",
+          "form": "bags"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "pouches",
+        "packages"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "begs",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "put bread in bags",
+        "carry bags"
+      ],
+      "idioms": [
+        {
+          "phrase": "bag of tricks",
+          "ko": "비결이나 기술"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She bought groceries in plastic bags.",
+          "ko": "그녀는 플라스틱 봉투에 식료품을 샀다."
+        }
+      ],
+      "koreanTips": [
+        "'bags'는 복수형으로, 여러 개의 봉투를 나타냄"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbæɡz/"
+    },
+    "warm": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "따뜻한",
+          "en": "having a temperature that is comfortable",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점 내부가 따뜻했음을 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "warm"
+        },
+        {
+          "label": "비교급",
+          "form": "warmer"
+        },
+        {
+          "label": "최상급",
+          "form": "warmest"
+        },
+        {
+          "label": "부사형",
+          "form": "warmly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "hot",
+        "cozy"
+      ],
+      "antonyms": [
+        "cold",
+        "chilly"
+      ],
+      "confusables": [
+        {
+          "word": "worm",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "warm room",
+        "warm welcome"
+      ],
+      "idioms": [
+        {
+          "phrase": "warm up",
+          "ko": "몸을 풀다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tea was warm.",
+          "ko": "차가 따뜻했다."
+        }
+      ],
+      "koreanTips": [
+        "'warm'은 온도를 나타내는 형용사로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɔɹm/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or phrases",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 가지 특징(따뜻하고 좋은 냄새)을 연결함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "also",
+        "plus"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "warm and smelled good",
+        "bread and butter"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I like apples and oranges.",
+          "ko": "나는 사과와 오렌지를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'and'는 두 개 이상의 단어나 문장을 연결할 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "smelled": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "냄새가 났다",
+          "en": "past tense of smell; gave off an odor",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점에서 좋은 냄새가 났음을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "smell"
+        },
+        {
+          "label": "과거",
+          "form": "smelled/smelt"
+        },
+        {
+          "label": "과거분사",
+          "form": "smelled/smelt"
+        },
+        {
+          "label": "현재분사",
+          "form": "smelling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "smells"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "reeked",
+        "emitted"
+      ],
+      "antonyms": [
+        "odorless"
+      ],
+      "confusables": [
+        {
+          "word": "smiled",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "smelled good",
+        "smelled like bread"
+      ],
+      "idioms": [
+        {
+          "phrase": "stop and smell the roses",
+          "ko": "삶의 즐거움을 느끼다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The flowers smelled sweet.",
+          "ko": "꽃들이 달콤한 향기를 냈다."
+        }
+      ],
+      "koreanTips": [
+        "'smell'은 '냄새가 나다'라는 의미로 자주 사용됨"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsmɛɫd/"
+    },
+    "good": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "좋은",
+          "en": "pleasant or positive",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점에서 나는 냄새가 좋았음을 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "good"
+        },
+        {
+          "label": "비교급",
+          "form": "better"
+        },
+        {
+          "label": "최상급",
+          "form": "best"
+        },
+        {
+          "label": "부사형",
+          "form": "well"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "nice",
+        "great"
+      ],
+      "antonyms": [
+        "bad",
+        "terrible"
+      ],
+      "confusables": [
+        {
+          "word": "food",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "good smell",
+        "good job"
+      ],
+      "idioms": [
+        {
+          "phrase": "as good as gold",
+          "ko": "완벽하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The food tasted good.",
+          "ko": "음식이 맛있었다."
+        }
+      ],
+      "koreanTips": [
+        "'good'은 '좋은'이라는 의미로 자주 사용되는 형용사임"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɡʊd/"
+    },
+    "liked": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "좋아했다",
+          "en": "past tense of like; enjoyed or preferred",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 그곳에서 일하는 것을 좋아했음을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "like"
+        },
+        {
+          "label": "과거",
+          "form": "liked"
+        },
+        {
+          "label": "과거분사",
+          "form": "liked"
+        },
+        {
+          "label": "현재분사",
+          "form": "liking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "likes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "enjoyed",
+        "preferred"
+      ],
+      "antonyms": [
+        "disliked",
+        "hated"
+      ],
+      "confusables": [
+        {
+          "word": "looked",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "liked working there",
+        "liked the job"
+      ],
+      "idioms": [
+        {
+          "phrase": "like a fish out of water",
+          "ko": "어색한 상황"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She liked her new job.",
+          "ko": "그녀는 새 직장을 좋아했다."
+        }
+      ],
+      "koreanTips": [
+        "'like'는 '좋아하다'라는 의미로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫaɪkt/"
+    },
+    "working": {
+      "pos": "verb (gerund/present participle)",
+      "meanings": [
+        {
+          "ko": "일하는",
+          "en": "present participle of work; performing duties",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 그곳에서 일하고 있었음을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "work"
+        },
+        {
+          "label": "과거",
+          "form": "worked"
+        },
+        {
+          "label": "과거분사",
+          "form": "worked"
+        },
+        {
+          "label": "현재분사",
+          "form": "working"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "works"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "laboring",
+        "toiling"
+      ],
+      "antonyms": [
+        "resting"
+      ],
+      "confusables": [
+        {
+          "word": "walking",
+          "note": "비슷한 형태로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "liked working there",
+        "keep working"
+      ],
+      "idioms": [
+        {
+          "phrase": "work in progress",
+          "ko": "진행 중인 작업"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He is still working.",
+          "ko": "그는 여전히 일하고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'working'은 '일하다'의 현재분사 형태로, 진행형에서 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɝkɪŋ/"
+    },
+    "there": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "그곳에",
+          "en": "in that place",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 일했던 제빵점을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "over there",
+        "in that place"
+      ],
+      "antonyms": [
+        "here"
+      ],
+      "confusables": [
+        {
+          "word": "their",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "liked working there",
+        "live there"
+      ],
+      "idioms": [
+        {
+          "phrase": "there you go",
+          "ko": "그렇지"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Come over here if you're free.",
+          "ko": "시간이 있으면 여기로 와."
+        }
+      ],
+      "koreanTips": [
+        "'there'는 장소를 나타내는 부사로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈðɛɹ/"
+    },
+    "owner": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "주인",
+          "en": "person who owns something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점의 주인을 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "owner"
+        },
+        {
+          "label": "복수",
+          "form": "owners"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "proprietor",
+        "boss"
+      ],
+      "antonyms": [
+        "employee"
+      ],
+      "confusables": [
+        {
+          "word": "ower",
+          "note": "철자 오류"
+        }
+      ],
+      "collocations": [
+        "the owner of the bakery",
+        "store owner"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The owner greeted us warmly.",
+          "ko": "주인이 우리를 따뜻하게 맞이했다."
+        }
+      ],
+      "koreanTips": [
+        "'owner'는 '소유자' 또는 '사업주'를 의미함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈoʊnɝ/"
+    },
+    "kind": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "친절한",
+          "en": "gentle and caring",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점 주인이 친절했음을 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "kind"
+        },
+        {
+          "label": "비교급",
+          "form": "kinder"
+        },
+        {
+          "label": "최상급",
+          "form": "kindest"
+        },
+        {
+          "label": "부사형",
+          "form": "kindly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "gentle",
+        "nice"
+      ],
+      "antonyms": [
+        "cruel",
+        "mean"
+      ],
+      "confusables": [
+        {
+          "word": "king",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a kind man",
+        "kind heart"
+      ],
+      "idioms": [
+        {
+          "phrase": "kind of",
+          "ko": "약간"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He was very kind to me.",
+          "ko": "그는 나에게 매우 친절했다."
+        }
+      ],
+      "koreanTips": [
+        "'kind'는 '친절한'이라는 의미로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkaɪnd/"
+    },
+    "old": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "늙은",
+          "en": "advanced in age",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점 주인이 나이가 많았음을 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "old"
+        },
+        {
+          "label": "비교급",
+          "form": "older"
+        },
+        {
+          "label": "최상급",
+          "form": "oldest"
+        },
+        {
+          "label": "부사형",
+          "form": "oldly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "aged",
+        "elderly"
+      ],
+      "antonyms": [
+        "young",
+        "new"
+      ],
+      "confusables": [
+        {
+          "word": "gold",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "an old man",
+        "old house"
+      ],
+      "idioms": [
+        {
+          "phrase": "old hat",
+          "ko": "낡은 것"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The old man smiled gently.",
+          "ko": "늙은 남자가 부드럽게 미소 지었다."
+        }
+      ],
+      "koreanTips": [
+        "'old'는 나이를 나타내는 형용사로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈoʊɫd/"
+    },
+    "man": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "남자",
+          "en": "adult male human",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점 주인을 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "man"
+        },
+        {
+          "label": "복수",
+          "form": "men"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "male",
+        "guy"
+      ],
+      "antonyms": [
+        "woman"
+      ],
+      "confusables": [
+        {
+          "word": "men",
+          "note": "복수형과 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "an old man",
+        "young man"
+      ],
+      "idioms": [
+        {
+          "phrase": "man up",
+          "ko": "용기를 내다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The man helped carry the boxes.",
+          "ko": "그 남자는 상자를 들도록 도왔다."
+        }
+      ],
+      "koreanTips": [
+        "'man'은 '남자'를 의미하며, 복수형은 'men'임"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmæn/"
+    },
+    "taught": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "가르쳤다",
+          "en": "past tense of teach; instructed someone",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "제빵점 주인이 화자에게 쿠키 만드는 법을 가르쳐줬음을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "teach"
+        },
+        {
+          "label": "과거",
+          "form": "taught"
+        },
+        {
+          "label": "과거분사",
+          "form": "taught"
+        },
+        {
+          "label": "현재분사",
+          "form": "teaching"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "teaches"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "instructed",
+        "showed"
+      ],
+      "antonyms": [
+        "learned"
+      ],
+      "confusables": [
+        {
+          "word": "caught",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "taught me how to make cookies",
+        "teach math"
+      ],
+      "idioms": [
+        {
+          "phrase": "teach someone a lesson",
+          "ko": "누군가에게 교훈을 주다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She taught him how to swim.",
+          "ko": "그녀는 그에게 수영을 가르쳤다."
+        }
+      ],
+      "koreanTips": [
+        "'teach'는 '가르치다'라는 의미로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtɔt/"
+    },
+    "how": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "어떻게",
+          "en": "in what way or manner",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쿠키 만드는 방법을 묻는 방식을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "way",
+        "method"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "now",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "how to make cookies",
+        "how to cook"
+      ],
+      "idioms": [
+        {
+          "phrase": "how about",
+          "ko": "~는 어때?"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can you show me how to do this?",
+          "ko": "이것을 어떻게 하는지 보여줄 수 있어?"
+        }
+      ],
+      "koreanTips": [
+        "'how'는 '어떻게'라는 의미로 질문에 자주 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhaʊ/"
+    },
+    "make": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "만들다",
+          "en": "create or produce something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쿠키를 만드는 행위를 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "make"
+        },
+        {
+          "label": "과거",
+          "form": "made"
+        },
+        {
+          "label": "과거분사",
+          "form": "made"
+        },
+        {
+          "label": "현재분사",
+          "form": "making"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "makes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "create",
+        "produce"
+      ],
+      "antonyms": [
+        "destroy"
+      ],
+      "confusables": [
+        {
+          "word": "take",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "make cookies",
+        "make dinner"
+      ],
+      "idioms": [
+        {
+          "phrase": "make a difference",
+          "ko": "차이를 만들다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I want to make a cake.",
+          "ko": "케이크를 만들고 싶다."
+        }
+      ],
+      "koreanTips": [
+        "'make'는 '만들다'라는 의미로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmeɪk/"
+    },
+    "cookies": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "쿠키들",
+          "en": "sweet baked treats",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 배운 제빵 기술 중 하나인 쿠키 만들기를 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "cookie"
+        },
+        {
+          "label": "복수",
+          "form": "cookies"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "biscuits",
+        "treats"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "cooks",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "make cookies",
+        "eat cookies"
+      ],
+      "idioms": [
+        {
+          "phrase": "cookie cutter",
+          "ko": "형식에 얽매인 사람"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She baked chocolate cookies.",
+          "ko": "그녀는 초콜릿 쿠키를 굽었다."
+        }
+      ],
+      "koreanTips": [
+        "'cookies'는 복수형으로, 여러 개의 쿠키를 나타냄"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈkʊkiz/"
+    },
+    "for": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "동안",
+          "en": "during a period of time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 제빵점에서 일한 기간을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "during",
+        "throughout"
+      ],
+      "antonyms": [
+        "against"
+      ],
+      "confusables": [
+        {
+          "word": "four",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "worked for two years",
+        "wait for a moment"
+      ],
+      "idioms": [
+        {
+          "phrase": "for better or worse",
+          "ko": "좋든 나쁘든"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I studied for three hours.",
+          "ko": "나는 세 시간 동안 공부했다."
+        }
+      ],
+      "koreanTips": [
+        "'for'는 기간을 나타낼 때 자주 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈfɔɹ/"
+    },
+    "two": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "두",
+          "en": "the number after one",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 제빵점에서 일한 연수를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "2"
+      ],
+      "antonyms": [
+        "one",
+        "three"
+      ],
+      "confusables": [
+        {
+          "word": "too",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "two years",
+        "two weeks"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "We waited for two hours.",
+          "ko": "우리는 두 시간 동안 기다렸다."
+        }
+      ],
+      "koreanTips": [
+        "'two'는 숫자 '2'를 의미하며, 'to'와 혼동하지 않도록 주의해야 함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "years": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "년들",
+          "en": "units of time equal to 365 days",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 제빵점에서 일한 연수를 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "year"
+        },
+        {
+          "label": "복수",
+          "form": "years"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "periods",
+        "eras"
+      ],
+      "antonyms": [
+        "days"
+      ],
+      "confusables": [
+        {
+          "word": "ears",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "two years",
+        "many years"
+      ],
+      "idioms": [
+        {
+          "phrase": "year in, year out",
+          "ko": "매년 반복해서"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He has lived here for many years.",
+          "ko": "그는 여기에 수년 동안 살았다."
+        }
+      ],
+      "koreanTips": [
+        "'years'는 복수형으로, 여러 해를 나타냄"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈjɪɹz/"
+    },
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "refers to a thing previously mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 제빵점에서의 일을 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "this",
+        "that"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "bit",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "it was hard work",
+        "it smells good"
+      ],
+      "idioms": [
+        {
+          "phrase": "it takes two to tango",
+          "ko": "둘이야말로 춤을 추는 법이다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It is raining today.",
+          "ko": "오늘은 비가 내리고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'it'은 무언가를 가리키는 대명사로 자주 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪt/"
+    },
+    "hard": {
+      "pos": "adjective/adverb",
+      "meanings": [
+        {
+          "ko": "힘든",
+          "en": "difficult or requiring effort",
+          "primary": true
+        },
+        {
+          "ko": "열심히",
+          "en": "with great effort"
+        }
+      ],
+      "contextMeaning": "화자가 제빵점에서의 일이 힘들었다는 것을 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "hard"
+        },
+        {
+          "label": "비교급",
+          "form": "harder"
+        },
+        {
+          "label": "최상급",
+          "form": "hardest"
+        },
+        {
+          "label": "부사형",
+          "form": "hard"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "difficult",
+        "tough"
+      ],
+      "antonyms": [
+        "easy",
+        "simple"
+      ],
+      "confusables": [
+        {
+          "word": "heard",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "hard work",
+        "work hard"
+      ],
+      "idioms": [
+        {
+          "phrase": "work hard, play hard",
+          "ko": "열심히 일하고 열심히 노는 삶"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Learning English is hard.",
+          "ko": "영어 배우기는 어렵다."
+        }
+      ],
+      "koreanTips": [
+        "'hard'는 '힘든'이라는 형용사와 '열심히'라는 부사 모두로 사용될 수 있음"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhɑɹd/"
+    },
+    "but": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "하지만",
+          "en": "used to introduce a contrast",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "일이 힘들었지만 많은 것을 배웠다는 대조를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "however",
+        "although"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "put",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "but I learned a lot",
+        "but it was worth it"
+      ],
+      "idioms": [
+        {
+          "phrase": "no buts",
+          "ko": "하지만은 없다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It was cold, but we went anyway.",
+          "ko": "추웠지만 우리는 그래도 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'but'은 대조를 나타내는 접속사로 자주 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbət/"
+    },
+    "learned": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "배웠다",
+          "en": "past tense of learn; gained knowledge or skill",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 제빵점에서 많은 것을 배웠음을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "learn"
+        },
+        {
+          "label": "과거",
+          "form": "learned/learnt"
+        },
+        {
+          "label": "과거분사",
+          "form": "learned/learnt"
+        },
+        {
+          "label": "현재분사",
+          "form": "learning"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "learns"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "studied",
+        "acquired"
+      ],
+      "antonyms": [
+        "forgot"
+      ],
+      "confusables": [
+        {
+          "word": "earned",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "learned a lot",
+        "learned how to bake"
+      ],
+      "idioms": [
+        {
+          "phrase": "learn the ropes",
+          "ko": "기초를 배우다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She learned French quickly.",
+          "ko": "그녀는 프랑스어를 빠르게 배웠다."
+        }
+      ],
+      "koreanTips": [
+        "'learn'은 '배우다'라는 의미로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɝnd/"
+    },
+    "lot": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "많은",
+          "en": "a large amount or number",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 많은 것을 배웠음을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "much",
+        "many"
+      ],
+      "antonyms": [
+        "little"
+      ],
+      "confusables": [
+        {
+          "word": "not",
+          "note": "비슷한 발음으로 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "learned a lot",
+        "a lot of things"
+      ],
+      "idioms": [
+        {
+          "phrase": "a lot on one's plate",
+          "ko": "할 일이 많다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He knows a lot about history.",
+          "ko": "그는 역사에 대해 많이 알고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'a lot'은 '많은'이라는 의미로 자주 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɑt/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "I got my first job when I was sixteen.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "got",
+            "label": "얻었다"
+          },
+          "object": {
+            "text": "my first job",
+            "label": "내 첫 직업"
+          },
+          "complement": {
+            "text": "when I was sixteen",
+            "label": "내가 십육 살이었을 때"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 과거 시제로 '나는 십육 살 때 첫 직업을 얻었다'는 의미입니다. 'when I was sixteen'는 시간을 나타내는 절입니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "시간절 'when'",
+          "목적어"
+        ],
+        "examples": [
+          {
+            "en": "She found her first job when she graduated.",
+            "ko": "그녀는 졸업했을 때 첫 직업을 찾았다."
+          },
+          {
+            "en": "I started working when I turned eighteen.",
+            "ko": "나는 18살이 되었을 때 일하기 시작했다."
+          }
+        ]
+      },
+      {
+        "text": "I worked at a small bakery near my house.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "worked",
+            "label": "일했다"
+          },
+          "complement": {
+            "text": "at a small bakery near my house",
+            "label": "내 집 근처의 작은 제빵점에서"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '나는 내 집 근처의 작은 제빵점에서 일했다'는 의미입니다. 'at...'는 장소를 나타내는 보어입니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "장소 보어",
+          "전치사 구"
+        ],
+        "examples": [
+          {
+            "en": "He worked at a big company downtown.",
+            "ko": "그는 시내의 큰 회사에서 일했다."
+          },
+          {
+            "en": "We lived near the school.",
+            "ko": "우리는 학교 근처에 살았다."
+          }
+        ]
+      },
+      {
+        "text": "Every morning, I woke up at five o'clock.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "woke up",
+            "label": "일어났다"
+          },
+          "complement": {
+            "text": "at five o'clock",
+            "label": "오전 다섯 시에"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '나는 매일 오전 다섯 시에 일어났다'는 의미입니다. 'every morning'은 시간을 나타내는 부사구입니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "시간 부사구",
+          "wake up 고정 표현"
+        ],
+        "examples": [
+          {
+            "en": "Every evening, she goes to bed early.",
+            "ko": "그녀는 매일 저녁 일찍 잔다."
+          },
+          {
+            "en": "He wakes up at six every day.",
+            "ko": "그는 매일 여섯 시에 일어난다."
+          }
+        ]
+      },
+      {
+        "text": "I walked to the bakery in the dark.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "walked",
+            "label": "걸어갔다"
+          },
+          "complement": {
+            "text": "to the bakery in the dark",
+            "label": "어두운 곳의 제빵점으로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '나는 어두운 곳의 제빵점으로 걸어갔다'는 의미입니다. 'in the dark'는 상황을 설명하는 보어입니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "방향 보어",
+          "in the dark 고정 표현"
+        ],
+        "examples": [
+          {
+            "en": "She walked to school in the rain.",
+            "ko": "그녀는 비 속에서 학교로 걸어갔다."
+          },
+          {
+            "en": "He ran home in the snow.",
+            "ko": "그는 눈 속에서 집으로 달렸다."
+          }
+        ]
+      },
+      {
+        "text": "My job was to put bread in bags.",
+        "structure": {
+          "subject": {
+            "text": "My job",
+            "label": "내 일"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "to put bread in bags",
+            "label": "빵을 가방에 넣는 것"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '내 일은 빵을 가방에 넣는 것이었다'는 의미입니다. 'to put...'는 목적을 나타내는 보어입니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "to-infinitive 보어",
+          "put...in 고정 표현"
+        ],
+        "examples": [
+          {
+            "en": "His job was to clean the office.",
+            "ko": "그의 일은 사무실을 청소하는 것이었다."
+          },
+          {
+            "en": "Her role was to organize events.",
+            "ko": "그녀의 역할은 행사들을 조직하는 것이었다."
+          }
+        ]
+      },
+      {
+        "text": "The bakery was warm and smelled good.",
+        "structure": {
+          "subject": {
+            "text": "The bakery",
+            "label": "제빵점"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "warm and smelled good",
+            "label": "따뜻하고 좋은 냄새가 났다"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '제빵점은 따뜻했고 좋은 냄새가 났다'는 의미입니다. 두 개의 보어가 'and'로 연결되어 있습니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "형용사 보어",
+          "and로 연결된 보어"
+        ],
+        "examples": [
+          {
+            "en": "The room was quiet and cozy.",
+            "ko": "그 방은 조용하고 아늑했다."
+          },
+          {
+            "en": "The food was hot and delicious.",
+            "ko": "음식은 뜨겁고 맛있었다."
+          }
+        ]
+      },
+      {
+        "text": "I liked working there.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "liked",
+            "label": "좋아했다"
+          },
+          "object": {
+            "text": "working there",
+            "label": "그곳에서 일하는 것"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 '나는 그곳에서 일하는 것을 좋아했다'는 의미입니다. 'working there'는 동명사 구로 목적어 역할을 합니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "동명사 목적어",
+          "like + V-ing 고정 표현"
+        ],
+        "examples": [
+          {
+            "en": "She enjoys cooking.",
+            "ko": "그녀는 요리를 즐긴다."
+          },
+          {
+            "en": "He likes playing basketball.",
+            "ko": "그는 농구하는 것을 좋아한다."
+          }
+        ]
+      },
+      {
+        "text": "The owner was a kind old man.",
+        "structure": {
+          "subject": {
+            "text": "The owner",
+            "label": "주인"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "a kind old man",
+            "label": "친절한 늙은 남자"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '주인은 친절한 늙은 남자였다'는 의미입니다. 'a kind old man'은 주인을 설명하는 보어입니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "형용사 순서",
+          "be 동사 + 명사 보어"
+        ],
+        "examples": [
+          {
+            "en": "He was a tall young man.",
+            "ko": "그는 키가 큰 젊은 남자였다."
+          },
+          {
+            "en": "She was a smart beautiful woman.",
+            "ko": "그녀는 똑똑하고 아름다운 여성였다."
+          }
+        ]
+      },
+      {
+        "text": "He taught me how to make cookies.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그"
+          },
+          "verb": {
+            "text": "taught",
+            "label": "가르쳤다"
+          },
+          "object": {
+            "text": "me",
+            "label": "나에게"
+          },
+          "complement": {
+            "text": "how to make cookies",
+            "label": "쿠키 만드는 법을"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 '그는 나에게 쿠키 만드는 법을 가르쳐주었다'는 의미입니다. 'how to make cookies'는 간접 목적어를 설명하는 보어입니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "how to + 동사",
+          "teach + O + C 고정 표현"
+        ],
+        "examples": [
+          {
+            "en": "She showed me how to use the software.",
+            "ko": "그녀는 나에게 소프트웨어 사용법을 보여주었다."
+          },
+          {
+            "en": "He told me how to fix the problem.",
+            "ko": "그는 나에게 문제 해결법을 알려주었다."
+          }
+        ]
+      },
+      {
+        "text": "I worked there for two years.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "worked",
+            "label": "일했다"
+          },
+          "complement": {
+            "text": "there for two years",
+            "label": "그곳에서 2년 동안"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 '나는 그곳에서 2년 동안 일했다'는 의미입니다. 'for two years'는 기간을 나타내는 보어입니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "기간 보어",
+          "for + 시간"
+        ],
+        "examples": [
+          {
+            "en": "We lived in Seoul for five years.",
+            "ko": "우리는 서울에서 5년 동안 살았다."
+          },
+          {
+            "en": "He studied abroad for a year.",
+            "ko": "그는 1년 동안 해외에서 공부했다."
+          }
+        ]
+      },
+      {
+        "text": "It was hard work, but I learned a lot.",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "그것"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "hard work",
+            "label": "힘든 일"
+          },
+          "object": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb2": {
+            "text": "learned",
+            "label": "배웠다"
+          },
+          "object2": {
+            "text": "a lot",
+            "label": "많은 것"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C, S+V+O",
+          "note": "두 개의 독립된 문장"
+        },
+        "explanation": "이 문장은 '그것은 힘든 일이었지만 나는 많은 것을 배웠다'는 의미입니다. 'but'으로 연결된 두 개의 문장입니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "but으로 연결된 대조",
+          "learn a lot 고정 표현"
+        ],
+        "examples": [
+          {
+            "en": "It was expensive, but I bought it anyway.",
+            "ko": "그것은 비쌌지만 나는 어쨌든 그것을 샀다."
+          },
+          {
+            "en": "The test was difficult, but I passed.",
+            "ko": "시험은 어려웠지만 나는 통과했다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "내가 십육 살이었을 때 첫 직업을 얻었다. 나는 내 집 근처의 작은 제빵점에서 일했다. 매일 아침, 나는 오전 다섯 시에 일어났다. 나는 어두운 곳의 제빵점으로 걸어갔다. 내 일은 빵을 가방에 넣는 것이었다. 제빵점은 따뜻했고 좋은 냄새가 났다. 나는 그곳에서 일하는 것을 좋아했다. 주인은 친절한 늙은 남자였다. 그는 나에게 쿠키 만드는 법을 가르쳐주었다. 나는 그곳에서 2년 동안 일했다. 그것은 힘든 일이었지만 나는 많은 것을 배웠다.",
+  "keyVocab": [
+    "job",
+    "worked",
+    "bakery",
+    "warm",
+    "learned"
+  ],
+  "quiz": {
+    "question": "화자는 어디에서 일했습니까?",
+    "answer": "화자는 작은 제빵점에서 일했습니다."
+  },
+  "generated_at": "2026-02-20T08:11:11.121925+09:00"
+}

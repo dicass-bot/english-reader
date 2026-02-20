@@ -1,0 +1,4068 @@
+{
+  "num": "0009",
+  "category": "L1",
+  "source": {
+    "title": "A Letter to My Friend",
+    "author": "VOA Learning English",
+    "license": "Public Domain",
+    "url": "https://learningenglish.voanews.com"
+  },
+  "passage": "Dear Tom, I am writing to tell you about my new city. I moved here last month. The city is big and exciting. There are many tall buildings and wide streets. I found a nice apartment near a park. Every evening, I walk in the park. I see dogs playing and children running. The food here is different but delicious. I miss our old town sometimes. I miss playing soccer with you. Please write back soon. Your friend, James.",
+  "audio": {
+    "passage": "audio/L1-0009.mp3",
+    "words": {
+      "dear": "audio/L1-0009-dear.mp3",
+      "tom": "audio/L1-0009-tom.mp3",
+      "i": "audio/L1-0009-i.mp3",
+      "am": "audio/L1-0009-am.mp3",
+      "writing": "audio/L1-0009-writing.mp3",
+      "to": "audio/L1-0009-to.mp3",
+      "tell": "audio/L1-0009-tell.mp3",
+      "you": "audio/L1-0009-you.mp3",
+      "about": "audio/L1-0009-about.mp3",
+      "my": "audio/L1-0009-my.mp3",
+      "new": "audio/L1-0009-new.mp3",
+      "city": "audio/L1-0009-city.mp3",
+      "moved": "audio/L1-0009-moved.mp3",
+      "here": "audio/L1-0009-here.mp3",
+      "last": "audio/L1-0009-last.mp3",
+      "month": "audio/L1-0009-month.mp3",
+      "the": "audio/L1-0009-the.mp3",
+      "is": "audio/L1-0009-is.mp3",
+      "big": "audio/L1-0009-big.mp3",
+      "and": "audio/L1-0009-and.mp3",
+      "exciting": "audio/L1-0009-exciting.mp3",
+      "there": "audio/L1-0009-there.mp3",
+      "are": "audio/L1-0009-are.mp3",
+      "many": "audio/L1-0009-many.mp3",
+      "tall": "audio/L1-0009-tall.mp3",
+      "buildings": "audio/L1-0009-buildings.mp3",
+      "wide": "audio/L1-0009-wide.mp3",
+      "streets": "audio/L1-0009-streets.mp3",
+      "found": "audio/L1-0009-found.mp3",
+      "nice": "audio/L1-0009-nice.mp3"
+    }
+  },
+  "words": {
+    "dear": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "소중한",
+          "en": "cherished",
+          "primary": true
+        },
+        {
+          "ko": "친애하는",
+          "en": "beloved"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '친애하는'이라는 의미로, 편지를 시작할 때 받는 사람에게 친밀함을 표현하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "dear"
+        },
+        {
+          "label": "비교급",
+          "form": "dearer"
+        },
+        {
+          "label": "최상급",
+          "form": "dearest"
+        },
+        {
+          "label": "부사형",
+          "form": "dearly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "beloved",
+        "cherished"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "dear friend",
+        "my dear"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Dear John, how are you?",
+          "ko": "친애하는 존, 잘 지내니?"
+        },
+        {
+          "en": "It's been a dear memory.",
+          "ko": "그것은 소중한 추억이었다."
+        }
+      ],
+      "koreanTips": [
+        "편지나 이메일의 인사말에 자주 쓰이며, 'dear Tom'처럼 대명사를 앞에 붙여 사용한다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdɪɹ/"
+    },
+    "tom": {
+      "pos": "proper noun",
+      "meanings": [
+        {
+          "ko": "톰(남자 이름)",
+          "en": "a male given name",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지의 수신자인 친구의 이름으로 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "write to Tom",
+        "Tom said"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Tom is coming tomorrow.",
+          "ko": "톰이 내일 온다."
+        }
+      ],
+      "koreanTips": [
+        "고유명사는 항상 대문자로 시작해야 하며, 영어 이름도 마찬가지이다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtɑm/"
+    },
+    "i": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "나",
+          "en": "first person singular pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지를 쓴 사람이 자신을 가리킬 때 사용한 1인칭 주어.",
+      "forms": [
+        {
+          "label": "주격",
+          "form": "I"
+        },
+        {
+          "label": "목적격",
+          "form": "me"
+        },
+        {
+          "label": "소유격",
+          "form": "my"
+        },
+        {
+          "label": "독립형 소유격",
+          "form": "mine"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "I think",
+        "I like",
+        "I have"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I went to school.",
+          "ko": "나는 학교에 갔다."
+        },
+        {
+          "en": "I can do it.",
+          "ko": "내가 할 수 있어."
+        }
+      ],
+      "koreanTips": [
+        "영어에서 'I'는 항상 대문자로 쓴다. 한국어에서는 '나'가 소문자라도 괜찮지만, 영어에서는 절대 소문자로 쓰지 않는다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈaɪ/"
+    },
+    "am": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "~이다 (1인칭 단수 현재형)",
+          "en": "to be (first person singular present)",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자의 현재 상태를 나타내는 'be 동사'의 1인칭 단수 현재형.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "I am happy",
+        "I am from"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I am tired today.",
+          "ko": "오늘 나는 피곤하다."
+        },
+        {
+          "en": "I am not sure.",
+          "ko": "확실하지 않아."
+        }
+      ],
+      "koreanTips": [
+        "'I am'은 줄임말로 'I'm'으로도 쓸 수 있다. 하지만 'I am'은 공식적인 글에서는 더 적절하다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈæm/"
+    },
+    "writing": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "쓰다",
+          "en": "to compose text or letters",
+          "primary": true
+        },
+        {
+          "ko": "글을 쓰는 것",
+          "en": "the act of composing written content"
+        }
+      ],
+      "contextMeaning": "편지를 쓰고 있다는 의미로, 현재 진행형 구조('am writing')의 일부.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "write"
+        },
+        {
+          "label": "과거",
+          "form": "wrote"
+        },
+        {
+          "label": "과거분사",
+          "form": "written"
+        },
+        {
+          "label": "현재분사",
+          "form": "writing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "writes"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "write",
+            "meaning": "쓰다"
+          },
+          {
+            "part": "-ing",
+            "meaning": "현재분사 접미사"
+          }
+        ]
+      },
+      "synonyms": [
+        "composing",
+        "penning"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "right",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "writing a letter",
+        "writing skills"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is writing a novel.",
+          "ko": "그녀는 소설을 쓰고 있다."
+        },
+        {
+          "en": "He enjoys writing poems.",
+          "ko": "그는 시 쓰는 것을 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'writing'은 동사(write)의 현재분사이므로, 'am writing', 'is writing' 등의 형태로 쓰인다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹaɪtɪŋ/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~에게 (방향)",
+          "en": "direction toward someone/something",
+          "primary": true
+        },
+        {
+          "ko": "~하기 위해",
+          "en": "purpose or intention"
+        }
+      ],
+      "contextMeaning": "편지를 누군가에게 보내기 위한 목적을 나타냄.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "too",
+          "note": "발음이 유사하고 의미가 다르므로 혼동 주의"
+        }
+      ],
+      "collocations": [
+        "go to school",
+        "talk to me"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I gave it to her.",
+          "ko": "나는 그것을 그녀에게 주었다."
+        },
+        {
+          "en": "He came to visit.",
+          "ko": "그는 방문하려고 왔다."
+        }
+      ],
+      "koreanTips": [
+        "'to'는 방향이나 목적을 나타낼 때 쓰이며, 'go to', 'talk to'처럼 다른 동사와 자주 결합된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "tell": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "알리다, 말해주다",
+          "en": "to inform or communicate information",
+          "primary": true
+        },
+        {
+          "ko": "이야기하다",
+          "en": "to narrate or recount"
+        }
+      ],
+      "contextMeaning": "편지에서 자신의 새 도시에 대해 알려주겠다는 의미로 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "tell"
+        },
+        {
+          "label": "과거",
+          "form": "told"
+        },
+        {
+          "label": "과거분사",
+          "form": "told"
+        },
+        {
+          "label": "현재분사",
+          "form": "telling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "tells"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "inform",
+        "explain"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "tale",
+          "note": "형태가 비슷해 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "tell a story",
+        "tell someone something"
+      ],
+      "idioms": [
+        {
+          "phrase": "tell the truth",
+          "ko": "진실을 말하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Tell me what happened.",
+          "ko": "무슨 일이 있었는지 말해줘."
+        },
+        {
+          "en": "She told him a secret.",
+          "ko": "그녀는 그에게 비밀을 말했다."
+        }
+      ],
+      "koreanTips": [
+        "'tell'은 'tell someone something' 구조로 사용되며, 'say'와 구분해서 사용해야 한다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtɛɫ/"
+    },
+    "you": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "너/당신",
+          "en": "second person singular pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지의 수신자인 친구(Tom)를 가리키는 2인칭 대명사.",
+      "forms": [
+        {
+          "label": "주격",
+          "form": "you"
+        },
+        {
+          "label": "목적격",
+          "form": "you"
+        },
+        {
+          "label": "소유격",
+          "form": "your"
+        },
+        {
+          "label": "독립형 소유격",
+          "form": "yours"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "talk to you",
+        "see you later"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "You look great!",
+          "ko": "너 정말 잘생겼어!"
+        },
+        {
+          "en": "Can you help me?",
+          "ko": "도와줄 수 있어?"
+        }
+      ],
+      "koreanTips": [
+        "영어의 'you'는 단수와 복수 모두 사용되며, 한국어처럼 '너/당신'과 구별 없이 쓴다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈju/"
+    },
+    "about": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~에 관하여",
+          "en": "concerning or regarding",
+          "primary": true
+        },
+        {
+          "ko": "~주변에",
+          "en": "in the vicinity of"
+        }
+      ],
+      "contextMeaning": "새 도시에 대한 이야기를 전달하겠다는 의미로 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "regarding",
+        "concerning"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "above",
+          "note": "철자가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "talk about",
+        "learn about"
+      ],
+      "idioms": [
+        {
+          "phrase": "what about",
+          "ko": "~는 어때?"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We talked about the movie.",
+          "ko": "우리는 영화에 대해 이야기했다."
+        },
+        {
+          "en": "Tell me about your day.",
+          "ko": "네 하루에 대해 말해줘."
+        }
+      ],
+      "koreanTips": [
+        "'about'는 '~에 대해'라는 의미로, 'talk about', 'think about' 등 다양한 동사와 결합되어 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/əˈbaʊt/"
+    },
+    "my": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "나의",
+          "en": "belonging to me",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자의 새 도시를 나타내기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "mine",
+          "note": "형태가 비슷하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "my house",
+        "my car"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is my book.",
+          "ko": "이건 내 책이야."
+        },
+        {
+          "en": "Where is my phone?",
+          "ko": "내 전화기는 어디 있지?"
+        }
+      ],
+      "koreanTips": [
+        "'my'는 소유격으로, 명사 앞에 붙여 '나의 ~'라는 의미를 나타낸다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmaɪ/"
+    },
+    "new": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "새로운",
+          "en": "recently made or acquired",
+          "primary": true
+        },
+        {
+          "ko": "처음인",
+          "en": "not previously known or experienced"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 최근 이사온 도시를 설명할 때 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "new"
+        },
+        {
+          "label": "비교급",
+          "form": "newer"
+        },
+        {
+          "label": "최상급",
+          "form": "newest"
+        },
+        {
+          "label": "부사형",
+          "form": "newly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "fresh",
+        "modern"
+      ],
+      "antonyms": [
+        "old"
+      ],
+      "confusables": [
+        {
+          "word": "knew",
+          "note": "형태가 비슷하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "new job",
+        "new idea"
+      ],
+      "idioms": [
+        {
+          "phrase": "new beginning",
+          "ko": "새로운 시작"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I bought a new car.",
+          "ko": "나는 새 차를 샀다."
+        },
+        {
+          "en": "She has a new hobby.",
+          "ko": "그녀는 새로운 취미를 가지고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'new'는 명사 앞에서만 사용되며, 'new city', 'new plan'처럼 일반적으로 쓰인다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈnju/"
+    },
+    "city": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "도시",
+          "en": "a large human settlement",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자가 이사온 장소를 나타내는 일반명사.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "city"
+        },
+        {
+          "label": "복수",
+          "form": "cities"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "metropolis",
+        "urban area"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "citi",
+          "note": "발음이나 철자가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "big city",
+        "visit the city"
+      ],
+      "idioms": [
+        {
+          "phrase": "city life",
+          "ko": "도시 생활"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The city is very busy.",
+          "ko": "그 도시는 매우 바쁘다."
+        },
+        {
+          "en": "Many people live in the city.",
+          "ko": "많은 사람들이 그 도시에 산다."
+        }
+      ],
+      "koreanTips": [
+        "'city'는 대도시를 가리키며, 'town'보다 규모가 크다. 한국어의 '시'와 비슷하다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsɪti/"
+    },
+    "moved": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "이사하다",
+          "en": "to relocate one's residence",
+          "primary": true
+        },
+        {
+          "ko": "움직이다",
+          "en": "to change position"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 지난 달에 이곳으로 이사왔다는 사실을 설명하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "move"
+        },
+        {
+          "label": "과거",
+          "form": "moved"
+        },
+        {
+          "label": "과거분사",
+          "form": "moved"
+        },
+        {
+          "label": "현재분사",
+          "form": "moving"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "moves"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "relocate",
+        "transfer"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "movie",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "move to",
+        "move house"
+      ],
+      "idioms": [
+        {
+          "phrase": "move on",
+          "ko": "계속 나아가다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We moved to Seoul last year.",
+          "ko": "우리는 작년에 서울로 이사왔다."
+        },
+        {
+          "en": "He moved his chair closer.",
+          "ko": "그는 의자를 더 가까이 움직였다."
+        }
+      ],
+      "koreanTips": [
+        "'move'는 물리적인 위치 변화를 나타내며, 'move to somewhere' 구조로 많이 쓰인다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmuvd/"
+    },
+    "here": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "여기에",
+          "en": "in this place",
+          "primary": true
+        },
+        {
+          "ko": "이곳에",
+          "en": "at this location"
+        }
+      ],
+      "contextMeaning": "도시의 음식을 가리키는 위치 표현으로 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "there",
+        "this place"
+      ],
+      "antonyms": [
+        "there"
+      ],
+      "confusables": [
+        {
+          "word": "hear",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "come here",
+        "live here"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Come here quickly.",
+          "ko": "빨리 여기로 와."
+        },
+        {
+          "en": "Here is your coffee.",
+          "ko": "여기 커피야."
+        }
+      ],
+      "koreanTips": [
+        "'here'는 '이곳에'라는 의미로, 'come here', 'live here'처럼 동사와 함께 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhiɹ/"
+    },
+    "last": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "지난",
+          "en": "most recent in time",
+          "primary": true
+        },
+        {
+          "ko": "마지막",
+          "en": "final"
+        }
+      ],
+      "contextMeaning": "지난 달에 이사왔다는 시간적 배경을 제공하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "last"
+        },
+        {
+          "label": "비교급",
+          "form": "last"
+        },
+        {
+          "label": "최상급",
+          "form": "last"
+        },
+        {
+          "label": "부사형",
+          "form": "lastly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "previous",
+        "final"
+      ],
+      "antonyms": [
+        "first",
+        "next"
+      ],
+      "confusables": [
+        {
+          "word": "least",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "last week",
+        "last night"
+      ],
+      "idioms": [
+        {
+          "phrase": "at last",
+          "ko": "마침내"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I saw her last Friday.",
+          "ko": "나는 지난 금요일에 그녀를 만났다."
+        },
+        {
+          "en": "Last year was difficult.",
+          "ko": "작년은 힘들었다."
+        }
+      ],
+      "koreanTips": [
+        "'last'는 '~지난'이라는 의미로, 'last month', 'last weekend'처럼 시간 표현과 함께 쓰인다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫæs/"
+    },
+    "month": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "달, 월",
+          "en": "a unit of time equal to approximately four weeks",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "시간적 배경을 나타내는 일반명사로, '지난 달'이라는 표현에 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "month"
+        },
+        {
+          "label": "복수",
+          "form": "months"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "period",
+        "duration"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "mouth",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "every month",
+        "next month"
+      ],
+      "idioms": [
+        {
+          "phrase": "month after month",
+          "ko": "달마다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It takes two months.",
+          "ko": "그것은 두 달이 걸린다."
+        },
+        {
+          "en": "January is the first month.",
+          "ko": "1월은 첫 번째 달이다."
+        }
+      ],
+      "koreanTips": [
+        "'month'는 시간 단위로, 'last month', 'next month'처럼 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmənθ/"
+    },
+    "the": {
+      "pos": "article (definite)",
+      "meanings": [
+        {
+          "ko": "그, 저, 이 (특정 사물 가리킴)",
+          "en": "used to refer to specific things",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "특정한 도시를 가리키기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "they",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "the city",
+        "the park"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book is interesting.",
+          "ko": "그 책은 재미있다."
+        },
+        {
+          "en": "I saw the dog yesterday.",
+          "ko": "나는 어제 그 개를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'the'는 특정한 사물을 가리킬 때 사용하며, 한국어의 '그'에 해당한다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "is": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "~이다 (3인칭 단수 현재형)",
+          "en": "to be (third person singular present)",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "도시가 '크고 흥미롭다'는 상태를 설명하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "his",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "it is",
+        "this is"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is smart.",
+          "ko": "그녀는 똑똑하다."
+        },
+        {
+          "en": "It is raining.",
+          "ko": "비가 오고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'is'는 3인칭 단수(he, she, it)와 함께 사용되며, 'are'와 구분해서 사용해야 한다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪz/"
+    },
+    "big": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "큰",
+          "en": "of considerable size",
+          "primary": true
+        },
+        {
+          "ko": "중요한",
+          "en": "significant or important"
+        }
+      ],
+      "contextMeaning": "도시의 크기를 묘사하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "big"
+        },
+        {
+          "label": "비교급",
+          "form": "bigger"
+        },
+        {
+          "label": "최상급",
+          "form": "biggest"
+        },
+        {
+          "label": "부사형",
+          "form": "bigly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "large",
+        "huge"
+      ],
+      "antonyms": [
+        "small",
+        "tiny"
+      ],
+      "confusables": [
+        {
+          "word": "pig",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "big house",
+        "big problem"
+      ],
+      "idioms": [
+        {
+          "phrase": "make a big deal",
+          "ko": "대단한 일로 만들다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "That building is very big.",
+          "ko": "그 건물은 매우 크다."
+        },
+        {
+          "en": "He has big dreams.",
+          "ko": "그는 큰 꿈을 가지고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'big'은 크기를 나타내며, 'big city', 'big house'처럼 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbɪɡ/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or clauses",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "도시의 특징들을 연결하여 설명하기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "as well as",
+        "&"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "bread and butter",
+        "fun and games"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I like apples and oranges.",
+          "ko": "나는 사과와 오렌지를 좋아한다."
+        },
+        {
+          "en": "He ran fast and strong.",
+          "ko": "그는 빠르고 강하게 달렸다."
+        }
+      ],
+      "koreanTips": [
+        "'and'는 문장을 연결하거나 목록을 만들 때 사용되며, 한국어의 '그리고'에 해당한다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "exciting": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "흥미로운, 신나는",
+          "en": "causing excitement or interest",
+          "primary": true
+        },
+        {
+          "ko": "자극적인",
+          "en": "thrilling or stimulating"
+        }
+      ],
+      "contextMeaning": "도시의 분위기를 묘사하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "exciting"
+        },
+        {
+          "label": "비교급",
+          "form": "more exciting"
+        },
+        {
+          "label": "최상급",
+          "form": "most exciting"
+        },
+        {
+          "label": "부사형",
+          "form": "excitingly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "thrilling",
+        "stimulating"
+      ],
+      "antonyms": [
+        "boring",
+        "dull"
+      ],
+      "confusables": [
+        {
+          "word": "excited",
+          "note": "형태가 유사하여 혼동 가능 ('excited': 기분이 들뜬, 'exciting': 흥미로운)"
+        }
+      ],
+      "collocations": [
+        "exciting news",
+        "an exciting trip"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The concert was exciting.",
+          "ko": "콘서트는 흥미로웠다."
+        },
+        {
+          "en": "It's an exciting opportunity.",
+          "ko": "그것은 흥미로운 기회이다."
+        }
+      ],
+      "koreanTips": [
+        "'exciting'은 '재미있는, 흥미로운'이라는 의미로, 'excited'와 혼동하지 않도록 주의해야 한다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ɪkˈsaɪtɪŋ/"
+    },
+    "there": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "그곳에",
+          "en": "in that place",
+          "primary": true
+        },
+        {
+          "ko": "존재하다",
+          "en": "exist"
+        }
+      ],
+      "contextMeaning": "도시 안에 많은 고층 건물과 넓은 거리가 있다는 사실을 나타내기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "over there",
+        "in that place"
+      ],
+      "antonyms": [
+        "here"
+      ],
+      "confusables": [
+        {
+          "word": "their",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "there are",
+        "over there"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "There are many books.",
+          "ko": "책이 많다."
+        },
+        {
+          "en": "Put it over there.",
+          "ko": "그것을 저기에 두어라."
+        }
+      ],
+      "koreanTips": [
+        "'there are'는 복수의 사물이 존재함을 나타낼 때 사용한다. 'there is'는 단수에 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈðɛɹ/"
+    },
+    "are": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "~이다 (복수형인 2인칭 이상)",
+          "en": "to be (plural or second person)",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "복수의 건물과 거리가 존재한다는 사실을 설명하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "our",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "we are",
+        "they are"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They are students.",
+          "ko": "그들은 학생들이다."
+        },
+        {
+          "en": "We are ready.",
+          "ko": "우리는 준비되었다."
+        }
+      ],
+      "koreanTips": [
+        "'are'는 복수(we, they) 또는 2인칭(you)과 함께 사용되며, 'is'와 구분해서 사용해야 한다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɑɹ/"
+    },
+    "many": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "많은",
+          "en": "a large number of",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "도시 안에 많은 고층 건물이 있다는 사실을 강조하기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "a lot of",
+        "numerous"
+      ],
+      "antonyms": [
+        "few",
+        "little"
+      ],
+      "confusables": [
+        {
+          "word": "much",
+          "note": "의미가 유사하나, 'many'는 복수 명사와 함께 사용된다."
+        }
+      ],
+      "collocations": [
+        "many people",
+        "many times"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "There are many cars.",
+          "ko": "차가 많다."
+        },
+        {
+          "en": "She has many friends.",
+          "ko": "그녀는 친구가 많다."
+        }
+      ],
+      "koreanTips": [
+        "'many'는 복수 명사 앞에 쓰이며, 'much'는 불가산 명사 앞에 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmɛni/"
+    },
+    "tall": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "키가 큰",
+          "en": "having great height",
+          "primary": true
+        },
+        {
+          "ko": "높은",
+          "en": "extending upward"
+        }
+      ],
+      "contextMeaning": "고층 건물의 특성을 묘사하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "tall"
+        },
+        {
+          "label": "비교급",
+          "form": "taller"
+        },
+        {
+          "label": "최상급",
+          "form": "tallest"
+        },
+        {
+          "label": "부사형",
+          "form": "tall"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "high",
+        "lofty"
+      ],
+      "antonyms": [
+        "short",
+        "low"
+      ],
+      "confusables": [
+        {
+          "word": "tail",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "tall building",
+        "tall man"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He is very tall.",
+          "ko": "그는 키가 매우 크다."
+        },
+        {
+          "en": "The tree is tall.",
+          "ko": "그 나무는 키가 크다."
+        }
+      ],
+      "koreanTips": [
+        "'tall'은 사람이나 사물의 키를 나타낼 때 사용되며, 'high'는 높이 자체를 나타낼 때 사용된다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtɔɫ/"
+    },
+    "buildings": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "건물들",
+          "en": "structures with walls and roofs",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "도시의 구조물들을 나타내기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "building"
+        },
+        {
+          "label": "복수",
+          "form": "buildings"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "structures",
+        "edifices"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "bilding",
+          "note": "철자 오류 가능성"
+        }
+      ],
+      "collocations": [
+        "office buildings",
+        "residential buildings"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "These buildings are modern.",
+          "ko": "이 건물들은 현대적이다."
+        },
+        {
+          "en": "Many buildings were damaged.",
+          "ko": "많은 건물들이 손상되었다."
+        }
+      ],
+      "koreanTips": [
+        "'building'은 '건물'이라는 의미로, 복수형은 '-s'를 붙인다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈbɪɫdɪŋz/"
+    },
+    "wide": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "넓은",
+          "en": "having great width",
+          "primary": true
+        },
+        {
+          "ko": "광범위한",
+          "en": "extensive"
+        }
+      ],
+      "contextMeaning": "거리의 특성을 묘사하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "wide"
+        },
+        {
+          "label": "비교급",
+          "form": "wider"
+        },
+        {
+          "label": "최상급",
+          "form": "widest"
+        },
+        {
+          "label": "부사형",
+          "form": "widely"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "broad",
+        "spacious"
+      ],
+      "antonyms": [
+        "narrow",
+        "thin"
+      ],
+      "confusables": [
+        {
+          "word": "wife",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "wide street",
+        "wide range"
+      ],
+      "idioms": [
+        {
+          "phrase": "wide open",
+          "ko": "완전히 열린"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The road is wide.",
+          "ko": "그 길은 넓다."
+        },
+        {
+          "en": "She smiled widely.",
+          "ko": "그녀는 크게 미소지었다."
+        }
+      ],
+      "koreanTips": [
+        "'wide'는 넓이를 나타내며, 'broad'와 유사하지만 'wide'는 더 자주 쓰인다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈwaɪd/"
+    },
+    "streets": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "거리들",
+          "en": "public roads in a city or town",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "도시의 교통망을 구성하는 요소로 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "street"
+        },
+        {
+          "label": "복수",
+          "form": "streets"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "roads",
+        "avenues"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "straight",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "main street",
+        "busy streets"
+      ],
+      "idioms": [
+        {
+          "phrase": "hit the streets",
+          "ko": "거리로 나가다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "These streets are clean.",
+          "ko": "이 거리들은 깨끗하다."
+        },
+        {
+          "en": "The streets were crowded.",
+          "ko": "거리들이 붐볐다."
+        }
+      ],
+      "koreanTips": [
+        "'street'은 일반적으로 도시 내의 도로를 가리키며, 'road'보다 더 구체적인 의미를 갖는다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈstɹits/"
+    },
+    "found": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "찾았다",
+          "en": "discovered or located",
+          "primary": true
+        },
+        {
+          "ko": "설립하다",
+          "en": "establish"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 아파트를 찾았다는 사실을 설명하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "find"
+        },
+        {
+          "label": "과거",
+          "form": "found"
+        },
+        {
+          "label": "과거분사",
+          "form": "found"
+        },
+        {
+          "label": "현재분사",
+          "form": "finding"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "finds"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "discovered",
+        "located"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "founded",
+          "note": "형태가 유사하여 혼동 가능 ('find'의 과거분사 vs 'found'의 동의어)"
+        }
+      ],
+      "collocations": [
+        "found a solution",
+        "found an apartment"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I found my keys.",
+          "ko": "내 열쇠를 찾았다."
+        },
+        {
+          "en": "He found a good job.",
+          "ko": "그는 좋은 직장을 찾았다."
+        }
+      ],
+      "koreanTips": [
+        "'find'의 과거형은 'found'이며, 'founded'는 'establish'의 과거형이다. 혼동하지 않도록 주의하자."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfaʊnd/"
+    },
+    "nice": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "좋은",
+          "en": "pleasant or satisfactory",
+          "primary": true
+        },
+        {
+          "ko": "예쁜",
+          "en": "attractive"
+        }
+      ],
+      "contextMeaning": "아파트의 상태를 긍정적으로 표현하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "nice"
+        },
+        {
+          "label": "비교급",
+          "form": "nicer"
+        },
+        {
+          "label": "최상급",
+          "form": "nicest"
+        },
+        {
+          "label": "부사형",
+          "form": "nicely"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "good",
+        "pleasant"
+      ],
+      "antonyms": [
+        "bad",
+        "unpleasant"
+      ],
+      "confusables": [
+        {
+          "word": "rice",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "nice day",
+        "nice person"
+      ],
+      "idioms": [
+        {
+          "phrase": "that's nice",
+          "ko": "그건 좋네"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It's a nice place.",
+          "ko": "그곳은 좋은 곳이다."
+        },
+        {
+          "en": "She looks nice.",
+          "ko": "그녀는 예뻐 보인다."
+        }
+      ],
+      "koreanTips": [
+        "'nice'는 '좋은'이라는 의미로, 'pretty', 'good'과 유사하게 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈnaɪs/"
+    },
+    "apartment": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "아파트",
+          "en": "a set of rooms for living in, usually part of a building",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자의 거주지를 나타내는 일반명사.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "apartment"
+        },
+        {
+          "label": "복수",
+          "form": "apartments"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "flat",
+        "unit"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "department",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "rent an apartment",
+        "live in an apartment"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "His apartment is small.",
+          "ko": "그의 아파트는 작다."
+        },
+        {
+          "en": "We need to find an apartment.",
+          "ko": "우리는 아파트를 찾아야 한다."
+        }
+      ],
+      "koreanTips": [
+        "'apartment'는 미국식 표현이며, 영국식은 'flat'이다. 한국어의 '아파트'에 해당한다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/əˈpɑɹtmənt/"
+    },
+    "near": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~가까이",
+          "en": "close to",
+          "primary": true
+        },
+        {
+          "ko": "~옆에",
+          "en": "by or beside"
+        }
+      ],
+      "contextMeaning": "아파트가 공원 근처에 있다는 위치 정보를 제공하기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "close to",
+        "beside"
+      ],
+      "antonyms": [
+        "far from"
+      ],
+      "confusables": [
+        {
+          "word": "nearly",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "near the station",
+        "live near"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The store is near here.",
+          "ko": "그 가게는 여기 가까이 있다."
+        },
+        {
+          "en": "She lives near the school.",
+          "ko": "그녀는 학교 근처에 산다."
+        }
+      ],
+      "koreanTips": [
+        "'near'는 '~가까이'라는 의미로, 'close to'와 거의 동의어이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈnɪɹ/"
+    },
+    "park": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "공원",
+          "en": "a public green space for recreation",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자의 아파트 근처에 있는 장소로 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "park"
+        },
+        {
+          "label": "복수",
+          "form": "parks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "garden",
+        "playground"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "parking",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "walk in the park",
+        "visit the park"
+      ],
+      "idioms": [
+        {
+          "phrase": "park and ride",
+          "ko": "버스환승주차장"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let's go to the park.",
+          "ko": "공원에 가자."
+        },
+        {
+          "en": "Children play in the park.",
+          "ko": "아이들이 공원에서 놀고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'park'는 공공 공간으로, 'go to the park', 'walk in the park'처럼 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpɑɹk/"
+    },
+    "every": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "모든",
+          "en": "each one of a group",
+          "primary": true
+        },
+        {
+          "ko": "매",
+          "en": "occurring at regular intervals"
+        }
+      ],
+      "contextMeaning": "매일 저녁 산책한다는 습관을 나타내기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "each",
+        "all"
+      ],
+      "antonyms": [
+        "some",
+        "none"
+      ],
+      "confusables": [
+        {
+          "word": "ever",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "every day",
+        "every morning"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I exercise every day.",
+          "ko": "나는 매일 운동한다."
+        },
+        {
+          "en": "Every student passed.",
+          "ko": "모든 학생이 통과했다."
+        }
+      ],
+      "koreanTips": [
+        "'every'는 '~마다'라는 의미로, 'every day', 'every week'처럼 시간 단위와 함께 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɛvɝi/"
+    },
+    "evening": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "저녁",
+          "en": "the latter part of the day",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자가 산책하는 시간대를 나타내기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "evening"
+        },
+        {
+          "label": "복수",
+          "form": "evenings"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "nightfall",
+        "dusk"
+      ],
+      "antonyms": [
+        "morning",
+        "afternoon"
+      ],
+      "confusables": [
+        {
+          "word": "event",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "every evening",
+        "in the evening"
+      ],
+      "idioms": [
+        {
+          "phrase": "call it a day",
+          "ko": "오늘은 여기까지"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We eat dinner in the evening.",
+          "ko": "우리는 저녁에 저녁을 먹는다."
+        },
+        {
+          "en": "He comes home every evening.",
+          "ko": "그는 매일 저녁 집에 온다."
+        }
+      ],
+      "koreanTips": [
+        "'evening'은 '저녁'이라는 의미로, 'in the evening'은 '저녁에'를 나타낸다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈivnɪŋ/"
+    },
+    "walk": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "걷다",
+          "en": "to move by putting one foot in front of the other",
+          "primary": true
+        },
+        {
+          "ko": "산책하다",
+          "en": "to take a leisurely stroll"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 매일 저녁 산책한다는 사실을 설명하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "walk"
+        },
+        {
+          "label": "과거",
+          "form": "walked"
+        },
+        {
+          "label": "과거분사",
+          "form": "walked"
+        },
+        {
+          "label": "현재분사",
+          "form": "walking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "walks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "stroll",
+        "amble"
+      ],
+      "antonyms": [
+        "run",
+        "stand still"
+      ],
+      "confusables": [
+        {
+          "word": "work",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "take a walk",
+        "walk in the park"
+      ],
+      "idioms": [
+        {
+          "phrase": "walk the talk",
+          "ko": "말과 행동이 일치하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I walk to work.",
+          "ko": "나는 출근할 때 걷는다."
+        },
+        {
+          "en": "Let's walk together.",
+          "ko": "함께 걸어가자."
+        }
+      ],
+      "koreanTips": [
+        "'walk'는 '걷다'라는 의미로, 'take a walk'처럼 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɑk/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안에",
+          "en": "inside",
+          "primary": true
+        },
+        {
+          "ko": "~동안",
+          "en": "during"
+        }
+      ],
+      "contextMeaning": "공원 안에서 산책한다는 의미로 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "inside",
+        "within"
+      ],
+      "antonyms": [
+        "out of",
+        "outside"
+      ],
+      "confusables": [
+        {
+          "word": "inn",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "in the park",
+        "in the morning"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The cat is in the box.",
+          "ko": "고양이는 상자 안에 있다."
+        },
+        {
+          "en": "I read books in the library.",
+          "ko": "나는 도서관에서 책을 읽는다."
+        }
+      ],
+      "koreanTips": [
+        "'in'은 '~안에'라는 의미로, 'in the park', 'in the morning'처럼 공간이나 시간을 나타낼 때 사용된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪn/"
+    },
+    "see": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "보다",
+          "en": "to perceive with eyes",
+          "primary": true
+        },
+        {
+          "ko": "만나다",
+          "en": "to meet someone"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 공원에서 겪는 경험을 묘사하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "see"
+        },
+        {
+          "label": "과거",
+          "form": "saw"
+        },
+        {
+          "label": "과거분사",
+          "form": "seen"
+        },
+        {
+          "label": "현재분사",
+          "form": "seeing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "sees"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "observe",
+        "watch"
+      ],
+      "antonyms": [
+        "ignore",
+        "miss"
+      ],
+      "confusables": [
+        {
+          "word": "sea",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "see a movie",
+        "see someone"
+      ],
+      "idioms": [
+        {
+          "phrase": "see eye to eye",
+          "ko": "의견이 일치하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I see a bird.",
+          "ko": "나는 새 한 마리를 본다."
+        },
+        {
+          "en": "Did you see him?",
+          "ko": "그를 봤어?"
+        }
+      ],
+      "koreanTips": [
+        "'see'는 '보다'라는 의미로, 'watch'는 TV 등을 볼 때, 'look'은 의도적으로 보는 행위에 사용된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsi/"
+    },
+    "dogs": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "개들",
+          "en": "domesticated mammals kept as pets or companions",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "공원에서 보이는 동물들을 묘사하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "dog"
+        },
+        {
+          "label": "복수",
+          "form": "dogs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "canines",
+        "pets"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "logs",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "play with dogs",
+        "walk dogs"
+      ],
+      "idioms": [
+        {
+          "phrase": "man's best friend",
+          "ko": "인간의 가장 친한 친구 (개에 대한 표현)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Dogs are friendly.",
+          "ko": "개들은 친절하다."
+        },
+        {
+          "en": "I love dogs.",
+          "ko": "나는 개를 사랑한다."
+        }
+      ],
+      "koreanTips": [
+        "'dog'는 단수형이며, 복수형은 '-s'를 붙인다. 'dogs'는 '개들'이라는 의미이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdɑɡz/"
+    },
+    "playing": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "놀고 있는",
+          "en": "engaged in recreational activity",
+          "primary": true
+        },
+        {
+          "ko": "연주하다",
+          "en": "to perform music"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 친구와 함께 축구를 했던 과거의 활동을 회상하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "play"
+        },
+        {
+          "label": "과거",
+          "form": "played"
+        },
+        {
+          "label": "과거분사",
+          "form": "played"
+        },
+        {
+          "label": "현재분사",
+          "form": "playing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "plays"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "having fun",
+        "recreation"
+      ],
+      "antonyms": [
+        "working",
+        "resting"
+      ],
+      "confusables": [
+        {
+          "word": "player",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "playing games",
+        "children playing"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Kids are playing outside.",
+          "ko": "아이들이 밖에서 놀고 있다."
+        },
+        {
+          "en": "She enjoys playing piano.",
+          "ko": "그녀는 피아노 연주를 즐긴다."
+        }
+      ],
+      "koreanTips": [
+        "'playing'은 'play'의 현재분사로, 'are playing', 'is playing' 등의 형태로 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpɫeɪɪŋ/"
+    },
+    "children": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "아이들",
+          "en": "young human beings",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "공원에서 보이는 또 다른 대상을 묘사하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "child"
+        },
+        {
+          "label": "복수",
+          "form": "children"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "kids",
+        "youngsters"
+      ],
+      "antonyms": [
+        "adults"
+      ],
+      "confusables": [
+        {
+          "word": "chicken",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "children playing",
+        "teach children"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Children love toys.",
+          "ko": "아이들은 장난감을 좋아한다."
+        },
+        {
+          "en": "The children are sleeping.",
+          "ko": "아이들이 자고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'child'의 복수형은 불규칙하게 'children'이 되며, 'childs'는 잘못된 표현이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtʃɪɫdɹən/"
+    },
+    "running": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "달리는",
+          "en": "moving swiftly on foot",
+          "primary": true
+        },
+        {
+          "ko": "운영하다",
+          "en": "operating or managing"
+        }
+      ],
+      "contextMeaning": "아이들이 공원에서 달리고 있는 모습을 묘사하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "run"
+        },
+        {
+          "label": "과거",
+          "form": "ran"
+        },
+        {
+          "label": "과거분사",
+          "form": "run"
+        },
+        {
+          "label": "현재분사",
+          "form": "running"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "runs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "jogging",
+        "sprinting"
+      ],
+      "antonyms": [
+        "standing",
+        "walking slowly"
+      ],
+      "confusables": [
+        {
+          "word": "raining",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "running fast",
+        "go running"
+      ],
+      "idioms": [
+        {
+          "phrase": "run out of time",
+          "ko": "시간이 다 되다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He is running fast.",
+          "ko": "그는 빠르게 달리고 있다."
+        },
+        {
+          "en": "They enjoy running.",
+          "ko": "그들은 달리기를 즐긴다."
+        }
+      ],
+      "koreanTips": [
+        "'running'은 'run'의 현재분사로, 'are running', 'is running' 등의 형태로 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹənɪŋ/"
+    },
+    "food": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "음식",
+          "en": "substances consumed to provide nutritional support",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "도시의 음식이 다르지만 맛있다는 사실을 설명하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "food"
+        },
+        {
+          "label": "복수",
+          "form": "foods"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "meal",
+        "dish"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "foot",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "delicious food",
+        "fast food"
+      ],
+      "idioms": [
+        {
+          "phrase": "food for thought",
+          "ko": "생각할 거리"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This food tastes great.",
+          "ko": "이 음식은 맛있다."
+        },
+        {
+          "en": "I cook food every day.",
+          "ko": "나는 매일 음식을 만든다."
+        }
+      ],
+      "koreanTips": [
+        "'food'는 일반적으로 불가산 명사로, 복수형 'foods'는 다양한 종류의 음식을 나타낼 때 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfud/"
+    },
+    "different": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "다른",
+          "en": "not the same as another",
+          "primary": true
+        },
+        {
+          "ko": "다양한",
+          "en": "varied"
+        }
+      ],
+      "contextMeaning": "도시의 음식이 이전에 살던 곳과 다르다는 점을 설명하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "different"
+        },
+        {
+          "label": "비교급",
+          "form": "more different"
+        },
+        {
+          "label": "최상급",
+          "form": "most different"
+        },
+        {
+          "label": "부사형",
+          "form": "differently"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "distinct",
+        "varied"
+      ],
+      "antonyms": [
+        "same",
+        "identical"
+      ],
+      "confusables": [
+        {
+          "word": "difference",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "different from",
+        "look different"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This food is different.",
+          "ko": "이 음식은 다르다."
+        },
+        {
+          "en": "We have different opinions.",
+          "ko": "우리는 다른 의견을 가지고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'different'는 '~와 다른'이라는 의미로, 'different from' 구조로 많이 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdɪfɝənt/"
+    },
+    "but": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "하지만",
+          "en": "used to introduce a contrast",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "음식이 다르지만 맛있다는 대조를 나타내기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "however",
+        "although"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "put",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "but not",
+        "but also"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It's cold but sunny.",
+          "ko": "춥지만 맑다."
+        },
+        {
+          "en": "I like it but it's expensive.",
+          "ko": "좋지만 비싸다."
+        }
+      ],
+      "koreanTips": [
+        "'but'는 '~지만'이라는 의미로, 문장의 대조를 나타낼 때 사용된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbət/"
+    },
+    "delicious": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "맛있는",
+          "en": "highly pleasant to taste",
+          "primary": true
+        },
+        {
+          "ko": "맛좋은",
+          "en": "appetizing"
+        }
+      ],
+      "contextMeaning": "도시의 음식이 맛있다는 긍정적인 평가를 나타내기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "delicious"
+        },
+        {
+          "label": "비교급",
+          "form": "more delicious"
+        },
+        {
+          "label": "최상급",
+          "form": "most delicious"
+        },
+        {
+          "label": "부사형",
+          "form": "deliciously"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "tasty",
+        "scrumptious"
+      ],
+      "antonyms": [
+        "disgusting",
+        "unpalatable"
+      ],
+      "confusables": [
+        {
+          "word": "delicacy",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "delicious meal",
+        "delicious cake"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This cake is delicious.",
+          "ko": "이 케이크는 맛있다."
+        },
+        {
+          "en": "She cooked a delicious dinner.",
+          "ko": "그녀는 맛있는 저녁을 요리했다."
+        }
+      ],
+      "koreanTips": [
+        "'delicious'는 '맛있는'이라는 의미로, 'tasty', 'scrumptious'와 유사하게 사용된다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/dɪˈɫɪʃəs/"
+    },
+    "miss": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "그리워하다",
+          "en": "to feel sad because someone/something is absent",
+          "primary": true
+        },
+        {
+          "ko": "놓치다",
+          "en": "to fail to hit or catch"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 고향과 친구를 그리워한다는 감정을 표현하기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "miss"
+        },
+        {
+          "label": "과거",
+          "form": "missed"
+        },
+        {
+          "label": "과거분사",
+          "form": "missed"
+        },
+        {
+          "label": "현재분사",
+          "form": "missing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "misses"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "long for",
+        "yearn for"
+      ],
+      "antonyms": [
+        "forget",
+        "ignore"
+      ],
+      "confusables": [
+        {
+          "word": "mist",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "miss someone",
+        "miss home"
+      ],
+      "idioms": [
+        {
+          "phrase": "miss the boat",
+          "ko": "기회를 놓치다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I miss my family.",
+          "ko": "나는 내 가족을 그리워한다."
+        },
+        {
+          "en": "Don't miss the bus.",
+          "ko": "버스를 놓치지 마세요."
+        }
+      ],
+      "koreanTips": [
+        "'miss'는 '~를 그리워하다'는 의미로, 'miss someone', 'miss home'처럼 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmɪs/"
+    },
+    "our": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "우리의",
+          "en": "belonging to us",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자와 친구가 공유하는 고향을 나타내기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "are",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "our house",
+        "our team"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Our car is red.",
+          "ko": "우리 차는 빨갛다."
+        },
+        {
+          "en": "We love our country.",
+          "ko": "우리는 우리 나라를 사랑한다."
+        }
+      ],
+      "koreanTips": [
+        "'our'는 '우리의'라는 의미로, 'our house', 'our family'처럼 소유를 나타낼 때 사용된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈaʊɝ/"
+    },
+    "old": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "늙은",
+          "en": "advanced in age",
+          "primary": true
+        },
+        {
+          "ko": "예전의",
+          "en": "former or previous"
+        }
+      ],
+      "contextMeaning": "과거에 살았던 마을을 나타내기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "old"
+        },
+        {
+          "label": "비교급",
+          "form": "older"
+        },
+        {
+          "label": "최상급",
+          "form": "oldest"
+        },
+        {
+          "label": "부사형",
+          "form": "old"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "ancient",
+        "former"
+      ],
+      "antonyms": [
+        "new",
+        "young"
+      ],
+      "confusables": [
+        {
+          "word": "cold",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "old town",
+        "old friend"
+      ],
+      "idioms": [
+        {
+          "phrase": "old is gold",
+          "ko": "늙은 것이 귀하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He is old.",
+          "ko": "그는 나이가 많다."
+        },
+        {
+          "en": "This is an old book.",
+          "ko": "이건 오래된 책이다."
+        }
+      ],
+      "koreanTips": [
+        "'old'는 '늙은', '오래된'이라는 의미로, 'young'과 반대이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈoʊɫd/"
+    },
+    "town": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "마을",
+          "en": "a built-up area smaller than a city",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자가 이전에 살았던 고향을 나타내기 위해 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "town"
+        },
+        {
+          "label": "복수",
+          "form": "towns"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "village",
+        "borough"
+      ],
+      "antonyms": [
+        "city"
+      ],
+      "confusables": [
+        {
+          "word": "down",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "small town",
+        "visit the town"
+      ],
+      "idioms": [
+        {
+          "phrase": "home town",
+          "ko": "고향"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This town is quiet.",
+          "ko": "이 마을은 조용하다."
+        },
+        {
+          "en": "I grew up in this town.",
+          "ko": "나는 이 마을에서 자랐다."
+        }
+      ],
+      "koreanTips": [
+        "'town'은 'city'보다 작은 규모의 지역을 가리키며, 한국어의 '마을'에 해당한다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtaʊn/"
+    },
+    "sometimes": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "가끔",
+          "en": "occasionally or now and then",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자가 고향을 그리워하는 빈도를 나타내기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "occasionally",
+        "now and then"
+      ],
+      "antonyms": [
+        "always",
+        "never"
+      ],
+      "confusables": [
+        {
+          "word": "sometime",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "sometimes I think",
+        "do this sometimes"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Sometimes I miss home.",
+          "ko": "가끔 나는 집을 그리워한다."
+        },
+        {
+          "en": "He visits us sometimes.",
+          "ko": "그는 가끔 우리를 방문한다."
+        }
+      ],
+      "koreanTips": [
+        "'sometimes'는 '가끔'이라는 의미로, 'some time'과 구별해서 사용해야 한다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsəmˌtaɪmz/"
+    },
+    "soccer": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "축구",
+          "en": "a sport played between two teams using a ball",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자가 친구와 함께 즐겼던 스포츠를 나타내기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "football"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "socker",
+          "note": "철자 오류 가능성"
+        }
+      ],
+      "collocations": [
+        "play soccer",
+        "love soccer"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He plays soccer every weekend.",
+          "ko": "그는 매주 주말에 축구를 한다."
+        },
+        {
+          "en": "Soccer is popular worldwide.",
+          "ko": "축구는 전 세계적으로 인기가 많다."
+        }
+      ],
+      "koreanTips": [
+        "'soccer'는 미국식 표현이며, 영국식은 'football'이다. 한국어의 '축구'에 해당한다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsɑkɝ/"
+    },
+    "with": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~와 함께",
+          "en": "accompanied by",
+          "primary": true
+        },
+        {
+          "ko": "~를 사용하여",
+          "en": "using something"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 친구와 함께 축구를 했던 사실을 나타내기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "alongside",
+        "together with"
+      ],
+      "antonyms": [
+        "without"
+      ],
+      "confusables": [
+        {
+          "word": "width",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "play with",
+        "talk with"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I went shopping with her.",
+          "ko": "나는 그녀와 함께 쇼핑을 갔다."
+        },
+        {
+          "en": "He cut it with scissors.",
+          "ko": "그는 가위로 그것을 잘랐다."
+        }
+      ],
+      "koreanTips": [
+        "'with'는 '~와 함께'라는 의미로, 'play with', 'talk with'처럼 자주 사용된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɪð/"
+    },
+    "please": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "부디",
+          "en": "used to make a request more polite",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자가 친구에게 답장을 요청하는 말로 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "kindly",
+        "if you don't mind"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "pleased",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "please reply",
+        "please come"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Please sit down.",
+          "ko": "부디 앉으세요."
+        },
+        {
+          "en": "Please help me.",
+          "ko": "도와주세요."
+        }
+      ],
+      "koreanTips": [
+        "'please'는 요청이나 부탁을 정중하게 표현할 때 사용되며, 한국어의 '부디'에 해당한다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpɫiz/"
+    },
+    "write": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "쓰다",
+          "en": "to form letters or words on paper or screen",
+          "primary": true
+        },
+        {
+          "ko": "편지를 쓰다",
+          "en": "compose a letter"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 친구에게 답장을 요청하는 말로 사용됨.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "write"
+        },
+        {
+          "label": "과거",
+          "form": "wrote"
+        },
+        {
+          "label": "과거분사",
+          "form": "written"
+        },
+        {
+          "label": "현재분사",
+          "form": "writing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "writes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "compose",
+        "draft"
+      ],
+      "antonyms": [
+        "read",
+        "erase"
+      ],
+      "confusables": [
+        {
+          "word": "right",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "write a letter",
+        "write back"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Write your name here.",
+          "ko": "여기에 이름을 써라."
+        },
+        {
+          "en": "She writes stories.",
+          "ko": "그녀는 이야기를 쓴다."
+        }
+      ],
+      "koreanTips": [
+        "'write'는 '쓰다'라는 의미로, 'write a letter', 'write back'처럼 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹaɪt/"
+    },
+    "back": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "다시",
+          "en": "returning to a former state or place",
+          "primary": true
+        },
+        {
+          "ko": "뒤쪽으로",
+          "en": "toward the rear"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 친구에게 답장을 요청하는 말로 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "again",
+        "return"
+      ],
+      "antonyms": [
+        "forward"
+      ],
+      "confusables": [
+        {
+          "word": "black",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "write back",
+        "come back"
+      ],
+      "idioms": [
+        {
+          "phrase": "back and forth",
+          "ko": "왕복으로"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please write back soon.",
+          "ko": "부디 곧 답장을 해줘."
+        },
+        {
+          "en": "He came back late.",
+          "ko": "그는 늦게 돌아왔다."
+        }
+      ],
+      "koreanTips": [
+        "'back'은 '다시'라는 의미로, 'write back', 'come back'처럼 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbæk/"
+    },
+    "soon": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "곧",
+          "en": "in a short time",
+          "primary": true
+        },
+        {
+          "ko": "빨리",
+          "en": "quickly"
+        }
+      ],
+      "contextMeaning": "편지 작성자가 가능한 빨리 답장을 요청하는 말로 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "quickly",
+        "shortly"
+      ],
+      "antonyms": [
+        "late",
+        "delayed"
+      ],
+      "confusables": [
+        {
+          "word": "son",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "come soon",
+        "arrive soon"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "See you soon.",
+          "ko": "곧 만나자."
+        },
+        {
+          "en": "He will arrive soon.",
+          "ko": "그는 곧 도착할 것이다."
+        }
+      ],
+      "koreanTips": [
+        "'soon'은 '곧'이라는 의미로, 'see you soon', 'arrive soon'처럼 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsun/"
+    },
+    "your": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "너의",
+          "en": "belonging to you",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자가 친구를 가리키며, 친구의 이름을 언급하기 위해 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "you're",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "your name",
+        "your house"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Is this your pen?",
+          "ko": "이건 너의 펜이야?"
+        },
+        {
+          "en": "Your idea is great.",
+          "ko": "너의 아이디어는 멋져."
+        }
+      ],
+      "koreanTips": [
+        "'your'는 '너의'라는 의미로, 'your name', 'your house'처럼 소유를 나타낼 때 사용된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈjɔɹ/"
+    },
+    "friend": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "친구",
+          "en": "a person whom one knows and likes",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자가 친구를 가리키며, 편지의 마지막 인사말로 사용됨.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "friend"
+        },
+        {
+          "label": "복수",
+          "form": "friends"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "companion",
+        "buddy"
+      ],
+      "antonyms": [
+        "enemy",
+        "stranger"
+      ],
+      "confusables": [
+        {
+          "word": "fiend",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "best friend",
+        "make friends"
+      ],
+      "idioms": [
+        {
+          "phrase": "a friend in need",
+          "ko": "필요할 때 도와주는 친구"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He is my best friend.",
+          "ko": "그는 내 가장 친한 친구이다."
+        },
+        {
+          "en": "I met a new friend.",
+          "ko": "나는 새로운 친구를 만났다."
+        }
+      ],
+      "koreanTips": [
+        "'friend'는 '친구'라는 의미로, 'best friend', 'make friends'처럼 자주 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɹɛnd/"
+    },
+    "james": {
+      "pos": "proper noun",
+      "meanings": [
+        {
+          "ko": "제임스(남자 이름)",
+          "en": "a male given name",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "편지 작성자의 이름으로 사용됨.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "James said",
+        "write to James"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "James is coming tomorrow.",
+          "ko": "제임스가 내일 온다."
+        }
+      ],
+      "koreanTips": [
+        "고유명사는 항상 대문자로 시작해야 하며, 영어 이름도 마찬가지이다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈdʒeɪmz/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "Dear Tom, I am writing to tell you about my new city.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "am writing",
+            "label": "쓰고 있다"
+          },
+          "object": {
+            "text": "to tell you about my new city",
+            "label": "너에게 내 새 도시에 대해 말해주기 위해"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 'I am writing...'이라는 현재 진행형으로 시작되며, 목적어로 'to tell you...'가 붙어 있습니다. 즉, '내가 당신에게 무언가를 말해주기 위해 쓰고 있다'는 의미입니다.",
+        "grammarPoints": [
+          "현재 진행형",
+          "to + 동사 원형 (목적)",
+          "편지의 인사말"
+        ],
+        "examples": [
+          {
+            "en": "I am studying to pass the test.",
+            "ko": "나는 시험에 합격하기 위해 공부하고 있다."
+          },
+          {
+            "en": "She is working to earn money.",
+            "ko": "그녀는 돈을 벌기 위해 일하고 있다."
+          }
+        ]
+      },
+      {
+        "text": "I moved here last month.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "moved",
+            "label": "이사왔다"
+          },
+          "complement": {
+            "text": "here last month",
+            "label": "지난 달에 여기로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 'I moved here last month.'로, 주어(I)가 동사(moved)를 통해 보어(here last month)로 이동했음을 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "시간 표현",
+          "장소 표현"
+        ],
+        "examples": [
+          {
+            "en": "He arrived yesterday.",
+            "ko": "그는 어제 도착했다."
+          },
+          {
+            "en": "We traveled last week.",
+            "ko": "우리는 지난주에 여행했다."
+          }
+        ]
+      },
+      {
+        "text": "The city is big and exciting.",
+        "structure": {
+          "subject": {
+            "text": "The city",
+            "label": "그 도시"
+          },
+          "verb": {
+            "text": "is",
+            "label": "이다"
+          },
+          "complement": {
+            "text": "big and exciting",
+            "label": "크고 흥미로운"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 'The city is big and exciting.'으로, 주어(The city)가 어떤 상태인지 설명하는 보어(big and exciting)를 포함합니다.",
+        "grammarPoints": [
+          "be 동사",
+          "형용사 연결",
+          "and로 연결된 형용사"
+        ],
+        "examples": [
+          {
+            "en": "The weather is hot and humid.",
+            "ko": "날씨는 덥고 습하다."
+          },
+          {
+            "en": "She is kind and smart.",
+            "ko": "그녀는 친절하고 똑똑하다."
+          }
+        ]
+      },
+      {
+        "text": "There are many tall buildings and wide streets.",
+        "structure": {
+          "subject": {
+            "text": "There",
+            "label": "존재"
+          },
+          "verb": {
+            "text": "are",
+            "label": "있다"
+          },
+          "complement": {
+            "text": "many tall buildings and wide streets",
+            "label": "많은 고층 건물과 넓은 거리들"
+          }
+        },
+        "pattern": {
+          "name": "There + be + N",
+          "note": "존재를 나타내는 구문"
+        },
+        "explanation": "이 문장은 'There are...' 구조로, '많은 고층 건물과 넓은 거리들이 존재한다'는 의미입니다.",
+        "grammarPoints": [
+          "There is/are",
+          "복수 명사",
+          "형용사 수식"
+        ],
+        "examples": [
+          {
+            "en": "There are many books on the shelf.",
+            "ko": "책꽂이에 책이 많다."
+          },
+          {
+            "en": "There are some students in the classroom.",
+            "ko": "교실에 몇몇 학생들이 있다."
+          }
+        ]
+      },
+      {
+        "text": "I found a nice apartment near a park.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "found",
+            "label": "찾았다"
+          },
+          "object": {
+            "text": "a nice apartment",
+            "label": "좋은 아파트"
+          },
+          "complement": {
+            "text": "near a park",
+            "label": "공원 근처에"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 'I found a nice apartment near a park.'으로, 주어(I)가 목적어(a nice apartment)를 찾았으며, 보어(near a park)로 위치를 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "목적어",
+          "장소 보어"
+        ],
+        "examples": [
+          {
+            "en": "She bought a house near the sea.",
+            "ko": "그녀는 바다 근처에 집을 샀다."
+          },
+          {
+            "en": "He found a job in the city.",
+            "ko": "그는 도시에서 직장을 찾았다."
+          }
+        ]
+      },
+      {
+        "text": "Every evening, I walk in the park.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "walk",
+            "label": "걷는다"
+          },
+          "complement": {
+            "text": "in the park",
+            "label": "공원에서"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 'Every evening, I walk in the park.'으로, 주어(I)가 시간(Every evening)에 따라 어떤 행동(walk)을 하는지를 설명합니다.",
+        "grammarPoints": [
+          "시간 표현",
+          "장소 보어",
+          "일반 동사"
+        ],
+        "examples": [
+          {
+            "en": "Every morning, he drinks coffee.",
+            "ko": "매일 아침, 그는 커피를 마신다."
+          },
+          {
+            "en": "She reads books in the library.",
+            "ko": "그녀는 도서관에서 책을 읽는다."
+          }
+        ]
+      },
+      {
+        "text": "I see dogs playing and children running.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "see",
+            "label": "본다"
+          },
+          "object": {
+            "text": "dogs playing and children running",
+            "label": "개들이 놀고 있고 아이들이 달리는"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 'I see dogs playing and children running.'으로, 주어(I)가 무엇을 보았는지(object)를 설명합니다.",
+        "grammarPoints": [
+          "목적어",
+          "현재분사",
+          "and로 연결된 목적어"
+        ],
+        "examples": [
+          {
+            "en": "I hear birds singing.",
+            "ko": "나는 새들이 노래하는 소리를 듣는다."
+          },
+          {
+            "en": "She watched kids laughing.",
+            "ko": "그녀는 아이들이 웃는 것을 지켜봤다."
+          }
+        ]
+      },
+      {
+        "text": "The food here is different but delicious.",
+        "structure": {
+          "subject": {
+            "text": "The food here",
+            "label": "여기 음식"
+          },
+          "verb": {
+            "text": "is",
+            "label": "이다"
+          },
+          "complement": {
+            "text": "different but delicious",
+            "label": "다르지만 맛있는"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 'The food here is different but delicious.'으로, 주어(The food here)가 어떤 상태인지 설명하는 보어(different but delicious)를 포함합니다.",
+        "grammarPoints": [
+          "be 동사",
+          "형용사 연결",
+          "but로 연결된 형용사"
+        ],
+        "examples": [
+          {
+            "en": "The movie was boring but funny.",
+            "ko": "그 영화는 지루했지만 재미있었다."
+          },
+          {
+            "en": "Her voice sounds soft but clear.",
+            "ko": "그녀의 목소리는 부드럽지만 또렷하다."
+          }
+        ]
+      },
+      {
+        "text": "I miss our old town sometimes.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "miss",
+            "label": "그리워하다"
+          },
+          "object": {
+            "text": "our old town",
+            "label": "우리의 옛 마을"
+          },
+          "complement": {
+            "text": "sometimes",
+            "label": "가끔"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어 + 동사 + 목적어 + 보어"
+        },
+        "explanation": "이 문장은 'I miss our old town sometimes.'으로, 주어(I)가 목적어(our old town)를 그리워하며, 보어(sometimes)로 빈도를 나타냅니다.",
+        "grammarPoints": [
+          "동사 + 목적어",
+          "시간 표현",
+          "소유격"
+        ],
+        "examples": [
+          {
+            "en": "I miss my family often.",
+            "ko": "나는 가족을 자주 그리워한다."
+          },
+          {
+            "en": "He calls his parents weekly.",
+            "ko": "그는 매주 부모님께 전화를 건다."
+          }
+        ]
+      },
+      {
+        "text": "I miss playing soccer with you.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "miss",
+            "label": "그리워하다"
+          },
+          "object": {
+            "text": "playing soccer with you",
+            "label": "너와 함께 축구하는 것"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 'I miss playing soccer with you.'으로, 주어(I)가 어떤 활동을 그리워하는지(object)를 설명합니다.",
+        "grammarPoints": [
+          "동사 + 목적어",
+          "gerund",
+          "with + 목적어"
+        ],
+        "examples": [
+          {
+            "en": "I miss talking with you.",
+            "ko": "나는 너와 대화하는 것을 그리워한다."
+          },
+          {
+            "en": "She misses dancing with her friends.",
+            "ko": "그녀는 친구들과 춤추는 것을 그리워한다."
+          }
+        ]
+      },
+      {
+        "text": "Please write back soon.",
+        "structure": {
+          "subject": {
+            "text": "(You)",
+            "label": "(당신)"
+          },
+          "verb": {
+            "text": "write",
+            "label": "답장을 하다"
+          },
+          "complement": {
+            "text": "back soon",
+            "label": "곧 답장을"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 'Please write back soon.'으로, 요청의 의미를 담아 주어(you)가 어떤 행동(write back soon)을 하도록 요청합니다.",
+        "grammarPoints": [
+          "요청 표현",
+          "부사",
+          "시간 표현"
+        ],
+        "examples": [
+          {
+            "en": "Please come early.",
+            "ko": "부디 일찍 와주세요."
+          },
+          {
+            "en": "Call me tomorrow.",
+            "ko": "내일 전화해줘."
+          }
+        ]
+      },
+      {
+        "text": "Your friend, James.",
+        "structure": {
+          "subject": {
+            "text": "James",
+            "label": "제임스"
+          },
+          "complement": {
+            "text": "Your friend",
+            "label": "너의 친구"
+          }
+        },
+        "pattern": {
+          "name": "S+C",
+          "note": "주어 + 보어"
+        },
+        "explanation": "이 문장은 'Your friend, James.'로, 편지의 마지막에 서명하는 부분으로, 제임스가 누구인지 설명하는 보어(Yours friend)가 포함됩니다.",
+        "grammarPoints": [
+          "서명 형식",
+          "소유격",
+          "고유명사"
+        ],
+        "examples": [
+          {
+            "en": "Best regards, Sarah.",
+            "ko": "정중한 인사, 사라."
+          },
+          {
+            "en": "Love, Mom.",
+            "ko": "사랑을 담아, 엄마."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "친애하는 톰에게, 나는 너에게 내 새 도시에 대해 말해주기 위해 편지를 쓰고 있어. 나는 지난달에 이곳으로 이사왔다. 이 도시는 크고 흥미롭다. 여기에는 많은 고층 건물과 넓은 거리들이 있다. 나는 공원 근처에 좋은 아파트를 찾았다. 매일 저녁, 나는 공원에서 산책한다. 나는 개들이 놀고 있고 아이들이 달리는 모습을 본다. 여기 음식은 다르지만 맛있다. 가끔은 우리의 옛 마을을 그리워한다. 너와 함께 축구하는 것도 그리워한다. 부디 곧 답장을 해줘. 너의 친구, 제임스.",
+  "keyVocab": [
+    "writing",
+    "moved",
+    "exciting",
+    "found",
+    "playing"
+  ],
+  "quiz": {
+    "question": "편지에서 'I am writing to tell you about my new city'의 의미는 무엇인가요?",
+    "answer": "나는 너에게 내 새 도시에 대해 말해주기 위해 편지를 쓰고 있어."
+  },
+  "generated_at": "2026-02-20T09:17:32.840209+09:00"
+}

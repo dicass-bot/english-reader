@@ -15,12 +15,18 @@
   <div id="app">
     <!-- Header -->
     <header id="header">
-      <button id="btn-prev" class="nav-btn" aria-label="Previous day">&larr;</button>
-      <div id="header-title">
-        <h1>English Reader</h1>
-        <span id="day-info"></span>
+      <button id="btn-prev" class="nav-btn" aria-label="Previous">&larr;</button>
+      <div id="header-center">
+        <select id="sel-category" class="header-select" aria-label="Category">
+          <option value="">English Reader</option>
+        </select>
+        <select id="sel-num" class="header-select" aria-label="Number" style="display:none">
+        </select>
       </div>
-      <button id="btn-next" class="nav-btn" aria-label="Next day">&rarr;</button>
+      <div id="header-right">
+        <button id="btn-vocab" class="nav-btn" aria-label="My Vocabulary">&#128218;</button>
+        <button id="btn-next" class="nav-btn" aria-label="Next">&rarr;</button>
+      </div>
     </header>
 
     <!-- Loading -->
@@ -29,16 +35,13 @@
       <p>Loading...</p>
     </div>
 
-    <!-- Day List (Home) -->
+    <!-- Home (Day List) -->
     <section id="home" class="page">
-      <div class="section-header">
-        <h2>Days</h2>
-      </div>
-      <ul id="day-list"></ul>
+      <div id="home-categories"></div>
       <p id="empty-msg" class="hidden">No content yet.</p>
     </section>
 
-    <!-- Day View -->
+    <!-- Content View -->
     <section id="day-view" class="page hidden">
       <!-- Source Info -->
       <div id="source-info" class="card">
@@ -69,7 +72,7 @@
         <div id="passage-text"></div>
       </div>
 
-      <!-- Grammar Toggle -->
+      <!-- Grammar / Translation Toggle -->
       <div class="toggle-row">
         <button id="btn-grammar" class="toggle-btn">Show Grammar</button>
         <button id="btn-translation" class="toggle-btn">Show Translation</button>
@@ -87,10 +90,32 @@
         <p id="translation-text"></p>
       </div>
 
-      <!-- Key Vocabulary -->
+      <!-- Vocabulary Tabs -->
       <div id="vocab-section" class="card">
-        <div class="section-label">Key Vocabulary</div>
-        <div id="vocab-list"></div>
+        <div class="vocab-tabs">
+          <button class="vocab-tab active" data-tab="key">Key Words</button>
+          <button class="vocab-tab" data-tab="all">All Words</button>
+        </div>
+        <div id="vocab-key" class="vocab-panel">
+          <div id="vocab-list"></div>
+        </div>
+        <div id="vocab-all" class="vocab-panel hidden">
+          <div class="vocab-all-controls">
+            <div class="vocab-sort-btns">
+              <button class="vsort-btn active" data-sort="appear">출현순</button>
+              <button class="vsort-btn" data-sort="alpha">알파벳</button>
+              <button class="vsort-btn" data-sort="pos">품사별</button>
+            </div>
+            <div class="vocab-filter-btns">
+              <button class="vfilter-btn active" data-filter="all">전체</button>
+              <button class="vfilter-btn" data-filter="noun">noun</button>
+              <button class="vfilter-btn" data-filter="verb">verb</button>
+              <button class="vfilter-btn" data-filter="adj">adj</button>
+              <button class="vfilter-btn" data-filter="other">기타</button>
+            </div>
+          </div>
+          <div id="vocab-all-list"></div>
+        </div>
       </div>
 
       <!-- Quiz -->
@@ -102,9 +127,31 @@
       </div>
     </section>
 
+    <!-- My Vocabulary Page -->
+    <section id="vocabulary-page" class="page hidden">
+      <div class="vocab-page-header">
+        <h2>My Vocabulary</h2>
+        <span id="vocab-count" class="badge">0</span>
+      </div>
+      <div class="vocab-page-sort">
+        <button class="mv-sort-btn active" data-sort="recent">최근추가</button>
+        <button class="mv-sort-btn" data-sort="alpha">알파벳</button>
+        <button class="mv-sort-btn" data-sort="level">레벨별</button>
+      </div>
+      <div id="my-vocab-list"></div>
+      <div id="completed-section" class="collapsible">
+        <button id="btn-completed-toggle" class="collapsible-header">
+          <span>학습 완료</span>
+          <span id="completed-count" class="badge">0</span>
+          <span class="chevron">&#9660;</span>
+        </button>
+        <div id="completed-list" class="collapsible-body hidden"></div>
+      </div>
+    </section>
+
     <!-- Sentence Popup (Bottom Sheet) -->
-    <div id="sent-overlay" class="hidden" aria-hidden="true"></div>
-    <div id="sent-popup" class="hidden" role="dialog" aria-label="Sentence details">
+    <div id="sent-overlay" class="overlay hidden" aria-hidden="true"></div>
+    <div id="sent-popup" class="popup hidden" role="dialog" aria-label="Sentence details">
       <div class="popup-handle"></div>
       <div id="sent-popup-content">
         <div class="sent-header">
@@ -129,8 +176,8 @@
     </div>
 
     <!-- Word Popup (Bottom Sheet) -->
-    <div id="word-overlay" class="hidden" aria-hidden="true"></div>
-    <div id="word-popup" class="hidden" role="dialog" aria-label="Word details">
+    <div id="word-overlay" class="overlay hidden" aria-hidden="true"></div>
+    <div id="word-popup" class="popup hidden" role="dialog" aria-label="Word details">
       <div class="popup-handle"></div>
       <div id="popup-content">
         <div class="popup-header">
@@ -138,10 +185,51 @@
           <span id="popup-ipa"></span>
           <button id="popup-audio-btn" class="icon-btn hidden" aria-label="Play pronunciation">&#128264;</button>
         </div>
-        <div id="popup-pos" class="badge"></div>
-        <div id="popup-forms"></div>
+        <div class="popup-meta">
+          <span id="popup-pos" class="badge"></span>
+          <span id="popup-register" class="badge register-badge"></span>
+          <span id="popup-frequency" class="freq-stars"></span>
+        </div>
         <div id="popup-meanings"></div>
         <div id="popup-context"></div>
+
+        <!-- Section 1: 형태 변화 (기본 펼침) -->
+        <div id="popup-forms-section" class="popup-section">
+          <div class="popup-section-title">형태 변화</div>
+          <div id="popup-forms" class="popup-section-body"></div>
+          <div id="popup-etymology" class="popup-section-body"></div>
+        </div>
+
+        <!-- Section 2: 관련 단어 (접이식) -->
+        <div id="popup-related-section" class="popup-section collapsible">
+          <button class="popup-section-title collapsible-header">관련 단어 <span class="chevron">&#9654;</span></button>
+          <div class="popup-section-body collapsible-body hidden">
+            <div id="popup-synonyms"></div>
+            <div id="popup-antonyms"></div>
+            <div id="popup-confusables"></div>
+          </div>
+        </div>
+
+        <!-- Section 3: 표현 & 예문 (접이식) -->
+        <div id="popup-expressions-section" class="popup-section collapsible">
+          <button class="popup-section-title collapsible-header">표현 & 예문 <span class="chevron">&#9654;</span></button>
+          <div class="popup-section-body collapsible-body hidden">
+            <div id="popup-collocations"></div>
+            <div id="popup-idioms"></div>
+            <div id="popup-examples"></div>
+          </div>
+        </div>
+
+        <!-- Section 4: 한국인 학습 팁 (접이식) -->
+        <div id="popup-tips-section" class="popup-section collapsible">
+          <button class="popup-section-title collapsible-header">한국인 학습 팁 <span class="chevron">&#9654;</span></button>
+          <div class="popup-section-body collapsible-body hidden">
+            <div id="popup-korean-tips"></div>
+          </div>
+        </div>
+
+        <!-- 단어장 추가 버튼 -->
+        <button id="popup-add-vocab" class="add-vocab-btn">+ 단어장에 추가</button>
       </div>
     </div>
   </div>

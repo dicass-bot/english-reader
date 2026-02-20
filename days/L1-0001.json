@@ -1,0 +1,3210 @@
+{
+  "num": "0001",
+  "category": "L1",
+  "source": {
+    "title": "The Hungry Crocodile",
+    "author": "Storybooks Canada",
+    "license": "CC BY 4.0",
+    "url": "https://storybookscanada.ca"
+  },
+  "passage": "The crocodile was very hungry. He lived in a big river. Every day, he waited for fish to swim by. One morning, a small fish came close. The crocodile opened his mouth wide. But the fish was too fast. It swam away quickly. The crocodile was still hungry. He decided to wait longer. Finally, a big fish came. This time, the crocodile was ready. He caught the fish and ate it. Now he was happy and full.",
+  "audio": {
+    "passage": "audio/L1-0001.mp3",
+    "words": {
+      "the": "audio/L1-0001-the.mp3",
+      "crocodile": "audio/L1-0001-crocodile.mp3",
+      "was": "audio/L1-0001-was.mp3",
+      "very": "audio/L1-0001-very.mp3",
+      "hungry": "audio/L1-0001-hungry.mp3",
+      "he": "audio/L1-0001-he.mp3",
+      "lived": "audio/L1-0001-lived.mp3",
+      "in": "audio/L1-0001-in.mp3",
+      "a": "audio/L1-0001-a.mp3",
+      "big": "audio/L1-0001-big.mp3",
+      "river": "audio/L1-0001-river.mp3",
+      "every": "audio/L1-0001-every.mp3",
+      "waited": "audio/L1-0001-waited.mp3",
+      "for": "audio/L1-0001-for.mp3",
+      "fish": "audio/L1-0001-fish.mp3",
+      "to": "audio/L1-0001-to.mp3",
+      "swim": "audio/L1-0001-swim.mp3",
+      "by": "audio/L1-0001-by.mp3",
+      "one": "audio/L1-0001-one.mp3",
+      "morning": "audio/L1-0001-morning.mp3",
+      "small": "audio/L1-0001-small.mp3",
+      "came": "audio/L1-0001-came.mp3",
+      "close": "audio/L1-0001-close.mp3",
+      "opened": "audio/L1-0001-opened.mp3",
+      "his": "audio/L1-0001-his.mp3",
+      "mouth": "audio/L1-0001-mouth.mp3",
+      "wide": "audio/L1-0001-wide.mp3",
+      "but": "audio/L1-0001-but.mp3",
+      "too": "audio/L1-0001-too.mp3",
+      "fast": "audio/L1-0001-fast.mp3",
+      "it": "audio/L1-0001-it.mp3",
+      "swam": "audio/L1-0001-swam.mp3",
+      "away": "audio/L1-0001-away.mp3",
+      "quickly": "audio/L1-0001-quickly.mp3",
+      "still": "audio/L1-0001-still.mp3",
+      "decided": "audio/L1-0001-decided.mp3",
+      "wait": "audio/L1-0001-wait.mp3",
+      "longer": "audio/L1-0001-longer.mp3",
+      "finally": "audio/L1-0001-finally.mp3",
+      "this": "audio/L1-0001-this.mp3",
+      "time": "audio/L1-0001-time.mp3",
+      "ready": "audio/L1-0001-ready.mp3",
+      "caught": "audio/L1-0001-caught.mp3",
+      "and": "audio/L1-0001-and.mp3",
+      "ate": "audio/L1-0001-ate.mp3",
+      "now": "audio/L1-0001-now.mp3",
+      "happy": "audio/L1-0001-happy.mp3",
+      "full": "audio/L1-0001-full.mp3"
+    }
+  },
+  "words": {
+    "the": {
+      "pos": "article (definite)",
+      "meanings": [
+        {
+          "ko": "그(특정한)",
+          "en": "the particular",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서는 특정한 악어를 가리키므로 '그'로 번역",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the crocodile",
+        "the fish"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The dog barked loudly.",
+          "ko": "그 개가 크게 짖었다."
+        }
+      ],
+      "koreanTips": [
+        "'the'는 한국어에 직접 대응하는 단어가 없지만, 특정한 대상을 나타낼 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "crocodile": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "악어",
+          "en": "a large reptile with a long snout and sharp teeth",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 이야기 속 주인공인 큰 물고기 같은 파충류 동물",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "crocodile"
+        },
+        {
+          "label": "복수",
+          "form": "crocodiles"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "croco",
+            "meaning": "Greek for hook or pebble"
+          },
+          {
+            "part": "drilos",
+            "meaning": "worm"
+          }
+        ],
+        "note": "라틴어 'crocodrillus'에서 옴"
+      },
+      "synonyms": [
+        "alligator",
+        "reptile"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "crook",
+          "note": "발음이 비슷하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a crocodile waiting",
+        "catch a crocodile"
+      ],
+      "idioms": [
+        {
+          "phrase": "crocodile tears",
+          "ko": "거짓 눈물"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A crocodile lives in rivers.",
+          "ko": "악어는 강에 산다."
+        }
+      ],
+      "koreanTips": [
+        "'crocodile'은 'alligator'(아메리카 악어)와 구분해야 함"
+      ],
+      "frequency": 2,
+      "register": "일상",
+      "ipa": "/ˈkɹɑkəˌdaɪɫ/"
+    },
+    "was": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "~였다",
+          "en": "past form of 'be'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "과거 상태를 나타내며, '배가 고팠다'라는 의미",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "were"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "where",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "was very hungry",
+        "was ready"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She was tired yesterday.",
+          "ko": "그녀는 어제 피곤했다."
+        }
+      ],
+      "koreanTips": [
+        "'I was hungry' (O) — 과거형 표현",
+        "'I am was hungry' (X) — 시제 중복 오류 주의"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɑz/"
+    },
+    "very": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "매우",
+          "en": "to a great extent",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "‘매우’로 번역되어 ‘배가 매우 고팠다’라는 강조 표현",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "extremely",
+        "really"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "very hungry",
+        "very fast"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It's very hot today.",
+          "ko": "오늘은 매우 덥다."
+        }
+      ],
+      "koreanTips": [
+        "'very + 형용사'는 한국어의 '매우 + 형용사'와 동일하게 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈvɛɹi/"
+    },
+    "hungry": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "배가 고판",
+          "en": "wanting food",
+          "primary": true
+        },
+        {
+          "ko": "욕망이 있는",
+          "en": "desiring something eagerly"
+        }
+      ],
+      "contextMeaning": "이 문장에서 '배가 고팠다'는 뜻으로, 실제 식욕을 표현함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "hungry"
+        },
+        {
+          "label": "비교급",
+          "form": "hungrier"
+        },
+        {
+          "label": "최상급",
+          "form": "hungriest"
+        },
+        {
+          "label": "부사형",
+          "form": "hungrily"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "hunger",
+            "meaning": "식욕"
+          },
+          {
+            "part": "-y",
+            "meaning": "형용사 접미사"
+          }
+        ],
+        "note": "hunger에서 온 형용사"
+      },
+      "synonyms": [
+        "starving",
+        "famished"
+      ],
+      "antonyms": [
+        "full",
+        "satisfied"
+      ],
+      "confusables": [
+        {
+          "word": "angry",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "feel hungry",
+        "go hungry"
+      ],
+      "idioms": [
+        {
+          "phrase": "hungry for success",
+          "ko": "성공에 굶주린"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm always hungry after swimming.",
+          "ko": "수영 후 항상 배가 고프다."
+        }
+      ],
+      "koreanTips": [
+        "'I'm hungry' (O) — 사람이 주어",
+        "'My stomach is hungry' (X) — 한국어식 표현 주의"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhəŋɡɹi/"
+    },
+    "he": {
+      "pos": "pronoun (personal)",
+      "meanings": [
+        {
+          "ko": "그는",
+          "en": "third person singular masculine pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이전 문장에서 언급된 악어를 지칭함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "himself"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "he lived",
+        "he waited"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He went home.",
+          "ko": "그는 집에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "'he'는 남성 대명사이며, 한국어에서는 '그는', '그가' 등으로 번역됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhi/"
+    },
+    "lived": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "살았다",
+          "en": "past of live, to reside somewhere",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "과거에 특정 장소에 거주했음을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "live"
+        },
+        {
+          "label": "과거",
+          "form": "lived"
+        },
+        {
+          "label": "과거분사",
+          "form": "lived"
+        },
+        {
+          "label": "현재분사",
+          "form": "living"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "lives"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "resided",
+        "dwelt"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "life",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "lived in",
+        "lived happily"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They lived in New York.",
+          "ko": "그들은 뉴욕에 살았다."
+        }
+      ],
+      "koreanTips": [
+        "'live in'은 '~에 살다'로 고정된 표현"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫaɪvd/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안에",
+          "en": "inside something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "강 안에 살고 있다는 위치를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "inside"
+      ],
+      "antonyms": [
+        "outside"
+      ],
+      "confusables": [
+        {
+          "word": "on",
+          "note": "전치사 선택 오류 주의"
+        }
+      ],
+      "collocations": [
+        "in a river",
+        "in the water"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book is in the bag.",
+          "ko": "책은 가방 안에 있다."
+        }
+      ],
+      "koreanTips": [
+        "'in'은 공간 내부를 나타냄. 'on'과 혼동하지 말 것"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪn/"
+    },
+    "a": {
+      "pos": "article (indefinite)",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "one unspecified thing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "특정하지 않은 하나의 큰 강을 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "one"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "an",
+          "note": "모음 앞에서는 'an' 사용"
+        }
+      ],
+      "collocations": [
+        "a big river",
+        "a small fish"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw a bird.",
+          "ko": "나는 새 한 마리를 보았다."
+        }
+      ],
+      "koreanTips": [
+        "'a'는 불특정 관사로, 한국어의 '하나의', '어떤'에 해당함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "big": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "큰",
+          "en": "large in size",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이전에 나온 작은 물고기와 대비되는 큰 물고기를 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "big"
+        },
+        {
+          "label": "비교급",
+          "form": "bigger"
+        },
+        {
+          "label": "최상급",
+          "form": "biggest"
+        },
+        {
+          "label": "부사형",
+          "form": "bigly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "large",
+        "huge"
+      ],
+      "antonyms": [
+        "small",
+        "tiny"
+      ],
+      "confusables": [],
+      "collocations": [
+        "a big fish",
+        "big river"
+      ],
+      "idioms": [
+        {
+          "phrase": "think big",
+          "ko": "대담하게 생각하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "That's a big house.",
+          "ko": "그건 큰 집이다."
+        }
+      ],
+      "koreanTips": [
+        "'big'은 크기를 나타내는 일반적인 형용사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbɪɡ/"
+    },
+    "river": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "강",
+          "en": "a large natural stream of water flowing in a channel",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 사는 장소로, 자연적인 수로인 강을 의미함",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "river"
+        },
+        {
+          "label": "복수",
+          "form": "rivers"
+        }
+      ],
+      "etymology": {
+        "parts": [
+          {
+            "part": "riv",
+            "meaning": "flow"
+          },
+          {
+            "part": "-er",
+            "meaning": "one who does"
+          }
+        ],
+        "note": "라틴어 'ripa'에서 유래"
+      },
+      "synonyms": [
+        "stream",
+        "creek"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "rive",
+          "note": "철자가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a big river",
+        "swim in the river"
+      ],
+      "idioms": [
+        {
+          "phrase": "go with the flow",
+          "ko": "세상 흐름에 순응하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We walked along the river.",
+          "ko": "우리는 강가를 따라 걸었다."
+        }
+      ],
+      "koreanTips": [
+        "'river'는 자연적인 큰 물줄기. 'stream'보다 큼"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹɪvɝ/"
+    },
+    "every": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "모든",
+          "en": "each one of a group",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "하루하루 반복되는 행동을 나타내며, '매일'이라는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "each"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "every day",
+        "every morning"
+      ],
+      "idioms": [
+        {
+          "phrase": "every cloud has a silver lining",
+          "ko": "모든 어려움에는 좋은 면이 있다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Every student must attend class.",
+          "ko": "모든 학생은 수업에 참석해야 한다."
+        }
+      ],
+      "koreanTips": [
+        "'every day'는 매일이라는 의미. 'everyday'(형용사)와 구분할 것"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɛvɝi/"
+    },
+    "day": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "하루",
+          "en": "a 24-hour period",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "시간의 단위로서 하루를 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "day"
+        },
+        {
+          "label": "복수",
+          "form": "days"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "24 hours",
+        "period"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "they",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "every day",
+        "one day"
+      ],
+      "idioms": [
+        {
+          "phrase": "call it a day",
+          "ko": "오늘은 여기까지"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I work every day.",
+          "ko": "나는 매일 일한다."
+        }
+      ],
+      "koreanTips": [
+        "'day'는 시간의 단위. 'every day'는 '매일'"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈdeɪ/"
+    },
+    "waited": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "기다렸다",
+          "en": "past of wait, to stay until something happens",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 지나가기를 기다리는 행위를 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "wait"
+        },
+        {
+          "label": "과거",
+          "form": "waited"
+        },
+        {
+          "label": "과거분사",
+          "form": "waited"
+        },
+        {
+          "label": "현재분사",
+          "form": "waiting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "waits"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "awaited",
+        "stood by"
+      ],
+      "antonyms": [
+        "left",
+        "departed"
+      ],
+      "confusables": [
+        {
+          "word": "weight",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "waited for fish",
+        "waited patiently"
+      ],
+      "idioms": [
+        {
+          "phrase": "wait and see",
+          "ko": "지켜보다가 판단하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She waited for the bus.",
+          "ko": "그녀는 버스를 기다렸다."
+        }
+      ],
+      "koreanTips": [
+        "'wait for ~'는 '~을 기다리다'라는 고정 표현"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈweɪtɪd/"
+    },
+    "for": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~을 위해",
+          "en": "indicating purpose or intended recipient",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "목적을 나타내며, '물고기를 기다리기 위해'라는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "in order to"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "four",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "waited for fish",
+        "looked for"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I bought flowers for her.",
+          "ko": "나는 그녀를 위해 꽃을 샀다."
+        }
+      ],
+      "koreanTips": [
+        "'for'는 목적, 대상 등을 나타냄. 'because of'와 혼동하지 말 것"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈfɔɹ/"
+    },
+    "fish": {
+      "pos": "noun (singular/plural)",
+      "meanings": [
+        {
+          "ko": "물고기",
+          "en": "an aquatic animal",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 먹으려는 대상인 물고기를 의미함",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "fish"
+        },
+        {
+          "label": "복수",
+          "form": "fish"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "seafood"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "wish",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "fish to swim",
+        "catch a fish"
+      ],
+      "idioms": [
+        {
+          "phrase": "like a fish out of water",
+          "ko": "낯선 환경에 적응 못함"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Fish swim in water.",
+          "ko": "물고기는 물속에서 헤엄친다."
+        }
+      ],
+      "koreanTips": [
+        "'fish'는 단수와 복수가 같음. 'fishes'는 종류를 나눌 때 사용"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɪʃ/"
+    },
+    "to": {
+      "pos": "preposition/infinitive marker",
+      "meanings": [
+        {
+          "ko": "~로",
+          "en": "direction or infinitive marker",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서는 '헤엄치기 위해'라는 의미의 infinitive marker로 작용",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "toward"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "too",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "to swim by",
+        "ready to catch"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I want to eat.",
+          "ko": "나는 먹고 싶다."
+        }
+      ],
+      "koreanTips": [
+        "'to'는 방향을 나타내거나 동사 원형 앞서는 infinitive marker"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "swim": {
+      "pos": "verb (infinitive)",
+      "meanings": [
+        {
+          "ko": "헤엄치다",
+          "en": "to move through water using body movements",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 움직이는 방식을 설명함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "swim"
+        },
+        {
+          "label": "과거",
+          "form": "swam"
+        },
+        {
+          "label": "과거분사",
+          "form": "swum"
+        },
+        {
+          "label": "현재분사",
+          "form": "swimming"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "swims"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "float",
+        "move through water"
+      ],
+      "antonyms": [
+        "sink"
+      ],
+      "confusables": [
+        {
+          "word": "swamp",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "swim by",
+        "swim fast"
+      ],
+      "idioms": [
+        {
+          "phrase": "swim against the tide",
+          "ko": "역류를 거슬러 헤엄치다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Ducks can swim well.",
+          "ko": "오리는 잘 헤엄칠 수 있다."
+        }
+      ],
+      "koreanTips": [
+        "'swim'은 불규칙 동사이며, 과거형은 'swam', 과거분사는 'swum'"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈswɪm/"
+    },
+    "by": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~지나",
+          "en": "movement past something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 악어 옆을 지나가는 것을 묘사함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "past"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "bye",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "swim by",
+        "pass by"
+      ],
+      "idioms": [
+        {
+          "phrase": "drop by",
+          "ko": "들르다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The car drove by quickly.",
+          "ko": "차가 빠르게 지나갔다."
+        }
+      ],
+      "koreanTips": [
+        "'by'는 지나가는 움직임을 나타냄. 'near'와 구분할 것"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbaɪ/"
+    },
+    "one": {
+      "pos": "numeral/determiner",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "the number one",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "특정한 시간을 나타내며, '어느 날 아침'이라는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "single"
+      ],
+      "antonyms": [
+        "two"
+      ],
+      "confusables": [
+        {
+          "word": "won",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "one morning",
+        "one day"
+      ],
+      "idioms": [
+        {
+          "phrase": "one for the road",
+          "ko": "출발 전 마지막 한 잔"
+        }
+      ],
+      "examples": [
+        {
+          "en": "One apple fell from the tree.",
+          "ko": "사과 하나가 나무에서 떨어졌다."
+        }
+      ],
+      "koreanTips": [
+        "'one morning'은 '어느 날 아침'이라는 고정 표현"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwən/"
+    },
+    "morning": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "아침",
+          "en": "the early part of the day",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "하루 중 아침 시간을 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "morning"
+        },
+        {
+          "label": "복수",
+          "form": "mornings"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "dawn",
+        "early hours"
+      ],
+      "antonyms": [
+        "evening"
+      ],
+      "confusables": [
+        {
+          "word": "mourning",
+          "note": "철자가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "one morning",
+        "good morning"
+      ],
+      "idioms": [
+        {
+          "phrase": "morning glory",
+          "ko": "나팔꽃"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I wake up at 7 AM every morning.",
+          "ko": "나는 매일 아침 7시에 일어난다."
+        }
+      ],
+      "koreanTips": [
+        "'morning'은 하루의 첫 시간. 'evening'과 구분할 것"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmɔɹnɪŋ/"
+    },
+    "small": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "작은",
+          "en": "little in size",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기의 크기를 묘사하며, '작은 물고기'라는 의미",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "small"
+        },
+        {
+          "label": "비교급",
+          "form": "smaller"
+        },
+        {
+          "label": "최상급",
+          "form": "smallest"
+        },
+        {
+          "label": "부사형",
+          "form": "smallly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "little",
+        "tiny"
+      ],
+      "antonyms": [
+        "big",
+        "large"
+      ],
+      "confusables": [],
+      "collocations": [
+        "a small fish",
+        "small mouth"
+      ],
+      "idioms": [
+        {
+          "phrase": "think small",
+          "ko": "작게 생각하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This box is too small.",
+          "ko": "이 상자는 너무 작다."
+        }
+      ],
+      "koreanTips": [
+        "'small'은 크기를 나타내는 일반적인 형용사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsmɔɫ/"
+    },
+    "came": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "왔다",
+          "en": "past of come, to move toward someone/somewhere",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "작은 물고기가 악어에게 접근했다는 움직임을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "come"
+        },
+        {
+          "label": "과거",
+          "form": "came"
+        },
+        {
+          "label": "과거분사",
+          "form": "come"
+        },
+        {
+          "label": "현재분사",
+          "form": "coming"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "comes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "arrived",
+        "approached"
+      ],
+      "antonyms": [
+        "left",
+        "went away"
+      ],
+      "confusables": [
+        {
+          "word": "cameo",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "came close",
+        "came near"
+      ],
+      "idioms": [
+        {
+          "phrase": "come on",
+          "ko": "어서, 진짜"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He came to visit me.",
+          "ko": "그는 나를 보기 위해 왔다."
+        }
+      ],
+      "koreanTips": [
+        "'come'은 불규칙 동사이며, 과거형은 'came'"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈkeɪm/"
+    },
+    "close": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "가까이",
+          "en": "near in space or time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "작은 물고기가 악어에게 가까이 다가왔다는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "near",
+        "adjacent"
+      ],
+      "antonyms": [
+        "far"
+      ],
+      "confusables": [
+        {
+          "word": "clothes",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "came close",
+        "get close"
+      ],
+      "idioms": [
+        {
+          "phrase": "close call",
+          "ko": "간신히 피한 위험"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please sit close to me.",
+          "ko": "제발 저에게 가까이 앉으세요."
+        }
+      ],
+      "koreanTips": [
+        "'close'는 형용사('닫힌')와 부사('가까이') 모두 가능함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkɫoʊs/"
+    },
+    "opened": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "열었다",
+          "en": "past of open, to make something no longer closed",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 입을 벌렸다는 움직임을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "open"
+        },
+        {
+          "label": "과거",
+          "form": "opened"
+        },
+        {
+          "label": "과거분사",
+          "form": "opened"
+        },
+        {
+          "label": "현재분사",
+          "form": "opening"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "opens"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "unlocked",
+        "revealed"
+      ],
+      "antonyms": [
+        "closed",
+        "shut"
+      ],
+      "confusables": [
+        {
+          "word": "opener",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "opened his mouth",
+        "open wide"
+      ],
+      "idioms": [
+        {
+          "phrase": "open sesame",
+          "ko": "마법의 문을 여는 주문"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She opened the door.",
+          "ko": "그녀는 문을 열었다."
+        }
+      ],
+      "koreanTips": [
+        "'open'은 '닫혀 있던 것을 여는' 동사"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈoʊpənd/"
+    },
+    "his": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "그의",
+          "en": "belonging to him",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어의 소유물을 나타내며, '그의 입'이라는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "of him"
+      ],
+      "antonyms": [
+        "her",
+        "their"
+      ],
+      "confusables": [
+        {
+          "word": "this",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "his mouth",
+        "his decision"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "His car is red.",
+          "ko": "그의 차는 빨갛다."
+        }
+      ],
+      "koreanTips": [
+        "'his'는 남성 소유 대명사. 'him'과 구분할 것"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhɪz/"
+    },
+    "mouth": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "입",
+          "en": "the opening in the face used for eating and speaking",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어의 먹이를 잡는 도구인 입을 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "mouth"
+        },
+        {
+          "label": "복수",
+          "form": "mouths"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "oral cavity"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "month",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "opened his mouth",
+        "wide mouth"
+      ],
+      "idioms": [
+        {
+          "phrase": "mouth-watering",
+          "ko": "맛있는"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Don't put your fingers in your mouth.",
+          "ko": "손가락을 입에 넣지 마세요."
+        }
+      ],
+      "koreanTips": [
+        "'mouth'는 먹거나 말하는 데 쓰이는 입"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmaʊθ/"
+    },
+    "wide": {
+      "pos": "adjective/adverb",
+      "meanings": [
+        {
+          "ko": "넓게",
+          "en": "covering a large area",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어의 입이 넓게 벌어졌다는 상태를 설명함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "broad",
+        "spacious"
+      ],
+      "antonyms": [
+        "narrow"
+      ],
+      "confusables": [
+        {
+          "word": "wider",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "mouth wide",
+        "open wide"
+      ],
+      "idioms": [
+        {
+          "phrase": "wide awake",
+          "ko": "완전히 깨어있는"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Open your eyes wide.",
+          "ko": "눈을 크게 뜨세요."
+        }
+      ],
+      "koreanTips": [
+        "'wide'는 넓은 정도를 나타냄. 'widely'와 구분할 것"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwaɪd/"
+    },
+    "but": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "하지만",
+          "en": "used to introduce a contrast",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "예상과 달리 물고기가 빨리 도망갔다는 대조를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "however",
+        "yet"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "put",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "but the fish",
+        "but it swam"
+      ],
+      "idioms": [
+        {
+          "phrase": "no buts",
+          "ko": "변명하지 마"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I wanted to go, but I was busy.",
+          "ko": "나는 가고 싶었지만 바빴다."
+        }
+      ],
+      "koreanTips": [
+        "'but'은 대조를 나타내는 접속사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbət/"
+    },
+    "too": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "너무",
+          "en": "excessively",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 너무 빨랐다는 강조 표현",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "excessively",
+        "overly"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "to",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "too fast",
+        "too slow"
+      ],
+      "idioms": [
+        {
+          "phrase": "too good to be true",
+          "ko": "좋기만 해서 믿을 수 없는"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It's too cold today.",
+          "ko": "오늘은 너무 춥다."
+        }
+      ],
+      "koreanTips": [
+        "'too + 형용사'는 '너무 ~해서...'라는 의미"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "fast": {
+      "pos": "adjective/adverb",
+      "meanings": [
+        {
+          "ko": "빠른",
+          "en": "moving quickly",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 빠르게 움직였다는 속도를 설명함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "quick",
+        "speedy"
+      ],
+      "antonyms": [
+        "slow"
+      ],
+      "confusables": [
+        {
+          "word": "fact",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "swam fast",
+        "run fast"
+      ],
+      "idioms": [
+        {
+          "phrase": "fast asleep",
+          "ko": "깊이 잠든"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He runs very fast.",
+          "ko": "그는 매우 빠르게 달린다."
+        }
+      ],
+      "koreanTips": [
+        "'fast'는 형용사와 부사 모두 가능"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfæst/"
+    },
+    "it": {
+      "pos": "pronoun (personal)",
+      "meanings": [
+        {
+          "ko": "그것은",
+          "en": "referring to a previously mentioned object",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이전에 언급된 물고기를 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "that thing"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "sit",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "it swam",
+        "it escaped"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It rained all day.",
+          "ko": "하루 종일 비가 내렸다."
+        }
+      ],
+      "koreanTips": [
+        "'it'은 무생물이나 동물을 가리킬 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪt/"
+    },
+    "swam": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "헤엄쳤다",
+          "en": "past of swim, moved through water",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 빠르게 움직였다는 과거 행위를 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "swim"
+        },
+        {
+          "label": "과거",
+          "form": "swam"
+        },
+        {
+          "label": "과거분사",
+          "form": "swum"
+        },
+        {
+          "label": "현재분사",
+          "form": "swimming"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "swims"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "floated",
+        "moved swiftly"
+      ],
+      "antonyms": [
+        "sank"
+      ],
+      "confusables": [
+        {
+          "word": "swarm",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "swam away",
+        "swam quickly"
+      ],
+      "idioms": [
+        {
+          "phrase": "swim like a fish",
+          "ko": "물고기처럼 잘 헤엄치다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The children swam in the pool.",
+          "ko": "아이들이 수영장에서 헤엄쳤다."
+        }
+      ],
+      "koreanTips": [
+        "'swim'은 불규칙 동사. 과거형은 'swam'"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈswæm/"
+    },
+    "away": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "멀리",
+          "en": "at a distance",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 멀리 도망갔다는 방향을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "off",
+        "far"
+      ],
+      "antonyms": [
+        "near"
+      ],
+      "confusables": [
+        {
+          "word": "always",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "swam away",
+        "ran away"
+      ],
+      "idioms": [
+        {
+          "phrase": "give away",
+          "ko": "내주다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cat ran away.",
+          "ko": "고양이가 도망쳤다."
+        }
+      ],
+      "koreanTips": [
+        "'away'는 '멀리', '떨어져서'라는 의미"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/əˈweɪ/"
+    },
+    "quickly": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "빨리",
+          "en": "in a fast manner",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 얼마나 빠르게 움직였는지를 설명함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "rapidly",
+        "swiftly"
+      ],
+      "antonyms": [
+        "slowly"
+      ],
+      "confusables": [
+        {
+          "word": "quick",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "swam away quickly",
+        "ran quickly"
+      ],
+      "idioms": [
+        {
+          "phrase": "quicker than you think",
+          "ko": "생각보다 빠르게"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She finished quickly.",
+          "ko": "그녀는 빨리 끝냈다."
+        }
+      ],
+      "koreanTips": [
+        "'-ly'로 끝나는 대부분의 단어는 부사"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkwɪkɫi/"
+    },
+    "still": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "아직도",
+          "en": "continuing up to now",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 여전히 배가 고팠다는 지속 상태를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "yet",
+        "continuously"
+      ],
+      "antonyms": [
+        "already"
+      ],
+      "confusables": [
+        {
+          "word": "stool",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "still hungry",
+        "still waiting"
+      ],
+      "idioms": [
+        {
+          "phrase": "still waters run deep",
+          "ko": "고요한 물은 깊다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He is still sleeping.",
+          "ko": "그는 아직도 자고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'still'은 '아직도', '계속해서'라는 의미"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈstɪɫ/"
+    },
+    "decided": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "결정했다",
+          "en": "past of decide, made a choice",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 더 오래 기다리겠다는 결정을 내림",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "decide"
+        },
+        {
+          "label": "과거",
+          "form": "decided"
+        },
+        {
+          "label": "과거분사",
+          "form": "decided"
+        },
+        {
+          "label": "현재분사",
+          "form": "deciding"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "decides"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "chose",
+        "resolved"
+      ],
+      "antonyms": [
+        "hesitated"
+      ],
+      "confusables": [
+        {
+          "word": "divide",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "decided to wait",
+        "made a decision"
+      ],
+      "idioms": [
+        {
+          "phrase": "make up your mind",
+          "ko": "결정을 내리다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She decided to study abroad.",
+          "ko": "그녀는 해외 유학을 결심했다."
+        }
+      ],
+      "koreanTips": [
+        "'decide to do'는 '~를 하기로 결심하다'라는 고정 표현"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˌdɪˈsaɪdɪd/"
+    },
+    "wait": {
+      "pos": "verb (infinitive)",
+      "meanings": [
+        {
+          "ko": "기다리다",
+          "en": "to stay until something happens",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 더 오래 기다리겠다는 결정을 내림",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "wait"
+        },
+        {
+          "label": "과거",
+          "form": "waited"
+        },
+        {
+          "label": "과거분사",
+          "form": "waited"
+        },
+        {
+          "label": "현재분사",
+          "form": "waiting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "waits"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "await",
+        "stand by"
+      ],
+      "antonyms": [
+        "leave",
+        "depart"
+      ],
+      "confusables": [
+        {
+          "word": "weight",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "wait longer",
+        "wait patiently"
+      ],
+      "idioms": [
+        {
+          "phrase": "wait and see",
+          "ko": "지켜보다가 판단하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let's wait here.",
+          "ko": "여기서 기다리자."
+        }
+      ],
+      "koreanTips": [
+        "'wait for ~'는 '~을 기다리다'라는 고정 표현"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈweɪt/"
+    },
+    "longer": {
+      "pos": "adverb (comparative)",
+      "meanings": [
+        {
+          "ko": "더 오래",
+          "en": "for a greater amount of time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 더 오래 기다리겠다는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "more time"
+      ],
+      "antonyms": [
+        "shorter"
+      ],
+      "confusables": [
+        {
+          "word": "stronger",
+          "note": "형태가 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "wait longer",
+        "stay longer"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Stay longer if you want.",
+          "ko": "원하면 더 오래 있어."
+        }
+      ],
+      "koreanTips": [
+        "'longer'는 '더 오래'라는 비교급 표현"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɔŋɡɝ/"
+    },
+    "finally": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "마침내",
+          "en": "after a long time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "오랜 기다림 끝에 큰 물고기가 나타났다는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "at last",
+        "eventually"
+      ],
+      "antonyms": [
+        "initially"
+      ],
+      "confusables": [
+        {
+          "word": "finely",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "finally came",
+        "finally arrived"
+      ],
+      "idioms": [
+        {
+          "phrase": "finally got it",
+          "ko": "마침내 이해했다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Finally, we reached home.",
+          "ko": "마침내 우리는 집에 도착했다."
+        }
+      ],
+      "koreanTips": [
+        "'finally'는 오랜 시간 후에 일어난 일을 나타냄"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfaɪnəɫi/"
+    },
+    "this": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "이",
+          "en": "referring to something nearby in time or context",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "지금 언급되고 있는 큰 물고기를 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "this one"
+      ],
+      "antonyms": [
+        "that"
+      ],
+      "confusables": [
+        {
+          "word": "his",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "this time",
+        "this fish"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This book is mine.",
+          "ko": "이 책은 내 것이다."
+        }
+      ],
+      "koreanTips": [
+        "'this'는 가까운 것을 가리킴. 'that'과 구분할 것"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðɪs/"
+    },
+    "time": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "때",
+          "en": "occasion or moment",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이번에는 성공했다는 의미의 '이번 기회'",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "time"
+        },
+        {
+          "label": "복수",
+          "form": "times"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "occasion",
+        "moment"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "rhyme",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "this time",
+        "next time"
+      ],
+      "idioms": [
+        {
+          "phrase": "time flies",
+          "ko": "시간은 날다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Next time, be careful.",
+          "ko": "다음에는 조심해."
+        }
+      ],
+      "koreanTips": [
+        "'this time'은 '이번에는'라는 고정 표현"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtaɪm/"
+    },
+    "ready": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "준비된",
+          "en": "prepared for something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 이번에는 준비가 되어 있다는 상태를 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "ready"
+        },
+        {
+          "label": "비교급",
+          "form": "readier"
+        },
+        {
+          "label": "최상급",
+          "form": "readiest"
+        },
+        {
+          "label": "부사형",
+          "form": "readily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "prepared",
+        "set"
+      ],
+      "antonyms": [
+        "unprepared"
+      ],
+      "confusables": [
+        {
+          "word": "steady",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "ready to catch",
+        "get ready"
+      ],
+      "idioms": [
+        {
+          "phrase": "ready or not",
+          "ko": "준비되었든 아니든"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Are you ready?",
+          "ko": "준비됐니?"
+        }
+      ],
+      "koreanTips": [
+        "'ready to do'는 '~할 준비가 되다'라는 고정 표현"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹɛdi/"
+    },
+    "caught": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "잡았다",
+          "en": "past of catch, took hold of something moving",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 물고기를 잡았다는 과거 행위를 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "catch"
+        },
+        {
+          "label": "과거",
+          "form": "caught"
+        },
+        {
+          "label": "과거분사",
+          "form": "caught"
+        },
+        {
+          "label": "현재분사",
+          "form": "catching"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "catches"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "captured",
+        "grabbed"
+      ],
+      "antonyms": [
+        "released"
+      ],
+      "confusables": [
+        {
+          "word": "cot",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "caught the fish",
+        "catch quickly"
+      ],
+      "idioms": [
+        {
+          "phrase": "caught red-handed",
+          "ko": "현장에서 잡히다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He caught a ball.",
+          "ko": "그는 공을 잡았다."
+        }
+      ],
+      "koreanTips": [
+        "'catch'는 불규칙 동사. 과거형은 'caught'"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkɑt/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or phrases",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 가지 연속된 동작을 연결함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "also",
+        "plus"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "end",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "caught and ate",
+        "waited and watched"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Bread and butter.",
+          "ko": "빵과 버터."
+        }
+      ],
+      "koreanTips": [
+        "'and'는 연결어. '~하고', '~그리고'로 번역됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "ate": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "먹었다",
+          "en": "past of eat, consumed food",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 물고기를 먹었다는 과거 행위를 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "eat"
+        },
+        {
+          "label": "과거",
+          "form": "ate"
+        },
+        {
+          "label": "과거분사",
+          "form": "eaten"
+        },
+        {
+          "label": "현재분사",
+          "form": "eating"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "eats"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "consumed",
+        "devoured"
+      ],
+      "antonyms": [
+        "vomited"
+      ],
+      "confusables": [
+        {
+          "word": "eight",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "ate it",
+        "ate quickly"
+      ],
+      "idioms": [
+        {
+          "phrase": "eat humble pie",
+          "ko": "굴욕을 받다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I ate lunch at noon.",
+          "ko": "나는 정오에 점심을 먹었다."
+        }
+      ],
+      "koreanTips": [
+        "'eat'은 불규칙 동사. 과거형은 'ate'"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪt/"
+    },
+    "now": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "지금",
+          "en": "at the present time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "현재의 상태를 나타내며, '이제'라는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "currently",
+        "today"
+      ],
+      "antonyms": [
+        "then"
+      ],
+      "confusables": [
+        {
+          "word": "know",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "now he was",
+        "now happy"
+      ],
+      "idioms": [
+        {
+          "phrase": "now or never",
+          "ko": "지금 아니면 평생 아니야"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Now I understand.",
+          "ko": "이제 이해한다."
+        }
+      ],
+      "koreanTips": [
+        "'now'는 현재 시점을 나타냄. 'then'과 구분할 것"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈnaʊ/"
+    },
+    "happy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "행복한",
+          "en": "feeling joy or contentment",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 배가 부르고 만족한 상태를 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "happy"
+        },
+        {
+          "label": "비교급",
+          "form": "happier"
+        },
+        {
+          "label": "최상급",
+          "form": "happiest"
+        },
+        {
+          "label": "부사형",
+          "form": "happily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "joyful",
+        "content"
+      ],
+      "antonyms": [
+        "sad",
+        "unhappy"
+      ],
+      "confusables": [
+        {
+          "word": "hoppy",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "happy and full",
+        "felt happy"
+      ],
+      "idioms": [
+        {
+          "phrase": "happy hour",
+          "ko": "할인 시간"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She looked happy.",
+          "ko": "그녀는 행복해 보였다."
+        }
+      ],
+      "koreanTips": [
+        "'happy'는 감정 상태를 나타내는 형용사"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhæpi/"
+    },
+    "full": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "배부른",
+          "en": "having eaten enough food",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "악어가 음식을 다 먹고 배가 부른 상태를 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "full"
+        },
+        {
+          "label": "비교급",
+          "form": "fuller"
+        },
+        {
+          "label": "최상급",
+          "form": "fullest"
+        },
+        {
+          "label": "부사형",
+          "form": "fully"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "satiated",
+        "stuffed"
+      ],
+      "antonyms": [
+        "empty",
+        "hungry"
+      ],
+      "confusables": [
+        {
+          "word": "pull",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "happy and full",
+        "feel full"
+      ],
+      "idioms": [
+        {
+          "phrase": "full of energy",
+          "ko": "에너지가 넘치는"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm full after dinner.",
+          "ko": "저녁 후 배가 부르다."
+        }
+      ],
+      "koreanTips": [
+        "'I'm full'은 '배가 부르다'라는 의미"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfʊɫ/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "The crocodile was very hungry.",
+        "structure": {
+          "subject": {
+            "text": "The crocodile",
+            "label": "그 악어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "very hungry",
+            "label": "매우 배가 고팠다"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 'The crocodile'이라는 주어가 'was very hungry'라는 상태를 나타냅니다. 'was'는 과거형 동사이고, 'very hungry'는 보어입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사 보어",
+          "관사 사용"
+        ],
+        "examples": [
+          {
+            "en": "The boy was tired.",
+            "ko": "그 소년은 피곤했다."
+          },
+          {
+            "en": "She was very happy.",
+            "ko": "그녀는 매우 행복했다."
+          }
+        ]
+      },
+      {
+        "text": "He lived in a big river.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "lived",
+            "label": "살았다"
+          },
+          "complement": {
+            "text": "in a big river",
+            "label": "큰 강에"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 'He'라는 주어가 'lived in a big river'라는 장소에서 살았다는 것을 나타냅니다. 'lived'는 과거형 동사입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "전치사 구",
+          "관사 사용"
+        ],
+        "examples": [
+          {
+            "en": "They lived in Paris.",
+            "ko": "그들은 파리에 살았다."
+          },
+          {
+            "en": "She stayed in a hotel.",
+            "ko": "그녀는 호텔에 머물렀다."
+          }
+        ]
+      },
+      {
+        "text": "Every day, he waited for fish to swim by.",
+        "structure": {
+          "subject": {
+            "text": "he",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "waited",
+            "label": "기다렸다"
+          },
+          "object": {
+            "text": "for fish",
+            "label": "물고기를"
+          },
+          "complement": {
+            "text": "to swim by",
+            "label": "헤엄쳐 지나가기 위해"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어"
+        },
+        "explanation": "이 문장은 'he'가 'fish'를 기다리고 있었으며, 'to swim by'는 목적을 나타내는 보어입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "목적어",
+          "Infinitive as purpose"
+        ],
+        "examples": [
+          {
+            "en": "She waited for the bus to arrive.",
+            "ko": "그녀는 버스가 도착하기를 기다렸다."
+          },
+          {
+            "en": "He studied hard to pass the test.",
+            "ko": "그는 시험에 통과하기 위해 열심히 공부했다."
+          }
+        ]
+      },
+      {
+        "text": "One morning, a small fish came close.",
+        "structure": {
+          "subject": {
+            "text": "a small fish",
+            "label": "작은 물고기"
+          },
+          "verb": {
+            "text": "came",
+            "label": "왔다"
+          },
+          "complement": {
+            "text": "close",
+            "label": "가까이"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 'a small fish'가 'came close'라는 움직임을 했다는 것을 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사+명사",
+          "부사 형태"
+        ],
+        "examples": [
+          {
+            "en": "The dog came near.",
+            "ko": "개가 가까이 왔다."
+          },
+          {
+            "en": "A bird flew close.",
+            "ko": "새가 가까이 날아왔다."
+          }
+        ]
+      },
+      {
+        "text": "The crocodile opened his mouth wide.",
+        "structure": {
+          "subject": {
+            "text": "The crocodile",
+            "label": "그 악어"
+          },
+          "verb": {
+            "text": "opened",
+            "label": "열었다"
+          },
+          "object": {
+            "text": "his mouth",
+            "label": "그의 입"
+          },
+          "complement": {
+            "text": "wide",
+            "label": "넓게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어"
+        },
+        "explanation": "이 문장은 'The crocodile'이 'his mouth'를 'wide'하게 열었다는 의미입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "소유격",
+          "형용사 보어"
+        ],
+        "examples": [
+          {
+            "en": "She opened the door wide.",
+            "ko": "그녀는 문을 넓게 열었다."
+          },
+          {
+            "en": "He smiled widely.",
+            "ko": "그는 넓게 웃었다."
+          }
+        ]
+      },
+      {
+        "text": "But the fish was too fast.",
+        "structure": {
+          "subject": {
+            "text": "the fish",
+            "label": "그 물고기는"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "too fast",
+            "label": "너무 빨랐다"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 'the fish'가 'too fast'하다는 상태를 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사 보어",
+          "과잉 표현(too)"
+        ],
+        "examples": [
+          {
+            "en": "The car was too expensive.",
+            "ko": "그 차는 너무 비쌌다."
+          },
+          {
+            "en": "It was too cold outside.",
+            "ko": "밖은 너무 추웠다."
+          }
+        ]
+      },
+      {
+        "text": "It swam away quickly.",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "그것은"
+          },
+          "verb": {
+            "text": "swam",
+            "label": "헤엄쳤다"
+          },
+          "complement": {
+            "text": "away quickly",
+            "label": "빨리 멀리"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 'It'이 'away quickly'하게 움직였다는 것을 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "부사 형태",
+          "방향 표현"
+        ],
+        "examples": [
+          {
+            "en": "He ran away quickly.",
+            "ko": "그는 빨리 도망쳤다."
+          },
+          {
+            "en": "She spoke softly.",
+            "ko": "그녀는 부드럽게 말했다."
+          }
+        ]
+      },
+      {
+        "text": "The crocodile was still hungry.",
+        "structure": {
+          "subject": {
+            "text": "The crocodile",
+            "label": "그 악어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "still hungry",
+            "label": "아직도 배가 고팠다"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 'The crocodile'이 여전히 배가 고팠다는 상태를 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사 보어",
+          "지속 표현(still)"
+        ],
+        "examples": [
+          {
+            "en": "She was still tired.",
+            "ko": "그녀는 여전히 피곤했다."
+          },
+          {
+            "en": "He is still working.",
+            "ko": "그는 여전히 일하고 있다."
+          }
+        ]
+      },
+      {
+        "text": "He decided to wait longer.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "decided",
+            "label": "결정했다"
+          },
+          "complement": {
+            "text": "to wait longer",
+            "label": "더 오래 기다리기로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 'He'가 'to wait longer'라는 결정을 내렸다는 의미입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "Infinitive as complement",
+          "비교급 표현"
+        ],
+        "examples": [
+          {
+            "en": "She decided to leave early.",
+            "ko": "그녀는 일찍 떠나기로 결정했다."
+          },
+          {
+            "en": "He chose to study harder.",
+            "ko": "그는 더 열심히 공부하기로 택했다."
+          }
+        ]
+      },
+      {
+        "text": "Finally, a big fish came.",
+        "structure": {
+          "subject": {
+            "text": "a big fish",
+            "label": "큰 물고기"
+          },
+          "verb": {
+            "text": "came",
+            "label": "왔다"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어+동사"
+        },
+        "explanation": "이 문장은 'a big fish'가 'came'라는 움직임을 했다는 것을 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사+명사",
+          "부사 형태"
+        ],
+        "examples": [
+          {
+            "en": "Suddenly, a man appeared.",
+            "ko": "갑자기 한 남자가 나타났다."
+          },
+          {
+            "en": "Eventually, she arrived.",
+            "ko": "마침내 그녀가 도착했다."
+          }
+        ]
+      },
+      {
+        "text": "This time, the crocodile was ready.",
+        "structure": {
+          "subject": {
+            "text": "the crocodile",
+            "label": "그 악어"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "ready",
+            "label": "준비된"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 'the crocodile'이 'ready'하다는 상태를 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사 보어",
+          "시간 표현(this time)"
+        ],
+        "examples": [
+          {
+            "en": "This time, he was prepared.",
+            "ko": "이번엔 그가 준비되어 있었다."
+          },
+          {
+            "en": "Last week, they were excited.",
+            "ko": "지난주 그들은 흥분해 있었다."
+          }
+        ]
+      },
+      {
+        "text": "He caught the fish and ate it.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "caught...ate",
+            "label": "잡았다...먹었다"
+          },
+          "object": {
+            "text": "the fish...it",
+            "label": "그 물고기를...그것을"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 'He'가 'the fish'를 'caught'하고 'ate'했다는 두 가지 동작을 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "목적어",
+          "연결어(and) 사용"
+        ],
+        "examples": [
+          {
+            "en": "She bought apples and ate them.",
+            "ko": "그녀는 사과를 샀고 그것을 먹었다."
+          },
+          {
+            "en": "He opened the box and found gold.",
+            "ko": "그는 상자를 열고 금을 발견했다."
+          }
+        ]
+      },
+      {
+        "text": "Now he was happy and full.",
+        "structure": {
+          "subject": {
+            "text": "he",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "happy and full",
+            "label": "행복하고 배부른"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 'he'가 'happy and full'하다는 상태를 나타냅니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사 보어",
+          "연결어(and) 사용"
+        ],
+        "examples": [
+          {
+            "en": "She was tired and sleepy.",
+            "ko": "그녀는 피곤하고 졸렸다."
+          },
+          {
+            "en": "They were excited and ready.",
+            "ko": "그들은 흥분하고 준비되었다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "악어는 매우 배가 고팠다. 그는 큰 강에 살았다. 매일 그는 물고기가 지나가기를 기다렸다. 어느 날 아침, 작은 물고기가 가까이 다가왔다. 악어는 입을 크게 벌렸다. 하지만 물고기는 너무 빨라서 도망쳤다. 악어는 여전히 배가 고팠다. 그는 더 오래 기다리기로 결심했다. 마침내 큰 물고기가 나타났다. 이번에는 악어가 준비가 되어 있었다. 그는 물고기를 잡아 먹었다. 이제 그는 행복하고 배부르게 되었다.",
+  "keyVocab": [
+    "hungry",
+    "crocodile",
+    "waited",
+    "caught",
+    "happy"
+  ],
+  "quiz": {
+    "question": "Why did the crocodile open his mouth wide?",
+    "answer": "Because a small fish came close."
+  },
+  "generated_at": "2026-02-20T07:24:58.503012+09:00"
+}

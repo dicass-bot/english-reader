@@ -1,0 +1,3338 @@
+{
+  "num": "0014",
+  "category": "L1",
+  "source": {
+    "title": "The Lion and the Mouse",
+    "author": "Aesop",
+    "license": "Public Domain",
+    "url": "https://standardebooks.org"
+  },
+  "passage": "A lion was sleeping in the forest. A little mouse ran over his nose. The lion woke up and caught the mouse. \"Please let me go,\" said the mouse. \"Someday I will help you.\" The lion laughed. How could a tiny mouse help a big lion? But he let the mouse go. A few days later, the lion was caught in a hunter's net. He roared loudly. The little mouse heard him. She ran to the lion and chewed through the net. The lion was free. Even the smallest friend can be a great help.",
+  "audio": {
+    "passage": "audio/L1-0014.mp3",
+    "words": {
+      "a": "audio/L1-0014-a.mp3",
+      "lion": "audio/L1-0014-lion.mp3",
+      "was": "audio/L1-0014-was.mp3",
+      "sleeping": "audio/L1-0014-sleeping.mp3",
+      "in": "audio/L1-0014-in.mp3",
+      "the": "audio/L1-0014-the.mp3",
+      "forest": "audio/L1-0014-forest.mp3",
+      "little": "audio/L1-0014-little.mp3",
+      "mouse": "audio/L1-0014-mouse.mp3",
+      "ran": "audio/L1-0014-ran.mp3",
+      "over": "audio/L1-0014-over.mp3",
+      "his": "audio/L1-0014-his.mp3",
+      "nose": "audio/L1-0014-nose.mp3",
+      "woke": "audio/L1-0014-woke.mp3",
+      "up": "audio/L1-0014-up.mp3",
+      "and": "audio/L1-0014-and.mp3",
+      "caught": "audio/L1-0014-caught.mp3",
+      "please": "audio/L1-0014-please.mp3",
+      "let": "audio/L1-0014-let.mp3",
+      "me": "audio/L1-0014-me.mp3",
+      "go": "audio/L1-0014-go.mp3",
+      "said": "audio/L1-0014-said.mp3",
+      "someday": "audio/L1-0014-someday.mp3",
+      "i": "audio/L1-0014-i.mp3",
+      "will": "audio/L1-0014-will.mp3",
+      "help": "audio/L1-0014-help.mp3",
+      "you": "audio/L1-0014-you.mp3",
+      "laughed": "audio/L1-0014-laughed.mp3",
+      "how": "audio/L1-0014-how.mp3",
+      "could": "audio/L1-0014-could.mp3",
+      "to": "audio/L1-0014-to.mp3",
+      "through": "audio/L1-0014-through.mp3",
+      "even": "audio/L1-0014-even.mp3",
+      "smallest": "audio/L1-0014-smallest.mp3",
+      "friend": "audio/L1-0014-friend.mp3",
+      "can": "audio/L1-0014-can.mp3",
+      "be": "audio/L1-0014-be.mp3",
+      "great": "audio/L1-0014-great.mp3"
+    }
+  },
+  "words": {
+    "a": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "한 개의",
+          "en": "one of something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "불특정한 큰 도움을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a great help",
+        "a big lion"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw a cat.",
+          "ko": "나는 고양이 한 마리를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'a'는 수량이나 종류를 나타내며, 한국어 '하나의', '어떤'과 비슷하다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "lion": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "사자",
+          "en": "large wild cat with mane",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐의 도움으로 자유를 얻은 존재",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "lion"
+        },
+        {
+          "label": "복수",
+          "form": "lions"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "beast",
+        "predator"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "line",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a lion sleeps",
+        "catch a mouse"
+      ],
+      "idioms": [
+        {
+          "phrase": "the lion's share",
+          "ko": "가장 큰 몫"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lion roared loudly.",
+          "ko": "사자가 크게 으르렁거렸다."
+        }
+      ],
+      "koreanTips": [
+        "'lion'은 단수형으로 사용되며, 복수는 'lions'이다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɫaɪən/"
+    },
+    "was": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "지나간 시제의 '이다'",
+          "en": "past form of 'to be'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 자유롭게 되었다는 상태를 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "were"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "has",
+          "note": "과거형과 발음이 비슷하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "was sleeping",
+        "was caught"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He was tired yesterday.",
+          "ko": "그는 어제 피곤했다."
+        }
+      ],
+      "koreanTips": [
+        "과거 시제로 '있었다' 또는 '하고 있었다'의 의미를 담고 있다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɑz/"
+    },
+    "sleeping": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "잠들어 있는 상태",
+          "en": "resting with eyes closed",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 휴식 중이라는 상태를 표현함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "sleep"
+        },
+        {
+          "label": "과거",
+          "form": "slept"
+        },
+        {
+          "label": "과거분사",
+          "form": "slept"
+        },
+        {
+          "label": "현재분사",
+          "form": "sleeping"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "sleeps"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "resting",
+        "dozing"
+      ],
+      "antonyms": [
+        "awake",
+        "alert"
+      ],
+      "confusables": [
+        {
+          "word": "slipping",
+          "note": "발음이 비슷하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "sleeping soundly",
+        "sleeping peacefully"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is sleeping now.",
+          "ko": "그녀는 지금 자고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'-ing' 형태로 지속적인 동작이나 상태를 나타낸다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsɫipɪŋ/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "안에",
+          "en": "inside or within",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 그물 안에 갇혀 있다는 위치를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "inside",
+        "within"
+      ],
+      "antonyms": [
+        "out"
+      ],
+      "confusables": [
+        {
+          "word": "on",
+          "note": "전치사 선택 오류 주의"
+        }
+      ],
+      "collocations": [
+        "in the forest",
+        "in bed"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book is in the bag.",
+          "ko": "책은 가방 안에 있다."
+        }
+      ],
+      "koreanTips": [
+        "'in'은 공간 내부를 나타낼 때 사용된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪn/"
+    },
+    "the": {
+      "pos": "article",
+      "meanings": [
+        {
+          "ko": "특정한",
+          "en": "specific item mentioned before",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "앞서 언급된 친구를 다시 지칭함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the smallest friend",
+        "the lion"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I found the keys.",
+          "ko": "나는 그 열쇠들을 찾았다."
+        }
+      ],
+      "koreanTips": [
+        "'the'는 이미 언급된 대상을 가리킬 때 사용된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "forest": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "숲",
+          "en": "area covered with trees",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 잠든 장소이며 자연환경을 묘사함",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "forest"
+        },
+        {
+          "label": "복수",
+          "form": "forests"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "woods",
+        "jungle"
+      ],
+      "antonyms": [
+        "desert",
+        "city"
+      ],
+      "confusables": [
+        {
+          "word": "forrest",
+          "note": "철자 오류 주의"
+        }
+      ],
+      "collocations": [
+        "deep forest",
+        "walk through the forest"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "We walked into the dark forest.",
+          "ko": "우리는 어두운 숲으로 걸어갔다."
+        }
+      ],
+      "koreanTips": [
+        "'forest'는 나무가 우거진 지역을 의미한다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈfɔɹəst/"
+    },
+    "little": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "작은",
+          "en": "small in size",
+          "primary": true
+        },
+        {
+          "ko": "적은 양의",
+          "en": "not much"
+        }
+      ],
+      "contextMeaning": "쥐가 작고 약해 보이지만 중요한 역할을 하게 됨",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "little"
+        },
+        {
+          "label": "비교급",
+          "form": "less"
+        },
+        {
+          "label": "최상급",
+          "form": "least"
+        },
+        {
+          "label": "부사형",
+          "form": "little"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "tiny",
+        "small"
+      ],
+      "antonyms": [
+        "big",
+        "huge"
+      ],
+      "confusables": [
+        {
+          "word": "litte",
+          "note": "철자 오류 주의"
+        }
+      ],
+      "collocations": [
+        "a little mouse",
+        "very little time"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "There's little water left.",
+          "ko": "남은 물이 거의 없다."
+        }
+      ],
+      "koreanTips": [
+        "'little'은 크기뿐 아니라 양도 적음을 나타낼 수 있다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɪtəɫ/"
+    },
+    "mouse": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "쥐",
+          "en": "small rodent animal",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자의 소리를 들은 작은 동물이며, 구원자",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "mouse"
+        },
+        {
+          "label": "복수",
+          "form": "mice"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "rodent"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "mousse",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a little mouse",
+        "chewed through the net"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "A mouse ran across the floor.",
+          "ko": "쥐 한 마리가 바닥을 가로질러 달렸다."
+        }
+      ],
+      "koreanTips": [
+        "복수형은 불규칙하게 'mice'이다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈmaʊs/"
+    },
+    "ran": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "달렸다",
+          "en": "moved quickly on foot",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자에게 도움을 주기 위해 빠르게 움직임",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "run"
+        },
+        {
+          "label": "과거",
+          "form": "ran"
+        },
+        {
+          "label": "과거분사",
+          "form": "run"
+        },
+        {
+          "label": "현재분사",
+          "form": "running"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "runs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "rushed",
+        "dashed"
+      ],
+      "antonyms": [
+        "walked",
+        "stood"
+      ],
+      "confusables": [
+        {
+          "word": "rang",
+          "note": "과거형과 발음이 비슷하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "ran fast",
+        "ran away"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He ran home quickly.",
+          "ko": "그는 집으로 급히 달려갔다."
+        }
+      ],
+      "koreanTips": [
+        "과거형은 불규칙 변화 'run → ran'이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹæn/"
+    },
+    "over": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "위로",
+          "en": "above or across",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자의 코 위로 지나갔다는 위치를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "across",
+        "above"
+      ],
+      "antonyms": [
+        "under"
+      ],
+      "confusables": [
+        {
+          "word": "hover",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "ran over his nose",
+        "jumped over"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The bird flew over the tree.",
+          "ko": "새가 나무 위로 날아갔다."
+        }
+      ],
+      "koreanTips": [
+        "'over'는 '위로', '넘어' 등의 의미를 갖는다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈoʊvɝ/"
+    },
+    "his": {
+      "pos": "pronoun (possessive)",
+      "meanings": [
+        {
+          "ko": "그의",
+          "en": "belonging to him",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자의 소유물을 나타내며, 여기서는 코를 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "himself's",
+        "of him"
+      ],
+      "antonyms": [
+        "hers",
+        "yours"
+      ],
+      "confusables": [
+        {
+          "word": "this",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "his nose",
+        "his house"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is his car.",
+          "ko": "이것은 그의 차이다."
+        }
+      ],
+      "koreanTips": [
+        "소유격으로 '그의 것'을 나타낸다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhɪz/"
+    },
+    "nose": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "코",
+          "en": "organ for smelling and breathing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 지나간 경로이며 사자의 얼굴 부분",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "nose"
+        },
+        {
+          "label": "복수",
+          "form": "noses"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "snout"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "knows",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "over his nose",
+        "smell with the nose"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She has a cold nose.",
+          "ko": "그녀는 감기에 걸려 코가 막혔다."
+        }
+      ],
+      "koreanTips": [
+        "사람과 동물 모두에게 적용되는 신체 부위이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈnoʊz/"
+    },
+    "woke": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "깨어났다",
+          "en": "stopped sleeping",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 쥐의 움직임에 의해 잠에서 깨어남",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "wake"
+        },
+        {
+          "label": "과거",
+          "form": "woke"
+        },
+        {
+          "label": "과거분사",
+          "form": "woken"
+        },
+        {
+          "label": "현재분사",
+          "form": "waking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "wakes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "awoke",
+        "arose"
+      ],
+      "antonyms": [
+        "fell asleep"
+      ],
+      "confusables": [
+        {
+          "word": "work",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "woke up suddenly",
+        "woke from sleep"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I woke at dawn.",
+          "ko": "나는 새벽에 깼다."
+        }
+      ],
+      "koreanTips": [
+        "과거형은 불규칙 변화 'wake → woke'이다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈwoʊk/"
+    },
+    "up": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "일어나서",
+          "en": "from lying down to standing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 잠에서 깨어나 일어나는 상태를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "rise",
+        "stand"
+      ],
+      "antonyms": [
+        "down"
+      ],
+      "confusables": [
+        {
+          "word": "cup",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "woke up",
+        "get up"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Wake up early tomorrow.",
+          "ko": "내일 일찍 일어나세요."
+        }
+      ],
+      "koreanTips": [
+        "'wake up'은 '깨어나다'라는 의미의 고정 표현이다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈəp/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or phrases",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자에게 접근하고 동시에 그물을 끊는 행동을 연결함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "also",
+        "plus"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "end",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "chewed and broke",
+        "ran and jumped"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He ate and slept.",
+          "ko": "그는 먹고 잤다."
+        }
+      ],
+      "koreanTips": [
+        "연결어로 두 사건이나 아이디어를 이어준다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "caught": {
+      "pos": "verb (past participle)",
+      "meanings": [
+        {
+          "ko": "걸렸다",
+          "en": "past participle of catch",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 사냥꾼의 그물에 걸려 있다는 상태를 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "catch"
+        },
+        {
+          "label": "과거",
+          "form": "caught"
+        },
+        {
+          "label": "과거분사",
+          "form": "caught"
+        },
+        {
+          "label": "현재분사",
+          "form": "catching"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "catches"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "trapped",
+        "stuck"
+      ],
+      "antonyms": [
+        "free",
+        "released"
+      ],
+      "confusables": [
+        {
+          "word": "court",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "caught in a net",
+        "caught by surprise"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He got caught in traffic.",
+          "ko": "그는 교통체증에 걸렸다."
+        }
+      ],
+      "koreanTips": [
+        "과거분사는 수동태나 완료형에서 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkɑt/"
+    },
+    "please": {
+      "pos": "interjection/adverb",
+      "meanings": [
+        {
+          "ko": "부탁해서",
+          "en": "used when asking politely",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자에게 자신의 자유를 요청하는 말",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "kindly",
+        "if you don't mind"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "pleased",
+          "note": "형용사와 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "please let me go",
+        "please help"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Please sit down.",
+          "ko": "앉아 주세요."
+        }
+      ],
+      "koreanTips": [
+        "정중하게 요청할 때 사용하는 말이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpɫiz/"
+    },
+    "let": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "놓아주다",
+          "en": "allow someone to do something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 쥐를 자유롭게 해주는 결정",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "let"
+        },
+        {
+          "label": "과거",
+          "form": "let"
+        },
+        {
+          "label": "과거분사",
+          "form": "let"
+        },
+        {
+          "label": "현재분사",
+          "form": "letting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "lets"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "allow",
+        "permit"
+      ],
+      "antonyms": [
+        "prevent",
+        "stop"
+      ],
+      "confusables": [
+        {
+          "word": "net",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "let me go",
+        "let him pass"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Let me know if you need anything.",
+          "ko": "필요하면 알려주세요."
+        }
+      ],
+      "koreanTips": [
+        "'let sb do sth': ~하게 하다, ~를 허락하다"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɛt/"
+    },
+    "me": {
+      "pos": "pronoun (object form)",
+      "meanings": [
+        {
+          "ko": "나를",
+          "en": "object form of 'I'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐 자신을 가리키며, 사자에게 자유를 요청함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "myself"
+      ],
+      "antonyms": [
+        "you"
+      ],
+      "confusables": [
+        {
+          "word": "we",
+          "note": "주어 형태와 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "let me go",
+        "help me"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Can you see me?",
+          "ko": "나를 볼 수 있어?"
+        }
+      ],
+      "koreanTips": [
+        "목적어로 사용되는 '나'를 나타낸다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmi/"
+    },
+    "go": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "가다",
+          "en": "move from one place to another",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 자유롭게 움직일 수 있도록 함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "go"
+        },
+        {
+          "label": "과거",
+          "form": "went"
+        },
+        {
+          "label": "과거분사",
+          "form": "gone"
+        },
+        {
+          "label": "현재분사",
+          "form": "going"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "goes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "leave",
+        "depart"
+      ],
+      "antonyms": [
+        "stay",
+        "arrive"
+      ],
+      "confusables": [
+        {
+          "word": "grow",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "let me go",
+        "go away"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Let's go home.",
+          "ko": "집에 가자."
+        }
+      ],
+      "koreanTips": [
+        "'go'는 방향성 있는 움직임을 나타낸다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɡoʊ/"
+    },
+    "said": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "말했다",
+          "en": "past tense of 'say'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자에게 말한 내용을 전달하기 위해 사용됨",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "say"
+        },
+        {
+          "label": "과거",
+          "form": "said"
+        },
+        {
+          "label": "과거분사",
+          "form": "said"
+        },
+        {
+          "label": "현재분사",
+          "form": "saying"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "says"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "spoke",
+        "uttered"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "sad",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "said the mouse",
+        "he said"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He said hello.",
+          "ko": "그는 인사를 했다."
+        }
+      ],
+      "koreanTips": [
+        "과거형은 불규칙 변화 'say → said'이다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈsɛd/"
+    },
+    "someday": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "언젠가는",
+          "en": "at some future time",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 미래에 도움을 줄 가능성에 대한 언급",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "eventually",
+        "one day"
+      ],
+      "antonyms": [
+        "never"
+      ],
+      "confusables": [
+        {
+          "word": "some day",
+          "note": "띄어쓰기 오류 주의"
+        }
+      ],
+      "collocations": [
+        "someday I will help you",
+        "hope to meet someday"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Maybe we'll travel together someday.",
+          "ko": "언젠가는 함께 여행할지도 몰라."
+        }
+      ],
+      "koreanTips": [
+        "'someday'는 하나의 단어이며, 'some day'와 구별해야 한다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsəmˌdeɪ/"
+    },
+    "i": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "나는",
+          "en": "first person singular subject pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐 자신을 가리키며, 도움을 줄 가능성을 언급함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "me"
+      ],
+      "antonyms": [
+        "you",
+        "they"
+      ],
+      "confusables": [
+        {
+          "word": "eye",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "I will help",
+        "I promise"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I like pizza.",
+          "ko": "나는 피자를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "대문자로 시작해야 하는 첫 번째 인칭 주어이다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈaɪ/"
+    },
+    "will": {
+      "pos": "modal verb",
+      "meanings": [
+        {
+          "ko": "할 것이다",
+          "en": "future intention or prediction",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 앞으로 어떤 행동을 할 것인지 예측함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "shall",
+        "going to"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "well",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "I will help",
+        "will come back"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I will call you later.",
+          "ko": "나중에 전화할게요."
+        }
+      ],
+      "koreanTips": [
+        "미래 시제를 나타내는 조동사로, '할 것이다'의 의미를 갖는다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɪɫ/"
+    },
+    "help": {
+      "pos": "noun",
+      "meanings": [
+        {
+          "ko": "도움",
+          "en": "assistance or support",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자에게 제공한 가치 있는 지원",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "help"
+        },
+        {
+          "label": "복수",
+          "form": "helps"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "aid",
+        "assistance"
+      ],
+      "antonyms": [
+        "hindrance",
+        "obstacle"
+      ],
+      "confusables": [
+        {
+          "word": "heap",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a great help",
+        "ask for help"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Your help means a lot.",
+          "ko": "당신의 도움은 많은 의미를 갖는다."
+        }
+      ],
+      "koreanTips": [
+        "도움을 주는 행위나 결과를 나타낸다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhɛɫp/"
+    },
+    "you": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "당신을",
+          "en": "second person object pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 도움을 줄 상대방을 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "u"
+      ],
+      "antonyms": [
+        "me",
+        "them"
+      ],
+      "confusables": [
+        {
+          "word": "your",
+          "note": "소유격과 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "help you",
+        "see you"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Thank you.",
+          "ko": "고맙습니다."
+        }
+      ],
+      "koreanTips": [
+        "목적어로 사용될 때에도 'you'로 표기된다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈju/"
+    },
+    "laughed": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "웃었다",
+          "en": "past tense of laugh",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 쥐의 말에 대해 즐거움이나 경멸을 느끼며 반응함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "laugh"
+        },
+        {
+          "label": "과거",
+          "form": "laughed"
+        },
+        {
+          "label": "과거분사",
+          "form": "laughed"
+        },
+        {
+          "label": "현재분사",
+          "form": "laughing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "laughs"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "giggled",
+        "chuckled"
+      ],
+      "antonyms": [
+        "cried",
+        "frowned"
+      ],
+      "confusables": [
+        {
+          "word": "learned",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "laughed at",
+        "laughed loudly"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They all laughed at the joke.",
+          "ko": "그들은 모두 농담에 웃었다."
+        }
+      ],
+      "koreanTips": [
+        "과거형은 규칙적으로 '-ed'가 붙는다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɫæft/"
+    },
+    "how": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "어떻게",
+          "en": "in what way; to what extent",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 쥐의 말에 대해 의문을 제기하며 반응함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "why",
+        "what way"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "now",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "How could",
+        "How did it happen"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "How did you get here?",
+          "ko": "여기 어떻게 왔어요?"
+        }
+      ],
+      "koreanTips": [
+        "질문문에서 '방법'을 묻는 부사이다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhaʊ/"
+    },
+    "could": {
+      "pos": "modal verb",
+      "meanings": [
+        {
+          "ko": "할 수 있을까",
+          "en": "past ability or possibility",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 쥐의 말에 대해 가능성 여부를 묻는 표현",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "can",
+        "might"
+      ],
+      "antonyms": [
+        "couldn't"
+      ],
+      "confusables": [
+        {
+          "word": "should",
+          "note": "의무와 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "Could a tiny mouse help",
+        "could not believe"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Could you help me?",
+          "ko": "도와줄 수 있어요?"
+        }
+      ],
+      "koreanTips": [
+        "능력이나 가능성을 묻는 과거형 모달 동사이다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈkʊd/"
+    },
+    "tiny": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "아주 작은",
+          "en": "very small in size",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐의 크기가 작고 약하다는 점을 강조함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "tiny"
+        },
+        {
+          "label": "비교급",
+          "form": "tinier"
+        },
+        {
+          "label": "최상급",
+          "form": "tiniest"
+        },
+        {
+          "label": "부사형",
+          "form": "tinily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "small",
+        "miniature"
+      ],
+      "antonyms": [
+        "huge",
+        "massive"
+      ],
+      "confusables": [
+        {
+          "word": "tine",
+          "note": "철자 오류 주의"
+        }
+      ],
+      "collocations": [
+        "a tiny mouse",
+        "tiny hands"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It was a tiny room.",
+          "ko": "그 방은 아주 작았다."
+        }
+      ],
+      "koreanTips": [
+        "크기나 양이 매우 적음을 나타내는 형용사이다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtaɪni/"
+    },
+    "big": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "큰",
+          "en": "large in size",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자의 크기와 권력을 강조함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "big"
+        },
+        {
+          "label": "비교급",
+          "form": "bigger"
+        },
+        {
+          "label": "최상급",
+          "form": "biggest"
+        },
+        {
+          "label": "부사형",
+          "form": "bigly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "large",
+        "huge"
+      ],
+      "antonyms": [
+        "small",
+        "tiny"
+      ],
+      "confusables": [
+        {
+          "word": "pig",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a big lion",
+        "big problem"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "That is a big house.",
+          "ko": "그건 큰 집이다."
+        }
+      ],
+      "koreanTips": [
+        "크기나 중요도가 높음을 나타내는 형용사이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbɪɡ/"
+    },
+    "but": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "하지만",
+          "en": "used to introduce contrast",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 쥐를 놓아주는 결정을 이끌어내는 전환",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "however",
+        "yet"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "put",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "but he let",
+        "but still"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It's raining, but I still went out.",
+          "ko": "비가 오지만 나는 그래도 나왔다."
+        }
+      ],
+      "koreanTips": [
+        "반대되는 사실이나 생각을 연결할 때 사용한다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbət/"
+    },
+    "he": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그는",
+          "en": "third person masculine pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 자신의 위험 상황을 알리기 위해 큰 소리로 울부짖음",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "him"
+      ],
+      "antonyms": [
+        "she",
+        "it"
+      ],
+      "confusables": [
+        {
+          "word": "we",
+          "note": "인칭 혼동 주의"
+        }
+      ],
+      "collocations": [
+        "he let",
+        "he said"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He is tall.",
+          "ko": "그는 키가 크다."
+        }
+      ],
+      "koreanTips": [
+        "남성 대명사로, 주어 역할을 한다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhi/"
+    },
+    "few": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "몇 개의",
+          "en": "a small number of things",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 함정에 걸린 후 짧은 시간 이후의 상황 전환",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "some",
+        "a couple of"
+      ],
+      "antonyms": [
+        "many",
+        "much"
+      ],
+      "confusables": [
+        {
+          "word": "view",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a few days later",
+        "a few minutes ago"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I'll be there in a few minutes.",
+          "ko": "몇 분 후에 도착할게요."
+        }
+      ],
+      "koreanTips": [
+        "'a few'는 양이 적지만 있는 것을 의미한다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfju/"
+    },
+    "days": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "날들",
+          "en": "units of time (24 hours)",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "시간의 경과를 나타내며, 이야기의 전개를 연결함",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "day"
+        },
+        {
+          "label": "복수",
+          "form": "days"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "times",
+        "periods"
+      ],
+      "antonyms": [
+        "nights"
+      ],
+      "confusables": [
+        {
+          "word": "deys",
+          "note": "철자 오류 주의"
+        }
+      ],
+      "collocations": [
+        "a few days later",
+        "many days ago"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It happened a few days ago.",
+          "ko": "그 일은 며칠 전에 일어났다."
+        }
+      ],
+      "koreanTips": [
+        "복수형은 '-s'가 붙는다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdeɪz/"
+    },
+    "later": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "나중에",
+          "en": "after the time mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이전 사건 이후의 시간적 전환을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "afterwards",
+        "subsequently"
+      ],
+      "antonyms": [
+        "earlier",
+        "before"
+      ],
+      "confusables": [
+        {
+          "word": "latter",
+          "note": "의미 혼동 주의"
+        }
+      ],
+      "collocations": [
+        "a few days later",
+        "see you later"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "We met again later.",
+          "ko": "우리는 나중에 다시 만났다."
+        }
+      ],
+      "koreanTips": [
+        "시간의 순서를 나타내며, '~이후에'의 의미를 갖는다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫeɪtɝ/"
+    },
+    "hunter's": {
+      "pos": "noun (possessive)",
+      "meanings": [
+        {
+          "ko": "사냥꾼의",
+          "en": "belonging to a hunter",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "그물이 사냥꾼의 소유물임을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "trapper's",
+        "poacher's"
+      ],
+      "antonyms": [],
+      "confusables": [
+        {
+          "word": "hunters",
+          "note": "소유격과 복수형 혼동 주의"
+        }
+      ],
+      "collocations": [
+        "a hunter's net",
+        "hunter's trap"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is a hunter's weapon.",
+          "ko": "이것은 사냥꾼의 무기이다."
+        }
+      ],
+      "koreanTips": [
+        "소유격으로 '~의 것'을 나타낸다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈhəntɝz/"
+    },
+    "net": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "그물",
+          "en": "mesh used to catch animals/fish",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자의 자유를 회복시키기 위해 끊는 도구",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "net"
+        },
+        {
+          "label": "복수",
+          "form": "nets"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "trap",
+        "web"
+      ],
+      "antonyms": [
+        "freedom"
+      ],
+      "confusables": [
+        {
+          "word": "let",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "caught in a net",
+        "break the net"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Fishermen use nets to catch fish.",
+          "ko": "어부들은 물고기를 잡기 위해 그물을 사용한다."
+        }
+      ],
+      "koreanTips": [
+        "사냥이나 어업에 사용되는 도구이다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈnɛt/"
+    },
+    "roared": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "으르렁거렸다",
+          "en": "made a loud sound like a lion",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 자신의 고통이나 위험을 알리기 위해 큰 소리를 냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "roar"
+        },
+        {
+          "label": "과거",
+          "form": "roared"
+        },
+        {
+          "label": "과거분사",
+          "form": "roared"
+        },
+        {
+          "label": "현재분사",
+          "form": "roaring"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "roars"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "shouted",
+        "yelled"
+      ],
+      "antonyms": [
+        "whispered"
+      ],
+      "confusables": [
+        {
+          "word": "rolled",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "roared loudly",
+        "roared in pain"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The lion roared fiercely.",
+          "ko": "사자는 격렬하게 으르렁거렸다."
+        }
+      ],
+      "koreanTips": [
+        "동물의 강한 소리를 묘사할 때 사용된다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɹɔɹd/"
+    },
+    "loudly": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "크게",
+          "en": "in a loud manner",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자의 소리가 얼마나 강했는지를 강조함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "noisily",
+        "forcefully"
+      ],
+      "antonyms": [
+        "quietly",
+        "softly"
+      ],
+      "confusables": [
+        {
+          "word": "loud",
+          "note": "형용사와 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "roared loudly",
+        "speak loudly"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He spoke loudly.",
+          "ko": "그는 크게 말했다."
+        }
+      ],
+      "koreanTips": [
+        "형용사 'loud'에 '-ly'가 붙어 부사로 사용된다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɫaʊdɫi/"
+    },
+    "heard": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "들었다",
+          "en": "past tense of hear",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자의 소리를 인식하여 도움을 주기 위한 행동을 시작함",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "hear"
+        },
+        {
+          "label": "과거",
+          "form": "heard"
+        },
+        {
+          "label": "과거분사",
+          "form": "heard"
+        },
+        {
+          "label": "현재분사",
+          "form": "hearing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "hears"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "listened to",
+        "perceived"
+      ],
+      "antonyms": [
+        "ignored"
+      ],
+      "confusables": [
+        {
+          "word": "herd",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "heard him roar",
+        "heard a noise"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I heard a strange sound.",
+          "ko": "나는 이상한 소리를 들었다."
+        }
+      ],
+      "koreanTips": [
+        "과거형은 불규칙 변화 'hear → heard'이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhɝd/"
+    },
+    "him": {
+      "pos": "pronoun (object form)",
+      "meanings": [
+        {
+          "ko": "그를",
+          "en": "object form of 'he'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자의 소리를 들었으며, 그를 구하려는 의도를 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "he"
+      ],
+      "antonyms": [
+        "her",
+        "them"
+      ],
+      "confusables": [
+        {
+          "word": "ham",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "heard him roar",
+        "help him"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She saw him running.",
+          "ko": "그녀는 그가 달리는 것을 봤다."
+        }
+      ],
+      "koreanTips": [
+        "목적어로 사용되는 '그'를 나타낸다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhɪm/"
+    },
+    "she": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그녀는",
+          "en": "third person feminine pronoun",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 여성형으로 표현되어 있으며, 사자에게 도움을 주는 인물",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "her"
+      ],
+      "antonyms": [
+        "he",
+        "it"
+      ],
+      "confusables": [
+        {
+          "word": "see",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "she ran",
+        "she helped"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She likes music.",
+          "ko": "그녀는 음악을 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "여성 대명사로, 주어 역할을 한다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈʃi/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "쪽으로",
+          "en": "direction toward",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자에게 접근하기 위한 방향을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "toward",
+        "into"
+      ],
+      "antonyms": [
+        "away from"
+      ],
+      "confusables": [
+        {
+          "word": "too",
+          "note": "의미 혼동 주의"
+        }
+      ],
+      "collocations": [
+        "ran to the lion",
+        "go to school"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He walked to the store.",
+          "ko": "그는 가게로 걸어갔다."
+        }
+      ],
+      "koreanTips": [
+        "방향이나 목적지를 나타내는 전치사이다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "chewed": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "씹었다",
+          "en": "bit repeatedly with teeth",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 그물을 끊기 위해 이를 사용하여 물어뜯음",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "chew"
+        },
+        {
+          "label": "과거",
+          "form": "chewed"
+        },
+        {
+          "label": "과거분사",
+          "form": "chewed"
+        },
+        {
+          "label": "현재분사",
+          "form": "chewing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "chews"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "gnawed",
+        "bit"
+      ],
+      "antonyms": [
+        "swallowed"
+      ],
+      "confusables": [
+        {
+          "word": "choose",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "chewed through the net",
+        "chewed the food"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The dog chewed the bone.",
+          "ko": "개는 뼈를 씹었다."
+        }
+      ],
+      "koreanTips": [
+        "'chew'는 반복적으로 씹는 동작을 나타낸다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtʃud/"
+    },
+    "through": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "통해서",
+          "en": "moving from one side to another",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 그물을 통과하여 끊는 행동을 묘사함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "across",
+        "via"
+      ],
+      "antonyms": [
+        "around"
+      ],
+      "confusables": [
+        {
+          "word": "threw",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "chewed through the net",
+        "walk through the door"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He walked through the tunnel.",
+          "ko": "그는 터널을 통과했다."
+        }
+      ],
+      "koreanTips": [
+        "'through'는 공간을 통과하는 움직임을 나타낸다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈθɹu/"
+    },
+    "free": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "자유로운",
+          "en": "not imprisoned or restricted",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "사자가 쥐의 도움으로 갇힌 상태에서 벗어난 상태",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "free"
+        },
+        {
+          "label": "비교급",
+          "form": "freer"
+        },
+        {
+          "label": "최상급",
+          "form": "freest"
+        },
+        {
+          "label": "부사형",
+          "form": "freely"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "liberated",
+        "unrestricted"
+      ],
+      "antonyms": [
+        "imprisoned",
+        "captured"
+      ],
+      "confusables": [
+        {
+          "word": "fry",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "was free",
+        "set free"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Birds fly free.",
+          "ko": "새들은 자유롭게 난다."
+        }
+      ],
+      "koreanTips": [
+        "자유롭거나 제약이 없는 상태를 나타낸다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɹi/"
+    },
+    "even": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "심지어",
+          "en": "used to emphasize something unexpected",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "작은 친구라도 큰 도움이 될 수 있다는 사실을 강조함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "including",
+        "especially"
+      ],
+      "antonyms": [
+        "excluding"
+      ],
+      "confusables": [
+        {
+          "word": "event",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "even the smallest friend",
+        "even though"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Even children can understand this.",
+          "ko": "심지어 아이들도 이것을 이해할 수 있다."
+        }
+      ],
+      "koreanTips": [
+        "예상 밖의 사실이나 강조를 나타낼 때 사용된다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈivɪn/"
+    },
+    "smallest": {
+      "pos": "adjective (superlative)",
+      "meanings": [
+        {
+          "ko": "가장 작은",
+          "en": "least in size",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐처럼 작고 약해 보이는 친구라도 큰 도움이 될 수 있음을 강조함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "small"
+        },
+        {
+          "label": "비교급",
+          "form": "smaller"
+        },
+        {
+          "label": "최상급",
+          "form": "smallest"
+        },
+        {
+          "label": "부사형",
+          "form": "smallly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "tiniest",
+        "minuscule"
+      ],
+      "antonyms": [
+        "largest",
+        "biggest"
+      ],
+      "confusables": [
+        {
+          "word": "smell",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "the smallest friend",
+        "smallest mistake"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is the smallest room.",
+          "ko": "이곳은 가장 작은 방이다."
+        }
+      ],
+      "koreanTips": [
+        "최상급 형용사는 '가장 ~한'의 의미를 갖는다."
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsmɔɫəst/"
+    },
+    "friend": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "친구",
+          "en": "person you know well and like",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "쥐가 사자에게 도움을 준 관계를 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "friend"
+        },
+        {
+          "label": "복수",
+          "form": "friends"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "companion",
+        "ally"
+      ],
+      "antonyms": [
+        "enemy",
+        "stranger"
+      ],
+      "confusables": [
+        {
+          "word": "fright",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "the smallest friend",
+        "best friend"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is my best friend.",
+          "ko": "그녀는 내 가장 좋은 친구이다."
+        }
+      ],
+      "koreanTips": [
+        "사람뿐만 아니라 동물이나 사물에도 적용될 수 있다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɹɛnd/"
+    },
+    "can": {
+      "pos": "modal verb",
+      "meanings": [
+        {
+          "ko": "할 수 있다",
+          "en": "ability or possibility",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "작은 친구라도 큰 도움을 줄 수 있다는 가능성을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "could",
+        "may"
+      ],
+      "antonyms": [
+        "cannot"
+      ],
+      "confusables": [
+        {
+          "word": "can't",
+          "note": "부정형과 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "can be a great help",
+        "can do anything"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I can swim.",
+          "ko": "나는 수영할 수 있다."
+        }
+      ],
+      "koreanTips": [
+        "능력이나 가능성을 나타내는 조동사이다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈkæn/"
+    },
+    "be": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "to exist or represent",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "작은 친구가 큰 도움이 될 수 있다는 상태를 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "exist",
+        "represent"
+      ],
+      "antonyms": [
+        "cease to be"
+      ],
+      "confusables": [
+        {
+          "word": "bee",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "can be a great help",
+        "be kind"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "To be or not to be.",
+          "ko": "존재하거나 존재하지 않거나."
+        }
+      ],
+      "koreanTips": [
+        "'be'는 존재나 상태를 나타내는 기본 동사이다."
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbi/"
+    },
+    "great": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "큰",
+          "en": "large in degree or extent",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "작은 친구가 제공하는 도움이 얼마나 가치 있는지를 강조함",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "great"
+        },
+        {
+          "label": "비교급",
+          "form": "greater"
+        },
+        {
+          "label": "최상급",
+          "form": "greatest"
+        },
+        {
+          "label": "부사형",
+          "form": "greatly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "big",
+        "significant"
+      ],
+      "antonyms": [
+        "small",
+        "minor"
+      ],
+      "confusables": [
+        {
+          "word": "grate",
+          "note": "발음이 유사하여 혼동 가능"
+        }
+      ],
+      "collocations": [
+        "a great help",
+        "great idea"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "That was a great idea.",
+          "ko": "그건 정말 좋은 아이디어였다."
+        }
+      ],
+      "koreanTips": [
+        "크기나 중요도가 높음을 나타내는 형용사이다."
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɡɹeɪt/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "A lion was sleeping in the forest.",
+        "structure": {
+          "subject": {
+            "text": "A lion",
+            "label": "한 마리 사자"
+          },
+          "verb": {
+            "text": "was sleeping",
+            "label": "잠들어 있었다"
+          },
+          "complement": {
+            "text": "in the forest",
+            "label": "숲 안에서"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 사자가 숲 안에서 잠들어 있었다는 상태를 설명합니다. 'was sleeping'은 과거 진행형으로, 과거 어느 순간에 계속되고 있던 동작을 나타냅니다.",
+        "grammarPoints": [
+          "과거 진행형",
+          "전치사 'in'의 사용",
+          "관사 'a/the'의 구분"
+        ],
+        "examples": [
+          {
+            "en": "She was reading a book in the library.",
+            "ko": "그녀는 도서관에서 책을 읽고 있었다."
+          },
+          {
+            "en": "They were playing football in the park.",
+            "ko": "그들은 공원에서 축구를 하고 있었다."
+          }
+        ]
+      },
+      {
+        "text": "A little mouse ran over his nose.",
+        "structure": {
+          "subject": {
+            "text": "A little mouse",
+            "label": "작은 쥐 한 마리"
+          },
+          "verb": {
+            "text": "ran",
+            "label": "달렸다"
+          },
+          "object": {
+            "text": "over his nose",
+            "label": "그의 코 위로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 쥐가 사자의 코 위로 달려 지나갔다는 동작을 설명합니다. 'ran over'는 '위로 지나가다'라는 의미입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "전치사 'over'의 사용",
+          "소유격 'his'"
+        ],
+        "examples": [
+          {
+            "en": "The cat jumped over the fence.",
+            "ko": "고양이는 울타리 위로 뛰었다."
+          },
+          {
+            "en": "He walked over the bridge.",
+            "ko": "그는 다리 위로 걸었다."
+          }
+        ]
+      },
+      {
+        "text": "The lion woke up and caught the mouse.",
+        "structure": {
+          "subject": {
+            "text": "The lion",
+            "label": "사자"
+          },
+          "verb": {
+            "text": "woke up and caught",
+            "label": "깨어나서 잡았다"
+          },
+          "object": {
+            "text": "the mouse",
+            "label": "쥐를"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 사자가 깨어나서 쥐를 잡았다는 두 가지 동작을 연결어 'and'로 연결하여 표현했습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "연결어 'and'",
+          "목적어의 사용"
+        ],
+        "examples": [
+          {
+            "en": "He opened the door and entered.",
+            "ko": "그는 문을 열고 들어왔다."
+          },
+          {
+            "en": "She cooked dinner and cleaned the kitchen.",
+            "ko": "그녀는 저녁을 만들고 부엌을 청소했다."
+          }
+        ]
+      },
+      {
+        "text": "\"Please let me go,\" said the mouse.",
+        "structure": {
+          "subject": {
+            "text": "the mouse",
+            "label": "쥐가"
+          },
+          "verb": {
+            "text": "said",
+            "label": "말했다"
+          },
+          "object": {
+            "text": "\"Please let me go,\"",
+            "label": "\"제발 놔주세요\"라고"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 쥐가 사자에게 자유를 요청하는 말을 했다는 내용을 전달합니다. 직접 인용문이 포함되어 있습니다.",
+        "grammarPoints": [
+          "직접 인용문",
+          "과거형 동사",
+          "부탁의 표현 'please'"
+        ],
+        "examples": [
+          {
+            "en": "\"I love you,\" she whispered.",
+            "ko": "\"사랑해,\" 그녀가 속삭였다."
+          },
+          {
+            "en": "\"Don't worry,\" he replied.",
+            "ko": "\"걱정 마,\" 그가 답했다."
+          }
+        ]
+      },
+      {
+        "text": "\"Someday I will help you.\"",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나는"
+          },
+          "verb": {
+            "text": "will help",
+            "label": "도울 것이다"
+          },
+          "object": {
+            "text": "you",
+            "label": "당신을"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 쥐가 미래에 사자를 도울 것이라는 약속을 담고 있습니다. 'will'은 미래 시제를 나타냅니다.",
+        "grammarPoints": [
+          "미래 시제",
+          "1인칭 주어 'I'",
+          "목적어 'you'"
+        ],
+        "examples": [
+          {
+            "en": "I will visit you next week.",
+            "ko": "나는 다음 주에 당신을 방문할 것이다."
+          },
+          {
+            "en": "He will call you soon.",
+            "ko": "그는 곧 당신에게 전화할 것이다."
+          }
+        ]
+      },
+      {
+        "text": "The lion laughed.",
+        "structure": {
+          "subject": {
+            "text": "The lion",
+            "label": "사자"
+          },
+          "verb": {
+            "text": "laughed",
+            "label": "웃었다"
+          }
+        },
+        "pattern": {
+          "name": "S+V",
+          "note": "주어 + 동사"
+        },
+        "explanation": "이 문장은 사자가 쥐의 말에 대해 웃었다는 반응을 나타냅니다. 단순한 과거형 동사만으로 구성되어 있습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "자동사",
+          "단순 문장"
+        ],
+        "examples": [
+          {
+            "en": "She smiled.",
+            "ko": "그녀는 미소를 지었다."
+          },
+          {
+            "en": "He cried.",
+            "ko": "그는 울었다."
+          }
+        ]
+      },
+      {
+        "text": "How could a tiny mouse help a big lion?",
+        "structure": {
+          "subject": {
+            "text": "a tiny mouse",
+            "label": "작은 쥐가"
+          },
+          "verb": {
+            "text": "could help",
+            "label": "도울 수 있을까"
+          },
+          "object": {
+            "text": "a big lion",
+            "label": "큰 사자를"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 사자가 쥐의 말에 대해 의문을 제기하며 반응한 것입니다. 'could'는 가능성에 대한 질문을 나타냅니다.",
+        "grammarPoints": [
+          "의문문",
+          "모달 동사 'could'",
+          "형용사의 사용"
+        ],
+        "examples": [
+          {
+            "en": "How could you forget?",
+            "ko": "어떻게 그걸 잊을 수 있니?"
+          },
+          {
+            "en": "Why could he not come?",
+            "ko": "왜 그는 올 수 없었을까?"
+          }
+        ]
+      },
+      {
+        "text": "But he let the mouse go.",
+        "structure": {
+          "subject": {
+            "text": "he",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "let",
+            "label": "놓아주었다"
+          },
+          "object": {
+            "text": "the mouse go",
+            "label": "쥐를 가게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 사자가 쥐를 자유롭게 해준다는 결정을 나타냅니다. 'let sb go'는 '~을 놓아주다'라는 의미입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "목적어 + 원형 동사 구조",
+          "전환어 'but'"
+        ],
+        "examples": [
+          {
+            "en": "He let her leave.",
+            "ko": "그는 그녀가 떠나게 했다."
+          },
+          {
+            "en": "They let us enter.",
+            "ko": "그들은 우리가 들어가게 했다."
+          }
+        ]
+      },
+      {
+        "text": "A few days later, the lion was caught in a hunter's net.",
+        "structure": {
+          "subject": {
+            "text": "the lion",
+            "label": "사자"
+          },
+          "verb": {
+            "text": "was caught",
+            "label": "걸렸다"
+          },
+          "complement": {
+            "text": "in a hunter's net",
+            "label": "사냥꾼의 그물 안에"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 사자가 사냥꾼의 그물에 걸렸다는 상태를 설명합니다. 'was caught'는 수동태입니다.",
+        "grammarPoints": [
+          "수동태",
+          "전치사 'in'",
+          "소유격 'hunter's'"
+        ],
+        "examples": [
+          {
+            "en": "The thief was caught by police.",
+            "ko": "도둑은 경찰에 의해 잡혔다."
+          },
+          {
+            "en": "The letter was sent yesterday.",
+            "ko": "편지는 어제 보내졌다."
+          }
+        ]
+      },
+      {
+        "text": "He roared loudly.",
+        "structure": {
+          "subject": {
+            "text": "He",
+            "label": "그는"
+          },
+          "verb": {
+            "text": "roared",
+            "label": "으르렁거렸다"
+          },
+          "complement": {
+            "text": "loudly",
+            "label": "크게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 사자가 큰 소리로 으르렁거렸다는 상태를 설명합니다. 'loudly'는 부사로 동작의 방식을 설명합니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "부사의 사용",
+          "자동사"
+        ],
+        "examples": [
+          {
+            "en": "She sang beautifully.",
+            "ko": "그녀는 아름답게 노래했다."
+          },
+          {
+            "en": "He spoke softly.",
+            "ko": "그는 부드럽게 말했다."
+          }
+        ]
+      },
+      {
+        "text": "The little mouse heard him.",
+        "structure": {
+          "subject": {
+            "text": "The little mouse",
+            "label": "작은 쥐"
+          },
+          "verb": {
+            "text": "heard",
+            "label": "들었다"
+          },
+          "object": {
+            "text": "him",
+            "label": "그를"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 쥐가 사자의 소리를 들었다는 사실을 전달합니다. 'heard'는 과거형 동사입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "목적어 'him'",
+          "소유격과 목적어의 구분"
+        ],
+        "examples": [
+          {
+            "en": "I saw her yesterday.",
+            "ko": "나는 어제 그녀를 봤다."
+          },
+          {
+            "en": "He called me.",
+            "ko": "그는 나에게 전화를 걸었다."
+          }
+        ]
+      },
+      {
+        "text": "She ran to the lion and chewed through the net.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "그녀는"
+          },
+          "verb": {
+            "text": "ran ... and chewed",
+            "label": "달렸고 ... 씹었다"
+          },
+          "object": {
+            "text": "to the lion ... through the net",
+            "label": "사자에게 ... 그물을 통해"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어 + 동사 + 목적어"
+        },
+        "explanation": "이 문장은 쥐가 사자에게 달려가서 그물을 씹어 끊었다는 두 가지 동작을 연결어 'and'로 연결하여 표현했습니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "전치사 'to'와 'through'",
+          "연결어 'and'"
+        ],
+        "examples": [
+          {
+            "en": "He walked to the store and bought milk.",
+            "ko": "그는 가게로 걸어가서 우유를 샀다."
+          },
+          {
+            "en": "She picked up the phone and answered.",
+            "ko": "그녀는 전화를 집어들고 받았다."
+          }
+        ]
+      },
+      {
+        "text": "The lion was free.",
+        "structure": {
+          "subject": {
+            "text": "The lion",
+            "label": "사자"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였다"
+          },
+          "complement": {
+            "text": "free",
+            "label": "자유로운"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 사자가 자유로워졌다는 상태를 설명합니다. 'was free'는 '자유로웠다'는 의미입니다.",
+        "grammarPoints": [
+          "과거형 동사",
+          "형용사 보어",
+          "상태 표현"
+        ],
+        "examples": [
+          {
+            "en": "The bird was happy.",
+            "ko": "새는 행복했다."
+          },
+          {
+            "en": "The room was clean.",
+            "ko": "방은 깨끗했다."
+          }
+        ]
+      },
+      {
+        "text": "Even the smallest friend can be a great help.",
+        "structure": {
+          "subject": {
+            "text": "Even the smallest friend",
+            "label": "심지어 가장 작은 친구"
+          },
+          "verb": {
+            "text": "can be",
+            "label": "될 수 있다"
+          },
+          "complement": {
+            "text": "a great help",
+            "label": "큰 도움"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어 + 동사 + 보어"
+        },
+        "explanation": "이 문장은 작은 친구라도 큰 도움이 될 수 있다는 교훈을 담고 있습니다. 'can be'는 가능성을 나타냅니다.",
+        "grammarPoints": [
+          "모달 동사 'can'",
+          "최상급 형용사",
+          "강조어 'even'"
+        ],
+        "examples": [
+          {
+            "en": "Anyone can learn English.",
+            "ko": "누구든지 영어를 배울 수 있다."
+          },
+          {
+            "en": "Even a child can solve this.",
+            "ko": "심지어 아이도 이것을 풀 수 있다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "숲 속에서 사자가 잠들어 있었다. 작은 쥐가 그의 코 위로 달려 지나갔다. 사자는 깨어나서 쥐를 잡았다. \"제발 놔주세요,\" 쥐가 말했다. \"언젠가 제가 도와드릴게요.\" 사자는 웃었다. 작은 쥐가 큰 사자를 어떻게 도울 수 있을까? 하지만 그는 쥐를 놔주었다. 며칠 후, 사자는 사냥꾼의 그물에 걸렸다. 그는 크게 으르렁거렸다. 작은 쥐가 그 소리를 들었다. 그녀는 사자에게 달려가서 그물을 씹어 끊었다. 사자는 자유로워졌다. 심지어 가장 작은 친구라도 큰 도움이 될 수 있다.",
+  "keyVocab": [
+    "sleeping",
+    "caught",
+    "mouse",
+    "lion",
+    "help"
+  ],
+  "quiz": {
+    "question": "사자가 쥐를 잡은 후 어떤 말을 들었습니까?",
+    "answer": "쥐가 \"제발 놔주세요. 언젠가 제가 도와드릴게요\"라고 말했습니다."
+  },
+  "generated_at": "2026-02-20T10:47:20.823101+09:00"
+}

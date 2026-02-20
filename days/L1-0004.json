@@ -1,0 +1,2346 @@
+{
+  "num": "0004",
+  "category": "L1",
+  "source": {
+    "title": "The Three Fish",
+    "author": "Panchatantra (adapted)",
+    "license": "Public Domain",
+    "url": "https://storybookscanada.ca"
+  },
+  "passage": "Three fish lived in a pond. The first fish was very smart. The second fish was clever. The third fish was lazy. One day, a fisherman came to the pond. The smart fish swam away to the river. The clever fish pretended to be dead. The fisherman threw it back. But the lazy fish did nothing. The fisherman caught it easily. The smart fish and the clever fish lived happily. They learned that it is good to think ahead.",
+  "audio": {
+    "passage": "audio/L1-0004.mp3",
+    "words": {
+      "three": "audio/L1-0004-three.mp3",
+      "fish": "audio/L1-0004-fish.mp3",
+      "lived": "audio/L1-0004-lived.mp3",
+      "in": "audio/L1-0004-in.mp3",
+      "a": "audio/L1-0004-a.mp3",
+      "pond": "audio/L1-0004-pond.mp3",
+      "the": "audio/L1-0004-the.mp3",
+      "first": "audio/L1-0004-first.mp3",
+      "was": "audio/L1-0004-was.mp3",
+      "very": "audio/L1-0004-very.mp3",
+      "smart": "audio/L1-0004-smart.mp3",
+      "second": "audio/L1-0004-second.mp3",
+      "clever": "audio/L1-0004-clever.mp3",
+      "third": "audio/L1-0004-third.mp3",
+      "lazy": "audio/L1-0004-lazy.mp3",
+      "day": "audio/L1-0004-day.mp3",
+      "came": "audio/L1-0004-came.mp3",
+      "to": "audio/L1-0004-to.mp3",
+      "swam": "audio/L1-0004-swam.mp3",
+      "away": "audio/L1-0004-away.mp3",
+      "river": "audio/L1-0004-river.mp3",
+      "pretended": "audio/L1-0004-pretended.mp3",
+      "dead": "audio/L1-0004-dead.mp3",
+      "threw": "audio/L1-0004-threw.mp3",
+      "back": "audio/L1-0004-back.mp3",
+      "but": "audio/L1-0004-but.mp3",
+      "nothing": "audio/L1-0004-nothing.mp3",
+      "did": "audio/L1-0004-did.mp3",
+      "caught": "audio/L1-0004-caught.mp3",
+      "easily": "audio/L1-0004-easily.mp3",
+      "and": "audio/L1-0004-and.mp3",
+      "happily": "audio/L1-0004-happily.mp3",
+      "learned": "audio/L1-0004-learned.mp3",
+      "that": "audio/L1-0004-that.mp3",
+      "it": "audio/L1-0004-it.mp3"
+    }
+  },
+  "words": {
+    "three": {
+      "pos": "adjective (numeral)",
+      "meanings": [
+        {
+          "ko": "셋",
+          "en": "the number three",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 '셋'이라는 수량을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "3"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "three fish",
+        "three people"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I have three cats.",
+          "ko": "나에게는 고양이 세 마리가 있다."
+        }
+      ],
+      "koreanTips": [
+        "숫자 + 명사는 영어에서 자연스럽게 연결됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈθɹi/"
+    },
+    "fish": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "물고기",
+          "en": "aquatic animal",
+          "primary": true
+        },
+        {
+          "ko": "물고기들",
+          "en": "plural form of fish"
+        }
+      ],
+      "contextMeaning": "여기서는 '물고기들'을 의미하며, 복수 형태임",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "fish"
+        },
+        {
+          "label": "복수",
+          "form": "fish"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "sea creature",
+        "aquatic life"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "catch fish",
+        "fresh fish"
+      ],
+      "idioms": [
+        {
+          "phrase": "like a fish out of water",
+          "ko": "감쪽같이 어울리지 않는 사람"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We caught some fish yesterday.",
+          "ko": "우리는 어제 물고기를 잡았다."
+        }
+      ],
+      "koreanTips": [
+        "'Fish'는 단수와 복수가 같음. 'Fishes'는 종류를 강조할 때 사용"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɪʃ/"
+    },
+    "lived": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "살았다",
+          "en": "past tense of live",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "과거에 일어난 행동으로 '살았다'라는 뜻",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "live"
+        },
+        {
+          "label": "과거",
+          "form": "lived"
+        },
+        {
+          "label": "과거분사",
+          "form": "lived"
+        },
+        {
+          "label": "현재분사",
+          "form": "living"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "lives"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "resided",
+        "dwelt"
+      ],
+      "antonyms": [
+        "died"
+      ],
+      "confusables": [],
+      "collocations": [
+        "live in",
+        "live with"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They lived in New York for five years.",
+          "ko": "그들은 뉴욕에서 5년 동안 살았다."
+        }
+      ],
+      "koreanTips": [
+        "'Live'는 '살다', 'Reside'는 더 격식 있는 표현"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫaɪvd/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안에",
+          "en": "inside something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "장소 안에 있다는 것을 나타내는 전치사",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "inside"
+      ],
+      "antonyms": [
+        "out"
+      ],
+      "confusables": [],
+      "collocations": [
+        "in the house",
+        "in the morning"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book is in my bag.",
+          "ko": "책은 내 가방 안에 있다."
+        }
+      ],
+      "koreanTips": [
+        "'In'은 공간 안쪽을 나타낼 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪn/"
+    },
+    "a": {
+      "pos": "article (indefinite)",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "one unspecified thing",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "특정하지 않은 한 마리의 물고기를 지칭함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "one"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "a fish",
+        "a man"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw a dog today.",
+          "ko": "오늘 개 한 마리를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "'A/an'은 불특정 관사를 의미하며, 한국어에서는 생략되는 경우 많음"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "pond": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "연못",
+          "en": "small body of water",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 사는 작은 물웅덩이",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "pond"
+        },
+        {
+          "label": "복수",
+          "form": "ponds"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "pool",
+        "lake"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "swim in a pond",
+        "pond water"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Ducks like to swim in ponds.",
+          "ko": "오리는 연못에서 수영하는 걸 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'Pond'는 작고 인공적인 물웅덩이, 'Lake'는 큰 자연호수"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈpɑnd/"
+    },
+    "the": {
+      "pos": "article (definite)",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "used before specific nouns",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이미 언급되었거나 특정한 대상을 가리킬 때 사용",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the fish",
+        "the river"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The sun rises every day.",
+          "ko": "태양은 매일 뜬다."
+        }
+      ],
+      "koreanTips": [
+        "'The'는 특정한 대상을 가리킬 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "first": {
+      "pos": "adjective (ordinal)",
+      "meanings": [
+        {
+          "ko": "첫 번째",
+          "en": "coming before all others",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "세 마리 중 첫 번째 물고기를 지칭함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "initial",
+        "foremost"
+      ],
+      "antonyms": [
+        "last"
+      ],
+      "confusables": [],
+      "collocations": [
+        "first place",
+        "first time"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She finished first in the race.",
+          "ko": "그녀는 경주에서 1등했다."
+        }
+      ],
+      "koreanTips": [
+        "'First'는 순서를 나타내며, 앞에 관사 'the'가 붙는 경우가 많음"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɝst/"
+    },
+    "was": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "였었다",
+          "en": "past tense of 'be'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "과거의 상태를 설명하는 동사",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "were"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "was happy",
+        "was tired"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He was very kind.",
+          "ko": "그는 매우 친절했다."
+        }
+      ],
+      "koreanTips": [
+        "'Was'는 단수 주어와 함께 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɑz/"
+    },
+    "very": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "매우",
+          "en": "extremely",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "형용사 'smart'를 강조하기 위해 사용됨",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "extremely",
+        "really"
+      ],
+      "antonyms": [
+        "barely"
+      ],
+      "confusables": [],
+      "collocations": [
+        "very smart",
+        "very tired"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It's very cold today.",
+          "ko": "오늘은 매우 춥다."
+        }
+      ],
+      "koreanTips": [
+        "'Very'는 형용사나 부사를 수식할 때 많이 쓰임"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈvɛɹi/"
+    },
+    "smart": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "똑똑한",
+          "en": "intelligent",
+          "primary": true
+        },
+        {
+          "ko": "패션 감각이 좋은",
+          "en": "stylish"
+        }
+      ],
+      "contextMeaning": "첫 번째 물고기가 지적 능력이 뛰어남을 나타냄",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "smart"
+        },
+        {
+          "label": "비교급",
+          "form": "smarter"
+        },
+        {
+          "label": "최상급",
+          "form": "smartest"
+        },
+        {
+          "label": "부사형",
+          "form": "smartly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "clever",
+        "intelligent"
+      ],
+      "antonyms": [
+        "stupid",
+        "foolish"
+      ],
+      "confusables": [
+        {
+          "word": "start",
+          "note": "발음이 유사하여 혼동하기 쉬움"
+        }
+      ],
+      "collocations": [
+        "smart student",
+        "smart phone"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is very smart at math.",
+          "ko": "그녀는 수학에 매우 똑똑하다."
+        }
+      ],
+      "koreanTips": [
+        "'Smart'는 '지적인' 또는 '패션 감각이 좋은' 두 가지 의미가 있음"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsmɑɹt/"
+    },
+    "second": {
+      "pos": "adjective (ordinal)",
+      "meanings": [
+        {
+          "ko": "두 번째",
+          "en": "next after the first",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 번째 물고기를 지칭함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "next"
+      ],
+      "antonyms": [
+        "first"
+      ],
+      "confusables": [],
+      "collocations": [
+        "second place",
+        "second chance"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is my second try.",
+          "ko": "이건 내 두 번째 시도야."
+        }
+      ],
+      "koreanTips": [
+        "'Second'는 순서를 나타내며, 'two'와 혼동하지 말 것"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsɛkənd/"
+    },
+    "clever": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "재치 있는",
+          "en": "quick-witted or skillful",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 번째 물고기가 머리가 좋고 기지를 발휘한다는 뜻",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "clever"
+        },
+        {
+          "label": "비교급",
+          "form": "cleverer"
+        },
+        {
+          "label": "최상급",
+          "form": "cleverest"
+        },
+        {
+          "label": "부사형",
+          "form": "cleverly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "smart",
+        "ingenious"
+      ],
+      "antonyms": [
+        "stupid",
+        "foolish"
+      ],
+      "confusables": [],
+      "collocations": [
+        "clever idea",
+        "clever solution"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "That was a clever trick.",
+          "ko": "그건 정말 재치 있는 속임수였다."
+        }
+      ],
+      "koreanTips": [
+        "'Clever'는 'smart'보다 더 기지를 발휘하는 사람을 의미함"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈkɫɛvɝ/"
+    },
+    "third": {
+      "pos": "adjective (ordinal)",
+      "meanings": [
+        {
+          "ko": "세 번째",
+          "en": "coming after the second",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "세 번째 물고기를 지칭함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "last"
+      ],
+      "antonyms": [
+        "first"
+      ],
+      "confusables": [],
+      "collocations": [
+        "third place",
+        "third time"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He got third prize.",
+          "ko": "그는 3등상을 받았다."
+        }
+      ],
+      "koreanTips": [
+        "'Third'는 순서를 나타내며, 'three'와 구분해야 함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈθɝd/"
+    },
+    "lazy": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "게으른",
+          "en": "not liking to work or use energy",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "세 번째 물고기가 일을 싫어하고 게으르다는 뜻",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "lazy"
+        },
+        {
+          "label": "비교급",
+          "form": "lazier"
+        },
+        {
+          "label": "최상급",
+          "form": "laziest"
+        },
+        {
+          "label": "부사형",
+          "form": "lazily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "idle",
+        "sluggish"
+      ],
+      "antonyms": [
+        "hardworking",
+        "diligent"
+      ],
+      "confusables": [],
+      "collocations": [
+        "lazy person",
+        "lazy afternoon"
+      ],
+      "idioms": [
+        {
+          "phrase": "lazy as a pig",
+          "ko": "돼지처럼 게으른"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He's too lazy to clean his room.",
+          "ko": "그는 방 청소를 하기엔 너무 게으르다."
+        }
+      ],
+      "koreanTips": [
+        "'Lazy'는 '게으른'이라는 의미로 부정적인 뉘앙스"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɫeɪzi/"
+    },
+    "day": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "하루",
+          "en": "24-hour period",
+          "primary": true
+        },
+        {
+          "ko": "낮",
+          "en": "daytime"
+        }
+      ],
+      "contextMeaning": "하루라는 시간을 나타냄",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "day"
+        },
+        {
+          "label": "복수",
+          "form": "days"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "24 hours",
+        "sunlight hours"
+      ],
+      "antonyms": [
+        "night"
+      ],
+      "confusables": [],
+      "collocations": [
+        "one day",
+        "every day"
+      ],
+      "idioms": [
+        {
+          "phrase": "have a nice day",
+          "ko": "좋은 하루 보내세요"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'll see you tomorrow.",
+          "ko": "내일 보자."
+        }
+      ],
+      "koreanTips": [
+        "'Day'는 하루 전체를 의미하거나 낮 시간을 의미할 수도 있음"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈdeɪ/"
+    },
+    "came": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "왔다",
+          "en": "past tense of come",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "낚시꾼이 연못으로 왔다는 과거의 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "come"
+        },
+        {
+          "label": "과거",
+          "form": "came"
+        },
+        {
+          "label": "과거분사",
+          "form": "come"
+        },
+        {
+          "label": "현재분사",
+          "form": "coming"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "comes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "arrived"
+      ],
+      "antonyms": [
+        "left",
+        "went"
+      ],
+      "confusables": [],
+      "collocations": [
+        "come home",
+        "come here"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He came late yesterday.",
+          "ko": "그는 어제 늦게 왔다."
+        }
+      ],
+      "koreanTips": [
+        "'Come'은 '오다'의 의미로, 방향성이 중요함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkeɪm/"
+    },
+    "to": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~하기 위해",
+          "en": "indicating purpose",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "미리 생각하는 목적을 나타냄",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "for"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "plan to succeed",
+        "prepare to leave"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I study hard to pass the exam.",
+          "ko": "시험에 합격하기 위해 열심히 공부한다."
+        }
+      ],
+      "koreanTips": [
+        "'To'는 목적을 나타낼 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈtu/"
+    },
+    "swam": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "수영했다",
+          "en": "past tense of swim",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 물속에서 움직인 행동을 나타냄",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "swim"
+        },
+        {
+          "label": "과거",
+          "form": "swam"
+        },
+        {
+          "label": "과거분사",
+          "form": "swum"
+        },
+        {
+          "label": "현재분사",
+          "form": "swimming"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "swims"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "floated",
+        "moved through water"
+      ],
+      "antonyms": [
+        "sank"
+      ],
+      "confusables": [],
+      "collocations": [
+        "swim fast",
+        "swim across"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I can swim well.",
+          "ko": "나는 수영을 잘한다."
+        }
+      ],
+      "koreanTips": [
+        "'Swim'은 수영 동작을 나타냄"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈswæm/"
+    },
+    "away": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "멀리",
+          "en": "at a distance",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 멀리 도망갔다는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "far"
+      ],
+      "antonyms": [
+        "near"
+      ],
+      "confusables": [],
+      "collocations": [
+        "run away",
+        "go away"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He ran away from danger.",
+          "ko": "그는 위험에서 도망쳤다."
+        }
+      ],
+      "koreanTips": [
+        "'Away'는 '멀리' 또는 '떨어진 곳으로'라는 의미"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/əˈweɪ/"
+    },
+    "river": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "강",
+          "en": "large flowing body of water",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 연못에서 강으로 도망간 장소",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "river"
+        },
+        {
+          "label": "복수",
+          "form": "rivers"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "stream",
+        "waterway"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "flowing river",
+        "cross the river"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The river flows into the sea.",
+          "ko": "강은 바다로 흐른다."
+        }
+      ],
+      "koreanTips": [
+        "'River'는 큰 물줄기, 'Stream'은 작은 개울"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹɪvɝ/"
+    },
+    "pretended": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "척했다",
+          "en": "acted as if something were true",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 번째 물고기가 죽은 척했다는 의미",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "pretend"
+        },
+        {
+          "label": "과거",
+          "form": "pretended"
+        },
+        {
+          "label": "과거분사",
+          "form": "pretended"
+        },
+        {
+          "label": "현재분사",
+          "form": "pretending"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "pretends"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "feigned",
+        "acted"
+      ],
+      "antonyms": [
+        "revealed"
+      ],
+      "confusables": [],
+      "collocations": [
+        "pretend to sleep",
+        "pretend not to know"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She pretended she didn't hear me.",
+          "ko": "그녀는 내가 말한 걸 못 들은 척했다."
+        }
+      ],
+      "koreanTips": [
+        "'Pretend'는 '척하다'라는 의미로, 실제 사실과 다르게 행동함"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/pɹiˈtɛndɪd/"
+    },
+    "dead": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "죽은",
+          "en": "no longer alive",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "물고기가 죽은 척했다는 의미",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "dead"
+        },
+        {
+          "label": "비교급",
+          "form": "deader"
+        },
+        {
+          "label": "최상급",
+          "form": "deadest"
+        },
+        {
+          "label": "부사형",
+          "form": "deadly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "lifeless",
+        "unconscious"
+      ],
+      "antonyms": [
+        "alive"
+      ],
+      "confusables": [],
+      "collocations": [
+        "dead body",
+        "dead silence"
+      ],
+      "idioms": [
+        {
+          "phrase": "as dead as a doornail",
+          "ko": "완전히 죽은 것처럼"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The plant looks dead.",
+          "ko": "그 식물은 죽은 것처럼 보인다."
+        }
+      ],
+      "koreanTips": [
+        "'Dead'는 '죽은'이라는 의미로, 생명이 없는 상태를 나타냄"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈdɛd/"
+    },
+    "threw": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "던졌다",
+          "en": "past tense of throw",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "낚시꾼이 물고기를 다시 연못에 던졌다는 의미",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "throw"
+        },
+        {
+          "label": "과거",
+          "form": "threw"
+        },
+        {
+          "label": "과거분사",
+          "form": "thrown"
+        },
+        {
+          "label": "현재분사",
+          "form": "throwing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "throws"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "cast",
+        "flung"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "throw away",
+        "throw the ball"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He threw the ball far.",
+          "ko": "그는 공을 멀리 던졌다."
+        }
+      ],
+      "koreanTips": [
+        "'Throw'는 무언가를 손으로 던지는 동작을 나타냄"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈθɹu/"
+    },
+    "back": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "뒤로",
+          "en": "in the reverse direction",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "낚시꾼이 물고기를 연못으로 되돌려 보냈다는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "return"
+      ],
+      "antonyms": [
+        "forward"
+      ],
+      "confusables": [],
+      "collocations": [
+        "go back",
+        "come back"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Please come back soon.",
+          "ko": "빨리 돌아와 주세요."
+        }
+      ],
+      "koreanTips": [
+        "'Back'은 '되돌아가다' 또는 '뒤로'라는 의미"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbæk/"
+    },
+    "but": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "하지만",
+          "en": "used to introduce contrast",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "게으른 물고기의 반응과 다른 물고기들의 반응을 대비함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "however",
+        "yet"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "but still",
+        "but then"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It was raining, but we went out.",
+          "ko": "비가 오고 있었지만 우리는 나갔다."
+        }
+      ],
+      "koreanTips": [
+        "'But'는 대조를 나타내는 접속사로, 앞뒤 문장을 연결함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈbət/"
+    },
+    "nothing": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "아무것도 하지 않았다",
+          "en": "not anything",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "게으른 물고기가 아무런 행동도 하지 않았다는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "everything"
+      ],
+      "confusables": [],
+      "collocations": [
+        "do nothing",
+        "say nothing"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He did nothing all day.",
+          "ko": "그는 하루 종일 아무것도 하지 않았다."
+        }
+      ],
+      "koreanTips": [
+        "'Nothing'은 부정적인 의미로 '아무것도 없다'는 뜻"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈnəθɪŋ/"
+    },
+    "did": {
+      "pos": "verb (auxiliary/past tense)",
+      "meanings": [
+        {
+          "ko": "했었다",
+          "en": "past tense of do",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "게으른 물고기가 아무것도 하지 않았다는 과거의 행동",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "do"
+        },
+        {
+          "label": "과거",
+          "form": "did"
+        },
+        {
+          "label": "과거분사",
+          "form": "done"
+        },
+        {
+          "label": "현재분사",
+          "form": "doing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "does"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "performed"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "did homework",
+        "did nothing"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "What did you do yesterday?",
+          "ko": "어제 뭐 했어?"
+        }
+      ],
+      "koreanTips": [
+        "'Did'는 과거 시제를 나타내며, 의문문에서도 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈdɪd/"
+    },
+    "caught": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "잡았다",
+          "en": "past tense of catch",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "낚시꾼이 게으른 물고기를 잡았다는 의미",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "catch"
+        },
+        {
+          "label": "과거",
+          "form": "caught"
+        },
+        {
+          "label": "과거분사",
+          "form": "caught"
+        },
+        {
+          "label": "현재분사",
+          "form": "catching"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "catches"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "captured",
+        "grabbed"
+      ],
+      "antonyms": [
+        "released"
+      ],
+      "confusables": [],
+      "collocations": [
+        "catch a fish",
+        "catch fire"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He caught a big fish.",
+          "ko": "그는 큰 물고기를 잡았다."
+        }
+      ],
+      "koreanTips": [
+        "'Catch'는 '잡다'라는 의미로, 물건이나 동물을 포획할 때 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkɑt/"
+    },
+    "easily": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "쉽게",
+          "en": "without difficulty",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "낚시꾼이 물고기를 쉽게 잡았다는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "simply",
+        "with ease"
+      ],
+      "antonyms": [
+        "difficultly"
+      ],
+      "confusables": [],
+      "collocations": [
+        "solve easily",
+        "finish easily"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She solved the problem easily.",
+          "ko": "그녀는 문제를 쉽게 해결했다."
+        }
+      ],
+      "koreanTips": [
+        "'-ly'로 끝나는 단어는 부사로, 동사를 수식함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈizəɫi/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or phrases",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 개의 물고기를 연결함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "also",
+        "plus"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "fish and chips",
+        "black and white"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I like apples and oranges.",
+          "ko": "나는 사과와 오렌지를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "'And'는 연결어로, 두 개 이상의 항목을 이을 때 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "happily": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "행복하게",
+          "en": "in a happy manner",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 물고기가 행복하게 살아갔다는 의미",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "joyfully",
+        "cheerfully"
+      ],
+      "antonyms": [
+        "sadly"
+      ],
+      "confusables": [],
+      "collocations": [
+        "live happily",
+        "smile happily"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They lived happily ever after.",
+          "ko": "그들은 행복하게 평생을 살았다."
+        }
+      ],
+      "koreanTips": [
+        "'-ly'로 끝나는 단어는 부사로, 형용사 'happy'에서 파생됨"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈhæpəɫi/"
+    },
+    "learned": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "배웠다",
+          "en": "past tense of learn",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "두 물고기가 교훈을 얻었다는 의미",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "learn"
+        },
+        {
+          "label": "과거",
+          "form": "learned"
+        },
+        {
+          "label": "과거분사",
+          "form": "learned"
+        },
+        {
+          "label": "현재분사",
+          "form": "learning"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "learns"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "discovered",
+        "realized"
+      ],
+      "antonyms": [
+        "forgot"
+      ],
+      "confusables": [],
+      "collocations": [
+        "learn quickly",
+        "learn from experience"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I learned how to cook.",
+          "ko": "나는 요리를 배웠다."
+        }
+      ],
+      "koreanTips": [
+        "'Learn'은 '배우다'라는 의미로, 새로운 지식이나 기술을 습득함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɫɝnd/"
+    },
+    "that": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그것이",
+          "en": "introduces a clause",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "교훈을 나타내는 내용을 소개함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "so that"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "think that",
+        "believe that"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I think that he is right.",
+          "ko": "그가 옳다고 생각한다."
+        }
+      ],
+      "koreanTips": [
+        "'That'은 문장을 연결하는 접속사로, 내용을 이어줌"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðæt/"
+    },
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것이",
+          "en": "refers to something previously mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "앞서 언급된 교훈을 가리킴",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "this"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "it is good",
+        "it works"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It is raining outside.",
+          "ko": "밖에 비가 오고 있다."
+        }
+      ],
+      "koreanTips": [
+        "'It'은 대명사로, 앞서 언급된 대상을 가리킴"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪt/"
+    },
+    "is": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "present tense of 'be'",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "현재 상태를 설명하는 동사",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "exists"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "it is good",
+        "he is smart"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It is sunny today.",
+          "ko": "오늘은 맑다."
+        }
+      ],
+      "koreanTips": [
+        "'Is'는 단수 주어와 함께 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪz/"
+    },
+    "good": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "좋은",
+          "en": "positive quality",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "미리 생각하는 것이 좋은 결과를 가져온다는 의미",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "good"
+        },
+        {
+          "label": "비교급",
+          "form": "better"
+        },
+        {
+          "label": "최상급",
+          "form": "best"
+        },
+        {
+          "label": "부사형",
+          "form": "well"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "nice",
+        "fine"
+      ],
+      "antonyms": [
+        "bad"
+      ],
+      "confusables": [],
+      "collocations": [
+        "good idea",
+        "good luck"
+      ],
+      "idioms": [
+        {
+          "phrase": "as good as gold",
+          "ko": "금처럼 좋은"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This is a good book.",
+          "ko": "이건 좋은 책이다."
+        }
+      ],
+      "koreanTips": [
+        "'Good'은 형용사, 'Well'은 부사로 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɡʊd/"
+    },
+    "think": {
+      "pos": "verb",
+      "meanings": [
+        {
+          "ko": "생각하다",
+          "en": "use your mind to consider something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "미리 생각하는 것이 중요하다는 의미",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "think"
+        },
+        {
+          "label": "과거",
+          "form": "thought"
+        },
+        {
+          "label": "과거분사",
+          "form": "thought"
+        },
+        {
+          "label": "현재분사",
+          "form": "thinking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "thinks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "consider",
+        "ponder"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "confusables": [],
+      "collocations": [
+        "think carefully",
+        "think about"
+      ],
+      "idioms": [
+        {
+          "phrase": "think outside the box",
+          "ko": "틀 밖의 사고를 하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Think before you speak.",
+          "ko": "말하기 전에 생각해라."
+        }
+      ],
+      "koreanTips": [
+        "'Think'는 '생각하다'라는 의미로, 마음을 쓰는 동사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈθɪŋk/"
+    },
+    "ahead": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "미리",
+          "en": "beforehand",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "미리 계획하거나 준비하는 것을 강조함",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "in advance"
+      ],
+      "antonyms": [
+        "behind"
+      ],
+      "confusables": [],
+      "collocations": [
+        "think ahead",
+        "plan ahead"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Plan ahead for the trip.",
+          "ko": "여행을 위해 미리 계획하세요."
+        }
+      ],
+      "koreanTips": [
+        "'Ahead'는 '앞으로' 또는 '미리'라는 의미"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/əˈhɛd/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "Three fish lived in a pond.",
+        "structure": {
+          "subject": {
+            "text": "Three fish",
+            "label": "셋의 물고기"
+          },
+          "verb": {
+            "text": "lived",
+            "label": "살았다"
+          },
+          "complement": {
+            "text": "in a pond",
+            "label": "연못 안에서"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 '셋의 물고기'가 '연못 안에서 살았다'는 내용입니다. 주어와 동사 그리고 보어로 구성되어 있습니다.",
+        "grammarPoints": [
+          "과거 시제",
+          "전치사 구"
+        ],
+        "examples": [
+          {
+            "en": "Many birds lived in trees.",
+            "ko": "많은 새들이 나무에서 살았다."
+          },
+          {
+            "en": "Children played in the park.",
+            "ko": "아이들이 공원에서 놀았다."
+          }
+        ]
+      },
+      {
+        "text": "The first fish was very smart.",
+        "structure": {
+          "subject": {
+            "text": "The first fish",
+            "label": "첫 번째 물고기"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였었다"
+          },
+          "complement": {
+            "text": "very smart",
+            "label": "매우 똑똑한"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 '첫 번째 물고기는 매우 똑똑했다'는 내용입니다. 주어와 동사 그리고 형용사 보어로 구성되어 있습니다.",
+        "grammarPoints": [
+          "형용사 보어",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "The boy was very tall.",
+            "ko": "그 소년은 매우 키가 컸다."
+          },
+          {
+            "en": "She was really kind.",
+            "ko": "그녀는 정말 친절했다."
+          }
+        ]
+      },
+      {
+        "text": "The second fish was clever.",
+        "structure": {
+          "subject": {
+            "text": "The second fish",
+            "label": "두 번째 물고기"
+          },
+          "verb": {
+            "text": "was",
+            "label": "였었다"
+          },
+          "complement": {
+            "text": "clever",
+            "label": "재치 있는"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 '두 번째 물고기는 재치 있었다'는 내용입니다. 형용사 보어를 사용한 S+V+C 구조입니다.",
+        "grammarPoints": [
+          "형용사 보어",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "The cake was delicious.",
+            "ko": "케이크는 맛있었다."
+          },
+          {
+            "en": "He was polite.",
+            "ko": "그는 예의 바빴다."
+          }
+        ]
+      },
+      {
+        "text": "The third fish was lazy.",
+        "structure": {
+          "subject": {
+            "text": "The third fish",
+            "label": "세 번째 물고기"
+          },
+          "verb": {
+            "text": "was",
+            "label": "게으르렀다"
+          },
+          "complement": {
+            "text": "lazy",
+            "label": "게으른"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 '세 번째 물고기는 게으르렀다'는 내용입니다. 형용사 보어를 사용한 S+V+C 구조입니다.",
+        "grammarPoints": [
+          "형용사 보어",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "The cat was sleepy.",
+            "ko": "고양이는 졸렸다."
+          },
+          {
+            "en": "The weather was hot.",
+            "ko": "날씨는 더웠다."
+          }
+        ]
+      },
+      {
+        "text": "One day, a fisherman came to the pond.",
+        "structure": {
+          "subject": {
+            "text": "a fisherman",
+            "label": "낚시꾼"
+          },
+          "verb": {
+            "text": "came",
+            "label": "왔다"
+          },
+          "complement": {
+            "text": "to the pond",
+            "label": "연못으로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 '어느 날, 낚시꾼이 연못으로 왔다'는 내용입니다. 전치사 구를 보어로 사용한 S+V+C 구조입니다.",
+        "grammarPoints": [
+          "전치사 구",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He came to school early.",
+            "ko": "그는 학교에 일찍 왔다."
+          },
+          {
+            "en": "She arrived at the station.",
+            "ko": "그녀는 역에 도착했다."
+          }
+        ]
+      },
+      {
+        "text": "The smart fish swam away to the river.",
+        "structure": {
+          "subject": {
+            "text": "The smart fish",
+            "label": "똑똑한 물고기"
+          },
+          "verb": {
+            "text": "swam",
+            "label": "수영했다"
+          },
+          "complement": {
+            "text": "away to the river",
+            "label": "강으로 멀리"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 '똑똑한 물고기가 강으로 멀리 수영했다'는 내용입니다. 방향을 나타내는 전치사 구를 보어로 사용했습니다.",
+        "grammarPoints": [
+          "전치사 구",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "The bird flew away.",
+            "ko": "새가 날아갔다."
+          },
+          {
+            "en": "He walked toward the door.",
+            "ko": "그는 문 쪽으로 걸어갔다."
+          }
+        ]
+      },
+      {
+        "text": "The clever fish pretended to be dead.",
+        "structure": {
+          "subject": {
+            "text": "The clever fish",
+            "label": "재치 있는 물고기"
+          },
+          "verb": {
+            "text": "pretended",
+            "label": "척했다"
+          },
+          "complement": {
+            "text": "to be dead",
+            "label": "죽은 척"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 '재치 있는 물고기가 죽은 척했다'는 내용입니다. 'To be' 구문을 사용한 보어입니다.",
+        "grammarPoints": [
+          "to-infinitive",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He pretended to sleep.",
+            "ko": "그는 자는 척했다."
+          },
+          {
+            "en": "She seemed to understand.",
+            "ko": "그녀는 이해한 것 같았다."
+          }
+        ]
+      },
+      {
+        "text": "The fisherman threw it back.",
+        "structure": {
+          "subject": {
+            "text": "The fisherman",
+            "label": "낚시꾼"
+          },
+          "verb": {
+            "text": "threw",
+            "label": "던졌다"
+          },
+          "object": {
+            "text": "it",
+            "label": "그것을"
+          },
+          "complement": {
+            "text": "back",
+            "label": "뒤로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어"
+        },
+        "explanation": "이 문장은 '낚시꾼이 그것을 다시 던졌다'는 내용입니다. 목적어와 보어가 함께 있는 구조입니다.",
+        "grammarPoints": [
+          "목적어와 보어",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He put the book on the table.",
+            "ko": "그는 책을 테이블 위에 놓았다."
+          },
+          {
+            "en": "She gave him a gift.",
+            "ko": "그녀는 그에게 선물을 주었다."
+          }
+        ]
+      },
+      {
+        "text": "But the lazy fish did nothing.",
+        "structure": {
+          "subject": {
+            "text": "the lazy fish",
+            "label": "게으른 물고기"
+          },
+          "verb": {
+            "text": "did",
+            "label": "했었다"
+          },
+          "object": {
+            "text": "nothing",
+            "label": "아무것도"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 '게으른 물고기는 아무것도 하지 않았다'는 내용입니다. 부정어 'nothing'을 목적어로 사용했습니다.",
+        "grammarPoints": [
+          "부정어",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He said nothing.",
+            "ko": "그는 아무것도 말하지 않았다."
+          },
+          {
+            "en": "She did her best.",
+            "ko": "그녀는 최선을 다했다."
+          }
+        ]
+      },
+      {
+        "text": "The fisherman caught it easily.",
+        "structure": {
+          "subject": {
+            "text": "The fisherman",
+            "label": "낚시꾼"
+          },
+          "verb": {
+            "text": "caught",
+            "label": "잡았다"
+          },
+          "object": {
+            "text": "it",
+            "label": "그것을"
+          },
+          "complement": {
+            "text": "easily",
+            "label": "쉽게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어"
+        },
+        "explanation": "이 문장은 '낚시꾼이 그것을 쉽게 잡았다'는 내용입니다. 부사 'easily'가 동사를 수식합니다.",
+        "grammarPoints": [
+          "부사",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "He solved the problem quickly.",
+            "ko": "그는 문제를 빠르게 해결했다."
+          },
+          {
+            "en": "She spoke clearly.",
+            "ko": "그녀는 명확하게 말했다."
+          }
+        ]
+      },
+      {
+        "text": "The smart fish and the clever fish lived happily.",
+        "structure": {
+          "subject": {
+            "text": "The smart fish and the clever fish",
+            "label": "똑똑한 물고기와 재치 있는 물고기"
+          },
+          "verb": {
+            "text": "lived",
+            "label": "살았다"
+          },
+          "complement": {
+            "text": "happily",
+            "label": "행복하게"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 '똑똑한 물고기와 재치 있는 물고기가 행복하게 살았다'는 내용입니다. 부사 'happily'가 동사를 수식합니다.",
+        "grammarPoints": [
+          "부사",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "They danced beautifully.",
+            "ko": "그들은 아름답게 춤췄다."
+          },
+          {
+            "en": "She smiled warmly.",
+            "ko": "그녀는 따뜻하게 미소 지었다."
+          }
+        ]
+      },
+      {
+        "text": "They learned that it is good to think ahead.",
+        "structure": {
+          "subject": {
+            "text": "They",
+            "label": "그들은"
+          },
+          "verb": {
+            "text": "learned",
+            "label": "배웠다"
+          },
+          "complement": {
+            "text": "that it is good to think ahead",
+            "label": "미리 생각하는 것이 좋다는 것을"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 '그들은 미리 생각하는 것이 좋다는 것을 배웠다'는 내용입니다. 'That' 절이 보어로 사용되었습니다.",
+        "grammarPoints": [
+          "that 절",
+          "과거 시제"
+        ],
+        "examples": [
+          {
+            "en": "I believe that he is honest.",
+            "ko": "나는 그가 정직하다고 믿는다."
+          },
+          {
+            "en": "She knows that it's important.",
+            "ko": "그녀는 그것이 중요하다는 것을 안다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "세 마리 물고기가 연못에 살고 있었다. 첫 번째 물고기는 매우 똑똑했다. 두 번째 물고기는 재치 있었다. 세 번째 물고기는 게으르렀다. 어느 날, 낚시꾼이 연못으로 왔다. 똑똑한 물고기는 강으로 멀리 수영해서 도망쳤다. 재치 있는 물고기는 죽은 척했다. 낚시꾼은 그것을 다시 연못에 던졌다. 하지만 게으른 물고기는 아무것도 하지 않았다. 낚시꾼은 그것을 쉽게 잡았다. 똑똑한 물고기와 재치 있는 물고기는 행복하게 살았다. 그들은 미리 생각하는 것이 좋다는 것을 배웠다.",
+  "keyVocab": [
+    "smart",
+    "clever",
+    "lazy",
+    "pretended",
+    "caught"
+  ],
+  "quiz": {
+    "question": "세 번째 물고기의 성격은 어떤가요?",
+    "answer": "게으른"
+  },
+  "generated_at": "2026-02-20T08:00:10.449370+09:00"
+}

@@ -1,0 +1,3396 @@
+{
+  "num": "0013",
+  "category": "L1",
+  "source": {
+    "title": "Cooking with Grandma",
+    "author": "VOA Learning English",
+    "license": "Public Domain",
+    "url": "https://learningenglish.voanews.com"
+  },
+  "passage": "Every Sunday, I visit my grandmother. She is a wonderful cook. She teaches me her recipes. Today, we are making chicken soup. First, we wash the chicken. Then, we cut carrots and potatoes into small pieces. We add water, salt, and pepper. The soup cooks for one hour. The kitchen fills with a wonderful smell. While we wait, Grandma tells me stories about her childhood. The soup is ready. We sit at the table and eat together. It is the best soup in the world.",
+  "audio": {
+    "passage": "audio/L1-0013.mp3",
+    "words": {
+      "every": "audio/L1-0013-every.mp3",
+      "sunday": "audio/L1-0013-sunday.mp3",
+      "i": "audio/L1-0013-i.mp3",
+      "visit": "audio/L1-0013-visit.mp3",
+      "my": "audio/L1-0013-my.mp3",
+      "grandmother": "audio/L1-0013-grandmother.mp3",
+      "she": "audio/L1-0013-she.mp3",
+      "is": "audio/L1-0013-is.mp3",
+      "a": "audio/L1-0013-a.mp3",
+      "wonderful": "audio/L1-0013-wonderful.mp3",
+      "cook": "audio/L1-0013-cook.mp3",
+      "teaches": "audio/L1-0013-teaches.mp3",
+      "me": "audio/L1-0013-me.mp3",
+      "her": "audio/L1-0013-her.mp3",
+      "recipes": "audio/L1-0013-recipes.mp3",
+      "today": "audio/L1-0013-today.mp3",
+      "we": "audio/L1-0013-we.mp3",
+      "are": "audio/L1-0013-are.mp3",
+      "making": "audio/L1-0013-making.mp3",
+      "chicken": "audio/L1-0013-chicken.mp3",
+      "soup": "audio/L1-0013-soup.mp3",
+      "first": "audio/L1-0013-first.mp3",
+      "wash": "audio/L1-0013-wash.mp3",
+      "the": "audio/L1-0013-the.mp3",
+      "then": "audio/L1-0013-then.mp3",
+      "cut": "audio/L1-0013-cut.mp3",
+      "carrots": "audio/L1-0013-carrots.mp3",
+      "and": "audio/L1-0013-and.mp3",
+      "potatoes": "audio/L1-0013-potatoes.mp3",
+      "into": "audio/L1-0013-into.mp3",
+      "childhood": "audio/L1-0013-childhood.mp3",
+      "sit": "audio/L1-0013-sit.mp3",
+      "at": "audio/L1-0013-at.mp3",
+      "table": "audio/L1-0013-table.mp3",
+      "eat": "audio/L1-0013-eat.mp3",
+      "together": "audio/L1-0013-together.mp3",
+      "it": "audio/L1-0013-it.mp3",
+      "best": "audio/L1-0013-best.mp3",
+      "in": "audio/L1-0013-in.mp3",
+      "world": "audio/L1-0013-world.mp3"
+    }
+  },
+  "words": {
+    "every": {
+      "pos": "determiner",
+      "meanings": [
+        {
+          "ko": "모든",
+          "en": "all",
+          "primary": true
+        },
+        {
+          "ko": "각각의",
+          "en": "each"
+        }
+      ],
+      "contextMeaning": "이 문장에서 '모든'이라는 뜻으로 사용되어, 특정한 요일(일요일)을 강조하는 역할을 합니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "each",
+        "all"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "every day",
+        "every week"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "We meet every Monday.",
+          "ko": "우리는 매주 월요일에 만난다."
+        },
+        {
+          "en": "She exercises every morning.",
+          "ko": "그녀는 매일 아침 운동한다."
+        }
+      ],
+      "koreanTips": [
+        "'every Sunday' (O) — '매 주 일요일' 의미",
+        "'every Sundays' (X) — 복수 형태 불필요"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɛvɝi/"
+    },
+    "sunday": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "일요일",
+          "en": "Sunday",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 '일요일'이라는 요일을 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "Sunday"
+        },
+        {
+          "label": "복수",
+          "form": "Sundays"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "weekend"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "on Sunday",
+        "Sunday morning"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I go to church on Sunday.",
+          "ko": "나는 일요일에 교회에 간다."
+        }
+      ],
+      "koreanTips": [
+        "요일은 대문자로 시작해야 함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsənˌdeɪ/"
+    },
+    "i": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "나",
+          "en": "I",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "화자가 자신을 가리키며 말하고 있습니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "me",
+        "myself"
+      ],
+      "antonyms": [
+        "you",
+        "he",
+        "she"
+      ],
+      "confusables": [],
+      "collocations": [
+        "I think",
+        "I believe"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I love reading books.",
+          "ko": "나는 책 읽기를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "대명사는 항상 대문자로 써야 합니다"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈaɪ/"
+    },
+    "visit": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "방문하다",
+          "en": "to go to see someone or somewhere",
+          "primary": true
+        },
+        {
+          "ko": "감찰하다",
+          "en": "to inspect"
+        }
+      ],
+      "contextMeaning": "이 문장에서는 할머니를 만나기 위해 가는 것을 의미합니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "visit"
+        },
+        {
+          "label": "과거",
+          "form": "visited"
+        },
+        {
+          "label": "과거분사",
+          "form": "visited"
+        },
+        {
+          "label": "현재분사",
+          "form": "visiting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "visits"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "see",
+        "call on"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "visit a friend",
+        "visit relatives"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "He visits his parents every weekend.",
+          "ko": "그는 매주 주말에 부모님 댁을 방문한다."
+        }
+      ],
+      "koreanTips": [
+        "'visit someone' (O) — 목적어 필요",
+        "'visit to someone' (X) — 전치사 'to' 사용 금지"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈvɪzɪt/"
+    },
+    "my": {
+      "pos": "possessive determiner",
+      "meanings": [
+        {
+          "ko": "내",
+          "en": "belonging to me",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니가 나의 할머니임을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "mine"
+      ],
+      "antonyms": [
+        "your",
+        "his",
+        "her"
+      ],
+      "confusables": [],
+      "collocations": [
+        "my house",
+        "my car"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is my book.",
+          "ko": "이것은 내 책이다."
+        }
+      ],
+      "koreanTips": [
+        "소유격은 명사 앞에 위치해야 함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmaɪ/"
+    },
+    "grandmother": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "할머니",
+          "en": "a woman's mother or father's mother",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 화자의 할머니를 지칭합니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "grandmother"
+        },
+        {
+          "label": "복수",
+          "form": "grandmothers"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "granny",
+        "grandma"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "visit grandmother",
+        "grandmother's house"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "My grandmother bakes delicious cookies.",
+          "ko": "나의 할머니는 맛있는 쿠키를 구워주신다."
+        }
+      ],
+      "koreanTips": [
+        "'grandmother' vs 'grandfather': 성별 구분 필요"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɡɹændˌməðɝ/"
+    },
+    "she": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그녀",
+          "en": "used to refer to a female person previously mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니를 가리킵니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "her"
+      ],
+      "antonyms": [
+        "he"
+      ],
+      "confusables": [],
+      "collocations": [
+        "she says",
+        "she does"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is very kind.",
+          "ko": "그녀는 매우 친절하다."
+        }
+      ],
+      "koreanTips": [
+        "대명사는 반드시 앞서 언급된 사람과 일치해야 함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈʃi/"
+    },
+    "is": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "to be",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물이 세계 최고라는 것을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "exists",
+        "equals"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "be happy",
+        "be busy"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The weather is nice today.",
+          "ko": "오늘 날씨는 좋다."
+        }
+      ],
+      "koreanTips": [
+        "'is'는 3인칭 단수에만 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪz/"
+    },
+    "a": {
+      "pos": "indefinite article",
+      "meanings": [
+        {
+          "ko": "하나의",
+          "en": "one",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 훌륭한 냄새를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "one"
+      ],
+      "antonyms": [
+        "the"
+      ],
+      "confusables": [],
+      "collocations": [
+        "a good idea",
+        "a big house"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I saw a bird in the tree.",
+          "ko": "나는 나무에서 새 한 마리를 봤다."
+        }
+      ],
+      "koreanTips": [
+        "불특정한 한 개체를 나타낼 때 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈeɪ/"
+    },
+    "wonderful": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "훌륭한",
+          "en": "extremely good",
+          "primary": true
+        },
+        {
+          "ko": "놀라운",
+          "en": "amazing"
+        }
+      ],
+      "contextMeaning": "이 문장에서 훌륭한 냄새를 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "wonderful"
+        },
+        {
+          "label": "비교급",
+          "form": "more wonderful"
+        },
+        {
+          "label": "최상급",
+          "form": "most wonderful"
+        },
+        {
+          "label": "부사형",
+          "form": "wonderfully"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "great",
+        "fantastic"
+      ],
+      "antonyms": [
+        "terrible",
+        "awful"
+      ],
+      "confusables": [],
+      "collocations": [
+        "wonderful food",
+        "wonderful experience"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It was a wonderful trip.",
+          "ko": "그것은 훌륭한 여행이었다."
+        }
+      ],
+      "koreanTips": [
+        "형용사는 명사 앞에 위치해야 함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwəndɝfəɫ/"
+    },
+    "cook": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "요리사",
+          "en": "a person who prepares food as a job or hobby",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니가 훌륭한 요리사라는 것을 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "cook"
+        },
+        {
+          "label": "복수",
+          "form": "cooks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "chef"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "good cook",
+        "professional cook"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is a great cook.",
+          "ko": "그녀는 훌륭한 요리사이다."
+        }
+      ],
+      "koreanTips": [
+        "'cook'은 요리사, 'cooking'은 요리 행위"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈkʊk/"
+    },
+    "teaches": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "가르친다",
+          "en": "to give knowledge or skill by example or instruction",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니가 나에게 레시피를 가르쳐준다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "teach"
+        },
+        {
+          "label": "과거",
+          "form": "taught"
+        },
+        {
+          "label": "과거분사",
+          "form": "taught"
+        },
+        {
+          "label": "현재분사",
+          "form": "teaching"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "teaches"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "instruct",
+        "show"
+      ],
+      "antonyms": [
+        "learn"
+      ],
+      "confusables": [],
+      "collocations": [
+        "teach children",
+        "teach cooking"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "My teacher teaches math well.",
+          "ko": "우리 선생님은 수학을 잘 가르치신다."
+        }
+      ],
+      "koreanTips": [
+        "teach + 사람 + 무언가: 누군가에게 무언가를 가르치다"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtitʃəz/"
+    },
+    "me": {
+      "pos": "pronoun (object form)",
+      "meanings": [
+        {
+          "ko": "나에게",
+          "en": "used as the object of a verb or preposition referring to oneself",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 나에게 레시피를 가르쳐준다는 의미입니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "I"
+      ],
+      "antonyms": [
+        "you",
+        "him",
+        "her"
+      ],
+      "confusables": [],
+      "collocations": [
+        "give me",
+        "tell me"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Can you help me?",
+          "ko": "도와줄 수 있어?"
+        }
+      ],
+      "koreanTips": [
+        "주어로는 사용되지 않음"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈmi/"
+    },
+    "her": {
+      "pos": "possessive determiner",
+      "meanings": [
+        {
+          "ko": "그녀의",
+          "en": "belonging to her",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니의 어린 시절을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "hers"
+      ],
+      "antonyms": [
+        "his",
+        "my"
+      ],
+      "confusables": [],
+      "collocations": [
+        "her house",
+        "her family"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "That is her car.",
+          "ko": "그것은 그녀의 차이다."
+        }
+      ],
+      "koreanTips": [
+        "소유격은 명사 앞에 위치해야 함"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈhɝ/"
+    },
+    "recipes": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "레시피들",
+          "en": "instructions for preparing dishes",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니의 요리법들을 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "recipe"
+        },
+        {
+          "label": "복수",
+          "form": "recipes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "instructions",
+        "formulae"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "follow recipes",
+        "share recipes"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "These recipes are easy to follow.",
+          "ko": "이 레시피들은 따라하기 쉽다."
+        }
+      ],
+      "koreanTips": [
+        "복수 형태는 -s 추가"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈɹɛsəpiz/"
+    },
+    "today": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "오늘",
+          "en": "on this day",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 오늘 하루를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "now",
+        "this day"
+      ],
+      "antonyms": [
+        "yesterday",
+        "tomorrow"
+      ],
+      "confusables": [],
+      "collocations": [
+        "today morning",
+        "today evening"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Today is sunny.",
+          "ko": "오늘은 맑다."
+        }
+      ],
+      "koreanTips": [
+        "시간 부사로 문장 처음이나 끝에 위치 가능"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/təˈdeɪ/"
+    },
+    "we": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "우리",
+          "en": "used to refer to the speaker and one or more others",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 나와 할머니를 함께 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "us"
+      ],
+      "antonyms": [
+        "they"
+      ],
+      "confusables": [],
+      "collocations": [
+        "we go",
+        "we do"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "We are going shopping.",
+          "ko": "우리는 쇼핑하러 간다."
+        }
+      ],
+      "koreanTips": [
+        "복수 주어로 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwi/"
+    },
+    "are": {
+      "pos": "verb (present tense, plural)",
+      "meanings": [
+        {
+          "ko": "이다",
+          "en": "to be",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 우리가 어떤 상태에 있음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "be"
+        },
+        {
+          "label": "과거",
+          "form": "was/were"
+        },
+        {
+          "label": "과거분사",
+          "form": "been"
+        },
+        {
+          "label": "현재분사",
+          "form": "being"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "is"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "exist"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "we are",
+        "they are"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "They are students.",
+          "ko": "그들은 학생이다."
+        }
+      ],
+      "koreanTips": [
+        "복수 주어에 사용되는 'be' 동사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɑɹ/"
+    },
+    "making": {
+      "pos": "verb (present participle)",
+      "meanings": [
+        {
+          "ko": "만드는 중이다",
+          "en": "creating something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 닭고기 국물 요리를 만들고 있다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "make"
+        },
+        {
+          "label": "과거",
+          "form": "made"
+        },
+        {
+          "label": "과거분사",
+          "form": "made"
+        },
+        {
+          "label": "현재분사",
+          "form": "making"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "makes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "creating",
+        "preparing"
+      ],
+      "antonyms": [
+        "destroying"
+      ],
+      "confusables": [],
+      "collocations": [
+        "making dinner",
+        "making plans"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She is making lunch now.",
+          "ko": "그녀는 지금 점심을 만들고 있다."
+        }
+      ],
+      "koreanTips": [
+        "진행형 시제에 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈmeɪkɪŋ/"
+    },
+    "chicken": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "닭",
+          "en": "a domestic fowl kept for its meat or eggs",
+          "primary": true
+        },
+        {
+          "ko": "닭 고기",
+          "en": "the flesh of a chicken used as food"
+        }
+      ],
+      "contextMeaning": "이 문장에서 닭고기 국물을 만들기 위한 재료를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "chicken"
+        },
+        {
+          "label": "복수",
+          "form": "chickens"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "poultry"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "chicken soup",
+        "fried chicken"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Chicken tastes great with rice.",
+          "ko": "닭고기는 밥과 잘 어울린다."
+        }
+      ],
+      "koreanTips": [
+        "'chicken'은 동물과 고기 모두 의미 가능"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtʃɪkən/"
+    },
+    "soup": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "국물",
+          "en": "liquid food made by boiling ingredients",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 닭고기 국물을 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "soup"
+        },
+        {
+          "label": "복수",
+          "form": "soups"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "broth",
+        "stew"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "chicken soup",
+        "hot soup"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Soup warms the body.",
+          "ko": "국물은 몸을 따뜻하게 해준다."
+        }
+      ],
+      "koreanTips": [
+        "'soup'은 일반적으로 단수 취급"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsup/"
+    },
+    "first": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "먼저",
+          "en": "before anything else",
+          "primary": true
+        },
+        {
+          "ko": "첫 번째로",
+          "en": "in the first place"
+        }
+      ],
+      "contextMeaning": "이 문장에서 첫 번째 단계를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "initially",
+        "at first"
+      ],
+      "antonyms": [
+        "last",
+        "finally"
+      ],
+      "confusables": [],
+      "collocations": [
+        "first step",
+        "first thing"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "First, we need to prepare the ingredients.",
+          "ko": "먼저, 우리는 재료를 준비해야 한다."
+        }
+      ],
+      "koreanTips": [
+        "순서를 나타내는 부사"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈfɝst/"
+    },
+    "wash": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "씻다",
+          "en": "clean with water",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 닭을 깨끗이 씻는다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "wash"
+        },
+        {
+          "label": "과거",
+          "form": "washed"
+        },
+        {
+          "label": "과거분사",
+          "form": "washed"
+        },
+        {
+          "label": "현재분사",
+          "form": "washing"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "washes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "clean"
+      ],
+      "antonyms": [
+        "dirty"
+      ],
+      "confusables": [],
+      "collocations": [
+        "wash hands",
+        "wash clothes"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Please wash your face.",
+          "ko": "얼굴을 씻어라."
+        }
+      ],
+      "koreanTips": [
+        "목적어와 함께 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɑʃ/"
+    },
+    "the": {
+      "pos": "definite article",
+      "meanings": [
+        {
+          "ko": "그",
+          "en": "used before nouns that are known to the listener",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 이미 언급된 세계를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "the house",
+        "the car"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The dog barks loudly.",
+          "ko": "그 개는 크게 짖는다."
+        }
+      ],
+      "koreanTips": [
+        "특정한 대상을 나타낼 때 사용"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈðə/"
+    },
+    "then": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "그 다음에",
+          "en": "next in time or order",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 두 번째 단계를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "next",
+        "afterwards"
+      ],
+      "antonyms": [
+        "before"
+      ],
+      "confusables": [],
+      "collocations": [
+        "then we go",
+        "and then"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Then, we went home.",
+          "ko": "그 다음에 우리는 집에 갔다."
+        }
+      ],
+      "koreanTips": [
+        "시간 순서를 나타냄"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈðɛn/"
+    },
+    "cut": {
+      "pos": "verb (past tense)",
+      "meanings": [
+        {
+          "ko": "자르다",
+          "en": "to divide something with a sharp tool",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 당근과 감자를 작은 조각으로 자른다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "cut"
+        },
+        {
+          "label": "과거",
+          "form": "cut"
+        },
+        {
+          "label": "과거분사",
+          "form": "cut"
+        },
+        {
+          "label": "현재분사",
+          "form": "cutting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "cuts"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "slice",
+        "chop"
+      ],
+      "antonyms": [
+        "join"
+      ],
+      "confusables": [],
+      "collocations": [
+        "cut vegetables",
+        "cut paper"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Cut the bread into slices.",
+          "ko": "빵을 조각으로 잘라라."
+        }
+      ],
+      "koreanTips": [
+        "과거형이 원형과 같음"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkət/"
+    },
+    "carrots": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "당근들",
+          "en": "orange root vegetables",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 요리에 사용되는 재료를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "carrot"
+        },
+        {
+          "label": "복수",
+          "form": "carrots"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "vegetables"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "fresh carrots",
+        "cooked carrots"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Carrots are rich in vitamin A.",
+          "ko": "당근은 비타민 A가 풍부하다."
+        }
+      ],
+      "koreanTips": [
+        "복수 형태는 -s 추가"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈkæɹəts/"
+    },
+    "and": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "그리고",
+          "en": "used to connect words or phrases",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 앉아서 먹는 행동을 연결합니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "also",
+        "plus"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "bread and butter",
+        "day and night"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I like tea and coffee.",
+          "ko": "나는 차와 커피를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "연결어로 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈænd/"
+    },
+    "potatoes": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "감자들",
+          "en": "root vegetables grown underground",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 요리에 사용되는 재료를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "potato"
+        },
+        {
+          "label": "복수",
+          "form": "potatoes"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "taters"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "baked potatoes",
+        "mashed potatoes"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Potatoes are popular worldwide.",
+          "ko": "감자는 전 세계적으로 인기가 많다."
+        }
+      ],
+      "koreanTips": [
+        "복수 형태는 불규칙"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/pəˈteɪtoʊz/"
+    },
+    "into": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안으로",
+          "en": "movement from outside to inside",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 작은 조각으로 자른다는 의미입니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "inside"
+      ],
+      "antonyms": [
+        "out of"
+      ],
+      "confusables": [],
+      "collocations": [
+        "cut into pieces",
+        "pour into"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Put the keys into the drawer.",
+          "ko": "열쇠를 서랍 안에 넣어라."
+        }
+      ],
+      "koreanTips": [
+        "방향을 나타내는 전치사"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɪntu/"
+    },
+    "small": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "작은",
+          "en": "not large in size",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 당근과 감자의 크기를 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "small"
+        },
+        {
+          "label": "비교급",
+          "form": "smaller"
+        },
+        {
+          "label": "최상급",
+          "form": "smallest"
+        },
+        {
+          "label": "부사형",
+          "form": "smallly"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "little",
+        "tiny"
+      ],
+      "antonyms": [
+        "big",
+        "large"
+      ],
+      "confusables": [],
+      "collocations": [
+        "small room",
+        "small amount"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This box is too small.",
+          "ko": "이 상자는 너무 작다."
+        }
+      ],
+      "koreanTips": [
+        "형용사는 명사 앞에 위치해야 함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsmɔɫ/"
+    },
+    "pieces": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "조각들",
+          "en": "parts of something broken or cut off",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 잘린 당근과 감자의 일부를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "piece"
+        },
+        {
+          "label": "복수",
+          "form": "pieces"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "bits",
+        "fragments"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "small pieces",
+        "broken pieces"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Break the chocolate into pieces.",
+          "ko": "초콜릿을 조각으로 부숴라."
+        }
+      ],
+      "koreanTips": [
+        "복수 형태는 -s 추가"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈpisəz/"
+    },
+    "add": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "넣다",
+          "en": "to put something with something else",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 물, 소금, 후추를 국물에 넣는다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "add"
+        },
+        {
+          "label": "과거",
+          "form": "added"
+        },
+        {
+          "label": "과거분사",
+          "form": "added"
+        },
+        {
+          "label": "현재분사",
+          "form": "adding"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "adds"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "put in",
+        "include"
+      ],
+      "antonyms": [
+        "remove"
+      ],
+      "confusables": [],
+      "collocations": [
+        "add sugar",
+        "add ingredients"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Add milk to the coffee.",
+          "ko": "커피에 우유를 넣어라."
+        }
+      ],
+      "koreanTips": [
+        "목적어와 함께 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈæd/"
+    },
+    "water": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "물",
+          "en": "clear liquid essential for life",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물의 재료로 사용되는 물을 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "water"
+        },
+        {
+          "label": "복수",
+          "form": "waters"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "H2O"
+      ],
+      "antonyms": [
+        "dryness"
+      ],
+      "confusables": [],
+      "collocations": [
+        "drink water",
+        "boil water"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Water flows downhill.",
+          "ko": "물은 아래쪽으로 흐른다."
+        }
+      ],
+      "koreanTips": [
+        "일반적으로 단수 취급"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɔtɝ/"
+    },
+    "salt": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "소금",
+          "en": "white crystalline substance used to flavor food",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물의 맛을 더하는 재료를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "salt"
+        },
+        {
+          "label": "복수",
+          "form": "salts"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "seasoning"
+      ],
+      "antonyms": [
+        "sweet"
+      ],
+      "confusables": [],
+      "collocations": [
+        "add salt",
+        "salt shaker"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Too much salt is unhealthy.",
+          "ko": "소금이 너무 많으면 건강에 좋지 않다."
+        }
+      ],
+      "koreanTips": [
+        "일반적으로 단수 취급"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsɔɫt/"
+    },
+    "pepper": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "후추",
+          "en": "spice made from ground peppercorns",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물의 맛을 더하는 재료를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "pepper"
+        },
+        {
+          "label": "복수",
+          "form": "peppers"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "spice"
+      ],
+      "antonyms": [
+        "no spice"
+      ],
+      "confusables": [],
+      "collocations": [
+        "black pepper",
+        "add pepper"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Pepper adds flavor to food.",
+          "ko": "후추는 음식에 맛을 더해준다."
+        }
+      ],
+      "koreanTips": [
+        "일반적으로 단수 취급"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈpɛpɝ/"
+    },
+    "cooks": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "요리하다",
+          "en": "prepare food by heating it",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물이 한 시간 동안 요리되고 있다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "cook"
+        },
+        {
+          "label": "과거",
+          "form": "cooked"
+        },
+        {
+          "label": "과거분사",
+          "form": "cooked"
+        },
+        {
+          "label": "현재분사",
+          "form": "cooking"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "cooks"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "prepare"
+      ],
+      "antonyms": [
+        "eat raw"
+      ],
+      "confusables": [],
+      "collocations": [
+        "cook dinner",
+        "cook slowly"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The chef cooks delicious meals.",
+          "ko": "셰프는 맛있는 식사를 요리한다."
+        }
+      ],
+      "koreanTips": [
+        "3인칭 단수에 사용됨"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈkʊks/"
+    },
+    "for": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~동안",
+          "en": "during the time of",
+          "primary": true
+        },
+        {
+          "ko": "때문에",
+          "en": "because of"
+        }
+      ],
+      "contextMeaning": "이 문장에서 한 시간 동안 요리한다는 의미입니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "during"
+      ],
+      "antonyms": [
+        "against"
+      ],
+      "confusables": [],
+      "collocations": [
+        "wait for",
+        "look for"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "I waited for an hour.",
+          "ko": "나는 한 시간 동안 기다렸다."
+        }
+      ],
+      "koreanTips": [
+        "기간을 나타내는 전치사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈfɔɹ/"
+    },
+    "one": {
+      "pos": "number",
+      "meanings": [
+        {
+          "ko": "하나",
+          "en": "the number 1",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 한 시간을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "single"
+      ],
+      "antonyms": [
+        "two"
+      ],
+      "confusables": [],
+      "collocations": [
+        "one hour",
+        "one day"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "One apple costs $1.",
+          "ko": "사과 하나는 1달러이다."
+        }
+      ],
+      "koreanTips": [
+        "숫자는 대문자로 시작하지 않음"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwən/"
+    },
+    "hour": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "시간",
+          "en": "a period of 60 minutes",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 요리 시간을 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "hour"
+        },
+        {
+          "label": "복수",
+          "form": "hours"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "time unit"
+      ],
+      "antonyms": [
+        "minute"
+      ],
+      "confusables": [],
+      "collocations": [
+        "one hour",
+        "working hours"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "An hour has 60 minutes.",
+          "ko": "한 시간은 60분이다."
+        }
+      ],
+      "koreanTips": [
+        "일반적으로 단수 취급"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈaʊɝ/"
+    },
+    "kitchen": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "주방",
+          "en": "room where food is prepared and cooked",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 요리가 이루어지는 장소를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "kitchen"
+        },
+        {
+          "label": "복수",
+          "form": "kitchens"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "cooking area"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "modern kitchen",
+        "kitchen appliances"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The kitchen smells great.",
+          "ko": "주방에서 좋은 냄새가 난다."
+        }
+      ],
+      "koreanTips": [
+        "일반적으로 단수 취급"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈkɪtʃən/"
+    },
+    "fills": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "채우다",
+          "en": "to make something full",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 주방이 훌륭한 냄새로 가득 찬다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "fill"
+        },
+        {
+          "label": "과거",
+          "form": "filled"
+        },
+        {
+          "label": "과거분사",
+          "form": "filled"
+        },
+        {
+          "label": "현재분사",
+          "form": "filling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "fills"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "occupy"
+      ],
+      "antonyms": [
+        "empty"
+      ],
+      "confusables": [],
+      "collocations": [
+        "fill with",
+        "fill up"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The room fills with laughter.",
+          "ko": "방은 웃음소리로 가득 찬다."
+        }
+      ],
+      "koreanTips": [
+        "fill + with + 명사: ~로 가득 차다"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈfɪɫz/"
+    },
+    "with": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~와 함께",
+          "en": "accompanied by",
+          "primary": true
+        },
+        {
+          "ko": "~로",
+          "en": "using something"
+        }
+      ],
+      "contextMeaning": "이 문장에서 훌륭한 냄새로 주방이 가득 찬다는 의미입니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "accompanied by"
+      ],
+      "antonyms": [
+        "without"
+      ],
+      "confusables": [],
+      "collocations": [
+        "talk with",
+        "play with"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She came with her friends.",
+          "ko": "그녀는 친구들과 함께 왔다."
+        }
+      ],
+      "koreanTips": [
+        "동반자를 나타내는 전치사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈwɪð/"
+    },
+    "smell": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "냄새",
+          "en": "sense detected through the nose",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 요리에서 나는 훌륭한 냄새를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "smell"
+        },
+        {
+          "label": "복수",
+          "form": "smells"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "odor",
+        "aroma"
+      ],
+      "antonyms": [
+        "no smell"
+      ],
+      "confusables": [],
+      "collocations": [
+        "pleasant smell",
+        "strong smell"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The flowers have a sweet smell.",
+          "ko": "꽃들은 달콤한 냄새를 품고 있다."
+        }
+      ],
+      "koreanTips": [
+        "일반적으로 단수 취급"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈsmɛɫ/"
+    },
+    "while": {
+      "pos": "conjunction",
+      "meanings": [
+        {
+          "ko": "~하는 동안",
+          "en": "during the time that something happens",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 기다리는 동안 할머니가 이야기를 해주는 것을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "during"
+      ],
+      "antonyms": [
+        "after"
+      ],
+      "confusables": [],
+      "collocations": [
+        "while waiting",
+        "while eating"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "While I was sleeping, he called.",
+          "ko": "내가 자는 동안 그가 전화를 걸었다."
+        }
+      ],
+      "koreanTips": [
+        "시간을 나타내는 접속사"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈhwaɪɫ/"
+    },
+    "wait": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "기다리다",
+          "en": "stay until something happens",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물이 다 되기를 기다리는 것을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "wait"
+        },
+        {
+          "label": "과거",
+          "form": "waited"
+        },
+        {
+          "label": "과거분사",
+          "form": "waited"
+        },
+        {
+          "label": "현재분사",
+          "form": "waiting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "waits"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "stay"
+      ],
+      "antonyms": [
+        "leave"
+      ],
+      "confusables": [],
+      "collocations": [
+        "wait for",
+        "wait patiently"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Wait here for five minutes.",
+          "ko": "여기서 5분 동안 기다려라."
+        }
+      ],
+      "koreanTips": [
+        "wait + for + 명사: ~을 기다리다"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈweɪt/"
+    },
+    "grandma": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "할머니",
+          "en": "informal word for grandmother",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "grandma"
+        },
+        {
+          "label": "복수",
+          "form": "grandmas"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "granny",
+        "grandmother"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "grandma's house",
+        "grandma's stories"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Grandma makes the best cookies.",
+          "ko": "할머니는 최고의 쿠키를 만드신다."
+        }
+      ],
+      "koreanTips": [
+        "비격식 표현"
+      ],
+      "frequency": 3,
+      "register": "비격식",
+      "ipa": "/ˈɡɹændmɑ/"
+    },
+    "tells": {
+      "pos": "verb (present tense, third person singular)",
+      "meanings": [
+        {
+          "ko": "이야기하다",
+          "en": "to give information by speaking",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니가 나에게 이야기를 해주는 것을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "tell"
+        },
+        {
+          "label": "과거",
+          "form": "told"
+        },
+        {
+          "label": "과거분사",
+          "form": "told"
+        },
+        {
+          "label": "현재분사",
+          "form": "telling"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "tells"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "say",
+        "explain"
+      ],
+      "antonyms": [
+        "hide"
+      ],
+      "confusables": [],
+      "collocations": [
+        "tell stories",
+        "tell the truth"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She tells interesting stories.",
+          "ko": "그녀는 흥미로운 이야기를 해준다."
+        }
+      ],
+      "koreanTips": [
+        "tell + 사람 + 무언가: 누군가에게 무언가를 말하다"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈtɛɫz/"
+    },
+    "stories": {
+      "pos": "noun (plural)",
+      "meanings": [
+        {
+          "ko": "이야기들",
+          "en": "narratives of events",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니의 어린 시절 이야기를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "story"
+        },
+        {
+          "label": "복수",
+          "form": "stories"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "tales",
+        "narratives"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "tell stories",
+        "read stories"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Children love bedtime stories.",
+          "ko": "아이들은 잠자기 전 이야기를 좋아한다."
+        }
+      ],
+      "koreanTips": [
+        "복수 형태는 -ies 추가"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈstɔɹiz/"
+    },
+    "about": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~에 대해",
+          "en": "concerning or regarding",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니의 어린 시절에 대한 이야기를 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "regarding",
+        "concerning"
+      ],
+      "antonyms": [
+        "without"
+      ],
+      "confusables": [],
+      "collocations": [
+        "talk about",
+        "think about"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Tell me about your vacation.",
+          "ko": "휴가에 대해 말해줘."
+        }
+      ],
+      "koreanTips": [
+        "주제를 나타내는 전치사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/əˈbaʊt/"
+    },
+    "childhood": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "어린 시절",
+          "en": "the time when someone was a child",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 할머니의 어린 시절 이야기를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "childhood"
+        },
+        {
+          "label": "복수",
+          "form": "childhoods"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "youth",
+        "early years"
+      ],
+      "antonyms": [
+        "adulthood"
+      ],
+      "confusables": [],
+      "collocations": [
+        "happy childhood",
+        "difficult childhood"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "She had a happy childhood.",
+          "ko": "그녀는 행복한 어린 시절을 보냈다."
+        }
+      ],
+      "koreanTips": [
+        "일반적으로 단수 취급"
+      ],
+      "frequency": 3,
+      "register": "일상",
+      "ipa": "/ˈtʃaɪɫdˌhʊd/"
+    },
+    "ready": {
+      "pos": "adjective",
+      "meanings": [
+        {
+          "ko": "준비된",
+          "en": "prepared for use or action",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물이 다 되었음을 나타냅니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "ready"
+        },
+        {
+          "label": "비교급",
+          "form": "readier"
+        },
+        {
+          "label": "최상급",
+          "form": "readiest"
+        },
+        {
+          "label": "부사형",
+          "form": "readily"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "prepared"
+      ],
+      "antonyms": [
+        "not ready"
+      ],
+      "confusables": [],
+      "collocations": [
+        "get ready",
+        "ready to eat"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Dinner is ready.",
+          "ko": "저녁 식사가 준비되었다."
+        }
+      ],
+      "koreanTips": [
+        "형용사는 명사 앞에 위치해야 함"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈɹɛdi/"
+    },
+    "sit": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "앉다",
+          "en": "to rest on a seat",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 테이블에 앉아 식사를 한다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "sit"
+        },
+        {
+          "label": "과거",
+          "form": "sat"
+        },
+        {
+          "label": "과거분사",
+          "form": "sat"
+        },
+        {
+          "label": "현재분사",
+          "form": "sitting"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "sits"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "rest"
+      ],
+      "antonyms": [
+        "stand"
+      ],
+      "confusables": [],
+      "collocations": [
+        "sit down",
+        "sit quietly"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Sit on the chair.",
+          "ko": "의자에 앉아라."
+        }
+      ],
+      "koreanTips": [
+        "목적어 없이 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈsɪt/"
+    },
+    "at": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~에",
+          "en": "in a particular place",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 테이블에 앉아 있다는 의미입니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "on"
+      ],
+      "antonyms": [
+        "away from"
+      ],
+      "confusables": [],
+      "collocations": [
+        "at home",
+        "at school"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Meet me at the station.",
+          "ko": "역에서 만나자."
+        }
+      ],
+      "koreanTips": [
+        "장소를 나타내는 전치사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈæt/"
+    },
+    "table": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "테이블",
+          "en": "flat-topped piece of furniture",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 식사하는 장소를 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "table"
+        },
+        {
+          "label": "복수",
+          "form": "tables"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "desk"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "dining table",
+        "wooden table"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Books are on the table.",
+          "ko": "책들이 테이블 위에 있다."
+        }
+      ],
+      "koreanTips": [
+        "일반적으로 단수 취급"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈteɪbəɫ/"
+    },
+    "eat": {
+      "pos": "verb (present tense)",
+      "meanings": [
+        {
+          "ko": "먹다",
+          "en": "consume food",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물을 먹는다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원형",
+          "form": "eat"
+        },
+        {
+          "label": "과거",
+          "form": "ate"
+        },
+        {
+          "label": "과거분사",
+          "form": "eaten"
+        },
+        {
+          "label": "현재분사",
+          "form": "eating"
+        },
+        {
+          "label": "3인칭 단수",
+          "form": "eats"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "consume"
+      ],
+      "antonyms": [
+        "starve"
+      ],
+      "confusables": [],
+      "collocations": [
+        "eat dinner",
+        "eat quickly"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Let's eat lunch.",
+          "ko": "점심을 먹자."
+        }
+      ],
+      "koreanTips": [
+        "목적어와 함께 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈit/"
+    },
+    "together": {
+      "pos": "adverb",
+      "meanings": [
+        {
+          "ko": "함께",
+          "en": "in each other's company",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 나와 할머니가 함께 식사를 한다는 의미입니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "with each other"
+      ],
+      "antonyms": [
+        "alone"
+      ],
+      "confusables": [],
+      "collocations": [
+        "live together",
+        "work together"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "We played together.",
+          "ko": "우리는 함께 놀았다."
+        }
+      ],
+      "koreanTips": [
+        "시간이나 장소 부사처럼 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/təˈɡɛðɝ/"
+    },
+    "it": {
+      "pos": "pronoun",
+      "meanings": [
+        {
+          "ko": "그것",
+          "en": "used to refer to something previously mentioned",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물이 세계 최고라는 것을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "that"
+      ],
+      "antonyms": [
+        "them"
+      ],
+      "confusables": [],
+      "collocations": [
+        "it is",
+        "it seems"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "It is raining today.",
+          "ko": "오늘은 비가 온다."
+        }
+      ],
+      "koreanTips": [
+        "비인칭 대명사로 사용됨"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪt/"
+    },
+    "best": {
+      "pos": "adjective (superlative)",
+      "meanings": [
+        {
+          "ko": "최고의",
+          "en": "of the highest quality",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 국물이 세계에서 가장 맛있다는 의미입니다.",
+      "forms": [
+        {
+          "label": "원급",
+          "form": "good"
+        },
+        {
+          "label": "비교급",
+          "form": "better"
+        },
+        {
+          "label": "최상급",
+          "form": "best"
+        },
+        {
+          "label": "부사형",
+          "form": "well"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "greatest",
+        "finest"
+      ],
+      "antonyms": [
+        "worst"
+      ],
+      "confusables": [],
+      "collocations": [
+        "best friend",
+        "best choice"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "This is the best movie ever.",
+          "ko": "이 영화는 지금까지 최고이다."
+        }
+      ],
+      "koreanTips": [
+        "최상급 형용사는 'the'와 함께 사용됨"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈbɛst/"
+    },
+    "in": {
+      "pos": "preposition",
+      "meanings": [
+        {
+          "ko": "~안에",
+          "en": "inside something",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 세계 안에서 가장 맛있는 국물을 나타냅니다.",
+      "forms": [],
+      "etymology": {},
+      "synonyms": [
+        "inside"
+      ],
+      "antonyms": [
+        "outside"
+      ],
+      "confusables": [],
+      "collocations": [
+        "in the house",
+        "in the morning"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "The book is in the bag.",
+          "ko": "책은 가방 안에 있다."
+        }
+      ],
+      "koreanTips": [
+        "장소를 나타내는 전치사"
+      ],
+      "frequency": 5,
+      "register": "일상",
+      "ipa": "/ˈɪn/"
+    },
+    "world": {
+      "pos": "noun (singular)",
+      "meanings": [
+        {
+          "ko": "세상",
+          "en": "the earth and all people living on it",
+          "primary": true
+        }
+      ],
+      "contextMeaning": "이 문장에서 세계에서 가장 맛있는 국물을 나타냅니다.",
+      "forms": [
+        {
+          "label": "단수",
+          "form": "world"
+        },
+        {
+          "label": "복수",
+          "form": "worlds"
+        }
+      ],
+      "etymology": {},
+      "synonyms": [
+        "earth",
+        "planet"
+      ],
+      "antonyms": [],
+      "confusables": [],
+      "collocations": [
+        "around the world",
+        "world peace"
+      ],
+      "idioms": [],
+      "examples": [
+        {
+          "en": "Travel around the world.",
+          "ko": "세상을 여행하다."
+        }
+      ],
+      "koreanTips": [
+        "일반적으로 단수 취급"
+      ],
+      "frequency": 4,
+      "register": "일상",
+      "ipa": "/ˈwɝɫd/"
+    }
+  },
+  "grammar": {
+    "sentences": [
+      {
+        "text": "Every Sunday, I visit my grandmother.",
+        "structure": {
+          "subject": {
+            "text": "I",
+            "label": "나"
+          },
+          "verb": {
+            "text": "visit",
+            "label": "방문하다"
+          },
+          "object": {
+            "text": "my grandmother",
+            "label": "나의 할머니"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 기본적인 SVO 구조입니다. 'Every Sunday'는 시간 부사구로 문장 앞에 위치합니다.",
+        "grammarPoints": [
+          "시간 부사구",
+          "SVO 구조",
+          "소유격"
+        ],
+        "examples": [
+          {
+            "en": "Every morning, she drinks coffee.",
+            "ko": "매일 아침, 그녀는 커피를 마신다."
+          },
+          {
+            "en": "On weekends, we play games.",
+            "ko": "주말에는 우리는 게임을 한다."
+          }
+        ]
+      },
+      {
+        "text": "She is a wonderful cook.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "그녀"
+          },
+          "verb": {
+            "text": "is",
+            "label": "이다"
+          },
+          "complement": {
+            "text": "a wonderful cook",
+            "label": "훌륭한 요리사"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 주어+동사+보어(SVC) 구조입니다. 'She'가 주어이고, 'is'가 동사이며, 'a wonderful cook'이 보어입니다.",
+        "grammarPoints": [
+          "SVC 구조",
+          "형용사 보어",
+          "소유격"
+        ],
+        "examples": [
+          {
+            "en": "He is a smart student.",
+            "ko": "그는 똑똑한 학생이다."
+          },
+          {
+            "en": "They are happy.",
+            "ko": "그들은 행복하다."
+          }
+        ]
+      },
+      {
+        "text": "She teaches me her recipes.",
+        "structure": {
+          "subject": {
+            "text": "She",
+            "label": "그녀"
+          },
+          "verb": {
+            "text": "teaches",
+            "label": "가르치다"
+          },
+          "object": {
+            "text": "me",
+            "label": "나에게"
+          },
+          "complement": {
+            "text": "her recipes",
+            "label": "그녀의 레시피들"
+          }
+        },
+        "pattern": {
+          "name": "S+V+IO+DO",
+          "note": "주어+동사+간접목적어+직접목적어"
+        },
+        "explanation": "이 문장은 간접목적어+직접목적어 구조입니다. 'She'가 주어이고, 'teaches'가 동사이며, 'me'가 간접목적어, 'her recipes'가 직접목적어입니다.",
+        "grammarPoints": [
+          "SVO 구조",
+          "간접목적어",
+          "소유격"
+        ],
+        "examples": [
+          {
+            "en": "He gives me a book.",
+            "ko": "그는 나에게 책을 준다."
+          },
+          {
+            "en": "She tells us stories.",
+            "ko": "그녀는 우리에게 이야기를 해준다."
+          }
+        ]
+      },
+      {
+        "text": "Today, we are making chicken soup.",
+        "structure": {
+          "subject": {
+            "text": "we",
+            "label": "우리"
+          },
+          "verb": {
+            "text": "are making",
+            "label": "만드는 중이다"
+          },
+          "object": {
+            "text": "chicken soup",
+            "label": "닭고기 국물"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 진행형 시제를 사용한 SVO 구조입니다. 'Today'는 시간 부사로 문장 앞에 위치합니다.",
+        "grammarPoints": [
+          "진행형 시제",
+          "SVO 구조",
+          "시간 부사"
+        ],
+        "examples": [
+          {
+            "en": "Now, they are playing soccer.",
+            "ko": "지금, 그들은 축구를 하고 있다."
+          },
+          {
+            "en": "I am studying English.",
+            "ko": "나는 영어를 공부하고 있다."
+          }
+        ]
+      },
+      {
+        "text": "First, we wash the chicken.",
+        "structure": {
+          "subject": {
+            "text": "we",
+            "label": "우리"
+          },
+          "verb": {
+            "text": "wash",
+            "label": "씻다"
+          },
+          "object": {
+            "text": "the chicken",
+            "label": "닭"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 SVO 구조입니다. 'First'는 순서를 나타내는 부사로 문장 앞에 위치합니다.",
+        "grammarPoints": [
+          "SVO 구조",
+          "순서 부사",
+          "정관사"
+        ],
+        "examples": [
+          {
+            "en": "First, I brush my teeth.",
+            "ko": "먼저, 나는 이를 닦는다."
+          },
+          {
+            "en": "Then, we go to school.",
+            "ko": "그 다음에, 우리는 학교에 간다."
+          }
+        ]
+      },
+      {
+        "text": "Then, we cut carrots and potatoes into small pieces.",
+        "structure": {
+          "subject": {
+            "text": "we",
+            "label": "우리"
+          },
+          "verb": {
+            "text": "cut",
+            "label": "자르다"
+          },
+          "object": {
+            "text": "carrots and potatoes",
+            "label": "당근과 감자들"
+          },
+          "complement": {
+            "text": "into small pieces",
+            "label": "작은 조각으로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O+C",
+          "note": "주어+동사+목적어+보어"
+        },
+        "explanation": "이 문장은 SVO+C 구조입니다. 'Then'은 순서를 나타내는 부사로 문장 앞에 위치합니다.",
+        "grammarPoints": [
+          "SVO+C 구조",
+          "순서 부사",
+          "전치사 구"
+        ],
+        "examples": [
+          {
+            "en": "We divide the cake into pieces.",
+            "ko": "우리는 케이크를 조각으로 나눈다."
+          },
+          {
+            "en": "She cuts the paper into strips.",
+            "ko": "그녀는 종이를 줄무늬로 자른다."
+          }
+        ]
+      },
+      {
+        "text": "We add water, salt, and pepper.",
+        "structure": {
+          "subject": {
+            "text": "We",
+            "label": "우리"
+          },
+          "verb": {
+            "text": "add",
+            "label": "넣다"
+          },
+          "object": {
+            "text": "water, salt, and pepper",
+            "label": "물, 소금, 그리고 후추"
+          }
+        },
+        "pattern": {
+          "name": "S+V+O",
+          "note": "주어+동사+목적어"
+        },
+        "explanation": "이 문장은 SVO 구조입니다. 세 개의 재료를 나열하고 있습니다.",
+        "grammarPoints": [
+          "SVO 구조",
+          "나열",
+          "접속사"
+        ],
+        "examples": [
+          {
+            "en": "We need flour, eggs, and sugar.",
+            "ko": "우리는 밀가루, 계란, 그리고 설탕이 필요하다."
+          },
+          {
+            "en": "She bought apples, oranges, and bananas.",
+            "ko": "그녀는 사과, 오렌지, 그리고 바나나를 샀다."
+          }
+        ]
+      },
+      {
+        "text": "The soup cooks for one hour.",
+        "structure": {
+          "subject": {
+            "text": "The soup",
+            "label": "국물"
+          },
+          "verb": {
+            "text": "cooks",
+            "label": "요리하다"
+          },
+          "complement": {
+            "text": "for one hour",
+            "label": "한 시간 동안"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 SVC 구조입니다. 'for one hour'는 기간을 나타내는 보어입니다.",
+        "grammarPoints": [
+          "SVC 구조",
+          "기간 표현",
+          "정관사"
+        ],
+        "examples": [
+          {
+            "en": "The meeting lasts for two hours.",
+            "ko": "회의는 두 시간 동안 지속된다."
+          },
+          {
+            "en": "He waits for ten minutes.",
+            "ko": "그는 10분 동안 기다린다."
+          }
+        ]
+      },
+      {
+        "text": "The kitchen fills with a wonderful smell.",
+        "structure": {
+          "subject": {
+            "text": "The kitchen",
+            "label": "주방"
+          },
+          "verb": {
+            "text": "fills",
+            "label": "채우다"
+          },
+          "complement": {
+            "text": "with a wonderful smell",
+            "label": "훌륭한 냄새로"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 SVC 구조입니다. 'with a wonderful smell'은 주방이 무엇으로 가득 찼는지를 설명하는 보어입니다.",
+        "grammarPoints": [
+          "SVC 구조",
+          "전치사 구",
+          "정관사"
+        ],
+        "examples": [
+          {
+            "en": "The room fills with smoke.",
+            "ko": "방은 연기로 가득 찬다."
+          },
+          {
+            "en": "His eyes fill with tears.",
+            "ko": "그의 눈은 눈물로 가득 찬다."
+          }
+        ]
+      },
+      {
+        "text": "While we wait, Grandma tells me stories about her childhood.",
+        "structure": {
+          "subject": {
+            "text": "Grandma",
+            "label": "할머니"
+          },
+          "verb": {
+            "text": "tells",
+            "label": "이야기하다"
+          },
+          "object": {
+            "text": "me",
+            "label": "나에게"
+          },
+          "complement": {
+            "text": "stories about her childhood",
+            "label": "그녀의 어린 시절에 대한 이야기들"
+          }
+        },
+        "pattern": {
+          "name": "S+V+IO+DO",
+          "note": "주어+동사+간접목적어+직접목적어"
+        },
+        "explanation": "이 문장은 간접목적어+직접목적어 구조입니다. 'While we wait'는 시간 부사절입니다.",
+        "grammarPoints": [
+          "SVO 구조",
+          "시간 부사절",
+          "간접목적어"
+        ],
+        "examples": [
+          {
+            "en": "While I study, my brother watches TV.",
+            "ko": "내가 공부하는 동안, 내 형은 TV를 본다."
+          },
+          {
+            "en": "While she cooks, he sets the table.",
+            "ko": "그녀가 요리하는 동안, 그는 테이블을 차린다."
+          }
+        ]
+      },
+      {
+        "text": "The soup is ready.",
+        "structure": {
+          "subject": {
+            "text": "The soup",
+            "label": "국물"
+          },
+          "verb": {
+            "text": "is",
+            "label": "이다"
+          },
+          "complement": {
+            "text": "ready",
+            "label": "준비된"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 SVC 구조입니다. 'ready'는 형용사 보어로, 국물의 상태를 설명합니다.",
+        "grammarPoints": [
+          "SVC 구조",
+          "형용사 보어",
+          "정관사"
+        ],
+        "examples": [
+          {
+            "en": "The cake is ready.",
+            "ko": "케이크가 준비되었다."
+          },
+          {
+            "en": "Lunch is ready.",
+            "ko": "점심 식사가 준비되었다."
+          }
+        ]
+      },
+      {
+        "text": "We sit at the table and eat together.",
+        "structure": {
+          "subject": {
+            "text": "We",
+            "label": "우리"
+          },
+          "verb": {
+            "text": "sit... eat",
+            "label": "앉다... 먹다"
+          },
+          "complement": {
+            "text": "at the table... together",
+            "label": "테이블에... 함께"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 두 개의 동사를 연결한 구조입니다. 'sit'과 'eat'이 'and'로 연결되어 있습니다.",
+        "grammarPoints": [
+          "SVC 구조",
+          "연결사",
+          "전치사 구"
+        ],
+        "examples": [
+          {
+            "en": "We walk and talk.",
+            "ko": "우리는 걷고 이야기한다."
+          },
+          {
+            "en": "She reads and writes.",
+            "ko": "그녀는 읽고 쓴다."
+          }
+        ]
+      },
+      {
+        "text": "It is the best soup in the world.",
+        "structure": {
+          "subject": {
+            "text": "It",
+            "label": "그것"
+          },
+          "verb": {
+            "text": "is",
+            "label": "이다"
+          },
+          "complement": {
+            "text": "the best soup in the world",
+            "label": "세상에서 최고의 국물"
+          }
+        },
+        "pattern": {
+          "name": "S+V+C",
+          "note": "주어+동사+보어"
+        },
+        "explanation": "이 문장은 SVC 구조입니다. 'the best soup in the world'는 명사구로, 'It'의 보어 역할을 합니다.",
+        "grammarPoints": [
+          "SVC 구조",
+          "최상급 형용사",
+          "전치사 구"
+        ],
+        "examples": [
+          {
+            "en": "This is the best movie I've seen.",
+            "ko": "이건 내가 본 최고의 영화이다."
+          },
+          {
+            "en": "She is the smartest student in class.",
+            "ko": "그녀는 반에서 가장 똑똑한 학생이다."
+          }
+        ]
+      }
+    ]
+  },
+  "translation": "매주 일요일, 나는 할머니를 방문한다. 할머니는 훌륭한 요리사이다. 할머니는 나에게 레시피를 가르쳐준다. 오늘, 우리는 닭고기 국물을 만들고 있다. 먼저, 우리는 닭을 씻는다. 그리고 나서, 우리는 당근과 감자를 작은 조각으로 자른다. 우리는 물, 소금, 그리고 후추를 넣는다. 국물은 한 시간 동안 요리된다. 주방은 훌륭한 냄새로 가득 찬다. 우리가 기다리는 동안, 할머니는 나에게 그녀의 어린 시절에 대한 이야기를 해준다. 국물이 준비되었다. 우리는 테이블에 앉아 함께 먹는다. 그것은 세상에서 최고의 국물이다.",
+  "keyVocab": [
+    "visit",
+    "wonderful",
+    "teaches",
+    "making",
+    "soup"
+  ],
+  "quiz": {
+    "question": "할머니는 누구에게 레시피를 가르치나요?",
+    "answer": "나에게"
+  },
+  "generated_at": "2026-02-20T10:32:38.465684+09:00"
+}

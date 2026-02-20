@@ -175,36 +175,42 @@
       firestoreDb = firebase.firestore();
       firebaseReady = true;
 
-      // Wait for redirect result to settle BEFORE registering auth listener.
-      // This prevents onAuthStateChanged(null) firing prematurely during redirect flow.
+      let redirectChecked = false;
+
+      // Process any pending redirect result
       firebase.auth().getRedirectResult()
-        .then(() => {
-          setupAuthListener();
-        })
         .catch(e => {
           console.error('Redirect login error:', e);
           show('#btn-login-main');
           hide('#login-loading');
-          setupAuthListener();
+        })
+        .then(() => {
+          redirectChecked = true;
+          // If still no user after redirect resolved, show login
+          if (!firebaseUser) {
+            showLoginScreen();
+          }
         });
+
+      // Auth listener — registered immediately to catch popup auth too
+      firebase.auth().onAuthStateChanged(async user => {
+        firebaseUser = user;
+        updateAuthUI();
+        if (user) {
+          hideLoginScreen();
+          if (!indexData) await loadAppData();
+          saveUserProfile(user);
+          syncFromFirestore();
+        } else if (redirectChecked) {
+          // Only show login if redirect check is done
+          // (prevents flashing login during redirect flow)
+          showLoginScreen();
+        }
+        // If !user && !redirectChecked → do nothing, wait for getRedirectResult
+      });
     } catch (e) {
       console.error('Firebase init error:', e);
     }
-  }
-
-  function setupAuthListener() {
-    firebase.auth().onAuthStateChanged(async user => {
-      firebaseUser = user;
-      updateAuthUI();
-      if (user) {
-        hideLoginScreen();
-        if (!indexData) await loadAppData();
-        saveUserProfile(user);
-        syncFromFirestore();
-      } else {
-        showLoginScreen();
-      }
-    });
   }
 
   function showLoginScreen() {

@@ -549,3 +549,29 @@ header {
 }
 .migrate-yes { background: var(--blue); color: var(--crust); }
 .migrate-no { background: var(--surface1); color: var(--text); }
+
+/* ── Login Screen ── */
+.login-screen {
+  position: fixed; inset: 0; z-index: 500;
+  background: var(--base);
+  display: flex; align-items: center; justify-content: center;
+  transition: opacity 0.3s ease;
+}
+.login-screen.fade-out { opacity: 0; pointer-events: none; }
+.login-content {
+  text-align: center; padding: 2rem;
+  max-width: 320px; width: 100%;
+}
+.login-icon { font-size: 4rem; margin-bottom: 1rem; }
+.login-title { font-size: 1.6rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; }
+.login-desc { font-size: 0.9rem; color: var(--subtext0); margin-bottom: 2rem; line-height: 1.5; }
+.login-google-btn {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  padding: 0.75rem 1.5rem; background: var(--surface0); color: var(--text);
+  border: 1px solid var(--surface1); border-radius: 0.5rem;
+  font-size: 0.95rem; font-weight: 600; cursor: pointer;
+  transition: background 0.2s;
+}
+.login-google-btn:hover { background: var(--surface1); }
+.login-google-btn svg { flex-shrink: 0; }
+.login-loading { margin-top: 1.5rem; display: flex; justify-content: center; }

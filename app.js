@@ -100,16 +100,39 @@
       firestoreDb = firebase.firestore();
       firebaseReady = true;
 
-      firebase.auth().onAuthStateChanged(user => {
+      firebase.auth().onAuthStateChanged(async user => {
         firebaseUser = user;
         updateAuthUI();
         if (user) {
+          // Logged in — hide login screen, load app
+          hideLoginScreen();
+          if (!indexData) await loadAppData();
           saveUserProfile(user);
           syncFromFirestore();
+        } else {
+          // Not logged in — show login screen
+          showLoginScreen();
         }
       });
     } catch (e) {
       console.error('Firebase init error:', e);
+    }
+  }
+
+  function showLoginScreen() {
+    const screen = $('#login-screen');
+    if (screen) {
+      screen.classList.remove('fade-out');
+      show(screen);
+      hide('#loading');
+    }
+  }
+
+  function hideLoginScreen() {
+    const screen = $('#login-screen');
+    if (screen && !screen.classList.contains('hidden')) {
+      screen.classList.add('fade-out');
+      setTimeout(() => hide(screen), 300);
     }
   }
 
@@ -123,7 +146,9 @@
 
   function authLogout() {
     if (!firebaseReady) return;
-    firebase.auth().signOut();
+    firebase.auth().signOut().then(() => {
+      location.hash = '#/';
+    });
   }
 
   function updateAuthUI() {
@@ -279,19 +304,44 @@
   /* ── Bootstrap ── */
 
   async function init() {
-    show('#loading');
     initFirebase();
+    setupPopupListeners();
+    setupVocabTabs();
+    setupMyVocabPage();
+    setupAuthListeners();
+    setupLoginScreen();
+
+    // If Firebase is ready, wait for auth state (login screen handles flow)
+    // If Firebase is not configured, skip login and load normally
+    if (!firebaseReady) {
+      await loadAppData();
+    }
+  }
+
+  function setupLoginScreen() {
+    const loginBtn = $('#btn-login-main');
+    if (loginBtn) {
+      loginBtn.addEventListener('click', () => {
+        if (!firebaseReady) return;
+        hide(loginBtn);
+        show('#login-loading');
+        authLogin();
+      });
+    }
+  }
+
+  async function loadAppData() {
+    show('#loading');
     try {
       const res = await fetch('index.json');
       indexData = res.ok ? await res.json() : { levels: {} };
     } catch { indexData = { levels: {} }; }
     hide('#loading');
     route();
-    window.addEventListener('hashchange', route);
-    setupPopupListeners();
-    setupVocabTabs();
-    setupMyVocabPage();
-    setupAuthListeners();
+    if (!window._hashListenerAdded) {
+      window.addEventListener('hashchange', route);
+      window._hashListenerAdded = true;
+    }
   }
 
   function route() {

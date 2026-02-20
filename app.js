@@ -100,6 +100,13 @@
       firestoreDb = firebase.firestore();
       firebaseReady = true;
 
+      firebase.auth().getRedirectResult().catch(e => {
+        console.error('Redirect login error:', e);
+        // Restore login button if redirect failed
+        show('#btn-login-main');
+        hide('#login-loading');
+      });
+
       firebase.auth().onAuthStateChanged(async user => {
         firebaseUser = user;
         updateAuthUI();
@@ -140,9 +147,7 @@
   function authLogin() {
     if (!firebaseReady) return;
     const provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth().signInWithPopup(provider).catch(e => {
-      console.error('Login error:', e);
-    });
+    firebase.auth().signInWithRedirect(provider);
   }
 
   function authLogout() {

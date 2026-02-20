@@ -45,16 +45,9 @@ header {
   padding: 0.5rem 0.75rem; background: var(--mantle);
   border-bottom: 1px solid var(--surface0); position: sticky; top: 0; z-index: 100;
 }
-#header-center { flex: 1; display: flex; gap: 0.25rem; justify-content: center; }
+#header-center { flex: 1; display: flex; justify-content: center; align-items: center; overflow: hidden; }
+#header-title { color: var(--text); font-size: 0.85rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 #header-right { display: flex; gap: 0.25rem; }
-.header-select {
-  background: var(--surface0); color: var(--text); border: 1px solid var(--surface1);
-  padding: 0.4rem 0.5rem; border-radius: 0.4rem; font-size: 0.8rem;
-  cursor: pointer; max-width: 120px; -webkit-appearance: none; appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%237f849c'/%3E%3C/svg%3E");
-  background-repeat: no-repeat; background-position: right 0.4rem center; padding-right: 1.2rem;
-}
-.header-select:focus { outline: 1px solid var(--blue); }
 .nav-btn {
   background: var(--surface0); color: var(--text); border: none;
   width: 2.2rem; height: 2.2rem; border-radius: 0.4rem; font-size: 1rem;

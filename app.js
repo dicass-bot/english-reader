@@ -515,14 +515,7 @@
   }
 
   function updateHeaderForHome() {
-    const sel = $('#sel-category');
-    sel.innerHTML = '<option value="">English Reader</option>';
-    Object.keys(indexData.levels || {}).forEach(cat => {
-      const label = cat === 'custom' ? 'Custom' : `Level ${cat.slice(1)}`;
-      sel.innerHTML += `<option value="${cat}">${label}</option>`;
-    });
-    sel.value = '';
-    $('#sel-num').style.display = 'none';
+    $('#header-title').textContent = 'English Reader';
     $('#btn-prev').disabled = true;
     $('#btn-next').disabled = true;
     hide('#btn-home');
@@ -603,27 +596,8 @@
 
   function updateHeaderForContent() {
     show('#btn-home');
-    const sel = $('#sel-category');
-    sel.innerHTML = '';
-    Object.keys(indexData.levels || {}).forEach(cat => {
-      const label = cat === 'custom' ? 'Custom' : `Level ${cat.slice(1)}`;
-      sel.innerHTML += `<option value="${cat}">${label}</option>`;
-    });
-    sel.value = currentCat;
-
-    const numSel = $('#sel-num');
-    numSel.style.display = '';
-    populateNumSelect(currentCat);
-    numSel.value = currentNum;
-  }
-
-  function populateNumSelect(cat) {
-    const numSel = $('#sel-num');
-    numSel.innerHTML = '';
-    const entries = (indexData.levels || {})[cat] || [];
-    entries.forEach(e => {
-      numSel.innerHTML += `<option value="${e.num}">#${e.num}</option>`;
-    });
+    const catLabel = currentCat === 'custom' ? 'Custom' : `Level ${currentCat.slice(1)}`;
+    $('#header-title').textContent = `${catLabel} #${currentNum}`;
   }
 
   function renderDay() {
@@ -1361,10 +1335,6 @@
 
     // Update header
     show('#btn-home');
-    const sel = $('#sel-category');
-    sel.innerHTML = `<option value="">Test</option>`;
-    sel.value = '';
-    $('#sel-num').style.display = 'none';
     $('#btn-prev').disabled = false;
     $('#btn-prev').onclick = () => {
       location.hash = `#/${testCat}/${testNum}`;
@@ -1377,6 +1347,7 @@
     show('#test-nav');
 
     const catLabel = testDayData.category === 'custom' ? 'Custom' : `Level ${testDayData.category.slice(1)}`;
+    $('#header-title').textContent = `${catLabel} #${testDayData.num} 시험`;
     $('#test-lesson-label').textContent = `${catLabel} #${testDayData.num} 시험`;
 
     showTestQuestion(0);
@@ -1433,10 +1404,6 @@
 
     // Update header
     show('#btn-home');
-    const sel = $('#sel-category');
-    sel.innerHTML = `<option value="">종합 시험</option>`;
-    sel.value = '';
-    $('#sel-num').style.display = 'none';
     $('#btn-prev').disabled = false;
     $('#btn-prev').onclick = () => { location.hash = '#/'; };
     $('#btn-next').disabled = true;
@@ -1447,6 +1414,7 @@
     show('#test-nav');
 
     const catLabel = cat === 'custom' ? 'Custom' : `Level ${cat.slice(1)}`;
+    $('#header-title').textContent = `${catLabel} 종합 시험`;
     $('#test-lesson-label').textContent = `${catLabel} 종합 시험`;
 
     showTestQuestion(0);
@@ -2051,19 +2019,6 @@
       if (chevron) chevron.innerHTML = body.classList.contains('hidden') ? '&#9654;' : '&#9660;';
     });
 
-    // Header category/num selects
-    $('#sel-category').addEventListener('change', e => {
-      const cat = e.target.value;
-      if (!cat) { location.hash = '#/'; return; }
-      const entries = (indexData.levels || {})[cat] || [];
-      if (entries.length) {
-        location.hash = `#/${cat}/${entries[0].num}`;
-      }
-    });
-    $('#sel-num').addEventListener('change', e => {
-      if (currentCat) location.hash = `#/${currentCat}/${e.target.value}`;
-    });
-
     // Home button
     $('#btn-home').addEventListener('click', () => { location.hash = '#/'; });
 
@@ -2171,10 +2126,7 @@
     show('#vocabulary-page');
     show('#btn-home');
 
-    const sel = $('#sel-category');
-    sel.innerHTML = '<option value="">My Vocabulary</option>';
-    sel.value = '';
-    $('#sel-num').style.display = 'none';
+    $('#header-title').textContent = '단어장';
     $('#btn-prev').disabled = false;
     $('#btn-prev').onclick = () => { location.hash = '#/'; };
     $('#btn-next').disabled = true;
@@ -2267,10 +2219,7 @@
     show('#results-page');
     show('#btn-home');
 
-    const sel = $('#sel-category');
-    sel.innerHTML = '<option value="">시험 이력</option>';
-    sel.value = '';
-    $('#sel-num').style.display = 'none';
+    $('#header-title').textContent = '시험 이력';
     $('#btn-prev').disabled = false;
     $('#btn-prev').onclick = () => { location.hash = '#/'; };
     $('#btn-next').disabled = true;
@@ -2362,10 +2311,7 @@
     show('#wrong-notes-page');
     show('#btn-home');
 
-    const sel = $('#sel-category');
-    sel.innerHTML = '<option value="">오답노트</option>';
-    sel.value = '';
-    $('#sel-num').style.display = 'none';
+    $('#header-title').textContent = '오답노트';
     $('#btn-prev').disabled = false;
     $('#btn-prev').onclick = () => { location.hash = '#/'; };
     $('#btn-next').disabled = true;
@@ -2525,10 +2471,7 @@
 
     // Update header
     show('#btn-home');
-    const sel = $('#sel-category');
-    sel.innerHTML = '<option value="">오답노트 복습</option>';
-    sel.value = '';
-    $('#sel-num').style.display = 'none';
+    $('#header-title').textContent = '오답노트 복습';
     $('#btn-prev').disabled = false;
     $('#btn-prev').onclick = () => { location.hash = '#/wrong-notes'; };
     $('#btn-next').disabled = true;

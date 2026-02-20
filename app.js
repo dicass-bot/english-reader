@@ -558,7 +558,7 @@
       const compBtn = document.createElement('button');
       compBtn.className = 'comp-test-btn';
       compBtn.textContent = '종합 시험';
-      compBtn.addEventListener('click', () => startComprehensiveTest(cat));
+      compBtn.addEventListener('click', () => { location.hash = `#/test-all/${cat}`; });
       section.appendChild(compBtn);
 
       container.appendChild(section);
@@ -1781,7 +1781,7 @@
       if (testMode === 'review') {
         startWrongNotesReview();
       } else if (testMode === 'comprehensive') {
-        location.hash = '#/';
+        location.hash = `#/test-all/${testCat}`;
       } else {
         location.hash = `#/test/${testCat}/${testNum}`;
       }
@@ -1793,6 +1793,7 @@
         location.hash = '#/wrong-notes';
       } else if (testMode === 'comprehensive') {
         location.hash = '#/';
+        showHome();
       } else {
         location.hash = `#/${testCat}/${testNum}`;
       }
@@ -2013,7 +2014,13 @@
     });
 
     // Home button
-    $('#btn-home').addEventListener('click', () => { location.hash = '#/'; });
+    $('#btn-home').addEventListener('click', () => {
+      if (location.hash === '#/' || location.hash === '' || location.hash === '#') {
+        showHome();
+      } else {
+        location.hash = '#/';
+      }
+    });
 
     // My Vocabulary button
     $('#btn-vocab').addEventListener('click', () => { location.hash = '#/vocabulary'; });

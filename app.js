@@ -258,8 +258,11 @@
       current = idx;
       slides[current].classList.add('active');
       dots[current].classList.add('active');
-      $('#ob-next').textContent = current === slides.length - 1 ? '시작하기' : '다음';
-      $('#ob-skip').style.visibility = current === slides.length - 1 ? 'hidden' : 'visible';
+      const isLast = current === slides.length - 1;
+      $('#ob-next').textContent = isLast ? '시작하기' : '다음';
+      $('#ob-skip').style.visibility = isLast ? 'hidden' : 'visible';
+      const dismissLabel = $('.ob-dismiss');
+      if (isLast) show(dismissLabel); else hide(dismissLabel);
     }
 
     $('#ob-next').onclick = () => {
@@ -287,10 +290,12 @@
     el.classList.add('fade-out');
     setTimeout(() => hide(el), 300);
     show('#app');
-    localStorage.setItem('onboardingDone', 'true');
-    if (firestoreDb && firebaseUser) {
-      firestoreDb.collection('users').doc(firebaseUser.uid)
-        .set({ onboardingDone: true }, { merge: true }).catch(() => {});
+    if ($('#ob-dismiss-check').checked) {
+      localStorage.setItem('onboardingDone', 'true');
+      if (firestoreDb && firebaseUser) {
+        firestoreDb.collection('users').doc(firebaseUser.uid)
+          .set({ onboardingDone: true }, { merge: true }).catch(() => {});
+      }
     }
     if (!indexData) await loadAppData();
     saveUserProfile(firebaseUser);

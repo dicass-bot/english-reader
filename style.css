@@ -616,6 +616,12 @@ header {
   border-radius: 0.5rem; padding: 0.6rem 1.5rem;
   font-size: 0.9rem; font-weight: 600; cursor: pointer;
 }
+.ob-dismiss {
+  display: flex; align-items: center; gap: 0.4rem;
+  margin-top: 1.5rem; cursor: pointer;
+  font-size: 0.8rem; color: var(--overlay1);
+}
+.ob-dismiss input { accent-color: var(--blue); }
 
 /* ── Login Screen ── */
 .login-screen {

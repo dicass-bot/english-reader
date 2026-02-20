@@ -167,49 +167,64 @@
 
   /* ── Firebase Init & Auth ── */
 
+  function dbg(msg) {
+    console.log('[auth] ' + msg);
+    const el = document.getElementById('login-debug');
+    if (el) el.innerHTML += msg + '<br>';
+  }
+
   function initFirebase() {
-    if (typeof firebase === 'undefined' || !window.firebaseConfig) return;
-    if (window.firebaseConfig.apiKey === 'YOUR_API_KEY') return; // placeholder
+    if (typeof firebase === 'undefined' || !window.firebaseConfig) {
+      dbg('Firebase SDK or config missing');
+      return;
+    }
+    if (window.firebaseConfig.apiKey === 'YOUR_API_KEY') return;
     try {
       firebase.initializeApp(window.firebaseConfig);
       firestoreDb = firebase.firestore();
       firebaseReady = true;
+      dbg('Firebase init OK');
 
       let redirectChecked = false;
 
       // Process any pending redirect result
       firebase.auth().getRedirectResult()
+        .then(result => {
+          dbg('getRedirectResult: user=' + (result.user ? result.user.email : 'null'));
+        })
         .catch(e => {
-          console.error('Redirect login error:', e);
+          dbg('getRedirectResult ERROR: ' + e.code + ' ' + e.message);
           show('#btn-login-main');
           hide('#login-loading');
         })
         .then(() => {
           redirectChecked = true;
-          // If still no user after redirect resolved, show login
           if (!firebaseUser) {
+            dbg('No user after redirect check → show login');
             showLoginScreen();
           }
         });
 
       // Auth listener — registered immediately to catch popup auth too
       firebase.auth().onAuthStateChanged(async user => {
+        dbg('onAuthStateChanged: ' + (user ? user.email : 'null'));
         firebaseUser = user;
         updateAuthUI();
         if (user) {
+          dbg('User found → hide login, load app');
           hideLoginScreen();
           if (!indexData) await loadAppData();
           saveUserProfile(user);
           syncFromFirestore();
         } else if (redirectChecked) {
-          // Only show login if redirect check is done
-          // (prevents flashing login during redirect flow)
+          dbg('No user + redirect done → show login');
           showLoginScreen();
+        } else {
+          dbg('No user + redirect pending → waiting...');
         }
-        // If !user && !redirectChecked → do nothing, wait for getRedirectResult
       });
     } catch (e) {
-      console.error('Firebase init error:', e);
+      dbg('Firebase init ERROR: ' + e.message);
     }
   }
 
@@ -232,20 +247,25 @@
   }
 
   function authLogin() {
-    if (!firebaseReady) return;
+    if (!firebaseReady) { dbg('authLogin: not ready'); return; }
+    dbg('authLogin: trying popup...');
     const provider = new firebase.auth.GoogleAuthProvider();
-    // Try popup first, fall back to redirect if blocked
-    firebase.auth().signInWithPopup(provider).catch(error => {
-      if (error.code === 'auth/popup-blocked' ||
-          error.code === 'auth/popup-closed-by-user' ||
-          error.code === 'auth/cancelled-popup-request') {
-        firebase.auth().signInWithRedirect(provider);
-      } else {
-        console.error('Login error:', error);
-        show('#btn-login-main');
-        hide('#login-loading');
-      }
-    });
+    firebase.auth().signInWithPopup(provider)
+      .then(result => {
+        dbg('popup OK: ' + (result.user ? result.user.email : 'no user'));
+      })
+      .catch(error => {
+        dbg('popup error: ' + error.code + ' ' + error.message);
+        if (error.code === 'auth/popup-blocked' ||
+            error.code === 'auth/popup-closed-by-user' ||
+            error.code === 'auth/cancelled-popup-request') {
+          dbg('Falling back to redirect...');
+          firebase.auth().signInWithRedirect(provider);
+        } else {
+          show('#btn-login-main');
+          hide('#login-loading');
+        }
+      });
   }
 
   function authLogout() {

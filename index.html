@@ -40,6 +40,7 @@
         </select>
       </div>
       <div id="header-right">
+        <button id="btn-wrong-notes" class="nav-btn hidden" aria-label="Wrong Notes" title="오답노트">&#128221;</button>
         <button id="btn-results" class="nav-btn hidden" aria-label="Test Results" title="시험 이력">&#128202;</button>
         <button id="btn-vocab" class="nav-btn" aria-label="My Vocabulary">&#128218;</button>
         <button id="btn-next" class="nav-btn" aria-label="Next">&rarr;</button>
@@ -176,6 +177,8 @@
       <div id="test-question-card" class="card">
         <div id="test-q-type" class="test-type-badge"></div>
         <div id="test-q-body"></div>
+        <button id="btn-test-hint" class="test-hint-btn hidden">힌트</button>
+        <div id="test-hint-area" class="test-hint-area hidden"></div>
         <div id="test-q-input"></div>
         <div id="test-feedback" class="test-feedback hidden"></div>
       </div>
@@ -194,6 +197,17 @@
           <button id="btn-test-back" class="toggle-btn">돌아가기</button>
         </div>
       </div>
+    </section>
+
+    <!-- Wrong Notes Page -->
+    <section id="wrong-notes-page" class="page hidden">
+      <div class="wrong-notes-header">
+        <h2>오답노트</h2>
+        <span id="wrong-notes-count" class="badge">0</span>
+      </div>
+      <button id="btn-review-wrong" class="test-start-btn" disabled>틀린 문제 다시 풀기</button>
+      <div id="wrong-notes-list"></div>
+      <div id="wrong-notes-empty" class="no-results-msg hidden">오답노트가 비어있습니다</div>
     </section>
 
     <!-- Results History Page -->

@@ -30,6 +30,8 @@
 
   const VOCAB_STORE_KEY = 'english-reader-vocabulary';
   const TEST_RESULTS_KEY = 'english-reader-test-results';
+  const WRONG_NOTES_KEY = 'english-reader-wrong-notes';
+  let testMode = 'normal'; // 'normal' or 'review'
 
   /* ── Vocabulary Store (localStorage + Firestore sync) ── */
 
@@ -88,6 +90,79 @@
 
   function testResultsSave(results) {
     localStorage.setItem(TEST_RESULTS_KEY, JSON.stringify(results));
+  }
+
+  /* ── Wrong Notes Store ── */
+
+  function wrongNotesStore() {
+    try {
+      return JSON.parse(localStorage.getItem(WRONG_NOTES_KEY)) || [];
+    } catch { return []; }
+  }
+
+  function wrongNotesSave(notes) {
+    localStorage.setItem(WRONG_NOTES_KEY, JSON.stringify(notes));
+    syncWrongNotesToFirestore();
+  }
+
+  function wrongNoteId(q) {
+    return `${q.lessonId || ''}_${q.type}_${q.subtype || ''}_${q.answer}`;
+  }
+
+  function addToWrongNotes(q, lessonId) {
+    const notes = wrongNotesStore();
+    const id = wrongNoteId({ ...q, lessonId });
+    const existing = notes.find(n => n.id === id);
+    if (existing) {
+      existing.wrongCount = (existing.wrongCount || 1) + 1;
+      existing.lastWrongAt = new Date().toISOString();
+    } else {
+      notes.push({
+        id,
+        lessonId,
+        type: q.type,
+        subtype: q.subtype || '',
+        question: q.question,
+        answer: q.answer,
+        pos: q.pos || '',
+        hint: q.hint || '',
+        ipa: q.ipa || '',
+        hintText: q.hintText || '',
+        choices: q.choices || null,
+        explanation: q.explanation || '',
+        wrongCount: 1,
+        addedAt: new Date().toISOString(),
+        lastWrongAt: new Date().toISOString()
+      });
+    }
+    wrongNotesSave(notes);
+  }
+
+  function removeFromWrongNotes(noteId) {
+    const notes = wrongNotesStore().filter(n => n.id !== noteId);
+    wrongNotesSave(notes);
+  }
+
+  async function syncWrongNotesToFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('data').doc('wrongNotes').set({ items: wrongNotesStore() });
+    } catch (e) { console.error('Wrong notes sync error:', e); }
+  }
+
+  async function syncWrongNotesFromFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      const doc = await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('data').doc('wrongNotes').get();
+      if (doc.exists) {
+        const data = doc.data();
+        if (data.items?.length) {
+          localStorage.setItem(WRONG_NOTES_KEY, JSON.stringify(data.items));
+        }
+      }
+    } catch (e) { console.error('Wrong notes sync error:', e); }
   }
 
   /* ── Firebase Init & Auth ── */
@@ -163,6 +238,7 @@
     const loginBtn = $('#btn-google-login');
     const logoutBtn = $('#btn-logout');
     const resultsBtn = $('#btn-results');
+    const wrongNotesBtn = $('#btn-wrong-notes');
 
     if (firebaseUser) {
       // Show avatar in header button
@@ -181,6 +257,7 @@
       hide(loginBtn);
       show(logoutBtn);
       show(resultsBtn);
+      show(wrongNotesBtn);
     } else {
       authBtn.classList.remove('logged-in');
       authBtn.innerHTML = '&#128100;';
@@ -188,6 +265,7 @@
       show(loginBtn);
       hide(logoutBtn);
       hide(resultsBtn);
+      hide(wrongNotesBtn);
     }
   }
 
@@ -231,8 +309,9 @@
         }
       }
 
-      // Sync test results from Firestore
+      // Sync test results and wrong notes from Firestore
       await syncTestResultsFromFirestore();
+      await syncWrongNotesFromFirestore();
     } catch (e) {
       console.error('Firestore sync error:', e);
     }
@@ -373,6 +452,12 @@
       return;
     }
 
+    // #/wrong-notes
+    if (hash === '#/wrong-notes') {
+      showWrongNotesPage();
+      return;
+    }
+
     // #/L1/0001 or #/custom/0001
     const contentMatch = hash.match(/#\/([^/]+)\/(\d{4})/);
     if (contentMatch) {
@@ -398,6 +483,7 @@
     hide('#vocabulary-page');
     hide('#test-page');
     hide('#results-page');
+    hide('#wrong-notes-page');
     show('#home');
     updateHeaderForHome();
     renderHome();
@@ -460,6 +546,7 @@
     hide('#vocabulary-page');
     hide('#test-page');
     hide('#results-page');
+    hide('#wrong-notes-page');
     show('#loading');
 
     const prefix = `${cat}-${num}`;
@@ -974,7 +1061,8 @@
         pos: info.pos || '',
         hint: wordKey[0] + '_'.repeat(Math.max(0, wordKey.length - 1)),
         answer: wordKey,
-        ipa: info.ipa || ''
+        ipa: info.ipa || '',
+        hintText: `발음: ${info.ipa || '?'} · ${wordKey.length}글자`
       });
     });
 
@@ -1031,13 +1119,16 @@
 
       const choices = shuffleArray([correctAnswer, ...selectedDistractors.slice(0, 3)]);
 
+      const ctxHint = info.contextMeaning || info.contextNote || '';
+      const posShort = (info.pos || '').split(' ')[0];
       qs.push({
         type: 'meaning',
         question: word,
         ipa: info.ipa || '',
         pos: info.pos || '',
         answer: correctAnswer,
-        choices: choices
+        choices: choices,
+        hintText: ctxHint ? ctxHint : (posShort ? `품사: ${posShort}` : '')
       });
     });
 
@@ -1093,13 +1184,15 @@
         const distArr = shuffleArray([...distractors]).slice(0, 3);
         const choices = shuffleArray([blankTarget.text, ...distArr]);
 
+        const roleLabels = { verb: '동사', complement: '보어', object: '목적어', subject: '주어', adverbial: '부사' };
         qs.push({
           type: 'grammar',
           subtype: 'fillblank',
           question: blanked,
           answer: blankTarget.text,
           choices: choices,
-          explanation: sent.explanation || ''
+          explanation: sent.explanation || '',
+          hintText: `빈칸 역할: ${roleLabels[targetKey] || targetKey} · 첫 글자: ${blankTarget.text[0]}`
         });
       }
 
@@ -1110,6 +1203,7 @@
         const selectedWrong = shuffleArray(wrongPatterns).slice(0, 3);
         const choices = shuffleArray([correctPattern, ...selectedWrong]);
 
+        const components = Object.keys(structure).filter(k => structure[k]);
         qs.push({
           type: 'grammar',
           subtype: 'pattern',
@@ -1117,7 +1211,8 @@
           patternNote: sent.pattern.note || '',
           answer: correctPattern,
           choices: choices,
-          explanation: sent.explanation || ''
+          explanation: sent.explanation || '',
+          hintText: `구성요소 ${components.length}개: ${components.join(', ')}`
         });
       }
     });
@@ -1130,10 +1225,12 @@
   async function startTest(cat, num) {
     testCat = cat;
     testNum = num;
+    testMode = 'normal';
     hide('#home');
     hide('#day-view');
     hide('#vocabulary-page');
     hide('#results-page');
+    hide('#wrong-notes-page');
     show('#loading');
 
     // Load day data if not already loaded
@@ -1211,6 +1308,23 @@
     const feedback = $('#test-feedback');
     feedback.className = 'test-feedback hidden';
     feedback.innerHTML = '';
+
+    // Hint
+    const hintBtn = $('#btn-test-hint');
+    const hintArea = $('#test-hint-area');
+    hintArea.innerHTML = '';
+    hide(hintArea);
+    if (q.hintText) {
+      show(hintBtn);
+      hintBtn.disabled = false;
+      hintBtn.onclick = () => {
+        hintArea.textContent = q.hintText;
+        show(hintArea);
+        hintBtn.disabled = true;
+      };
+    } else {
+      hide(hintBtn);
+    }
 
     // Buttons
     const submitBtn = $('#btn-test-submit');
@@ -1441,10 +1555,26 @@
       details.appendChild(item);
     });
 
+    // Wrong notes handling
+    const lessonId = `${testCat}-${testNum}`;
+    testAnswers.forEach((a, i) => {
+      if (!a) return;
+      const q = testQuestions[i];
+      const noteLessonId = q._reviewLessonId || lessonId;
+      if (!a.correct) {
+        // 틀린 문제 → 오답노트에 추가 (원래 레슨 ID 유지)
+        addToWrongNotes(q, noteLessonId);
+      } else if (testMode === 'review') {
+        // 리뷰 모드에서 맞춘 문제 → 오답노트에서 제거
+        const noteId = wrongNoteId({ ...q, lessonId: noteLessonId });
+        removeFromWrongNotes(noteId);
+      }
+    });
+
     // Save result
     const result = {
-      lessonId: `${testCat}-${testNum}`,
-      lessonTitle: testDayData?.source?.title || '',
+      lessonId: lessonId,
+      lessonTitle: testMode === 'review' ? '오답노트 복습' : (testDayData?.source?.title || ''),
       score: correctCount,
       total: total,
       percentage: pct,
@@ -1463,12 +1593,20 @@
 
     // Retry button
     $('#btn-test-retry').onclick = () => {
-      startTest(testCat, testNum);
+      if (testMode === 'review') {
+        startWrongNotesReview();
+      } else {
+        startTest(testCat, testNum);
+      }
     };
 
     // Back button
     $('#btn-test-back').onclick = () => {
-      location.hash = `#/${testCat}/${testNum}`;
+      if (testMode === 'review') {
+        location.hash = '#/wrong-notes';
+      } else {
+        location.hash = `#/${testCat}/${testNum}`;
+      }
     };
   }
 
@@ -1703,6 +1841,9 @@
 
     // Results button
     $('#btn-results').addEventListener('click', () => { location.hash = '#/results'; });
+
+    // Wrong notes button
+    $('#btn-wrong-notes').addEventListener('click', () => { location.hash = '#/wrong-notes'; });
   }
 
   /* ── Auth UI Listeners ── */
@@ -1788,6 +1929,7 @@
     hide('#day-view');
     hide('#test-page');
     hide('#results-page');
+    hide('#wrong-notes-page');
     show('#vocabulary-page');
 
     const sel = $('#sel-category');
@@ -1882,6 +2024,7 @@
     hide('#day-view');
     hide('#vocabulary-page');
     hide('#test-page');
+    hide('#wrong-notes-page');
     show('#results-page');
 
     const sel = $('#sel-category');
@@ -1966,6 +2109,161 @@
 
       container.appendChild(card);
     });
+  }
+
+  /* ── Wrong Notes Page ── */
+
+  function showWrongNotesPage() {
+    hide('#home');
+    hide('#day-view');
+    hide('#vocabulary-page');
+    hide('#test-page');
+    hide('#results-page');
+    show('#wrong-notes-page');
+
+    const sel = $('#sel-category');
+    sel.innerHTML = '<option value="">오답노트</option>';
+    sel.value = '';
+    $('#sel-num').style.display = 'none';
+    $('#btn-prev').disabled = false;
+    $('#btn-prev').onclick = () => { location.hash = '#/'; };
+    $('#btn-next').disabled = true;
+
+    renderWrongNotes();
+  }
+
+  function renderWrongNotes() {
+    const notes = wrongNotesStore();
+    const container = $('#wrong-notes-list');
+    container.innerHTML = '';
+    $('#wrong-notes-count').textContent = notes.length;
+
+    const reviewBtn = $('#btn-review-wrong');
+    const emptyMsg = $('#wrong-notes-empty');
+
+    if (notes.length === 0) {
+      reviewBtn.disabled = true;
+      show(emptyMsg);
+      return;
+    }
+
+    reviewBtn.disabled = false;
+    hide(emptyMsg);
+
+    // Sort by wrongCount desc, then lastWrongAt desc
+    const sorted = [...notes].sort((a, b) => {
+      if (b.wrongCount !== a.wrongCount) return b.wrongCount - a.wrongCount;
+      return (b.lastWrongAt || '').localeCompare(a.lastWrongAt || '');
+    });
+
+    sorted.forEach(note => {
+      const card = document.createElement('div');
+      card.className = 'wn-card';
+
+      const typeLabels = { spelling: '스펠링', meaning: '뜻', grammar: '문법' };
+      const typeLabel = typeLabels[note.type] || note.type;
+
+      let questionDisplay = note.question || '';
+      if (questionDisplay.length > 50) questionDisplay = questionDisplay.substring(0, 50) + '...';
+
+      const dateStr = note.lastWrongAt ? new Date(note.lastWrongAt).toLocaleDateString('ko-KR', {
+        month: 'numeric', day: 'numeric'
+      }) : '';
+
+      card.innerHTML = `
+        <div class="wn-card-top">
+          <span class="wn-type ${note.type}">${typeLabel}</span>
+          <span class="wn-lesson">${esc(note.lessonId || '')}</span>
+          <span class="wn-count">x${note.wrongCount || 1}</span>
+        </div>
+        <div class="wn-card-body">
+          <span class="wn-question">${esc(questionDisplay)}</span>
+          <span class="wn-answer">${esc(note.answer || '')}</span>
+        </div>
+        <div class="wn-card-footer">
+          <span class="wn-date">${dateStr}</span>
+          <button class="wn-delete-btn" title="삭제">&#10005;</button>
+        </div>`;
+
+      // Delete individual note
+      card.querySelector('.wn-delete-btn').addEventListener('click', e => {
+        e.stopPropagation();
+        removeFromWrongNotes(note.id);
+        renderWrongNotes();
+      });
+
+      container.appendChild(card);
+    });
+
+    // Review button handler
+    reviewBtn.onclick = () => {
+      startWrongNotesReview();
+    };
+  }
+
+  function startWrongNotesReview() {
+    const notes = wrongNotesStore();
+    if (notes.length === 0) return;
+
+    testMode = 'review';
+    testCat = 'review';
+    testNum = '0000';
+    testDayData = null;
+
+    // Convert wrong notes back to quiz questions
+    testQuestions = notes.map(note => {
+      const q = {
+        type: note.type,
+        subtype: note.subtype || '',
+        question: note.question,
+        answer: note.answer,
+        pos: note.pos || '',
+        hint: note.hint || '',
+        ipa: note.ipa || '',
+        hintText: note.hintText || '',
+        choices: note.choices || null,
+        explanation: note.explanation || '',
+        _reviewLessonId: note.lessonId
+      };
+      // Regenerate choices for meaning/grammar if missing
+      if ((q.type === 'meaning' || q.type === 'grammar') && !q.choices) {
+        q.choices = [q.answer];
+      }
+      return q;
+    });
+
+    // Fisher-Yates shuffle
+    for (let i = testQuestions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [testQuestions[i], testQuestions[j]] = [testQuestions[j], testQuestions[i]];
+    }
+
+    testCurrentIdx = 0;
+    testAnswers = new Array(testQuestions.length).fill(null);
+    testAnswered = false;
+
+    // Update header
+    const sel = $('#sel-category');
+    sel.innerHTML = '<option value="">오답노트 복습</option>';
+    sel.value = '';
+    $('#sel-num').style.display = 'none';
+    $('#btn-prev').disabled = false;
+    $('#btn-prev').onclick = () => { location.hash = '#/wrong-notes'; };
+    $('#btn-next').disabled = true;
+
+    hide('#home');
+    hide('#day-view');
+    hide('#vocabulary-page');
+    hide('#results-page');
+    hide('#wrong-notes-page');
+    show('#test-page');
+    hide('#test-result-card');
+    show('#test-question-card');
+    show('#test-nav');
+
+    $('#test-lesson-label').textContent = '오답노트 복습 시험';
+
+    showTestQuestion(0);
   }
 
   /* ── Helpers ── */

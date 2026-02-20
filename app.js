@@ -124,8 +124,8 @@
     if (screen) {
       screen.classList.remove('fade-out');
       show(screen);
-      hide('#loading');
     }
+    hide('#app');
   }
 
   function hideLoginScreen() {
@@ -134,6 +134,7 @@
       screen.classList.add('fade-out');
       setTimeout(() => hide(screen), 300);
     }
+    show('#app');
   }
 
   function authLogin() {

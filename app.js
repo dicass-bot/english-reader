@@ -894,12 +894,7 @@
         renderMyVocabList();
       });
     });
-    $('#btn-completed-toggle')?.addEventListener('click', () => {
-      const body = $('#completed-list');
-      const chev = $('#btn-completed-toggle .chevron');
-      body.classList.toggle('hidden');
-      if (chev) chev.innerHTML = body.classList.contains('hidden') ? '&#9660;' : '&#9650;';
-    });
+    // completed toggle는 generic collapsible handler가 처리 (double toggle 방지)
   }
 
   function showVocabularyPage() {
@@ -952,9 +947,18 @@
           <button class="mv-complete-btn">✓ 완료</button>
         </div>`;
 
-      div.querySelector('.mv-detail-btn').addEventListener('click', () => {
-        const [cat, num] = (item.source || '').split('-');
-        if (cat && num) location.hash = `#/${cat}/${num}`;
+      div.querySelector('.mv-detail-btn').addEventListener('click', async () => {
+        const src = item.source || '';
+        const dashIdx = src.indexOf('-');
+        if (dashIdx === -1) return;
+        const cat = src.substring(0, dashIdx);
+        const num = src.substring(dashIdx + 1);
+        try {
+          const res = await fetch(`days/${cat}-${num}.json`);
+          if (!res.ok) return;
+          const data = await res.json();
+          showWordPopup(item.word, data.words);
+        } catch {}
       });
 
       div.querySelector('.mv-complete-btn').addEventListener('click', () => {

@@ -45,6 +45,16 @@
     vocabSave(store);
   }
 
+  function vocabUncomplete(word, source) {
+    const store = vocabStore();
+    const idx = store.completed.findIndex(w => w.word === word && w.source === source);
+    if (idx === -1) return;
+    const item = store.completed.splice(idx, 1)[0];
+    delete item.completedAt;
+    store.words.push(item);
+    vocabSave(store);
+  }
+
   function vocabIsAdded(word, source) {
     const store = vocabStore();
     return store.words.some(w => w.word === word && w.source === source);
@@ -904,7 +914,7 @@
     sel.innerHTML = '<option value="">My Vocabulary</option>';
     sel.value = '';
     $('#sel-num').style.display = 'none';
-    $('#btn-prev').disabled = true;
+    $('#btn-prev').disabled = false;
     $('#btn-prev').onclick = () => { location.hash = '#/'; };
     $('#btn-next').disabled = true;
 
@@ -960,10 +970,19 @@
     compList.innerHTML = '';
     const recent = store.completed.slice(-20).reverse();
     recent.forEach(item => {
-      const span = document.createElement('span');
-      span.className = 'completed-word';
-      span.textContent = item.word;
-      compList.appendChild(span);
+      const div = document.createElement('div');
+      div.className = 'completed-card';
+      div.innerHTML = `
+        <span class="cc-word">${esc(item.word)}</span>
+        <span class="cc-pos badge">${esc(item.pos || '')}</span>
+        <span class="cc-meaning">${esc(item.meaning || '')}</span>
+        <span class="cc-date">${item.completedAt ? new Date(item.completedAt).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric' }) : ''}</span>
+        <button class="cc-undo-btn">취소</button>`;
+      div.querySelector('.cc-undo-btn').addEventListener('click', () => {
+        vocabUncomplete(item.word, item.source);
+        renderMyVocabList();
+      });
+      compList.appendChild(div);
     });
   }
 

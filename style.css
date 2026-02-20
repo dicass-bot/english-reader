@@ -346,11 +346,20 @@ header {
   cursor: pointer; width: 100%; text-align: left; padding: 0.25rem 0;
 }
 #btn-completed-toggle .chevron { font-size: 0.6rem; margin-left: 0.3rem; }
-#completed-list { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.5rem; }
-.completed-word {
-  background: var(--surface0); color: var(--overlay0); padding: 0.2rem 0.5rem;
-  border-radius: 0.25rem; font-size: 0.7rem; text-decoration: line-through;
+#completed-list { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.5rem; }
+.completed-card {
+  display: flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.5rem;
+  background: var(--surface0); border-radius: 0.4rem; font-size: 0.8rem;
 }
+.cc-word { color: var(--overlay0); text-decoration: line-through; font-weight: 500; min-width: 3rem; }
+.cc-pos { font-size: 0.65rem; }
+.cc-meaning { color: var(--subtext0); flex: 1; font-size: 0.75rem; }
+.cc-date { color: var(--overlay0); font-size: 0.65rem; }
+.cc-undo-btn {
+  background: none; border: 1px solid var(--overlay0); color: var(--overlay1);
+  border-radius: 0.25rem; padding: 0.15rem 0.4rem; font-size: 0.7rem; cursor: pointer;
+}
+.cc-undo-btn:active { background: var(--surface1); }
 
 /* Responsive desktop */
 @media (min-width: 768px) {

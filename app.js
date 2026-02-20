@@ -131,10 +131,13 @@
         hintText: q.hintText || '',
         choices: q.choices || null,
         explanation: q.explanation || '',
+        exampleSentence: q.exampleSentence || '',
+        wrongCount: 1,
+        addedAt: new Date().toISOString(),
+        lastWrongAt: new Date().toISOString()
       });
-    });
-
-    return qs;
+    }
+    wrongNotesSave(notes);
   }
 
   function generateListeningQ(words, keyVocab) {
@@ -791,22 +794,6 @@
       details.appendChild(item);
     });
 
-    // Wrong notes handling
-    const lessonId = `${testCat}-${testNum}`;
-    testAnswers.forEach((a, i) => {
-      if (!a) return;
-      const q = testQuestions[i];
-      const noteLessonId = q._reviewLessonId || lessonId;
-      if (!a.correct) {
-        // 틀린 문제 → 오답노트에 추가 (원래 레슨 ID 유지)
-        addToWrongNotes(q, noteLessonId);
-      } else if (testMode === 'review') {
-        // 리뷰 모드에서 맞춘 문제 → 오답노트에서 제거
-        const noteId = wrongNoteId({ ...q, lessonId: noteLessonId });
-        removeFromWrongNotes(noteId);
-      }
-    });
-
     // Save result
     const lessonId = `${testCat}-${testNum}`;
     const catLabel = testCat === 'custom' ? 'Custom' : (testCat === 'review' ? '' : `Level ${testCat.slice(1)}`);
@@ -1408,6 +1395,38 @@
         month: 'numeric', day: 'numeric'
       }) : '';
 
+      // Build detail section based on type
+      let detailHtml = '';
+      if (note.type === 'spelling' || note.type === 'listening') {
+        detailHtml = `
+          <div class="wn-detail-row">${note.ipa ? `<span class="wn-detail-label">발음</span><span>${esc(note.ipa)}</span>` : ''}</div>
+          ${note.pos ? `<div class="wn-detail-row"><span class="wn-detail-label">품사</span><span>${esc(note.pos)}</span></div>` : ''}
+          ${note.hintText ? `<div class="wn-detail-row"><span class="wn-detail-label">힌트</span><span>${esc(note.hintText)}</span></div>` : ''}
+          <button class="wn-speak-btn" data-word="${esc(note.answer)}">&#128264; 발음 듣기</button>`;
+      } else if (note.type === 'meaning') {
+        detailHtml = `
+          ${note.ipa ? `<div class="wn-detail-row"><span class="wn-detail-label">발음</span><span>${esc(note.ipa)}</span></div>` : ''}
+          ${note.pos ? `<div class="wn-detail-row"><span class="wn-detail-label">품사</span><span>${esc(note.pos)}</span></div>` : ''}
+          ${note.exampleSentence ? `<div class="wn-detail-row"><span class="wn-detail-label">예문</span><span class="wn-detail-example">${esc(note.exampleSentence)}</span></div>` : ''}
+          <button class="wn-speak-btn" data-word="${esc(note.question)}">&#128264; 발음 듣기</button>`;
+      } else if (note.type === 'grammar') {
+        detailHtml = `
+          ${note.explanation ? `<div class="wn-detail-row"><span class="wn-detail-label">설명</span><span>${esc(note.explanation)}</span></div>` : ''}
+          ${note.hintText ? `<div class="wn-detail-row"><span class="wn-detail-label">힌트</span><span>${esc(note.hintText)}</span></div>` : ''}`;
+      }
+
+      card.innerHTML = `
+        <div class="wn-card-top">
+          <span class="wn-type ${note.type}">${typeLabel}</span>
+          <span class="wn-lesson">${esc(note.lessonId || '')}</span>
+          <span class="wn-count">x${note.wrongCount || 1}</span>
+        </div>
+        <div class="wn-card-body">
+          <span class="wn-question">${esc(questionDisplay)}</span>
+          <span class="wn-answer">${esc(note.answer || '')}</span>
+        </div>
+        <div class="wn-card-footer">
+          <span class="wn-date">${dateStr}</span>
           <span class="wn-expand-icon">&#9654;</span>
           <button class="wn-delete-btn" title="삭제">&#10005;</button>
         </div>

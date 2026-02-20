@@ -195,6 +195,19 @@
         updateAuthUI();
         if (user) {
           hideLoginScreen();
+          if (!localStorage.getItem('onboardingDone')) {
+            // Check if existing user (has updatedAt in Firestore)
+            try {
+              const userDoc = await firestoreDb.collection('users').doc(user.uid).get();
+              if (userDoc.exists && (userDoc.data().onboardingDone || userDoc.data().updatedAt)) {
+                localStorage.setItem('onboardingDone', 'true');
+              }
+            } catch (_) {}
+          }
+          if (!localStorage.getItem('onboardingDone')) {
+            showOnboarding();
+            return;
+          }
           if (!indexData) await loadAppData();
           saveUserProfile(user);
           syncFromFirestore();
@@ -225,6 +238,63 @@
       setTimeout(() => hide(screen), 300);
     }
     show('#app');
+  }
+
+  /* ── Onboarding ── */
+
+  function showOnboarding() {
+    show('#onboarding');
+    hide('#app');
+    let current = 0;
+    const slides = $$('.onboarding-slide');
+    const dots = $$('.ob-dot');
+
+    function goTo(idx) {
+      slides[current].classList.remove('active');
+      slides[current].classList.add('exit-left');
+      dots[current].classList.remove('active');
+      const prev = current;
+      setTimeout(() => slides[prev].classList.remove('exit-left'), 300);
+      current = idx;
+      slides[current].classList.add('active');
+      dots[current].classList.add('active');
+      $('#ob-next').textContent = current === slides.length - 1 ? '시작하기' : '다음';
+      $('#ob-skip').style.visibility = current === slides.length - 1 ? 'hidden' : 'visible';
+    }
+
+    $('#ob-next').onclick = () => {
+      if (current === slides.length - 1) {
+        closeOnboarding();
+      } else {
+        goTo(current + 1);
+      }
+    };
+
+    $('#ob-skip').onclick = closeOnboarding;
+
+    // Swipe support
+    let startX = 0;
+    $('#onboarding').addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+    $('#onboarding').addEventListener('touchend', e => {
+      const diff = e.changedTouches[0].clientX - startX;
+      if (diff < -50 && current < slides.length - 1) goTo(current + 1);
+      if (diff > 50 && current > 0) goTo(current - 1);
+    }, { passive: true });
+  }
+
+  async function closeOnboarding() {
+    const el = $('#onboarding');
+    el.classList.add('fade-out');
+    setTimeout(() => hide(el), 300);
+    show('#app');
+    localStorage.setItem('onboardingDone', 'true');
+    if (firestoreDb && firebaseUser) {
+      firestoreDb.collection('users').doc(firebaseUser.uid)
+        .set({ onboardingDone: true }, { merge: true }).catch(() => {});
+    }
+    if (!indexData) await loadAppData();
+    saveUserProfile(firebaseUser);
+    syncFromFirestore();
   }
 
   function authLogin() {

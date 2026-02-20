@@ -332,6 +332,7 @@
   }
 
   async function loadAppData() {
+    if (firebaseReady && !firebaseUser) return;
     show('#loading');
     try {
       const res = await fetch('index.json');
@@ -346,6 +347,12 @@
   }
 
   function route() {
+    // Auth guard: must be logged in
+    if (firebaseReady && !firebaseUser) {
+      showLoginScreen();
+      return;
+    }
+
     const hash = location.hash || '#/';
 
     // #/test/L1/0001

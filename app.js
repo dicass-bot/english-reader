@@ -1133,6 +1133,16 @@
 
       const choices = shuffleArray([correctAnswer, ...selectedDistractors.slice(0, 3)]);
 
+      // Pick an example sentence (if available)
+      const examples = info.examples || [];
+      let exampleSentence = '';
+      if (examples.length > 0) {
+        const ex = examples[0];
+        // Replace the target word with ___ for context
+        const regex = new RegExp(word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+        exampleSentence = (ex.en || '').replace(regex, '___');
+      }
+
       const ctxHint = info.contextMeaning || info.contextNote || '';
       const posShort = (info.pos || '').split(' ')[0];
       qs.push({
@@ -1142,6 +1152,7 @@
         pos: info.pos || '',
         answer: correctAnswer,
         choices: choices,
+        exampleSentence: exampleSentence,
         hintText: ctxHint ? ctxHint : (posShort ? `품사: ${posShort}` : '')
       });
     });
@@ -1378,7 +1389,8 @@
     } else if (q.type === 'meaning') {
       body.innerHTML = `
         <div class="test-q-main">${esc(q.question)}</div>
-        <div class="test-q-sub">${esc(q.ipa)}${q.pos ? ' — ' + esc(q.pos) : ''}</div>`;
+        <div class="test-q-sub">${esc(q.ipa)}${q.pos ? ' — ' + esc(q.pos) : ''}</div>
+        ${q.exampleSentence ? `<div class="test-q-example">${esc(q.exampleSentence)}</div>` : ''}`;
 
       const choicesDiv = document.createElement('div');
       choicesDiv.className = 'test-choices';

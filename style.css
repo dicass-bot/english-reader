@@ -430,6 +430,7 @@ header {
 .test-q-main { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text); line-height: 1.6; }
 .test-q-sub { font-size: 0.85rem; color: var(--subtext0); margin-bottom: 0.75rem; }
 .test-q-hint { font-size: 0.9rem; color: var(--overlay1); margin-bottom: 0.75rem; font-family: monospace; letter-spacing: 2px; }
+.test-q-example { font-size: 0.85rem; color: var(--overlay1); margin-bottom: 0.75rem; font-style: italic; padding: 0.4rem 0.6rem; background: rgba(137,180,250,0.08); border-radius: 0.4rem; border-left: 2px solid var(--blue); }
 
 /* Spelling Input */
 .test-spelling-input {

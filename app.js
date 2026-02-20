@@ -140,6 +140,1001 @@
     wrongNotesSave(notes);
   }
 
+  function removeFromWrongNotes(noteId) {
+    const notes = wrongNotesStore().filter(n => n.id !== noteId);
+    wrongNotesSave(notes);
+  }
+
+  async function syncWrongNotesToFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('data').doc('wrongNotes').set({ items: wrongNotesStore() });
+    } catch (e) { console.error('Wrong notes sync error:', e); }
+  }
+
+  async function syncWrongNotesFromFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      const doc = await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('data').doc('wrongNotes').get();
+      if (doc.exists) {
+        const data = doc.data();
+        if (data.items?.length) {
+          localStorage.setItem(WRONG_NOTES_KEY, JSON.stringify(data.items));
+        }
+      }
+    } catch (e) { console.error('Wrong notes sync error:', e); }
+  }
+
+  /* ── Firebase Init & Auth ── */
+
+  function initFirebase() {
+    if (typeof firebase === 'undefined' || !window.firebaseConfig) return;
+    if (window.firebaseConfig.apiKey === 'YOUR_API_KEY') return;
+    try {
+      firebase.initializeApp(window.firebaseConfig);
+      firestoreDb = firebase.firestore();
+      firebaseReady = true;
+
+      let redirectChecked = false;
+
+      firebase.auth().getRedirectResult()
+        .catch(e => {
+          console.error('Redirect login error:', e);
+          show('#btn-login-main');
+          hide('#login-loading');
+        })
+        .then(() => {
+          redirectChecked = true;
+          if (!firebaseUser) showLoginScreen();
+        });
+
+      firebase.auth().onAuthStateChanged(async user => {
+        firebaseUser = user;
+        updateAuthUI();
+        if (user) {
+          hideLoginScreen();
+          if (!indexData) await loadAppData();
+          saveUserProfile(user);
+          syncFromFirestore();
+        } else if (redirectChecked) {
+          showLoginScreen();
+        }
+      });
+    } catch (e) {
+      console.error('Firebase init error:', e);
+    }
+  }
+
+  function showLoginScreen() {
+    show('#btn-login-main');
+    hide('#login-loading');
+    const screen = $('#login-screen');
+    if (screen) {
+      screen.classList.remove('fade-out');
+      show(screen);
+    }
+    hide('#app');
+  }
+
+  function hideLoginScreen() {
+    const screen = $('#login-screen');
+    if (screen && !screen.classList.contains('hidden')) {
+      screen.classList.add('fade-out');
+      setTimeout(() => hide(screen), 300);
+    }
+    show('#app');
+  }
+
+  function authLogin() {
+    if (!firebaseReady) return;
+    const provider = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithPopup(provider).catch(error => {
+      if (error.code === 'auth/popup-blocked' ||
+          error.code === 'auth/popup-closed-by-user' ||
+          error.code === 'auth/cancelled-popup-request') {
+        firebase.auth().signInWithRedirect(provider);
+      } else {
+        console.error('Login error:', error);
+        show('#btn-login-main');
+        hide('#login-loading');
+      }
+      });
+  }
+
+  function authLogout() {
+    if (!firebaseReady) return;
+    firebase.auth().signOut().then(() => {
+      location.hash = '#/';
+    });
+  }
+
+  function updateAuthUI() {
+    const authBtn = $('#btn-auth');
+    const menuInfo = $('#auth-menu-info');
+    const loginBtn = $('#btn-google-login');
+    const logoutBtn = $('#btn-logout');
+    const resultsBtn = $('#btn-results');
+    const wrongNotesBtn = $('#btn-wrong-notes');
+
+    if (firebaseUser) {
+      // Show avatar in header button
+      authBtn.classList.add('logged-in');
+      if (firebaseUser.photoURL) {
+        authBtn.innerHTML = `<img src="${firebaseUser.photoURL}" alt="">`;
+      } else {
+        authBtn.innerHTML = '&#128100;';
+      }
+      // Update menu
+      show(menuInfo);
+      const avatar = $('#auth-menu-avatar');
+      if (firebaseUser.photoURL) avatar.src = firebaseUser.photoURL;
+      $('#auth-menu-name').textContent = firebaseUser.displayName || '';
+      $('#auth-menu-email').textContent = firebaseUser.email || '';
+      hide(loginBtn);
+      show(logoutBtn);
+      show(resultsBtn);
+      show(wrongNotesBtn);
+    } else {
+      authBtn.classList.remove('logged-in');
+      authBtn.innerHTML = '&#128100;';
+      hide(menuInfo);
+      show(loginBtn);
+      hide(logoutBtn);
+      hide(resultsBtn);
+      hide(wrongNotesBtn);
+    }
+  }
+
+  function saveUserProfile(user) {
+    if (!firestoreDb || !user) return;
+    firestoreDb.collection('users').doc(user.uid).set({
+      displayName: user.displayName || '',
+      photoURL: user.photoURL || '',
+      email: user.email || '',
+      updatedAt: firebase.firestore.FieldValue.serverTimestamp()
+    }, { merge: true }).catch(() => {});
+  }
+
+  /* ── Firestore Sync ── */
+
+  async function syncFromFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      const doc = await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('data').doc('vocab').get();
+      if (doc.exists) {
+        const data = doc.data();
+        const remoteStore = { words: data.words || [], completed: data.completed || [] };
+        const localStore = vocabStore();
+
+        // If local has data and remote is empty, offer migration
+        if (remoteStore.words.length === 0 && remoteStore.completed.length === 0 &&
+            (localStore.words.length > 0 || localStore.completed.length > 0)) {
+          showMigrateDialog(localStore);
+          return;
+        }
+
+        // Remote takes precedence
+        vocabSave(remoteStore);
+        if (location.hash === '#/vocabulary') renderMyVocabList();
+      } else {
+        // No remote data exists
+        const localStore = vocabStore();
+        if (localStore.words.length > 0 || localStore.completed.length > 0) {
+          showMigrateDialog(localStore);
+        }
+      }
+
+      // Sync test results and wrong notes from Firestore
+      await syncTestResultsFromFirestore();
+      await syncWrongNotesFromFirestore();
+    } catch (e) {
+      console.error('Firestore sync error:', e);
+    }
+  }
+
+  async function syncToFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      const store = vocabStore();
+      await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('data').doc('vocab').set(store);
+    } catch (e) {
+      console.error('Firestore save error:', e);
+    }
+  }
+
+  function showMigrateDialog(localStore) {
+    const count = localStore.words.length + localStore.completed.length;
+    const overlay = document.createElement('div');
+    overlay.className = 'migrate-overlay';
+    overlay.innerHTML = `
+      <div class="migrate-dialog">
+        <p><span class="badge">${count}개</span></p>
+        <p>기존 단어장 데이터를 계정에 가져올까요?</p>
+        <div class="migrate-actions">
+          <button class="migrate-yes">가져오기</button>
+          <button class="migrate-no">건너뛰기</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+
+    overlay.querySelector('.migrate-yes').onclick = async () => {
+      overlay.remove();
+      await syncToFirestore();
+    };
+    overlay.querySelector('.migrate-no').onclick = () => {
+      overlay.remove();
+    };
+  }
+
+  async function saveTestResultToFirestore(result) {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('testResults').add({
+          ...result,
+          date: firebase.firestore.FieldValue.serverTimestamp()
+        });
+    } catch (e) {
+      console.error('Firestore test result save error:', e);
+    }
+  }
+
+  async function syncTestResultsFromFirestore() {
+    if (!firebaseUser || !firestoreDb) return;
+    try {
+      const snap = await firestoreDb.collection('users').doc(firebaseUser.uid)
+        .collection('testResults').orderBy('date', 'desc').limit(100).get();
+      if (snap.empty) return;
+      const results = [];
+      snap.forEach(doc => {
+        const data = doc.data();
+        results.push({
+          ...data,
+          id: doc.id,
+          date: data.date?.toDate?.()?.toISOString() || new Date().toISOString()
+        });
+      });
+      testResultsSave(results);
+    } catch (e) {
+      console.error('Firestore test results sync error:', e);
+    }
+  }
+
+  /* ── Bootstrap ── */
+
+  async function init() {
+    initFirebase();
+    setupPopupListeners();
+    setupVocabTabs();
+    setupMyVocabPage();
+    setupAuthListeners();
+    setupLoginScreen();
+
+    // If Firebase is ready, wait for auth state (login screen handles flow)
+    // If Firebase is not configured, skip login and load normally
+    if (!firebaseReady) {
+      await loadAppData();
+    }
+  }
+
+  function setupLoginScreen() {
+    const loginBtn = $('#btn-login-main');
+    if (loginBtn) {
+      loginBtn.addEventListener('click', () => {
+        if (!firebaseReady) return;
+        hide(loginBtn);
+        show('#login-loading');
+        authLogin();
+      });
+    }
+  }
+
+  async function loadAppData() {
+    if (firebaseReady && !firebaseUser) return;
+    show('#loading');
+    try {
+      const res = await fetch('index.json');
+      indexData = res.ok ? await res.json() : { levels: {} };
+    } catch { indexData = { levels: {} }; }
+    hide('#loading');
+    route();
+    if (!window._hashListenerAdded) {
+      window.addEventListener('hashchange', route);
+      window._hashListenerAdded = true;
+    }
+  }
+
+  function route() {
+    // Auth guard: must be logged in
+    if (firebaseReady && !firebaseUser) {
+      showLoginScreen();
+      return;
+    }
+
+    const hash = location.hash || '#/';
+
+    // #/test-all/L1 (comprehensive test)
+    if (hash.startsWith('#/test-all/')) {
+      const cat = hash.split('/')[2];
+      startComprehensiveTest(cat);
+      return;
+    }
+
+    // #/test/L1/0001
+    const testMatch = hash.match(/#\/test\/([^/]+)\/(\d{4})/);
+    if (testMatch) {
+      startTest(testMatch[1], testMatch[2]);
+      return;
+    }
+
+    // #/results
+    if (hash === '#/results') {
+      showResultsPage();
+      return;
+    }
+
+    // #/wrong-notes
+    if (hash === '#/wrong-notes') {
+      showWrongNotesPage();
+      return;
+    }
+
+    // #/L1/0001 or #/custom/0001
+    const contentMatch = hash.match(/#\/([^/]+)\/(\d{4})/);
+    if (contentMatch) {
+      loadContent(contentMatch[1], contentMatch[2]);
+      return;
+    }
+    // #/vocabulary
+    if (hash === '#/vocabulary') {
+      showVocabularyPage();
+      return;
+    }
+    // Home
+    showHome();
+  }
+
+  /* ── Home ── */
+
+  function showHome() {
+    currentCat = null;
+    currentNum = null;
+    dayData = null;
+    hide('#day-view');
+    hide('#vocabulary-page');
+    hide('#test-page');
+    hide('#results-page');
+    hide('#wrong-notes-page');
+    show('#home');
+    updateHeaderForHome();
+    renderHome();
+  }
+
+  function updateHeaderForHome() {
+    const sel = $('#sel-category');
+    sel.innerHTML = '<option value="">English Reader</option>';
+    Object.keys(indexData.levels || {}).forEach(cat => {
+      const label = cat === 'custom' ? 'Custom' : `Level ${cat.slice(1)}`;
+      sel.innerHTML += `<option value="${cat}">${label}</option>`;
+    });
+    sel.value = '';
+    $('#sel-num').style.display = 'none';
+    $('#btn-prev').disabled = true;
+    $('#btn-next').disabled = true;
+  }
+
+  function renderHome() {
+    const container = $('#home-categories');
+    container.innerHTML = '';
+    const levels = indexData.levels || {};
+    const cats = Object.keys(levels);
+
+    if (cats.length === 0) {
+      show('#empty-msg');
+      return;
+    }
+    hide('#empty-msg');
+
+    cats.forEach(cat => {
+      const label = cat === 'custom' ? 'Custom' : `Level ${cat.slice(1)}`;
+      const entries = levels[cat];
+      const section = document.createElement('div');
+      section.className = 'home-section';
+      section.innerHTML = `<h3 class="home-section-title">${label} <span class="badge">${entries.length}</span></h3>`;
+
+      const list = document.createElement('ul');
+      list.className = 'home-list';
+      [...entries].sort((a, b) => b.num.localeCompare(a.num)).forEach(e => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+          <span class="day-num">#${e.num}</span>
+          <span class="day-title">${e.title} - ${e.author}</span>
+        `;
+        li.addEventListener('click', () => { location.hash = `#/${cat}/${e.num}`; });
+        list.appendChild(li);
+      });
+      section.appendChild(list);
+
+      const compBtn = document.createElement('button');
+      compBtn.className = 'comp-test-btn';
+      compBtn.textContent = '종합 시험';
+      compBtn.addEventListener('click', () => startComprehensiveTest(cat));
+      section.appendChild(compBtn);
+
+      container.appendChild(section);
+    });
+  }
+
+  /* ── Content View ── */
+
+  async function loadContent(cat, num) {
+    currentCat = cat;
+    currentNum = num;
+    hide('#home');
+    hide('#vocabulary-page');
+    hide('#test-page');
+    hide('#results-page');
+    hide('#wrong-notes-page');
+    show('#loading');
+
+    const prefix = `${cat}-${num}`;
+    try {
+      const res = await fetch(`days/${prefix}.json`);
+      if (!res.ok) throw new Error('not found');
+      dayData = await res.json();
+    } catch {
+      dayData = null;
+      hide('#loading');
+      showHome();
+      return;
+    }
+
+    hide('#loading');
+    show('#day-view');
+    renderDay();
+    updateHeaderForContent();
+    updateNav();
+  }
+
+  function updateHeaderForContent() {
+    const sel = $('#sel-category');
+    sel.innerHTML = '';
+    Object.keys(indexData.levels || {}).forEach(cat => {
+      const label = cat === 'custom' ? 'Custom' : `Level ${cat.slice(1)}`;
+      sel.innerHTML += `<option value="${cat}">${label}</option>`;
+    });
+    sel.value = currentCat;
+
+    const numSel = $('#sel-num');
+    numSel.style.display = '';
+    populateNumSelect(currentCat);
+    numSel.value = currentNum;
+  }
+
+  function populateNumSelect(cat) {
+    const numSel = $('#sel-num');
+    numSel.innerHTML = '';
+    const entries = (indexData.levels || {})[cat] || [];
+    entries.forEach(e => {
+      numSel.innerHTML += `<option value="${e.num}">#${e.num}</option>`;
+    });
+  }
+
+  function renderDay() {
+    const d = dayData;
+    const catLabel = d.category === 'custom' ? 'Custom' : `Level ${d.category.slice(1)}`;
+
+    $('#source-title').textContent = d.source.title;
+    $('#source-author').textContent = `by ${d.source.author}`;
+    $('#source-level').textContent = `${catLabel} #${d.num}`;
+
+    setupAudio(d);
+    renderPassage(d.passage, d.words);
+
+    grammarVisible = false;
+    hide('#grammar-view');
+    $('#btn-grammar').classList.remove('active');
+    $('#btn-grammar').textContent = 'Show Grammar';
+    renderGrammar(d.grammar);
+
+    hide('#translation-view');
+    $('#btn-translation').classList.remove('active');
+    $('#btn-translation').textContent = 'Show Translation';
+    renderTranslation(d.translation);
+
+    renderVocab(d.keyVocab, d.words, d.audio);
+    renderAllWords(d);
+    renderQuiz(d.quiz);
+
+    // Test CTA
+    const testBtn = $('#btn-start-test');
+    testBtn.onclick = () => {
+      location.hash = `#/test/${currentCat}/${currentNum}`;
+    };
+
+    $('#btn-grammar').onclick = toggleGrammar;
+    $('#btn-translation').onclick = toggleTranslation;
+    $('#btn-answer').onclick = toggleAnswer;
+
+    // Reset vocab tabs to Key Words
+    $$('.vocab-tab').forEach(t => t.classList.remove('active'));
+    $('.vocab-tab[data-tab="key"]').classList.add('active');
+    show('#vocab-key');
+    hide('#vocab-all');
+  }
+
+  /* ── Passage ── */
+
+  function renderPassage(text, words) {
+    const container = $('#passage-text');
+    container.innerHTML = '';
+    let sentIdx = 0;
+    text.split(/(\s+)/).forEach(token => {
+      if (/^\s+$/.test(token)) {
+        container.appendChild(document.createTextNode(token));
+        return;
+      }
+      const match = token.match(/^([^a-zA-Z''\u2019-]*)([a-zA-Z''\u2019-]+)([^a-zA-Z''\u2019-]*)$/);
+      if (match) {
+        if (match[1]) container.appendChild(document.createTextNode(match[1]));
+        const span = document.createElement('span');
+        span.className = 'word';
+        span.textContent = match[2];
+        span.dataset.word = match[2].toLowerCase().replace(/['\u2019']/g, "'");
+        span.dataset.sent = String(sentIdx);
+        span.addEventListener('click', () => {
+          showWordPopup(span.dataset.word, words);
+          highlightSentenceFromWord(parseInt(span.dataset.sent));
+        });
+        container.appendChild(span);
+        if (match[3]) {
+          container.appendChild(document.createTextNode(match[3]));
+          if (/[.!?]/.test(match[3])) sentIdx++;
+        }
+      } else {
+        container.appendChild(document.createTextNode(token));
+        if (/[.!?]$/.test(token)) sentIdx++;
+      }
+    });
+  }
+
+  /* ── Grammar ── */
+
+  function renderGrammar(grammar) {
+    const container = $('#grammar-content');
+    container.innerHTML = '';
+    if (!grammar || !grammar.sentences || grammar.sentences.length === 0) return;
+
+    const legend = document.createElement('div');
+    legend.className = 'grammar-legend';
+    [['subject','Subject'],['verb','Verb'],['object','Object'],['complement','Complement'],['adverbial','Adverbial']]
+      .forEach(([cls, label]) => {
+        legend.innerHTML += `<span class="legend-item"><span class="legend-dot ${cls}"></span>${label}</span>`;
+      });
+    container.appendChild(legend);
+
+    grammar.sentences.forEach(s => {
+      const div = document.createElement('div');
+      div.className = 'grammar-sentence';
+      let html = `<div class="sentence-text">${esc(s.text)}</div><div class="grammar-components">`;
+      const structure = s.structure || {};
+      ['subject','verb','object','complement','adverbial'].forEach(key => {
+        const comp = structure[key];
+        if (!comp) return;
+        const color = `var(--g-${key})`;
+        html += `<span class="grammar-component"><span class="g-text" style="background:${color}22;color:${color};border:1px solid ${color}44">${esc(comp.text)}</span><span class="g-label">${esc(comp.label || key)}</span></span>`;
+      });
+      html += '</div>';
+      if (s.pattern) html += `<div class="grammar-pattern"><span class="pattern-name">${esc(s.pattern.name)}</span> — ${esc(s.pattern.note || '')}</div>`;
+      div.innerHTML = html;
+      container.appendChild(div);
+    });
+  }
+
+  function toggleGrammar() {
+    grammarVisible = !grammarVisible;
+    const btn = $('#btn-grammar');
+    if (grammarVisible) {
+      show('#grammar-view'); btn.classList.add('active'); btn.textContent = 'Hide Grammar';
+      applyGrammarHighlights();
+    } else {
+      hide('#grammar-view'); btn.classList.remove('active'); btn.textContent = 'Show Grammar';
+      removeGrammarHighlights();
+    }
+  }
+
+  function applyGrammarHighlights() {
+    if (!dayData?.grammar?.sentences) return;
+    removeGrammarHighlights();
+    const spans = $$('.word', $('#passage-text'));
+    dayData.grammar.sentences.forEach(s => {
+      Object.entries(s.structure || {}).forEach(([key, comp]) => {
+        if (!comp?.text) return;
+        const cls = `g-${key}`;
+        const words = comp.text.toLowerCase().split(/\s+/).map(w => w.replace(/[^a-z''-]/g, ''));
+        spans.forEach(sp => { if (words.includes(sp.dataset.word)) sp.classList.add(cls); });
+      });
+    });
+  }
+
+  function removeGrammarHighlights() {
+    $$('.word', $('#passage-text')).forEach(sp => {
+      sp.classList.remove('g-subject','g-verb','g-object','g-complement','g-adverbial');
+    });
+  }
+
+  /* ── Translation ── */
+
+  function renderTranslation(translation) {
+    const container = $('#translation-text');
+    container.innerHTML = '';
+    if (!translation) return;
+    const sentences = translation.match(/[^.!?]+[.!?]+\s*/g) || [translation];
+    sentences.forEach((sent, idx) => {
+      const span = document.createElement('span');
+      span.className = 't-sent';
+      span.dataset.sent = String(idx);
+      span.textContent = sent.trim();
+      span.addEventListener('click', () => toggleSentenceHighlight(idx));
+      container.appendChild(span);
+      if (idx < sentences.length - 1) container.appendChild(document.createTextNode(' '));
+    });
+  }
+
+  function toggleTranslation() {
+    const view = $('#translation-view');
+    const btn = $('#btn-translation');
+    if (view.classList.contains('hidden')) {
+      show('#translation-view'); btn.classList.add('active'); btn.textContent = 'Hide Translation';
+    } else {
+      hide('#translation-view'); btn.classList.remove('active'); btn.textContent = 'Show Translation';
+      clearSentenceHighlight();
+    }
+  }
+
+  function toggleSentenceHighlight(sentIdx) {
+    const popup = $('#sent-popup');
+    if (!popup.classList.contains('hidden') && popup.dataset.sent === String(sentIdx)) {
+      hideSentencePopup(); return;
+    }
+    clearSentenceHighlight();
+    $$('.word', $('#passage-text')).forEach(sp => {
+      if (parseInt(sp.dataset.sent) === sentIdx) sp.classList.add('sent-highlight');
+    });
+    const tSent = $(`.t-sent[data-sent="${sentIdx}"]`, $('#translation-text'));
+    if (tSent) tSent.classList.add('active');
+    showSentencePopup(sentIdx);
+  }
+
+  function highlightSentenceFromWord(sentIdx) {
+    clearSentenceHighlight();
+    $$('.word', $('#passage-text')).forEach(s => {
+      if (parseInt(s.dataset.sent) === sentIdx) s.classList.add('sent-highlight');
+    });
+    if (!$('#translation-view').classList.contains('hidden')) {
+      const tSent = $(`.t-sent[data-sent="${sentIdx}"]`, $('#translation-text'));
+      if (tSent) { tSent.classList.add('active'); tSent.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+    }
+  }
+
+  /* ── Sentence Popup ── */
+
+  function showSentencePopup(sentIdx) {
+    const popup = $('#sent-popup');
+    popup.dataset.sent = String(sentIdx);
+
+    const enSentences = dayData.passage.match(/[^.!?]*[.!?]+/g) || [dayData.passage];
+    const koSentences = (dayData.translation || '').match(/[^.!?]+[.!?]+\s*/g) || [];
+    $('#sent-en').textContent = (enSentences[sentIdx] || '').trim();
+    $('#sent-ko').textContent = (koSentences[sentIdx] || '').trim();
+    $('#sent-play-btn').onclick = () => speakSentence((enSentences[sentIdx] || '').trim());
+
+    const wordList = $('#sent-word-list');
+    wordList.innerHTML = '';
+    const wordSpans = $$('.word', $('#passage-text')).filter(s => parseInt(s.dataset.sent) === sentIdx);
+    const seen = new Set();
+    wordSpans.forEach(s => {
+      const w = s.dataset.word;
+      if (seen.has(w)) return;
+      seen.add(w);
+      const info = dayData.words[w] || {};
+      const primary = (info.meanings || []).find(m => m.primary) || (info.meanings || [])[0] || {};
+      const row = document.createElement('div');
+      row.className = 'sent-word-row';
+      row.innerHTML = `<span class="sent-word-en">${esc(w)}</span><span class="sent-word-pos">${esc(info.pos || '')}</span><span class="sent-word-ko">${esc(primary.ko || '')}</span>`;
+      row.addEventListener('click', () => {
+        pendingSentIdx = sentIdx;
+        hideSentencePopupQuiet();
+        setTimeout(() => showWordPopup(w, dayData.words), 100);
+      });
+      wordList.appendChild(row);
+    });
+
+    // Grammar
+    const gMatch = dayData?.grammar?.sentences?.[sentIdx];
+    const grammarEl = $('#sent-grammar');
+    grammarEl.innerHTML = '';
+    if (gMatch) {
+      show('#sent-grammar-section');
+      let html = '';
+      if (gMatch.pattern) html += `<div class="sent-grammar-pattern"><span class="pattern-name">${esc(gMatch.pattern.name)}</span> — ${esc(gMatch.pattern.note || '')}</div>`;
+      ['subject','verb','object','complement','adverbial'].forEach(key => {
+        const comp = (gMatch.structure || {})[key];
+        if (!comp) return;
+        html += `<div class="sent-grammar-comp"><span class="sgc-label ${key}">${esc(comp.label || key)}</span><span class="sgc-text">${esc(comp.text)}</span></div>`;
+      });
+      if (gMatch.explanation) html += `<div class="sent-grammar-explain">${esc(gMatch.explanation)}</div>`;
+      if (gMatch.grammarPoints?.length) {
+        html += '<div class="sent-grammar-points">';
+        gMatch.grammarPoints.forEach(pt => { html += `<span class="grammar-point-tag">${esc(pt)}</span>`; });
+        html += '</div>';
+      }
+      if (gMatch.examples?.length) {
+        html += '<div class="sent-grammar-examples"><div class="sent-section-label">Examples</div>';
+        gMatch.examples.forEach(ex => { html += `<div class="grammar-example"><div class="ex-en">${esc(ex.en)}</div><div class="ex-ko">${esc(ex.ko)}</div></div>`; });
+        html += '</div>';
+      }
+      grammarEl.innerHTML = html;
+    } else {
+      hide('#sent-grammar-section');
+    }
+
+    show('#sent-overlay');
+    show('#sent-popup');
+    requestAnimationFrame(() => popup.classList.add('show'));
+  }
+
+  function hideSentencePopup() {
+    pendingSentIdx = null;
+    hideSentencePopupQuiet();
+    clearSentenceHighlight();
+  }
+
+  function hideSentencePopupQuiet() {
+    const popup = $('#sent-popup');
+    popup.classList.remove('show');
+    setTimeout(() => { hide('#sent-popup'); hide('#sent-overlay'); }, 300);
+  }
+
+  function clearSentenceHighlight() {
+    $$('.word.sent-highlight', $('#passage-text')).forEach(s => s.classList.remove('sent-highlight'));
+    $$('.t-sent.active', $('#translation-text')).forEach(s => s.classList.remove('active'));
+  }
+
+  /* ── Audio ── */
+
+  function setupAudio(d) {
+    if (audio) { audio.pause(); audio = null; }
+    if (!d.audio?.passage) { hide('#audio-player'); return; }
+    show('#audio-player');
+    audio = new Audio(d.audio.passage);
+    audio.preload = 'metadata';
+    const playBtn = $('#btn-play');
+    const progressEl = $('#audio-progress');
+    const timeEl = $('#audio-time');
+    playBtn.innerHTML = '&#9654;';
+    playBtn.onclick = () => {
+      if (audio.paused) { audio.play(); playBtn.innerHTML = '&#10074;&#10074;'; }
+      else { audio.pause(); playBtn.innerHTML = '&#9654;'; }
+    };
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) { progressEl.value = (audio.currentTime / audio.duration) * 100; timeEl.textContent = fmtTime(audio.currentTime); }
+    });
+    audio.addEventListener('ended', () => { playBtn.innerHTML = '&#9654;'; progressEl.value = 0; });
+    progressEl.addEventListener('input', () => { if (audio.duration) audio.currentTime = (progressEl.value / 100) * audio.duration; });
+    $$('.speed-btn').forEach(btn => {
+      btn.classList.remove('active');
+      if (parseFloat(btn.dataset.speed) === 1) btn.classList.add('active');
+      btn.onclick = () => {
+        audio.playbackRate = parseFloat(btn.dataset.speed);
+        $$('.speed-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      };
+    });
+  }
+
+  /* ── Key Vocab ── */
+
+  function renderVocab(keyVocab, words, audioData) {
+    const container = $('#vocab-list');
+    container.innerHTML = '';
+    if (!keyVocab?.length) return;
+    keyVocab.forEach(word => {
+      const info = words[word.toLowerCase()] || words[word] || {};
+      const primary = (info.meanings || []).find(m => m.primary) || (info.meanings || [])[0] || {};
+      const div = document.createElement('div');
+      div.className = 'vocab-item';
+      div.innerHTML = `<div><div class="vocab-word">${esc(word)}</div><div class="vocab-ipa">${esc(info.ipa || '')}</div></div><div class="vocab-meaning">${esc(primary.ko || '')}</div>`;
+      div.addEventListener('click', () => showWordPopup(word.toLowerCase(), words));
+      container.appendChild(div);
+    });
+  }
+
+  /* ── All Words ── */
+
+  function renderAllWords(d) {
+    const container = $('#vocab-all-list');
+    container.innerHTML = '';
+    if (!d?.words) return;
+
+    const passageWords = d.passage.toLowerCase().replace(/[^a-z'\s-]/g, '').split(/\s+/);
+    const sortMode = $('.vsort-btn.active')?.dataset.sort || 'appear';
+    const filterMode = $('.vfilter-btn.active')?.dataset.filter || 'all';
+
+    let entries = Object.entries(d.words);
+
+    // Filter
+    if (filterMode !== 'all') {
+      entries = entries.filter(([, info]) => {
+        const pos = (info.pos || '').toLowerCase();
+        if (filterMode === 'noun') return pos.includes('noun');
+        if (filterMode === 'verb') return pos.includes('verb');
+        if (filterMode === 'adj') return pos.includes('adj');
+        return !pos.includes('noun') && !pos.includes('verb') && !pos.includes('adj');
+      });
+    }
+
+    // Sort
+    if (sortMode === 'alpha') {
+      entries.sort((a, b) => a[0].localeCompare(b[0]));
+    } else if (sortMode === 'pos') {
+      entries.sort((a, b) => ((a[1].pos || '').localeCompare(b[1].pos || '')) || a[0].localeCompare(b[0]));
+    } else {
+      // appear order
+      entries.sort((a, b) => {
+        const ia = passageWords.indexOf(a[0]);
+        const ib = passageWords.indexOf(b[0]);
+        return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+      });
+    }
+
+    entries.forEach(([word, info]) => {
+      const primary = (info.meanings || []).find(m => m.primary) || (info.meanings || [])[0] || {};
+      const div = document.createElement('div');
+      div.className = 'vocab-item';
+      div.innerHTML = `
+        <div><div class="vocab-word">${esc(word)}</div><div class="vocab-ipa">${esc(info.ipa || '')}</div></div>
+        <div class="vocab-pos-badge">${esc((info.pos || '').split(' ')[0])}</div>
+        <div class="vocab-meaning">${esc(primary.ko || '')}</div>`;
+      div.addEventListener('click', () => showWordPopup(word, d.words));
+      container.appendChild(div);
+    });
+  }
+
+  function setupVocabTabs() {
+    $$('.vocab-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        $$('.vocab-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        if (tab.dataset.tab === 'key') { show('#vocab-key'); hide('#vocab-all'); }
+        else { hide('#vocab-key'); show('#vocab-all'); if (dayData) renderAllWords(dayData); }
+      });
+    });
+
+    // Sort/filter buttons
+    document.addEventListener('click', e => {
+      if (e.target.classList.contains('vsort-btn')) {
+        $$('.vsort-btn').forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        if (dayData) renderAllWords(dayData);
+      }
+      if (e.target.classList.contains('vfilter-btn')) {
+        $$('.vfilter-btn').forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        if (dayData) renderAllWords(dayData);
+      }
+    });
+  }
+
+  /* ── Quiz (basic reading quiz) ── */
+
+  function renderQuiz(quiz) {
+    if (!quiz?.question) { hide('#quiz-section'); return; }
+    show('#quiz-section');
+    $('#quiz-question').textContent = quiz.question;
+    $('#quiz-answer').textContent = quiz.answer || '';
+    hide('#quiz-answer');
+    $('#btn-answer').classList.remove('active');
+    $('#btn-answer').textContent = 'Show Answer';
+  }
+
+  function toggleAnswer() {
+    const el = $('#quiz-answer');
+    const btn = $('#btn-answer');
+    if (el.classList.contains('hidden')) { show('#quiz-answer'); btn.classList.add('active'); btn.textContent = 'Hide Answer'; }
+    else { hide('#quiz-answer'); btn.classList.remove('active'); btn.textContent = 'Show Answer'; }
+  }
+
+  /* ══════════════════════════════════════════════
+     ██ QUIZ GENERATION & TEST SYSTEM
+     ══════════════════════════════════════════════ */
+
+  function shuffleArray(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function generateQuiz(data) {
+    if (!data) return [];
+    const words = data.words || {};
+    const keyVocab = data.keyVocab || [];
+    const grammar = data.grammar || {};
+
+    // Split keyVocab between spelling and listening
+    const shuffledKey = shuffleArray([...keyVocab]);
+    const half = Math.ceil(shuffledKey.length / 2);
+    const spellingWords = shuffledKey.slice(0, half);
+    const listeningWords = shuffledKey.slice(half);
+
+    let qs = [
+      ...generateSpellingQ(words, spellingWords),
+      ...generateListeningQ(words, listeningWords),
+      ...generateMeaningQ(words, keyVocab),
+      ...generateGrammarQ(grammar, words)
+    ];
+
+    // Wrong-note prioritization for normal tests
+    if (testMode === 'normal' && data.category && data.num) {
+      const lessonId = `${data.category}-${data.num}`;
+      const notes = wrongNotesStore();
+      const lessonNotes = notes.filter(n => n.lessonId === lessonId);
+
+      if (lessonNotes.length > 0) {
+        const wrongAnswers = new Set(lessonNotes.map(n => n.answer.toLowerCase()));
+        const prioritized = [];
+        const rest = [];
+
+        qs.forEach(q => {
+          if (wrongAnswers.has(q.answer.toLowerCase())) {
+            prioritized.push(q);
+          } else {
+            rest.push(q);
+          }
+        });
+
+        qs = [...shuffleArray(prioritized), ...shuffleArray(rest)];
+      } else {
+        qs = shuffleArray(qs);
+      }
+    } else {
+      qs = shuffleArray(qs);
+    }
+
+    return qs;
+  }
+
+  function generateSpellingQ(words, keyVocab) {
+    if (!keyVocab?.length || !words) return [];
+    const qs = [];
+
+    keyVocab.forEach(word => {
+      const wordKey = word.toLowerCase().replace(/['\u2019']/g, "'");
+      const info = words[wordKey] || words[word] || {};
+      const primary = (info.meanings || []).find(m => m.primary) || (info.meanings || [])[0];
+      if (!primary?.ko) return;
+
+      qs.push({
+        type: 'spelling',
+        question: primary.ko,
+        pos: info.pos || '',
+        hint: wordKey[0] + '_'.repeat(Math.max(0, wordKey.length - 1)),
+        answer: wordKey,
+        ipa: info.ipa || '',
+        hintText: `발음: ${info.ipa || '?'} · ${wordKey.length}글자`
+      });
+    });
+
+    return qs;
+  }
+
   function generateListeningQ(words, keyVocab) {
     if (!keyVocab?.length || !words) return [];
     const qs = [];

@@ -525,6 +525,7 @@
     $('#sel-num').style.display = 'none';
     $('#btn-prev').disabled = true;
     $('#btn-next').disabled = true;
+    hide('#btn-home');
   }
 
   function renderHome() {
@@ -601,6 +602,7 @@
   }
 
   function updateHeaderForContent() {
+    show('#btn-home');
     const sel = $('#sel-category');
     sel.innerHTML = '';
     Object.keys(indexData.levels || {}).forEach(cat => {
@@ -1358,6 +1360,7 @@
     testAnswered = false;
 
     // Update header
+    show('#btn-home');
     const sel = $('#sel-category');
     sel.innerHTML = `<option value="">Test</option>`;
     sel.value = '';
@@ -1429,6 +1432,7 @@
     testAnswered = false;
 
     // Update header
+    show('#btn-home');
     const sel = $('#sel-category');
     sel.innerHTML = `<option value="">종합 시험</option>`;
     sel.value = '';
@@ -1818,6 +1822,17 @@
       } else if (testMode === 'comprehensive') {
         location.hash = '#/';
       } else {
+        location.hash = `#/test/${testCat}/${testNum}`;
+      }
+    };
+
+    // Back button
+    $('#btn-test-back').onclick = () => {
+      if (testMode === 'review') {
+        location.hash = '#/wrong-notes';
+      } else if (testMode === 'comprehensive') {
+        location.hash = '#/';
+      } else {
         location.hash = `#/${testCat}/${testNum}`;
       }
     };
@@ -2049,6 +2064,9 @@
       if (currentCat) location.hash = `#/${currentCat}/${e.target.value}`;
     });
 
+    // Home button
+    $('#btn-home').addEventListener('click', () => { location.hash = '#/'; });
+
     // My Vocabulary button
     $('#btn-vocab').addEventListener('click', () => { location.hash = '#/vocabulary'; });
 
@@ -2151,6 +2169,7 @@
     hide('#results-page');
     hide('#wrong-notes-page');
     show('#vocabulary-page');
+    show('#btn-home');
 
     const sel = $('#sel-category');
     sel.innerHTML = '<option value="">My Vocabulary</option>';
@@ -2246,6 +2265,7 @@
     hide('#test-page');
     hide('#wrong-notes-page');
     show('#results-page');
+    show('#btn-home');
 
     const sel = $('#sel-category');
     sel.innerHTML = '<option value="">시험 이력</option>';
@@ -2340,6 +2360,7 @@
     hide('#test-page');
     hide('#results-page');
     show('#wrong-notes-page');
+    show('#btn-home');
 
     const sel = $('#sel-category');
     sel.innerHTML = '<option value="">오답노트</option>';
@@ -2503,6 +2524,7 @@
     testAnswered = false;
 
     // Update header
+    show('#btn-home');
     const sel = $('#sel-category');
     sel.innerHTML = '<option value="">오답노트 복습</option>';
     sel.value = '';

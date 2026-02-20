@@ -1218,7 +1218,7 @@
         exampleSentence = (ex.en || '').replace(regex, '___');
       }
 
-      const meaningHint = `"${correctAnswer.charAt(0)}" 으로 시작 · ${correctAnswer.length}글자`;
+      const meaningHint = primary.en ? `영어 뜻: ${primary.en}` : `${(info.pos || '').split(' ')[0] || '?'}`;
       qs.push({
         type: 'meaning',
         question: word,

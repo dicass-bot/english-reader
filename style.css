@@ -86,6 +86,15 @@ header {
 .day-title { color: var(--subtext1); font-size: 0.8rem; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 #empty-msg { text-align: center; color: var(--overlay0); padding: 3rem; }
 
+/* Comprehensive test button */
+.comp-test-btn {
+  display: block; width: 100%; padding: 0.55rem;
+  background: var(--surface0); color: var(--peach); border: 1px solid var(--peach);
+  border-radius: 0.5rem; font-size: 0.85rem; font-weight: 600;
+  cursor: pointer; transition: all 0.2s; margin-bottom: 0.5rem; text-align: center;
+}
+.comp-test-btn:hover { background: var(--peach); color: var(--crust); }
+
 /* Cards */
 .card { background: var(--surface0); border-radius: 0.75rem; padding: 1rem; margin-bottom: 0.75rem; }
 .section-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--overlay1); margin-bottom: 0.5rem; font-weight: 600; }
@@ -361,6 +370,14 @@ header {
 }
 .cc-undo-btn:active { background: var(--surface1); }
 
+/* Vocab reset */
+.vocab-reset-btn {
+  display: block; width: 100%; margin-top: 1.5rem; padding: 0.6rem;
+  background: none; color: var(--overlay1); border: 1px solid var(--surface1);
+  border-radius: 0.5rem; font-size: 0.8rem; cursor: pointer; transition: all 0.2s;
+}
+.vocab-reset-btn:hover { color: var(--red); border-color: var(--red); }
+
 /* Responsive desktop */
 @media (min-width: 768px) {
   .popup {
@@ -426,6 +443,18 @@ header {
 .test-type-badge.spelling { background: rgba(137,180,250,0.15); color: var(--blue); }
 .test-type-badge.meaning { background: rgba(166,227,161,0.15); color: var(--green); }
 .test-type-badge.grammar { background: rgba(203,166,247,0.15); color: var(--mauve); }
+.test-type-badge.listening { background: rgba(250,179,135,0.15); color: var(--peach); }
+
+/* Listening question */
+.test-listen-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 5rem; height: 5rem; margin: 1rem auto;
+  background: var(--surface1); border: 2px solid var(--peach);
+  border-radius: 50%; font-size: 2.5rem; color: var(--peach);
+  cursor: pointer; transition: all 0.2s;
+}
+.test-listen-btn:hover { background: var(--surface2); transform: scale(1.05); }
+.test-listen-btn:active { transform: scale(0.95); }
 
 .test-q-main { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text); line-height: 1.6; }
 .test-q-sub { font-size: 0.85rem; color: var(--subtext0); margin-bottom: 0.75rem; }
@@ -609,16 +638,20 @@ header {
 .wn-type.spelling { background: rgba(137,180,250,0.15); color: var(--blue); }
 .wn-type.meaning { background: rgba(166,227,161,0.15); color: var(--green); }
 .wn-type.grammar { background: rgba(203,166,247,0.15); color: var(--mauve); }
-.wn-question { font-size: 0.85rem; color: var(--text); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.wn-count { font-size: 0.65rem; color: var(--red); font-weight: 700; flex-shrink: 0; }
-.wn-card-body { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.2rem; }
-.wn-card-footer { display: flex; align-items: center; gap: 0.5rem; font-size: 0.7rem; color: var(--overlay1); }
-.wn-answer { color: var(--green); font-weight: 500; font-size: 0.8rem; }
-.wn-lesson { margin-left: auto; font-size: 0.65rem; }
-.wn-date { font-size: 0.65rem; }
-.wn-delete-btn {
-  background: none; border: none; color: var(--overlay1); cursor: pointer;
-  font-size: 0.75rem; padding: 0.1rem 0.3rem; margin-left: auto;
-  border-radius: 0.2rem; transition: color 0.15s, background 0.15s;
+.wn-expand-icon { font-size: 0.6rem; color: var(--overlay0); transition: transform 0.2s; margin-left: auto; }
+.wn-detail {
+  margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid var(--surface1);
+  font-size: 0.8rem; color: var(--subtext1);
 }
-.wn-delete-btn:hover { color: var(--red); background: rgba(243,139,168,0.1); }
+.wn-detail-row { display: flex; gap: 0.5rem; padding: 0.2rem 0; align-items: flex-start; }
+.wn-detail-label { font-size: 0.7rem; color: var(--overlay1); min-width: 2.5rem; font-weight: 600; flex-shrink: 0; }
+.wn-detail-example { font-style: italic; color: var(--subtext0); }
+.wn-speak-btn {
+  display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.4rem;
+  background: var(--surface1); color: var(--blue); border: none;
+  padding: 0.3rem 0.6rem; border-radius: 0.3rem; font-size: 0.75rem;
+  cursor: pointer; transition: background 0.15s;
+}
+.wn-speak-btn:hover { background: var(--surface2); }
+.wn-card { cursor: pointer; transition: background 0.15s; }
+.wn-card:hover { background: var(--surface1); }

@@ -175,30 +175,36 @@
       firestoreDb = firebase.firestore();
       firebaseReady = true;
 
-      firebase.auth().getRedirectResult().catch(e => {
-        console.error('Redirect login error:', e);
-        // Restore login button if redirect failed
-        show('#btn-login-main');
-        hide('#login-loading');
-      });
-
-      firebase.auth().onAuthStateChanged(async user => {
-        firebaseUser = user;
-        updateAuthUI();
-        if (user) {
-          // Logged in — hide login screen, load app
-          hideLoginScreen();
-          if (!indexData) await loadAppData();
-          saveUserProfile(user);
-          syncFromFirestore();
-        } else {
-          // Not logged in — show login screen
-          showLoginScreen();
-        }
-      });
+      // Wait for redirect result to settle BEFORE registering auth listener.
+      // This prevents onAuthStateChanged(null) firing prematurely during redirect flow.
+      firebase.auth().getRedirectResult()
+        .then(() => {
+          setupAuthListener();
+        })
+        .catch(e => {
+          console.error('Redirect login error:', e);
+          show('#btn-login-main');
+          hide('#login-loading');
+          setupAuthListener();
+        });
     } catch (e) {
       console.error('Firebase init error:', e);
     }
+  }
+
+  function setupAuthListener() {
+    firebase.auth().onAuthStateChanged(async user => {
+      firebaseUser = user;
+      updateAuthUI();
+      if (user) {
+        hideLoginScreen();
+        if (!indexData) await loadAppData();
+        saveUserProfile(user);
+        syncFromFirestore();
+      } else {
+        showLoginScreen();
+      }
+    });
   }
 
   function showLoginScreen() {
@@ -222,7 +228,18 @@
   function authLogin() {
     if (!firebaseReady) return;
     const provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth().signInWithRedirect(provider);
+    // Try popup first, fall back to redirect if blocked
+    firebase.auth().signInWithPopup(provider).catch(error => {
+      if (error.code === 'auth/popup-blocked' ||
+          error.code === 'auth/popup-closed-by-user' ||
+          error.code === 'auth/cancelled-popup-request') {
+        firebase.auth().signInWithRedirect(provider);
+      } else {
+        console.error('Login error:', error);
+        show('#btn-login-main');
+        hide('#login-loading');
+      }
+    });
   }
 
   function authLogout() {

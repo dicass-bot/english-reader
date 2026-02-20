@@ -208,6 +208,7 @@
   }
 
   function showLoginScreen() {
+    console.log('[ER] showLoginScreen called');
     show('#btn-login-main');
     hide('#login-loading');
     const screen = $('#login-screen');
@@ -407,12 +408,19 @@
   /* ── Bootstrap ── */
 
   async function init() {
-    initFirebase();
-    setupPopupListeners();
-    setupVocabTabs();
-    setupMyVocabPage();
-    setupAuthListeners();
-    setupLoginScreen();
+    console.log('[ER] init start v29');
+    try {
+      initFirebase();
+      console.log('[ER] firebaseReady:', firebaseReady);
+      setupPopupListeners();
+      setupVocabTabs();
+      setupMyVocabPage();
+      setupAuthListeners();
+      setupLoginScreen();
+      console.log('[ER] all setup done');
+    } catch (e) {
+      console.error('[ER] init error:', e);
+    }
 
     // If Firebase is ready, wait for auth state (login screen handles flow)
     // If Firebase is not configured, skip login and load normally
@@ -423,8 +431,10 @@
 
   function setupLoginScreen() {
     const loginBtn = $('#btn-login-main');
+    console.log('[ER] setupLoginScreen, btn:', !!loginBtn, 'firebaseReady:', firebaseReady);
     if (loginBtn) {
       loginBtn.addEventListener('click', () => {
+        console.log('[ER] login btn clicked, firebaseReady:', firebaseReady);
         if (!firebaseReady) return;
         hide(loginBtn);
         show('#login-loading');
